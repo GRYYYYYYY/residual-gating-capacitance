@@ -1,0 +1,19 @@
+\small
+\begin{tabular}{llrrr}\toprule
+Platform & Method & Cap.\ NRMSE & Max $|\Delta$WS| (ns) & Max $|\Delta$TNS| (ns) \\\midrule
+asap7 & Linear & 0.0192 & 0.01083 & 0.03004 \\
+asap7 & Anchor (ours) & 0.0192 & 0.01083 & 0.03004 \\
+asap7 & \textbf{Residual gating (ours)} & 0.0025 & 0.0009348 & 0.005607 \\
+\addlinespace
+gf180 & Linear & 0.0113 & 0.1328 & 168.6 \\
+gf180 & Anchor (ours) & 0.0113 & 0.1328 & 168.6 \\
+gf180 & \textbf{Residual gating (ours)} & 0.0036 & 0.03701 & 50.22 \\
+\addlinespace
+ihp-sg13g2 & Linear & 0.0197 & 0.04597 & 0 \\
+ihp-sg13g2 & Anchor (ours) & 0.0197 & 0.04597 & 0 \\
+ihp-sg13g2 & \textbf{Residual gating (ours)} & 0.0016 & 0.004394 & 0 \\
+\addlinespace
+sky130hs & Linear & 0.0106 & 0.01598 & 3.592 \\
+sky130hs & Anchor (ours) & 0.0106 & 0.01598 & 3.592 \\
+sky130hs & \textbf{Residual gating (ours)} & 0.0014 & 0.003031 & 0.7839 \\
+\bottomrule\end{tabular}

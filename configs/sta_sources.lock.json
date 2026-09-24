@@ -1,0 +1,66 @@
+{
+  "orfs_commit": "19480a228f583dcb2fc8f4bd6427dbab5253bc70",
+  "openroad_commit": "0b54bb3203e0895f87940ff982358a6e4d406e28",
+  "files": [
+    {
+      "path": "platforms/asap7/lib/NLDM/asap7sc7p5t_AO_RVT_FF_nldm_211120.lib.gz",
+      "sha256": "9e3848d247f9bbc8d405ee55617af98797b6d5be9a1af02988ec5d59ca9dad99",
+      "url": "https://raw.githubusercontent.com/The-OpenROAD-Project/OpenROAD-flow-scripts/19480a228f583dcb2fc8f4bd6427dbab5253bc70/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_AO_RVT_FF_nldm_211120.lib.gz"
+    },
+    {
+      "path": "platforms/asap7/lib/NLDM/asap7sc7p5t_INVBUF_RVT_FF_nldm_220122.lib.gz",
+      "sha256": "e0c65688e6067ee485b0693651298636ae9ef5a0512154bcd4b7c4914d1a0ac6",
+      "url": "https://raw.githubusercontent.com/The-OpenROAD-Project/OpenROAD-flow-scripts/19480a228f583dcb2fc8f4bd6427dbab5253bc70/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_INVBUF_RVT_FF_nldm_220122.lib.gz"
+    },
+    {
+      "path": "platforms/asap7/lib/NLDM/asap7sc7p5t_OA_RVT_FF_nldm_211120.lib.gz",
+      "sha256": "cc9651e9235bcd29bba0737b7ba7a8afddde7462df3ff48d3870c22d05c86fb3",
+      "url": "https://raw.githubusercontent.com/The-OpenROAD-Project/OpenROAD-flow-scripts/19480a228f583dcb2fc8f4bd6427dbab5253bc70/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_OA_RVT_FF_nldm_211120.lib.gz"
+    },
+    {
+      "path": "platforms/asap7/lib/NLDM/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz",
+      "sha256": "0c93d44fcc6a30182d71031997771ea3fc0d09235201e9252f71daf48a1c7a38",
+      "url": "https://raw.githubusercontent.com/The-OpenROAD-Project/OpenROAD-flow-scripts/19480a228f583dcb2fc8f4bd6427dbab5253bc70/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz"
+    },
+    {
+      "path": "platforms/asap7/lib/NLDM/asap7sc7p5t_SEQ_RVT_FF_nldm_220123.lib",
+      "sha256": "d9b6e75c8720cdd450cff15178528502cc8df34c5ab6b0ffb53fc99d664b5302",
+      "url": "https://raw.githubusercontent.com/The-OpenROAD-Project/OpenROAD-flow-scripts/19480a228f583dcb2fc8f4bd6427dbab5253bc70/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SEQ_RVT_FF_nldm_220123.lib"
+    },
+    {
+      "path": "platforms/asap7/setRC.tcl",
+      "sha256": "ce6e29fe23b648839009c53035901066653d5850f9419ba85169c715b2cebd14",
+      "url": "https://raw.githubusercontent.com/The-OpenROAD-Project/OpenROAD-flow-scripts/19480a228f583dcb2fc8f4bd6427dbab5253bc70/flow/platforms/asap7/setRC.tcl"
+    },
+    {
+      "path": "platforms/gf180/lib/gf180mcu_fd_sc_mcu9t5v0__tt_025C_5v00.lib.gz",
+      "sha256": "75de8f18d2ecc8564a8ff73e48f1507cb184fd0915ba15f4ff72785cbeb243d2",
+      "url": "https://raw.githubusercontent.com/The-OpenROAD-Project/OpenROAD-flow-scripts/19480a228f583dcb2fc8f4bd6427dbab5253bc70/flow/platforms/gf180/lib/gf180mcu_fd_sc_mcu9t5v0__tt_025C_5v00.lib.gz"
+    },
+    {
+      "path": "platforms/gf180/setRC.tcl",
+      "sha256": "6be67945e3c76ffcb2d8bebd9c17c8996f9d40ce91d8cda2be00605e5ad90539",
+      "url": "https://raw.githubusercontent.com/The-OpenROAD-Project/OpenROAD-flow-scripts/19480a228f583dcb2fc8f4bd6427dbab5253bc70/flow/platforms/gf180/setRC.tcl"
+    },
+    {
+      "path": "platforms/ihp-sg13g2/lib/sg13g2_stdcell_typ_1p20V_25C.lib",
+      "sha256": "968b0cfdcefc49a88d9a5c48874769eaad9aba3509e1240b5e14a821bb07a3c4",
+      "url": "https://raw.githubusercontent.com/The-OpenROAD-Project/OpenROAD-flow-scripts/19480a228f583dcb2fc8f4bd6427dbab5253bc70/flow/platforms/ihp-sg13g2/lib/sg13g2_stdcell_typ_1p20V_25C.lib"
+    },
+    {
+      "path": "platforms/ihp-sg13g2/setRC.tcl",
+      "sha256": "286edf3042ecbbd6c2741d931e7dac5983dbccdff0af9a7e7c2c6bc975fd061a",
+      "url": "https://raw.githubusercontent.com/The-OpenROAD-Project/OpenROAD-flow-scripts/19480a228f583dcb2fc8f4bd6427dbab5253bc70/flow/platforms/ihp-sg13g2/setRC.tcl"
+    },
+    {
+      "path": "platforms/sky130hs/lib/sky130_fd_sc_hs__tt_025C_1v80.lib",
+      "sha256": "0d10dd4e30a628ef692020af757593121eb4b93e69ee2a6f4f16d8630cfe3aeb",
+      "url": "https://raw.githubusercontent.com/The-OpenROAD-Project/OpenROAD-flow-scripts/19480a228f583dcb2fc8f4bd6427dbab5253bc70/flow/platforms/sky130hs/lib/sky130_fd_sc_hs__tt_025C_1v80.lib"
+    },
+    {
+      "path": "platforms/sky130hs/setRC.tcl",
+      "sha256": "4bebdc2b5cbc894ca86f52dc17e16127de2fc75f056a2f7781e718c51c392d8e",
+      "url": "https://raw.githubusercontent.com/The-OpenROAD-Project/OpenROAD-flow-scripts/19480a228f583dcb2fc8f4bd6427dbab5253bc70/flow/platforms/sky130hs/setRC.tcl"
+    }
+  ]
+}

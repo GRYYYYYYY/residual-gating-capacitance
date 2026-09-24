@@ -1,0 +1,22 @@
+\small
+\begin{tabular}{lrrrrrr}\toprule
+&\multicolumn{3}{c}{To ASAP7}&\multicolumn{3}{c}{To FreePDK15} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Method&Random&Block&Extrap.&Random&Block&Extrap. \\
+\multicolumn{7}{c}{\emph{in-table}} \\\midrule
+Anchor (ours) & 0.0205 & 0.1246 & -- & 0.0211 & 0.1325 & -- \\
+CMI-2D & 0.0488 & 0.1473 & -- & 0.0502 & 0.1531 & -- \\
+PCHIP & 0.0384 & 0.0974 & -- & 0.0393 & 0.1020 & -- \\
+OpenRCX-LI & 0.0444 & 0.1554 & -- & 0.0456 & 0.1639 & -- \\
+IDW & 0.1331 & 0.9024 & -- & 0.1344 & 1.0238 & -- \\
+RBF-GP & 0.0113 & 2.5309 & -- & 0.0119 & 3.1520 & -- \\
+\textbf{Residual gating (ours)} & 0.0159 & 0.0531 & -- & 0.0432 & 0.1067 & -- \\
+\midrule\multicolumn{7}{c}{\emph{out-of-table}} \\\midrule
+Anchor (ours) & 0.0595 & 0.6374 & 0.5580 & 0.0616 & 0.6709 & 0.5746 \\
+CMI-2D & 0.1330 & 0.9583 & 0.6297 & 0.1358 & 0.9997 & 0.6510 \\
+PCHIP & 0.2173 & 0.9562 & 0.6574 & 0.2268 & 0.9972 & 0.6807 \\
+OpenRCX-LI & 0.2173 & 0.9562 & 0.6574 & 0.2268 & 0.9972 & 0.6807 \\
+IDW & 3.1647 & 4.7812 & 3.5543 & 4.2995 & 5.6476 & 4.1572 \\
+RBF-GP & 0.8194 & 16.0145 & 15.5718 & 1.2281 & 20.6717 & 19.7798 \\
+\textbf{Residual gating (ours)} & 0.0877 & 0.1358 & 0.1073 & 0.2040 & 0.2151 & 0.1985 \\
+\bottomrule\end{tabular}

@@ -1,0 +1,48 @@
+[
+  {
+    "component": "gf180",
+    "file": "licenses/gf180-Apache-2.0.txt",
+    "source_url": "https://github.com/google/gf180mcu-pdk/blob/main/LICENSE",
+    "git_blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "component": "ihp",
+    "file": "licenses/ihp-Apache-2.0.txt",
+    "source_url": "https://github.com/IHP-GmbH/IHP-Open-PDK/blob/main/LICENSE",
+    "git_blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "component": "sky130",
+    "file": "licenses/sky130-Apache-2.0.txt",
+    "source_url": "https://github.com/google/skywater-pdk/blob/main/LICENSE",
+    "git_blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "component": "asap7",
+    "file": "licenses/asap7-BSD-3-Clause.txt",
+    "source_url": "https://github.com/The-OpenROAD-Project/asap7/blob/main/LICENSE",
+    "git_blob_sha": "d6b4da793b39bcfca9c8645a4714a1b6d0829abf",
+    "sha256": "df0c04b7633a00c037310e9b7ee66d77edeb9c5be23879a3bad449f5bec140f6"
+  },
+  {
+    "component": "ORFS-BSD-3-Clause.txt",
+    "file": "licenses/ORFS-BSD-3-Clause.txt",
+    "source_url": "https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/blob/19480a228f583dcb2fc8f4bd6427dbab5253bc70/LICENSE_BUILD_RUN_SCRIPTS",
+    "sha256": "fae0db7a4c00c3125f037e5818e8cd0c8aa5c67fff2e8c558312068e9f2d1592"
+  },
+  {
+    "component": "AES-license.txt",
+    "file": "licenses/AES-license.txt",
+    "source_url": "https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/blob/19480a228f583dcb2fc8f4bd6427dbab5253bc70/flow/designs/src/aes/LICENSE",
+    "sha256": "628b5468499d9dbe5bfbc6271b854a1112461ca308acae42db173d3b10c09331"
+  },
+  {
+    "component": "Ibex-Apache-2.0.txt",
+    "file": "licenses/Ibex-Apache-2.0.txt",
+    "source_url": "https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/blob/19480a228f583dcb2fc8f4bd6427dbab5253bc70/flow/designs/src/ibex_sv/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "domains": [
+    "public",
+    "reference",
+    "to_asap7",
+    "to_freepdk15"
+  ],
+  "comparison": "exact original vs relocated three-seed predictions; observed points unchanged",
+  "reference": "one maximum-size held-out table per domain, block50, mask seed11"
+}

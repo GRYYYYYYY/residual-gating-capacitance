@@ -1,0 +1,11 @@
+# Versions used to validate this portable release under Python 3.10.
+# Install the CPU torch wheel using the PyTorch CPU index if desired.
+numpy==1.26.4
+scipy==1.14.1
+torch==2.9.0
+matplotlib==3.10.0
+pandas==2.2.3
+# Optional FEM generation:
+# gmsh==4.13.1
+# scikit-fem==11.0.0
+# meshio==5.3.5

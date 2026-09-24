@@ -1,0 +1,831 @@
+{
+  "version": "1.0.0",
+  "datasets": {
+    "public_rules_original": {
+      "kind": "tables",
+      "path": "runs/public_inventory_v1/tables.jsonl",
+      "package": "database-v1.0.0",
+      "role": "original public rules; audit provenance, not the headline training split",
+      "domain": "public_rules",
+      "tables": 1713,
+      "points": 20811,
+      "partitions": {
+        "train": 1116,
+        "val": 256,
+        "test": 341
+      },
+      "processes": {
+        "asap7": 209,
+        "gf180": 1332,
+        "ihp_sg13g2": 102,
+        "sky130": 70
+      },
+      "families": {
+        "DIAGUNDER": 355,
+        "OVER": 593,
+        "OVERUNDER": 393,
+        "UNDER": 372
+      },
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "units": "source_rule_native_per_length",
+      "sha256": "7c861b5499b6f0a1b79ca78ca3f3d650fe43c5989f51fc40fbd5a6b8bfbe5a6e",
+      "derived_view": false,
+      "new_physical_truth": false
+    },
+    "public_rules_holdout": {
+      "kind": "tables",
+      "path": "runs/public_inventory_holdout_v1/tables.jsonl",
+      "package": "database-v1.0.0",
+      "role": "headline public training; 84 downstream tables explicitly held out",
+      "domain": "public_rules",
+      "tables": 1713,
+      "points": 20811,
+      "partitions": {
+        "train": 1061,
+        "val": 247,
+        "test": 321,
+        "holdout": 84
+      },
+      "processes": {
+        "asap7": 209,
+        "gf180": 1332,
+        "ihp_sg13g2": 102,
+        "sky130": 70
+      },
+      "families": {
+        "DIAGUNDER": 355,
+        "OVER": 593,
+        "OVERUNDER": 393,
+        "UNDER": 372
+      },
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "units": "source_rule_native_per_length",
+      "sha256": "37ec17966216b304239692676929637712fe8b99fc2e4d06c0defdacff29d574",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "reference_original": {
+      "kind": "tables",
+      "path": "runs/reference_dataset_v2/tables.jsonl",
+      "package": "database-v1.0.0",
+      "role": "reference-domain training; original 9x17 grid",
+      "domain": "ctf_derived_2d",
+      "tables": 32,
+      "points": 4896,
+      "partitions": {
+        "train": 16,
+        "val": 8,
+        "test": 8
+      },
+      "processes": {
+        "asap7": 16,
+        "freepdk15": 16
+      },
+      "families": {
+        "DIAGUNDER": 8,
+        "OVER": 8,
+        "OVERUNDER": 8,
+        "UNDER": 8
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "86c8cfcedfe30dae73d68497abec7d28c947fb08387344d200f089ae12d2f266",
+      "derived_view": false,
+      "new_physical_truth": true
+    },
+    "reference_round2": {
+      "kind": "tables",
+      "path": "runs/round2_reference_dataset_v1/tables.jsonl",
+      "package": "database-v1.0.0",
+      "role": "historical reference validation/retrospective cohort; keep version identity",
+      "domain": "ctf_derived_2d",
+      "tables": 24,
+      "points": 3672,
+      "partitions": {
+        "val": 8,
+        "confirmation": 16
+      },
+      "processes": {
+        "asap7": 12,
+        "freepdk15": 12
+      },
+      "families": {
+        "DIAGUNDER": 6,
+        "OVER": 6,
+        "OVERUNDER": 6,
+        "UNDER": 6
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "82d016304f80cb415ff7db49da62aa7d81d3ec411c1fb4279956052aff20a526",
+      "derived_view": false,
+      "new_physical_truth": true
+    },
+    "reference_round3": {
+      "kind": "tables",
+      "path": "runs/round3_reference_dataset_v1/tables.jsonl",
+      "package": "database-v1.0.0",
+      "role": "new midpoint 8x16 validation/confirmation/boundary contexts",
+      "domain": "ctf_derived_2d",
+      "tables": 27,
+      "points": 3456,
+      "partitions": {
+        "confirmation": 19,
+        "val": 8
+      },
+      "processes": {
+        "asap7": 14,
+        "freepdk15": 13
+      },
+      "families": {
+        "UNDER": 7,
+        "DIAGUNDER": 6,
+        "OVER": 8,
+        "OVERUNDER": 6
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "bad9a2e973119289f3d165c3f6ada9a36f436233b95bff86e8cf07c0d5278191",
+      "derived_view": false,
+      "new_physical_truth": true
+    },
+    "eval_public_retrospective_original": {
+      "kind": "tables",
+      "path": "runs/round3_evaluation_inputs_v1/public_retrospective_original.jsonl",
+      "package": "database-v1.0.0",
+      "role": "fixed evaluation cohort; never training data",
+      "domain": "public_rules",
+      "tables": 341,
+      "points": 4143,
+      "partitions": {
+        "test": 341
+      },
+      "processes": {
+        "asap7": 41,
+        "gf180": 265,
+        "ihp_sg13g2": 21,
+        "sky130": 14
+      },
+      "families": {
+        "DIAGUNDER": 71,
+        "OVER": 118,
+        "OVERUNDER": 78,
+        "UNDER": 74
+      },
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "units": "source_rule_native_per_length",
+      "sha256": "ce9a93e705a8350081ce757bfe4b86bd020bfa073878a5fc9517b69b62881831",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "eval_reference_boundary_round3_edge": {
+      "kind": "tables",
+      "path": "runs/round3_evaluation_inputs_v1/reference_boundary_round3_edge.jsonl",
+      "package": "database-v1.0.0",
+      "role": "fixed evaluation cohort; never training data",
+      "domain": "ctf_derived_2d",
+      "tables": 3,
+      "points": 384,
+      "partitions": {
+        "confirmation": 3
+      },
+      "processes": {
+        "asap7": 2,
+        "freepdk15": 1
+      },
+      "families": {
+        "UNDER": 1,
+        "OVER": 2
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "f819a981f18fcbac9eb88e0bc7866853c3db2c334ba20b8e5616d7c057471e8c",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "eval_reference_confirmation_round3_main": {
+      "kind": "tables",
+      "path": "runs/round3_evaluation_inputs_v1/reference_confirmation_round3_main.jsonl",
+      "package": "database-v1.0.0",
+      "role": "fixed evaluation cohort; never training data",
+      "domain": "ctf_derived_2d",
+      "tables": 16,
+      "points": 2048,
+      "partitions": {
+        "confirmation": 16
+      },
+      "processes": {
+        "asap7": 8,
+        "freepdk15": 8
+      },
+      "families": {
+        "DIAGUNDER": 4,
+        "OVER": 4,
+        "OVERUNDER": 4,
+        "UNDER": 4
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "917dd138b55a68fa0596e6edc89a99c094ed2fae32d79044e0362472200e7b1b",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "eval_reference_retrospective_original": {
+      "kind": "tables",
+      "path": "runs/round3_evaluation_inputs_v1/reference_retrospective_original.jsonl",
+      "package": "database-v1.0.0",
+      "role": "fixed evaluation cohort; never training data",
+      "domain": "ctf_derived_2d",
+      "tables": 8,
+      "points": 1224,
+      "partitions": {
+        "test": 8
+      },
+      "processes": {
+        "asap7": 4,
+        "freepdk15": 4
+      },
+      "families": {
+        "DIAGUNDER": 2,
+        "OVER": 2,
+        "OVERUNDER": 2,
+        "UNDER": 2
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "0b65f964656f4e863badcc9835429d36c07a24a9fcc39c35976a06be403660c4",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "eval_reference_retrospective_round2": {
+      "kind": "tables",
+      "path": "runs/round3_evaluation_inputs_v1/reference_retrospective_round2.jsonl",
+      "package": "database-v1.0.0",
+      "role": "fixed evaluation cohort; never training data",
+      "domain": "ctf_derived_2d",
+      "tables": 16,
+      "points": 2448,
+      "partitions": {
+        "test": 16
+      },
+      "processes": {
+        "asap7": 8,
+        "freepdk15": 8
+      },
+      "families": {
+        "DIAGUNDER": 4,
+        "OVER": 4,
+        "OVERUNDER": 4,
+        "UNDER": 4
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "73de9a477eb886b35a762a98eaad7a9e010058a95a76fe2b6ef058a6566e14f0",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "eval_to_asap7_boundary_round3_edge": {
+      "kind": "tables",
+      "path": "runs/round3_evaluation_inputs_v1/to_asap7_boundary_round3_edge.jsonl",
+      "package": "database-v1.0.0",
+      "role": "fixed evaluation cohort; never training data",
+      "domain": "ctf_derived_2d",
+      "tables": 2,
+      "points": 256,
+      "partitions": {
+        "confirmation": 2
+      },
+      "processes": {
+        "asap7": 2
+      },
+      "families": {
+        "UNDER": 1,
+        "OVER": 1
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "8d207af875d830c74d99def7644d17b2ff712854ad62b8ad33d66cda320c1f3d",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "eval_to_asap7_confirmation_round3_main": {
+      "kind": "tables",
+      "path": "runs/round3_evaluation_inputs_v1/to_asap7_confirmation_round3_main.jsonl",
+      "package": "database-v1.0.0",
+      "role": "fixed evaluation cohort; never training data",
+      "domain": "ctf_derived_2d",
+      "tables": 8,
+      "points": 1024,
+      "partitions": {
+        "confirmation": 8
+      },
+      "processes": {
+        "asap7": 8
+      },
+      "families": {
+        "DIAGUNDER": 2,
+        "OVER": 2,
+        "OVERUNDER": 2,
+        "UNDER": 2
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "23361b2cb269ad0b77decef6a954bf466f09a88f49604d6b1ff6133556391ecc",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "eval_to_asap7_retrospective_original": {
+      "kind": "tables",
+      "path": "runs/round3_evaluation_inputs_v1/to_asap7_retrospective_original.jsonl",
+      "package": "database-v1.0.0",
+      "role": "fixed evaluation cohort; never training data",
+      "domain": "ctf_derived_2d",
+      "tables": 16,
+      "points": 2448,
+      "partitions": {
+        "test": 16
+      },
+      "processes": {
+        "asap7": 16
+      },
+      "families": {
+        "DIAGUNDER": 4,
+        "OVER": 4,
+        "OVERUNDER": 4,
+        "UNDER": 4
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "cc77287256061cb62bff9572a89ab085c59721fe1d210cff995d533737daaff2",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "eval_to_asap7_retrospective_round2": {
+      "kind": "tables",
+      "path": "runs/round3_evaluation_inputs_v1/to_asap7_retrospective_round2.jsonl",
+      "package": "database-v1.0.0",
+      "role": "fixed evaluation cohort; never training data",
+      "domain": "ctf_derived_2d",
+      "tables": 8,
+      "points": 1224,
+      "partitions": {
+        "test": 8
+      },
+      "processes": {
+        "asap7": 8
+      },
+      "families": {
+        "DIAGUNDER": 2,
+        "OVER": 2,
+        "OVERUNDER": 2,
+        "UNDER": 2
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "cc7356fe505e25bcd8da2d316d35a2e4fb5d89bf27d148196314f5e2b8317c12",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "eval_to_freepdk15_boundary_round3_edge": {
+      "kind": "tables",
+      "path": "runs/round3_evaluation_inputs_v1/to_freepdk15_boundary_round3_edge.jsonl",
+      "package": "database-v1.0.0",
+      "role": "fixed evaluation cohort; never training data",
+      "domain": "ctf_derived_2d",
+      "tables": 1,
+      "points": 128,
+      "partitions": {
+        "confirmation": 1
+      },
+      "processes": {
+        "freepdk15": 1
+      },
+      "families": {
+        "OVER": 1
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "1053651fec9ba9351791d29182fbb67f98df67a918bbe0d28bc7c3824f3c5e11",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "eval_to_freepdk15_confirmation_round3_main": {
+      "kind": "tables",
+      "path": "runs/round3_evaluation_inputs_v1/to_freepdk15_confirmation_round3_main.jsonl",
+      "package": "database-v1.0.0",
+      "role": "fixed evaluation cohort; never training data",
+      "domain": "ctf_derived_2d",
+      "tables": 8,
+      "points": 1024,
+      "partitions": {
+        "confirmation": 8
+      },
+      "processes": {
+        "freepdk15": 8
+      },
+      "families": {
+        "DIAGUNDER": 2,
+        "OVER": 2,
+        "OVERUNDER": 2,
+        "UNDER": 2
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "295c20f75eab6fae0387c22bd0322822789bfd2b6091b8bac000c499ba6fb791",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "eval_to_freepdk15_retrospective_original": {
+      "kind": "tables",
+      "path": "runs/round3_evaluation_inputs_v1/to_freepdk15_retrospective_original.jsonl",
+      "package": "database-v1.0.0",
+      "role": "fixed evaluation cohort; never training data",
+      "domain": "ctf_derived_2d",
+      "tables": 16,
+      "points": 2448,
+      "partitions": {
+        "test": 16
+      },
+      "processes": {
+        "freepdk15": 16
+      },
+      "families": {
+        "DIAGUNDER": 4,
+        "OVER": 4,
+        "OVERUNDER": 4,
+        "UNDER": 4
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "bf90c643dfe2bad611ec2de906b772125602fc7292a7e39838b5a7a6a4f32116",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "eval_to_freepdk15_retrospective_round2": {
+      "kind": "tables",
+      "path": "runs/round3_evaluation_inputs_v1/to_freepdk15_retrospective_round2.jsonl",
+      "package": "database-v1.0.0",
+      "role": "fixed evaluation cohort; never training data",
+      "domain": "ctf_derived_2d",
+      "tables": 8,
+      "points": 1224,
+      "partitions": {
+        "test": 8
+      },
+      "processes": {
+        "freepdk15": 8
+      },
+      "families": {
+        "DIAGUNDER": 2,
+        "OVER": 2,
+        "OVERUNDER": 2,
+        "UNDER": 2
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "382e18d5087ae4f5d129c8c900023bc4d2724472facff9adde5a83d89d993afb",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "validation_public_val": {
+      "kind": "tables",
+      "path": "runs/round3_validation_inputs_v1/public_val.jsonl",
+      "package": "database-v1.0.0",
+      "role": "fixed validation cohort for configuration selection",
+      "domain": "public_rules",
+      "tables": 256,
+      "points": 3116,
+      "partitions": {
+        "val": 256
+      },
+      "processes": {
+        "asap7": 31,
+        "gf180": 200,
+        "ihp_sg13g2": 15,
+        "sky130": 10
+      },
+      "families": {
+        "DIAGUNDER": 54,
+        "OVER": 88,
+        "OVERUNDER": 59,
+        "UNDER": 55
+      },
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "units": "source_rule_native_per_length",
+      "sha256": "77ead002d71c6cade9a54155e273bfc74c34099b95dda715f34595da97da9c9a",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "validation_reference_val": {
+      "kind": "tables",
+      "path": "runs/round3_validation_inputs_v1/reference_val.jsonl",
+      "package": "database-v1.0.0",
+      "role": "fixed validation cohort for configuration selection",
+      "domain": "ctf_derived_2d",
+      "tables": 24,
+      "points": 3472,
+      "partitions": {
+        "val": 24
+      },
+      "processes": {
+        "asap7": 12,
+        "freepdk15": 12
+      },
+      "families": {
+        "DIAGUNDER": 6,
+        "OVER": 6,
+        "OVERUNDER": 6,
+        "UNDER": 6
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "856c373ab96b962488a912b6bd34e399243fe22205488deb4caa9da2f097350f",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "validation_to_asap7_val": {
+      "kind": "tables",
+      "path": "runs/round3_validation_inputs_v1/to_asap7_val.jsonl",
+      "package": "database-v1.0.0",
+      "role": "fixed validation cohort for configuration selection",
+      "domain": "ctf_derived_2d",
+      "tables": 12,
+      "points": 1736,
+      "partitions": {
+        "val": 12
+      },
+      "processes": {
+        "freepdk15": 12
+      },
+      "families": {
+        "DIAGUNDER": 3,
+        "OVER": 3,
+        "OVERUNDER": 3,
+        "UNDER": 3
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "3667f3ff51905905c647f65d17ccc3425be9544f4da534452fe3cf6fe688e1c4",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "validation_to_freepdk15_val": {
+      "kind": "tables",
+      "path": "runs/round3_validation_inputs_v1/to_freepdk15_val.jsonl",
+      "package": "database-v1.0.0",
+      "role": "fixed validation cohort for configuration selection",
+      "domain": "ctf_derived_2d",
+      "tables": 12,
+      "points": 1736,
+      "partitions": {
+        "val": 12
+      },
+      "processes": {
+        "asap7": 12
+      },
+      "families": {
+        "DIAGUNDER": 3,
+        "OVER": 3,
+        "OVERUNDER": 3,
+        "UNDER": 3
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "365affc76287221ee38a007ba47d5fea95c3ce19cfe6169deed7e7d06e36da37",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "transfer_to_asap7": {
+      "kind": "tables",
+      "path": "runs/reference_transfer_v1/folds/to_asap7.jsonl",
+      "package": "database-v1.0.0",
+      "role": "source-only transfer fold of the original reference",
+      "domain": "ctf_derived_2d",
+      "tables": 28,
+      "points": 4284,
+      "partitions": {
+        "test": 16,
+        "train": 8,
+        "val": 4
+      },
+      "processes": {
+        "asap7": 16,
+        "freepdk15": 12
+      },
+      "families": {
+        "DIAGUNDER": 7,
+        "OVER": 7,
+        "OVERUNDER": 7,
+        "UNDER": 7
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "fa774951f479a198d11d021972c873b58c507f521c54290bdd4245e353290767",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "transfer_to_freepdk15": {
+      "kind": "tables",
+      "path": "runs/reference_transfer_v1/folds/to_freepdk15.jsonl",
+      "package": "database-v1.0.0",
+      "role": "source-only transfer fold of the original reference",
+      "domain": "ctf_derived_2d",
+      "tables": 28,
+      "points": 4284,
+      "partitions": {
+        "train": 8,
+        "val": 4,
+        "test": 16
+      },
+      "processes": {
+        "asap7": 12,
+        "freepdk15": 16
+      },
+      "families": {
+        "DIAGUNDER": 7,
+        "OVER": 7,
+        "OVERUNDER": 7,
+        "UNDER": 7
+      },
+      "target_names": [
+        "lateral_coupling",
+        "ground_cap",
+        "diagonal_coupling"
+      ],
+      "units": "F/m",
+      "sha256": "2f4b671785fca04ec0eb8b55112f614217777f98146baf4dec4e791b1c5b4b69",
+      "derived_view": true,
+      "new_physical_truth": false
+    },
+    "matrices_original": {
+      "kind": "matrices",
+      "path": "runs/reference_dataset_v2/matrices.json",
+      "count": 4896,
+      "role": "fine FEM capacitance matrices; not an additional independent population",
+      "units": "F/m",
+      "package": "database-v1.0.0",
+      "sha256": "1020afb25e5e18a90cec09008d78876c1ce02d97120e55232fb296b447484c06"
+    },
+    "matrices_round2": {
+      "kind": "matrices",
+      "path": "runs/round2_reference_dataset_v1/matrices.json",
+      "count": 3672,
+      "role": "fine FEM capacitance matrices; not an additional independent population",
+      "units": "F/m",
+      "package": "database-v1.0.0",
+      "sha256": "fcd065d30571faf405182efc97edac29c6535f4a45dadc312d45a74fa209473b"
+    },
+    "matrices_round3": {
+      "kind": "matrices",
+      "path": "runs/round3_reference_dataset_v1/matrices.json",
+      "count": 3456,
+      "role": "fine FEM capacitance matrices; not an additional independent population",
+      "units": "F/m",
+      "package": "database-v1.0.0",
+      "sha256": "035447cff247bb7dcea114111efd9b79df6580ef04a78203a993df90049649ab"
+    },
+    "public_source_rules": {
+      "kind": "files",
+      "path": "upstream/data/raw",
+      "count": 51,
+      "role": "pinned downloaded source rules; separate third-party licenses",
+      "package": "database-v1.0.0"
+    },
+    "sta_spatial": {
+      "kind": "evaluation",
+      "path": "results/sta_visualization/gf180_ibex_50/data/endpoint_slack.csv",
+      "role": "fixed-layout gf180/ibex endpoint/path observations; not training data",
+      "package": "sta-visualization-v1.0.0",
+      "count": 2039
+    },
+    "sta_layouts": {
+      "kind": "layouts",
+      "path": "sta",
+      "role": "eight exact routed layouts and 104 golden/Linear/ours SPEFs",
+      "package": "sta-layouts-v1.0.0",
+      "count": 8
+    },
+    "fem_numerical_evidence": {
+      "kind": "numerical_evidence",
+      "path": "numerical_evidence",
+      "role": "coarse/fine/wide solver records, never duplicate training labels",
+      "package": "numerical-evidence-v1.0.0",
+      "count": 36072
+    }
+  },
+  "excluded": [
+    {
+      "name": "original AttentionCap CTF",
+      "reason": "No repository-level LICENSE at pinned commit; independently downloaded with hash verification",
+      "download": "scripts/fetch_reference_inputs.py"
+    },
+    {
+      "name": "commercial PTF and closed-source rule corpora",
+      "reason": "not part of this study or public release"
+    },
+    {
+      "name": "unified_reference_export_v1 and SACE-Guard 192-table panel",
+      "reason": "other study; not used by the current paper"
+    },
+    {
+      "name": "CapBench/full-chip window corpora and taskcap_v2",
+      "reason": "other research; not used by the current paper"
+    },
+    {
+      "name": "regenerable FEM mesh files",
+      "reason": "large intermediates; solver specs/results/source are released"
+    },
+    {
+      "name": "paper manuscript/templates/review documents",
+      "reason": "explicitly excluded by the author"
+    }
+  ]
+}

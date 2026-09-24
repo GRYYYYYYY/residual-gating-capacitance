@@ -1,0 +1,110 @@
+{
+ "mode_stats.tex": {
+  "run": "runs/conf_public_holdout/records.jsonl.gz",
+  "method": "sace_r_holdout",
+  "protocol": "block",
+  "ratio": 0.3,
+  "statistics": "best/worst/average/pooled over scored tables and queries",
+  "note": "per-instance RMSE read from the record stream, not the accumulator"
+ },
+ "transfer_merged.tex": {
+  "cohorts": {
+   "to_asap7": {
+    "baselines": "bl3_to_asap7_conf",
+    "unified": "conf_v10_to_asap7",
+    "method": "v10_all"
+   },
+   "to_freepdk15": {
+    "baselines": "bl3_to_freepdk15_conf",
+    "unified": "conf_v10_to_freepdk15",
+    "method": "v10_all"
+   }
+  },
+  "note": "the two transfer cohorts merged; same accumulators as build_tables.regimes"
+ },
+ "mask_sweep_1d.tex": {
+  "cohorts": {
+   "Public rules": {
+    "baselines": "bl3_public_conf",
+    "unified": "conf_public_holdout",
+    "method": "sace_r_holdout"
+   },
+   "2-D reference": {
+    "baselines": "bl3_reference_conf",
+    "unified": "conf_v10_reference",
+    "method": "v10_all"
+   }
+  },
+  "ratios": [
+   0.1,
+   0.3,
+   0.5,
+   0.7
+  ],
+  "protocols": [
+   "mcar",
+   "block",
+   "extrapolation"
+  ]
+ },
+ "mask_sweep_transfer.tex": {
+  "cohorts": {
+   "To ASAP7": {
+    "baselines": "bl3_to_asap7_conf",
+    "unified": "conf_v10_to_asap7",
+    "method": "v10_all"
+   },
+   "To FreePDK15": {
+    "baselines": "bl3_to_freepdk15_conf",
+    "unified": "conf_v10_to_freepdk15",
+    "method": "v10_all"
+   }
+  },
+  "ratios": [
+   0.1,
+   0.3,
+   0.5,
+   0.7
+  ],
+  "protocols": [
+   "mcar",
+   "block",
+   "extrapolation"
+  ]
+ },
+ "runtime_platform.tex": {
+  "runs": [
+   "benchmark_platform_public_v1",
+   "benchmark_platform_reference_v1"
+  ],
+  "note": "measured in this session; see the drift check in the appendix prose"
+ },
+ "runtime_summary.tex": {
+  "runs": [
+   "benchmark_platform_public_v1",
+   "benchmark_platform_reference_v1"
+  ]
+ },
+ "downstream_detail.tex": {
+  "run": "downstream_holdout_v1",
+  "note": "re-extraction audit on fixed golden routed layouts"
+ },
+ "downstream_matrix_1.tex": {
+  "run": "downstream_holdout_v1",
+  "platforms": [
+   "asap7",
+   "gf180"
+  ]
+ },
+ "downstream_matrix_2.tex": {
+  "run": "downstream_holdout_v1",
+  "platforms": [
+   "ihp-sg13g2",
+   "sky130hs"
+  ]
+ },
+ "downstream_summary.tex": {
+  "run": "downstream_holdout_v1",
+  "note": "collapsed over designs and masks"
+ }
+}

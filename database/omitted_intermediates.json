@@ -1,0 +1,9 @@
+[
+  {
+    "path": "logs/score_val_rg2n_reference.log",
+    "logical_bytes": 21287858073,
+    "mtime_ns": 1790274377508747853,
+    "reason": "damaged/sparse repeated worker-initialization failure stream; complete file retained locally; last 64 KiB included",
+    "full_file_hashed": false
+  }
+]

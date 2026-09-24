@@ -1,0 +1,13 @@
+{
+  "version": "validation-five-masks-v2",
+  "reason": "The first study runner used one fixed validation-mask seed (1701); on common short curves its block masks coincide with the right-edge extrapolation mask. Replace this implementation shortcut with all five prespecified sampling seeds before any test evaluation.",
+  "protocols": ["mcar", "block", "extrapolation"],
+  "ratio": 0.3,
+  "mask_seeds": [11, 29, 47, 71, 101],
+  "training_selection_seed": 0,
+  "eta_candidates": [0.0, 0.01, 0.05],
+  "criterion": "mean of all 15 validation macro NRMSE cells",
+  "tie_break": "smaller eta",
+  "test_labels_accessed": false,
+  "retraining": "reuse identical final-step models; train missing selected-eta confirmation seeds only"
+}

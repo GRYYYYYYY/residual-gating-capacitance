@@ -1,0 +1,42 @@
+{
+  "case": "gf180/ibex",
+  "variants": {
+    "golden": {
+      "worst_slack_native": -5.249367237,
+      "tns_native": -6614.478027344,
+      "spef_sha256": "c5feba3e57d301a7c250c1e054ea5f9297c21134e5c5785690c5b6fecf90fdb6"
+    },
+    "linear_block50_seed0": {
+      "worst_slack_native": -5.258017063,
+      "tns_native": -6625.782714844,
+      "spef_sha256": "041e1f9ef3107ed81850d995aecc71e171f661007f000093eb70e5829854dcb5"
+    },
+    "ours_block50_seed0": {
+      "worst_slack_native": -5.245657444,
+      "tns_native": -6609.442871094,
+      "spef_sha256": "db9db815cb5e420d2373d0c47986b7ae199b7f30da5f574d0fb38ab207f9100d"
+    },
+    "linear_block50_seed1": {
+      "worst_slack_native": -5.116593361,
+      "tns_native": -6445.901855469,
+      "spef_sha256": "afc68f4b91be3c4f8152ec669d001985a4ab22ac785d425be02817fe0d60eb65"
+    },
+    "ours_block50_seed1": {
+      "worst_slack_native": -5.286381245,
+      "tns_native": -6664.698730469,
+      "spef_sha256": "f1383cee0d3b1d096053c0501c824fc11e05d1b0d487b548b067db614473b151"
+    },
+    "linear_block50_seed2": {
+      "worst_slack_native": -5.256938934,
+      "tns_native": -6620.638183594,
+      "spef_sha256": "7621e4b97e0467e7483695b1214d5a4df9f342a2a28b6e115bc0669a79cf2eb5"
+    },
+    "ours_block50_seed2": {
+      "worst_slack_native": -5.244010925,
+      "tns_native": -6606.881347656,
+      "spef_sha256": "cab3cf38fcde82c2467681bd3c596c01220e4ce6f6887010683c2d2ced11c5c1"
+    }
+  },
+  "odb_sha256": "ab5b44b3d33ba775a9d28dda402b0955e0388e49978301f1d19a182338515417",
+  "sdc_sha256": "9886833f962f5c7dffb0fd2b77313e4597c0fbd85f8214611998bfe94fd72de5"
+}

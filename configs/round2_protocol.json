@@ -1,0 +1,17 @@
+{
+  "version": "pdkcap-round2-1",
+  "status": "frozen_before_round2_runs",
+  "objective": "constrained completion, prospective 2D layer confirmation, fixed-layout RC/STA audit, cost-aware acquisition",
+  "seed": 20260917,
+  "training": {"steps": 2000, "seeds": [0, 1, 2], "learning_rate": 0.002, "weight_decay": 0.0001, "eta": [0, 0.01, 0.05], "width_episodes": true, "gate_hidden": 32},
+  "evaluation": {"ratios": [0.1, 0.3, 0.5, 0.7], "mask_seeds": [11, 29, 47, 71, 101], "protocols": ["mcar", "block", "extrapolation", "width"], "width_folds": "all", "selection": "equal mean across protocols, then ratios and mask seeds", "tie_break": "no hard constraint, smaller eta, smaller residual multiplier"},
+  "corrections": ["none", "local", "boundary", "both"],
+  "residual_multipliers": [0, 0.25, 0.5, 0.75, 1],
+  "reference": {"asap7": {"validation": ["M6"], "confirmation": ["M7", "M8"]}, "freepdk15": {"validation": ["MINT4"], "confirmation": ["MINT5", "MSMG1"]}, "width_count": 9, "distance_count": 17, "width_range_wmin": [1, 4], "distance_range_smin": [1, 16], "tables": 24, "matrices": 3672, "solves": 11016},
+  "active": {"initial": 4, "evaluation_fraction": 0.2, "budgets": [4, 8, 16, 32, 64], "strategies": ["random", "farthest", "learned", "residual_only", "residual_per_cost"], "cost_model": "ridge alpha=1 on standardized geometry/layer/family features, log certified solver cost, old training layers only", "thresholds": [0.02, 0.05]},
+  "downstream": {"platforms": ["asap7", "gf180", "ihp-sg13g2", "sky130hs"], "designs": ["aes", "ibex"], "methods": ["linear", "pchip", "original_dro", "gated", "selected_hard"], "protocol": "block", "ratios": [0.3, 0.5], "mask_seeds": [11, 29, 47], "predictor": "three-training-seed ensemble", "preserve_resistance": true, "golden_replay": "exact per-net RC", "cpu_threads": 1},
+  "stage_cpu_hour_caps": {"engineering": 10, "reference": 80, "learning": 40, "downstream": 25, "active_reporting": 30, "contingency": 40},
+  "budget": "original configs/compute_authorization.json and runs/compute_ledger.json only; 250 cumulative CPU core-hours, zero GPU",
+  "publication": "local new paper and artifacts; no automatic release upload",
+  "confirmation_policy": "new confirmation layer scores unavailable to method selection; old tests explicitly retrospective; only two material stacks, related layers are not independent technologies"
+}

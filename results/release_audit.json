@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "archives": 6,
+  "members_verified": 110326,
+  "uncompressed_bytes": 3915182676,
+  "checks": [
+    "archive and member SHA-256",
+    "no manuscript/main.tex/main.pdf",
+    "no original CTF/commercial PTF",
+    "no private key or token signatures",
+    "no workstation paths in exported text"
+  ],
+  "caution": "Pattern-based secret scanning is a scoped release check, not a proof about arbitrary unpublished source trees."
+}

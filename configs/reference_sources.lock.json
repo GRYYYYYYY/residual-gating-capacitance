@@ -1,0 +1,17 @@
+{
+  "repository": "THU-numbda/AttentionCap",
+  "commit": "59a48fd1f90e668c061fa27fb22b53ddad3db499",
+  "license_status": "No repository LICENSE observed; original CTF files are download-only and not redistributed.",
+  "sources": [
+    {
+      "name": "asap7.ctf",
+      "url": "https://raw.githubusercontent.com/THU-numbda/AttentionCap/59a48fd1f90e668c061fa27fb22b53ddad3db499/pattern_gen/itf_lib/asap7.ctf",
+      "sha256": "5985a9d4e872b32936c26ea63e6b54893ffc8ee0c2bb55d8761b504fe615c4be"
+    },
+    {
+      "name": "freepdk15.ctf",
+      "url": "https://raw.githubusercontent.com/THU-numbda/AttentionCap/59a48fd1f90e668c061fa27fb22b53ddad3db499/pattern_gen/itf_lib/freepdk15.ctf",
+      "sha256": "0a73095dba2e73aae0d770725e5565bc0b421a7d0334d0a114fde8d2cd698c8c"
+    }
+  ]
+}

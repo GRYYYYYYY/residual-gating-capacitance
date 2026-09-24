@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "residual-gating-capacitance"
+version = "1.0.0"
+description = "Residual gating for sparse capacitance tables: code, databases, trained models and fixed-layout STA evidence"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = ["numpy>=1.24", "scipy>=1.10", "torch>=2.4", "matplotlib>=3.7", "pandas>=2.0"]
+
+[project.optional-dependencies]
+solver = ["gmsh", "scikit-fem", "meshio"]
+
+[tool.setuptools.packages.find]
+include = ["unified*", "pdkcap*", "openrcbench*", "capdata*"]

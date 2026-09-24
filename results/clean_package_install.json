@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "packages": [
+    "database",
+    "models"
+  ],
+  "method": "installed and member-verified in a separate empty directory using capdata"
+}

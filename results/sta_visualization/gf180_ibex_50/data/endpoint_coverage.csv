@@ -1,0 +1,8 @@
+variant,reported,finite,unconstrained,missing
+golden,3859,2039,1820,0
+linear_seed0,3859,2039,1820,0
+ours_seed0,3859,2039,1820,0
+linear_seed1,3859,2039,1820,0
+ours_seed1,3859,2039,1820,0
+linear_seed2,3859,2039,1820,0
+ours_seed2,3859,2039,1820,0

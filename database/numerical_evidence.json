@@ -1,0 +1,14 @@
+{
+  "reference_full_v2": {
+    "result_records": 14688,
+    "omitted_regenerable_mesh_bytes": 50825688365
+  },
+  "round2_full_v1": {
+    "result_records": 11016,
+    "omitted_regenerable_mesh_bytes": 39643068172
+  },
+  "round3_full_v1": {
+    "result_records": 10368,
+    "omitted_regenerable_mesh_bytes": 34343104152
+  }
+}
