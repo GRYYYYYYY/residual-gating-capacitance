@@ -1,9 +1,7 @@
-"""Workspace boundaries: one writable root, one strictly read-only archive.
+"""Repository paths and read-only access to released input artifacts.
 
-Every new artifact of this study is written under ``test-v1``. The frozen
-``pdkcap-v0`` workspace supplies data and code for read-only reuse; nothing in
-this module ever opens a file there for writing, and bytecode emission is
-disabled process-wide so imports cannot create ``__pycache__`` either.
+Set RG_DATA_ROOT to use an external artifact installation. New runs are
+created under the repository's runs directory without overwriting inputs.
 """
 import hashlib
 import json
@@ -21,8 +19,7 @@ FAMILIES = ('OVER', 'UNDER', 'OVERUNDER', 'DIAGUNDER')
 SEGMENTS = ('outside', 'missing_width', 'dense_1d', 'dense_nd', 'sparse_or_degenerate')
 
 # ---------------------------------------------------------------------------
-# Frozen inputs. The DATE v3 paper trace pins these exact revisions; the newer
-# `reference_dataset_v2` and the SACE guard full phase are deliberately absent.
+# Fixed dataset paths used by the released experiment configurations.
 # ---------------------------------------------------------------------------
 INPUTS = {
     'public_tables': ARCHIVE / 'runs/public_inventory_v1/tables.jsonl',

@@ -10,7 +10,7 @@ For one cohort it reports, per (regime, protocol):
 * the assembled estimate of the trained network;
 * the mean gate weight per element, over the queries of that cell.
 
-Read-only: it never writes into a run directory and never touches `pdkcap-v0`.
+Read-only: it never writes into input run directories.
 """
 import argparse
 import json

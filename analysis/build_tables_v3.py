@@ -1,4 +1,4 @@
-"""paper_v3 tables: the additions requested on top of paper_v2.
+"""Build process-wise, transfer, missingness, and runtime result tables.
 
 Every table here reads the same recorded runs as ``build_tables.py`` and adds
 no new experiment except ``runtime_platform``, which re-times the existing

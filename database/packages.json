@@ -1,8 +1,8 @@
 {
   "database-v1.0.0": {
     "file": "database-v1.0.0.tar.gz",
-    "bytes": 12996030,
-    "sha256": "5c3e29c14c6ddf3d13ff5d60e1865a821255b237c6fc57474f09c40ce26c2975",
+    "bytes": 11711894,
+    "sha256": "37e4e203d145c6d4109169e97c6658d03c900bde203ef33a4497756bc1296dba",
     "files": 192
   },
   "models-v1.0.0": {
@@ -19,8 +19,8 @@
   },
   "sta-visualization-v1.0.0": {
     "file": "sta-visualization-v1.0.0.tar.gz",
-    "bytes": 22487128,
-    "sha256": "f1927b1a3c1fd266f32d22b8b719886466f2f96a0eb5581c6413a43bf0632577",
+    "bytes": 17972009,
+    "sha256": "af542972e04b1f56a497ee1b2fa8cfed040cd56915edaacb914fde43a3febd60",
     "files": 138
   },
   "numerical-evidence-v1.0.0": {
@@ -31,14 +31,14 @@
   },
   "sta-layouts-v1.0.0": {
     "file": "sta-layouts-v1.0.0.tar.gz",
-    "bytes": 857714601,
-    "sha256": "eb79d538626c6db1bd4458c6c676f6ed7f1316c698c3768070377e8ca44b031a",
+    "bytes": 767551234,
+    "sha256": "85387fc126a5457d0064f57b25a9f83a0e9f1912a794f3a96b3970bcca4055f5",
     "files": 257
   },
   "historical-evidence-v1.0.0": {
     "file": "historical-evidence-v1.0.0.tar.gz",
-    "bytes": 347623548,
-    "sha256": "c8c7ad315a9c0946fa25c91c0d29e2ef8b37072f702fe7bc9db2cc8f5e1b9540",
+    "bytes": 346065115,
+    "sha256": "7016ffb6c878d2a825f2f883dc98b02279bdf13b8bb63bbe7c5fa5faa8e53155",
     "files": 1201
   }
 }

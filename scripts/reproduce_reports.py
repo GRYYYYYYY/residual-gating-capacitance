@@ -1,4 +1,4 @@
-"""Rebuild the 38 original result tables and optionally the new STA results."""
+"""Reproduce paper result tables, including STA results with --sta."""
 import argparse,json,shutil,subprocess,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]

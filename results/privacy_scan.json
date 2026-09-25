@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "scope": [
+    "tracked source files and documentation",
+    "reachable Git history and commit metadata",
+    "all seven release archives and tar headers",
+    "nested gzip payloads and checkpoint ZIP entries",
+    "published PDF author and producer metadata"
+  ],
+  "release_members_scanned": 111527,
+  "affected_files_sanitized": 53,
+  "affected_packages_rebuilt": 4,
+  "remaining_detected_personal_identifiers": 0,
+  "remaining_detected_private_machine_paths": 0,
+  "detected_common_credential_signatures": 0,
+  "model_checkpoint_files_modified": false,
+  "notes": "Repository-relative artifact paths, public repository URLs, and third-party attribution are retained. Pattern-based checks do not certify anonymity of the hosting account or copies downloaded previously."
+}

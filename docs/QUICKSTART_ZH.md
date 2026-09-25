@@ -1,6 +1,6 @@
 # 中文使用说明
 
-本仓库是当前残差门控电容补全论文的公开代码与数据库仓库，不包含论文本身。默认分支提供代码、结果图表、数据清单；大数据和模型放在同一仓库的 Release 中，读者不需要旧私有仓库的访问权。
+本仓库提供论文 **Support-Conditioned Residual Gating for Sparse Capacitance Completion** 的代码、数据、模型和结果。主要结果与图表入口见 [README](../README.md)，大数据和模型通过 GitHub Release 下载。
 
 ## 最短使用流程
 
@@ -32,7 +32,7 @@ confirmation = load_tables('eval_reference_confirmation_round3_main', partition=
 - `database/packages.json`：各压缩包名称、大小和 SHA-256。
 - `database/files.json` / `files-extended.json.gz`：每个成员文件的导出及源文件哈希。
 - `configs/selected_models.json`：四个域正式模型与检查点的对应关系。
-- `docs/DATABASES_ZH.md`：中文总目录，以及不属于当前论文的数据排除清单。
+- `docs/DATABASES_ZH.md`：数据规模、划分、单位与用途。
 
 ```bash
 python -m capdata fetch --all
@@ -56,12 +56,10 @@ python -m capdata fetch database models experiment-records sta-visualization
 python scripts/reproduce_reports.py --sta --output results/my_reproduction
 ```
 
-38 张原结果表和新增的 STA 决策表都与论文版本逐字节比对。空间图来自真实端点/路径/坐标，保留 seed 2 的 MAE 例外，不制造未测得的改进。
+全部 39 张结果表均与发布版本逐字节比对，STA 空间图由记录的端点、路径和坐标重建。此命令复用测量记录；完整评分、训练和固定版图 STA 重放见 [复现指南](REPRODUCING.md)。
 
 ## 发布范围
 
-181 个当前研究检查点加 12 个早期初始化检查点均保留；其中正式模型只有 `selected_models.json` 指定的 12 个成员，其他文件是候选/消融/初始化证据。
+`configs/selected_models.json` 给出四个域各三个正式模型成员及其校验值。其余检查点用于初始化、模型选择或消融研究。
 
-36,072 次 FEM 的 spec/result/log 与求解源码保留，约 125 GB 可重新生成的 mesh 中间文件不上传。原始 CTF 独立下载；商业 PTF、凭据、服务器环境、其他研究数据和论文正文不上传。原有本地实验文件均保持不变。
-
-历史记录可通过 `python -m capdata fetch historical-evidence` 单独安装。一份约 21 GB 的损坏诊断日志仅保留末尾 64 KiB；原文件未删除，省略原因见 `database/omitted_intermediates.json`。
+数值验证包提供 FEM 配置、结果、日志与求解源码，按需下载即可。原始 CTF 通过固定版本脚本独立获取；第三方规则与版图数据的许可见 [THIRD_PARTY.md](../THIRD_PARTY.md)。

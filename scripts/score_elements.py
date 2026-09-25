@@ -8,7 +8,7 @@ and the oracle is the part of the error that a better gate could still remove,
 and the gap between the oracle and the best baseline is the part no gate over
 this dictionary can remove.
 
-Read-only with respect to `pdkcap-v0`; writes one new run directory.
+Reads input artifacts without modification and writes one new run directory.
 """
 import argparse
 import gzip

@@ -1,8 +1,7 @@
 """Unified residual-gated capacitance estimator (SACE-R).
 
-New work lives here. The frozen ``pdkcap-v0`` workspace is imported strictly
-read-only: bytecode writing is disabled before any import so no ``__pycache__``
-is ever created inside the archived workspace.
+Bytecode writing is disabled so loading released artifacts does not create
+cache files alongside read-only inputs.
 """
 import sys
 

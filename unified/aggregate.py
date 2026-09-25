@@ -1,17 +1,7 @@
-"""Exact reproduction of the DATE-v3 "mean-mask macro NRMSE" aggregation.
+"""Reproduce the paper's mean-mask macro NRMSE aggregation.
 
-The manuscript's principal accuracy table (``paper/round3_date_v3/main.tex``,
-Table 1 / ``tab:completion``, and Table 2 / ``tab:transfer``) reports numbers
-that are reproduced, digit for digit, from the frozen per-record error files by
-the single recipe implemented here.  The recipe is not re-derived from the
-paper prose: it is transcribed from the frozen producer,
-
-    pdkcap-v0/scripts/report_round3_uncertainty_v2.py      (sha256 997b16e8...)
-      -> runs/round3_uncertainty_<cohort>_v2/report.json   "macro" rows
-    pdkcap-v0/scripts/collect_round3_results_v2.py
-      -> runs/round3_result_collection_v1/summary.json     cohort "macro" rows
-    pdkcap-v0/paper/round3_date_v2/build_assets.py
-      -> paper/round3_date_v2/RESULT_SNAPSHOT.json         manuscript numbers
+This module aggregates the released per-record errors using the exact recipe
+below. Result-table source mappings are provided in analysis/generated_sources.json.
 
 -----------------------------------------------------------------------------
 The verified recipe (this is the whole definition; nothing else is applied)
@@ -100,7 +90,7 @@ Public API
     condition_index(acc) / condition(acc, ...)                -> selection helpers
     save_accumulator / load_accumulator / accumulator_payload / accumulator_from_payload
 
-Run ``python -m unified.aggregate`` (from ``test-v1``) for the self-test: it
+Run ``python -m unified.aggregate`` from the repository root for the self-test: it
 reproduces every published cell of both accuracy tables to 1e-9, cross-checks
 the hardcoded table against ``RESULT_SNAPSHOT.json``, checks that the
 accumulator covers each frozen ``population.json`` cell exactly (no silent

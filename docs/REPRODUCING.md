@@ -37,7 +37,7 @@ python -m unified.score \
   --output reproduced_reference_confirmation --method v10_all --workers 4
 ```
 
-For the public domain use the three `holdout_g_s*` checkpoints and `public_retrospective_original.jsonl`, not the old `g16` selection. `configs/selected_models.json` is the authoritative mapping for all domains.
+For the public domain use the three `holdout_g_s*` checkpoints and `public_retrospective_original.jsonl`. `configs/selected_models.json` is the authoritative mapping for all domains.
 
 ## 3. Recorded table/figure reproduction
 
@@ -58,7 +58,7 @@ python scripts/train_stage1.py --data runs/public_inventory_holdout_v1/tables.js
 python -m unified.train --help
 ```
 
-Use the exact arguments in `runs/holdout_g_s0/FROZEN.json` for the stage-2 configuration, replacing the output and stage-1 checkpoint names. The public headline uses 24,000 stage-2 steps. The reference/transfer headline uses 12,000 steps and the original three-seed initialization sets now included in the model package. Configurations, scales and initialization hashes are preserved; the release does not silently substitute newly initialized networks for those recorded initializations. Historical `scripts/train_all.sh` and selection drivers are retained for provenance, but use the selected-model mapping and run-specific receipts for the current headline configuration.
+Use the exact arguments in `runs/holdout_g_s0/FROZEN.json` for the stage-2 configuration, replacing the output and stage-1 checkpoint names. The public model uses 24,000 stage-2 steps. Reference and transfer models use 12,000 steps and the three-seed initialization sets included in the model package. Use `configs/selected_models.json` and the corresponding run receipts for the reported configurations, scales, and initialization hashes.
 
 ## 5. Exact saved-layout STA replay
 
@@ -71,7 +71,9 @@ python scripts/replay_sta.py --case gf180/ibex --missing 50 \
 
 Use OpenROAD `0b54bb3203e0895f87940ff982358a6e4d406e28` (reported as `26Q3-1860-g0b54bb3203`) and ORFS `19480a228f583dcb2fc8f4bd6427dbab5253bc70`. The ODB format is version-sensitive. Executables are installed separately; the Liberty/RC downloader pins both URLs and hashes. `database/sta_cases.json` indexes all eight cases, the original routed and connected ODBs, SDCs and 104 SPEFs. The replay reads the same connected ODB/SDC and changes only SPEF, checking resulting WS/TNS against each archived value. It does not reroute or change timing constraints. Native STA time units differ by platform; archived values and replay assertions use the platform's native unit, while published visualization CSVs are ns.
 
-The rule-export/re-extraction code is preserved in `scripts/downstream_holdout_*.py` and `scripts/upstream/`; this older orchestration assumes an ORFS workspace under `RG_UPSTREAM_ROOT`. The saved-layout replay above is the tested portable entry point. Fresh synthesis/routing would be a new layout and must not be labeled an exact reproduction of these saved cases.
+ODB source-file path attributes are anonymized. Physical geometry, connectivity, and replayed timing are verified unchanged; member manifests distinguish source and exported hashes.
+
+The rule-export/re-extraction code is provided in `scripts/downstream_holdout_*.py` and `scripts/upstream/`; this orchestration assumes an ORFS workspace under `RG_UPSTREAM_ROOT`. The saved-layout replay above is the tested portable entry point. Fresh synthesis/routing would be a new layout and must not be labeled an exact reproduction of these saved cases.
 
 ## 6. FEM generation and numerical evidence
 
