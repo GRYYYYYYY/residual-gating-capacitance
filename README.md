@@ -2,7 +2,7 @@
 
 Code, datasets, trained models, and results for the paper **Support-Conditioned Residual Gating for Sparse Capacitance Completion**.
 
-[Quickstart（中文）](docs/QUICKSTART_ZH.md) · [Reproduction guide](docs/REPRODUCING.md) · [Dataset catalog](docs/DATABASES_ZH.md) · [Downloads](https://github.com/GRYYYYYYY/residual-gating-capacitance/releases/tag/v1.0.0)
+[Quickstart](docs/QUICKSTART_ZH.md) · [Reproduction guide](docs/REPRODUCING.md) · [Dataset catalog](docs/DATABASES_ZH.md) · [Downloads](https://github.com/GRYYYYYYY/residual-gating-capacitance/releases/tag/v1.0.0)
 
 ## Method
 
