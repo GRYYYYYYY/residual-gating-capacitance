@@ -32,7 +32,7 @@ score_one () {
   echo "scored $name"
 }
 
-for domain in public reference to_asap7 to_freepdk15; do
+for domain in public reference to_asap7; do
   if [ "$COHORTS" = val ] || [ "$COHORTS" = all ]; then
     score_one "$domain" val "$P/runs/round3_validation_inputs_v1/${domain}_val.jsonl"
   fi

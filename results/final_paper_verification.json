@@ -17,7 +17,10 @@
     "fresh_two_step_public_residual_training": true,
     "fresh_two_step_reference_binary_training": true,
     "horizontal_figure3_regenerated": true,
-    "existing_unit_tests_passed": 3
+    "existing_unit_tests_passed": 3,
+    "final_release_clean_install": true,
+    "three_setting_inference_from_final_packages": true,
+    "final_figure3_from_clean_install": true
   },
-  "limits": "No full retraining or STA rerun during this synchronization. Historical release artifacts remain immutable; final-paper scope excludes reverse transfer."
+  "limits": "No full retraining or STA rerun during cleanup. Final-paper negative findings remain. Obsolete release results and reverse-transfer presentation are removed."
 }

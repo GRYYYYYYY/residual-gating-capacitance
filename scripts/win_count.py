@@ -19,8 +19,7 @@ from unified.regime import regroup  # noqa: E402
 PROTOCOLS = (('mcar', 'Random'), ('block', 'Block'), ('extrapolation', 'Extrap.'))
 COHORTS = (('public', 'bl3_public_conf', ('cmi1d',)),
            ('reference', 'bl3_reference_conf', ('cmi2d',)),
-           ('to_asap7', 'bl3_to_asap7_conf', ('cmi2d',)),
-           ('to_freepdk15', 'bl3_to_freepdk15_conf', ('cmi2d',)))
+           ('to_asap7', 'bl3_to_asap7_conf', ('cmi2d',)))
 BASELINE = ('cmi1d', 'cmi2d', 'cmi4d', 'openrcx_li', 'pchip', 'idw', 'gp')
 
 

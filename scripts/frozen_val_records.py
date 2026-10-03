@@ -30,13 +30,11 @@ FOLDERS = {
     'public': 'runs/round3_public_validation_records_v1',
     'reference': 'runs/round3_reference_validation_records_v1',
     'to_asap7': 'runs/round3_to_asap7_validation_records_v1',
-    'to_freepdk15': 'runs/round3_to_freepdk15_validation_records_v1',
 }
 BUNDLES = {
     'public': 'runs/round3_public_deployment_v1/bundle.json',
     'reference': 'runs/round3_reference_deployment_v1/bundle.json',
     'to_asap7': 'runs/round3_to_asap7_deployment_v1/bundle.json',
-    'to_freepdk15': 'runs/round3_to_freepdk15_deployment_v1/bundle.json',
 }
 INPUTS = {name: ARCHIVE / f'runs/round3_validation_inputs_v1/{name}_val.jsonl' for name in FOLDERS}
 DEFAULT_METHODS = ('linear', 'fixed', 'original_dro', 'hard_local', 'gated_none')

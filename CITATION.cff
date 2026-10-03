@@ -1,6 +1,8 @@
 cff-version: 1.2.0
 message: "Please cite the final-paper repository and specify the commit or release used."
 type: software
+version: 1.1.0
+date-released: 2026-10-03
 title: "Chip Capacitance Prediction by a Jointly Routed Transformer"
 authors:
   - name: "Residual Gating Contributors"

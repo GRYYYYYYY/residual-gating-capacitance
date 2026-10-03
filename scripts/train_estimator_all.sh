@@ -47,9 +47,6 @@ for seed in 0 1 2; do
       "$P/runs/reference_transfer_v1/folds/to_asap7.jsonl" \
       "$P/runs/reference_transfer_v1/study_to_asap7/residual_eta0.05_seed${seed}/checkpoint.pt" "$seed" "$scope"
 
-    launch "${STAGE}_to_freepdk15_${scope}_s${seed}" \
-      "$P/runs/reference_transfer_v1/folds/to_freepdk15.jsonl" \
-      "$P/runs/reference_transfer_v1/study_to_freepdk15/residual_eta0.05_seed${seed}/checkpoint.pt" "$seed" "$scope"
   done
 done
 wait

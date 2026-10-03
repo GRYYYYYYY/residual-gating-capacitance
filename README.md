@@ -2,7 +2,7 @@
 
 Code, datasets, trained models, and results for the paper **Chip Capacitance Prediction by a Jointly Routed Transformer**.
 
-[Quickstart](docs/QUICKSTART_ZH.md) · [Reproduction guide](docs/REPRODUCING.md) · [Dataset catalog](docs/DATABASES_ZH.md) · [Downloads](https://github.com/GRYYYYYYY/residual-gating-capacitance/releases/tag/v1.0.0)
+[Quickstart](docs/QUICKSTART_ZH.md) · [Reproduction guide](docs/REPRODUCING.md) · [Dataset catalog](docs/DATABASES_ZH.md) · [Downloads](https://github.com/GRYYYYYYY/residual-gating-capacitance/releases/tag/v1.1.0)
 
 ## Method
 
@@ -25,18 +25,16 @@ The authoritative manuscript is [the final paper](paper/paper.pdf), titled **Chi
 
 Public labels are extraction-rule values. Independent reference labels come from declared two-dimensional finite-element problems. Downstream results measure agreement with full-table extraction on fixed layouts, not timing closure or silicon accuracy. Full routing is not uniformly best: the binary gate wins two transfer conditions, the ungated model wins public in-support block masking, and local affine wins FEM/transfer out-of-support random masking. See [final-paper alignment and split definitions](docs/FINAL_PAPER.md).
 
-The immutable **v1.0.0 release is historical**: it includes a reverse transfer direction and 20-condition reports. That reverse direction is not part of the final paper's 15-condition comparison. Historical artifacts and their checksums remain available, but are not presented as final-paper results.
-
 ## Data and models
 
 - **Public rules:** 1,713 capacitance tables from ASAP7, GF180, IHP-SG13G2, and Sky130. The public model excludes all 84 downstream audit tables from its training, validation, and test inventory.
 - **Independent FEM reference:** 16 original fitting tables (153 nodes each), a separate 24-table validation cohort, and 16 confirmation tables from the 27-table, 8 × 16 Round-3 collection. The collection also contains eight validation and three boundary tables; these are distinct from the fitting inventory and the 24-table selection cohort.
-- **Final-paper transfer:** eight FreePDK15 fitting tables, 12 FreePDK15 validation tables, and eight ASAP7 confirmation tables. Historical reverse-transfer artifacts are additional archived material.
+- **Final-paper transfer:** eight FreePDK15 fitting tables, 12 FreePDK15 validation tables, and eight ASAP7 confirmation tables.
 - **Downstream evaluation:** eight fixed routed layouts and 104 reference/baseline/model SPEFs.
 
 [Final-paper models](configs/paper_models.json) identifies the three checkpoints for each of the three final-paper settings and their hashes. [The dataset catalog](database/catalog.json) defines units, splits, and the training and evaluation datasets. Derived views are not additional independent physical samples.
 
-Large artifacts are GitHub Release downloads. The core packages are `database`, `models`, and `experiment-records`; add `sta-visualization` for spatial figures and `sta-layouts` for saved-layout timing replay. Optional numerical and supplementary records are listed in the [package manifest](database/packages.json).
+Large artifacts are [v1.1.0 Release downloads](https://github.com/GRYYYYYYY/residual-gating-capacitance/releases/tag/v1.1.0). Superseded result tables and the old v1.0.0 Release have been removed. The core packages are `database`, `models`, and `experiment-records`; add `sta-visualization` for spatial figures and `sta-layouts` for saved-layout timing replay. Optional numerical evidence and saved-layout inputs are listed in the [package manifest](database/packages.json).
 
 ## Quickstart
 
@@ -54,7 +52,7 @@ python -m capdata verify --package database
 python scripts/inference_demo.py --domain reference
 ```
 
-Use `--domain public` or `to_asap7` for the other final-paper settings. `to_freepdk15` is retained only for historical reproducibility. Each demo evaluates one held-out episode; full scoring and retraining commands are in the [reproduction guide](docs/REPRODUCING.md). Data download and verification use only the Python standard library.
+Use `--domain public` or `to_asap7` for the other final-paper settings. Each demo evaluates one held-out episode; full scoring and retraining commands are in the [reproduction guide](docs/REPRODUCING.md). Data download and verification use only the Python standard library.
 
 ```python
 from capdata import load_tables
@@ -75,16 +73,16 @@ python scripts/verify_final_paper.py
 
 This checks the manuscript manifest, final-paper scope, headline counts and supplementary score aggregates. [Supplementary control reproduction](experiments/paper_controls/README.md) provides fresh training/scoring and recorded-result regeneration.
 
-## Reproduce historical release tables and figures
+## Export final-paper tables and redraw Figure 3
 
 ```bash
 python -m capdata fetch database experiment-records sta-visualization
 python scripts/reproduce_reports.py --sta --output results/my_reproduction
 ```
 
-This regenerates and checks all **39 historical v1.0.0 result tables** against the historical released results and rebuilds the STA figures from recorded measurements. It does not retrain models or rerun field solvers. Fresh inference, full scoring, retraining, and saved-layout STA replay are documented separately in the [reproduction guide](docs/REPRODUCING.md).
+This verifies the final-paper evidence, exports only the tables used by the final manuscript, and optionally redraws the horizontal Figure 3. Table export preserves manuscript formatting; it is not a fresh training or STA run.
 
-Validation records in `results/` cover four-domain inference parity, table reproduction, package integrity, and saved-layout STA replay. Run lightweight checks with:
+Validation records cover final-paper table aggregation, matched controls, figure regeneration, and saved-layout STA replay. Run lightweight checks with:
 
 ```bash
 python -m unittest discover -s tests -v

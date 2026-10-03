@@ -12,7 +12,7 @@ import urllib.request
 from . import ROOT, catalog
 
 REPOSITORY='GRYYYYYYY/residual-gating-capacitance'
-TAG='v1.0.0'
+TAG='v1.1.0'
 
 def digest(path):
     h=hashlib.sha256()
@@ -29,7 +29,7 @@ def files():
     return result
 
 def package_key(name):
-    matches=[k for k in packages() if k==name or k==name+'-'+TAG]
+    matches=[k for k in packages() if k==name or k.rsplit('-v',1)[0]==name]
     if len(matches)!=1:raise ValueError(f'Unknown package {name}; choose {list(packages())}')
     return matches[0]
 
@@ -83,7 +83,7 @@ def main():
             spec=packages()[key];archive=(args.from_dir/spec['file']) if args.from_dir else cache/spec['file']
             if not archive.exists():
                 if args.from_dir:raise FileNotFoundError(archive)
-                url=f'https://github.com/{REPOSITORY}/releases/download/{TAG}/{spec["file"]}'
+                url=f'https://github.com/{REPOSITORY}/releases/download/{spec.get("tag", TAG)}/{spec["file"]}'
                 print('Downloading',url,flush=True)
                 part=archive.with_suffix('.part')
                 with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'residual-gating-capdata/1.0'}),timeout=120) as src,part.open('wb') as dst:shutil.copyfileobj(src,dst)

@@ -2,7 +2,7 @@
 
 This repository provides code, datasets, models, and results for **Chip Capacitance Prediction by a Jointly Routed Transformer**. See the [README](../README.md) for the main results and figure/table links. Large datasets and models are distributed through GitHub Releases.
 
-See [final-paper alignment](FINAL_PAPER.md) and run `python scripts/verify_final_paper.py` for the final manuscript. The v1.0.0 release and its 39-table reproduction command retain historical scope.
+See [final-paper alignment](FINAL_PAPER.md) and run `python scripts/verify_final_paper.py` for the final manuscript.
 
 ## Installation and inference
 
@@ -57,14 +57,14 @@ python -m capdata fetch database models --from-dir /path/to/downloads
 
 These commands can be repeated safely. The installer refuses to overwrite local files whose contents differ from the released hashes.
 
-## Reproduce historical release tables and figures
+## Export final-paper tables and figures
 
 ```bash
 python -m capdata fetch database experiment-records sta-visualization
 python scripts/reproduce_reports.py --sta --output results/my_reproduction
 ```
 
-This command checks all 39 historical v1.0.0 result tables byte-for-byte against the released versions and rebuilds STA spatial figures from recorded endpoints, paths, and coordinates. It reuses recorded measurements. For full scoring, retraining, and saved-layout STA replay, see the [reproduction guide](REPRODUCING.md).
+This command verifies the final evidence, exports the manuscript table sources, and redraws Figure 3 from recorded data. It does not rerun training or STA.
 
 ## Models and numerical evidence
 

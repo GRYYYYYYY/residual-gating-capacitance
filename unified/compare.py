@@ -1,4 +1,4 @@
-"""Paired comparison of the unified network against the frozen DATE-v3 baselines.
+"""Paired comparison of the unified network against the final-paper numerical baselines.
 
 Baseline evidence is the archived per-record file of the frozen cohort; the new
 model's evidence is produced by :mod:`unified.score` in the identical schema.
@@ -15,14 +15,11 @@ from .aggregate import (COHORTS, add_records, load_accumulator, mask_macro_nrmse
                         save_accumulator, stream_records)
 from .workspace import ROOT, file_hash, new_run, write_json
 
-CACHE = ROOT / 'runs/accum_v1'
+CACHE = ROOT / 'runs/final_comparison_cache'
 CACHE.mkdir(parents=True, exist_ok=True)
 
 #: Manuscript display names for the frozen comparison methods.
-BASELINES = [('linear', 'Linear'), ('pchip', 'PCHIP'), ('gp', 'GP'),
-             ('retrained_dro', 'Retrained residual'), ('hard_local', 'Local clamp'),
-             ('gated_none', 'Gated'), ('fixed', 'SACE-Select'),
-             ('risk', 'SACE-Risk'), ('top2', 'SACE-Mix')]
+BASELINES = [('openrcx_li', 'OpenRCX-LI'), ('pchip', 'PCHIP'), ('gp', 'RBF-GP'), ('idw', 'IDW')]
 PROTOCOLS = (('mcar', 'Random'), ('block', 'Block'), ('extrapolation', 'Extrap.'))
 
 
@@ -70,10 +67,13 @@ def main():
     parser.add_argument('--cohort', choices=sorted(COHORTS), required=True)
     parser.add_argument('--records', type=Path, nargs='+', required=True)
     parser.add_argument('--segment', default='all')
+    parser.add_argument('--method', default=None, help='method tag in candidate records')
     parser.add_argument('--output', type=str, default=None)
     args = parser.parse_args()
     accumulator = cohort_accumulator(args.cohort, args.records)
-    own = [('sace_r', 'SACE-R (unified)'), ('sace_r_anchor', '  . anchor only')]
+    method = args.method or ('sace_r_holdout' if args.cohort == 'public' else 'v10_all')
+    cmi = 'cmi1d' if args.cohort == 'public' else 'cmi2d'
+    own = [(cmi, 'CMI (rank-matched)'), (method, 'Jointly routed Transformer'), (method + '_anchor', 'Support anchor')]
     rows = table(accumulator, [*BASELINES, *own], segment=args.segment)
     rendered = render(rows, title=f'cohort={args.cohort} segment={args.segment} macro NRMSE (lower better)')
     print(rendered)

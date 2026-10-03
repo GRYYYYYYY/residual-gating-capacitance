@@ -1,5 +1,6 @@
 """Run the released three-seed ensemble on one deterministic held-out episode."""
 import argparse
+import os
 import hashlib
 import json
 from pathlib import Path
@@ -12,9 +13,10 @@ from pdkcap.common import read_tables
 from pdkcap.sampling import mask
 from pdkcap.train import unique_tables
 
-def run(domain,root=ROOT):
+def run(domain,root=None):
+    root=Path(root or os.environ.get("RG_DATA_ROOT", ROOT))
     torch.set_num_threads(1)
-    entry=json.loads((ROOT/'configs/selected_models.json').read_text())[domain]
+    entry=json.loads((ROOT/'configs/paper_models.json').read_text())[domain]
     tables=unique_tables(read_tables(root/entry['cohort']))
     table=max(tables,key=lambda x:len(x['coordinates']))
     ckpts=[root/c['path'] for c in entry['checkpoints']]
@@ -31,7 +33,7 @@ def run(domain,root=ROOT):
                 query_mae=float(abs(prediction[query]-truth[query]).mean()),observed_values_preserved=True)
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--domain',choices=['public','reference','to_asap7','to_freepdk15'],default='reference');p.add_argument('--output',type=Path)
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--domain',choices=['public','reference','to_asap7'],default='reference');p.add_argument('--output',type=Path)
     a=p.parse_args();r=run(a.domain)
     if a.output:a.output.parent.mkdir(parents=True,exist_ok=True);a.output.write_text(json.dumps(r,indent=2)+'\n')
     print(json.dumps({k:v for k,v in r.items() if k not in ['observed','query','prediction']},indent=2))

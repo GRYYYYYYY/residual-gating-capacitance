@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "residual-gating-capacitance"
-version = "1.0.0"
+version = "1.1.0"
 description = "Jointly routed Transformer for chip capacitance prediction: interpolation, extrapolation and source-only transfer"
 requires-python = ">=3.10"
 license = {file = "LICENSE"}

@@ -13,9 +13,8 @@ The final manuscript is **Chip Capacitance Prediction by a Jointly Routed Transf
 | Table 3 / Figure 3 | `paper/tables/main_downstream_compact.tex`; four-panel horizontal figure in `paper/sta_visualization/gf180_ibex_50/figures/` |
 | Appendix E: matched controls and affine extrapolation | `experiments/paper_controls/`; 18 trained control members, three settings, two variants, three seeds |
 | Data fitting / selection / confirmation | `experiments/paper_controls/data_audit.json`, `database/catalog.json`, original run receipts |
-| Full historical numerical provenance | Immutable v1.0.0 downloads and `results/expected_tables/` (not final-paper layout/scope) |
 
-The final paper reports public rules, FEM reference, and **FreePDK15 → ASAP7** transfer. It does not include ASAP7 → FreePDK15 in the headline denominator. `configs/paper_models.json` is the final three-setting mapping; `configs/selected_models.json` retains the original four-setting archive for compatibility.
+The final paper reports public rules, FEM reference, and **FreePDK15 → ASAP7** transfer. Obsolete result tables, reverse-transfer outputs and superseded release-result downloads have been removed from the current distribution. `configs/paper_models.json` is the final three-setting mapping; `configs/selected_models.json` contains the same three settings.
 
 ## Counts and source-only selection
 
@@ -39,7 +38,8 @@ Full routing is better than the ungated model in 14/15 and the binary gate in 13
 
 - `python scripts/verify_final_paper.py` verifies the manuscript asset hashes, final scope, and recorded score aggregation; it does not rerun training or STA.
 - [Control reproduction](../experiments/paper_controls/README.md) regenerates supplementary tables and supplies fresh training and scoring commands.
-- `python scripts/reproduce_reports.py --sta ...` reproduces the **historical 39-table v1.0.0 release**, preserving its checksums and reverse-transfer results. It is not a claim to regenerate the final LaTeX formatting.
 - Full-model inference, data download, solver provenance and saved-layout STA replay remain described in [REPRODUCING.md](REPRODUCING.md).
 
 Compile the manuscript with `latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex` from `paper/` (TeX Live with `float`, `wrapfig` and the supplied conference style). Generated build files should not be committed.
+
+The v1.1.0 release contains only final-paper inputs, selected models, supporting experiment records and numerical/STA provenance. The old v1.0.0 Release is withdrawn. Git commit history is not rewritten.

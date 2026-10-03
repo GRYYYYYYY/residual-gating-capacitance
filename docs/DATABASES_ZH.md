@@ -19,16 +19,10 @@
 | `eval_to_asap7_confirmation_round3_main` | 8 | 1024 | {'confirmation': 8} | fixed evaluation cohort; never training data |
 | `eval_to_asap7_retrospective_original` | 16 | 2448 | {'test': 16} | fixed evaluation cohort; never training data |
 | `eval_to_asap7_retrospective_round2` | 8 | 1224 | {'test': 8} | fixed evaluation cohort; never training data |
-| `eval_to_freepdk15_boundary_round3_edge` | 1 | 128 | {'confirmation': 1} | fixed evaluation cohort; never training data |
-| `eval_to_freepdk15_confirmation_round3_main` | 8 | 1024 | {'confirmation': 8} | fixed evaluation cohort; never training data |
-| `eval_to_freepdk15_retrospective_original` | 16 | 2448 | {'test': 16} | fixed evaluation cohort; never training data |
-| `eval_to_freepdk15_retrospective_round2` | 8 | 1224 | {'test': 8} | fixed evaluation cohort; never training data |
 | `validation_public_val` | 256 | 3116 | {'val': 256} | fixed validation cohort for configuration selection |
 | `validation_reference_val` | 24 | 3472 | {'val': 24} | fixed validation cohort for configuration selection |
 | `validation_to_asap7_val` | 12 | 1736 | {'val': 12} | fixed validation cohort for configuration selection |
-| `validation_to_freepdk15_val` | 12 | 1736 | {'val': 12} | fixed validation cohort for configuration selection |
 | `transfer_to_asap7` | 28 | 4284 | {'test': 16, 'train': 8, 'val': 4} | source-only transfer fold of the original reference |
-| `transfer_to_freepdk15` | 28 | 4284 | {'train': 8, 'val': 4, 'test': 16} | source-only transfer fold of the original reference |
 | `matrices_original` | 4896 | — | — | fine FEM capacitance matrices; not an additional independent population |
 | `matrices_round2` | 3672 | — | — | fine FEM capacitance matrices; not an additional independent population |
 | `matrices_round3` | 3456 | — | — | fine FEM capacitance matrices; not an additional independent population |
@@ -51,4 +45,4 @@ holdout 库从原公开库派生，84 张表排除出 train/val/test；公开确
 
 ## 终稿范围
 
-终稿采用 public、reference 和 FreePDK15 → ASAP7 三个设置；反向迁移仅保留作历史数据。有效训练/验证表数与原始 JSONL 行数不同，具体见 [终稿对应说明](FINAL_PAPER.md)。终稿采用的检查点映射为 `configs/paper_models.json`。
+终稿采用 public、reference 和 FreePDK15 → ASAP7 三个设置；反向迁移的旧结果和下载入口已移除。有效训练/验证表数与原始 JSONL 行数不同，具体见 [终稿对应说明](FINAL_PAPER.md)。终稿采用的检查点映射为 `configs/paper_models.json`。

@@ -58,25 +58,5 @@
     "method": "v10_all",
     "cohort": "runs/round3_evaluation_inputs_v1/to_asap7_confirmation_round3_main.jsonl",
     "scored_tables": 8
-  },
-  "to_freepdk15": {
-    "record_run": "conf_v10_to_freepdk15",
-    "checkpoints": [
-      {
-        "path": "runs/v10_to_freepdk15_all_s0/checkpoint.pt",
-        "sha256": "7a7f8a86737f97984f6b9164fa190073df5ac67f155b7101d340e2d6a9e90184"
-      },
-      {
-        "path": "runs/v10_to_freepdk15_all_s1/checkpoint.pt",
-        "sha256": "ae8ac10e676d623caf6fb71c3a3e8f82fdb3804a0763c2fc7fb91e764c531fc0"
-      },
-      {
-        "path": "runs/v10_to_freepdk15_all_s2/checkpoint.pt",
-        "sha256": "ddaec6a27c31363c07b21db9cb0bf9ea7683f428df1c2d10f8a7554a08a1af0f"
-      }
-    ],
-    "method": "v10_all",
-    "cohort": "runs/round3_evaluation_inputs_v1/to_freepdk15_confirmation_round3_main.jsonl",
-    "scored_tables": 8
   }
 }

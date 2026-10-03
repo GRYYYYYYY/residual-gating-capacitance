@@ -27,7 +27,7 @@ INPUTS = {
     'reference_train_tables': ARCHIVE / 'runs/reference_dataset_v2/tables.jsonl',
     'round2_reference_tables': ARCHIVE / 'runs/round2_reference_dataset_v1/tables.jsonl',
 }
-FROZEN_PROTOCOL = ARCHIVE / 'configs/round3_protocol.json'
+FROZEN_PROTOCOL = ROOT / 'configs/round3_protocol.json'
 
 
 def archive_on_path():

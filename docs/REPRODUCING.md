@@ -1,6 +1,6 @@
 # Reproduction levels
 
-For final-paper scope, split counts and supplementary controls, see [FINAL_PAPER.md](FINAL_PAPER.md). Run `python scripts/verify_final_paper.py` to verify the checked-in final-paper evidence. The 39-table command below reproduces the immutable historical release, not the final manuscript formatting.
+For final-paper scope, split counts and supplementary controls, see [FINAL_PAPER.md](FINAL_PAPER.md). Run `python scripts/verify_final_paper.py` to verify the checked-in final-paper evidence.
 
 Run from the repository root after installing the package in a fresh environment. Download only the packages needed by your level. Versions used for the portable validation are pinned in `requirements-validated.txt`. Original per-run receipts retain the training configuration and numerical evidence; the release makes no claim that a different library version produces identical retraining trajectories.
 
@@ -27,7 +27,7 @@ python scripts/inference_demo.py --domain reference
 python scripts/inference_demo.py --domain to_asap7
 ```
 
-These commands each score ONE deterministic held-out episode. They test loading and inference, not paper-level aggregates. Historical four-domain exact original-vs-portable prediction parity is recorded in `results/inference_parity.json`.
+These commands each score ONE deterministic held-out episode. They test loading and inference, not paper-level aggregates.
 
 Full reference confirmation scoring, into a new run:
 
@@ -40,14 +40,14 @@ python -m unified.score \
 
 For the public domain use the three `holdout_g_s*` checkpoints and `public_retrospective_original.jsonl`. `configs/paper_models.json` is the authoritative mapping for the three final-paper settings.
 
-## 3. Historical v1.0.0 table/figure reproduction
+## 3. Final-paper table and figure export
 
 ```bash
 python -m capdata fetch database experiment-records sta-visualization
 python scripts/reproduce_reports.py --sta --output results/my_reproduction
 ```
 
-This recomputes the reported aggregation from recorded predictions and measurements. It verifies all 39 historical v1.0.0 tables, writes new figure outputs and does not rerun latency benchmarks, training or FEM solves. Individual entry points: `analysis/build_tables.py --regimes`, `analysis/build_tables_v3.py`, and `analysis/sta/analyze_plot.py CASE_DIRECTORY`. Copy a case's `raw/` and `provenance.json` to a fresh directory before invoking the plotting script to preserve downloaded artifacts.
+This verifies final-paper evidence and exports its table sources; `--sta` regenerates the horizontal Figure 3. It does not retrain models, rerun field solvers or measure fresh latency.
 
 ## 4. Retraining
 

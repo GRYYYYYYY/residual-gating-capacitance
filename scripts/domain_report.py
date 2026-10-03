@@ -25,14 +25,12 @@ BASELINE = (('cmi1d', 'CMI-1D'), ('cmi2d', 'CMI-2D'), ('cmi4d', 'CMI-4D'),
 #: mismatched call is undefined and would otherwise answer through the shared
 #: fallback, flattering the baseline.  The generic interpolators are defined at
 #: any rank and are always shown.
-RANK = {'public': 1, 'reference': 2, 'to_asap7': 2, 'to_freepdk15': 2}
+RANK = {'public': 1, 'reference': 2, 'to_asap7': 2}
 RANK_OF = {'cmi1d': 1, 'cmi2d': 2, 'cmi4d': 4}
 CONFIRMATION = {
-    'public': ('round3_fixed_public_retrospective_original_v1', 'runs/bl2_public_test'),
-    'reference': ('round3_fixed_reference_confirmation_round3_main_v1', 'runs/bl2_reference_conf'),
-    'to_asap7': ('round3_fixed_to_asap7_confirmation_round3_main_v1', 'runs/bl2_to_asap7_conf'),
-    'to_freepdk15': ('round3_fixed_to_freepdk15_confirmation_round3_main_v1',
-                     'runs/bl2_to_freepdk15_conf'),
+    'public': ('round3_fixed_public_retrospective_original_v1', 'runs/bl3_public_conf'),
+    'reference': ('round3_fixed_reference_confirmation_round3_main_v1', 'runs/bl3_reference_conf'),
+    'to_asap7': ('round3_fixed_to_asap7_confirmation_round3_main_v1', 'runs/bl3_to_asap7_conf'),
 }
 
 
