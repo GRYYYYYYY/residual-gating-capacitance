@@ -40,7 +40,7 @@ holdout 库从原公开库派生，84 张表排除出 train/val/test；公开确
 迁移、cross-fit 和 validation/evaluation 文件都是派生视图，不能叠加计算数据量或混回训练。
 固定版图 STA 仅改变寄生电容；观察值用于 fidelity，不证明 timing closure。
 
-原始 CTF 文件、商业 PTF、与本论文无关的其他研究数据不在历史数据公开包中；终稿论文现随仓库放在 `paper/`。CTF 可通过固定版本脚本独立下载。
+原始 CTF 文件、商业 PTF、与本论文无关的其他研究数据不在历史数据公开包中；仓库仅提供代码、数据和终稿实验结果，不包含论文 PDF 或 LaTeX。CTF 可通过固定版本脚本独立下载。
 全部机器清单及逐文件 SHA-256 见 `database/catalog.json`、`database/files.json`、`database/packages.json`。
 
 ## 终稿范围

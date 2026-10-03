@@ -47,7 +47,7 @@ python -m capdata fetch database experiment-records sta-visualization
 python scripts/reproduce_reports.py --sta --output results/my_reproduction
 ```
 
-This verifies final-paper evidence and exports its table sources; `--sta` regenerates the horizontal Figure 3. It does not retrain models, rerun field solvers or measure fresh latency.
+This verifies final-paper evidence and exports its result CSVs; `--sta` regenerates the horizontal Figure 3. It does not retrain models, rerun field solvers or measure fresh latency.
 
 ## 4. Retraining
 

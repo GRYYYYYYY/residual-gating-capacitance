@@ -1,0 +1,14 @@
+,In-support,,Out-of-support,,
+Method,Random,Block,Random,Block,Extrap.
+Public rules,,,,,
+Transformer + ungated residual,0.0875,0.0645,0.0965,0.1455,0.1675
+Anchor/neural binary gate,0.0850,0.0701,0.0954,0.1420,0.1629
+Full routing (reported ensemble),0.0803,0.0678,0.0910,0.1391,0.1620
+FEM reference,,,,,
+Transformer + ungated residual,0.0529,0.0885,0.1336,0.1867,0.1761
+Anchor/neural binary gate,0.0387,0.0560,0.1303,0.1479,0.1388
+Full routing (reported ensemble),0.0103,0.0366,0.0895,0.1203,0.1137
+Transfer to ASAP7,,,,,
+Transformer + ungated residual,0.0588,0.0868,0.1172,0.1482,0.1172
+Anchor/neural binary gate,0.0432,0.0640,0.1124,0.1291,0.1037
+Full routing (reported ensemble),0.0159,0.0531,0.0877,0.1358,0.1073

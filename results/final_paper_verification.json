@@ -1,9 +1,6 @@
 {
   "status": "passed",
   "checks": {
-    "manuscript_compiles": true,
-    "main_text_pages": 9,
-    "references_start_page": 10,
     "prediction_table_values_match_recorded_aggregation": true,
     "learned_control_table_exact_match": true,
     "affine_control_table_exact_match": true,
@@ -22,5 +19,6 @@
     "three_setting_inference_from_final_packages": true,
     "final_figure3_from_clean_install": true
   },
-  "limits": "No full retraining or STA rerun during cleanup. Final-paper negative findings remain. Obsolete release results and reverse-transfer presentation are removed."
+  "limits": "No full retraining or STA rerun during cleanup. Final-paper negative findings remain. Obsolete release results and reverse-transfer presentation are removed.",
+  "distribution": "Code, data and result CSVs only; manuscript and LaTeX sources excluded."
 }

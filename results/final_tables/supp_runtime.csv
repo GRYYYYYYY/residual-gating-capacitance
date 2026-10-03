@@ -1,0 +1,20 @@
+A. Original benchmark session; 50 timed rounds after warm-up,,,,,,
+Table class,Method,,ms/episode,ms/query,CMI ratio,
+Public (13 nodes),IDW,,0.890,0.148,0.62×,
+,RBF-GP,,1.208,0.201,0.84×,
+,CMI-1D,,1.432,0.239,1.00×,
+,Ours,,22.855,3.809,15.96×,
+Reference (128 nodes),IDW,,3.576,0.056,0.13×,
+,RBF-GP,,4.140,0.065,0.15×,
+,OpenRCX-LI,,10.377,0.162,0.38×,
+,CMI-2D,,27.043,0.423,1.00×,
+,PCHIP,,113.651,1.776,4.20×,
+,Ours,,109.036,1.704,4.03×,
+"B. Platform session; medians, same workload within each table class",,,,,,
+Platform,Nodes,ms/query,,P95 ms/episode,,CMI ratio
+,,CMI,Ours,CMI,Ours,Ours / CMI
+asap7,13,0.072,1.141,0.603,6.958,15.77×
+gf180,13,0.071,1.147,0.461,7.070,16.27×
+ihp_sg13g2,13,0.070,1.149,0.459,7.066,16.41×
+sky130,13,0.070,1.149,0.461,7.057,16.37×
+asap7,128,0.131,0.400,8.767,26.953,3.06×

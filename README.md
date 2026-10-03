@@ -12,16 +12,16 @@ The same formulation supports interpolation, extrapolation, and source-only tran
 
 ## Final-paper scope and results
 
-The authoritative manuscript is [the final paper](paper/paper.pdf), titled **Chip Capacitance Prediction by a Jointly Routed Transformer**. Its [LaTeX source](paper/main.tex), [tables](paper/tables), figures, and [SHA-256 manifest](paper/manifest.json) are included. The paper studies prediction from sparse observations, not reconstruction of an assumed complete physical table. Extrapolation is relative to the currently observed geometry support; it does not necessarily mean extrapolation outside the training distribution.
+This repository provides code, data and experimental results for **Chip Capacitance Prediction by a Jointly Routed Transformer**. The manuscript and LaTeX sources are not distributed here. The paper studies prediction from sparse observations, not reconstruction of an assumed complete physical table. Extrapolation is relative to the currently observed geometry support; it does not necessarily mean extrapolation outside the training distribution.
 
 | Evaluation | Final-paper result | Evidence |
 |---|---|---|
-| Main prediction comparison | Lower NRMSE than rank-matched commercial-style multilinear interpolation in **15/15** settings; better than the strongest listed numerical/statistical comparator in **14/15** | [Table 1](paper/tables/main_completion.tex), [Table 2](paper/tables/main_transfer.tex) |
-| Public-rule extrapolation | **84–86%** lower normalized error outside observed support at 30% missingness | [Table 1](paper/tables/main_completion.tex) |
-| Source-only transfer | **FreePDK15 → ASAP7**, eight target confirmation tables; target observations are inference inputs, with no parameter updates or target-label model selection | [Table 2](paper/tables/main_transfer.tex) |
-| Fixed-layout extraction and timing | Closer capacitance and worst-slack estimates in **16/16** settings across eight routed layouts | [Table 3](paper/tables/main_downstream_compact.tex), [Figure 3](paper/sta_visualization/gf180_ibex_50/figures/fig_downstream_sta_spatial_row.pdf) |
-| Matched-budget learned controls | Full routing beats ungated residual in **14/15**, binary gate in **13/15**; gains depend on the setting | [Learned controls](paper/tables/supp_matched_controls.tex), [paired intervals](paper/tables/supp_control_bootstrap.tex) |
-| Numerical extrapolation control | Full model beats validation-selected local affine extrapolation in **13/15** settings | [Affine control](paper/tables/supp_affine_control.tex) |
+| Main prediction comparison | Lower NRMSE than rank-matched commercial-style multilinear interpolation in **15/15** settings; better than the strongest listed numerical/statistical comparator in **14/15** | [Table 1](results/final_tables/main_completion.csv), [Table 2](results/final_tables/main_transfer.csv) |
+| Public-rule extrapolation | **84–86%** lower normalized error outside observed support at 30% missingness | [Table 1](results/final_tables/main_completion.csv) |
+| Source-only transfer | **FreePDK15 → ASAP7**, eight target confirmation tables; target observations are inference inputs, with no parameter updates or target-label model selection | [Table 2](results/final_tables/main_transfer.csv) |
+| Fixed-layout extraction and timing | Closer capacitance and worst-slack estimates in **16/16** settings across eight routed layouts | [Table 3](results/final_tables/main_downstream_compact.csv), [Figure 3 plotting code](scripts/plot_final_figure3.py) |
+| Matched-budget learned controls | Full routing beats ungated residual in **14/15**, binary gate in **13/15**; gains depend on the setting | [Learned controls](results/final_tables/supp_matched_controls.csv), [paired intervals](results/final_tables/supp_control_bootstrap.csv) |
+| Numerical extrapolation control | Full model beats validation-selected local affine extrapolation in **13/15** settings | [Affine control](results/final_tables/supp_affine_control.csv) |
 
 Public labels are extraction-rule values. Independent reference labels come from declared two-dimensional finite-element problems. Downstream results measure agreement with full-table extraction on fixed layouts, not timing closure or silicon accuracy. Full routing is not uniformly best: the binary gate wins two transfer conditions, the ungated model wins public in-support block masking, and local affine wins FEM/transfer out-of-support random masking. See [final-paper alignment and split definitions](docs/FINAL_PAPER.md).
 
@@ -71,7 +71,7 @@ The loader defaults to the training partition. Set `RG_DATA_ROOT` to use a separ
 python scripts/verify_final_paper.py
 ```
 
-This checks the manuscript manifest, final-paper scope, headline counts and supplementary score aggregates. [Supplementary control reproduction](experiments/paper_controls/README.md) provides fresh training/scoring and recorded-result regeneration.
+This checks final-paper scope, recorded-data hashes, headline counts and supplementary score aggregates. [Supplementary control reproduction](experiments/paper_controls/README.md) provides fresh training/scoring and recorded-result regeneration.
 
 ## Export final-paper tables and redraw Figure 3
 
@@ -80,7 +80,7 @@ python -m capdata fetch database experiment-records sta-visualization
 python scripts/reproduce_reports.py --sta --output results/my_reproduction
 ```
 
-This verifies the final-paper evidence, exports only the tables used by the final manuscript, and optionally redraws the horizontal Figure 3. Table export preserves manuscript formatting; it is not a fresh training or STA run.
+This verifies the final-paper evidence, exports only the CSV result tables presented in the final manuscript, and optionally redraws the horizontal Figure 3. CSV export preserves reported values; it is not a fresh training or STA run.
 
 Validation records cover final-paper table aggregation, matched controls, figure regeneration, and saved-layout STA replay. Run lightweight checks with:
 

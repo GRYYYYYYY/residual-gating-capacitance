@@ -1,0 +1,14 @@
+,In-support,,Out-of-support,,
+Method,Random,Block,Random,Block,Extrap.
+Public rules,,,,,
+Support anchor,0.1286,0.2812,0.5531,0.9546,1.1867
+Local affine (validation-selected),0.2062,0.4324,0.4766,0.5588,0.6503
+Full routing (reported ensemble),0.0803,0.0678,0.0910,0.1391,0.1620
+FEM reference,,,,,
+Support anchor,0.0208,0.1286,0.0606,0.6542,0.5663
+Local affine (validation-selected),0.0389,0.1579,0.0621,0.3374,0.2376
+Full routing (reported ensemble),0.0103,0.0366,0.0895,0.1203,0.1137
+Transfer to ASAP7,,,,,
+Support anchor,0.0205,0.1246,0.0595,0.6374,0.5580
+Local affine (validation-selected),0.0381,0.1542,0.0594,0.3288,0.2364
+Full routing (reported ensemble),0.0159,0.0531,0.0877,0.1358,0.1073

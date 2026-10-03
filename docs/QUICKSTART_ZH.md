@@ -64,7 +64,7 @@ python -m capdata fetch database experiment-records sta-visualization
 python scripts/reproduce_reports.py --sta --output results/my_reproduction
 ```
 
-This command verifies the final evidence, exports the manuscript table sources, and redraws Figure 3 from recorded data. It does not rerun training or STA.
+This command verifies the final evidence, exports the final result CSVs, and redraws Figure 3 from recorded data. It does not rerun training or STA.
 
 ## Models and numerical evidence
 

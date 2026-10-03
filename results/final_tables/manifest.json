@@ -1,0 +1,16 @@
+{
+  "main_completion.csv": "aa880a0756cd7dbcaef18088c89384e51f1497473c9d11322996a22c2bd36b59",
+  "main_design.csv": "1c25993aa033f9e44d56407be89cd1e6635a4cad321137d9df6504dd6b444247",
+  "main_downstream_compact.csv": "7239ee74036eb833b0a4b92480a4bab7037c00f95e7764c805efe81ce01e718f",
+  "main_transfer.csv": "71a05eb2e374916b0c0f9c450dbbe8ebdff819a75702eea710372074e81233cc",
+  "mode_stats.csv": "4bb1a9c5ef22462582e1a09d7262576d5fed480199b6e8b604a27bed241e511d",
+  "sta_decision_fidelity.csv": "7315c5aa5093ffaa1f8d0ff565f78882a77a36f495cf6aa03c70791af4686663",
+  "supp_affine_control.csv": "0dfc54734226c8d9e01dffcc8569c6d42cc44935a7c30b147761052665ee7818",
+  "supp_boundary.csv": "4612b23f62a1fb094f0c8861daf6113cb3faa5dcfd742c4e62670089b3a02d1b",
+  "supp_control_bootstrap.csv": "87c6f6bd9fa9bd6c0dfccd84daa1adca782cdee95301b7a159c4e62d6e7903e0",
+  "supp_keyvariants.csv": "64b09301079d1d077eec0f0cb37aaf0a761c3c0d4056c5ea69c4fec9e79ee13b",
+  "supp_matched_controls.csv": "58dc4556ee77ae13345d0e740c76ed0e6ee6ce635a2d055f4c2f549790abfd3d",
+  "supp_operators.csv": "9d83d408a60d920c637c2fb4b0dc134d3bad20c702728799ab27421b57b93fe5",
+  "supp_runtime.csv": "10a5e7b065cdbbc97f5f020c629e84c3daa1f2d87ce67732de65e12c37faa618",
+  "supp_surface.csv": "3e1330e30b81d38238d456a002e8dc231896e74d21ac77518802de2603012b5a"
+}

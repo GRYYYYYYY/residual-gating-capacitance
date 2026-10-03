@@ -28,7 +28,7 @@ python experiments/paper_controls/build_supplement.py
 python experiments/paper_controls/bootstrap_controls.py
 ```
 
-Generated LaTeX appears in `experiments/paper_controls/generated/tables/`; the checked-in manuscript is never overwritten. Compare `supp_matched_controls.tex`, `supp_affine_control.tex`, and `supp_control_bootstrap.tex` with `paper/tables/`. Paired intervals use 2,000 public-group bootstrap replicates and are pointwise, not simultaneous or uncertainty over training randomness.
+Optional generated tables appear in `experiments/paper_controls/generated/tables/` (ignored by Git). The corresponding published values are provided as CSV in `results/final_tables/`. Paired intervals use 2,000 public-group bootstrap replicates and are pointwise, not simultaneous or uncertainty over training randomness.
 
 ## Fresh training/scoring
 

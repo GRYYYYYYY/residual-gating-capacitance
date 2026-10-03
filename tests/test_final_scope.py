@@ -16,6 +16,7 @@ class FinalScopeTests(unittest.TestCase):
         wanted={'public','reference','to_asap7'}
         for name in ['paper_models.json','selected_models.json']:
             self.assertEqual(set(json.loads((ROOT/'configs'/name).read_text())),wanted)
+        self.assertFalse((ROOT/'paper').exists())
         self.assertFalse((ROOT/'results/expected_tables').exists())
         self.assertFalse((ROOT/'analysis/build_tables.py').exists())
 
