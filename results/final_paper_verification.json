@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "checks": {
+    "manuscript_compiles": true,
+    "main_text_pages": 9,
+    "references_start_page": 10,
+    "prediction_table_values_match_recorded_aggregation": true,
+    "learned_control_table_exact_match": true,
+    "affine_control_table_exact_match": true,
+    "bootstrap_table_exact_match": true,
+    "hidden_query_label_independence": true,
+    "shared_tokens_and_support_inputs": true,
+    "ungated_and_binary_initialization_identities": true,
+    "affine_extrapolation_1d_2d": true,
+    "query_population_alignment_all_three_settings": true,
+    "full_ensemble_replay_nrmse_max_difference": 0.0,
+    "fresh_two_step_public_residual_training": true,
+    "fresh_two_step_reference_binary_training": true,
+    "horizontal_figure3_regenerated": true,
+    "existing_unit_tests_passed": 3
+  },
+  "limits": "No full retraining or STA rerun during this synchronization. Historical release artifacts remain immutable; final-paper scope excludes reverse transfer."
+}

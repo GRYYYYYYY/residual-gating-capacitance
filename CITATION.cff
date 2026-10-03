@@ -1,11 +1,9 @@
 cff-version: 1.2.0
-message: "Please cite this versioned software/data repository when using the artifacts."
+message: "Please cite the final-paper repository and specify the commit or release used."
 type: software
-title: "Support-Conditioned Residual Gating for Sparse Capacitance Completion"
+title: "Chip Capacitance Prediction by a Jointly Routed Transformer"
 authors:
   - name: "Residual Gating Contributors"
-version: 1.0.0
-date-released: 2026-09-24
 repository-code: "https://github.com/GRYYYYYYY/residual-gating-capacitance"
-url: "https://github.com/GRYYYYYYY/residual-gating-capacitance/releases/tag/v1.0.0"
+url: "https://github.com/GRYYYYYYY/residual-gating-capacitance"
 license: MIT

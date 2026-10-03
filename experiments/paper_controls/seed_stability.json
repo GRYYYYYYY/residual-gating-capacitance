@@ -1,0 +1,224 @@
+{
+  "public": {
+    "residual": {
+      "full_seed_pair_wins": 12,
+      "total_seed_pairs": 15,
+      "full_wins_all_three_seeds_in": [
+        "inside/mcar",
+        "outside/block",
+        "outside/extrapolation"
+      ],
+      "wins_by_condition": {
+        "inside/mcar": [
+          true,
+          true,
+          true
+        ],
+        "inside/block": [
+          true,
+          false,
+          true
+        ],
+        "outside/mcar": [
+          false,
+          true,
+          false
+        ],
+        "outside/block": [
+          true,
+          true,
+          true
+        ],
+        "outside/extrapolation": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    "binary": {
+      "full_seed_pair_wins": 9,
+      "total_seed_pairs": 15,
+      "full_wins_all_three_seeds_in": [
+        "inside/mcar"
+      ],
+      "wins_by_condition": {
+        "inside/mcar": [
+          true,
+          true,
+          true
+        ],
+        "inside/block": [
+          true,
+          false,
+          true
+        ],
+        "outside/mcar": [
+          false,
+          true,
+          false
+        ],
+        "outside/block": [
+          false,
+          true,
+          true
+        ],
+        "outside/extrapolation": [
+          false,
+          false,
+          true
+        ]
+      }
+    }
+  },
+  "reference": {
+    "residual": {
+      "full_seed_pair_wins": 15,
+      "total_seed_pairs": 15,
+      "full_wins_all_three_seeds_in": [
+        "inside/mcar",
+        "inside/block",
+        "outside/mcar",
+        "outside/block",
+        "outside/extrapolation"
+      ],
+      "wins_by_condition": {
+        "inside/mcar": [
+          true,
+          true,
+          true
+        ],
+        "inside/block": [
+          true,
+          true,
+          true
+        ],
+        "outside/mcar": [
+          true,
+          true,
+          true
+        ],
+        "outside/block": [
+          true,
+          true,
+          true
+        ],
+        "outside/extrapolation": [
+          true,
+          true,
+          true
+        ]
+      }
+    },
+    "binary": {
+      "full_seed_pair_wins": 13,
+      "total_seed_pairs": 15,
+      "full_wins_all_three_seeds_in": [
+        "inside/mcar",
+        "inside/block",
+        "outside/mcar"
+      ],
+      "wins_by_condition": {
+        "inside/mcar": [
+          true,
+          true,
+          true
+        ],
+        "inside/block": [
+          true,
+          true,
+          true
+        ],
+        "outside/mcar": [
+          true,
+          true,
+          true
+        ],
+        "outside/block": [
+          true,
+          false,
+          true
+        ],
+        "outside/extrapolation": [
+          true,
+          false,
+          true
+        ]
+      }
+    }
+  },
+  "to_asap7": {
+    "residual": {
+      "full_seed_pair_wins": 13,
+      "total_seed_pairs": 15,
+      "full_wins_all_three_seeds_in": [
+        "inside/mcar",
+        "inside/block",
+        "outside/mcar"
+      ],
+      "wins_by_condition": {
+        "inside/mcar": [
+          true,
+          true,
+          true
+        ],
+        "inside/block": [
+          true,
+          true,
+          true
+        ],
+        "outside/mcar": [
+          true,
+          true,
+          true
+        ],
+        "outside/block": [
+          true,
+          true,
+          false
+        ],
+        "outside/extrapolation": [
+          true,
+          true,
+          false
+        ]
+      }
+    },
+    "binary": {
+      "full_seed_pair_wins": 13,
+      "total_seed_pairs": 15,
+      "full_wins_all_three_seeds_in": [
+        "inside/mcar",
+        "inside/block",
+        "outside/mcar"
+      ],
+      "wins_by_condition": {
+        "inside/mcar": [
+          true,
+          true,
+          true
+        ],
+        "inside/block": [
+          true,
+          true,
+          true
+        ],
+        "outside/mcar": [
+          true,
+          true,
+          true
+        ],
+        "outside/block": [
+          true,
+          false,
+          true
+        ],
+        "outside/extrapolation": [
+          true,
+          false,
+          true
+        ]
+      }
+    }
+  }
+}

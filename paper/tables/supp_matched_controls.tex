@@ -1,0 +1,22 @@
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrrr@{}}\toprule
+ & \multicolumn{2}{c}{In-support} & \multicolumn{3}{c}{Out-of-support} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-6}
+Method & Random & Block & Random & Block & Extrap. \\
+\midrule
+\multicolumn{6}{@{}l}{\textit{Public rules}} \\
+Transformer + ungated residual & 0.0875 & \textbf{0.0645} & 0.0965 & 0.1455 & 0.1675 \\
+Anchor/neural binary gate & 0.0850 & 0.0701 & 0.0954 & 0.1420 & 0.1629 \\
+\textbf{Full routing (reported ensemble)} & \textbf{0.0803} & \underline{0.0678} & \textbf{0.0910} & \textbf{0.1391} & \textbf{0.1620} \\
+\midrule
+\multicolumn{6}{@{}l}{\textit{FEM reference}} \\
+Transformer + ungated residual & 0.0529 & 0.0885 & 0.1336 & 0.1867 & 0.1761 \\
+Anchor/neural binary gate & 0.0387 & 0.0560 & 0.1303 & 0.1479 & 0.1388 \\
+\textbf{Full routing (reported ensemble)} & \textbf{0.0103} & \textbf{0.0366} & \textbf{0.0895} & \textbf{0.1203} & \textbf{0.1137} \\
+\midrule
+\multicolumn{6}{@{}l}{\textit{Transfer to ASAP7}} \\
+Transformer + ungated residual & 0.0588 & 0.0868 & 0.1172 & 0.1482 & 0.1172 \\
+Anchor/neural binary gate & 0.0432 & 0.0640 & 0.1124 & \textbf{0.1291} & \textbf{0.1037} \\
+\textbf{Full routing (reported ensemble)} & \textbf{0.0159} & \textbf{0.0531} & \textbf{0.0877} & \underline{0.1358} & \underline{0.1073} \\
+\bottomrule\end{tabular*}

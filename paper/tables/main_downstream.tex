@@ -1,0 +1,27 @@
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llcrrrrrr@{}}\toprule
+ &  &  & \multicolumn{2}{c}{Cap. NRMSE $\downarrow$} & \multicolumn{2}{c}{Max $|\Delta\mathrm{WS}|$ (ns) $\downarrow$} & \multicolumn{2}{c}{Max $|\Delta\mathrm{TNS}|$ (ns) $\downarrow$} \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}
+Process & Design & Mask & Linear & \textbf{Ours} & Linear & \textbf{Ours} & Linear & \textbf{Ours} \\
+\midrule
+asap7 & AES & 30\% & 0.0185 & \textbf{0.0025} & 0.000155 & \textbf{0.00003533} & 0.003715 & \textbf{0.000235} \\
+ &  & 50\% & 0.0187 & \textbf{0.0027} & 0.0005771 & \textbf{0.0001836} & 0.003178 & \textbf{0.0009669} \\
+ & IBEX & 30\% & 0.0183 & \textbf{0.0024} & 0.009746 & \textbf{0.0009348} & 0.03004 & \textbf{0.005607} \\
+ &  & 50\% & 0.0213 & \textbf{0.0022} & 0.01083 & \textbf{0.0001934} & 0.03004 & \textbf{0.001202} \\
+\midrule
+gf180 & AES & 30\% & 0.0018 & \textbf{0.0009} & 0.00191 & \textbf{0.00074} & 0.344 & \textbf{0.153} \\
+ &  & 50\% & 0.0222 & \textbf{0.0068} & 0.05479 & \textbf{0.01525} & 10.05 & \textbf{2.875} \\
+ & IBEX & 30\% & 0.0014 & \textbf{0.0008} & 0.00441 & \textbf{0.00214} & 5.54 & \textbf{2.68} \\
+ &  & 50\% & 0.0199 & \textbf{0.0061} & 0.1328 & \textbf{0.03701} & 168.6 & \textbf{50.22} \\
+\midrule
+ihp-sg13g2 & AES & 30\% & 0.0175 & \textbf{0.0016} & 0.005925 & \textbf{0.001105} & 0 & 0 \\
+ &  & 50\% & 0.0353 & \textbf{0.0025} & 0.04597 & \textbf{0.002026} & 0 & 0 \\
+ & IBEX & 30\% & 0.0062 & \textbf{0.0006} & 0.01169 & \textbf{0.001394} & 0 & 0 \\
+ &  & 50\% & 0.0198 & \textbf{0.0018} & 0.04383 & \textbf{0.004394} & 0 & 0 \\
+\midrule
+sky130hs & AES & 30\% & 0.0054 & \textbf{0.0007} & 0.00169 & \textbf{0.0006721} & 0.003441 & \textbf{0.001301} \\
+ &  & 50\% & 0.0182 & \textbf{0.0021} & 0.01598 & \textbf{0.00267} & 0.02583 & \textbf{0.005426} \\
+ & IBEX & 30\% & 0.0046 & \textbf{0.0006} & 0.003377 & \textbf{0.000625} & 0.6307 & \textbf{0.1274} \\
+ &  & 50\% & 0.0141 & \textbf{0.0022} & 0.01304 & \textbf{0.003031} & 3.592 & \textbf{0.7839} \\
+\bottomrule\end{tabular*}

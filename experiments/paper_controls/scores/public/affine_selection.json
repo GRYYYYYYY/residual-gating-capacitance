@@ -1,0 +1,47 @@
+{
+  "validation": "experiments/paper_controls/scores/public/public_holdout_val.jsonl",
+  "validation_sha256": "6560f6adb25b71a25febae23ebe9a6eb7faa04d3aebed3c3d140504da605e9d9",
+  "candidates": {
+    "local_affine_k2": {
+      "inside/mcar": 0.11350252057991869,
+      "inside/block": 0.2909837210329622,
+      "inside/extrapolation": null,
+      "outside/mcar": 0.579052252189169,
+      "outside/block": 0.6996756478903188,
+      "outside/extrapolation": 0.8471197917218743
+    },
+    "local_affine_k4": {
+      "inside/mcar": 0.17358422885865163,
+      "inside/block": 0.38685659646600634,
+      "inside/extrapolation": null,
+      "outside/mcar": 0.5630438932174904,
+      "outside/block": 0.42516030107061015,
+      "outside/extrapolation": 0.4487439058250244
+    },
+    "local_affine_k8": {
+      "inside/mcar": 0.2866603964586343,
+      "inside/block": 0.3377505291080654,
+      "inside/extrapolation": null,
+      "outside/mcar": 0.6268647054536552,
+      "outside/block": 0.594979568130172,
+      "outside/extrapolation": 0.6618814416320564
+    },
+    "local_affine_k16": {
+      "inside/mcar": 0.28775285853985755,
+      "inside/block": 0.337350446178084,
+      "inside/extrapolation": null,
+      "outside/mcar": 0.6283254184531332,
+      "outside/block": 0.6000445649608674,
+      "outside/extrapolation": 0.6687493266875257
+    }
+  },
+  "objective": {
+    "local_affine_k2": 0.5060667866828485,
+    "local_affine_k4": 0.3994777850875566,
+    "local_affine_k8": 0.5016273281565167,
+    "local_affine_k16": 0.5044445229638935
+  },
+  "selected": "local_affine_k4",
+  "criterion": "equal mean over defined inside/outside x random/block/extrapolation cells at 30%; five fixed mask seeds",
+  "confirmation_read_for_selection": false
+}

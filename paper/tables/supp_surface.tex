@@ -1,0 +1,25 @@
+\scriptsize
+\setlength{\tabcolsep}{2.6pt}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llrrrrrrrr@{}}\toprule
+ &  & \multicolumn{2}{c}{10\% missing} & \multicolumn{2}{c}{30\% missing} & \multicolumn{2}{c}{50\% missing} & \multicolumn{2}{c}{70\% missing} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}\cmidrule(lr){9-10}
+Cohort & Regime / mask & \textbf{Ours} & CMI & \textbf{Ours} & CMI & \textbf{Ours} & CMI & \textbf{Ours} & CMI \\
+\midrule
+Public & In / random & \textbf{0.0386} & 0.1862 & \textbf{0.0803} & 0.1286 & \textbf{0.0827} & 0.1502 & \textbf{0.0827} & 0.1879 \\
+ & In / block & \textbf{0.0386} & 0.1862 & \textbf{0.0678} & 0.2812 & \textbf{0.0849} & 0.1692 & \textbf{0.1089} & 0.9221 \\
+ & Out / random & \textbf{0.0670} & 0.1550 & \textbf{0.0910} & 0.5531 & \textbf{0.0792} & 0.4511 & \textbf{0.1259} & 0.6195 \\
+ & Out / block & \textbf{0.0670} & 0.1550 & \textbf{0.1391} & 0.9546 & \textbf{0.1143} & 0.7181 & \textbf{0.1186} & 0.6984 \\
+ & Out / extrap. & \textbf{0.0670} & 0.1550 & \textbf{0.1620} & 1.1867 & \textbf{0.1319} & 0.8819 & \textbf{0.1073} & 0.7849 \\
+\midrule
+Reference & In / random & \textbf{0.0059} & 0.0531 & \textbf{0.0103} & 0.0495 & \textbf{0.0167} & 0.0391 & \textbf{0.0240} & 0.0528 \\
+ & In / block & \textbf{0.0534} & 0.0703 & \textbf{0.0366} & 0.1502 & \textbf{0.0343} & 0.2481 & \textbf{0.0370} & 0.4008 \\
+ & Out / random & \textbf{0.2077} & 0.4236 & \textbf{0.0895} & 0.1344 & \textbf{0.0855} & 0.1639 & \textbf{0.0557} & 0.1151 \\
+ & Out / block & \textbf{0.1832} & 0.5769 & \textbf{0.1203} & 0.9790 & \textbf{0.0803} & 0.8870 & \textbf{0.0887} & 0.9009 \\
+ & Out / extrap. & \textbf{0.1826} & 0.4857 & \textbf{0.1137} & 0.6404 & \textbf{0.0935} & 0.7525 & \textbf{0.1239} & 0.7935 \\
+\midrule
+To ASAP7 & In / random & \textbf{0.0102} & 0.0523 & \textbf{0.0159} & 0.0488 & \textbf{0.0254} & 0.0386 & \textbf{0.0378} & 0.0520 \\
+ & In / block & \textbf{0.0643} & 0.0679 & \textbf{0.0531} & 0.1473 & \textbf{0.0614} & 0.2439 & \textbf{0.0678} & 0.3949 \\
+ & Out / random & \textbf{0.1886} & 0.4122 & \textbf{0.0877} & 0.1330 & \textbf{0.0876} & 0.1607 & \textbf{0.0754} & 0.1133 \\
+ & Out / block & \textbf{0.1574} & 0.5614 & \textbf{0.1358} & 0.9583 & \textbf{0.0994} & 0.8729 & \textbf{0.1077} & 0.8914 \\
+ & Out / extrap. & \textbf{0.1677} & 0.4737 & \textbf{0.1073} & 0.6297 & \textbf{0.0929} & 0.7429 & \textbf{0.1308} & 0.7862 \\
+\bottomrule\end{tabular*}

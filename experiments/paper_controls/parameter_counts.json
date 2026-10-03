@@ -1,0 +1,17 @@
+{
+  "public": {
+    "full": 105604,
+    "residual": 101506,
+    "binary": 104809
+  },
+  "reference": {
+    "full": 106384,
+    "residual": 101699,
+    "binary": 105196
+  },
+  "to_asap7": {
+    "full": 106384,
+    "residual": 101699,
+    "binary": 105196
+  }
+}

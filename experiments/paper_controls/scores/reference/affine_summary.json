@@ -1,0 +1,10 @@
+{
+  "local_affine_k8": {
+    "inside/mcar": 0.03890072423093112,
+    "inside/block": 0.1579189078492854,
+    "inside/extrapolation": null,
+    "outside/mcar": 0.06209474872459122,
+    "outside/block": 0.33735102753087665,
+    "outside/extrapolation": 0.23763129012494222
+  }
+}

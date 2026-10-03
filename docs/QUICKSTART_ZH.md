@@ -1,6 +1,8 @@
 # Quickstart
 
-This repository provides code, datasets, models, and results for **Support-Conditioned Residual Gating for Sparse Capacitance Completion**. See the [README](../README.md) for the main results and figure/table links. Large datasets and models are distributed through GitHub Releases.
+This repository provides code, datasets, models, and results for **Chip Capacitance Prediction by a Jointly Routed Transformer**. See the [README](../README.md) for the main results and figure/table links. Large datasets and models are distributed through GitHub Releases.
+
+See [final-paper alignment](FINAL_PAPER.md) and run `python scripts/verify_final_paper.py` for the final manuscript. The v1.0.0 release and its 39-table reproduction command retain historical scope.
 
 ## Installation and inference
 
@@ -36,7 +38,7 @@ Public rule tables and generated FEM tables differ in physical meaning, units, a
 - `database/catalog.json`: dataset IDs, roles, versions, sizes, units, splits, packages, and relative paths.
 - `database/packages.json`: archive names, sizes, and SHA-256 checksums.
 - `database/files.json` and `database/files-extended.json.gz`: exported-file and source-file hashes.
-- `configs/selected_models.json`: the selected checkpoints for all four domains.
+- `configs/paper_models.json`: the selected checkpoints for the three final-paper settings.
 
 To download and verify every package:
 
@@ -55,17 +57,17 @@ python -m capdata fetch database models --from-dir /path/to/downloads
 
 These commands can be repeated safely. The installer refuses to overwrite local files whose contents differ from the released hashes.
 
-## Reproduce tables and figures
+## Reproduce historical release tables and figures
 
 ```bash
 python -m capdata fetch database experiment-records sta-visualization
 python scripts/reproduce_reports.py --sta --output results/my_reproduction
 ```
 
-This command checks all 39 result tables byte-for-byte against the released versions and rebuilds STA spatial figures from recorded endpoints, paths, and coordinates. It reuses recorded measurements. For full scoring, retraining, and saved-layout STA replay, see the [reproduction guide](REPRODUCING.md).
+This command checks all 39 historical v1.0.0 result tables byte-for-byte against the released versions and rebuilds STA spatial figures from recorded endpoints, paths, and coordinates. It reuses recorded measurements. For full scoring, retraining, and saved-layout STA replay, see the [reproduction guide](REPRODUCING.md).
 
 ## Models and numerical evidence
 
-`configs/selected_models.json` identifies the three selected model members for each of the four domains, together with their checksums. Other checkpoints support initialization, model selection, or ablation studies.
+`configs/paper_models.json` identifies the three selected model members for each of the three final-paper settings, together with their checksums. Other checkpoints support initialization, model selection, or ablation studies.
 
 The optional numerical-evidence package contains FEM configurations, results, logs, and solver source code. Original CTF inputs are retrieved separately using the pinned download script. Third-party rule and layout licenses are documented in [THIRD_PARTY.md](../THIRD_PARTY.md).

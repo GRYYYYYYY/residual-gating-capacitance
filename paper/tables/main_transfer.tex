@@ -1,0 +1,19 @@
+\scriptsize
+\setlength{\tabcolsep}{1.5pt}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrrr@{}}\toprule
+ & \multicolumn{5}{c}{To ASAP7 (8 tables)} \\
+\cmidrule(lr){2-6}
+ & \multicolumn{2}{c}{In-support} & \multicolumn{3}{c}{Out-of-support} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-6}
+Method & Rnd. & Block & Rnd. & Block & Ext. \\
+\midrule
+CMI-2D & 0.0488 & 0.1473 & 0.1330 & 0.9583 & 0.6297 \\
+OpenRCX-LI & 0.0444 & 0.1554 & 0.2173 & 0.9562 & 0.6574 \\
+PCHIP & 0.0384 & 0.0974 & 0.2173 & 0.9562 & 0.6574 \\
+IDW & 0.1331 & 0.9024 & 3.1647 & 4.7812 & 3.5543 \\
+RBF-GP & \textbf{0.0113} & 2.5309 & 0.8194 & 16.0145 & 15.5718 \\
+\midrule
+\textbf{Ours} & \underline{0.0159} & \textbf{0.0531} & \textbf{0.0877} & \textbf{0.1358} & \textbf{0.1073} \\
+\midrule
+Reduction vs.\ CMI & 67.4\% & 64.0\% & 34.1\% & 85.8\% & 83.0\% \\
+\bottomrule\end{tabular*}

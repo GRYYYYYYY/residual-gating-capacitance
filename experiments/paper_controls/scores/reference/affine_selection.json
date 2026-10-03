@@ -1,0 +1,47 @@
+{
+  "validation": "runs/round3_validation_inputs_v1/reference_val.jsonl",
+  "validation_sha256": "e89663a920722e1fa1e4b97a2c65dab312e913b33130349599ea7d5c921d537f",
+  "candidates": {
+    "local_affine_k2": {
+      "inside/mcar": 0.035825886707802686,
+      "inside/block": 0.21090339218079174,
+      "inside/extrapolation": null,
+      "outside/mcar": 0.03099347098123286,
+      "outside/block": 0.46721277075030465,
+      "outside/extrapolation": 0.5916052998492801
+    },
+    "local_affine_k4": {
+      "inside/mcar": 0.03663454096878189,
+      "inside/block": 0.17611311577807873,
+      "inside/extrapolation": null,
+      "outside/mcar": 0.03297041500212466,
+      "outside/block": 0.34037938861305617,
+      "outside/extrapolation": 0.584060172910638
+    },
+    "local_affine_k8": {
+      "inside/mcar": 0.0395937065858677,
+      "inside/block": 0.17810348871002624,
+      "inside/extrapolation": null,
+      "outside/mcar": 0.03680485511137023,
+      "outside/block": 0.35622735831510943,
+      "outside/extrapolation": 0.5243958185403513
+    },
+    "local_affine_k16": {
+      "inside/mcar": 0.0625827338947379,
+      "inside/block": 0.2286793983776843,
+      "inside/extrapolation": null,
+      "outside/mcar": 0.053273809085650714,
+      "outside/block": 0.502925307883468,
+      "outside/extrapolation": 0.3059741390682782
+    }
+  },
+  "objective": {
+    "local_affine_k2": 0.2673081640938824,
+    "local_affine_k4": 0.23403152665453592,
+    "local_affine_k8": 0.227025045452545,
+    "local_affine_k16": 0.23068707766196384
+  },
+  "selected": "local_affine_k8",
+  "criterion": "equal mean over defined inside/outside x random/block/extrapolation cells at 30%; five fixed mask seeds",
+  "confirmation_read_for_selection": false
+}

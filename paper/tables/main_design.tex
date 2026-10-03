@@ -1,0 +1,21 @@
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llrrr@{}}\toprule
+Comparison / setting & Cohort & Random & Block & Extrap. \\
+\midrule
+\multicolumn{5}{l}{\textit{A. Training stages; matched architecture, data and budget}} \\
+Anchor only & Public val. & 0.2195 & 0.5576 & 0.9125 \\
+Joint training from scratch & Public val. & 0.1827 & 0.2955 & 0.3767 \\
+Warm start; train gate only & Public val. & 0.1215 & 0.2050 & 0.2755 \\
+\textbf{Warm start; train jointly (ours)} & Public val. & 0.1000 & 0.1930 & 0.2755 \\
+\midrule
+\multicolumn{5}{l}{\textit{B. Stage-2 budget; public validation}} \\
+3000 steps & Public val. & 0.0832 & 0.1388 & 0.1945 \\
+6000 steps & Public val. & 0.0756 & 0.1297 & 0.1864 \\
+12000 steps & Public val. & 0.0734 & 0.1170 & 0.1632 \\
+24000 steps & Public val. & 0.0712 & 0.1098 & 0.1532 \\
+\midrule
+\multicolumn{5}{l}{\textit{C. Analytic-branch initialization; matched budget}} \\
+Prior $\beta_e=-8$ & Source val. & 0.0156 & 0.0443 & 0.1297 \\
+Prior $\beta_e=-2$ & Source val. & 0.0088 & 0.0336 & 0.1156 \\
+\bottomrule\end{tabular*}

@@ -21,3 +21,14 @@ results/reproduced*/
 results/my_*/
 
 historical/
+
+# Local manuscript builds and regenerated supplement outputs
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk
+paper/main.pdf
+experiments/paper_controls/generated/

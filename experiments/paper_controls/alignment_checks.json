@@ -1,0 +1,20 @@
+{
+  "public": {
+    "affine_matches_headline": true,
+    "matched_record_count": 12544,
+    "learned_matches_headline": true,
+    "full_replay_max_absolute_nrmse_difference": 0.0
+  },
+  "reference": {
+    "affine_matches_headline": true,
+    "matched_record_count": 584,
+    "learned_matches_headline": true,
+    "full_replay_max_absolute_nrmse_difference": 0.0
+  },
+  "to_asap7": {
+    "affine_matches_headline": true,
+    "matched_record_count": 292,
+    "learned_matches_headline": true,
+    "full_replay_max_absolute_nrmse_difference": 0.0
+  }
+}

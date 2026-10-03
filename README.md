@@ -1,6 +1,6 @@
-# Support-Conditioned Residual Gating for Sparse Capacitance Completion
+# Chip Capacitance Prediction by a Jointly Routed Transformer
 
-Code, datasets, trained models, and results for the paper **Support-Conditioned Residual Gating for Sparse Capacitance Completion**.
+Code, datasets, trained models, and results for the paper **Chip Capacitance Prediction by a Jointly Routed Transformer**.
 
 [Quickstart](docs/QUICKSTART_ZH.md) · [Reproduction guide](docs/REPRODUCING.md) · [Dataset catalog](docs/DATABASES_ZH.md) · [Downloads](https://github.com/GRYYYYYYY/residual-gating-capacitance/releases/tag/v1.0.0)
 
@@ -10,26 +10,31 @@ The model predicts missing capacitances from candidate geometries, structural/ma
 
 The same formulation supports interpolation, extrapolation, and source-only transfer. Transfer uses the target table's available observations without updating model parameters. The support anchor is evaluated separately from the commercial-style multilinear baseline because they can differ on multidimensional tables.
 
-## Results
+## Final-paper scope and results
 
-| Evaluation | Main finding | Results |
+The authoritative manuscript is [the final paper](paper/paper.pdf), titled **Chip Capacitance Prediction by a Jointly Routed Transformer**. Its [LaTeX source](paper/main.tex), [tables](paper/tables), figures, and [SHA-256 manifest](paper/manifest.json) are included. The paper studies prediction from sparse observations, not reconstruction of an assumed complete physical table. Extrapolation is relative to the currently observed geometry support; it does not necessarily mean extrapolation outside the training distribution.
+
+| Evaluation | Final-paper result | Evidence |
 |---|---|---|
-| Table completion | Lower NRMSE than the applicable commercial-style multilinear rule in 19/20 headline settings and the strongest applicable baseline in 16/20 | [Public: in-table](results/expected_tables/public_confirmation_inside.tex), [out-of-table](results/expected_tables/public_confirmation_outside.tex); [FEM reference](results/expected_tables/reference_confirmation.tex) |
-| Public-rule extrapolation | 84–86% lower out-of-table NRMSE at 30% missingness | [Public out-of-table results](results/expected_tables/public_confirmation_outside.tex) |
-| Source-only transfer | Evaluated in both directions between ASAP7 and FreePDK15, with in-table and out-of-table results separated | [Transfer results](results/expected_tables/transfer_merged.tex) |
-| Fixed-layout extraction and timing | Closer capacitance and worst-slack estimates in all 16 design–process–mask settings across eight routed layouts | [Downstream summary](results/expected_tables/downstream_summary.tex), [full results](results/expected_tables/downstream_detail.tex) |
-| Ablations and efficiency | Correction branches, routing, training choices, and measured runtime | [Ablations](results/expected_tables/ablations.tex), [branch study](results/expected_tables/elements.tex), [runtime](results/expected_tables/runtime_summary.tex) |
+| Main prediction comparison | Lower NRMSE than rank-matched commercial-style multilinear interpolation in **15/15** settings; better than the strongest listed numerical/statistical comparator in **14/15** | [Table 1](paper/tables/main_completion.tex), [Table 2](paper/tables/main_transfer.tex) |
+| Public-rule extrapolation | **84–86%** lower normalized error outside observed support at 30% missingness | [Table 1](paper/tables/main_completion.tex) |
+| Source-only transfer | **FreePDK15 → ASAP7**, eight target confirmation tables; target observations are inference inputs, with no parameter updates or target-label model selection | [Table 2](paper/tables/main_transfer.tex) |
+| Fixed-layout extraction and timing | Closer capacitance and worst-slack estimates in **16/16** settings across eight routed layouts | [Table 3](paper/tables/main_downstream_compact.tex), [Figure 3](paper/sta_visualization/gf180_ibex_50/figures/fig_downstream_sta_spatial_row.pdf) |
+| Matched-budget learned controls | Full routing beats ungated residual in **14/15**, binary gate in **13/15**; gains depend on the setting | [Learned controls](paper/tables/supp_matched_controls.tex), [paired intervals](paper/tables/supp_control_bootstrap.tex) |
+| Numerical extrapolation control | Full model beats validation-selected local affine extrapolation in **13/15** settings | [Affine control](paper/tables/supp_affine_control.tex) |
 
-Public labels are extraction-rule values. The independent reference uses declared two-dimensional finite-element problems. Downstream results measure agreement with full-table extraction on fixed layouts, not timing closure or silicon accuracy. Detailed endpoint results retain all three seeds, including the seed with slightly higher MAE despite lower RMSE.
+Public labels are extraction-rule values. Independent reference labels come from declared two-dimensional finite-element problems. Downstream results measure agreement with full-table extraction on fixed layouts, not timing closure or silicon accuracy. Full routing is not uniformly best: the binary gate wins two transfer conditions, the ungated model wins public in-support block masking, and local affine wins FEM/transfer out-of-support random masking. See [final-paper alignment and split definitions](docs/FINAL_PAPER.md).
+
+The immutable **v1.0.0 release is historical**: it includes a reverse transfer direction and 20-condition reports. That reverse direction is not part of the final paper's 15-condition comparison. Historical artifacts and their checksums remain available, but are not presented as final-paper results.
 
 ## Data and models
 
 - **Public rules:** 1,713 capacitance tables from ASAP7, GF180, IHP-SG13G2, and Sky130. The public model excludes all 84 downstream audit tables from its training, validation, and test inventory.
-- **Independent FEM reference:** 27 tables on an 8 × 16 geometry grid: 16 confirmation tables, eight validation tables, and three boundary tables.
-- **Transfer:** eight confirmation tables for each target, ASAP7 and FreePDK15.
+- **Independent FEM reference:** 16 original fitting tables (153 nodes each), a separate 24-table validation cohort, and 16 confirmation tables from the 27-table, 8 × 16 Round-3 collection. The collection also contains eight validation and three boundary tables; these are distinct from the fitting inventory and the 24-table selection cohort.
+- **Final-paper transfer:** eight FreePDK15 fitting tables, 12 FreePDK15 validation tables, and eight ASAP7 confirmation tables. Historical reverse-transfer artifacts are additional archived material.
 - **Downstream evaluation:** eight fixed routed layouts and 104 reference/baseline/model SPEFs.
 
-[Selected models](configs/selected_models.json) identifies the three checkpoints per domain and their hashes. [The dataset catalog](database/catalog.json) defines units, splits, and the training and evaluation datasets. Derived views are not additional independent physical samples.
+[Final-paper models](configs/paper_models.json) identifies the three checkpoints for each of the three final-paper settings and their hashes. [The dataset catalog](database/catalog.json) defines units, splits, and the training and evaluation datasets. Derived views are not additional independent physical samples.
 
 Large artifacts are GitHub Release downloads. The core packages are `database`, `models`, and `experiment-records`; add `sta-visualization` for spatial figures and `sta-layouts` for saved-layout timing replay. Optional numerical and supplementary records are listed in the [package manifest](database/packages.json).
 
@@ -49,7 +54,7 @@ python -m capdata verify --package database
 python scripts/inference_demo.py --domain reference
 ```
 
-Use `--domain public`, `to_asap7`, or `to_freepdk15` for the other domains. Each demo evaluates one held-out episode; full scoring and retraining commands are in the [reproduction guide](docs/REPRODUCING.md). Data download and verification use only the Python standard library.
+Use `--domain public` or `to_asap7` for the other final-paper settings. `to_freepdk15` is retained only for historical reproducibility. Each demo evaluates one held-out episode; full scoring and retraining commands are in the [reproduction guide](docs/REPRODUCING.md). Data download and verification use only the Python standard library.
 
 ```python
 from capdata import load_tables
@@ -62,14 +67,22 @@ confirmation = load_tables(
 
 The loader defaults to the training partition. Set `RG_DATA_ROOT` to use a separate artifact directory.
 
-## Reproduce paper tables and figures
+## Verify final-paper evidence
+
+```bash
+python scripts/verify_final_paper.py
+```
+
+This checks the manuscript manifest, final-paper scope, headline counts and supplementary score aggregates. [Supplementary control reproduction](experiments/paper_controls/README.md) provides fresh training/scoring and recorded-result regeneration.
+
+## Reproduce historical release tables and figures
 
 ```bash
 python -m capdata fetch database experiment-records sta-visualization
 python scripts/reproduce_reports.py --sta --output results/my_reproduction
 ```
 
-This regenerates and checks all **39 result tables** against the released results and rebuilds the STA figures from recorded measurements. It does not retrain models or rerun field solvers. Fresh inference, full scoring, retraining, and saved-layout STA replay are documented separately in the [reproduction guide](docs/REPRODUCING.md).
+This regenerates and checks all **39 historical v1.0.0 result tables** against the historical released results and rebuilds the STA figures from recorded measurements. It does not retrain models or rerun field solvers. Fresh inference, full scoring, retraining, and saved-layout STA replay are documented separately in the [reproduction guide](docs/REPRODUCING.md).
 
 Validation records in `results/` cover four-domain inference parity, table reproduction, package integrity, and saved-layout STA replay. Run lightweight checks with:
 

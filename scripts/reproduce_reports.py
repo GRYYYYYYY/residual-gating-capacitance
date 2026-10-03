@@ -1,4 +1,4 @@
-"""Reproduce paper result tables, including STA results with --sta."""
+"""Reproduce historical v1.0.0 result tables, including STA results with --sta."""
 import argparse,json,shutil,subprocess,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]

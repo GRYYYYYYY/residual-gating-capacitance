@@ -1,0 +1,68 @@
+\subsection{Matched-budget learned controls}
+\label{app:matched-controls}
+
+The earlier direct, residual and binary-gated checkpoints each received only
+2,000 updates, and the public versions predate the downstream exclusions.
+They therefore do not provide a matched-budget test of the reported model.
+We separately train two simpler predictors to distinguish the benefit of
+cross-table learning from that of routing:
+\begin{align}
+ \hat y_i^{\rm residual}&=[b_i+\sigma\odot r_i]_+,\\
+ \hat y_{i,k}^{\rm binary}&=[b_{i,k}+\alpha_{i,k}\sigma_k r_{i,k}]_+,
+ \qquad 0\leq\alpha_{i,k}\leq1.
+\end{align}
+The first is an ungated residual Transformer with the same tokens, encoder and
+residual head. The second uses a component-wise two-slot softmax over the
+anchor and raw neural residual; its gate reads the hidden state and the same
+support/context features. Neither includes analytic correction branches or
+the clipped neural reading, and the binary gate has no bank-disagreement
+features. The latter is a newly trained two-branch model, distinct from
+inference-time pruning of the full model to three remaining slots.
+These comparisons test the utility of routing under the reported data and
+training budget; they do not establish that an ungated neural predictor
+cannot represent a similar correction. The full-versus-binary comparison
+changes the analytic bank, clipped reading and agreement features together;
+it does not separately identify the effect of each of these additions.
+
+For each setting and seed, both controls reuse the full model's fitting tables,
+training scales and 2,000-step residual initialization. They retain the same
+family-balanced episode sampler, random seed, loss, AdamW settings, gradient
+clipping and stage-2 updates: 24,000 for public rules and 12,000 for
+reference/transfer. The last checkpoint is used without separate hyperparameter
+search for the controls; thus these are controls under the reported training
+recipe, not an exhaustive optimization of each smaller architecture.
+All reported predictions average three independently trained members.
+Each public member has 101,506 parameters for the ungated model, 104,809 for
+the binary model and 105,604 for the full model; the corresponding three-output
+models have 101,699, 105,196 and 106,384 parameters.
+
+The new evaluations retain the headline 30\% masks, five mask seeds, query
+indices, support partition and macro-NRMSE aggregation. Full-model scores are
+read from the original reported ensemble records. These supplementary
+comparisons use the existing confirmation cohorts; they are not presented as
+a newly blinded benchmark. Source-only transfer controls are fitted on eight
+FreePDK15 tables and use the inherited source-selected training recipe.
+
+\begin{table}[htbp]
+\centering
+\caption{\textbf{Matched-budget learning and routing controls.} Confirmation
+NRMSE at 30\% missingness. Each row is a three-member ensemble with the same
+training data, residual initialization and update budget within its setting.
+Bold marks the lowest value; underlining marks our second-best value
+in each condition.}
+\label{tab:matched-controls}
+\tableinput{supp_matched_controls.tex}
+\end{table}
+
+\input{appendix/matched_control_findings}
+
+\begin{table}[htbp]
+\centering
+\caption{\textbf{Paired public-group uncertainty for the routing controls.}
+Difference is full routing minus the named comparator, so negative favors the
+full model. Pointwise 95\% intervals use 2,000 paired group-bootstrap samples,
+retaining all masks of each dependency group. The intervals condition on the
+trained ensembles and are not multiplicity-adjusted.}
+\label{tab:control-bootstrap}
+\tableinput{supp_control_bootstrap.tex}
+\end{table}

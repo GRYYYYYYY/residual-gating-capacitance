@@ -1,0 +1,62 @@
+{
+  "public": {
+    "record_run": "conf_public_holdout",
+    "checkpoints": [
+      {
+        "path": "runs/holdout_g_s0/checkpoint.pt",
+        "sha256": "a44d7dcd5d1b6cc0518d2da2e0a0363edc4a2227ea04be6f37e05d1bbb704713"
+      },
+      {
+        "path": "runs/holdout_g_s1/checkpoint.pt",
+        "sha256": "9e8c808433c2adbeb17358749b001feafa49d53912cb2ee0774a97f213c377cd"
+      },
+      {
+        "path": "runs/holdout_g_s2/checkpoint.pt",
+        "sha256": "8bfa742183a1fe2793ea145e76fdc4a2779dffb99a6351b426b9c156fcced702"
+      }
+    ],
+    "method": "sace_r_holdout",
+    "cohort": "./runs/round3_evaluation_inputs_v1/public_retrospective_original.jsonl",
+    "scored_tables": 340
+  },
+  "reference": {
+    "record_run": "conf_v10_reference",
+    "checkpoints": [
+      {
+        "path": "runs/v10_reference_all_s0/checkpoint.pt",
+        "sha256": "d39e40dc0381e2cceff9b0caab57512e8ce4acdb81263fa928797aa5ce53250d"
+      },
+      {
+        "path": "runs/v10_reference_all_s1/checkpoint.pt",
+        "sha256": "c84c718d60859c26877fa2e39907109e3827a61e88e0dbbd0bd8c4288dd8af27"
+      },
+      {
+        "path": "runs/v10_reference_all_s2/checkpoint.pt",
+        "sha256": "5353ea614f82731f2ff1a130ef7ded8eaf76f23542647a64e5ba737f2015661e"
+      }
+    ],
+    "method": "v10_all",
+    "cohort": "runs/round3_evaluation_inputs_v1/reference_confirmation_round3_main.jsonl",
+    "scored_tables": 16
+  },
+  "to_asap7": {
+    "record_run": "conf_v10_to_asap7",
+    "checkpoints": [
+      {
+        "path": "runs/v10_to_asap7_all_s0/checkpoint.pt",
+        "sha256": "ee13cbec4a4dc380bc5ba63422c41941759e3449aaa339f864c2cd9802034169"
+      },
+      {
+        "path": "runs/v10_to_asap7_all_s1/checkpoint.pt",
+        "sha256": "82e8e0d021cd2865991d7934702231cbea6e5988c6a5b73504974b1cd78c747c"
+      },
+      {
+        "path": "runs/v10_to_asap7_all_s2/checkpoint.pt",
+        "sha256": "9708b73cb43e4a9e6cf71747cfbd757eb3c258ea299ebf94aef3f040c6c76116"
+      }
+    ],
+    "method": "v10_all",
+    "cohort": "runs/round3_evaluation_inputs_v1/to_asap7_confirmation_round3_main.jsonl",
+    "scored_tables": 8
+  }
+}

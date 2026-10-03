@@ -1,0 +1,43 @@
+\footnotesize
+\setlength{\tabcolsep}{1.5pt}
+\renewcommand{\arraystretch}{0.98}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llllrrr@{}}\toprule
+Process & Design & Mask & Method & Cap.  & $|\Delta\mathrm{WS}|$ & $|\Delta\mathrm{TNS}|$ \\
+ & & & & NRMSE & (ns) & (ns) \\
+\midrule
+asap7 & AES & 30\% & Linear & 0.0185 & 0.000155 & 0.003715 \\
+ &  &  & \textbf{Ours} & \textbf{0.0025} & \textbf{0.00003533} & \textbf{0.000235} \\
+ &  & 50\% & Linear & 0.0187 & 0.0005771 & 0.003178 \\
+ &  &  & \textbf{Ours} & \textbf{0.0027} & \textbf{0.0001836} & \textbf{0.0009669} \\
+ & IBEX & 30\% & Linear & 0.0183 & 0.009746 & 0.03004 \\
+ &  &  & \textbf{Ours} & \textbf{0.0024} & \textbf{0.0009348} & \textbf{0.005607} \\
+ &  & 50\% & Linear & 0.0213 & 0.01083 & 0.03004 \\
+ &  &  & \textbf{Ours} & \textbf{0.0022} & \textbf{0.0001934} & \textbf{0.001202} \\
+\midrule
+gf180 & AES & 30\% & Linear & 0.0018 & 0.00191 & 0.344 \\
+ &  &  & \textbf{Ours} & \textbf{0.0009} & \textbf{0.00074} & \textbf{0.153} \\
+ &  & 50\% & Linear & 0.0222 & 0.05479 & 10.05 \\
+ &  &  & \textbf{Ours} & \textbf{0.0068} & \textbf{0.01525} & \textbf{2.875} \\
+ & IBEX & 30\% & Linear & 0.0014 & 0.00441 & 5.54 \\
+ &  &  & \textbf{Ours} & \textbf{0.0008} & \textbf{0.00214} & \textbf{2.68} \\
+ &  & 50\% & Linear & 0.0199 & 0.1328 & 168.6 \\
+ &  &  & \textbf{Ours} & \textbf{0.0061} & \textbf{0.03701} & \textbf{50.22} \\
+\midrule
+ihp-sg13g2 & AES & 30\% & Linear & 0.0175 & 0.005925 & 0 \\
+ &  &  & \textbf{Ours} & \textbf{0.0016} & \textbf{0.001105} & 0 \\
+ &  & 50\% & Linear & 0.0353 & 0.04597 & 0 \\
+ &  &  & \textbf{Ours} & \textbf{0.0025} & \textbf{0.002026} & 0 \\
+ & IBEX & 30\% & Linear & 0.0062 & 0.01169 & 0 \\
+ &  &  & \textbf{Ours} & \textbf{0.0006} & \textbf{0.001394} & 0 \\
+ &  & 50\% & Linear & 0.0198 & 0.04383 & 0 \\
+ &  &  & \textbf{Ours} & \textbf{0.0018} & \textbf{0.004394} & 0 \\
+\midrule
+sky130hs & AES & 30\% & Linear & 0.0054 & 0.00169 & 0.003441 \\
+ &  &  & \textbf{Ours} & \textbf{0.0007} & \textbf{0.0006721} & \textbf{0.001301} \\
+ &  & 50\% & Linear & 0.0182 & 0.01598 & 0.02583 \\
+ &  &  & \textbf{Ours} & \textbf{0.0021} & \textbf{0.00267} & \textbf{0.005426} \\
+ & IBEX & 30\% & Linear & 0.0046 & 0.003377 & 0.6307 \\
+ &  &  & \textbf{Ours} & \textbf{0.0006} & \textbf{0.000625} & \textbf{0.1274} \\
+ &  & 50\% & Linear & 0.0141 & 0.01304 & 3.592 \\
+ &  &  & \textbf{Ours} & \textbf{0.0022} & \textbf{0.003031} & \textbf{0.7839} \\
+\bottomrule\end{tabular*}

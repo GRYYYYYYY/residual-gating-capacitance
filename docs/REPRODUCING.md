@@ -1,5 +1,7 @@
 # Reproduction levels
 
+For final-paper scope, split counts and supplementary controls, see [FINAL_PAPER.md](FINAL_PAPER.md). Run `python scripts/verify_final_paper.py` to verify the checked-in final-paper evidence. The 39-table command below reproduces the immutable historical release, not the final manuscript formatting.
+
 Run from the repository root after installing the package in a fresh environment. Download only the packages needed by your level. Versions used for the portable validation are pinned in `requirements-validated.txt`. Original per-run receipts retain the training configuration and numerical evidence; the release makes no claim that a different library version produces identical retraining trajectories.
 
 ## 1. Data and numerical provenance
@@ -23,10 +25,9 @@ python -m capdata fetch database models
 python scripts/inference_demo.py --domain public
 python scripts/inference_demo.py --domain reference
 python scripts/inference_demo.py --domain to_asap7
-python scripts/inference_demo.py --domain to_freepdk15
 ```
 
-These commands each score ONE deterministic held-out episode. They test loading and inference, not paper-level aggregates. Four-domain exact original-vs-portable prediction parity is recorded in `results/inference_parity.json`.
+These commands each score ONE deterministic held-out episode. They test loading and inference, not paper-level aggregates. Historical four-domain exact original-vs-portable prediction parity is recorded in `results/inference_parity.json`.
 
 Full reference confirmation scoring, into a new run:
 
@@ -37,16 +38,16 @@ python -m unified.score \
   --output reproduced_reference_confirmation --method v10_all --workers 4
 ```
 
-For the public domain use the three `holdout_g_s*` checkpoints and `public_retrospective_original.jsonl`. `configs/selected_models.json` is the authoritative mapping for all domains.
+For the public domain use the three `holdout_g_s*` checkpoints and `public_retrospective_original.jsonl`. `configs/paper_models.json` is the authoritative mapping for the three final-paper settings.
 
-## 3. Recorded table/figure reproduction
+## 3. Historical v1.0.0 table/figure reproduction
 
 ```bash
 python -m capdata fetch database experiment-records sta-visualization
 python scripts/reproduce_reports.py --sta --output results/my_reproduction
 ```
 
-This recomputes the reported aggregation from recorded predictions and measurements. It verifies all 39 tables, writes new figure outputs and does not rerun latency benchmarks, training or FEM solves. Individual entry points: `analysis/build_tables.py --regimes`, `analysis/build_tables_v3.py`, and `analysis/sta/analyze_plot.py CASE_DIRECTORY`. Copy a case's `raw/` and `provenance.json` to a fresh directory before invoking the plotting script to preserve downloaded artifacts.
+This recomputes the reported aggregation from recorded predictions and measurements. It verifies all 39 historical v1.0.0 tables, writes new figure outputs and does not rerun latency benchmarks, training or FEM solves. Individual entry points: `analysis/build_tables.py --regimes`, `analysis/build_tables_v3.py`, and `analysis/sta/analyze_plot.py CASE_DIRECTORY`. Copy a case's `raw/` and `provenance.json` to a fresh directory before invoking the plotting script to preserve downloaded artifacts.
 
 ## 4. Retraining
 
@@ -58,7 +59,7 @@ python scripts/train_stage1.py --data runs/public_inventory_holdout_v1/tables.js
 python -m unified.train --help
 ```
 
-Use the exact arguments in `runs/holdout_g_s0/FROZEN.json` for the stage-2 configuration, replacing the output and stage-1 checkpoint names. The public model uses 24,000 stage-2 steps. Reference and transfer models use 12,000 steps and the three-seed initialization sets included in the model package. Use `configs/selected_models.json` and the corresponding run receipts for the reported configurations, scales, and initialization hashes.
+Use the exact arguments in `runs/holdout_g_s0/FROZEN.json` for the stage-2 configuration, replacing the output and stage-1 checkpoint names. The public model uses 24,000 stage-2 steps. Reference and transfer models use 12,000 steps and the three-seed initialization sets included in the model package. Use `configs/paper_models.json` and the corresponding run receipts for the reported configurations, scales, and initialization hashes.
 
 ## 5. Exact saved-layout STA replay
 
@@ -86,3 +87,12 @@ python scripts/fetch_reference_inputs.py --output upstream/ctf
 The last command obtains exact original material inputs; it does not grant upstream redistribution rights. Set `RG_CTF_ROOT` if stored elsewhere. Generated geometry grids and contracts are in `runs/reference_design_v2`, `runs/round2_design_v2`, `runs/round3_design_v1`. Numerical evidence archives retain original per-solve specs, results, logs and frozen source snapshots; use each generation's snapshot and gates when regenerating it. `solver/fem.py` and `pdkcap/solver_worker.py` expose the numerical implementation, and `pdkcap.bulk` / `pdkcap.round3_bulk` provide budget-aware batch runners.
 
 Those historical batch runners require an explicit local compute-budget file; no old authorization is silently reissued by downloading this repository. Normal data use, scoring and plotting need no solver rerun. Coarse/fine/wide differences are convergence evidence, not independent training examples, and saved matrices are neither clipped nor symmetrized.
+
+## 7. Final-paper Figure 3 (one horizontal row)
+
+```bash
+python -m capdata fetch sta-visualization
+python scripts/plot_final_figure3.py --output results/my_final_figure3
+```
+
+This uses the same seed-0 endpoint measurements, 50 × 50 bins, color normalization and layout as the published figure, and writes a 1 × 4 layout. It does not rerun STA or alter downloaded records. Output creation refuses to overwrite an existing directory.
