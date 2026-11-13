@@ -1,0 +1,27 @@
+{
+  "public": {
+    "records": 32448,
+    "table_seed_populations": 1014,
+    "no_failed_methods": true,
+    "identical_Q_across_all_budgets_methods_strategies": true
+  },
+  "reference": {
+    "records": 3840,
+    "table_seed_populations": 48,
+    "no_failed_methods": true,
+    "identical_Q_across_all_budgets_methods_strategies": true
+  },
+  "to_asap7": {
+    "records": 1920,
+    "table_seed_populations": 24,
+    "no_failed_methods": true,
+    "identical_Q_across_all_budgets_methods_strategies": true
+  },
+  "native_artifacts_verified": 2728,
+  "all_18_control_checkpoints_unchanged": true,
+  "original_checkout_untouched": true,
+  "checkpoint_hashes_unchanged": true,
+  "local_binary_artifacts": 36,
+  "source_status": "?? docs/dac_characterization_20261114/DELIVERY_MANIFEST.json\n?? docs/dac_characterization_20261114/FINAL_VERIFICATION.json\n",
+  "head": "c6bd28a3dfa21fee9df9f35265d701f748e94b3b"
+}
