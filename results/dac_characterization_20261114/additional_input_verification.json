@@ -1,0 +1,129 @@
+{
+  "catalog_files": [
+    {
+      "name": "public_rules_original",
+      "path": "runs/public_inventory_v1/tables.jsonl",
+      "sha256": "7c861b5499b6f0a1b79ca78ca3f3d650fe43c5989f51fc40fbd5a6b8bfbe5a6e"
+    },
+    {
+      "name": "public_rules_holdout",
+      "path": "runs/public_inventory_holdout_v1/tables.jsonl",
+      "sha256": "37ec17966216b304239692676929637712fe8b99fc2e4d06c0defdacff29d574"
+    },
+    {
+      "name": "reference_original",
+      "path": "runs/reference_dataset_v2/tables.jsonl",
+      "sha256": "66e6461609a854d4087dcf75d55ce28864b5cb1f4115abb1bfe40ce7321481a7"
+    },
+    {
+      "name": "reference_round2",
+      "path": "runs/round2_reference_dataset_v1/tables.jsonl",
+      "sha256": "4945b3f452f4db7b9e83852bb8a2b56cb8dcd000d0e2e4532b5cdd2c89470933"
+    },
+    {
+      "name": "reference_round3",
+      "path": "runs/round3_reference_dataset_v1/tables.jsonl",
+      "sha256": "ed8bcc0283e87951e6097a5cbc34407721e7f4cb8ec5f32fd7a25550dbdfc2d2"
+    },
+    {
+      "name": "eval_public_retrospective_original",
+      "path": "runs/round3_evaluation_inputs_v1/public_retrospective_original.jsonl",
+      "sha256": "ce9a93e705a8350081ce757bfe4b86bd020bfa073878a5fc9517b69b62881831"
+    },
+    {
+      "name": "eval_reference_boundary_round3_edge",
+      "path": "runs/round3_evaluation_inputs_v1/reference_boundary_round3_edge.jsonl",
+      "sha256": "bfd60d796b03e238b31ec4ed8c4218c5363d6981be00f5dba45154e670a3ac5c"
+    },
+    {
+      "name": "eval_reference_confirmation_round3_main",
+      "path": "runs/round3_evaluation_inputs_v1/reference_confirmation_round3_main.jsonl",
+      "sha256": "5f0407423decfc1878a71d083481a87800fe95d5937311f9e97378fb15a21ac9"
+    },
+    {
+      "name": "eval_reference_retrospective_original",
+      "path": "runs/round3_evaluation_inputs_v1/reference_retrospective_original.jsonl",
+      "sha256": "2bb1252b7257974e91354c7dc69cf3171c8128985abfd08773e504762b577bab"
+    },
+    {
+      "name": "eval_reference_retrospective_round2",
+      "path": "runs/round3_evaluation_inputs_v1/reference_retrospective_round2.jsonl",
+      "sha256": "a29b1e729657fe83d9784b95846e06bcd1c7831adeca88a3e6466cf2c7ad4864"
+    },
+    {
+      "name": "eval_to_asap7_boundary_round3_edge",
+      "path": "runs/round3_evaluation_inputs_v1/to_asap7_boundary_round3_edge.jsonl",
+      "sha256": "267992ebdf3d03fcf43ec19c07df83b1814d7218977752d45292f62a08918368"
+    },
+    {
+      "name": "eval_to_asap7_confirmation_round3_main",
+      "path": "runs/round3_evaluation_inputs_v1/to_asap7_confirmation_round3_main.jsonl",
+      "sha256": "37dae52e19c12374df7d31ed07a60d2c4db53342f31e09f13c45527fea6cc3da"
+    },
+    {
+      "name": "eval_to_asap7_retrospective_original",
+      "path": "runs/round3_evaluation_inputs_v1/to_asap7_retrospective_original.jsonl",
+      "sha256": "e72264ed15f1ef103d6d9db7a17be109902909db02c5f1d89fae13ef32e088a1"
+    },
+    {
+      "name": "eval_to_asap7_retrospective_round2",
+      "path": "runs/round3_evaluation_inputs_v1/to_asap7_retrospective_round2.jsonl",
+      "sha256": "7a900b725986f4f73350aa4975fe5a76e5771c50fe1eb4ed4f90ef8bd7ffb46f"
+    },
+    {
+      "name": "validation_public_val",
+      "path": "runs/round3_validation_inputs_v1/public_val.jsonl",
+      "sha256": "77ead002d71c6cade9a54155e273bfc74c34099b95dda715f34595da97da9c9a"
+    },
+    {
+      "name": "validation_reference_val",
+      "path": "runs/round3_validation_inputs_v1/reference_val.jsonl",
+      "sha256": "e8431a73e1a6060aeeb819283b9f590ce9bb634b589bc2ab4c55bac327212dfc"
+    },
+    {
+      "name": "validation_to_asap7_val",
+      "path": "runs/round3_validation_inputs_v1/to_asap7_val.jsonl",
+      "sha256": "63ef346d704e58a07cdb031b7cecf089574888ec27eb80d07f6a8894eb1d2233"
+    },
+    {
+      "name": "transfer_to_asap7",
+      "path": "runs/reference_transfer_v1/folds/to_asap7.jsonl",
+      "sha256": "d07b9aa803a9566c987476b43e5a9b3aee0732a0d474012c99e74736d2a862a1"
+    },
+    {
+      "name": "matrices_original",
+      "path": "runs/reference_dataset_v2/matrices.json",
+      "sha256": "1020afb25e5e18a90cec09008d78876c1ce02d97120e55232fb296b447484c06"
+    },
+    {
+      "name": "matrices_round2",
+      "path": "runs/round2_reference_dataset_v1/matrices.json",
+      "sha256": "fcd065d30571faf405182efc97edac29c6535f4a45dadc312d45a74fa209473b"
+    },
+    {
+      "name": "matrices_round3",
+      "path": "runs/round3_reference_dataset_v1/matrices.json",
+      "sha256": "035447cff247bb7dcea114111efd9b79df6580ef04a78203a993df90049649ab"
+    }
+  ],
+  "public_ranks": {
+    "1": 1713
+  },
+  "coax": [
+    {
+      "reference_id": "analytic-coax",
+      "complete": true,
+      "mesh_relative": 0.0007106574854243271,
+      "boundary_relative": 0.0,
+      "max_flux_energy_relative": 0.008224049591444101,
+      "max_reciprocity_relative": 0.0,
+      "analytic_relative_error": 0.0002633433187397838,
+      "matrix_structure_passed": true,
+      "max_entry_mesh_relative_with_floor": 0.0007106574854243271,
+      "passed": true
+    }
+  ],
+  "pilot_sha256": "9ff14bc88fa21a7c0d97917bf36b845d735af3f33f9b7b4f1d50f4d6c86981bd",
+  "manuscript_sha256": "7c2e0629344f5f717e54465bc7ea7388de80dd6217eea4e98da1d4a11b1dfb4a",
+  "manuscript_pdf_sha256": "ed976374b7c7035f4523728184bf8c834bbb4093a0b4f809f48e069514ec818b"
+}

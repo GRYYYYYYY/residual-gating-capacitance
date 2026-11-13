@@ -1,0 +1,83 @@
+{
+  "source": "asap7",
+  "target": "freepdk15",
+  "train_ids": [
+    "asap7-M2-DIAGUNDER",
+    "asap7-M2-OVER",
+    "asap7-M2-OVERUNDER",
+    "asap7-M2-UNDER",
+    "asap7-M3-DIAGUNDER",
+    "asap7-M3-OVER",
+    "asap7-M3-OVERUNDER",
+    "asap7-M3-UNDER"
+  ],
+  "val_ids": [
+    "asap7-M4-DIAGUNDER",
+    "asap7-M4-OVER",
+    "asap7-M4-OVERUNDER",
+    "asap7-M4-UNDER",
+    "asap7-M6-DIAGUNDER",
+    "asap7-M6-OVER",
+    "asap7-M6-OVERUNDER",
+    "asap7-M6-UNDER",
+    "r3-asap7-M6-DIAGUNDER",
+    "r3-asap7-M6-OVER",
+    "r3-asap7-M6-OVERUNDER",
+    "r3-asap7-M6-UNDER"
+  ],
+  "confirmation_ids": [
+    "r3-freepdk15-MINT5-DIAGUNDER",
+    "r3-freepdk15-MINT5-OVER",
+    "r3-freepdk15-MINT5-OVERUNDER",
+    "r3-freepdk15-MINT5-UNDER",
+    "r3-freepdk15-MSMG1-DIAGUNDER",
+    "r3-freepdk15-MSMG1-OVER",
+    "r3-freepdk15-MSMG1-OVERUNDER",
+    "r3-freepdk15-MSMG1-UNDER"
+  ],
+  "scales": {
+    "coordinates": [
+      0.045,
+      0.07200000000000001,
+      0.04281145614009796
+    ],
+    "targets": {
+      "OVER": [
+        7.358904438775113e-11,
+        8.07462933342963e-11,
+        6.307485325952183e-14
+      ],
+      "UNDER": [
+        7.155635671917048e-11,
+        8.686601729060256e-11,
+        6.49769629608639e-14
+      ],
+      "OVERUNDER": [
+        5.863007963394357e-11,
+        1.3168132409669154e-10,
+        8.322150634249236e-14
+      ],
+      "DIAGUNDER": [
+        1.729174688926586e-10,
+        1.2123416216804984e-11,
+        1.157124467889479e-11
+      ]
+    }
+  },
+  "lr_candidates": [
+    0.001,
+    0.0003
+  ],
+  "adapt_steps_candidates": [
+    0,
+    50,
+    200
+  ],
+  "steps": 3000,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "source_hash": "65415fb7624cde64dd5cc5c1ff654fe6c066cee37b757054a107f1df604a800d"
+}

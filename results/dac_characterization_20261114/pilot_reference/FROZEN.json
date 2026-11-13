@@ -1,0 +1,36 @@
+{
+  "run_id": "pilot_reference",
+  "setting": "reference",
+  "split": "val",
+  "methods": [
+    "cmi",
+    "anchor",
+    "affine",
+    "gp",
+    "pchip",
+    "residual",
+    "binary",
+    "full",
+    "pruned"
+  ],
+  "seeds": [
+    11
+  ],
+  "strategies": [
+    "farthest"
+  ],
+  "source_hashes": {
+    "select_numerical.py": "cd23fbf025dea42b4f8817da3ff2d3f150569b0dc7d3627c87329120410cd81a",
+    "check_boundary.py": "b83f9dfcdeeaa8e89e83ae9c6da28addbd1ff06878ecac80cf7d1935b4519484",
+    "common.py": "8735680182a47ed19988975a01b78151a45f6466c3649a8c082d216a89a581a6",
+    "learning.py": "ac4c7be3b666e85fc42d4465cb8bfe80c0b9d971dd17344953beb62b08472533",
+    "evaluate.py": "6b34b4685b5a9002a65da4db2fb4b0d5a57358f66223a9fe19dc76c9a72ae0b2",
+    "audit.py": "bbbf3b2d7aac4b832900614dfbcde1f32fc436b9e43e3d373eb47974b5d83df2"
+  },
+  "plan_sha256": "cc2b08e9e286b1b6b1a97a8ba4eaa336aa03a365b7f57d7e77b365a75037fbe5",
+  "manifest_sha256": "b5a0dbd46b07cf99c4172438f59734611ca721fd0cd2ecc0e07a68dd9d7cbcc8",
+  "selection": null,
+  "head": "05d0717c31c3ebd38107c846cfa7712913078027",
+  "workers": 1,
+  "ineligible": []
+}

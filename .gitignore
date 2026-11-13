@@ -47,3 +47,4 @@ paper/dac_revision_20261114/*.fdb_latexmk
 /runs
 /sta
 /upstream
+results/dac_characterization_20261114/reverse_transfer/*.pt

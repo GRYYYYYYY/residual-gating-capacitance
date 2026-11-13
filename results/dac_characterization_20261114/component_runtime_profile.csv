@@ -1,0 +1,13 @@
+setting,method,budget,table_id,population_initialization_seconds,support_and_branch_encoding_seconds,batch_packing_seconds,ensemble_forward_seconds,scope
+public,full,4,3e37d75d3639e20dbadd8c68,0.0014879778027534485,0.009530123323202133,0.00028786808252334595,0.006356183439493179,one validation table; no model-load cost; no amortization assumption
+public,pruned,4,3e37d75d3639e20dbadd8c68,0.0014879778027534485,0.0031890757381916046,0.00013299286365509033,0.0033848918974399567,one validation table; no model-load cost; no amortization assumption
+public,full,8,3e37d75d3639e20dbadd8c68,0.0014879778027534485,0.007650371640920639,0.0001124069094657898,0.003222886472940445,one validation table; no model-load cost; no amortization assumption
+public,pruned,8,3e37d75d3639e20dbadd8c68,0.0014879778027534485,0.0028783902525901794,0.00010852888226509094,0.0030657947063446045,one validation table; no model-load cost; no amortization assumption
+reference,full,4,asap7-M4-DIAGUNDER,0.009653579443693161,0.026150498539209366,0.00018881633877754211,0.01964927464723587,one validation table; no model-load cost; no amortization assumption
+reference,pruned,4,asap7-M4-DIAGUNDER,0.009653579443693161,0.010214492678642273,0.0001428462564945221,0.015498876571655273,one validation table; no model-load cost; no amortization assumption
+reference,full,8,asap7-M4-DIAGUNDER,0.009653579443693161,0.018382329493761063,0.00011976063251495361,0.013200674206018448,one validation table; no model-load cost; no amortization assumption
+reference,pruned,8,asap7-M4-DIAGUNDER,0.009653579443693161,0.008267372846603394,0.00011203065514564514,0.01232941821217537,one validation table; no model-load cost; no amortization assumption
+to_asap7,full,4,freepdk15-MINT2-DIAGUNDER,0.01221868023276329,0.029835712164640427,0.0002128221094608307,0.022192999720573425,one validation table; no model-load cost; no amortization assumption
+to_asap7,pruned,4,freepdk15-MINT2-DIAGUNDER,0.01221868023276329,0.024548698216676712,0.00019707903265953064,0.02190767601132393,one validation table; no model-load cost; no amortization assumption
+to_asap7,full,8,freepdk15-MINT2-DIAGUNDER,0.01221868023276329,0.018374718725681305,0.00012553855776786804,0.0132821686565876,one validation table; no model-load cost; no amortization assumption
+to_asap7,pruned,8,freepdk15-MINT2-DIAGUNDER,0.01221868023276329,0.012093029916286469,0.000622142106294632,0.015926599502563477,one validation table; no model-load cost; no amortization assumption

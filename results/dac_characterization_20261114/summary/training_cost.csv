@@ -1,0 +1,65 @@
+run,steps,cpu_seconds,wall_seconds,kind,gpu_seconds
+results/dac_characterization_20261114/learning/public_cnp_lr0.0003_s0,3000,8.54995499200001,8.553296536207199,new source training,0
+results/dac_characterization_20261114/learning/public_cnp_lr0.001_s0,3000,8.570002514999999,8.575864467769861,new source training,0
+results/dac_characterization_20261114/learning/public_cnp_lr0.001_s1,3000,8.822916450999998,8.826155502349138,new source training,0
+results/dac_characterization_20261114/learning/public_cnp_lr0.001_s2,3000,8.93917581300002,8.943092431873083,new source training,0
+results/dac_characterization_20261114/learning/public_mlp_lr0.0003_s0,3000,5.371969430999997,5.3754847049713135,new source training,0
+results/dac_characterization_20261114/learning/public_mlp_lr0.001_s0,3000,5.833184814999999,5.897108521312475,new source training,0
+results/dac_characterization_20261114/learning/public_mlp_lr0.001_s1,3000,5.481708570999984,5.485912494361401,new source training,0
+results/dac_characterization_20261114/learning/public_mlp_lr0.001_s2,3000,5.560392196999999,5.563525602221489,new source training,0
+results/dac_characterization_20261114/learning/reference_cnp_lr0.0003_s0,3000,10.379943771,10.384565707296133,new source training,0
+results/dac_characterization_20261114/learning/reference_cnp_lr0.001_s0,3000,10.131679488000003,10.136561762541533,new source training,0
+results/dac_characterization_20261114/learning/reference_cnp_lr0.001_s1,3000,10.518729581000002,10.522644888609648,new source training,0
+results/dac_characterization_20261114/learning/reference_cnp_lr0.001_s2,3000,10.342816663999997,10.346349589526653,new source training,0
+results/dac_characterization_20261114/learning/reference_mlp_lr0.0003_s0,3000,6.320036317000003,6.324461340904236,new source training,0
+results/dac_characterization_20261114/learning/reference_mlp_lr0.001_s0,3000,6.321637259999999,6.3921703435480595,new source training,0
+results/dac_characterization_20261114/learning/reference_mlp_lr0.001_s1,3000,6.320792690000005,6.324697621166706,new source training,0
+results/dac_characterization_20261114/learning/reference_mlp_lr0.001_s2,3000,6.240156212000002,6.243975937366486,new source training,0
+results/dac_characterization_20261114/learning/to_asap7_cnp_lr0.0003_s0,3000,10.009089519,10.013459779322147,new source training,0
+results/dac_characterization_20261114/learning/to_asap7_cnp_lr0.0003_s1,3000,9.963114247999997,9.96641331538558,new source training,0
+results/dac_characterization_20261114/learning/to_asap7_cnp_lr0.0003_s2,3000,9.86330160099999,9.867815487086773,new source training,0
+results/dac_characterization_20261114/learning/to_asap7_cnp_lr0.001_s0,3000,10.039833881000007,10.044164564460516,new source training,0
+results/dac_characterization_20261114/learning/to_asap7_mlp_lr0.0003_s0,3000,6.295765046999996,6.299325548112392,new source training,0
+results/dac_characterization_20261114/learning/to_asap7_mlp_lr0.001_s0,3000,6.240355849,6.313198499381542,new source training,0
+results/dac_characterization_20261114/learning/to_asap7_mlp_lr0.001_s1,3000,6.410509279000003,6.4153540544211864,new source training,0
+results/dac_characterization_20261114/learning/to_asap7_mlp_lr0.001_s2,3000,6.1413165609999965,6.146215867251158,new source training,0
+results/dac_characterization_20261114/attention/reference_lr0.0003_s0,3000,17.151724588000008,17.156826950609684,new source training,0
+results/dac_characterization_20261114/attention/reference_lr0.0003_s1,3000,16.91914483100004,16.92331236600876,new source training,0
+results/dac_characterization_20261114/attention/reference_lr0.0003_s2,3000,16.8017691,16.80626653507352,new source training,0
+results/dac_characterization_20261114/attention/reference_lr0.001_s0,3000,17.010971976,17.014494881033897,new source training,0
+results/dac_characterization_20261114/attention/to_asap7_lr0.0003_s0,3000,16.69344622700001,16.699712716042995,new source training,0
+results/dac_characterization_20261114/attention/to_asap7_lr0.001_s0,3000,17.209719424,17.21440329402685,new source training,0
+results/dac_characterization_20261114/attention/to_asap7_lr0.001_s1,3000,16.927614419999998,16.932341799139977,new source training,0
+results/dac_characterization_20261114/attention/to_asap7_lr0.001_s2,3000,17.059952331999995,17.063516572117805,new source training,0
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/public_residual_s0/checkpoint.pt,24000,,1434.3918245099485,historical control training,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/public_residual_s1/checkpoint.pt,24000,,1444.6433251611888,historical control training,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/public_residual_s2/checkpoint.pt,24000,,1449.4574044905603,historical control training,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/public_binary_s0/checkpoint.pt,24000,,1535.562962187454,historical control training,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/public_binary_s1/checkpoint.pt,24000,,1550.779863288626,historical control training,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/public_binary_s2/checkpoint.pt,24000,,1543.0040191877633,historical control training,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/reference_residual_s0/checkpoint.pt,12000,,1911.9508127607405,historical control training,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/reference_residual_s1/checkpoint.pt,12000,,1918.5158642027527,historical control training,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/reference_residual_s2/checkpoint.pt,12000,,1913.7233729045838,historical control training,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/reference_binary_s0/checkpoint.pt,12000,,1931.9016752522439,historical control training,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/reference_binary_s1/checkpoint.pt,12000,,1943.6193994935602,historical control training,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/reference_binary_s2/checkpoint.pt,12000,,1927.527323629707,historical control training,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/to_asap7_residual_s0/checkpoint.pt,12000,,1910.5814952272922,historical control training,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/to_asap7_residual_s1/checkpoint.pt,12000,,1900.9022653996944,historical control training,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/to_asap7_residual_s2/checkpoint.pt,12000,,1909.1687884423882,historical control training,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/to_asap7_binary_s0/checkpoint.pt,12000,,1931.486067539081,historical control training,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/to_asap7_binary_s1/checkpoint.pt,12000,,1934.1913836970925,historical control training,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/to_asap7_binary_s2/checkpoint.pt,12000,,1931.3902918789536,historical control training,
+results/dac_characterization_20261114/reverse_transfer/mlp_lr0.0003_s0.json,3000,,5.349522810429335,new reverse source training; CPU not separately measured,0
+results/dac_characterization_20261114/reverse_transfer/mlp_lr0.001_s0.json,3000,,5.446330051869154,new reverse source training; CPU not separately measured,0
+results/dac_characterization_20261114/reverse_transfer/mlp_lr0.001_s1.json,3000,,5.284549102187157,new reverse source training; CPU not separately measured,0
+results/dac_characterization_20261114/reverse_transfer/mlp_lr0.001_s2.json,3000,,5.282269116491079,new reverse source training; CPU not separately measured,0
+results/dac_characterization_20261114/confirmation_public_failed_fork/FAILED.json,,770.07,,invalid execution retained cost,0
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/runs/holdout_g_s0/COMPLETED.json,24000,,792.0775070562959,historical full/warm-start training; missing fields unknown,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/runs/holdout_g_s1/COMPLETED.json,24000,,792.2053867671639,historical full/warm-start training; missing fields unknown,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/runs/holdout_g_s2/COMPLETED.json,24000,,793.03771895729,historical full/warm-start training; missing fields unknown,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/runs/v10_reference_all_s0/COMPLETED.json,12000,,1669.387633819133,historical full/warm-start training; missing fields unknown,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/runs/v10_reference_all_s1/COMPLETED.json,12000,,1675.5605793446302,historical full/warm-start training; missing fields unknown,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/runs/v10_reference_all_s2/COMPLETED.json,12000,,1667.7272887472063,historical full/warm-start training; missing fields unknown,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/runs/v10_to_asap7_all_s0/COMPLETED.json,12000,,1666.872536972165,historical full/warm-start training; missing fields unknown,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/runs/v10_to_asap7_all_s1/COMPLETED.json,12000,,1668.910390701145,historical full/warm-start training; missing fields unknown,
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/runs/v10_to_asap7_all_s2/COMPLETED.json,12000,,1669.579950980842,historical full/warm-start training; missing fields unknown,

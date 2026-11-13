@@ -1,0 +1,79 @@
+{
+  "run_id": "confirmation_to_asap7",
+  "setting": "to_asap7",
+  "split": "confirmation",
+  "methods": [
+    "cmi",
+    "anchor",
+    "affine",
+    "gp",
+    "pchip",
+    "mlp_zero",
+    "mlp_adapt",
+    "cnp",
+    "residual",
+    "binary",
+    "full",
+    "pruned"
+  ],
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "strategies": [
+    "farthest",
+    "random",
+    "curvature"
+  ],
+  "source_hashes": {
+    "select_numerical.py": "1380546eecc739621207a72e84dbb8d878c3a9c312591cd66cf669675b1a3770",
+    "run_registered.py": "4852c27021d1cc615b25eb9db06bf36a82b534328c94872914d39afc4b2e2205",
+    "cost_index.py": "67591e8e90adfcec8d6b646ba2524dc6bca86f5240cedec2384e7c4ba1722ffc",
+    "downstream.py": "9150a1b0018df088773f45a53d9fee72d0d13b1267203fa20618f63baf60d113",
+    "reverse_transfer.py": "65415fb7624cde64dd5cc5c1ff654fe6c066cee37b757054a107f1df604a800d",
+    "check_boundary.py": "b83f9dfcdeeaa8e89e83ae9c6da28addbd1ff06878ecac80cf7d1935b4519484",
+    "common.py": "8735680182a47ed19988975a01b78151a45f6466c3649a8c082d216a89a581a6",
+    "attention.py": "3e691b5fb25280bb6a1596607eadfc49f4c7a9a66991d68d9ddea19390e72832",
+    "learning.py": "ac4c7be3b666e85fc42d4465cb8bfe80c0b9d971dd17344953beb62b08472533",
+    "evaluate.py": "6b34b4685b5a9002a65da4db2fb4b0d5a57358f66223a9fe19dc76c9a72ae0b2",
+    "audit.py": "bbbf3b2d7aac4b832900614dfbcde1f32fc436b9e43e3d373eb47974b5d83df2"
+  },
+  "plan_sha256": "cc2b08e9e286b1b6b1a97a8ba4eaa336aa03a365b7f57d7e77b365a75037fbe5",
+  "manifest_sha256": "b5a0dbd46b07cf99c4172438f59734611ca721fd0cd2ecc0e07a68dd9d7cbcc8",
+  "selection": {
+    "gp": [
+      2.0,
+      1e-06
+    ],
+    "gp_name": "gp_l2_r1e-06",
+    "validation_scores": {
+      "cmi": 0.1902683569126256,
+      "anchor": 0.21001717937969255,
+      "affine": 0.17470604694243547,
+      "pchip": 0.21001717937969255,
+      "residual": 0.048036991347072955,
+      "binary": 0.04294137200654116,
+      "full": 0.042246443507421336,
+      "pruned": 0.06451617614953697,
+      "gp_l0.5_r1e-06": 0.18755697461257237,
+      "gp_l0.5_r0.0001": 0.18737999009407025,
+      "gp_l1_r1e-06": 0.15919809736911483,
+      "gp_l1_r0.0001": 0.16020487104179024,
+      "gp_l2_r1e-06": 0.1498306768350437,
+      "gp_l2_r0.0001": 0.15463962500282097
+    },
+    "thresholds": [
+      0.2441807598757363,
+      0.2907519133283675,
+      0.32268739134579016
+    ],
+    "threshold_rule": "source-validation per-table anchor NRMSE quantiles at B<=8",
+    "pruned_selected": false,
+    "validation_hash": "d8872b75eb2d8ef9dc56162feea4b94ea5d27a8c6852d27e40dc5205a183e155",
+    "confirmation_seen": false
+  },
+  "head": "14865375475a067364fe6f96483af3712882e752",
+  "workers": 1,
+  "ineligible": []
+}

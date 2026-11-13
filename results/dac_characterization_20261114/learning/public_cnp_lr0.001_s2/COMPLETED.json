@@ -1,0 +1,7 @@
+{
+  "steps": 3000,
+  "wall_seconds": 8.943092431873083,
+  "cpu_seconds": 8.93917581300002,
+  "checkpoint_sha256": "d83d485498e167e799d90a2eb9defc38d0247b4ab3ed9027649c8cfc1211f9ba",
+  "last_loss": 0.0033706719987094402
+}

@@ -1,0 +1,28 @@
+{
+  "geometries": 12024,
+  "receipts": [
+    {
+      "dataset": "reference_dataset_v2",
+      "grid_sha256": "5bde273bfd2748af5b29e968fee0723a4e77cdd6c81a1a9215d7c4928139f023",
+      "ledger_sha256": "26bf6cc438b76b5784ac457657959d148303c0badb6d165362ab0e4a10971e2d",
+      "summary_sha256": "07f9f8c79e38a7bb9d0f027c1bc0c109ae50e7562b8255b4664aee2e47a8c2ff",
+      "labels_exact": true
+    },
+    {
+      "dataset": "round2_reference_dataset_v1",
+      "grid_sha256": "c404e12baa2e189493d19de0e7a7a695b16972fff90c76457fd86d64dc341f60",
+      "ledger_sha256": "83ed152d1b47117e97ea2bfc45432678f7b80b46f6794ec53240567b5362507d",
+      "summary_sha256": "c3e52428e2784e375602382638003a1bb30b39bccafd28d4e9de945625ac7ec1",
+      "labels_exact": true
+    },
+    {
+      "dataset": "round3_reference_dataset_v1",
+      "grid_sha256": "ee35704d1cbde20c410983157c173168a18c0b340d99256e7bd1e1a79643ae96",
+      "ledger_sha256": "4dfc73391ba701b1d4a0a65d892cc900c563a8ecdb019e42c08f302205099824",
+      "summary_sha256": "7695ef31c4a709f75b3828d823a6e5624a7743ef30578b0527e45e38541ef37b",
+      "labels_exact": true
+    }
+  ],
+  "new_solver_runs": 0,
+  "zero_charged_wall_not_used": true
+}

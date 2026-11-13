@@ -1,0 +1,15 @@
+{
+  "max_concurrency": 2,
+  "pid": 296027,
+  "cases": [
+    "asap7/aes",
+    "asap7/ibex",
+    "gf180/aes",
+    "gf180/ibex",
+    "ihp-sg13g2/aes",
+    "ihp-sg13g2/ibex",
+    "sky130hs/aes",
+    "sky130hs/ibex"
+  ],
+  "scope": "one worker owns each entire fixed-layout case; existing completed receipts reused"
+}

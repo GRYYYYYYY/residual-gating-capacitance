@@ -1,0 +1,9 @@
+{
+  "status": "invalid_execution",
+  "reason": "single-worker fork spinning with zero emitted records; sequential identical first-table diagnostic completes in 1.5s; ptrace stack inspection denied",
+  "worker_pid": 98302,
+  "parent_pid": 98225,
+  "worker_cpu_seconds": 770.07,
+  "ended_unix": 1794611175.626925,
+  "protocol_changed": false
+}

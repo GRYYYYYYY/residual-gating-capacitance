@@ -1,0 +1,56 @@
+[
+  {
+    "setting": "public",
+    "split": "train",
+    "tables": 1051,
+    "unique_geometries": null,
+    "fine_cpu_seconds": null,
+    "validated_cpu_seconds": null,
+    "kind": "public rule source characterization cost unknown"
+  },
+  {
+    "setting": "public",
+    "split": "val",
+    "tables": 246,
+    "unique_geometries": null,
+    "fine_cpu_seconds": null,
+    "validated_cpu_seconds": null,
+    "kind": "public rule source characterization cost unknown"
+  },
+  {
+    "setting": "reference",
+    "split": "train",
+    "tables": 16,
+    "unique_geometries": 2448,
+    "fine_cpu_seconds": 14021.498399837006,
+    "validated_cpu_seconds": 32730.262644709997,
+    "kind": "recorded source-data cost; overlapping views not additive"
+  },
+  {
+    "setting": "reference",
+    "split": "val",
+    "tables": 24,
+    "unique_geometries": 3472,
+    "fine_cpu_seconds": 19473.01011200704,
+    "validated_cpu_seconds": 45664.78740057404,
+    "kind": "recorded source-data cost; overlapping views not additive"
+  },
+  {
+    "setting": "to_asap7",
+    "split": "train",
+    "tables": 8,
+    "unique_geometries": 1224,
+    "fine_cpu_seconds": 5865.8909478849955,
+    "validated_cpu_seconds": 13651.639734247992,
+    "kind": "recorded source-data cost; overlapping views not additive"
+  },
+  {
+    "setting": "to_asap7",
+    "split": "val",
+    "tables": 12,
+    "unique_geometries": 1736,
+    "fine_cpu_seconds": 8145.952731429,
+    "validated_cpu_seconds": 18902.829281044,
+    "kind": "recorded source-data cost; overlapping views not additive"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "completed_unix": 1794611048.3423567,
+  "finalized": [
+    "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/dac_characterization_20261114/downstream/native/asap7/ibex/binary_B4_s47"
+  ],
+  "parent_stopped": true,
+  "openroad_children_completed_without_termination": true
+}

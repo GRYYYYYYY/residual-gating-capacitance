@@ -1,0 +1,10 @@
+{
+  "aligned_episodes": 600,
+  "prediction_bit_exact": true,
+  "geometry_batch": "same fixed full grid",
+  "observed_rows_never_rewritten": true,
+  "eligible_holdout_tables": 83,
+  "excluded_short_tables": [
+    "e07160f8c4c1dd482e54b279"
+  ]
+}

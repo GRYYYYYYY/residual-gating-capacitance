@@ -1,0 +1,48 @@
+{
+  "setting": "to_asap7",
+  "kind": "cnp",
+  "learning_rate": 0.0003,
+  "seed": 0,
+  "steps": 3000,
+  "training_ids": [
+    "freepdk15-M1-DIAGUNDER",
+    "freepdk15-M1-OVER",
+    "freepdk15-M1-OVERUNDER",
+    "freepdk15-M1-UNDER",
+    "freepdk15-MINT1-DIAGUNDER",
+    "freepdk15-MINT1-OVER",
+    "freepdk15-MINT1-OVERUNDER",
+    "freepdk15-MINT1-UNDER"
+  ],
+  "scales": {
+    "coordinates": [
+      0.07,
+      0.144,
+      0.08562291228019593
+    ],
+    "targets": {
+      "OVER": [
+        5.557679396959394e-11,
+        5.881615925892421e-11,
+        4.671944854807908e-14
+      ],
+      "UNDER": [
+        4.863356144717992e-11,
+        8.037088976083493e-11,
+        5.4236221660390095e-14
+      ],
+      "OVERUNDER": [
+        4.258568160455545e-11,
+        1.0173060914055349e-10,
+        6.367274957110157e-14
+      ],
+      "DIAGUNDER": [
+        1.2368217174578025e-10,
+        1.572326401722015e-11,
+        8.725275130744928e-12
+      ]
+    }
+  },
+  "code_sha256": "ac4c7be3b666e85fc42d4465cb8bfe80c0b9d971dd17344953beb62b08472533",
+  "plan_sha256": "cc2b08e9e286b1b6b1a97a8ba4eaa336aa03a365b7f57d7e77b365a75037fbe5"
+}

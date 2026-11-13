@@ -1,0 +1,26 @@
+{
+  "status": "COMPLETION_ACCURACY_ONLY",
+  "native_wins": {
+    "cmi": {
+      "net_cap_nrmse": 16,
+      "ws_abs_ns": 16,
+      "slack_mae_ns": 16
+    },
+    "anchor": {
+      "net_cap_nrmse": 16,
+      "ws_abs_ns": 16,
+      "slack_mae_ns": 16
+    },
+    "affine": {
+      "net_cap_nrmse": 16,
+      "ws_abs_ns": 16,
+      "slack_mae_ns": 16
+    },
+    "binary": {
+      "net_cap_nrmse": 6,
+      "ws_abs_ns": 4,
+      "slack_mae_ns": 5
+    }
+  },
+  "all_native_complete": true
+}

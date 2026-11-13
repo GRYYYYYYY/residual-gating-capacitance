@@ -117,10 +117,17 @@ def main():
     start=time.perf_counter();rows=[]
     import multiprocessing as mp
     with gzip.open(dest/'records.jsonl.gz','xt') as f:
-        with mp.get_context('fork').Pool(a.workers) as pool:
-            for rs in pool.imap(run_table,tasks):
-                rows+=rs
+        def consume(iterator):
+            for i,rs in enumerate(iterator):
+                rows.extend(rs)
                 for r in rs:f.write(json.dumps(r,allow_nan=False)+'\n')
+                if i%25==0:
+                    f.flush();print('completed tasks',i+1,'/',len(tasks),flush=True)
+        if a.workers==1:
+            consume(map(run_table,tasks))
+        else:
+            with mp.get_context('fork').Pool(a.workers) as pool:
+                consume(pool.imap(run_table,tasks))
     write(dest/'COMPLETED.json',dict(records=len(rows),failed=sum(r['status']!='ok' for r in rows),tasks=len(tasks),elapsed_seconds=time.perf_counter()-start,records_sha256=sha(dest/'records.jsonl.gz')))
     print(dest,len(rows),'failed',sum(r['status']!='ok' for r in rows),'wall',time.perf_counter()-start,flush=True)
 if __name__=='__main__':main()

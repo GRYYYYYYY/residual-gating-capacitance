@@ -1,0 +1,38 @@
+[
+  {
+    "setting": "public",
+    "adapter_bit_exact": true,
+    "hidden_label_poisoning": true,
+    "selection_invariant": true,
+    "observations_exact": true,
+    "initial_charged": true,
+    "components_charged_once": true,
+    "query_rejected": true,
+    "cache_hit_free": true,
+    "seconds": 0.3953017257153988
+  },
+  {
+    "setting": "reference",
+    "adapter_bit_exact": true,
+    "hidden_label_poisoning": true,
+    "selection_invariant": true,
+    "observations_exact": true,
+    "initial_charged": true,
+    "components_charged_once": true,
+    "query_rejected": true,
+    "cache_hit_free": true,
+    "seconds": 0.2748154550790787
+  },
+  {
+    "setting": "to_asap7",
+    "adapter_bit_exact": true,
+    "hidden_label_poisoning": true,
+    "selection_invariant": true,
+    "observations_exact": true,
+    "initial_charged": true,
+    "components_charged_once": true,
+    "query_rejected": true,
+    "cache_hit_free": true,
+    "seconds": 0.2736554816365242
+  }
+]

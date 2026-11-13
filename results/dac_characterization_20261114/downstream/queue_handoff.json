@@ -1,0 +1,9 @@
+{
+  "parent_pid": 97408,
+  "child_pids": [
+    283040
+  ],
+  "paused_unix": 1794611018.3166566,
+  "reason": "handoff serial native queue to two independent case workers; leave running OpenROAD child untouched",
+  "action": "parent SIGSTOP only"
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "setting": "public",
+    "new_baselines_label_blind": true,
+    "zero_mlp_support_independent": true
+  },
+  {
+    "setting": "reference",
+    "new_baselines_label_blind": true,
+    "zero_mlp_support_independent": true
+  },
+  {
+    "setting": "to_asap7",
+    "new_baselines_label_blind": true,
+    "zero_mlp_support_independent": true
+  }
+]

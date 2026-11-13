@@ -1,0 +1,21 @@
+{
+  "source": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/.cache/AttentionCap/src/model.py",
+  "source_sha256": "9764c689cbc00ac73fc496b2ccc515864923c8c823d3c43ab07659a2219e9c6f",
+  "adapter_sha256": "3e691b5fb25280bb6a1596607eadfc49f4c7a9a66991d68d9ddea19390e72832",
+  "lr": 0.001,
+  "seed": 2,
+  "steps": 3000,
+  "training_ids": [
+    "freepdk15-M1-DIAGUNDER",
+    "freepdk15-M1-OVER",
+    "freepdk15-M1-OVERUNDER",
+    "freepdk15-M1-UNDER",
+    "freepdk15-MINT1-DIAGUNDER",
+    "freepdk15-MINT1-OVER",
+    "freepdk15-MINT1-OVERUNDER",
+    "freepdk15-MINT1-UNDER"
+  ],
+  "extra_supervision": false,
+  "dim": 105,
+  "projection": "same three FEM components; explicit external-boundary token"
+}

@@ -1,0 +1,27 @@
+{
+  "commands": [
+    [
+      "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/.venv-eval/bin/python",
+      "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/experiments/dac_characterization_20261114/learning.py",
+      "--setting",
+      "public"
+    ],
+    [
+      "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/.venv-eval/bin/python",
+      "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/experiments/dac_characterization_20261114/learning.py",
+      "--setting",
+      "reference"
+    ],
+    [
+      "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/.venv-eval/bin/python",
+      "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/experiments/dac_characterization_20261114/learning.py",
+      "--setting",
+      "to_asap7"
+    ]
+  ],
+  "max_concurrency": 3,
+  "timeout_seconds": 7200,
+  "code_sha256": "4852c27021d1cc615b25eb9db06bf36a82b534328c94872914d39afc4b2e2205",
+  "pid": 10788,
+  "started": 1794610126.981289
+}

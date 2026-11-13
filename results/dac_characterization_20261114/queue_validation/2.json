@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/.venv-eval/bin/python",
+    "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/experiments/dac_characterization_20261114/evaluate.py",
+    "--setting",
+    "to_asap7",
+    "--split",
+    "val",
+    "--numerical-selection",
+    "--workers",
+    "1",
+    "--out",
+    "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/dac_characterization_20261114/validation_to_asap7"
+  ],
+  "elapsed_seconds": 11.792119659483433,
+  "exit_code": 0
+}

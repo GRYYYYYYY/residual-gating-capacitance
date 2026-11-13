@@ -1,0 +1,56 @@
+{
+  "setting": "reference",
+  "kind": "mlp",
+  "learning_rate": 0.001,
+  "seed": 0,
+  "steps": 3000,
+  "training_ids": [
+    "asap7-M2-DIAGUNDER",
+    "asap7-M2-OVER",
+    "asap7-M2-OVERUNDER",
+    "asap7-M2-UNDER",
+    "asap7-M3-DIAGUNDER",
+    "asap7-M3-OVER",
+    "asap7-M3-OVERUNDER",
+    "asap7-M3-UNDER",
+    "freepdk15-M1-DIAGUNDER",
+    "freepdk15-M1-OVER",
+    "freepdk15-M1-OVERUNDER",
+    "freepdk15-M1-UNDER",
+    "freepdk15-MINT1-DIAGUNDER",
+    "freepdk15-MINT1-OVER",
+    "freepdk15-MINT1-OVERUNDER",
+    "freepdk15-MINT1-UNDER"
+  ],
+  "scales": {
+    "coordinates": [
+      0.05512499999999999,
+      0.10182337649086283,
+      0.060544541898267454
+    ],
+    "targets": {
+      "OVER": [
+        6.520785030132914e-11,
+        7.063747049972611e-11,
+        5.5502900763594415e-14
+      ],
+      "UNDER": [
+        6.11781639392594e-11,
+        8.368149401414728e-11,
+        5.984803027507442e-14
+      ],
+      "OVERUNDER": [
+        5.123976246825867e-11,
+        1.1766284025121526e-10,
+        7.40946629517191e-14
+      ],
+      "DIAGUNDER": [
+        1.5032918987341787e-10,
+        1.4039199623217489e-11,
+        1.0247539449205527e-11
+      ]
+    }
+  },
+  "code_sha256": "ac4c7be3b666e85fc42d4465cb8bfe80c0b9d971dd17344953beb62b08472533",
+  "plan_sha256": "cc2b08e9e286b1b6b1a97a8ba4eaa336aa03a365b7f57d7e77b365a75037fbe5"
+}

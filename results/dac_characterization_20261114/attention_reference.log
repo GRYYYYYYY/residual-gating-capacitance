@@ -1,0 +1,1 @@
+reference {'lr': 0.0003, 'adapt_steps': 50, 'score': 0.21985914458825445}

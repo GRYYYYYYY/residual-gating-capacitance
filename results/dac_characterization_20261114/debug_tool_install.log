@@ -1,0 +1,9 @@
+Collecting py-spy
+  Downloading py_spy-0.4.3-py2.py3-none-manylinux1_x86_64.manylinux_2_5_x86_64.whl.metadata (510 bytes)
+Downloading py_spy-0.4.3-py2.py3-none-manylinux1_x86_64.manylinux_2_5_x86_64.whl (2.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.9/2.9 MB 4.7 MB/s  0:00:00
+Installing collected packages: py-spy
+Successfully installed py-spy-0.4.3
+
+[notice] A new release of pip is available: 26.2.1 -> 26.3
+[notice] To update, run: /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/.venv-eval/bin/python -m pip install --upgrade pip

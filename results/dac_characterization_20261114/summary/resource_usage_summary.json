@@ -1,0 +1,25 @@
+{
+  "new_source_training_runs": 36,
+  "new_source_training_measured_cpu_seconds": 324.44272565100005,
+  "new_source_training_runs_without_cpu": 4,
+  "new_source_training_sum_wall_seconds": 346.1353607624769,
+  "main_confirmation_measured_prediction_adaptation_cpu_seconds": 1189.4476938540108,
+  "failed_fork_cpu_seconds": 770.07,
+  "native_invocations": 248,
+  "native_sum_wall_seconds": 3122.2669444829226,
+  "native_sum_extraction_seconds": 630.3763920000001,
+  "native_cpu_seconds": null,
+  "export_manifest": 17.38078808411956,
+  "artifact_bytes": 7764426542,
+  "new_GPU_hours": 0,
+  "new_field_solver_invocations": 0,
+  "observed_max_heavy_job_concurrency": 4,
+  "unknown_costs": [
+    "historical source/pretraining CPU/GPU totals",
+    "new source validation selection CPU",
+    "AttentionCap/reverse target adaptation CPU",
+    "native CPU",
+    "initial support population setup outside profiles"
+  ],
+  "accounting": "CPU and sum of individual walls reported separately; parallel walls are not end-to-end elapsed; costs are incomplete, no amortized superiority claim"
+}
