@@ -1,0 +1,2 @@
+# Active execution
+Stage A audit running; original checkout clean at 05d0717. Independent worktree research/dac-capacitance-characterization-20261114. No remote write authorized or attempted. Inputs symlinked read-only by convention; new outputs exclusively under results/dac_characterization_20261114. E1--E4 protocol registered before any new confirmation prediction. Control checkpoint candidates found locally (18). Resume: source experiments/dac_characterization_20261114/env.sh; inspect MANIFEST.json and result receipts before launching anything.

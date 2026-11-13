@@ -32,3 +32,18 @@ paper/*.fls
 paper/*.fdb_latexmk
 paper/main.pdf
 experiments/paper_controls/generated/
+
+# DAC local binary artifacts and native run output; manifests keep hashes.
+results/dac_characterization_20261114/learning/*/checkpoint.pt
+results/dac_characterization_20261114/attention/*/checkpoint.pt
+results/dac_characterization_20261114/downstream/native/
+results/dac_characterization_20261114/downstream/rules/*/*.rules
+results/dac_characterization_20261114/downstream/rules/*_B*_s*.json
+paper/dac_revision_20261114/*.aux
+paper/dac_revision_20261114/*.log
+paper/dac_revision_20261114/*.out
+paper/dac_revision_20261114/*.fls
+paper/dac_revision_20261114/*.fdb_latexmk
+/runs
+/sta
+/upstream

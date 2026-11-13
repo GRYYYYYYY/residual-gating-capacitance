@@ -1,0 +1,32 @@
+{
+  "gp": [
+    2.0,
+    1e-06
+  ],
+  "gp_name": "gp_l2_r1e-06",
+  "validation_scores": {
+    "cmi": 0.18777321673557365,
+    "anchor": 0.2057090518709608,
+    "affine": 0.16916198570401256,
+    "pchip": 0.2057090518709608,
+    "residual": 0.05007661438093928,
+    "binary": 0.05762653491720208,
+    "full": 0.04974543835120175,
+    "pruned": 0.06142708625883608,
+    "gp_l0.5_r1e-06": 0.18248598500457108,
+    "gp_l0.5_r0.0001": 0.18236995740564796,
+    "gp_l1_r1e-06": 0.15438563750606776,
+    "gp_l1_r0.0001": 0.15536674405233444,
+    "gp_l2_r1e-06": 0.14511634478837326,
+    "gp_l2_r0.0001": 0.1496793899325602
+  },
+  "thresholds": [
+    0.23966536782463785,
+    0.28821552937419825,
+    0.3190203297723347
+  ],
+  "threshold_rule": "source-validation per-table anchor NRMSE quantiles at B<=8",
+  "pruned_selected": false,
+  "validation_hash": "45648adf38a2fd35c15cd13ac7e4c1aadb3a5ec8fa51456a6b809e2861bf56f8",
+  "confirmation_seen": false
+}
