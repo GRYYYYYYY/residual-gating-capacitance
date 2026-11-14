@@ -1,0 +1,21 @@
+\begin{tabular}{llrrrrrrr}
+\toprule
+Data & Queries & CMI & Anchor & Affine & RBF-GP & Ungated & Binary & Full \\
+\midrule
+Public & In/random & 0.1286 & 0.1286 & 0.2062 & 0.4011 & 0.0875 & 0.0850 & \textbf{0.0803} \\
+Public & In/block & 0.2812 & 0.2812 & 0.4324 & 0.2490 & \textbf{0.0645} & 0.0701 & 0.0678 \\
+Public & Out/random & 0.5531 & 0.5531 & 0.4766 & 0.9120 & 0.0965 & 0.0954 & \textbf{0.0910} \\
+Public & Out/block & 0.9546 & 0.9546 & 0.5588 & 3.5596 & 0.1455 & 0.1420 & \textbf{0.1391} \\
+Public & Boundary & 1.1867 & 1.1867 & 0.6503 & 4.6800 & 0.1675 & 0.1629 & \textbf{0.1620} \\
+FEM & In/random & 0.0495 & 0.0208 & 0.0389 & 0.0116 & 0.0529 & 0.0387 & \textbf{0.0103} \\
+FEM & In/block & 0.1502 & 0.1286 & 0.1579 & 2.8414 & 0.0885 & 0.0560 & \textbf{0.0366} \\
+FEM & Out/random & 0.1344 & \textbf{0.0606} & 0.0621 & 1.0237 & 0.1336 & 0.1303 & 0.0895 \\
+FEM & Out/block & 0.9790 & 0.6542 & 0.3374 & 18.3431 & 0.1867 & 0.1479 & \textbf{0.1203} \\
+FEM & Boundary & 0.6404 & 0.5663 & 0.2376 & 17.6758 & 0.1761 & 0.1388 & \textbf{0.1137} \\
+Transfer & In/random & 0.0488 & 0.0205 & 0.0381 & \textbf{0.0113} & 0.0588 & 0.0432 & 0.0159 \\
+Transfer & In/block & 0.1473 & 0.1246 & 0.1542 & 2.5309 & 0.0868 & 0.0640 & \textbf{0.0531} \\
+Transfer & Out/random & 0.1330 & 0.0595 & \textbf{0.0594} & 0.8194 & 0.1172 & 0.1124 & 0.0877 \\
+Transfer & Out/block & 0.9583 & 0.6374 & 0.3288 & 16.0145 & 0.1482 & \textbf{0.1291} & 0.1358 \\
+Transfer & Boundary & 0.6297 & 0.5580 & 0.2364 & 15.5718 & 0.1172 & \textbf{0.1037} & 0.1073 \\
+\bottomrule
+\end{tabular}

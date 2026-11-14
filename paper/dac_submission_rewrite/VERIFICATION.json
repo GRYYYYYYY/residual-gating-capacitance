@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "body_pages": 6,
+  "references_only_pages": 1,
+  "font": "IEEEtran 10pt",
+  "pdf_author_empty": true,
+  "abstract_words": 97,
+  "missingness_conditions": 15,
+  "unrounded_original_summary_match": true,
+  "budget_rows_matched": 164,
+  "native_cells": 16,
+  "native_full_wins": {
+    "cmi/net_cap_nrmse": 16,
+    "cmi/ws_abs_ns": 16,
+    "cmi/slack_p99_ns": 16,
+    "binary/net_cap_nrmse": 6,
+    "binary/ws_abs_ns": 4,
+    "binary/slack_p99_ns": 6
+  },
+  "worst_binary_p99_delta_ps": 7.6432866666668,
+  "source_sync": true,
+  "overfull_boxes": 0,
+  "undefined_references": 0,
+  "type3_fonts": false,
+  "new_model_or_solver_calls": 0,
+  "starting_commit": "7334799ce7ca2e46dc4b4091b470cfc3af8c5cc7",
+  "main_reference_commit": "05d0717c31c3ebd38107c846cfa7712913078027"
+}

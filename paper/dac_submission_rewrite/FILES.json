@@ -1,0 +1,207 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 70,
+    "sha256": "15adb9698166715d02c047040745d3ec2a424bc5dba4df7214fa3ff1f884a7f7"
+  },
+  {
+    "path": "DAC_REWRITE.md",
+    "bytes": 30257,
+    "sha256": "538db97f9bf9699acdc218b150a7dd2b4e9b329415fcfb4d4eefae36693fc526"
+  },
+  {
+    "path": "EVIDENCE_MAP.md",
+    "bytes": 6997,
+    "sha256": "41d9bee107157a1566ab099b96285729f34e2a8f5224555690fabf72b3710678"
+  },
+  {
+    "path": "IEEEtran.bst",
+    "bytes": 57748,
+    "sha256": "314f0ece704568faf827011bac498650691b2b5ee06320720830e782416d5a5f"
+  },
+  {
+    "path": "IEEEtran.cls",
+    "bytes": 288304,
+    "sha256": "c972aca108fda004c3514d63658e02816da2e54d9a1451e870b9bd970e003f55"
+  },
+  {
+    "path": "INPUT_SHA256.json",
+    "bytes": 3026,
+    "sha256": "d42153862141ffa1b084762c67c97bf6b829e06d291460ecac693329c3ff53a7"
+  },
+  {
+    "path": "NEXT_EXPERIMENTS.md",
+    "bytes": 3403,
+    "sha256": "de70c59d2a68d4c5ffc0a8b1dd3f43d2b5de0736d97c07458b3e57daa4f597b2"
+  },
+  {
+    "path": "REVISION_NOTES.md",
+    "bytes": 3420,
+    "sha256": "0a53f1d93717942363067be2b03a8d983f788ca68b35fe259582f190906977fe"
+  },
+  {
+    "path": "SOURCE_OF_TRUTH.md",
+    "bytes": 1524,
+    "sha256": "86f6c829ee70688ff4e50974686b46add04547f723331a30bac8a6770afc9460"
+  },
+  {
+    "path": "SOURCE_SYNC.json",
+    "bytes": 214,
+    "sha256": "37ad20c051ba07ae1e66f6cdd4777c9fe24d0d9234455afbb4d98a15c443e40d"
+  },
+  {
+    "path": "VERIFICATION.json",
+    "bytes": 796,
+    "sha256": "ab72b4f5af4b1df12fe148ccafeb6fee45678ce1ce6627db1e69e96db401fe7a"
+  },
+  {
+    "path": "build_figures.py",
+    "bytes": 12636,
+    "sha256": "3c33bdc394b2bc74d2009ee3972d818288ce408cc00916c72bd16195a2c47aa8"
+  },
+  {
+    "path": "figures/budget_accuracy.pdf",
+    "bytes": 22903,
+    "sha256": "e4a92dcbccd0744d3d86fd73a88ca34f5756dfa9789274c40fffdbf3c0b7a8a7"
+  },
+  {
+    "path": "figures/budget_accuracy.png",
+    "bytes": 92957,
+    "sha256": "880d27ffa3cb3f8134addad44070fc825811fa37b417845bd2d7cce4db8afb18"
+  },
+  {
+    "path": "figures/family_diagnostic.pdf",
+    "bytes": 15002,
+    "sha256": "a8d4891a920f672350f690e751e369bdec64158778c8d0f9f18b83f7654d2577"
+  },
+  {
+    "path": "figures/family_diagnostic.png",
+    "bytes": 40558,
+    "sha256": "dba8d62f66ad1b41a33786eba684958b5cce1cf0e1c809cc8a3c069db2fcba69"
+  },
+  {
+    "path": "figures/method.pdf",
+    "bytes": 20168,
+    "sha256": "7bb46fc4f67334ef60786a20d2e95d26e545a1dfab09c7ed5b684384fd3f8df9"
+  },
+  {
+    "path": "figures/method.png",
+    "bytes": 137901,
+    "sha256": "1e8982f1ce615b969b85a7e6eb11efae63c08f598eb3df3b93addcaaaad0cb95"
+  },
+  {
+    "path": "figures/native_fidelity.pdf",
+    "bytes": 29242,
+    "sha256": "e403cbce54eae33eff75f1621201fec6dc26c2fb1720f4730dd833afe6f7196f"
+  },
+  {
+    "path": "figures/native_fidelity.png",
+    "bytes": 177625,
+    "sha256": "f1f576fb46e24a22ee7daaa65ad4f9662304277fc71a1cebc866d07f96878bd6"
+  },
+  {
+    "path": "figures/support_protocol.pdf",
+    "bytes": 14215,
+    "sha256": "504ddb7d65423d237348b755fce8eee2d201b9529023f4b033e10142fa153396"
+  },
+  {
+    "path": "figures/support_protocol.png",
+    "bytes": 39882,
+    "sha256": "b7de4736b5434793c25acbac0071df024c8c9692077f374567eb973f8fbaa975"
+  },
+  {
+    "path": "main.bbl",
+    "bytes": 3776,
+    "sha256": "dfe0834293f1a17baa6548d459b7012a385b955cd7e60ae47b024c5d35cbb6fb"
+  },
+  {
+    "path": "main.pdf",
+    "bytes": 272022,
+    "sha256": "aa37664905c36b4f32a86b2be58aaca9c0fc49cb5bf5d2f2b4b64c2b42f6d19e"
+  },
+  {
+    "path": "main.tex",
+    "bytes": 27808,
+    "sha256": "bf3ea6c8c995f00dcf78f0dad4caf6892de06636e494775394c87ad9279d19da"
+  },
+  {
+    "path": "package.py",
+    "bytes": 1318,
+    "sha256": "8bf9ec7263d32e23cb09644aed84833de66c3c96e316d4e90751f5011395c6fe"
+  },
+  {
+    "path": "references.bib",
+    "bytes": 2993,
+    "sha256": "b89b679ca99de3a8aacf381176e862332e999e226ccf530891d37938bcff8917"
+  },
+  {
+    "path": "sync_markdown.py",
+    "bytes": 3784,
+    "sha256": "f0ffe68489945860de304ff2b5a303d4c32228c303a231b097bb4fb88bbab09a"
+  },
+  {
+    "path": "tables/README.md",
+    "bytes": 1998,
+    "sha256": "d505a837a16b1f597cacc61f60acee9efd872bc01ecd28a2f77a38069951e6c7"
+  },
+  {
+    "path": "tables/budget_aux.tex",
+    "bytes": 644,
+    "sha256": "ceccacb9e4aa08861f5a30711dfb66af4a379c38c21c6a0fd90d26cbe0f14938"
+  },
+  {
+    "path": "tables/component_family.csv",
+    "bytes": 101306,
+    "sha256": "e15d6ba25d1b3c7d9363646c4972762f67e221ab05a1efe749163ed972b74e6e"
+  },
+  {
+    "path": "tables/fem_gain_range.tex",
+    "bytes": 12,
+    "sha256": "2f379c4f44910af5d449722d931a2b74650b52dceb7abd5dd52df3e079605367"
+  },
+  {
+    "path": "tables/fixed_budget_all.csv",
+    "bytes": 44862,
+    "sha256": "7537e67a97ac541ad5ae949852c6b26b319c50ad04f638de92d0127c78012309"
+  },
+  {
+    "path": "tables/fixed_missingness.csv",
+    "bytes": 3345,
+    "sha256": "e3bdb19f4c38054de020f7ec67cffc3ffc050672cf9a6fdbda91bd84004ff0c2"
+  },
+  {
+    "path": "tables/fixed_missingness.tex",
+    "bytes": 1554,
+    "sha256": "4db7b229afec84d9d165efa48f39a78502941d3e4c0e73f4eef2539fe4f92d13"
+  },
+  {
+    "path": "tables/geometry_example.json",
+    "bytes": 9110,
+    "sha256": "b281b74b0e4e418a0eeda1cc3ea2a486f500a87597dcb75acff1afeaa994d985"
+  },
+  {
+    "path": "tables/native_budget.csv",
+    "bytes": 18249,
+    "sha256": "126f83dfcf2f662852b527b64fbb9376407b2dac6af8666a895fe9db3d785084"
+  },
+  {
+    "path": "tables/native_missingness.csv",
+    "bytes": 7588,
+    "sha256": "0820117cea2b0c350f1254c8f2a17900ee2b69d80ea91d104427649e3a101322"
+  },
+  {
+    "path": "tables/retention.csv",
+    "bytes": 138,
+    "sha256": "99cd69ed30a94cb605dc8e268171f09a9e7e989b57c74af35efe61db22eaf9ce"
+  },
+  {
+    "path": "tables/support_protocol.csv",
+    "bytes": 538,
+    "sha256": "6ace1ec0f75dd5a188e6358a70b0351142874d2b40854b34f0f80bdd25026d33"
+  },
+  {
+    "path": "verify.py",
+    "bytes": 3903,
+    "sha256": "f8870829566fa5551e24698487eafe3a38fd4cb37450c7f8eba48980d2359f28"
+  }
+]
