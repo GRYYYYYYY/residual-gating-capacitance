@@ -1,0 +1,15 @@
+{
+  "start_commit": "269a86b15a5619400447266c186485a641b8a8ef",
+  "observed_head": "269a86b15a5619400447266c186485a641b8a8ef",
+  "created_utc": "2026-11-14T06:04:51.490856+00:00",
+  "raw_records_preserved": true,
+  "new_training": false,
+  "new_inference": false,
+  "new_field_solver": false,
+  "new_STA": false,
+  "checkpoint_count": 72,
+  "sampler_reconstruction": "counts only, no encoders/models; historical per-episode counts were not logged",
+  "native_tie_rule": "abs(diff)<=max(1e-12,1e-9*max(abs(a),abs(b)))",
+  "relative_difference": "100*(Full-comparator)/abs(comparator); undefined for zero denominator",
+  "status": "COMPLETION_ACCURACY_ONLY"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "input_hashes_verified": 276,
+  "same_budget_cells_reconciled": 164,
+  "threshold_trajectories_reconciled": 36054,
+  "matched_population_all_methods": true,
+  "checkpoint_hashes_verified": 72,
+  "mask_parity_cases": 768,
+  "attachments_byte_identical": true,
+  "new_model_execution": false,
+  "original_result_modifications": false
+}

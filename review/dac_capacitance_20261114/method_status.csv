@@ -1,0 +1,43 @@
+setting,method,status,budgets,reason,infeasible_budgets,native_status
+public,anchor,completed,"[4, 8]",,"16,32,64 (zero eligible public tables)",completed B4/B8 on eligible public holdouts
+public,cmi,completed,"[4, 8]",,"16,32,64 (zero eligible public tables)",completed B4/B8 on eligible public holdouts
+public,gp,completed,"[4, 8]",,"16,32,64 (zero eligible public tables)",not_run
+public,affine,completed,"[4, 8]",,"16,32,64 (zero eligible public tables)",completed B4/B8 on eligible public holdouts
+public,residual,completed,"[4, 8]",,"16,32,64 (zero eligible public tables)",not_run
+public,binary,completed,"[4, 8]",,"16,32,64 (zero eligible public tables)",completed B4/B8 on eligible public holdouts
+public,full,completed,"[4, 8]",,"16,32,64 (zero eligible public tables)",completed B4/B8 on eligible public holdouts
+public,pruned,completed,"[4, 8]",ablation only; validation rejected pruning,"16,32,64 (zero eligible public tables)",not_run
+public,mlp_adapt,completed,"[4, 8]",,"16,32,64 (zero eligible public tables)",not_run
+public,cnp,completed,"[4, 8]",,"16,32,64 (zero eligible public tables)",not_run
+public,attentioncap_adapted,not_run,[],public geometry/material matrix representation not defined; no public AttentionCap execution,"16,32,64 (zero eligible public tables)",not_run
+public,pchip,completed,"[4, 8]",,"16,32,64 (zero eligible public tables)",not_run
+public,mlp_zero,completed,"[4, 8]",source-only Q control; B observations restored in returned table,"16,32,64 (zero eligible public tables)",not_run
+public,attentioncap_zero,not_run,[],public geometry/material matrix representation not defined; no public AttentionCap execution,"16,32,64 (zero eligible public tables)",not_run
+reference,anchor,completed,"[4, 8, 16, 32, 64]",,,not_run
+reference,cmi,completed,"[4, 8, 16, 32, 64]",,,not_run
+reference,gp,completed,"[4, 8, 16, 32, 64]",,,not_run
+reference,affine,completed,"[4, 8, 16, 32, 64]",,,not_run
+reference,residual,completed,"[4, 8, 16, 32, 64]",,,not_run
+reference,binary,completed,"[4, 8, 16, 32, 64]",,,not_run
+reference,full,completed,"[4, 8, 16, 32, 64]",,,not_run
+reference,pruned,completed,"[4, 8, 16, 32, 64]",ablation only; validation rejected pruning,,not_run
+reference,mlp_adapt,completed,"[4, 8, 16, 32, 64]",,,not_run
+reference,cnp,completed,"[4, 8, 16, 32, 64]",,,not_run
+reference,attentioncap_adapted,completed,"[4, 8, 16, 32, 64]",,,not_run
+reference,pchip,completed,"[4, 8, 16, 32, 64]","rank2 linear fallback, not PCHIP",,not_run
+reference,mlp_zero,completed,"[4, 8, 16, 32, 64]",source-only Q control; B observations restored in returned table,,not_run
+reference,attentioncap_zero,completed,"[4, 8, 16, 32, 64]",source-only Q control; B observations restored in returned table,,not_run
+to_asap7,anchor,completed,"[4, 8, 16, 32, 64]",,,not_run
+to_asap7,cmi,completed,"[4, 8, 16, 32, 64]",,,not_run
+to_asap7,gp,completed,"[4, 8, 16, 32, 64]",,,not_run
+to_asap7,affine,completed,"[4, 8, 16, 32, 64]",,,not_run
+to_asap7,residual,completed,"[4, 8, 16, 32, 64]",,,not_run
+to_asap7,binary,completed,"[4, 8, 16, 32, 64]",,,not_run
+to_asap7,full,completed,"[4, 8, 16, 32, 64]",,,not_run
+to_asap7,pruned,completed,"[4, 8, 16, 32, 64]",ablation only; validation rejected pruning,,not_run
+to_asap7,mlp_adapt,completed,"[4, 8, 16, 32, 64]",,,not_run
+to_asap7,cnp,completed,"[4, 8, 16, 32, 64]",,,not_run
+to_asap7,attentioncap_adapted,completed,"[4, 8, 16, 32, 64]",,,not_run
+to_asap7,pchip,completed,"[4, 8, 16, 32, 64]","rank2 linear fallback, not PCHIP",,not_run
+to_asap7,mlp_zero,completed,"[4, 8, 16, 32, 64]",source-only Q control; B observations restored in returned table,,not_run
+to_asap7,attentioncap_zero,completed,"[4, 8, 16, 32, 64]",source-only Q control; B observations restored in returned table,,not_run

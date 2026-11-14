@@ -1,0 +1,11 @@
+setting,method,budget,records,macro_nrmse,target_labels,target_fit_steps,combined_completion_adaptation_wall_seconds,separate_adaptation_wall_seconds,fine_cpu_seconds_mean,validated_cpu_seconds_mean,cost_provenance,execution_failed
+asap7_to_freepdk15,mlp_zero,4,24,0.44136760540554304,0,0,0.0009243601622680823,0.0,0.0,0.0,derived recorded cost from exactly matched reference support/query; not new timing,0
+asap7_to_freepdk15,mlp_zero,8,24,0.44136760540554304,0,0,0.000686869335671266,0.0,0.0,0.0,derived recorded cost from exactly matched reference support/query; not new timing,0
+asap7_to_freepdk15,mlp_zero,16,24,0.44136760540554304,0,0,0.0006855049480994543,0.0,0.0,0.0,derived recorded cost from exactly matched reference support/query; not new timing,0
+asap7_to_freepdk15,mlp_zero,32,24,0.44136760540554304,0,0,0.0006945546095569929,0.0,0.0,0.0,derived recorded cost from exactly matched reference support/query; not new timing,0
+asap7_to_freepdk15,mlp_zero,64,24,0.44136760540554304,0,0,0.0006872898278137048,0.0,0.0,0.0,derived recorded cost from exactly matched reference support/query; not new timing,0
+asap7_to_freepdk15,mlp_adapt,4,24,0.05691486429136436,4,200,0.47690593839312595,,25.103277107375003,56.839614534041665,derived recorded cost from exactly matched reference support/query; not new timing,0
+asap7_to_freepdk15,mlp_adapt,8,24,0.04660774046441461,8,200,0.4773450576079388,,43.698301587208334,99.74439173675,derived recorded cost from exactly matched reference support/query; not new timing,0
+asap7_to_freepdk15,mlp_adapt,16,24,0.03303102997682459,16,200,0.4765245073164503,,89.37084755850002,204.25814811475,derived recorded cost from exactly matched reference support/query; not new timing,0
+asap7_to_freepdk15,mlp_adapt,32,24,0.028588403383246266,32,200,0.47602726332843304,,166.01326667454168,381.436058669,derived recorded cost from exactly matched reference support/query; not new timing,0
+asap7_to_freepdk15,mlp_adapt,64,24,0.028354474267358327,64,200,0.4747508461587131,,322.18130631195834,742.3591963679584,derived recorded cost from exactly matched reference support/query; not new timing,0

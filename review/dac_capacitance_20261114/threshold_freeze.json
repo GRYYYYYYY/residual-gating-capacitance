@@ -1,0 +1,62 @@
+[
+  {
+    "setting": "public",
+    "thresholds": [
+      0.08968510895952111,
+      0.13560050701234874,
+      0.2210901507588598
+    ],
+    "validation_tables_total": 246,
+    "validation_eligible": 245,
+    "validation_defined": 241,
+    "validation_data_seed": 11,
+    "validation_budget": 8,
+    "validation_records_sha256": "cd9196a1a4e72eafa2d4c7e495e32ae4e450b586800582d208501529d74d42b9",
+    "selection_sha256": "2625dc65efc8b2abd44bd22ae33b3983492ba9d99ec60868d721d69a32d39643",
+    "selection_local_mtime_utc": "2026-11-13T22:49:41.090804+00:00",
+    "freeze_commit": "14865375475a067364fe6f96483af3712882e752",
+    "freeze_commit_time": "2026-11-13T22:52:03+00:00",
+    "confirmation_frozen_mtime_utc": "2026-11-13T23:06:40.322246+00:00",
+    "application_basis": "none; source-validation anchor-error quartiles, not STA-certified tolerance"
+  },
+  {
+    "setting": "reference",
+    "thresholds": [
+      0.23966536782463785,
+      0.28821552937419825,
+      0.3190203297723347
+    ],
+    "validation_tables_total": 24,
+    "validation_eligible": 24,
+    "validation_defined": 24,
+    "validation_data_seed": 11,
+    "validation_budget": 8,
+    "validation_records_sha256": "45648adf38a2fd35c15cd13ac7e4c1aadb3a5ec8fa51456a6b809e2861bf56f8",
+    "selection_sha256": "b31447044bac282558b55ed8c8f826d0cc7b3abec42fa75187e22ff9fbe9d94a",
+    "selection_local_mtime_utc": "2026-11-13T22:48:42.740168+00:00",
+    "freeze_commit": "14865375475a067364fe6f96483af3712882e752",
+    "freeze_commit_time": "2026-11-13T22:52:03+00:00",
+    "confirmation_frozen_mtime_utc": "2026-11-13T22:52:15.052856+00:00",
+    "application_basis": "none; source-validation anchor-error quartiles, not STA-certified tolerance"
+  },
+  {
+    "setting": "to_asap7",
+    "thresholds": [
+      0.2441807598757363,
+      0.2907519133283675,
+      0.32268739134579016
+    ],
+    "validation_tables_total": 12,
+    "validation_eligible": 12,
+    "validation_defined": 12,
+    "validation_data_seed": 11,
+    "validation_budget": 8,
+    "validation_records_sha256": "d8872b75eb2d8ef9dc56162feea4b94ea5d27a8c6852d27e40dc5205a183e155",
+    "selection_sha256": "6ea0472e3245c5f160a04de220ed36c7c67f24df7a39e521cce8a4799cbe8e39",
+    "selection_local_mtime_utc": "2026-11-13T22:48:44.981297+00:00",
+    "freeze_commit": "14865375475a067364fe6f96483af3712882e752",
+    "freeze_commit_time": "2026-11-13T22:52:03+00:00",
+    "confirmation_frozen_mtime_utc": "2026-11-13T22:55:10.423582+00:00",
+    "application_basis": "none; source-validation anchor-error quartiles, not STA-certified tolerance"
+  }
+]
