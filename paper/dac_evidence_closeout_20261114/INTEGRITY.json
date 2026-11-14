@@ -1,0 +1,12 @@
+{
+  "source_hashes_unchanged": true,
+  "E1_printed_entries_checked": 108,
+  "rounding_check": "printed four decimals within half last digit; source values unchanged",
+  "markdown_tex_deterministic": true,
+  "pdf_numeric_tokens_present": true,
+  "no_overfull_boxes": true,
+  "old_tracked_files_unchanged": true,
+  "body_sha256": "4db54e067a2c54ed47052c33a806392f9f546c7cf94c9e1496ea1716d28aa077",
+  "tex_sha256": "cf0a6e7fce3503ed7f9e6fd08c4b7e4444e5c04555d9a1b6ee665a3e7eaa6d17",
+  "pdf_sha256": "6a9f1bcc834b262d10b6ec555f637e26eb79697ef707174ce826183de4daddcc"
+}

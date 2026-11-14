@@ -1,0 +1,29 @@
+{
+  "start_sha": "dce58bed002dd7440f963bcb21f28859bfcc6973",
+  "new_training": 0,
+  "new_predictions": 0,
+  "new_model_timing": 0,
+  "new_solver_transfer_STA": 0,
+  "mechanism_rows": 18,
+  "tail_counts": [
+    887,
+    225,
+    616
+  ],
+  "native_raw_rows": 240,
+  "native_means_match": true,
+  "p99_worst_case": [
+    "gf180/ibex",
+    4
+  ],
+  "p99_worst_delta_ps": 7.643286666666767,
+  "relative_average_gain_percent": 4.232342653367258,
+  "gap_shrink_percent": 79.1357253927126,
+  "Full_L_increase_percent_B16_vs0_vsH_B32_vs0_vsH": [
+    19.980439916150328,
+    16.347830642725715,
+    28.904641170176394,
+    20.040071869985354
+  ],
+  "input_files": 22
+}
