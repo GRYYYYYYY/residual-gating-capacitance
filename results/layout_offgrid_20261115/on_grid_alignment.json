@@ -1,0 +1,218 @@
+[
+  {
+    "query_id": "control-M4-OVER-w00-s00",
+    "level": "coarse",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M4-OVER-w00-s00",
+    "level": "fine",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M4-OVER-w00-s00",
+    "level": "wide",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M4-OVER-w08-s16",
+    "level": "coarse",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M4-OVER-w08-s16",
+    "level": "fine",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M4-OVER-w08-s16",
+    "level": "wide",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M4-UNDER-w00-s00",
+    "level": "coarse",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M4-UNDER-w00-s00",
+    "level": "fine",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M4-UNDER-w00-s00",
+    "level": "wide",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M4-UNDER-w08-s16",
+    "level": "coarse",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M4-UNDER-w08-s16",
+    "level": "fine",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M4-UNDER-w08-s16",
+    "level": "wide",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M4-OVERUNDER-w00-s00",
+    "level": "coarse",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M4-OVERUNDER-w00-s00",
+    "level": "fine",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M4-OVERUNDER-w00-s00",
+    "level": "wide",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M4-OVERUNDER-w08-s16",
+    "level": "coarse",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M4-OVERUNDER-w08-s16",
+    "level": "fine",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M4-OVERUNDER-w08-s16",
+    "level": "wide",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M5-OVER-w00-s00",
+    "level": "coarse",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M5-OVER-w00-s00",
+    "level": "fine",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M5-OVER-w00-s00",
+    "level": "wide",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M5-OVER-w08-s16",
+    "level": "coarse",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M5-OVER-w08-s16",
+    "level": "fine",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M5-OVER-w08-s16",
+    "level": "wide",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M5-UNDER-w00-s00",
+    "level": "coarse",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M5-UNDER-w00-s00",
+    "level": "fine",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M5-UNDER-w00-s00",
+    "level": "wide",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M5-UNDER-w08-s16",
+    "level": "coarse",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M5-UNDER-w08-s16",
+    "level": "fine",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M5-UNDER-w08-s16",
+    "level": "wide",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M5-OVERUNDER-w00-s00",
+    "level": "coarse",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M5-OVERUNDER-w00-s00",
+    "level": "fine",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M5-OVERUNDER-w00-s00",
+    "level": "wide",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M5-OVERUNDER-w08-s16",
+    "level": "coarse",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M5-OVERUNDER-w08-s16",
+    "level": "fine",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  },
+  {
+    "query_id": "control-M5-OVERUNDER-w08-s16",
+    "level": "wide",
+    "relative_to_reused": 0.0,
+    "bit_exact": true
+  }
+]

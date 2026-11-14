@@ -62,3 +62,18 @@ results/dac_support_mismatch_resume_20261114/budget.lock
 results/dac_support_mismatch_resume_20261114/ACTIVE.json
 paper/dac_mechanism_resume_20261114/*.aux
 paper/dac_mechanism_resume_20261114/*.out
+
+# Layout off-grid local raw artifacts (hash-indexed, not redistributable inputs).
+results/layout_offgrid_20261115/build/*.a
+results/layout_offgrid_20261115/build/*.o
+results/layout_offgrid_20261115/build/openroad-trace
+results/layout_offgrid_20261115/native/*/*/*.spef
+results/layout_offgrid_20261115/native/*/*/trace.tsv
+results/layout_offgrid_20261115/reference_results/*/*/mesh.msh
+results/layout_offgrid_20261115/pdf_preview/
+paper/dac_layout_query_revision/*.aux
+paper/dac_layout_query_revision/*.log
+paper/dac_layout_query_revision/*.out
+paper/dac_layout_query_revision/*.fls
+paper/dac_layout_query_revision/*.fdb_latexmk
+results/layout_offgrid_20261115/query_manifest.jsonl

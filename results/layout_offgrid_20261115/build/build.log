@@ -1,0 +1,309 @@
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/base/abci/abcPart.c:1285: warning: type ‘struct StochSynData_t_’ violates the C++ One Definition Rule [-Wodr]
+ 1285 | typedef struct StochSynData_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/aig/gia/giaStoch.c:155: note: a different type is defined in another translation unit
+  155 | typedef struct StochSynData_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/base/abci/abcPart.c:1287: note: the first difference of corresponding definitions is field ‘pIn’
+ 1287 |     Abc_Ntk_t *  pIn;
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/aig/gia/giaStoch.c:157: note: a field of same name but different type is defined in another translation unit
+  157 |     Gia_Man_t *  pIn;
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/base/abci/abcPart.c:1285: note: type name ‘abc::Abc_Ntk_t_’ should match type name ‘abc::Gia_Man_t_’
+ 1285 | typedef struct StochSynData_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/base/abci/abcResub.c:36: warning: type ‘struct Abc_ManRes_t_’ violates the C++ One Definition Rule [-Wodr]
+   36 | struct Abc_ManRes_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/base/abci/abcOrchestration.c:48: note: a different type is defined in another translation unit
+   48 | struct Abc_ManRes_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/base/abci/abcResub.c:42: note: the first difference of corresponding definitions is field ‘Log2Probs’
+   42 |     int                Log2Probs;
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/base/abci/abcOrchestration.c:54: note: a field with different name is defined in another translation unit
+   54 |     Abc_Obj_t *        pRoot;      // the root of the cone
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/map/if/ifDec16.c:38: warning: type ‘struct If_Grp_t_’ violates the C++ One Definition Rule [-Wodr]
+   38 | struct If_Grp_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/map/if/ifDec66.c:37: note: a different type is defined in another translation unit
+   37 | struct If_Grp_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/map/if/ifDec16.c:42: note: the first difference of corresponding definitions is field ‘pVars’
+   42 |     char       pVars[CLU_VAR_MAX];
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/map/if/ifDec66.c:41: note: a field of same name but different type is defined in another translation unit
+   41 |     char       pVars[CLU_VAR_MAX];
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/map/if/ifDec16.c:38: note: array types have different bounds
+   38 | struct If_Grp_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/bmc/bmcMaj.c:426: warning: type ‘struct Exa_Man_t_’ violates the C++ One Definition Rule [-Wodr]
+  426 | struct Exa_Man_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/bmc/bmcMaj2.c:517: note: a different type is defined in another translation unit
+  517 | struct Exa_Man_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/bmc/bmcMaj.c:436: note: the first difference of corresponding definitions is field ‘VarMarks’
+  436 |     int               VarMarks[MAJ_NOBJS][2][MAJ_NOBJS]; // variable marks
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/bmc/bmcMaj2.c:527: note: a field of same name but different type is defined in another translation unit
+  527 |     int               VarMarks[MAJ_NOBJS][2][MAJ_NOBJS]; // variable marks
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/bmc/bmcMaj.c:426: note: array types have different bounds
+  426 | struct Exa_Man_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/bmc/bmcMaj.c:51: warning: type ‘struct Maj_Man_t_’ violates the C++ One Definition Rule [-Wodr]
+   51 | struct Maj_Man_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/bmc/bmcMaj2.c:36: note: a different type is defined in another translation unit
+   36 | struct Maj_Man_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/bmc/bmcMaj.c:60: note: the first difference of corresponding definitions is field ‘vInfo’
+   60 |     Vec_Wrd_t *       vInfo;     // Const0 + Const1 + nVars + nNodes + Maj(nVars)
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/bmc/bmcMaj2.c:45: note: a field with different name is defined in another translation unit
+   45 |     int               fUseRand;  // use random topology
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/bmc/bmcMaj.c:1154: warning: type ‘struct Exa3_Man_t_’ violates the C++ One Definition Rule [-Wodr]
+ 1154 | struct Exa3_Man_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/bmc/bmcMaj2.c:1051: note: a different type is defined in another translation unit
+ 1051 | struct Exa3_Man_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/bmc/bmcMaj.c:1166: note: the first difference of corresponding definitions is field ‘vUsed2’
+ 1166 |     Vec_Bit_t *       vUsed2;    // bit masks
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/bmc/bmcMaj2.c:1063: note: a field with different name is defined in another translation unit
+ 1063 |     int               VarMarks[MAJ_NOBJS][6][MAJ_NOBJS]; // variable marks
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/glucose/Glucose.cpp:913: warning: type ‘struct reduceDB_lt’ violates the C++ One Definition Rule [-Wodr]
+  913 | struct reduceDB_lt {
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/glucose2/Glucose2.cpp:1073: note: a different type is defined in another translation unit
+ 1073 | struct reduceDB_lt {
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/glucose/Glucose.cpp:914: note: the first difference of corresponding definitions is field ‘ca’
+  914 |     ClauseAllocator& ca;
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/glucose2/Glucose2.cpp:1074: note: a field of same name but different type is defined in another translation unit
+ 1074 |     ClauseAllocator& ca;
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/glucose/SolverTypes.h:217: note: type name ‘abc::Gluco::ClauseAllocator’ should match type name ‘abc::Gluco2::ClauseAllocator’
+  217 | class ClauseAllocator : public RegionAllocator<uint32_t>
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/glucose2/SolverTypes.h:223: note: the incompatible type is defined here
+  223 | class ClauseAllocator : public RegionAllocator<uint32_t>
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/satoko/clause.h:17: warning: type ‘struct clause’ violates the C++ One Definition Rule [-Wodr]
+   17 | struct clause {
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/clause.h:22: note: a different type is defined in another translation unit
+   22 | struct clause {
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/satoko/clause.h:18: note: the first difference of corresponding definitions is field ‘f_learnt’
+   18 |     unsigned f_learnt    : 1;
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/clause.h:23: note: a field with different name is defined in another translation unit
+   23 |   unsigned glue : LD_MAX_GLUE;
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/statistics.h:315: warning: type ‘struct statistics’ violates the C++ One Definition Rule [-Wodr]
+  315 | struct statistics
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/cadical/cadical_kitten.c:114: note: a different type is defined in another translation unit
+  114 | struct statistics {
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/statistics.h:321: note: the first difference of corresponding definitions is field ‘backbone_computations’
+  321 |   METRICS_COUNTERS_AND_STATISTICS
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/cadical/cadical_kitten.c:115: note: a field with different name is defined in another translation unit
+  115 |   uint64_t learned;
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/bmc/bmcBmcS.c:733: warning: type ‘struct Par_ThData_t_’ violates the C++ One Definition Rule [-Wodr]
+  733 | typedef struct Par_ThData_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/proof/cec/cecProve.c:96: note: a different type is defined in another translation unit
+   96 | typedef struct Par_ThData_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/bmc/bmcBmcS.c:735: note: the first difference of corresponding definitions is field ‘pSat’
+  735 |     bmc_sat_solver *  pSat;
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/proof/cec/cecProve.c:98: note: a field with different name is defined in another translation unit
+   98 |     Gia_Man_t * p;
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/map/cov/covInt.h:37: warning: type ‘struct Min_Man_t_’ violates the C++ One Definition Rule [-Wodr]
+   37 | struct Min_Man_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/aig/gia/giaPat2.c:35: note: a different type is defined in another translation unit
+   35 | struct Min_Man_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/map/cov/covInt.h:39: note: the first difference of corresponding definitions is field ‘nVars’
+   39 |     int               nVars;          // the number of vars
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/aig/gia/giaPat2.c:37: note: a field with different name is defined in another translation unit
+   37 |     int              nCis;
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/base/abci/abcPart.c:41: warning: type ‘struct Supp_Man_t_’ violates the C++ One Definition Rule [-Wodr]
+   41 | struct Supp_Man_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/aig/gia/giaSupps.c:35: note: a different type is defined in another translation unit
+   35 | struct Supp_Man_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/base/abci/abcPart.c:43: note: the first difference of corresponding definitions is field ‘nChunkSize’
+   43 |     int              nChunkSize;    // the size of one chunk of memory (~1 MB)
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/aig/gia/giaSupps.c:38: note: a field with different name is defined in another translation unit
+   38 |     int         nIters;     // optimization rounds
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/bdd/llb/llb3Image.c:47: warning: type ‘struct Llb_Mgr_t_’ violates the C++ One Definition Rule [-Wodr]
+   47 | struct Llb_Mgr_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/bdd/llb/llb4Image.c:47: note: a different type is defined in another translation unit
+   47 | struct Llb_Mgr_t_
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/bdd/llb/llb3Image.c:49: note: the first difference of corresponding definitions is field ‘pAig’
+   49 |     Aig_Man_t *   pAig;      // AIG manager
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/bdd/llb/llb4Image.c:49: note: a field with different name is defined in another translation unit
+   49 |     DdManager *   dd;        // working BDD manager
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/build-cpu-20260909/src/odb/src/lef/lef_parser.hpp:534: warning: type of ‘lefyylval’ does not match original declaration [-Wlto-type-mismatch]
+  534 | extern YYSTYPE lefyylval;
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/build-cpu-20260909/src/odb/src/lef/lef_parser.cpp:3682: note: type name ‘YYSTYPE’ should match type name ‘LefParser::YYSTYPE’
+ 3682 | YYSTYPE yylval;
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/build-cpu-20260909/src/odb/src/lef/lef_parser.cpp:3682: note: ‘lefyylval’ was previously declared here
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/build-cpu-20260909/src/odb/src/lef/lef_parser.cpp:3682: note: code may be misoptimized unless ‘-fno-strict-aliasing’ is used
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/weaken.h:12: warning: ‘kissat_weaken_clause’ violates the C++ One Definition Rule [-Wodr]
+   12 | void kissat_weaken_clause (struct kissat *, unsigned lit, struct clause *);
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/weaken.c:38: note: type mismatch in parameter 3
+   38 | void kissat_weaken_clause (kissat *solver, unsigned lit, clause *c) {
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/weaken.c:38: note: ‘kissat_weaken_clause’ was previously declared here
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/eliminate.h:19: warning: ‘kissat_eliminate_clause’ violates the C++ One Definition Rule [-Wodr]
+   19 | void kissat_eliminate_clause (struct kissat *, struct clause *, unsigned);
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/eliminate.c:128: note: type mismatch in parameter 2
+  128 | void kissat_eliminate_clause (kissat *solver, clause *c, unsigned lit) {
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/eliminate.c:128: note: ‘kissat_eliminate_clause’ was previously declared here
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/strengthen.h:12: warning: ‘kissat_on_the_fly_strengthen’ violates the C++ One Definition Rule [-Wodr]
+   12 | struct clause *kissat_on_the_fly_strengthen (struct kissat *,
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/strengthen.c:144: note: return value type mismatch
+  144 | clause *kissat_on_the_fly_strengthen (kissat *solver, clause *c,
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/strengthen.c:144: note: ‘kissat_on_the_fly_strengthen’ was previously declared here
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/strengthen.h:15: warning: ‘kissat_on_the_fly_subsume’ violates the C++ One Definition Rule [-Wodr]
+   15 | void kissat_on_the_fly_subsume (struct kissat *, struct clause *,
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/strengthen.c:158: note: type mismatch in parameter 2
+  158 | void kissat_on_the_fly_subsume (kissat *solver, clause *c, clause *d) {
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/strengthen.c:158: note: ‘kissat_on_the_fly_subsume’ was previously declared here
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/deduce.h:15: warning: ‘kissat_recompute_and_promote’ violates the C++ One Definition Rule [-Wodr]
+   15 | bool kissat_recompute_and_promote (struct kissat *, struct clause *);
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/deduce.c:31: note: type mismatch in parameter 2
+   31 | bool kissat_recompute_and_promote (kissat *solver, clause *c) {
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/deduce.c:31: note: ‘kissat_recompute_and_promote’ was previously declared here
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/proprobe.h:12: warning: ‘kissat_probing_propagate’ violates the C++ One Definition Rule [-Wodr]
+   12 | struct clause *kissat_probing_propagate (struct kissat *, struct clause *,
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/proprobe.c:37: note: return value type mismatch
+   37 | clause *kissat_probing_propagate (kissat *solver, clause *ignore,
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/proprobe.c:37: note: ‘kissat_probing_propagate’ was previously declared here
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/deduce.h:12: warning: ‘kissat_deduce_first_uip_clause’ violates the C++ One Definition Rule [-Wodr]
+   12 | struct clause *kissat_deduce_first_uip_clause (struct kissat *,
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/deduce.c:72: note: return value type mismatch
+   72 | clause *kissat_deduce_first_uip_clause (kissat *solver, clause *conflict) {
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/deduce.c:72: note: ‘kissat_deduce_first_uip_clause’ was previously declared here
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/analyze.h:12: warning: ‘kissat_analyze’ violates the C++ One Definition Rule [-Wodr]
+   12 | int kissat_analyze (struct kissat *, struct clause *);
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/analyze.c:529: note: type mismatch in parameter 2
+  529 | int kissat_analyze (kissat *solver, clause *conflict) {
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/analyze.c:529: note: ‘kissat_analyze’ was previously declared here
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/propsearch.h:10: warning: ‘kissat_search_propagate’ violates the C++ One Definition Rule [-Wodr]
+   10 | struct clause *kissat_search_propagate (struct kissat *);
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/propsearch.c:46: note: return value type mismatch
+   46 | clause *kissat_search_propagate (kissat *solver) {
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/propsearch.c:46: note: ‘kissat_search_propagate’ was previously declared here
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/assign.h:57: warning: ‘kissat_assign_reference’ violates the C++ One Definition Rule [-Wodr]
+   57 | void kissat_assign_reference (struct kissat *, unsigned lit, reference,
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/assign.c:49: note: type mismatch in parameter 4
+   49 | void kissat_assign_reference (kissat *solver, unsigned lit, reference ref,
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/kissat/assign.c:49: note: ‘kissat_assign_reference’ was previously declared here
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/base/abci/abc.c:61388: warning: ‘Abc_BtorCat’ violates the C++ One Definition Rule [-Wodr]
+61388 |     extern void Abc_BtorCat( char * pFileName, int fVerbose );
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/misc/btor/catbtor.c:27: note: return value type mismatch
+   27 | Abc_BtorCat (char* input_name, int verbosity)
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/misc/btor/catbtor.c:27: note: type ‘int32_t’ should match type ‘void’
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/misc/btor/catbtor.c:27: note: ‘Abc_BtorCat’ was previously declared here
+In function ‘Vec_IntAlloc’,
+    inlined from ‘Vec_IntStartNatural’ at /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/misc/vec/vecInt.h:190:0,
+    inlined from ‘Bmc_PerformISearchOne’ at /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/bmc/bmcICheck.c:433:32:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/misc/vec/vecInt.h:106: warning: argument 1 range [18446744065119617024, 18446744073709551612] exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+  106 |     p->pArray = p->nCap? ABC_ALLOC( int, p->nCap ) : NULL;
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/misc/vec/vecInt.h: In function ‘Bmc_PerformISearchOne’:
+/usr/include/stdlib.h:540:14: note: in a call to allocation function ‘malloc’ declared here
+  540 | extern void *malloc (size_t __size) __THROW __attribute_malloc__
+      |              ^
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/cadical/cadical_decompose.cpp: In member function ‘_ZN3abc7CaDiCaL8Internal15decompose_roundEv.part.0’:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/sat/cadical/cadical_decompose.cpp:150:30: warning: argument 1 value ‘18446744073709551615’ exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+  150 |   DFS *dfs = new DFS[size_dfs];
+      |                              ^
+/usr/include/c++/11/new:128:26: note: in a call to allocation function ‘operator new []’ declared here
+  128 | _GLIBCXX_NODISCARD void* operator new[](std::size_t) _GLIBCXX_THROW (std::bad_alloc)
+      |                          ^
+In function ‘Vec_IntAlloc’,
+    inlined from ‘Gia_ManLutCollect’ at /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/aig/gia/giaPack.c:105:26:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/misc/vec/vecInt.h:106: warning: argument 1 range [18446744065119617024, 18446744073709551612] exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+  106 |     p->pArray = p->nCap? ABC_ALLOC( int, p->nCap ) : NULL;
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/misc/vec/vecInt.h: In function ‘Gia_ManLutCollect’:
+/usr/include/stdlib.h:540:14: note: in a call to allocation function ‘malloc’ declared here
+  540 | extern void *malloc (size_t __size) __THROW __attribute_malloc__
+      |              ^
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/misc/extra/extraUtilPerm.c: In function ‘Abc_EnumerateCubeStatesZdd’:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/misc/extra/extraUtilPerm.c:94:102: warning: iteration 171 invokes undefined behavior [-Waggressive-loop-optimizations]
+   94 | static inline unsigned     Abc_ZddHash( int Arg0, int Arg1, int Arg2 )             { return 12582917 * Arg0 + 4256249 * Arg1 + 741457 * Arg2; }
+      |                                                                                                      ^
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/misc/extra/extraUtilPerm.c:200:20: note: within this loop
+  200 |     for ( i = 0; i < nVars; i++ )
+      |                    ^
+In function ‘Vec_PtrAllocExact’,
+    inlined from ‘Bac_NtkTransformToPtrBoxes’ at /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/base/bac/bacPtrAbc.c:423:43:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/misc/vec/vecPtr.h:103: warning: argument 1 range [18446744056529682432, 18446744073709551608] exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+  103 |     p->pArray = p->nCap? ABC_ALLOC( void *, p->nCap ) : NULL;
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/misc/vec/vecPtr.h: In function ‘Bac_NtkTransformToPtrBoxes’:
+/usr/include/stdlib.h:540:14: note: in a call to allocation function ‘malloc’ declared here
+  540 | extern void *malloc (size_t __size) __THROW __attribute_malloc__
+      |              ^
+In function ‘Vec_PtrAllocExact’,
+    inlined from ‘Bac_NtkTransformToPtrBoxes’ at /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/base/bac/bacPtrAbc.c:423:43,
+    inlined from ‘Bac_NtkTransformToPtr’ at /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/base/bac/bacPtrAbc.c:455:50:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/misc/vec/vecPtr.h:103: warning: argument 1 range [18446744056529682432, 18446744073709551608] exceeds maximum object size 9223372036854775807 [-Walloc-size-larger-than=]
+  103 |     p->pArray = p->nCap? ABC_ALLOC( void *, p->nCap ) : NULL;
+      | 
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc/src/misc/vec/vecPtr.h: In function ‘Bac_NtkTransformToPtr’:
+/usr/include/stdlib.h:540:14: note: in a call to allocation function ‘malloc’ declared here
+  540 | extern void *malloc (size_t __size) __THROW __attribute_malloc__
+      |              ^

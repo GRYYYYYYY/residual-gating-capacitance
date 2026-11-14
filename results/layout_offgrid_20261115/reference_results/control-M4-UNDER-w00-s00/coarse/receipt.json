@@ -1,0 +1,10 @@
+{
+  "query_id": "control-M4-UNDER-w00-s00",
+  "level": "coarse",
+  "status": "completed",
+  "spec_hash": "892276681384778faa8db6d85d30a18875aa8ac7c626cdebf5cf86b990b513ac",
+  "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+  "cpu_s": 1.86,
+  "wall_s": 1.9199829399585724,
+  "result_sha256": "3d330c540ba4575899eb6f329d72dd8eab3c7a478f64d8fbb3d88a3ee4f8e4ab"
+}

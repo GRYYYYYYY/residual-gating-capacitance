@@ -1,0 +1,10 @@
+{
+  "query_id": "00c8bc49b1295da533d0902b",
+  "level": "fine",
+  "status": "completed",
+  "spec_hash": "68ecb7cc5739c827a2277f18bfd7cbf3540aab3e43ae99f26800f13889f1360b",
+  "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+  "cpu_s": 3.79,
+  "wall_s": 3.825287736952305,
+  "result_sha256": "917120c6c20dfa231a2c15abfce22988169e9ac139d02e34e280061916464b50"
+}

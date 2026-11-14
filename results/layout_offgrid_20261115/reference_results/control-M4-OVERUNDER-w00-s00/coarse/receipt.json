@@ -1,0 +1,10 @@
+{
+  "query_id": "control-M4-OVERUNDER-w00-s00",
+  "level": "coarse",
+  "status": "completed",
+  "spec_hash": "563f452cf0e979ed318825bdb81823738d3351a7532f64877ba10760c6a5cea8",
+  "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+  "cpu_s": 2.41,
+  "wall_s": 2.4703971035778522,
+  "result_sha256": "60ee9b9a8177b46c9e356a1cdb15da9e82770d3cc59b0e50b1289c270a75eb58"
+}

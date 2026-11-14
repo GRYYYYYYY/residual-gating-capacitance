@@ -1,0 +1,254 @@
+[
+  {
+    "reference_kind": "direct_FEM_template_F_per_m",
+    "method": "affine",
+    "weighting": "unique",
+    "macro_nrmse": 0.052539572658505874,
+    "groups": 6
+  },
+  {
+    "reference_kind": "direct_FEM_template_F_per_m",
+    "method": "affine",
+    "weighting": "occurrence_HT",
+    "macro_nrmse": 0.059148379494677744,
+    "groups": 6
+  },
+  {
+    "reference_kind": "direct_FEM_template_F_per_m",
+    "method": "anchor",
+    "weighting": "unique",
+    "macro_nrmse": 0.004512190190904297,
+    "groups": 6
+  },
+  {
+    "reference_kind": "direct_FEM_template_F_per_m",
+    "method": "anchor",
+    "weighting": "occurrence_HT",
+    "macro_nrmse": 0.005269301748318501,
+    "groups": 6
+  },
+  {
+    "reference_kind": "direct_FEM_template_F_per_m",
+    "method": "binary",
+    "weighting": "unique",
+    "macro_nrmse": 0.02218064742232295,
+    "groups": 6
+  },
+  {
+    "reference_kind": "direct_FEM_template_F_per_m",
+    "method": "binary",
+    "weighting": "occurrence_HT",
+    "macro_nrmse": 0.023230859641279255,
+    "groups": 6
+  },
+  {
+    "reference_kind": "direct_FEM_template_F_per_m",
+    "method": "cmi",
+    "weighting": "unique",
+    "macro_nrmse": 0.0045177425829712355,
+    "groups": 6
+  },
+  {
+    "reference_kind": "direct_FEM_template_F_per_m",
+    "method": "cmi",
+    "weighting": "occurrence_HT",
+    "macro_nrmse": 0.0052693094537432485,
+    "groups": 6
+  },
+  {
+    "reference_kind": "direct_FEM_template_F_per_m",
+    "method": "cnp",
+    "weighting": "unique",
+    "macro_nrmse": 0.1657520411652959,
+    "groups": 6
+  },
+  {
+    "reference_kind": "direct_FEM_template_F_per_m",
+    "method": "cnp",
+    "weighting": "occurrence_HT",
+    "macro_nrmse": 0.1716119413696695,
+    "groups": 6
+  },
+  {
+    "reference_kind": "direct_FEM_template_F_per_m",
+    "method": "full",
+    "weighting": "unique",
+    "macro_nrmse": 0.016754605037472965,
+    "groups": 6
+  },
+  {
+    "reference_kind": "direct_FEM_template_F_per_m",
+    "method": "full",
+    "weighting": "occurrence_HT",
+    "macro_nrmse": 0.014559409724699005,
+    "groups": 6
+  },
+  {
+    "reference_kind": "direct_FEM_template_F_per_m",
+    "method": "gp",
+    "weighting": "unique",
+    "macro_nrmse": 0.05371214942534592,
+    "groups": 6
+  },
+  {
+    "reference_kind": "direct_FEM_template_F_per_m",
+    "method": "gp",
+    "weighting": "occurrence_HT",
+    "macro_nrmse": 0.04158131363490023,
+    "groups": 6
+  },
+  {
+    "reference_kind": "direct_FEM_template_F_per_m",
+    "method": "mlp_adapt",
+    "weighting": "unique",
+    "macro_nrmse": 0.01889031873115397,
+    "groups": 6
+  },
+  {
+    "reference_kind": "direct_FEM_template_F_per_m",
+    "method": "mlp_adapt",
+    "weighting": "occurrence_HT",
+    "macro_nrmse": 0.017917985952776837,
+    "groups": 6
+  },
+  {
+    "reference_kind": "direct_FEM_template_F_per_m",
+    "method": "residual",
+    "weighting": "unique",
+    "macro_nrmse": 0.026879908649463446,
+    "groups": 6
+  },
+  {
+    "reference_kind": "direct_FEM_template_F_per_m",
+    "method": "residual",
+    "weighting": "occurrence_HT",
+    "macro_nrmse": 0.0230861347931019,
+    "groups": 6
+  },
+  {
+    "reference_kind": "native_evaluator_agreement_not_physical_truth",
+    "method": "affine",
+    "weighting": "unique",
+    "macro_nrmse": 0.17500473306951655,
+    "groups": 26
+  },
+  {
+    "reference_kind": "native_evaluator_agreement_not_physical_truth",
+    "method": "affine",
+    "weighting": "occurrence_HT",
+    "macro_nrmse": 0.0861815166128112,
+    "groups": 26
+  },
+  {
+    "reference_kind": "native_evaluator_agreement_not_physical_truth",
+    "method": "anchor",
+    "weighting": "unique",
+    "macro_nrmse": 0.007605823100779064,
+    "groups": 26
+  },
+  {
+    "reference_kind": "native_evaluator_agreement_not_physical_truth",
+    "method": "anchor",
+    "weighting": "occurrence_HT",
+    "macro_nrmse": 0.005411763708980708,
+    "groups": 26
+  },
+  {
+    "reference_kind": "native_evaluator_agreement_not_physical_truth",
+    "method": "binary",
+    "weighting": "unique",
+    "macro_nrmse": 0.24363063648210373,
+    "groups": 26
+  },
+  {
+    "reference_kind": "native_evaluator_agreement_not_physical_truth",
+    "method": "binary",
+    "weighting": "occurrence_HT",
+    "macro_nrmse": 0.24639543101746167,
+    "groups": 26
+  },
+  {
+    "reference_kind": "native_evaluator_agreement_not_physical_truth",
+    "method": "cmi",
+    "weighting": "unique",
+    "macro_nrmse": 0.007605823100779065,
+    "groups": 26
+  },
+  {
+    "reference_kind": "native_evaluator_agreement_not_physical_truth",
+    "method": "cmi",
+    "weighting": "occurrence_HT",
+    "macro_nrmse": 0.005411763708980717,
+    "groups": 26
+  },
+  {
+    "reference_kind": "native_evaluator_agreement_not_physical_truth",
+    "method": "cnp",
+    "weighting": "unique",
+    "macro_nrmse": 0.24988257374961367,
+    "groups": 26
+  },
+  {
+    "reference_kind": "native_evaluator_agreement_not_physical_truth",
+    "method": "cnp",
+    "weighting": "occurrence_HT",
+    "macro_nrmse": 0.2471450220495322,
+    "groups": 26
+  },
+  {
+    "reference_kind": "native_evaluator_agreement_not_physical_truth",
+    "method": "full",
+    "weighting": "unique",
+    "macro_nrmse": 0.2361957954952554,
+    "groups": 26
+  },
+  {
+    "reference_kind": "native_evaluator_agreement_not_physical_truth",
+    "method": "full",
+    "weighting": "occurrence_HT",
+    "macro_nrmse": 0.21128992762953927,
+    "groups": 26
+  },
+  {
+    "reference_kind": "native_evaluator_agreement_not_physical_truth",
+    "method": "gp",
+    "weighting": "unique",
+    "macro_nrmse": 0.4173580876486437,
+    "groups": 26
+  },
+  {
+    "reference_kind": "native_evaluator_agreement_not_physical_truth",
+    "method": "gp",
+    "weighting": "occurrence_HT",
+    "macro_nrmse": 0.2749384316312662,
+    "groups": 26
+  },
+  {
+    "reference_kind": "native_evaluator_agreement_not_physical_truth",
+    "method": "mlp_adapt",
+    "weighting": "unique",
+    "macro_nrmse": 0.3407045295968087,
+    "groups": 26
+  },
+  {
+    "reference_kind": "native_evaluator_agreement_not_physical_truth",
+    "method": "mlp_adapt",
+    "weighting": "occurrence_HT",
+    "macro_nrmse": 0.19212444547293558,
+    "groups": 26
+  },
+  {
+    "reference_kind": "native_evaluator_agreement_not_physical_truth",
+    "method": "residual",
+    "weighting": "unique",
+    "macro_nrmse": 0.21853264619589194,
+    "groups": 26
+  },
+  {
+    "reference_kind": "native_evaluator_agreement_not_physical_truth",
+    "method": "residual",
+    "weighting": "occurrence_HT",
+    "macro_nrmse": 0.2123345384359315,
+    "groups": 26
+  }
+]

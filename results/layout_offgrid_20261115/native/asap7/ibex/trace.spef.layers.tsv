@@ -1,0 +1,11 @@
+name	layer	width	spacing	thickness
+M1	1	18	18	unresolved
+M2	2	18	18	unresolved
+M3	3	18	18	unresolved
+M4	4	24	24	unresolved
+M5	5	24	24	unresolved
+M6	6	32	32	unresolved
+M7	7	32	32	unresolved
+M8	8	40	40	unresolved
+M9	9	40	40	unresolved
+Pad	10	40	2000	unresolved

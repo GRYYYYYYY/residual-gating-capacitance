@@ -1,0 +1,138 @@
+{
+  "base_head": "78b51129f78691e0e581e906871af5ca226f1599",
+  "remote_research_head_verified": "78b51129f78691e0e581e906871af5ca226f1599",
+  "remote_main_head_verified": "05d0717c31c3ebd38107c846cfa7712913078027",
+  "source_files": [
+    {
+      "path": "experiments/layout_offgrid_20261115/revise_paper.py",
+      "sha256": "95d465fa1920f22aef937a128c8ce28b36e65cd94ada6043b629425363e54260"
+    },
+    {
+      "path": "experiments/layout_offgrid_20261115/run_native.py",
+      "sha256": "fc99fb5403ebc7553dd4124ad9d0192aaa96684e6110174e7c30e3171c020f08"
+    },
+    {
+      "path": "experiments/layout_offgrid_20261115/smoke.py",
+      "sha256": "5acc09fb5aaa418b95632f5edbfb2a7dfb0a7d04f2a4ea13b51d308f24c2219b"
+    },
+    {
+      "path": "experiments/layout_offgrid_20261115/check_api.py",
+      "sha256": "c26c38b67e6e9f4d979582dee9fdf73fb670b9a465a56df0af0e0e4db0bdad86"
+    },
+    {
+      "path": "experiments/layout_offgrid_20261115/summarize.py",
+      "sha256": "7203e4da345312054841b56bac1cdb67aaf95e2a5dc5eafd06658ffd85909796"
+    },
+    {
+      "path": "experiments/layout_offgrid_20261115/census.py",
+      "sha256": "8dbd63129082c2ac677295f9e8521837ea861d4069afcca79ef8042ca11fac54"
+    },
+    {
+      "path": "experiments/layout_offgrid_20261115/evaluate.py",
+      "sha256": "3702450f2b80fd248311e4cf307dd758a42a9fa5eb1221ed5affdd8419d29ad6"
+    },
+    {
+      "path": "experiments/layout_offgrid_20261115/reference_worker.py",
+      "sha256": "b94b41100c6b3cceb6e84580d6a5b2637e73fa6884d0a61aaf06d2b48cf29e55"
+    },
+    {
+      "path": "experiments/layout_offgrid_20261115/reference.py",
+      "sha256": "d31f5e75acd75f86ef76460647441cb4321069e90d68b39e2e588f8069d55a6b"
+    },
+    {
+      "path": "experiments/layout_offgrid_20261115/contracts.py",
+      "sha256": "2a3fa48241edea5d2d04766dbff468c140337e36ad57e3d3e59e2a6468bbfdcf"
+    },
+    {
+      "path": "experiments/layout_offgrid_20261115/build_trace.py",
+      "sha256": "d5f3c49c83fe10f4c2850296b692d3a19319650ffba2f6ce7a4716c32993e295"
+    },
+    {
+      "path": "experiments/layout_offgrid_20261115/plan_reference.py",
+      "sha256": "969307302d5819f1f7e094eb13f782068f6fce9582372c3ab5483f9816ce4613"
+    },
+    {
+      "path": "experiments/layout_offgrid_20261115/native_kernel.py",
+      "sha256": "a4c26bc5b6b48d6a9a5a043e35433ddba6a61b1f0815fa31756f2266404626d1"
+    },
+    {
+      "path": "unified/queries.py",
+      "sha256": "82576911ca5c609214e39fe989d2447acf4d6ecc402888452c99e9d606a464e0"
+    },
+    {
+      "path": "configs/paper_models.json",
+      "sha256": "01200e41b23fd918b6a1dcc6c0a9903e8127a659cfa59330835b0911a0d433de"
+    },
+    {
+      "path": "experiments/dac_characterization_20261114/selected_public.json",
+      "sha256": "2625dc65efc8b2abd44bd22ae33b3983492ba9d99ec60868d721d69a32d39643"
+    },
+    {
+      "path": "experiments/dac_characterization_20261114/selected_to_asap7.json",
+      "sha256": "6ea0472e3245c5f160a04de220ed36c7c67f24df7a39e521cce8a4799cbe8e39"
+    }
+  ],
+  "models": {
+    "public": {
+      "record_run": "conf_public_holdout",
+      "checkpoints": [
+        {
+          "path": "runs/holdout_g_s0/checkpoint.pt",
+          "sha256": "a44d7dcd5d1b6cc0518d2da2e0a0363edc4a2227ea04be6f37e05d1bbb704713"
+        },
+        {
+          "path": "runs/holdout_g_s1/checkpoint.pt",
+          "sha256": "9e8c808433c2adbeb17358749b001feafa49d53912cb2ee0774a97f213c377cd"
+        },
+        {
+          "path": "runs/holdout_g_s2/checkpoint.pt",
+          "sha256": "8bfa742183a1fe2793ea145e76fdc4a2779dffb99a6351b426b9c156fcced702"
+        }
+      ],
+      "method": "sace_r_holdout",
+      "cohort": "./runs/round3_evaluation_inputs_v1/public_retrospective_original.jsonl",
+      "scored_tables": 340
+    },
+    "reference": {
+      "record_run": "conf_v10_reference",
+      "checkpoints": [
+        {
+          "path": "runs/v10_reference_all_s0/checkpoint.pt",
+          "sha256": "d39e40dc0381e2cceff9b0caab57512e8ce4acdb81263fa928797aa5ce53250d"
+        },
+        {
+          "path": "runs/v10_reference_all_s1/checkpoint.pt",
+          "sha256": "c84c718d60859c26877fa2e39907109e3827a61e88e0dbbd0bd8c4288dd8af27"
+        },
+        {
+          "path": "runs/v10_reference_all_s2/checkpoint.pt",
+          "sha256": "5353ea614f82731f2ff1a130ef7ded8eaf76f23542647a64e5ba737f2015661e"
+        }
+      ],
+      "method": "v10_all",
+      "cohort": "runs/round3_evaluation_inputs_v1/reference_confirmation_round3_main.jsonl",
+      "scored_tables": 16
+    },
+    "to_asap7": {
+      "record_run": "conf_v10_to_asap7",
+      "checkpoints": [
+        {
+          "path": "runs/v10_to_asap7_all_s0/checkpoint.pt",
+          "sha256": "ee13cbec4a4dc380bc5ba63422c41941759e3449aaa339f864c2cd9802034169"
+        },
+        {
+          "path": "runs/v10_to_asap7_all_s1/checkpoint.pt",
+          "sha256": "82e8e0d021cd2865991d7934702231cbea6e5988c6a5b73504974b1cd78c747c"
+        },
+        {
+          "path": "runs/v10_to_asap7_all_s2/checkpoint.pt",
+          "sha256": "9708b73cb43e4a9e6cf71747cfbd757eb3c258ea299ebf94aef3f040c6c76116"
+        }
+      ],
+      "method": "v10_all",
+      "cohort": "runs/round3_evaluation_inputs_v1/to_asap7_confirmation_round3_main.jsonl",
+      "scored_tables": 8
+    }
+  },
+  "new_source_training": false
+}

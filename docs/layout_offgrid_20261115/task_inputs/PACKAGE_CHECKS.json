@@ -1,0 +1,43 @@
+{
+  "utf8_and_nonempty": true,
+  "citation_keys_resolved": [
+    "li2020autoprechar",
+    "orcx_calibration",
+    "orcx_runtime",
+    "tsai2025geometry",
+    "yang2023cnncap",
+    "zhou2026rmlpcap"
+  ],
+  "bib_entries": 6,
+  "tex_braces_balanced": true,
+  "manuscript_rewrite_and_new_experiments_included": true,
+  "actual_remote_experiments_run_by_this_delivery": false,
+  "reference_branch_commit": "78b51129f78691e0e581e906871af5ca226f1599",
+  "files": [
+    {
+      "name": "CODEX_DAC_LAYOUT_OFFGRID_TASK.md",
+      "bytes": 33306,
+      "sha256": "66dc2fc0da79a8b5ccd1d25a30af35d840079acfab1e7dad395b73ae649ec3c2"
+    },
+    {
+      "name": "DAC_INTRODUCTION_AND_SOURCES.md",
+      "bytes": 11662,
+      "sha256": "4a169080be44f36adb5b85158ab84ee57b728718df76af74bab18b33b99f7dd0"
+    },
+    {
+      "name": "START_CODEX.txt",
+      "bytes": 1803,
+      "sha256": "bb8c4ac1c2436f02324a6442c41262f24dfabd0b013144ad660fef04d7ae35e6"
+    },
+    {
+      "name": "intro_motivation.tex",
+      "bytes": 3243,
+      "sha256": "b355a6c4599e4d48159acea0e3131f1174ea3c109d0828dc28f58a85ff5ca171"
+    },
+    {
+      "name": "offgrid_references.bib",
+      "bytes": 2407,
+      "sha256": "928387af6e4557c89358c160969854b656c2f23f8743d48b25b315e1dbf7f3e8"
+    }
+  ]
+}

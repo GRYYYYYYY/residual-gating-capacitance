@@ -1,0 +1,16 @@
+请完整阅读并执行同目录中的 CODEX_DAC_LAYOUT_OFFGRID_TASK.md，并结合 DAC_INTRODUCTION_AND_SOURCES.md、intro_motivation.tex 和 offgrid_references.bib 完成论文改写与真实布局非网格查询实验。
+
+仓库：GRYYYYYYY/residual-gating-capacitance
+研究分支：research/dac-capacitance-characterization-20261114
+任务书核对的最新研究提交：78b51129f78691e0e581e906871af5ca226f1599。
+先检查实际 HEAD 和后续工作，不能回退；从 paper/dac_submission_rewrite/main.tex 接续正式稿，保留 main 和研究分支所有有效数据，它们均属于本文。
+
+将中心问题改为：给定相同的预表征几何—电容样本，如何更准确地估计实际 PEX 遇到的未表征几何。30% 等掩码是受控表征子采样实验，不是工业 LUT 损坏或缺失情景。
+
+本轮明确实施：真实 routed layout 查询普查；非节点与外推分类；物理/模式/单位对齐；独立场求解参考；Native OpenRCX、数值基线、Binary、Full 和适用学习基线的同 S/Q 比较。不得用再遮蔽原网格点、扰动真实布局或不加说明的对称模板投影，冒充真实 off-grid 查询。
+
+优先完成 query-level replay；原生在线替代和离线规则增强分别按实际实现命名。普通实现修复允许在预算内进行，旧收尾任务“不新增实验”的限制不适用于本轮。遵守任务书的有限样本和资源范围，不追加无界模型搜索。
+
+把核对的文献真正写入 Introduction，交付正式英文论文、TeX/PDF、图表与复现入口；不要只返回计划、内部状态判定或审计报告。新增结果只在实际完成后进入论文。单项受阻时继续其他可独立完成的工作，并准确记录实际完成层级。
+
+现在开始执行。

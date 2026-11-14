@@ -1,0 +1,14 @@
+{
+  "case": "gf180/aes",
+  "odb_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/sta/gf180/aes/connected.odb",
+  "odb_sha256": "01fe5b75a63689c852482443db5adaa4d478dbc3bf0e72b1dd0150be79cf51c1",
+  "rules_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/gf180/gf180mcu_1p5m_1tm_9k_sp_smim_OPTB_typ.rules",
+  "rules_sha256": "39ca464e9e5b588c2bf8a81e2dfd2b8430f1f6da2d909ea5ee56610366a64128",
+  "binary_sha256": "6511a67b5ce066ff7ab2607b8580fc9fe3648c7ee4208c214d82c27f20aa7b1f",
+  "original_binary_sha256": "94c4bc5e394ef709d9c1afd5bce3b4abe01fc8088e6d9c5564cc17dc154d3222",
+  "electrical_spef_identical": true,
+  "wall_s": 8.654755808413029,
+  "cpu_s": 7.865906000000001,
+  "trace_sha256": "a0787ec6996b5f0a78412b631ca0086acedafa96226281cefd3787956223d35b",
+  "spef_sha256": "4762d29cf3ac2eb718a2013c67ecb097dbdc70e96e765197f722f2b52991f03a"
+}

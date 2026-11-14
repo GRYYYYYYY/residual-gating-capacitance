@@ -1,0 +1,14 @@
+{
+  "case": "asap7/ibex",
+  "odb_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/sta/asap7/ibex/connected.odb",
+  "odb_sha256": "080c8463fc0fbd332dbb9bbe9fe17490b747d42130358a91dfda648230878ae2",
+  "rules_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/asap7/rcx_patterns.rules",
+  "rules_sha256": "32a117e5e866d3de1406e8f18d65b6f1857781f156638941a4769e25ef5252cc",
+  "binary_sha256": "6511a67b5ce066ff7ab2607b8580fc9fe3648c7ee4208c214d82c27f20aa7b1f",
+  "original_binary_sha256": "94c4bc5e394ef709d9c1afd5bce3b4abe01fc8088e6d9c5564cc17dc154d3222",
+  "electrical_spef_identical": true,
+  "wall_s": 11.657617382705212,
+  "cpu_s": 10.737265999999998,
+  "trace_sha256": "9a530afb0bd2185bb78addfccdbdeeeb2d8aa59d22f904a9df58273985898353",
+  "spef_sha256": "44a4e53daa9cf3503c5de6021d7e50ab6e7d505543d7e599399b44ea39636a3d"
+}

@@ -1,0 +1,10 @@
+{
+  "query_id": "control-M4-OVER",
+  "level": "wide",
+  "status": "completed",
+  "spec_hash": "89ecb9dd52faa43acd484ec798d151dae82201f3a9438922e26a7ddff39d8fd2",
+  "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+  "cpu_s": 3.86,
+  "wall_s": 4.476163636893034,
+  "result_sha256": "50a512adc995be01450bffcddbf40b2a15291a23795574ff3aa1485b6d600f7c"
+}

@@ -1,0 +1,10 @@
+{
+  "query_id": "control-M5-OVER-w08-s16",
+  "level": "fine",
+  "status": "completed",
+  "spec_hash": "1ff9d090ad3461ef9a1f0e6687206237a7f4c3c4e764bd591e44ea5fec9adb59",
+  "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+  "cpu_s": 6.29,
+  "wall_s": 6.330673009157181,
+  "result_sha256": "103bf7348fb6b8fb9d1b44f41882acdf297245a80bfa6ee31b1428c02e839275"
+}

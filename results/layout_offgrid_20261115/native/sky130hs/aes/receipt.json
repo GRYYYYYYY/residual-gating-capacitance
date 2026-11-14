@@ -1,0 +1,14 @@
+{
+  "case": "sky130hs/aes",
+  "odb_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/sta/sky130hs/aes/connected.odb",
+  "odb_sha256": "7a98291548184a2cc206ada6d2ad9a54ca225da1fe5f81f5a3f3211c2a02d197",
+  "rules_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/sky130/rcx_patterns.rules",
+  "rules_sha256": "d5bd9b1077ceac9929416abca272a6d52e51cd9a575453a31d129817bb286476",
+  "binary_sha256": "6511a67b5ce066ff7ab2607b8580fc9fe3648c7ee4208c214d82c27f20aa7b1f",
+  "original_binary_sha256": "94c4bc5e394ef709d9c1afd5bce3b4abe01fc8088e6d9c5564cc17dc154d3222",
+  "electrical_spef_identical": true,
+  "wall_s": 8.872376170009375,
+  "cpu_s": 8.152639000000002,
+  "trace_sha256": "28490e5fb7c99ad1eef6966129f01f22cb3bd8ed0656cf64e29923ac54da4262",
+  "spef_sha256": "a14eb8baa4003145cf4c67c6a27084ff5a00391093a8bb2453896ab978b848f0"
+}

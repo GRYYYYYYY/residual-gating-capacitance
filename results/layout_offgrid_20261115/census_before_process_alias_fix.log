@@ -1,0 +1,9 @@
+asap7/aes calls 1108580 unique 1826 matched 60 tables 62
+asap7/ibex calls 1522744 unique 1998 matched 60 tables 62
+gf180/aes calls 1049036 unique 2164 matched 38 tables 38
+gf180/ibex calls 1030861 unique 2157 matched 38 tables 38
+ihp-sg13g2/aes calls 979697 unique 3735 matched 0 tables 71
+ihp-sg13g2/ibex calls 1454485 unique 3878 matched 0 tables 71
+sky130hs/aes calls 1469984 unique 7882 matched 0 tables 52
+sky130hs/ibex calls 1273199 unique 6559 matched 0 tables 46
+{'instrumented_scope': 'extDistWidthRCTable three-argument getRC and getFringeRC; excludes five-argument diagonal, getRC_99, last-width fringe, resistance and assembly', 'total_logged_calls': 9888586, 'unique_geometries': 19562, 'classes': {'fringe_or_unsupported': 1676892, 'off_grid_in_support': 4547424, 'off_grid_out_of_support': 967755, 'on_grid': 2696515}, 'quantized_to_node': 849663, 'unresolved_calls': 5177373, 'physical_reference_matched_calls': 0, 'layout_modified': False, 'all_original_characterization_samples_retained': True}

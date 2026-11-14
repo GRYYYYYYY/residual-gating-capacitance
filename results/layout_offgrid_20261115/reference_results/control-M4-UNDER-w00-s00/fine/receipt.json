@@ -1,0 +1,10 @@
+{
+  "query_id": "control-M4-UNDER-w00-s00",
+  "level": "fine",
+  "status": "completed",
+  "spec_hash": "e2332760acaf2e78dd170d895c3289ad528e4dcab74c639e23d47244d04f5fb0",
+  "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+  "cpu_s": 3.5900000000000003,
+  "wall_s": 3.623707953840494,
+  "result_sha256": "28d36412727ad891bc42c148f8831aa4df77b1fff74ac34fa4f63c216fc811f2"
+}

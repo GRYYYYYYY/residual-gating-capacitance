@@ -1,0 +1,14 @@
+{
+  "case": "asap7/aes",
+  "odb_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/sta/asap7/aes/connected.odb",
+  "odb_sha256": "ea34b941eda937cd1b40220251bfae6398d11dada0731f22b1f8810efabfe836",
+  "rules_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/asap7/rcx_patterns.rules",
+  "rules_sha256": "32a117e5e866d3de1406e8f18d65b6f1857781f156638941a4769e25ef5252cc",
+  "binary_sha256": "6511a67b5ce066ff7ab2607b8580fc9fe3648c7ee4208c214d82c27f20aa7b1f",
+  "original_binary_sha256": "94c4bc5e394ef709d9c1afd5bce3b4abe01fc8088e6d9c5564cc17dc154d3222",
+  "electrical_spef_identical": true,
+  "wall_s": 8.312282998114824,
+  "cpu_s": 7.0985249999999995,
+  "trace_sha256": "f6b6cf1c2bd4a9e1b9e5abcb2d304f33bd7425f7bbfae8869fc0999c8379aa5c",
+  "spef_sha256": "d915dd22449086a8b50acd1b74494d8e42a973bdb3ac0e3ce5a04734ce60e6fc"
+}

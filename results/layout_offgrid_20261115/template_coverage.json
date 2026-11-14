@@ -1,0 +1,9 @@
+{
+  "candidate_geometries": 114,
+  "candidate_occurrences": 86587,
+  "exclusions": {
+    "original_ctf_node_at_dbu_resolution": 44366,
+    "nonadjacent_context": 148828,
+    "outside_template_range": 8983
+  }
+}

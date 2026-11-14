@@ -1,0 +1,362 @@
+[
+  {
+    "query_id": "control-M4-OVER-w00-s00",
+    "level": "coarse",
+    "status": "completed",
+    "spec_hash": "dcd16c22436c46510845ed2225c784ce8623c5fe1fa60ad53ef6d4c45e3e7d35",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 1.95,
+    "wall_s": 2.0223639085888863,
+    "result_sha256": "e54a55a45fb8ce9d7148e939418bdc3a37e033eff90243cfc0161579385e0c36"
+  },
+  {
+    "query_id": "control-M4-OVER-w00-s00",
+    "level": "fine",
+    "status": "completed",
+    "spec_hash": "2d6815c68cb1597c9c433c4f96448b1ef5b94f2bdeae4759cc36a4fc9b468c43",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 3.7,
+    "wall_s": 3.775626540184021,
+    "result_sha256": "98b2d0fd76e1cd4420da709d907e27fe2da8d3077486dd538d2795a62e380383"
+  },
+  {
+    "query_id": "control-M4-OVER-w00-s00",
+    "level": "wide",
+    "status": "completed",
+    "spec_hash": "89ecb9dd52faa43acd484ec798d151dae82201f3a9438922e26a7ddff39d8fd2",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 3.83,
+    "wall_s": 3.8775778263807297,
+    "result_sha256": "f072b03beb8cd01189408766a6126809f0f6085616f25293664ed534d3459082"
+  },
+  {
+    "query_id": "control-M4-OVER-w08-s16",
+    "level": "coarse",
+    "status": "completed",
+    "spec_hash": "5dacb5c5931766d209531b4c625714416c796c48e0685f8bf66bc102026f56c7",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 2.41,
+    "wall_s": 2.4736055359244347,
+    "result_sha256": "57a1c35da46dced0099b3a78777810480cee665cfbbf1ff6794b41d27537111b"
+  },
+  {
+    "query_id": "control-M4-OVER-w08-s16",
+    "level": "fine",
+    "status": "completed",
+    "spec_hash": "1a3c62f40d0289071775ddf28c8e86ad63703c0c83477db230391d3b3f134941",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 5.85,
+    "wall_s": 5.878749202936888,
+    "result_sha256": "cdc1b2d089a3200310b79713d396e3af45fd97e617eee0ec15e2154c11187fa4"
+  },
+  {
+    "query_id": "control-M4-OVER-w08-s16",
+    "level": "wide",
+    "status": "completed",
+    "spec_hash": "cb335bacfaa535f53334b181b639bfc6aeeec60fd7d7d79ac5780225628aaffc",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 6.2,
+    "wall_s": 6.229819368571043,
+    "result_sha256": "f175d206b04953f6a1352bbae0ee055707f5477736255ab9ab962d7d1b713f23"
+  },
+  {
+    "query_id": "control-M4-UNDER-w00-s00",
+    "level": "coarse",
+    "status": "completed",
+    "spec_hash": "892276681384778faa8db6d85d30a18875aa8ac7c626cdebf5cf86b990b513ac",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 1.86,
+    "wall_s": 1.9199829399585724,
+    "result_sha256": "3d330c540ba4575899eb6f329d72dd8eab3c7a478f64d8fbb3d88a3ee4f8e4ab"
+  },
+  {
+    "query_id": "control-M4-UNDER-w00-s00",
+    "level": "fine",
+    "status": "completed",
+    "spec_hash": "e2332760acaf2e78dd170d895c3289ad528e4dcab74c639e23d47244d04f5fb0",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 3.5900000000000003,
+    "wall_s": 3.623707953840494,
+    "result_sha256": "28d36412727ad891bc42c148f8831aa4df77b1fff74ac34fa4f63c216fc811f2"
+  },
+  {
+    "query_id": "control-M4-UNDER-w00-s00",
+    "level": "wide",
+    "status": "completed",
+    "spec_hash": "d5922831e52fe4bdcfd4e62e5091a373bb0cd59b7167fae5ef2747725e51a745",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 3.6,
+    "wall_s": 3.6238665618002415,
+    "result_sha256": "1683a01a4534fdccc709c2dca64df9d9c179090e76a9684158aa74eebeea0eca"
+  },
+  {
+    "query_id": "control-M4-UNDER-w08-s16",
+    "level": "coarse",
+    "status": "completed",
+    "spec_hash": "fea284976b36cccc5caaa9ee153544ec7e8075a9b53ae00a06cbe074711798d2",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 2.39,
+    "wall_s": 2.4215735010802746,
+    "result_sha256": "1b52e751f6d574e724f401f4270d87024a95f23735295a2933490542e52a327f"
+  },
+  {
+    "query_id": "control-M4-UNDER-w08-s16",
+    "level": "fine",
+    "status": "completed",
+    "spec_hash": "8b6db220bbf38976810cd447b7665545e204d97105f810d6d626104a9ab027cc",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 5.99,
+    "wall_s": 6.0314420238137245,
+    "result_sha256": "433504e24396ec431731cb8ce5de4c60e6376ed28b54c8ff5305ed994868c154"
+  },
+  {
+    "query_id": "control-M4-UNDER-w08-s16",
+    "level": "wide",
+    "status": "completed",
+    "spec_hash": "96087f5d6383eb3573df490ec2533f0aa980997a1e9bd2c353b0ec1252fd6150",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 6.27,
+    "wall_s": 6.28077020123601,
+    "result_sha256": "ed49e19b9c9cb46393698dd170fd27d0a519ea287a445cae595166b0ba25e4bc"
+  },
+  {
+    "query_id": "control-M4-OVERUNDER-w00-s00",
+    "level": "coarse",
+    "status": "completed",
+    "spec_hash": "563f452cf0e979ed318825bdb81823738d3351a7532f64877ba10760c6a5cea8",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 2.41,
+    "wall_s": 2.4703971035778522,
+    "result_sha256": "60ee9b9a8177b46c9e356a1cdb15da9e82770d3cc59b0e50b1289c270a75eb58"
+  },
+  {
+    "query_id": "control-M4-OVERUNDER-w00-s00",
+    "level": "fine",
+    "status": "completed",
+    "spec_hash": "1b4779c50babd62e843bbf8dfdd8be7d9ba8aea7716913968301e6f3d2b672a8",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 5.09,
+    "wall_s": 5.125615693628788,
+    "result_sha256": "545db0de1c2f6791ac492874f0430f05c7370e3f6c05bcf861e2b942cfe9ea4a"
+  },
+  {
+    "query_id": "control-M4-OVERUNDER-w00-s00",
+    "level": "wide",
+    "status": "completed",
+    "spec_hash": "b6f935eb6dc59fb9ef37f30f4b08a509f163c32701bfb43dbc09b3eae1e9b591",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 5.17,
+    "wall_s": 5.227216091006994,
+    "result_sha256": "fc018d94ab328438f0b1c73d4ae1d3ff8f670adfe959dd051d85aac7b741fc05"
+  },
+  {
+    "query_id": "control-M4-OVERUNDER-w08-s16",
+    "level": "coarse",
+    "status": "completed",
+    "spec_hash": "cab5e8437622077d307d78dcb687faca03c9b9035d43efeb63c76f125d363abd",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 2.58,
+    "wall_s": 2.621559038758278,
+    "result_sha256": "b2e8045833abd052dd39f84be97f39ce554cf97247be7dc4ead193bc46a2a100"
+  },
+  {
+    "query_id": "control-M4-OVERUNDER-w08-s16",
+    "level": "fine",
+    "status": "completed",
+    "spec_hash": "de4c29293e9d874e1d8015dac6c790315e450ba91a438ab61e88546016dff66f",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 6.5200000000000005,
+    "wall_s": 6.579543810337782,
+    "result_sha256": "3cc463e9aea9ff22bfbde1ad5f9c94278dbab847f6e50a1d22ed07408d01c23c"
+  },
+  {
+    "query_id": "control-M4-OVERUNDER-w08-s16",
+    "level": "wide",
+    "status": "completed",
+    "spec_hash": "c98adca92067333008578d557a71596bcf45e70c56a4007b03f3fcdefb615f79",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 6.8999999999999995,
+    "wall_s": 6.931785371154547,
+    "result_sha256": "5ca56098ab31c9d1a297e2f8713bbf9cae29f5fee2a67d4200d5369b5496c2b7"
+  },
+  {
+    "query_id": "control-M5-OVER-w00-s00",
+    "level": "coarse",
+    "status": "completed",
+    "spec_hash": "d1946b227220f057ef13f28865f6cacd1f0b258892e8295c63344f4d845cc756",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 1.8900000000000001,
+    "wall_s": 1.9201477840542793,
+    "result_sha256": "bc0a01b44c2b84432140dd5b8e60a588ba52b747b3e4a83951c00caf7b4ffa6a"
+  },
+  {
+    "query_id": "control-M5-OVER-w00-s00",
+    "level": "fine",
+    "status": "completed",
+    "spec_hash": "d918b89814a8e758dd828fd2b4189c660fd9fe3428b35e66051103b48957c94c",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 3.54,
+    "wall_s": 3.574063267558813,
+    "result_sha256": "43f1ae117504b9988cc731a246f66260b14cadd27f551561f0bb5b004ade7237"
+  },
+  {
+    "query_id": "control-M5-OVER-w00-s00",
+    "level": "wide",
+    "status": "completed",
+    "spec_hash": "f97cea60385f9d3aabaaf829bcc170503f7d3582ebcd7f021b3fd3fc4e6c5d59",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 3.89,
+    "wall_s": 3.9749196469783783,
+    "result_sha256": "93051531d44a800110b8eec2733a84f42d678659eb6a76854f41b25a82e3665e"
+  },
+  {
+    "query_id": "control-M5-OVER-w08-s16",
+    "level": "coarse",
+    "status": "completed",
+    "spec_hash": "508d9b1ed5cb58568d6388f061f635d9758205966bc3bf971f8caca1a832e648",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 2.3,
+    "wall_s": 2.321099929511547,
+    "result_sha256": "22cb8f5689197480bed06dc6bf6b3877a9fb6d8bea7124b0b9ff39c62c457b52"
+  },
+  {
+    "query_id": "control-M5-OVER-w08-s16",
+    "level": "fine",
+    "status": "completed",
+    "spec_hash": "1ff9d090ad3461ef9a1f0e6687206237a7f4c3c4e764bd591e44ea5fec9adb59",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 6.29,
+    "wall_s": 6.330673009157181,
+    "result_sha256": "103bf7348fb6b8fb9d1b44f41882acdf297245a80bfa6ee31b1428c02e839275"
+  },
+  {
+    "query_id": "control-M5-OVER-w08-s16",
+    "level": "wide",
+    "status": "completed",
+    "spec_hash": "6df82ce5d38a83cec30d9b641242999b8eb85bddde5f527e2868d94c94bd64dd",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 6.22,
+    "wall_s": 6.2788094617426395,
+    "result_sha256": "73cbab4745c7258c18a8090587ef83f60b21968648cb030b3faace632a7533dd"
+  },
+  {
+    "query_id": "control-M5-UNDER-w00-s00",
+    "level": "coarse",
+    "status": "completed",
+    "spec_hash": "6ddf856edd7b8de52ca356403b13805739754bd41c106cb09778f3b993095e78",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 1.8599999999999999,
+    "wall_s": 1.9202467948198318,
+    "result_sha256": "a1bdf9e8f40d2a208561c847436aad7942c6d4b816d1fe87758ac376334f0bc8"
+  },
+  {
+    "query_id": "control-M5-UNDER-w00-s00",
+    "level": "fine",
+    "status": "completed",
+    "spec_hash": "9d75d95144e4c8fb359c91f4296c00750bbbaf9ee12b3ab15361df2465cf8ada",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 3.53,
+    "wall_s": 3.7743739150464535,
+    "result_sha256": "29de6ea40bcc979a978fb97e84b5f2a3fbcb8b3dbbcda51c7b8038bc6b0f8fcf"
+  },
+  {
+    "query_id": "control-M5-UNDER-w00-s00",
+    "level": "wide",
+    "status": "completed",
+    "spec_hash": "312b3f22efc53d3c44821c515c2e021fc5b4270f1a77603bdc0d2b9f17582da4",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 3.64,
+    "wall_s": 3.6750610060989857,
+    "result_sha256": "ac474d0ac021b5e8b3438297c89afcaadd9ba4aaea9f64997660b9cfde1c203a"
+  },
+  {
+    "query_id": "control-M5-UNDER-w08-s16",
+    "level": "coarse",
+    "status": "completed",
+    "spec_hash": "01bc951db5582fd463350520c4c755cb1f0034d438577eddc08d6c079869b5b5",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 2.42,
+    "wall_s": 2.471948727965355,
+    "result_sha256": "9729bad1f53f76c85beed9e9f6336e30389060bd211d9904fe903f75bf91140f"
+  },
+  {
+    "query_id": "control-M5-UNDER-w08-s16",
+    "level": "fine",
+    "status": "completed",
+    "spec_hash": "fcfe6d1643e64d5c7c55dc5ba2cc56b290aa5001a1ad7e331100e83e9d7091b5",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 5.84,
+    "wall_s": 5.879971913993359,
+    "result_sha256": "8abcce2aae5615fee2d38957b956409ed93bf1922f0800ac71ca8e7f6388c0d9"
+  },
+  {
+    "query_id": "control-M5-UNDER-w08-s16",
+    "level": "wide",
+    "status": "completed",
+    "spec_hash": "78682ee7c0743f27462917218722ca9c0aca9f22da43a988ddbf4cfac6e8fba2",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 5.819999999999999,
+    "wall_s": 5.8785014152526855,
+    "result_sha256": "804090802fce1a15ba42602a60dc73568d91f6c65a8719901215137c0131de19"
+  },
+  {
+    "query_id": "control-M5-OVERUNDER-w00-s00",
+    "level": "coarse",
+    "status": "completed",
+    "spec_hash": "ded36e8fe40a9250205d086499d1441a97bfc3ec2081e22f64ffc201d237a2eb",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 2.3899999999999997,
+    "wall_s": 2.4209698140621185,
+    "result_sha256": "e77090a176d68fdeb834666de31d472c4994122451d96fe3c7824d0dfac127f6"
+  },
+  {
+    "query_id": "control-M5-OVERUNDER-w00-s00",
+    "level": "fine",
+    "status": "completed",
+    "spec_hash": "e20cf7d920fa992f47a4427cba88911b7a8fa97eb322d0bab177f60df3df1855",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 5.13,
+    "wall_s": 5.177038587629795,
+    "result_sha256": "9e18d356c4fe4e0c9b4b7c381722063670b26c69ae39ad3b31bbb1fd5bd5dee1"
+  },
+  {
+    "query_id": "control-M5-OVERUNDER-w00-s00",
+    "level": "wide",
+    "status": "completed",
+    "spec_hash": "ecf04f4ce290037d411a27fe960049ff81ccd657853930bd9e6b3f369bc8fbf5",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 5.279999999999999,
+    "wall_s": 5.376754067838192,
+    "result_sha256": "23cb13e7fd3b4a738dd9dab40c4f31944157c483847e53186c3e00b4a1d2938f"
+  },
+  {
+    "query_id": "control-M5-OVERUNDER-w08-s16",
+    "level": "coarse",
+    "status": "completed",
+    "spec_hash": "17d913470e64fa78195eb63bd053f614cd0a9fb261a822cf46d75b32066cba36",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 2.64,
+    "wall_s": 2.6717541106045246,
+    "result_sha256": "8ba6b3551fc4b9646276d7fe2f18629a0d954e029836aaf825d92afeb7ced79e"
+  },
+  {
+    "query_id": "control-M5-OVERUNDER-w08-s16",
+    "level": "fine",
+    "status": "completed",
+    "spec_hash": "51cd237a48636174269e69ccef2d1a1d10035bd2dd088d70d374ec626a0d2490",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 6.42,
+    "wall_s": 6.481523290276527,
+    "result_sha256": "8da6adb4935e6dea9ed19a407783d5ab12a12bbb28bf2e139117bd8d535a0524"
+  },
+  {
+    "query_id": "control-M5-OVERUNDER-w08-s16",
+    "level": "wide",
+    "status": "completed",
+    "spec_hash": "50306ac74dd3dce769a62fdc940aa96ae6127cd614b146c02638fddf2cabb245",
+    "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+    "cpu_s": 6.74,
+    "wall_s": 6.780872270464897,
+    "result_sha256": "629269760962cc4e227bffe176a1fc14fc119506716f10be0a5fac8a4dc836dd"
+  }
+]

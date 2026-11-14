@@ -1,0 +1,21 @@
+OpenROAD 26Q3-1860-g0b54bb3203 
+Features included (+) or not (-): +GPU -GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 1 thread(s).
+[WARNING ORD-0012] Hierarchical flow (-hier) is currently in development and may cause multiple issues. Do not use in production environments.
+DAC_DBU 2000
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+[INFO RCX-0435] Reading extraction model file /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/gf180/gf180mcu_1p5m_1tm_9k_sp_smim_OPTB_typ.rules ...
+[INFO RCX-0436] RC segment generation ibex_core (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 61220 rc segments
+[INFO RCX-0439] Coupling Cap extraction ibex_core ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 24% of 153390 wires extracted
+[INFO RCX-0442] 50% of 153390 wires extracted
+[INFO RCX-0442] 74% of 153390 wires extracted
+[INFO RCX-0442] 100% of 153390 wires extracted
+[INFO RCX-0045] Extract 14641 nets, 75788 rsegs, 75788 caps, 184202 ccs
+[INFO RCX-0443] 14641 nets finished
+DAC_TRACE_COMPLETE

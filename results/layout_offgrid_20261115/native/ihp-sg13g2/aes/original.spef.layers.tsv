@@ -1,0 +1,8 @@
+name	layer	width	spacing	thickness
+Metal1	1	160	180	unresolved
+Metal2	2	200	210	unresolved
+Metal3	3	200	210	unresolved
+Metal4	4	200	210	unresolved
+Metal5	5	200	210	unresolved
+TopMetal1	6	1640	1640	unresolved
+TopMetal2	7	2000	2000	unresolved

@@ -1,0 +1,14 @@
+{
+  "case": "ihp-sg13g2/ibex",
+  "odb_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/sta/ihp-sg13g2/ibex/connected.odb",
+  "odb_sha256": "fd97cd0b2f7be376a36a53b3407e977ca9dd319057cba98fe660eb610ff6fc83",
+  "rules_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/ihp_sg13g2/IHP_rcx_patterns.rules",
+  "rules_sha256": "ffda02d57a6ecb39b02268be9511d89ef072911f17bd2dcd095f3f3cbeb5a905",
+  "binary_sha256": "6511a67b5ce066ff7ab2607b8580fc9fe3648c7ee4208c214d82c27f20aa7b1f",
+  "original_binary_sha256": "94c4bc5e394ef709d9c1afd5bce3b4abe01fc8088e6d9c5564cc17dc154d3222",
+  "electrical_spef_identical": true,
+  "wall_s": 10.493743672966957,
+  "cpu_s": 9.456637,
+  "trace_sha256": "7b8763b6d582a272c253971d33111263e7ab5b6013331bc53cb48ab85b2f3dff",
+  "spef_sha256": "07da3326b205e8e1def6603bff09be20952bcec2987abb42f9fbdf013e8ee9b5"
+}

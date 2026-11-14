@@ -1,0 +1,960 @@
+[
+  {
+    "process": "asap7",
+    "corner": "typ",
+    "design": "aes",
+    "layout": {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/sta/asap7/aes/connected.odb",
+      "sha256": "ea34b941eda937cd1b40220251bfae6398d11dada0731f22b1f8810efabfe836"
+    },
+    "rules": {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/asap7/rcx_patterns.rules",
+      "sha256": "32a117e5e866d3de1406e8f18d65b6f1857781f156638941a4769e25ef5252cc"
+    },
+    "lef_sources": [
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7sc7p5t_28_L_1x_220121a.lef",
+        "sha256": "e67875d5e9962de35080924af6601d7efda8f4f87008cb5f4e656b774c87d62d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7sc7p5t_DFFHQNV2X.lef",
+        "sha256": "acc8227405ac1951e4ff3472ffffba78a6dcf467467f1e6e9f2c175118508cc2"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram7_128x64.lef",
+        "sha256": "c0eb0741b9e8587012fda3218d41489082556ae1766d6077da05bf05448d6abe"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7sc7p5t_DFFHQNV4X.lef",
+        "sha256": "d45644fff93f22044d6b6c6bc04a5791ee1221f6d8f8f715437c1db26f2ef8f5"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram7_64x256.lef",
+        "sha256": "4bf9c3c42db578f3c2477d962b0684378d929f3795ef026adf10ec3f9496e11a"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeregfile_128x64.lef",
+        "sha256": "335dfd5f050ca1bb31ce5749b73ed01fb49f1d564b27564445c9dd8039857393"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram_256x128.lef",
+        "sha256": "eef5d3706e44d810bc4c8f373487f94b0d6f85cc55ee072640f7af8f8be6c220"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7_tech_1x_201209.lef",
+        "sha256": "7694bf4f8ef2f9745e4579f454788a0cf048e8605320f32d1d83ec540ed4ca41"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram7_64x25.lef",
+        "sha256": "bab23ea1418064aa1c30a83dde214f0ee5d1cd6d7a1e5e867ea5bc2f83d15d27"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram7_64x28.lef",
+        "sha256": "0b55a3fffbdc290227731ee1f3757cec160fdeb993d978720842a682da322c66"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram_2048x128.lef",
+        "sha256": "54f59347506306189d0d9e99db7a755ba60596be882b38b540c521013cdd21b5"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram7_64x21.lef",
+        "sha256": "b7cf6581f2a0570c1479475289f68f5396db500ba3595598544f83fc5891940f"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram7_2048x39.lef",
+        "sha256": "d839554a2d5645a35340ecb0ee6654dd42e859af562de8fad89bf599a6f11727"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7sc7p5t_DFHV2X.lef",
+        "sha256": "f8d10c67f9b0f9d95e309414619edc89a1abc35b40ef48072837ed0e06fec6e7"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram_64x20.lef",
+        "sha256": "89d1ee07821e6e2b2da9201ac4c1f8f96feb4553fc29777e9419ac5fe774d9d0"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeregfile_64x64.lef",
+        "sha256": "3ef3132c428f41a154593059e20b3facf6529cd84e4a9ca179f03177a1322cf0"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram_256x64.lef",
+        "sha256": "d764c0555568235a1fee5bc665781f32720db57d525194de66fe2134bfbb9460"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram_64x22.lef",
+        "sha256": "e41d25f1bb9e381350951c0d7b6607bcdbfe93044c1c4ae4a0f9e69c9c9bf012"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7sc7p5t_DFFHQNH2V2X.lef",
+        "sha256": "0ed32844c342add1a1ba36a2b3675e935846b605c3439cc726bf041cf4949e5e"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram_512x128.lef",
+        "sha256": "9c750a479ac710e40db1bf7e2753e6c5fe5df7b5a1f4e6abf3eef236e258b92e"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7sc7p5t_28_SRAM_1x_220121a.lef",
+        "sha256": "1a8bc8202785bb9a996db9bcb5afebf97f2327beb2093b6a22ad45c9a70d8c4a"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram7_256x34.lef",
+        "sha256": "e4ed4a3a269ebf45f64a2f2e26616c1139ee96c1de5a46a4154d962ed39713af"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram7_256x256.lef",
+        "sha256": "211ca160caf1ee713df0398e8612f7bf3c4e3fbfda0f270b7a8b5537150e5415"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7sc7p5t_28_SL_1x_220121a.lef",
+        "sha256": "ffbbaf0fb519f8e01f7c79c2786b803bc1a3d206ee1cac12991095a705b392ad"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram_32x46.lef",
+        "sha256": "15046ad738762ac16e0471c27834b318f7338db4a61cb52b3a0787707026d6f1"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7sc7p5t_28_R_1x_220121a.lef",
+        "sha256": "4eb73f825720d95eba4da455c7b2e7a28e444e88e9d8595d13492cf5eecfc0d1"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram_512x8.lef",
+        "sha256": "878a4b54845c9557aadf99cd97c54ceb1e5e731cab7bb033d0898704eda94f21"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram7_256x32.lef",
+        "sha256": "3f4443f6fe38d0a391f48f13c77d53d0b593123bd7c80e958a3b5ba5f111cd14"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeregfile_32x46.lef",
+        "sha256": "3ae388911d313ad0edee80d4be058c0e1affd0b767ee4133d5940423ecdd65f2"
+      }
+    ],
+    "lef_odb_equivalence": "not independently reimported; ODB tech is runtime authority",
+    "ctf": {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/.cache/AttentionCap/pattern_gen/itf_lib/asap7.ctf",
+      "sha256": "5985a9d4e872b32936c26ea63e6b54893ffc8ee0c2bb55d8761b504fe615c4be"
+    },
+    "material_match": false,
+    "reason": "Native calibration stack, effective width bias, ground definition and per-pair versus summed lateral projection not jointly established. Ordinary LEF is not a complete electrostatic stack.",
+    "native_mapping": "NATIVE_PATTERN_INSTANCE only for uniquely resolved rule keys",
+    "direct_reference_mapping": "LAYOUT_PARAMETERIZED_TEMPLATE for ASAP7 M4/M5 adjacent contexts; unsupported otherwise",
+    "native_projection": "pre-assembly coupling_ and fringe_; native units before scaling/threshold/net merging",
+    "FEM_projection": "sum of two lateral couplings; external ground plus explicit context electrodes; diagonal separate; F/m",
+    "FEM_boundary": "all outside edges and finite context electrodes grounded; infinite extrusion; er=1 above last CTF dielectric",
+    "exact_layout_section_verified": false,
+    "source_layout_drc": "existing routed DRC=0 recorded in upstream frozen downstream summary; no new foundry DRC",
+    "online_replacement": false
+  },
+  {
+    "process": "asap7",
+    "corner": "typ",
+    "design": "ibex",
+    "layout": {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/sta/asap7/ibex/connected.odb",
+      "sha256": "080c8463fc0fbd332dbb9bbe9fe17490b747d42130358a91dfda648230878ae2"
+    },
+    "rules": {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/asap7/rcx_patterns.rules",
+      "sha256": "32a117e5e866d3de1406e8f18d65b6f1857781f156638941a4769e25ef5252cc"
+    },
+    "lef_sources": [
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7sc7p5t_28_L_1x_220121a.lef",
+        "sha256": "e67875d5e9962de35080924af6601d7efda8f4f87008cb5f4e656b774c87d62d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7sc7p5t_DFFHQNV2X.lef",
+        "sha256": "acc8227405ac1951e4ff3472ffffba78a6dcf467467f1e6e9f2c175118508cc2"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram7_128x64.lef",
+        "sha256": "c0eb0741b9e8587012fda3218d41489082556ae1766d6077da05bf05448d6abe"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7sc7p5t_DFFHQNV4X.lef",
+        "sha256": "d45644fff93f22044d6b6c6bc04a5791ee1221f6d8f8f715437c1db26f2ef8f5"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram7_64x256.lef",
+        "sha256": "4bf9c3c42db578f3c2477d962b0684378d929f3795ef026adf10ec3f9496e11a"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeregfile_128x64.lef",
+        "sha256": "335dfd5f050ca1bb31ce5749b73ed01fb49f1d564b27564445c9dd8039857393"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram_256x128.lef",
+        "sha256": "eef5d3706e44d810bc4c8f373487f94b0d6f85cc55ee072640f7af8f8be6c220"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7_tech_1x_201209.lef",
+        "sha256": "7694bf4f8ef2f9745e4579f454788a0cf048e8605320f32d1d83ec540ed4ca41"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram7_64x25.lef",
+        "sha256": "bab23ea1418064aa1c30a83dde214f0ee5d1cd6d7a1e5e867ea5bc2f83d15d27"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram7_64x28.lef",
+        "sha256": "0b55a3fffbdc290227731ee1f3757cec160fdeb993d978720842a682da322c66"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram_2048x128.lef",
+        "sha256": "54f59347506306189d0d9e99db7a755ba60596be882b38b540c521013cdd21b5"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram7_64x21.lef",
+        "sha256": "b7cf6581f2a0570c1479475289f68f5396db500ba3595598544f83fc5891940f"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram7_2048x39.lef",
+        "sha256": "d839554a2d5645a35340ecb0ee6654dd42e859af562de8fad89bf599a6f11727"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7sc7p5t_DFHV2X.lef",
+        "sha256": "f8d10c67f9b0f9d95e309414619edc89a1abc35b40ef48072837ed0e06fec6e7"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram_64x20.lef",
+        "sha256": "89d1ee07821e6e2b2da9201ac4c1f8f96feb4553fc29777e9419ac5fe774d9d0"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeregfile_64x64.lef",
+        "sha256": "3ef3132c428f41a154593059e20b3facf6529cd84e4a9ca179f03177a1322cf0"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram_256x64.lef",
+        "sha256": "d764c0555568235a1fee5bc665781f32720db57d525194de66fe2134bfbb9460"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram_64x22.lef",
+        "sha256": "e41d25f1bb9e381350951c0d7b6607bcdbfe93044c1c4ae4a0f9e69c9c9bf012"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7sc7p5t_DFFHQNH2V2X.lef",
+        "sha256": "0ed32844c342add1a1ba36a2b3675e935846b605c3439cc726bf041cf4949e5e"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram_512x128.lef",
+        "sha256": "9c750a479ac710e40db1bf7e2753e6c5fe5df7b5a1f4e6abf3eef236e258b92e"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7sc7p5t_28_SRAM_1x_220121a.lef",
+        "sha256": "1a8bc8202785bb9a996db9bcb5afebf97f2327beb2093b6a22ad45c9a70d8c4a"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram7_256x34.lef",
+        "sha256": "e4ed4a3a269ebf45f64a2f2e26616c1139ee96c1de5a46a4154d962ed39713af"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram7_256x256.lef",
+        "sha256": "211ca160caf1ee713df0398e8612f7bf3c4e3fbfda0f270b7a8b5537150e5415"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7sc7p5t_28_SL_1x_220121a.lef",
+        "sha256": "ffbbaf0fb519f8e01f7c79c2786b803bc1a3d206ee1cac12991095a705b392ad"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram_32x46.lef",
+        "sha256": "15046ad738762ac16e0471c27834b318f7338db4a61cb52b3a0787707026d6f1"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7sc7p5t_28_R_1x_220121a.lef",
+        "sha256": "4eb73f825720d95eba4da455c7b2e7a28e444e88e9d8595d13492cf5eecfc0d1"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram_512x8.lef",
+        "sha256": "878a4b54845c9557aadf99cd97c54ceb1e5e731cab7bb033d0898704eda94f21"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeram7_256x32.lef",
+        "sha256": "3f4443f6fe38d0a391f48f13c77d53d0b593123bd7c80e958a3b5ba5f111cd14"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lef/fakeregfile_32x46.lef",
+        "sha256": "3ae388911d313ad0edee80d4be058c0e1affd0b767ee4133d5940423ecdd65f2"
+      }
+    ],
+    "lef_odb_equivalence": "not independently reimported; ODB tech is runtime authority",
+    "ctf": {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/.cache/AttentionCap/pattern_gen/itf_lib/asap7.ctf",
+      "sha256": "5985a9d4e872b32936c26ea63e6b54893ffc8ee0c2bb55d8761b504fe615c4be"
+    },
+    "material_match": false,
+    "reason": "Native calibration stack, effective width bias, ground definition and per-pair versus summed lateral projection not jointly established. Ordinary LEF is not a complete electrostatic stack.",
+    "native_mapping": "NATIVE_PATTERN_INSTANCE only for uniquely resolved rule keys",
+    "direct_reference_mapping": "LAYOUT_PARAMETERIZED_TEMPLATE for ASAP7 M4/M5 adjacent contexts; unsupported otherwise",
+    "native_projection": "pre-assembly coupling_ and fringe_; native units before scaling/threshold/net merging",
+    "FEM_projection": "sum of two lateral couplings; external ground plus explicit context electrodes; diagonal separate; F/m",
+    "FEM_boundary": "all outside edges and finite context electrodes grounded; infinite extrusion; er=1 above last CTF dielectric",
+    "exact_layout_section_verified": false,
+    "source_layout_drc": "existing routed DRC=0 recorded in upstream frozen downstream summary; no new foundry DRC",
+    "online_replacement": false
+  },
+  {
+    "process": "gf180",
+    "corner": "typ",
+    "design": "aes",
+    "layout": {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/sta/gf180/aes/connected.odb",
+      "sha256": "01fe5b75a63689c852482443db5adaa4d478dbc3bf0e72b1dd0150be79cf51c1"
+    },
+    "rules": {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/gf180/gf180mcu_1p5m_1tm_9k_sp_smim_OPTB_typ.rules",
+      "sha256": "39ca464e9e5b588c2bf8a81e2dfd2b8430f1f6da2d909ea5ee56610366a64128"
+    },
+    "lef_sources": [
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_9K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_6LM_1TM_9K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_5LM_1TM_9K_9t_tech.lef",
+        "sha256": "126f13f69fb7a05bcf6a3a5df0c2092709e2bc2b1e75f0cad0add837f25231e2"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_5LM_1TM_11K_9t_tech.lef",
+        "sha256": "2bcfd8a886d0b22ea76124821db08737286b6cdc53a614ea04f4285c3cc21901"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_5LM_1TM_9K_7t_tech.lef",
+        "sha256": "1879c1fac203baae3bc647176e7f7d0c9e9b8f04dcf5be7ff94f52c9e058f1e7"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_2LM_1TM_30K_9t_tech.lef",
+        "sha256": "b2574b58071885dd829da45977540a911eceee9679f5577ee2c785cb9cf08ace"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_5LM_1TM_9K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_11K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_11K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_11K_7t_tech.lef",
+        "sha256": "93961bd53d9fa3ed2bb06b0d10630b481c75c512ff41d4137436b84dd2f96e74"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_30K_9t_tech.lef",
+        "sha256": "ae9b745503268c9f71f98f3a355dbdaaffcf7c654a9e57e3cf1177e069e097db"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_6K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_6K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_9K_9t_tech.lef",
+        "sha256": "95f7b60eab56b692120a806ae07a8f2973325adf6acad7bde65d5c8d1102e4ef"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_5LM_1TM_11K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_30K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_6K_7t_tech.lef",
+        "sha256": "bf71da89d9756c77029bc7fe9b171fbd46c32b6d5f08179c01bf465df457de34"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_30K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_9K_7t_tech.lef",
+        "sha256": "e33cce1dbc381aa4f2478d4ad5ca0d8548bb0ad22c405ed2271532f93a5fc998"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_2LM_1TM_30K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_30K_7t_tech.lef",
+        "sha256": "d5526f8b0be899ec60ab9b2a8519af44dd3d9b3f236e3eb07d17601f11790283"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_9K_9t_tech.lef",
+        "sha256": "16e20c8362806b62a12a2130eed9d4e1c25d679e7a4f31002d9169f3abc0a594"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_6LM_1TM_9K_9t_tech.lef",
+        "sha256": "9b5b23d3fad4f29666d8d7493b67aa95dd22ff516c7b1ff99f1cd8838d3b515d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_5LM_1TM_11K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_30K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_5LM_1TM_11K_7t_tech.lef",
+        "sha256": "ae1d75c78014140d3898314e61ff30b805148a65365cb58601d41ebd9d57493d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_9K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_11K_9t_tech.lef",
+        "sha256": "084d013c35a552a0921f0d55b4df14b39aec5ca45703346fcc261754ef3047ec"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_30K_7t_tech.lef",
+        "sha256": "bcace8b0e26120f7ca4b42641cf3fae93acaf1c32af41c8bad6f1bb2ab01c0b5"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_6K_9t_tech.lef",
+        "sha256": "9ba536f89fa53bbe2c8d31d7c86b236e7587a11596cda9823067f47ecf3896cc"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_30K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_6K_7t_tech.lef",
+        "sha256": "470cd6108ad546953659533220e5a7186c68421824ac3e352de481bf33f94691"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_2LM_1TM_30K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_9K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_6K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_11K_9t_tech.lef",
+        "sha256": "c54baea6ed104a5e8b1257fb79812ab7e1a95ae72ce1e8cc06af6c45c6de9d3b"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_6K_9t_tech.lef",
+        "sha256": "975e4eb2969740d70369f2f424dc048797dc13071c2a2ddf51268b365dd78c1a"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_6LM_1TM_9K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_11K_7t_tech.lef",
+        "sha256": "752471fccaf2b22d13d79cd8a38ae20a3a238f5c84c1209e02a7a416e1163b8a"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_11K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_30K_9t_tech.lef",
+        "sha256": "da383f793d89627c8686eb87b33067cc1bcbf3071b9860a060f90bcbe568147f"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_2LM_1TM_30K_7t_tech.lef",
+        "sha256": "5e15b083ecb954cf0eeb84a8374c4d39e776c4d940285184b4ae511b237d7508"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_5LM_1TM_9K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_6LM_1TM_9K_7t_tech.lef",
+        "sha256": "c7459200522bd2497b13ba41484847eb8a217ccb8c2b9155e2da603379eadd72"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_9K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_9K_7t_tech.lef",
+        "sha256": "364778111832e6177432f8906faa4fcc0599482ad3920d84da1f325621de37bc"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_11K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_6K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      }
+    ],
+    "lef_odb_equivalence": "not independently reimported; ODB tech is runtime authority",
+    "ctf": null,
+    "material_match": false,
+    "reason": "Native calibration stack, effective width bias, ground definition and per-pair versus summed lateral projection not jointly established. Ordinary LEF is not a complete electrostatic stack.",
+    "native_mapping": "NATIVE_PATTERN_INSTANCE only for uniquely resolved rule keys",
+    "direct_reference_mapping": "LAYOUT_PARAMETERIZED_TEMPLATE for ASAP7 M4/M5 adjacent contexts; unsupported otherwise",
+    "native_projection": "pre-assembly coupling_ and fringe_; native units before scaling/threshold/net merging",
+    "FEM_projection": "sum of two lateral couplings; external ground plus explicit context electrodes; diagonal separate; F/m",
+    "FEM_boundary": "all outside edges and finite context electrodes grounded; infinite extrusion; er=1 above last CTF dielectric",
+    "exact_layout_section_verified": false,
+    "source_layout_drc": "existing routed DRC=0 recorded in upstream frozen downstream summary; no new foundry DRC",
+    "online_replacement": false
+  },
+  {
+    "process": "gf180",
+    "corner": "typ",
+    "design": "ibex",
+    "layout": {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/sta/gf180/ibex/connected.odb",
+      "sha256": "cb4db03c4c057ab1f772666eb1e3fa5f5f727e3be151552028af7d85a1b5a2a5"
+    },
+    "rules": {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/gf180/gf180mcu_1p5m_1tm_9k_sp_smim_OPTB_typ.rules",
+      "sha256": "39ca464e9e5b588c2bf8a81e2dfd2b8430f1f6da2d909ea5ee56610366a64128"
+    },
+    "lef_sources": [
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_9K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_6LM_1TM_9K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_5LM_1TM_9K_9t_tech.lef",
+        "sha256": "126f13f69fb7a05bcf6a3a5df0c2092709e2bc2b1e75f0cad0add837f25231e2"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_5LM_1TM_11K_9t_tech.lef",
+        "sha256": "2bcfd8a886d0b22ea76124821db08737286b6cdc53a614ea04f4285c3cc21901"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_5LM_1TM_9K_7t_tech.lef",
+        "sha256": "1879c1fac203baae3bc647176e7f7d0c9e9b8f04dcf5be7ff94f52c9e058f1e7"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_2LM_1TM_30K_9t_tech.lef",
+        "sha256": "b2574b58071885dd829da45977540a911eceee9679f5577ee2c785cb9cf08ace"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_5LM_1TM_9K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_11K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_11K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_11K_7t_tech.lef",
+        "sha256": "93961bd53d9fa3ed2bb06b0d10630b481c75c512ff41d4137436b84dd2f96e74"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_30K_9t_tech.lef",
+        "sha256": "ae9b745503268c9f71f98f3a355dbdaaffcf7c654a9e57e3cf1177e069e097db"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_6K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_6K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_9K_9t_tech.lef",
+        "sha256": "95f7b60eab56b692120a806ae07a8f2973325adf6acad7bde65d5c8d1102e4ef"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_5LM_1TM_11K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_30K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_6K_7t_tech.lef",
+        "sha256": "bf71da89d9756c77029bc7fe9b171fbd46c32b6d5f08179c01bf465df457de34"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_30K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_9K_7t_tech.lef",
+        "sha256": "e33cce1dbc381aa4f2478d4ad5ca0d8548bb0ad22c405ed2271532f93a5fc998"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_2LM_1TM_30K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_30K_7t_tech.lef",
+        "sha256": "d5526f8b0be899ec60ab9b2a8519af44dd3d9b3f236e3eb07d17601f11790283"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_9K_9t_tech.lef",
+        "sha256": "16e20c8362806b62a12a2130eed9d4e1c25d679e7a4f31002d9169f3abc0a594"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_6LM_1TM_9K_9t_tech.lef",
+        "sha256": "9b5b23d3fad4f29666d8d7493b67aa95dd22ff516c7b1ff99f1cd8838d3b515d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_5LM_1TM_11K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_30K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_5LM_1TM_11K_7t_tech.lef",
+        "sha256": "ae1d75c78014140d3898314e61ff30b805148a65365cb58601d41ebd9d57493d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_9K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_11K_9t_tech.lef",
+        "sha256": "084d013c35a552a0921f0d55b4df14b39aec5ca45703346fcc261754ef3047ec"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_30K_7t_tech.lef",
+        "sha256": "bcace8b0e26120f7ca4b42641cf3fae93acaf1c32af41c8bad6f1bb2ab01c0b5"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_6K_9t_tech.lef",
+        "sha256": "9ba536f89fa53bbe2c8d31d7c86b236e7587a11596cda9823067f47ecf3896cc"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_30K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_6K_7t_tech.lef",
+        "sha256": "470cd6108ad546953659533220e5a7186c68421824ac3e352de481bf33f94691"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_2LM_1TM_30K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_9K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_6K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_11K_9t_tech.lef",
+        "sha256": "c54baea6ed104a5e8b1257fb79812ab7e1a95ae72ce1e8cc06af6c45c6de9d3b"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_6K_9t_tech.lef",
+        "sha256": "975e4eb2969740d70369f2f424dc048797dc13071c2a2ddf51268b365dd78c1a"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_6LM_1TM_9K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_11K_7t_tech.lef",
+        "sha256": "752471fccaf2b22d13d79cd8a38ae20a3a238f5c84c1209e02a7a416e1163b8a"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_3LM_1TM_11K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_30K_9t_tech.lef",
+        "sha256": "da383f793d89627c8686eb87b33067cc1bcbf3071b9860a060f90bcbe568147f"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_2LM_1TM_30K_7t_tech.lef",
+        "sha256": "5e15b083ecb954cf0eeb84a8374c4d39e776c4d940285184b4ae511b237d7508"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_5LM_1TM_9K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_6LM_1TM_9K_7t_tech.lef",
+        "sha256": "c7459200522bd2497b13ba41484847eb8a217ccb8c2b9155e2da603379eadd72"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_9K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_9K_7t_tech.lef",
+        "sha256": "364778111832e6177432f8906faa4fcc0599482ad3920d84da1f325621de37bc"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_11K_7t_sc.lef",
+        "sha256": "7e34ea96b03fcb32b90582d26227da65cecaed38585fb1f2a41fcbcec8feeefd"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/gf180/lef/gf180mcu_4LM_1TM_6K_9t_sc.lef",
+        "sha256": "eae43c3dd03d065f5e8516dac7638489c7c082720c2b82c812875d61f654329d"
+      }
+    ],
+    "lef_odb_equivalence": "not independently reimported; ODB tech is runtime authority",
+    "ctf": null,
+    "material_match": false,
+    "reason": "Native calibration stack, effective width bias, ground definition and per-pair versus summed lateral projection not jointly established. Ordinary LEF is not a complete electrostatic stack.",
+    "native_mapping": "NATIVE_PATTERN_INSTANCE only for uniquely resolved rule keys",
+    "direct_reference_mapping": "LAYOUT_PARAMETERIZED_TEMPLATE for ASAP7 M4/M5 adjacent contexts; unsupported otherwise",
+    "native_projection": "pre-assembly coupling_ and fringe_; native units before scaling/threshold/net merging",
+    "FEM_projection": "sum of two lateral couplings; external ground plus explicit context electrodes; diagonal separate; F/m",
+    "FEM_boundary": "all outside edges and finite context electrodes grounded; infinite extrusion; er=1 above last CTF dielectric",
+    "exact_layout_section_verified": false,
+    "source_layout_drc": "existing routed DRC=0 recorded in upstream frozen downstream summary; no new foundry DRC",
+    "online_replacement": false
+  },
+  {
+    "process": "ihp-sg13g2",
+    "corner": "typ",
+    "design": "aes",
+    "layout": {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/sta/ihp-sg13g2/aes/connected.odb",
+      "sha256": "62ef705df51dc19dd597977fdcbd6e6063c39ca88968c0ba0d83e60438ec40f4"
+    },
+    "rules": {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/ihp_sg13g2/IHP_rcx_patterns.rules",
+      "sha256": "ffda02d57a6ecb39b02268be9511d89ef072911f17bd2dcd095f3f3cbeb5a905"
+    },
+    "lef_sources": [
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/bondpad_70x70.lef",
+        "sha256": "fcc4862726c9e63bad2e315c07396bea772edb798f626f7dc3e2a7e1fa17e7ae"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_4096x8_c3_bm_bist.lef",
+        "sha256": "e786208ae683ad936c53a031c62fbd8aab315eea8008fa40057f49093fd0a1a9"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_1024x8_c2_bm_bist.lef",
+        "sha256": "a6050c34fe2fff40fa4a2d1a952208e8c8982060b3550baa76fcbdfff1888c1b"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/sg13g2_tech.lef",
+        "sha256": "054f5b7b24d72365b4b1088be1331e04c1c2e3805de9f99c37e71938ed231efc"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/sg13g2_stdcell.lef",
+        "sha256": "c7575039af0b124e1834c407bfb9ac7a2db576d1e3533d98474dad3fbc2af589"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_1024x64_c2_bm_bist.lef",
+        "sha256": "1582515b5226d196d17d706f0df8b2390fa0d0451416b7a4a5ce3ba47bff862f"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_1024x16_c2_bm_bist.lef",
+        "sha256": "a3eb8384eb52222fddc36d042a2fef81deb6f048fd7b825ad91e3cae00179d0a"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_64x64_c2_bm_bist.lef",
+        "sha256": "2bbeda3804b585f9e1bdd22edf531a68898152f15a66c65ab643f49f873ae87f"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_256x64_c2_bm_bist.lef",
+        "sha256": "246405148ef9df63af32d955f20491c4d087678d03cbfec3eb3ad6653fc8d4c3"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/sg13g2_io.lef",
+        "sha256": "21502d4adaaae52f494574981928e0c25e762e58b7d8a02f90a731e286b61b10"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_2048x64_c2_bm_bist.lef",
+        "sha256": "630e1f2efcf0c4c512fa53760bb7451f4fcf7155e6265d887c936dcf65be4bea"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_512x64_c2_bm_bist.lef",
+        "sha256": "93aced65c204c35cc3a9e0315048346df149b6957fd95787df1a2ee0b1bb274b"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_256x48_c2_bm_bist.lef",
+        "sha256": "5d6da80c6cb9266cdc2810695899a068f93bdfcd819f7cb4bef5320ed0eb2598"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_4096x16_c3_bm_bist.lef",
+        "sha256": "5c6de4b6ca251e3fc9c14b9f1db877af60f5c3f39d07dcfb82993a38c28d1410"
+      }
+    ],
+    "lef_odb_equivalence": "not independently reimported; ODB tech is runtime authority",
+    "ctf": null,
+    "material_match": false,
+    "reason": "Native calibration stack, effective width bias, ground definition and per-pair versus summed lateral projection not jointly established. Ordinary LEF is not a complete electrostatic stack.",
+    "native_mapping": "NATIVE_PATTERN_INSTANCE only for uniquely resolved rule keys",
+    "direct_reference_mapping": "LAYOUT_PARAMETERIZED_TEMPLATE for ASAP7 M4/M5 adjacent contexts; unsupported otherwise",
+    "native_projection": "pre-assembly coupling_ and fringe_; native units before scaling/threshold/net merging",
+    "FEM_projection": "sum of two lateral couplings; external ground plus explicit context electrodes; diagonal separate; F/m",
+    "FEM_boundary": "all outside edges and finite context electrodes grounded; infinite extrusion; er=1 above last CTF dielectric",
+    "exact_layout_section_verified": false,
+    "source_layout_drc": "existing routed DRC=0 recorded in upstream frozen downstream summary; no new foundry DRC",
+    "online_replacement": false
+  },
+  {
+    "process": "ihp-sg13g2",
+    "corner": "typ",
+    "design": "ibex",
+    "layout": {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/sta/ihp-sg13g2/ibex/connected.odb",
+      "sha256": "fd97cd0b2f7be376a36a53b3407e977ca9dd319057cba98fe660eb610ff6fc83"
+    },
+    "rules": {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/ihp_sg13g2/IHP_rcx_patterns.rules",
+      "sha256": "ffda02d57a6ecb39b02268be9511d89ef072911f17bd2dcd095f3f3cbeb5a905"
+    },
+    "lef_sources": [
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/bondpad_70x70.lef",
+        "sha256": "fcc4862726c9e63bad2e315c07396bea772edb798f626f7dc3e2a7e1fa17e7ae"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_4096x8_c3_bm_bist.lef",
+        "sha256": "e786208ae683ad936c53a031c62fbd8aab315eea8008fa40057f49093fd0a1a9"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_1024x8_c2_bm_bist.lef",
+        "sha256": "a6050c34fe2fff40fa4a2d1a952208e8c8982060b3550baa76fcbdfff1888c1b"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/sg13g2_tech.lef",
+        "sha256": "054f5b7b24d72365b4b1088be1331e04c1c2e3805de9f99c37e71938ed231efc"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/sg13g2_stdcell.lef",
+        "sha256": "c7575039af0b124e1834c407bfb9ac7a2db576d1e3533d98474dad3fbc2af589"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_1024x64_c2_bm_bist.lef",
+        "sha256": "1582515b5226d196d17d706f0df8b2390fa0d0451416b7a4a5ce3ba47bff862f"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_1024x16_c2_bm_bist.lef",
+        "sha256": "a3eb8384eb52222fddc36d042a2fef81deb6f048fd7b825ad91e3cae00179d0a"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_64x64_c2_bm_bist.lef",
+        "sha256": "2bbeda3804b585f9e1bdd22edf531a68898152f15a66c65ab643f49f873ae87f"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_256x64_c2_bm_bist.lef",
+        "sha256": "246405148ef9df63af32d955f20491c4d087678d03cbfec3eb3ad6653fc8d4c3"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/sg13g2_io.lef",
+        "sha256": "21502d4adaaae52f494574981928e0c25e762e58b7d8a02f90a731e286b61b10"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_2048x64_c2_bm_bist.lef",
+        "sha256": "630e1f2efcf0c4c512fa53760bb7451f4fcf7155e6265d887c936dcf65be4bea"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_512x64_c2_bm_bist.lef",
+        "sha256": "93aced65c204c35cc3a9e0315048346df149b6957fd95787df1a2ee0b1bb274b"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_256x48_c2_bm_bist.lef",
+        "sha256": "5d6da80c6cb9266cdc2810695899a068f93bdfcd819f7cb4bef5320ed0eb2598"
+      },
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/ihp-sg13g2/lef/RM_IHPSG13_1P_4096x16_c3_bm_bist.lef",
+        "sha256": "5c6de4b6ca251e3fc9c14b9f1db877af60f5c3f39d07dcfb82993a38c28d1410"
+      }
+    ],
+    "lef_odb_equivalence": "not independently reimported; ODB tech is runtime authority",
+    "ctf": null,
+    "material_match": false,
+    "reason": "Native calibration stack, effective width bias, ground definition and per-pair versus summed lateral projection not jointly established. Ordinary LEF is not a complete electrostatic stack.",
+    "native_mapping": "NATIVE_PATTERN_INSTANCE only for uniquely resolved rule keys",
+    "direct_reference_mapping": "LAYOUT_PARAMETERIZED_TEMPLATE for ASAP7 M4/M5 adjacent contexts; unsupported otherwise",
+    "native_projection": "pre-assembly coupling_ and fringe_; native units before scaling/threshold/net merging",
+    "FEM_projection": "sum of two lateral couplings; external ground plus explicit context electrodes; diagonal separate; F/m",
+    "FEM_boundary": "all outside edges and finite context electrodes grounded; infinite extrusion; er=1 above last CTF dielectric",
+    "exact_layout_section_verified": false,
+    "source_layout_drc": "existing routed DRC=0 recorded in upstream frozen downstream summary; no new foundry DRC",
+    "online_replacement": false
+  },
+  {
+    "process": "sky130hs",
+    "corner": "typ",
+    "design": "aes",
+    "layout": {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/sta/sky130hs/aes/connected.odb",
+      "sha256": "7a98291548184a2cc206ada6d2ad9a54ca225da1fe5f81f5a3f3211c2a02d197"
+    },
+    "rules": {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/sky130/rcx_patterns.rules",
+      "sha256": "d5bd9b1077ceac9929416abca272a6d52e51cd9a575453a31d129817bb286476"
+    },
+    "lef_sources": [
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/sky130hs/lef/sky130_fd_sc_hs_merged.lef",
+        "sha256": "bcf8e2f0c90417b4002d2b96b348e63c806d69f6d44b9a465e0c830215b67a5a"
+      }
+    ],
+    "lef_odb_equivalence": "not independently reimported; ODB tech is runtime authority",
+    "ctf": null,
+    "material_match": false,
+    "reason": "Native calibration stack, effective width bias, ground definition and per-pair versus summed lateral projection not jointly established. Ordinary LEF is not a complete electrostatic stack.",
+    "native_mapping": "NATIVE_PATTERN_INSTANCE only for uniquely resolved rule keys",
+    "direct_reference_mapping": "LAYOUT_PARAMETERIZED_TEMPLATE for ASAP7 M4/M5 adjacent contexts; unsupported otherwise",
+    "native_projection": "pre-assembly coupling_ and fringe_; native units before scaling/threshold/net merging",
+    "FEM_projection": "sum of two lateral couplings; external ground plus explicit context electrodes; diagonal separate; F/m",
+    "FEM_boundary": "all outside edges and finite context electrodes grounded; infinite extrusion; er=1 above last CTF dielectric",
+    "exact_layout_section_verified": false,
+    "source_layout_drc": "existing routed DRC=0 recorded in upstream frozen downstream summary; no new foundry DRC",
+    "online_replacement": false
+  },
+  {
+    "process": "sky130hs",
+    "corner": "typ",
+    "design": "ibex",
+    "layout": {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/sta/sky130hs/ibex/connected.odb",
+      "sha256": "014d3d885eade3e6f24c61218c13325c4f63cf5db539a8d7d257a6e48eebab1a"
+    },
+    "rules": {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/sky130/rcx_patterns.rules",
+      "sha256": "d5bd9b1077ceac9929416abca272a6d52e51cd9a575453a31d129817bb286476"
+    },
+    "lef_sources": [
+      {
+        "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/sky130hs/lef/sky130_fd_sc_hs_merged.lef",
+        "sha256": "bcf8e2f0c90417b4002d2b96b348e63c806d69f6d44b9a465e0c830215b67a5a"
+      }
+    ],
+    "lef_odb_equivalence": "not independently reimported; ODB tech is runtime authority",
+    "ctf": null,
+    "material_match": false,
+    "reason": "Native calibration stack, effective width bias, ground definition and per-pair versus summed lateral projection not jointly established. Ordinary LEF is not a complete electrostatic stack.",
+    "native_mapping": "NATIVE_PATTERN_INSTANCE only for uniquely resolved rule keys",
+    "direct_reference_mapping": "LAYOUT_PARAMETERIZED_TEMPLATE for ASAP7 M4/M5 adjacent contexts; unsupported otherwise",
+    "native_projection": "pre-assembly coupling_ and fringe_; native units before scaling/threshold/net merging",
+    "FEM_projection": "sum of two lateral couplings; external ground plus explicit context electrodes; diagonal separate; F/m",
+    "FEM_boundary": "all outside edges and finite context electrodes grounded; infinite extrusion; er=1 above last CTF dielectric",
+    "exact_layout_section_verified": false,
+    "source_layout_drc": "existing routed DRC=0 recorded in upstream frozen downstream summary; no new foundry DRC",
+    "online_replacement": false
+  }
+]

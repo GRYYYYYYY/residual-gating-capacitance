@@ -1,0 +1,14 @@
+{
+  "case": "gf180/ibex",
+  "odb_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/sta/gf180/ibex/connected.odb",
+  "odb_sha256": "cb4db03c4c057ab1f772666eb1e3fa5f5f727e3be151552028af7d85a1b5a2a5",
+  "rules_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/gf180/gf180mcu_1p5m_1tm_9k_sp_smim_OPTB_typ.rules",
+  "rules_sha256": "39ca464e9e5b588c2bf8a81e2dfd2b8430f1f6da2d909ea5ee56610366a64128",
+  "binary_sha256": "6511a67b5ce066ff7ab2607b8580fc9fe3648c7ee4208c214d82c27f20aa7b1f",
+  "original_binary_sha256": "94c4bc5e394ef709d9c1afd5bce3b4abe01fc8088e6d9c5564cc17dc154d3222",
+  "electrical_spef_identical": true,
+  "wall_s": 9.61535032466054,
+  "cpu_s": 8.596223999999996,
+  "trace_sha256": "f693255726b31942917a67c4ba2bfe9ed45a74b7369540e9983105fc1aa4fda1",
+  "spef_sha256": "4c158fe28d3c6b4269f6672d4a4d138b33bfd4b13c0c13216bb7d11e0fbaeab0"
+}

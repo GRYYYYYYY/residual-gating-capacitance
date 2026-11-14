@@ -1,0 +1,16 @@
+{
+  "instrumented_scope": "extDistWidthRCTable three-argument getRC and getFringeRC; excludes five-argument diagonal, getRC_99, last-width fringe, resistance and assembly",
+  "total_logged_calls": 9888586,
+  "unique_geometries": 19562,
+  "classes": {
+    "fringe_or_unsupported": 1676892,
+    "off_grid_in_support": 4547424,
+    "off_grid_out_of_support": 967755,
+    "on_grid": 2696515
+  },
+  "quantized_to_node": 849663,
+  "unresolved_calls": 453107,
+  "physical_reference_matched_calls": 0,
+  "layout_modified": false,
+  "all_original_characterization_samples_retained": true
+}

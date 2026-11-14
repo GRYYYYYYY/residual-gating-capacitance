@@ -1,0 +1,50 @@
+% Motivation/method fragment for integration into the manuscript.
+% Merge the accompanying bibliography keys without duplicating existing entries.
+% This fragment contains no claim that the new layout-query experiment is complete.
+
+Rule-based parasitic extraction separates process characterization from layout
+ evaluation. Reference capacitances for representative interconnect geometries
+are encoded in empirical models or lookup tables, and layout extraction evaluates
+the corresponding models for encountered structures~\cite{tsai2025geometry,yang2023cnncap}.
+OpenRCX provides a concrete example: its extraction rules are calibrated from
+reference parasitics and are evaluated using coupling distance and surrounding
+routing context~\cite{orcx_runtime,orcx_calibration}.
+
+A finite set of characterization points does not coincide with every geometric
+configuration encountered in a routed layout. Between sampled points, the
+extractor must estimate capacitance using the available rule data. Model-library
+accuracy therefore depends not only on pattern coverage but also on how the
+nonlinear geometry--capacitance response is represented between characterization
+points~\cite{zhou2026rmlpcap}. Increasing characterization density can improve
+that representation, but also increases the amount of reference data that must
+be generated and stored~\cite{yang2023cnncap}. This motivates improving rule
+evaluation while holding the available characterization samples fixed.
+
+Prior work has automated pattern and formula construction from field-solver
+samples~\cite{li2020autoprechar}, developed neural capacitance
+models~\cite{yang2023cnncap,zhou2026rmlpcap}, and studied geometry and
+layer-thickness exploration~\cite{tsai2025geometry}. We focus on the complementary
+problem of estimating uncharacterized queries from a supplied set of
+process-specific characterization samples.
+
+We formulate the task as characterization-conditioned capacitance estimation.
+For a query geometry, a numerical anchor summarizes the available samples, while
+a shared Transformer predicts residual corrections from geometry, material
+context, and observed capacitances. Component-wise fusion combines numerical and
+neural corrections, and a lightweight binary variant retains the same
+conditioning interface. Learned parameters remain fixed during conditional
+inference, while changes in the supplied characterization data alter the
+predictions. The estimator can supply additional rule values for an otherwise
+unchanged extraction flow.
+
+We evaluate the estimator using controlled characterization subsampling,
+fixed-support-budget comparisons, cross-process prediction, and native
+extraction with the generated rule data. Controlled subsampling retains a set of
+characterized samples and reserves the remaining reference points for evaluation,
+separating scattered, contiguous, and boundary-directed coverage conditions.
+Native extraction and timing analysis quantify agreement with the full-rule
+reference on fixed routed designs.
+
+% After the layout-derived off-grid experiment is actually completed, replace or
+% extend the final paragraph using its measured cohort, reference semantics,
+% baseline identity and results. See DAC_INTRODUCTION_AND_SOURCES.md.

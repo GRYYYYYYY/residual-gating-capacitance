@@ -1,0 +1,14 @@
+{
+  "case": "sky130hs/ibex",
+  "odb_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/sta/sky130hs/ibex/connected.odb",
+  "odb_sha256": "014d3d885eade3e6f24c61218c13325c4f63cf5db539a8d7d257a6e48eebab1a",
+  "rules_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/sky130/rcx_patterns.rules",
+  "rules_sha256": "d5bd9b1077ceac9929416abca272a6d52e51cd9a575453a31d129817bb286476",
+  "binary_sha256": "6511a67b5ce066ff7ab2607b8580fc9fe3648c7ee4208c214d82c27f20aa7b1f",
+  "original_binary_sha256": "94c4bc5e394ef709d9c1afd5bce3b4abe01fc8088e6d9c5564cc17dc154d3222",
+  "electrical_spef_identical": true,
+  "wall_s": 8.290600720793009,
+  "cpu_s": 7.605812999999992,
+  "trace_sha256": "ef0b7104fb82999fa60dc4a89548f8638f4362b00a75b51befecfad932e86a4a",
+  "spef_sha256": "dbed8bfd826a971f4d18891eb6397d1416b97bd3aa2bf8de67001ee2d96fc86f"
+}

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/experiments/layout_offgrid_20261115/run_native.py", line 14, in <module>
+    with (out/'native.log').open('w') as f:subprocess.run([str(exe),'-threads','1','-exit',str(H/'trace.tcl')],env=env,stdout=f,stderr=subprocess.STDOUT,check=True,timeout=300)
+  File "/usr/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/layout_offgrid_20261115/build/openroad-trace', '-threads', '1', '-exit', '/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/experiments/layout_offgrid_20261115/trace.tcl']' returned non-zero exit status 1.

@@ -1,0 +1,10 @@
+{
+  "query_id": "control-M4-UNDER-w08-s16",
+  "level": "fine",
+  "status": "completed",
+  "spec_hash": "8b6db220bbf38976810cd447b7665545e204d97105f810d6d626104a9ab027cc",
+  "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+  "cpu_s": 5.99,
+  "wall_s": 6.0314420238137245,
+  "result_sha256": "433504e24396ec431731cb8ce5de4c60e6376ed28b54c8ff5305ed994868c154"
+}

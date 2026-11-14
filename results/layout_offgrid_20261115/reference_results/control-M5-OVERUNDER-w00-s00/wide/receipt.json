@@ -1,0 +1,10 @@
+{
+  "query_id": "control-M5-OVERUNDER-w00-s00",
+  "level": "wide",
+  "status": "completed",
+  "spec_hash": "ecf04f4ce290037d411a27fe960049ff81ccd657853930bd9e6b3f369bc8fbf5",
+  "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+  "cpu_s": 5.279999999999999,
+  "wall_s": 5.376754067838192,
+  "result_sha256": "23cb13e7fd3b4a738dd9dab40c4f31944157c483847e53186c3e00b4a1d2938f"
+}

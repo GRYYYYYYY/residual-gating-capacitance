@@ -1,0 +1,12 @@
+{
+  "python": "3.10.12",
+  "numpy": "1.26.4",
+  "scipy": "1.14.1",
+  "torch": "2.4.0+cpu",
+  "gmsh": "4.13.1",
+  "skfem": "11.0.0",
+  "fem_environment": "pdkcap-v0/local/venv with process-adapt-v3/local/sysroot GLU",
+  "openroad": "26Q3-1860-g0b54bb3203",
+  "threads": 1,
+  "max_solver_workers": 4
+}

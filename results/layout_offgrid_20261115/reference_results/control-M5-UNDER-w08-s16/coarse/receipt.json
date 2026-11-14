@@ -1,0 +1,10 @@
+{
+  "query_id": "control-M5-UNDER-w08-s16",
+  "level": "coarse",
+  "status": "completed",
+  "spec_hash": "01bc951db5582fd463350520c4c755cb1f0034d438577eddc08d6c079869b5b5",
+  "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+  "cpu_s": 2.42,
+  "wall_s": 2.471948727965355,
+  "result_sha256": "9729bad1f53f76c85beed9e9f6336e30389060bd211d9904fe903f75bf91140f"
+}

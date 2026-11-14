@@ -1,0 +1,15 @@
+{
+  "main_pdf_pages": 7,
+  "content_pages": 6,
+  "references_only_page": 7,
+  "anonymous_author": true,
+  "pdf_author_metadata_empty": true,
+  "no_undefined_references": true,
+  "no_overfull_boxes": true,
+  "source_task_hashes_verified": true,
+  "expanded_pdf_pages": 9,
+  "source_head": "78b51129f78691e0e581e906871af5ca226f1599",
+  "revision_scope": "native replay and independent layout-parameterized templates; no aligned-native physical accuracy, new enrichment, or online replacement",
+  "api_raw_permutation_invariant": false,
+  "canonical_api_reorder_invariant": true
+}

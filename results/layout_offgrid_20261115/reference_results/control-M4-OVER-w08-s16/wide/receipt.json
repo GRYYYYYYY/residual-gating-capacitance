@@ -1,0 +1,10 @@
+{
+  "query_id": "control-M4-OVER-w08-s16",
+  "level": "wide",
+  "status": "completed",
+  "spec_hash": "cb335bacfaa535f53334b181b639bfc6aeeec60fd7d7d79ac5780225628aaffc",
+  "solver_sha256": "c2bed71f374ed99cd5040f91104558c4e243cadad935cfd6c3ea1587a7eb7c68",
+  "cpu_s": 6.2,
+  "wall_s": 6.229819368571043,
+  "result_sha256": "f175d206b04953f6a1352bbae0ee055707f5477736255ab9ab962d7d1b713f23"
+}

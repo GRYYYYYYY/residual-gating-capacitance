@@ -1,0 +1,1902 @@
+{
+  "root": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114",
+  "files": [
+    {
+      "path": "results/layout_offgrid_20261115/build/extRCmodel.cpp.o",
+      "bytes": 666976,
+      "sha256": "08f72809ece60c5b3c2d913bc03d0dfc040c7db51a881bfc935305e96b45749f",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/build/librcx_lib.a",
+      "bytes": 10792710,
+      "sha256": "fb4079beba60aa027728c9b72ad1849ffd3a3642a03f20bcf64f4bcd789c32cc",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/build/openroad-trace",
+      "bytes": 117796504,
+      "sha256": "6511a67b5ce066ff7ab2607b8580fc9fe3648c7ee4208c214d82c27f20aa7b1f",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/asap7/aes/original.spef",
+      "bytes": 19286589,
+      "sha256": "55226602df009c681be413e11b7adb791c79866b868bfd82a78978810845ee6e",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/asap7/aes/trace.spef",
+      "bytes": 19286589,
+      "sha256": "d915dd22449086a8b50acd1b74494d8e42a973bdb3ac0e3ce5a04734ce60e6fc",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/asap7/aes/trace.tsv",
+      "bytes": 73979043,
+      "sha256": "f6b6cf1c2bd4a9e1b9e5abcb2d304f33bd7425f7bbfae8869fc0999c8379aa5c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/asap7/ibex/original.spef",
+      "bytes": 28836012,
+      "sha256": "e98b68f69bedb60cdeb51ac745f4378e6d3ddfe92ccaad9c7eac01e8c95a9ece",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/asap7/ibex/trace.spef",
+      "bytes": 28836012,
+      "sha256": "44a4e53daa9cf3503c5de6021d7e50ab6e7d505543d7e599399b44ea39636a3d",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/asap7/ibex/trace.tsv",
+      "bytes": 101193670,
+      "sha256": "9a530afb0bd2185bb78addfccdbdeeeb2d8aa59d22f904a9df58273985898353",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/gf180/aes/original.spef",
+      "bytes": 21088190,
+      "sha256": "22e46230c0fb5e2222ec82db86a12fbffa81a0208636813fdee313812e08d448",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/gf180/aes/trace.spef",
+      "bytes": 21088190,
+      "sha256": "4762d29cf3ac2eb718a2013c67ecb097dbdc70e96e765197f722f2b52991f03a",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/gf180/aes/trace.tsv",
+      "bytes": 77639373,
+      "sha256": "a0787ec6996b5f0a78412b631ca0086acedafa96226281cefd3787956223d35b",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/gf180/ibex/original.spef",
+      "bytes": 20458243,
+      "sha256": "d5b627ede2dad27d432707f776a288a709ba48864f0e7551a0112e3cdd80a123",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/gf180/ibex/trace.spef",
+      "bytes": 20458243,
+      "sha256": "4c158fe28d3c6b4269f6672d4a4d138b33bfd4b13c0c13216bb7d11e0fbaeab0",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/gf180/ibex/trace.tsv",
+      "bytes": 75958785,
+      "sha256": "f693255726b31942917a67c4ba2bfe9ed45a74b7369540e9983105fc1aa4fda1",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/ihp-sg13g2/aes/original.spef",
+      "bytes": 14975987,
+      "sha256": "f2f1f8b120670e81a7c0d0ce49521c90fc3451f102de8ae0a477eec6e05cdb5c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/ihp-sg13g2/aes/trace.spef",
+      "bytes": 14975987,
+      "sha256": "59daef037021544048fa6be46fd95452ee22543b1f678e856517a007944dd6ef",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/ihp-sg13g2/aes/trace.tsv",
+      "bytes": 63031129,
+      "sha256": "5b9464c3dc489cc1db6cafe8612542a319fc99935aff0a459fdb3042c558bb5c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/ihp-sg13g2/ibex/original.spef",
+      "bytes": 21811607,
+      "sha256": "357238731eaec2fa158174612eb869a5b3bb20f8d56d2f16ebeac00c77569d3b",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/ihp-sg13g2/ibex/trace.spef",
+      "bytes": 21811607,
+      "sha256": "07da3326b205e8e1def6603bff09be20952bcec2987abb42f9fbdf013e8ee9b5",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/ihp-sg13g2/ibex/trace.tsv",
+      "bytes": 93983078,
+      "sha256": "7b8763b6d582a272c253971d33111263e7ab5b6013331bc53cb48ab85b2f3dff",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/sky130hs/aes/original.spef",
+      "bytes": 19887941,
+      "sha256": "bbe80f01c942b9d48b839d91a1b2edbc18bf52663236eadbab916cb9a4423219",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/sky130hs/aes/trace.spef",
+      "bytes": 19887941,
+      "sha256": "a14eb8baa4003145cf4c67c6a27084ff5a00391093a8bb2453896ab978b848f0",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/sky130hs/aes/trace.tsv",
+      "bytes": 106094984,
+      "sha256": "28490e5fb7c99ad1eef6966129f01f22cb3bd8ed0656cf64e29923ac54da4262",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/sky130hs/ibex/original.spef",
+      "bytes": 18783840,
+      "sha256": "4e75b765f7b0e487d80c59b013c19b0ea6a5f95345b3ab0e900594e8995a2d26",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/sky130hs/ibex/trace.spef",
+      "bytes": 18783840,
+      "sha256": "dbed8bfd826a971f4d18891eb6397d1416b97bd3aa2bf8de67001ee2d96fc86f",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/native/sky130hs/ibex/trace.tsv",
+      "bytes": 91700364,
+      "sha256": "ef0b7104fb82999fa60dc4a89548f8638f4362b00a75b51befecfad932e86a4a",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/query_manifest.jsonl",
+      "bytes": 46273822,
+      "sha256": "59b171349ec78b5f31c0df7145fc256473786b9a725f1290c30341032f8f2c90",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/00c8bc49b1295da533d0902b/coarse/mesh.msh",
+      "bytes": 1082296,
+      "sha256": "a62b3389cd7b0372a584881a2a60624f7d36a5da914b40ecdd65efab6a7f2c6c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/00c8bc49b1295da533d0902b/fine/mesh.msh",
+      "bytes": 3282599,
+      "sha256": "75d6aeed399299b765fc7121be7949a6fa3ce9df45ab63ef7df96ee9b6ea2dc6",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/00c8bc49b1295da533d0902b/wide/mesh.msh",
+      "bytes": 3398573,
+      "sha256": "8b58463cb1ab4c81ccd2cec348bcc79e874ed8806c83bcbc41f3353e8d05e4a5",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/0468c68a11c2c6d6c53a81cb/coarse/mesh.msh",
+      "bytes": 1119645,
+      "sha256": "c312215e96bd6ae667eaa11d33aa98ed749ed89466323950b12ff58bd561f455",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/0468c68a11c2c6d6c53a81cb/fine/mesh.msh",
+      "bytes": 3385042,
+      "sha256": "317cae8438e9e87a4ad898c7f7d19be3faebaf0ee14033f09e8390ccdeb010b0",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/0468c68a11c2c6d6c53a81cb/wide/mesh.msh",
+      "bytes": 3499421,
+      "sha256": "9a21d7d99596132b971836207aca7687dcc7ef41c2bb95d027aee995740eeebb",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/12115a955e8c773c7f5c5b71/coarse/mesh.msh",
+      "bytes": 1120739,
+      "sha256": "ca634999c1ade2473a650c5b6c1285c5ab370d3d9f44c50c49fb763b039735fb",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/12115a955e8c773c7f5c5b71/fine/mesh.msh",
+      "bytes": 3356110,
+      "sha256": "e5831dfa5ee4018afb057648f31a86bdaa884b717dd408f0a9a1b939c8275131",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/12115a955e8c773c7f5c5b71/wide/mesh.msh",
+      "bytes": 3477940,
+      "sha256": "8c96c6e12cfeb8d27902f550e2d31f686874ab15ac5d48cd4d772f4f709904c0",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/12d653bdb478c7b187b6e560/coarse/mesh.msh",
+      "bytes": 906317,
+      "sha256": "515934a8662b99548b92d3f28b3ed233982af78d9593a9fabba756ea3bfbfcf4",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/12d653bdb478c7b187b6e560/fine/mesh.msh",
+      "bytes": 2746599,
+      "sha256": "448067b53586da069f21a6d3e0c0bb09d43511f75eda686d04fead050f1e1acd",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/12d653bdb478c7b187b6e560/wide/mesh.msh",
+      "bytes": 2867793,
+      "sha256": "a71e72c5b7f9f9bc68a8aad78b3efec83b03ce4759acb73eeb1dd970ef78318b",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/1a0981d2997fa72e362c29d4/coarse/mesh.msh",
+      "bytes": 1544688,
+      "sha256": "f4357248c0527bce54dd2c0c6d43a925e2a2c1e354c787a08dfee383487676df",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/1a0981d2997fa72e362c29d4/fine/mesh.msh",
+      "bytes": 4758617,
+      "sha256": "dd27bfc330eeedf05309086405d6f73f96fd97173c9c749e8f81a69956442a65",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/1a0981d2997fa72e362c29d4/wide/mesh.msh",
+      "bytes": 4861349,
+      "sha256": "735c3fa90b9a2be45529aa9f2efff005e9c6eab76ddfa5533e67b1b0160284d2",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/1bd87209469665f79c9404a8/coarse/mesh.msh",
+      "bytes": 1087814,
+      "sha256": "183d8efbfb8be9ceedff0f05b87f9b5d00a4c302edf43571be420e618df9d3e1",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/1bd87209469665f79c9404a8/fine/mesh.msh",
+      "bytes": 3286356,
+      "sha256": "de0653939975f4fcc81bd6b3059b401d6172cfbda59981a03cf1ac6cc33f5a16",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/1bd87209469665f79c9404a8/wide/mesh.msh",
+      "bytes": 3406953,
+      "sha256": "c06484ada59a9219f934f206e523a6e43d45718f5bd62107a0a421248aae5c47",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/1f6682af7c19dc91b4354889/coarse/mesh.msh",
+      "bytes": 1084660,
+      "sha256": "0c59ea3bd9eabc8280e474fdac766b4c2fb1d472e5b5e75e357ccaf6ec13035f",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/1f6682af7c19dc91b4354889/fine/mesh.msh",
+      "bytes": 3282716,
+      "sha256": "e01d1661a815b4474c569603c3bc9cd20be305bd3656daefd149a2fff6684b15",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/1f6682af7c19dc91b4354889/wide/mesh.msh",
+      "bytes": 3399695,
+      "sha256": "beff9f908180363a60126b456f730d0264423ae08363049df348cc990eb735f1",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/21e0bfd8b00079a63a2c8112/coarse/mesh.msh",
+      "bytes": 1540619,
+      "sha256": "55642313ccb3e5a5209d33fbfbcc2d6382ff3d4fb09f5782ae32726d19d7285f",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/21e0bfd8b00079a63a2c8112/fine/mesh.msh",
+      "bytes": 4754013,
+      "sha256": "9b6f7169c25b85c388682151063d47f82c7920f90f8f712d5cec78c519405d1d",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/21e0bfd8b00079a63a2c8112/wide/mesh.msh",
+      "bytes": 4861241,
+      "sha256": "24a4615c4ed4099edfd56df8155c2c2f98d35d912dd3d9e426c6eac9b3be0256",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/2250b6bd39036bbbd5846c5c/coarse/mesh.msh",
+      "bytes": 1118422,
+      "sha256": "3e77af1c608f2d227bbb29967001ae36ec33405a335a907c1bc441e968340efc",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/2250b6bd39036bbbd5846c5c/fine/mesh.msh",
+      "bytes": 3383197,
+      "sha256": "f88c84b4a6ed2b5f840beeee9897533872c3c2eff3de240dc21d2f67d7e4ab92",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/2250b6bd39036bbbd5846c5c/wide/mesh.msh",
+      "bytes": 3496444,
+      "sha256": "ee726e3399b6791ff3e5c8de8ada0f043b8f9fae7c74125c3bad9643b4eada86",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/22f2435bf8bbf59475685de0/coarse/mesh.msh",
+      "bytes": 1121150,
+      "sha256": "abdcd7bddb2b696d28988e154f9c8696a1f9e3615087ea7d9fc0adb2648f3f47",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/22f2435bf8bbf59475685de0/fine/mesh.msh",
+      "bytes": 3351791,
+      "sha256": "621290cdd2014fcdaa8876d4677af3afbb339c8c827d59a4706c870018b8dfbe",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/22f2435bf8bbf59475685de0/wide/mesh.msh",
+      "bytes": 3479561,
+      "sha256": "c831192c53c95babc44464f882879a97a620424e744f6d9f21791df61fe90e0d",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/267069f2b18b25ed6fb220c3/coarse/mesh.msh",
+      "bytes": 1581846,
+      "sha256": "3653bf6c0eec80ece4839ddba5dccc15939b388850caf447d446e22044418a0e",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/267069f2b18b25ed6fb220c3/fine/mesh.msh",
+      "bytes": 4850083,
+      "sha256": "503b2ed39380eba843e94b517ad3cc5bec4c2e4285d5b85ca8dba8749920085d",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/267069f2b18b25ed6fb220c3/wide/mesh.msh",
+      "bytes": 4961521,
+      "sha256": "965dc7a33e40212bbc031cc0d286f1d3b7338a84bc1334c691c5332e78c07a9f",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/27b238eb1aa178e900776f3b/coarse/mesh.msh",
+      "bytes": 931458,
+      "sha256": "0657c0d77dbd67c32288987c28eb9476ded3745f2df7bcaa556250bbdbcae1bb",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/27b238eb1aa178e900776f3b/fine/mesh.msh",
+      "bytes": 2787952,
+      "sha256": "2244f5ffbd27daba787010ad011ce7591c000ee878596c32d29be2f2166b4d1c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/27b238eb1aa178e900776f3b/wide/mesh.msh",
+      "bytes": 2910465,
+      "sha256": "e1ff28effce714af7899c38ba4dbe19853b684b31aa9f0d39ee372a4c4bcdfda",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/294a7d1404792eae103a8af4/coarse/mesh.msh",
+      "bytes": 1120367,
+      "sha256": "2c60c14143afefa8e0caf1e986ea2a0d9f1fdbb12b19bc000305c577d313dce5",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/294a7d1404792eae103a8af4/fine/mesh.msh",
+      "bytes": 3383299,
+      "sha256": "7f800ad7c17e4ca0b563320dd20ff35dd89bbdb882a2345d61e1a07788b26da6",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/294a7d1404792eae103a8af4/wide/mesh.msh",
+      "bytes": 3497118,
+      "sha256": "58bcf444c43c940f614abe62b2ed9abe850df0a6a35ff2606a966b0a06104efe",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/2f3c6be6892c0ae6d104ae9d/coarse/mesh.msh",
+      "bytes": 1575801,
+      "sha256": "12d9d1e8aeee024bd5c8017076b021ba86384688cc34f6267fee6c58d83e5f39",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/2f3c6be6892c0ae6d104ae9d/fine/mesh.msh",
+      "bytes": 4849126,
+      "sha256": "b6f1bfb85c1066f30bf066eb6569dbfd612032e2d1a8e0828cc27948e548b5ac",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/2f3c6be6892c0ae6d104ae9d/wide/mesh.msh",
+      "bytes": 4967575,
+      "sha256": "8405f3cf8dd86829eb21958b022b1755e979b2f26a2ef239fcbd14ebe4e60e1b",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/2fc55a516d3556e574ec2475/coarse/mesh.msh",
+      "bytes": 1117837,
+      "sha256": "b5317aebe57d1d46ccaf23540012031d55631e1f61f2a245af5ff068ac39ee04",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/2fc55a516d3556e574ec2475/fine/mesh.msh",
+      "bytes": 3361271,
+      "sha256": "6c4ecbb45bdddf2c167fe24a66bdbe4206c3ddd89a56c4a7e47e4b4e1f8fe9a0",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/2fc55a516d3556e574ec2475/wide/mesh.msh",
+      "bytes": 3483310,
+      "sha256": "61f472216ec00436d9cb8e003b50a456f2de72fedf009bee3b055b484db02e14",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/346b62b135ea3afd3a4dd88b/coarse/mesh.msh",
+      "bytes": 1580738,
+      "sha256": "1e0e3464f798a9c35e181c46836988c50478655f31cab0514601d9a96349b204",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/346b62b135ea3afd3a4dd88b/fine/mesh.msh",
+      "bytes": 4848494,
+      "sha256": "fdc0f2e9581cfd3807ab9fe5aed67566f9bfc60badc7014f209d6925c9136ad2",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/346b62b135ea3afd3a4dd88b/wide/mesh.msh",
+      "bytes": 4963645,
+      "sha256": "a37c14fdb5c1ff06f7a07e6b9489c476b7394e74a1942e6ac5501425e9990903",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/34f9b4ac3986cd9d7c212941/coarse/mesh.msh",
+      "bytes": 1106344,
+      "sha256": "2b0e49e4953f2799bb62d9fbeed0e957466b2430bc9332b8d334a8a27a53cc25",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/34f9b4ac3986cd9d7c212941/fine/mesh.msh",
+      "bytes": 3345218,
+      "sha256": "8b44148928890f78e52f83898879015cf8816f44e4a1c614b9ebf432b67d09df",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/34f9b4ac3986cd9d7c212941/wide/mesh.msh",
+      "bytes": 3448488,
+      "sha256": "6e884b696fd9612fbf10c84b60dd248371d3e545d4eb8d44de76245241fe6283",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/35302f66f4ad70cf49bd7453/coarse/mesh.msh",
+      "bytes": 909649,
+      "sha256": "5fce13ca7e264fafbb46abf8d5ccd39241a89f9f286669d9df2edf4a6dfed604",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/35302f66f4ad70cf49bd7453/fine/mesh.msh",
+      "bytes": 2748513,
+      "sha256": "487777ea270770b9e77b5d056ae8fa662d031d8f9f326c0e058c8adb7926e696",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/35302f66f4ad70cf49bd7453/wide/mesh.msh",
+      "bytes": 2866464,
+      "sha256": "46b5b8dbcebdbeb4eeafb84c442bba01ca4be620e2248afc07aafa934a677d62",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/3b174d4ecdcd72e4ad8f7c55/coarse/mesh.msh",
+      "bytes": 1117479,
+      "sha256": "ba77b49321f31899d3346802e12cd037764bde83d3f55baa474751b427064498",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/3b174d4ecdcd72e4ad8f7c55/fine/mesh.msh",
+      "bytes": 3380045,
+      "sha256": "7c846fac33866842f8dbace63c6638e13d1232a2fc2978c19261f41463de722c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/3b174d4ecdcd72e4ad8f7c55/wide/mesh.msh",
+      "bytes": 3493268,
+      "sha256": "bef843fdb4096abf67d942e26629c7cbb391695c740ae5a5dce0d7e6df58517c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/3b66b72139cfae08abc3744d/coarse/mesh.msh",
+      "bytes": 903222,
+      "sha256": "bf4fc0a1163c74cbcdd9490358a235af5ca988d0b8d44f9611a21dc478a93515",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/3b66b72139cfae08abc3744d/fine/mesh.msh",
+      "bytes": 2747293,
+      "sha256": "0edb1ebacb404ebbd538ea2344bc2242d6c044aba6b0ff259eb171649d867786",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/3b66b72139cfae08abc3744d/wide/mesh.msh",
+      "bytes": 2859044,
+      "sha256": "ff21874883d708e28fc7d311a10be82c8ac4de66f3d9b66139cc61a36db2bd94",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/3d02dda55bf8a0f3d54e2a8d/coarse/mesh.msh",
+      "bytes": 1540665,
+      "sha256": "59b79c6662a2238e62131fbcc8a2c7924f26732f56cd6560064f59093dc3fc17",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/3d02dda55bf8a0f3d54e2a8d/fine/mesh.msh",
+      "bytes": 4757203,
+      "sha256": "893e1dbdeaa5dd96b8fef1ee1a9ba3a68884e8884bfebf381f754331dc758fe1",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/3d02dda55bf8a0f3d54e2a8d/wide/mesh.msh",
+      "bytes": 4866071,
+      "sha256": "4566a91ce8f60142c6bbeb1e6aab50025a8a3ca9155997c4da1ffd87c8355913",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/3f448ec7e86d02f81aba14ef/coarse/mesh.msh",
+      "bytes": 1101945,
+      "sha256": "50086a476152768d98d883bff31fdc774e05a7ef5333561def493d400f2ee5e5",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/3f448ec7e86d02f81aba14ef/fine/mesh.msh",
+      "bytes": 3340348,
+      "sha256": "b6a84a6a73a0abcaf699b57b26d6376a9d8f11684ca3b2f5ca178368e33b3eb5",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/3f448ec7e86d02f81aba14ef/wide/mesh.msh",
+      "bytes": 3445000,
+      "sha256": "943dce0eaa62e4203e5967371105d6b0bcc4d01d97f819cd22df3c780957bad2",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/3f758c32f903c0612bbc17fb/coarse/mesh.msh",
+      "bytes": 883219,
+      "sha256": "2f5f9d1093fd73a13248af1d26fce0c6f28e98201473ff2a553f45cfef2aba44",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/3f758c32f903c0612bbc17fb/fine/mesh.msh",
+      "bytes": 2711823,
+      "sha256": "df92bef552a6a42bd3904ac7f13d238fabb4a25ab7eeebd89b10f380de857038",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/3f758c32f903c0612bbc17fb/wide/mesh.msh",
+      "bytes": 2828533,
+      "sha256": "7324b10a8724f54ce60e78ff77094d1ecda46cbd2d6def2004a3dc31d340a37d",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/43dbed0a5f73cb1e62d336b3/coarse/mesh.msh",
+      "bytes": 1114166,
+      "sha256": "b430db7492cfe0dffa321b8b1282a022e317279e50d21337c1ce23b658cf4f80",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/43dbed0a5f73cb1e62d336b3/fine/mesh.msh",
+      "bytes": 3367674,
+      "sha256": "1046a4c68f8a2874620c5df518fdfc5fcc96dfefcdab68dbddab62b1c09b30b2",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/43dbed0a5f73cb1e62d336b3/wide/mesh.msh",
+      "bytes": 3473582,
+      "sha256": "1fa7fb53fdb817fa8a50442e62596502de07994aedc66e0a75539a078f6c859b",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/476cd389a7ef81797342e7e4/coarse/mesh.msh",
+      "bytes": 1109842,
+      "sha256": "a102c53d8ece80e8546a36ae14025ad1e4e8de69f58e2c354ef35c153e70e51e",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/476cd389a7ef81797342e7e4/fine/mesh.msh",
+      "bytes": 3356753,
+      "sha256": "96d2876baa89b1b1eab496f14b3eb4a1531cf44bdf62405c6369e8f159c4d849",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/476cd389a7ef81797342e7e4/wide/mesh.msh",
+      "bytes": 3474117,
+      "sha256": "73c9ab3e28bde8ecec3dd5051ae8b54c02bea51266ee9a6bf21beb618afa428f",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/478f6e1fe0c729eeb71139b3/coarse/mesh.msh",
+      "bytes": 1118950,
+      "sha256": "f6f05923b9d23bfc21ba0394ae0c4045d76722dc4ca750275a5ad25cb6398421",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/478f6e1fe0c729eeb71139b3/fine/mesh.msh",
+      "bytes": 3382118,
+      "sha256": "e1c8a5deb8f073ea9d568c1fba4b68d3774c75ea6ca2f3c74f84d885b67beb8c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/478f6e1fe0c729eeb71139b3/wide/mesh.msh",
+      "bytes": 3495661,
+      "sha256": "e0752c09bd8050801ab19bb0a70c4ebb89b951f42ac22adb433dea8e298f5825",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/47d58542c7e100fd79c3f972/coarse/mesh.msh",
+      "bytes": 1109062,
+      "sha256": "b717ef89b663c9245e7f0f5e564890662c835d77bfc74002730bd7beb6e5fa32",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/47d58542c7e100fd79c3f972/fine/mesh.msh",
+      "bytes": 3354007,
+      "sha256": "23a67a72f121f5d0523fd56e28c2df3af231cf91deb1b92931cb1286916030ff",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/47d58542c7e100fd79c3f972/wide/mesh.msh",
+      "bytes": 3473010,
+      "sha256": "1ee298d1e01edcf6d0f48d5078df5adc18f7a99bc2f8c372d657e673bc9b511f",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/47e2a415e12e0e62d75a3563/coarse/mesh.msh",
+      "bytes": 1569994,
+      "sha256": "7c3fa2466305eb2536d96477b6412d9d4bdd9c9dc93db5900d5119060b787650",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/47e2a415e12e0e62d75a3563/fine/mesh.msh",
+      "bytes": 4849778,
+      "sha256": "ae251e79b45bb6bd091582ef2288ca91f50af81a5d10fdab6257117c9731bb9e",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/47e2a415e12e0e62d75a3563/wide/mesh.msh",
+      "bytes": 4958907,
+      "sha256": "c961cc2a1677aaad2dddb2ca62f7355a862fbf070d3964c37ea55f786f3dae20",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/4df08f545ed1ab196540c0c4/coarse/mesh.msh",
+      "bytes": 1111118,
+      "sha256": "1c8126620e86555fc04fe4cde3fa1e75dcfb778f224953afa9ec1ca073ba3f5d",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/4df08f545ed1ab196540c0c4/fine/mesh.msh",
+      "bytes": 3355694,
+      "sha256": "4fc093f9bb1864be8eb4b6ba99eaf23f65952dc04c48458d4b018708d5692265",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/4df08f545ed1ab196540c0c4/wide/mesh.msh",
+      "bytes": 3466642,
+      "sha256": "c09f4a51ba87ae53eaff5d35bb8e5ca8c62ae455efa69d271d636db06ae3e384",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/5613102cfaff0ea9fcb680d7/coarse/mesh.msh",
+      "bytes": 1113948,
+      "sha256": "a220c4b4448d13dce1c6900265e821bac4ba396157e07538ccd4c8785078007c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/5613102cfaff0ea9fcb680d7/fine/mesh.msh",
+      "bytes": 3381444,
+      "sha256": "b28dda4a0739262f86873544cb82c878db804ea1c8fd6dea9def81c47d131cfa",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/5613102cfaff0ea9fcb680d7/wide/mesh.msh",
+      "bytes": 3497761,
+      "sha256": "014dd0226ed8be8415af17b87b83793d7f9374cac877e3ae29c1d731129bf883",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/59bd0472b9f1b7e7948d9e92/coarse/mesh.msh",
+      "bytes": 1573516,
+      "sha256": "799d24f21009c6809205b7aaa2fd5a7202220e5e7c1bd5a42c65469247197c39",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/59bd0472b9f1b7e7948d9e92/fine/mesh.msh",
+      "bytes": 4848184,
+      "sha256": "b8c419956fb5d9d49e12f1fc30b5a9504966c68b7ccc0dd8e31961ad4cbb11dd",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/59bd0472b9f1b7e7948d9e92/wide/mesh.msh",
+      "bytes": 4967857,
+      "sha256": "9d57ca1b02b896a1ea0387e58e2fa59265843378ec640a6d440e6a4d0c75c845",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/5b104c407e8e1ee993eb4a9a/coarse/mesh.msh",
+      "bytes": 1122775,
+      "sha256": "13d3d0c2b7b8d3540e3b3c801af01a9c84dc6ed00f943c56739f5b46d6dc9223",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/5b104c407e8e1ee993eb4a9a/fine/mesh.msh",
+      "bytes": 3385031,
+      "sha256": "90375373a25ad480e23e84be115d974737242d7b2e7ff72ae39cbdfacbe88888",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/5b104c407e8e1ee993eb4a9a/wide/mesh.msh",
+      "bytes": 3502659,
+      "sha256": "b183b2965dda6118ebc5fd3ffcf204f05b8b0c9c9aea010b6ab3a3f883a4eab3",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/5e323fa6ff1a0513b265520b/coarse/mesh.msh",
+      "bytes": 934294,
+      "sha256": "74345996d74d6714997406499521a39aebbc222a75b3d2eb508095737d72e78c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/5e323fa6ff1a0513b265520b/fine/mesh.msh",
+      "bytes": 2823170,
+      "sha256": "4248060fc4d4e9ed9df2d8da01cb04aca0608b9aeb3f1fb50d1acb16720c91d8",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/5e323fa6ff1a0513b265520b/wide/mesh.msh",
+      "bytes": 2926873,
+      "sha256": "02ea2abb2bd61832c49ffc8e9740d3f60c2935039c31b944fd4523340de8ced5",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/5f346e01e6e4aba3968b1c52/coarse/mesh.msh",
+      "bytes": 1084217,
+      "sha256": "5c5797faf79808d78a8860696d5e7991c022a7f191ea5a242cffb7b59b18c233",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/5f346e01e6e4aba3968b1c52/fine/mesh.msh",
+      "bytes": 3286911,
+      "sha256": "52006f4999f8d6742e1ae866647ddab5cfaa6d710aae09fddd12886f117c4d36",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/5f346e01e6e4aba3968b1c52/wide/mesh.msh",
+      "bytes": 3403086,
+      "sha256": "c008fa707f2d5c313e276d37c3c075faa01174315cc895c4b319154ee406d397",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/5ff72a6a6e19a59f97f87d75/coarse/mesh.msh",
+      "bytes": 1114996,
+      "sha256": "7bbe97de1a0bf1ff1812fc89edb354bd284b569dafc9aabdb3dd819585884d7a",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/5ff72a6a6e19a59f97f87d75/fine/mesh.msh",
+      "bytes": 3380231,
+      "sha256": "e4a9efd82ac0728e00aa167765462eccb1a977098bf289c873b3cfc559cb3714",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/5ff72a6a6e19a59f97f87d75/wide/mesh.msh",
+      "bytes": 3495243,
+      "sha256": "2fb0ade63453c716980e2361f8d8c67517df989045d6b1381097749713a8d1f4",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/63879d39bdd6461a1c880a10/coarse/mesh.msh",
+      "bytes": 1121137,
+      "sha256": "8a9881649b42f0c99d1f17fdd982c638b077cf5aa10e712f66c0f9fb40a988f3",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/63879d39bdd6461a1c880a10/fine/mesh.msh",
+      "bytes": 3366563,
+      "sha256": "4623ae5d17c22f36d7ab4a195c815835d8880da6440fc6fc85b9db9567e8085c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/63879d39bdd6461a1c880a10/wide/mesh.msh",
+      "bytes": 3482607,
+      "sha256": "1e3d56d5781497c9eebd47ed0ee4ca6db70db6c7e2b8535c34f19f872783921a",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/66147a62122abbbf8893ea79/coarse/mesh.msh",
+      "bytes": 1108389,
+      "sha256": "1e8b88c0432868d0b71001f74bcab84f4da0ebe1e460fa3f939b9ef161cc477c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/66147a62122abbbf8893ea79/fine/mesh.msh",
+      "bytes": 3353799,
+      "sha256": "483d30d589bb2164841a2e57a451ea73bdb3abf13553e0fd036bf0b264161fbc",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/66147a62122abbbf8893ea79/wide/mesh.msh",
+      "bytes": 3466837,
+      "sha256": "015a890e0f4f8a574ea4b9c395e7cca1602b7757357b928f6b5e32abcf3d9121",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/69b97e5f0809a34d5f812b94/coarse/mesh.msh",
+      "bytes": 932041,
+      "sha256": "d24c441b9e3831a338a6c97df3065ce8e4dccbe5d7063e08bf72b9b25ec88a6a",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/69b97e5f0809a34d5f812b94/fine/mesh.msh",
+      "bytes": 2814055,
+      "sha256": "b9850bf96d0170598bcebbbfa1933d45358217f07c62534b68cc62ced66c6abe",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/69b97e5f0809a34d5f812b94/wide/mesh.msh",
+      "bytes": 2922727,
+      "sha256": "b04d3ed42b7889eb7f480c81efd84deb1bccf79ab7850d9ae95106a5fd9edb6e",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/6a8e3919da3a6ef70a8597fa/coarse/mesh.msh",
+      "bytes": 1248097,
+      "sha256": "3b25b85f3f2500bde0caf6d37918f8aecaac57996032343c8a2e004152dd1620",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/6a8e3919da3a6ef70a8597fa/fine/mesh.msh",
+      "bytes": 3902795,
+      "sha256": "bf8d207fe01dfc0c298c6a3518b2674356b6a1928dce0a2354f9d1c9eb59dafb",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/6a8e3919da3a6ef70a8597fa/wide/mesh.msh",
+      "bytes": 4004812,
+      "sha256": "250ee54a243f42b67cdb086644389fe42bfdf065fd46f712c73f18cc2ec793f2",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/6c4b20600780f4ca46ca810e/coarse/mesh.msh",
+      "bytes": 1575487,
+      "sha256": "83a44b4d963b79caef71783b780a3ca72b9538bd4f3124e33637ba63d9191a38",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/6c4b20600780f4ca46ca810e/fine/mesh.msh",
+      "bytes": 4845284,
+      "sha256": "e9127838b4d8acd0070918b313955492383b561134936ec4235d2b397bb99020",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/6c4b20600780f4ca46ca810e/wide/mesh.msh",
+      "bytes": 4964175,
+      "sha256": "af8368f7052e005813441f0106a6eb71ac64ab9336cd46892549a6fc431a6530",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/6d48ad5d5e405a1d7ac5b6ff/coarse/mesh.msh",
+      "bytes": 1119490,
+      "sha256": "2fbf2876ba1501c50062e6c12b893f143ee1d94b0e2b9b78466a10b555eaba0f",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/6d48ad5d5e405a1d7ac5b6ff/fine/mesh.msh",
+      "bytes": 3381862,
+      "sha256": "0fb71a9f6ea57876e380b1f70db8ce1ee7a96218a522aec8d09e515fe79cdda5",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/6d48ad5d5e405a1d7ac5b6ff/wide/mesh.msh",
+      "bytes": 3498643,
+      "sha256": "8c7998c94e1cb497a3737c4231acfb9c39619cf673397b277dcf12f35c2da950",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/72697fa3cf79b71aef2fe09d/coarse/mesh.msh",
+      "bytes": 1084394,
+      "sha256": "6572c463e6e2afbcf305ae6b6fb85d6f48dee024cf1c96da13a96cef8e52867d",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/72697fa3cf79b71aef2fe09d/fine/mesh.msh",
+      "bytes": 3290897,
+      "sha256": "46616ccbf8624a9b558a62a1a7b80944b8d38554a913b040085dc3f0bb85309e",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/72697fa3cf79b71aef2fe09d/wide/mesh.msh",
+      "bytes": 3397881,
+      "sha256": "fcd8791b98bb25602ba47bd46133a572281187f417d98efea1b35beb28b5ad9b",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/75045679840a7fd24be4be2d/coarse/mesh.msh",
+      "bytes": 1119102,
+      "sha256": "e236652264e747c98dc23ac44229da5bc5dab852c081d79bebe360885a077b58",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/75045679840a7fd24be4be2d/fine/mesh.msh",
+      "bytes": 3382819,
+      "sha256": "41c5fb836ca19406ce7d400b44bb21bbc87c10c610e1c3ae9b972b8b70c99574",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/75045679840a7fd24be4be2d/wide/mesh.msh",
+      "bytes": 3496278,
+      "sha256": "3decb6d984025208b691555c2e69047b3fc2892a44af1650446dd2349b900086",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/7702ee46313e4e021819e742/coarse/mesh.msh",
+      "bytes": 1581710,
+      "sha256": "d503dbaccf53b9b001b0945623f1059e944569aad477061de8ac25b0ef7c4e9e",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/7702ee46313e4e021819e742/fine/mesh.msh",
+      "bytes": 4842358,
+      "sha256": "812af9f6cf83cbe846a0cd993e9fc8ee69b85b35d5cb78e2c6957edd9eaf09cd",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/7702ee46313e4e021819e742/wide/mesh.msh",
+      "bytes": 4961018,
+      "sha256": "ff892cc7375fa84d9a85e9712960b192f95c631fc739ad9e4e2bc54ad5f80cd6",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/79129462d5fd310458f6681d/coarse/mesh.msh",
+      "bytes": 1082018,
+      "sha256": "bb3cba927d664283e2fabb363473bbd69ada9f78c65f9929051c0ce73fff9994",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/79129462d5fd310458f6681d/fine/mesh.msh",
+      "bytes": 3269463,
+      "sha256": "a8e8e2fa1f3cdb8183d61ab32093e9b7f66a81d796818aaeb628a34d7c876416",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/79129462d5fd310458f6681d/wide/mesh.msh",
+      "bytes": 3396200,
+      "sha256": "473a24d3142bacabfdd03ff5b2036a4276cc42c9d9a6fc101ff76aca1708703b",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/7e48fd7b174417634234e8a4/coarse/mesh.msh",
+      "bytes": 1219258,
+      "sha256": "4a2c9d43ab712622de5f5ab88a5dc560ec13a1b720b3e3412a9ad1b555c4fb4b",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/7e48fd7b174417634234e8a4/fine/mesh.msh",
+      "bytes": 3821833,
+      "sha256": "199fe9912ca8ace875755220101c0c29a9fb67b24879735e62c6aa7554b2fa4a",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/7e48fd7b174417634234e8a4/wide/mesh.msh",
+      "bytes": 3937463,
+      "sha256": "7b7299894927561d1ec4e7a5dd38f1ec62cde1154e6c77dbbd28febe3f83be41",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/836bb97815fc8c37163e8656/coarse/mesh.msh",
+      "bytes": 1105815,
+      "sha256": "e0d20f844d3ca9c03aae97939c100c7ea435e238eeb66592eb06df41c27c62a1",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/836bb97815fc8c37163e8656/fine/mesh.msh",
+      "bytes": 3353863,
+      "sha256": "e1664cdd2d238f6dba60a8e029bc2d4daa1ced782fc410805821d57869857831",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/836bb97815fc8c37163e8656/wide/mesh.msh",
+      "bytes": 3467286,
+      "sha256": "42e5750f4970d010a32da44d798b59237c62a3516e55661e3c23f9bb944c5c81",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/84f3b20b1bac86c063902bbf/coarse/mesh.msh",
+      "bytes": 1544554,
+      "sha256": "04ec725f078dec815bade1659cf7dc085d5052219e970bec80798ca82fa322f1",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/84f3b20b1bac86c063902bbf/fine/mesh.msh",
+      "bytes": 4757120,
+      "sha256": "f64943469740d75115d0e76b616353c3cdd543a14bacaf503cce0ce7831293a6",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/84f3b20b1bac86c063902bbf/wide/mesh.msh",
+      "bytes": 4865672,
+      "sha256": "39113f51fabf5704eac0f0e8200b71f953e3783fcb467ec2a00581d338c89e86",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/85f17a0bee7f07be34df3f90/coarse/mesh.msh",
+      "bytes": 1204268,
+      "sha256": "f27f97c9d01190f4dc1641c563f8eb2d64d4a756bb57d1da3602fa5a80ded335",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/85f17a0bee7f07be34df3f90/fine/mesh.msh",
+      "bytes": 3795991,
+      "sha256": "0d2c8a7626dc6a8b400ba9537a5e13707fb75012fb202424f3a0cacf0cc625dc",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/85f17a0bee7f07be34df3f90/wide/mesh.msh",
+      "bytes": 3918046,
+      "sha256": "192e8de7c2662a9c17e44386c8066664bc17870a5fb4c4cfc92fd4deb2e2f124",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/88c1f683d5705185af1f30b3/coarse/mesh.msh",
+      "bytes": 1542524,
+      "sha256": "1aeac3e24fea17ed42e1e1c9c44b5f27f5f0ecfe33fa4ee5fce78a98bda5db51",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/88c1f683d5705185af1f30b3/fine/mesh.msh",
+      "bytes": 4753258,
+      "sha256": "141e90a134af82aeb8f3ab51fbb23b0fbae3c3407e9bed645e7bd66b7ee5ae56",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/88c1f683d5705185af1f30b3/wide/mesh.msh",
+      "bytes": 4870202,
+      "sha256": "83e27a575f68ff21bd365c0398809ce167fbbee3fd7dc394844352211fac6893",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/901c9bf3f21d980d59fc3f6f/coarse/mesh.msh",
+      "bytes": 1579981,
+      "sha256": "35c40a2ae20399f02677cbff4ff25a223f90a8927248b9ef1bddaf52e62ba8fb",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/901c9bf3f21d980d59fc3f6f/fine/mesh.msh",
+      "bytes": 4845293,
+      "sha256": "b1183a3c3cf60268c56354501b03e5b51f6ce0f93716c9b65e2de2c39b10f11d",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/901c9bf3f21d980d59fc3f6f/wide/mesh.msh",
+      "bytes": 4967797,
+      "sha256": "5d28bbd4e6050a9d95b12df85ff54b1a016c1ad950fa3fc82176b3e5d6bf3eab",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/95073eb0e9147dfb195c807d/coarse/mesh.msh",
+      "bytes": 1122719,
+      "sha256": "5c180ab77c82c649a1474ef17b1d5f512241eab578b45a2b4f54e29774918db4",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/95073eb0e9147dfb195c807d/fine/mesh.msh",
+      "bytes": 3388346,
+      "sha256": "dec72ff603a3e7cfa8888e379a392ff6c87d23f4f9048b2e7d7b7188d575399c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/95073eb0e9147dfb195c807d/wide/mesh.msh",
+      "bytes": 3505218,
+      "sha256": "8d431263fb9620a29ebdd109c57b387a6abe051e6ef4febd18b19c814e55c71a",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/9621dc872409b2c61965471e/coarse/mesh.msh",
+      "bytes": 1538022,
+      "sha256": "76f2e085052c34acf0579fca638e8c699c11792fd21a1c22e7c6d202705c73dc",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/9621dc872409b2c61965471e/fine/mesh.msh",
+      "bytes": 4755295,
+      "sha256": "daa763b8a06b22e1c2a4c1baa9b41710da822e2a92273c25c37acf659218b36e",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/9621dc872409b2c61965471e/wide/mesh.msh",
+      "bytes": 4856842,
+      "sha256": "4548c850094ff7ab909d64fe6ed2504a3c4493bf6e6574f9440cec5df91f42ce",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/96e00543cb833a6851631770/coarse/mesh.msh",
+      "bytes": 1088766,
+      "sha256": "e40154bd6aeadfc22ae37844a4b7d896fb0b219137dbe1a45a9a2758e433b667",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/96e00543cb833a6851631770/fine/mesh.msh",
+      "bytes": 3291657,
+      "sha256": "6810c6a4f5511d3c13cdbbf0f3672cf3f4dc7ee0b81163e57da360e2d838ac00",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/96e00543cb833a6851631770/wide/mesh.msh",
+      "bytes": 3405432,
+      "sha256": "d82536bb6c1451b429cbc908a648db199bd12dab90021e29bbb87e2658b7c70c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/997cad554faec9fb9e6e3253/coarse/mesh.msh",
+      "bytes": 1086599,
+      "sha256": "276df84e2062c94dfbe66f841420434019e2d564b6d55e1ef5ae37eab7aae417",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/997cad554faec9fb9e6e3253/fine/mesh.msh",
+      "bytes": 3292219,
+      "sha256": "05c08639cdd9514affb4fa8f75b1a387f6ee186c122998e9b7a69334aed61b9a",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/997cad554faec9fb9e6e3253/wide/mesh.msh",
+      "bytes": 3402197,
+      "sha256": "46a6b16ee6a6eaa60caaf713d21ad362a2dbfa34e6c6402e514bb085d406ecbd",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/9ac45e0c0d6bac54d44e20af/coarse/mesh.msh",
+      "bytes": 1576252,
+      "sha256": "52c075950021b9e2a137232ea881cf50368a0a752c21baf73880d1c145a9b61a",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/9ac45e0c0d6bac54d44e20af/fine/mesh.msh",
+      "bytes": 4843384,
+      "sha256": "953a4fc3b158b58bde38ed6897a99e2b1f4023d925206b98c291f662459f2c96",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/9ac45e0c0d6bac54d44e20af/wide/mesh.msh",
+      "bytes": 4964647,
+      "sha256": "0fe0f3e255df8c89b2a5ce8dffaf7b3bcc8a05e6f6f552f7178991d2f9a78244",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/a84d93a7ddcc3bd290a78c87/coarse/mesh.msh",
+      "bytes": 1119499,
+      "sha256": "a14788f5e559e8dc113e7228d2b446c743dcd280ec409872756ee3e86a63512c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/a84d93a7ddcc3bd290a78c87/fine/mesh.msh",
+      "bytes": 3390508,
+      "sha256": "854412580abd80da9e413628be5d279b52bb0517cd8b246bd38cec788e47fbac",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/a84d93a7ddcc3bd290a78c87/wide/mesh.msh",
+      "bytes": 3505415,
+      "sha256": "3e94f9461d1625478cf9464d191a84265baabdf35300bd9504276de1368545be",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/ac0b8156ca3341a1ba869f78/coarse/mesh.msh",
+      "bytes": 1575749,
+      "sha256": "f295355cc82ac432c0cc7df0a5d31f9ef659c0ee65c848bb3faf27ba74bfb5bb",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/ac0b8156ca3341a1ba869f78/fine/mesh.msh",
+      "bytes": 4847774,
+      "sha256": "63c734d2a859e8f0cb0100a5663c24f5e5c03103d319176ff744b47f4cd8ced2",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/ac0b8156ca3341a1ba869f78/wide/mesh.msh",
+      "bytes": 4974052,
+      "sha256": "12bf470380d93fe41f700bf95cb359b6246e2b91050ba345648f10b91dfedafb",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/acf734488bad22022b5959a7/coarse/mesh.msh",
+      "bytes": 1577194,
+      "sha256": "c944fec058cc501cb7d41311f2f7a15e839b483cbc6dee894c3ba20d6fc4f184",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/acf734488bad22022b5959a7/fine/mesh.msh",
+      "bytes": 4852455,
+      "sha256": "dfc35faf2dbd654f5829ee62c64e3ef87b9dac6626ff49501c53c27e4a98d0c1",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/acf734488bad22022b5959a7/wide/mesh.msh",
+      "bytes": 4978345,
+      "sha256": "5c359e7edde2403d0e1661170d3d032d432192bc2d04533b05e85db4e79431f4",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/afab6f4de10041153bfccf41/coarse/mesh.msh",
+      "bytes": 1108768,
+      "sha256": "fda2bd463c48add58d088341978b78a5e0d2972b6c317be40ee494d206ae580c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/afab6f4de10041153bfccf41/fine/mesh.msh",
+      "bytes": 3350358,
+      "sha256": "76268cb8b28986a30ed01ee32b47d80aa03d73fb89a68a6c835f8c32cae756de",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/afab6f4de10041153bfccf41/wide/mesh.msh",
+      "bytes": 3458856,
+      "sha256": "701b47acf94bdd730058e4fc0ae6287229e59656ab37e0cd76d95f449ea01573",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/b1400f6089a9eb58a7d35c20/coarse/mesh.msh",
+      "bytes": 1114481,
+      "sha256": "8323dc207fe56f6ef084684d8836fecb1e1e47bdeade89c5f23d655993a95f93",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/b1400f6089a9eb58a7d35c20/fine/mesh.msh",
+      "bytes": 3354707,
+      "sha256": "8d86502d306c1114346f35a7b6162e5deda96bb122a61329a960afcc9152ca4a",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/b1400f6089a9eb58a7d35c20/wide/mesh.msh",
+      "bytes": 3462924,
+      "sha256": "2d4b06ff4e8e43d09ce63ec786de8dcbb383e2d20a15737c32aa46b4a29d6647",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/b3a2856c2fe5bc15449939e1/coarse/mesh.msh",
+      "bytes": 1089106,
+      "sha256": "1d3a33c86c4caff60c6592b410c3a285469e8668e49c9437b8c1b7ee34846791",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/b3a2856c2fe5bc15449939e1/fine/mesh.msh",
+      "bytes": 3291065,
+      "sha256": "f26f0e96db3a53acd76ac7ba1c4149625cd1b4afea80cd13aef57301a78ceaba",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/b3a2856c2fe5bc15449939e1/wide/mesh.msh",
+      "bytes": 3404264,
+      "sha256": "db1012e74ee9472aeb92fd7f0b65650a0e34e8faf06114790e4a6962a7d33d5d",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/bb94cd41183fe03db76d3c9c/coarse/mesh.msh",
+      "bytes": 1224645,
+      "sha256": "d47fa81abf00a1d80e40582f290a2bc360581f34e69ce8fdc1ca5cd6b8b79964",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/bb94cd41183fe03db76d3c9c/fine/mesh.msh",
+      "bytes": 3827596,
+      "sha256": "2eccca765936ae04b3eb98a6afd870f14298e457cad7796bcf9cd943787164de",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/bb94cd41183fe03db76d3c9c/wide/mesh.msh",
+      "bytes": 3937545,
+      "sha256": "4f3d26164ae736c2129be5c62753183be01860c1bd3a982ce3f482d2cef5acb6",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/bfefcb9c48e2a81e439900b2/coarse/mesh.msh",
+      "bytes": 1542170,
+      "sha256": "135bf22ee559dac3991dead7827ca5b00be57c2ed91b639ceadbbb3c1a62998a",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/bfefcb9c48e2a81e439900b2/fine/mesh.msh",
+      "bytes": 4755155,
+      "sha256": "73da447ce72f80d078c64c59178c0e0d6933146e268f7039a89af2e4ce115405",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/bfefcb9c48e2a81e439900b2/wide/mesh.msh",
+      "bytes": 4868625,
+      "sha256": "7245326f94f7a8f0b5e3cf4522532e81d9fcac340244b4234f58754815a39500",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c01fee1da024b2bd5dd9af0c/coarse/mesh.msh",
+      "bytes": 1539469,
+      "sha256": "2db6f1c7db9ad86a587deb8f7f0ca4241b577ad49dfeee92125702bac50f0b75",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c01fee1da024b2bd5dd9af0c/fine/mesh.msh",
+      "bytes": 4756351,
+      "sha256": "9d2c923a17ba3f93fb89c0e986abeb7e9b72584f98fbb7ea3e6ce0d83fa2bc8c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c01fee1da024b2bd5dd9af0c/wide/mesh.msh",
+      "bytes": 4858452,
+      "sha256": "78abeed8eafd976c97882b1f00533d8c576b5aac09fc426337ec5d8beb06be2d",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c18822778d5ba21a72caabf1/coarse/mesh.msh",
+      "bytes": 905803,
+      "sha256": "df73298594b1eea29aa783cf5c5e9cc32d91b6d2c01ac15ee97a95008fb4507a",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c18822778d5ba21a72caabf1/fine/mesh.msh",
+      "bytes": 2746140,
+      "sha256": "a89c6b61ed3a6150cf35cfc22f544b572a6b289b3eb847c8e8a4fee0a52d0c2c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c18822778d5ba21a72caabf1/wide/mesh.msh",
+      "bytes": 2862052,
+      "sha256": "a63747db768671083764532231394cafccb9b491aaaa34188b546c64ef72e17c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c201f930306fc7ea35b8194a/coarse/mesh.msh",
+      "bytes": 1075926,
+      "sha256": "148c12932e86d5a6f9a23de2f9ffa981d2775d2d56313d8dafd821637dac9ab7",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c201f930306fc7ea35b8194a/fine/mesh.msh",
+      "bytes": 3277994,
+      "sha256": "0ef4b1feb4046ae003926d53da485f1ae8abfe7a81b36a15ceaa68fe0acc6dd5",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c201f930306fc7ea35b8194a/wide/mesh.msh",
+      "bytes": 3390549,
+      "sha256": "53dbb0dc0737c655f17afe6bb3f8451c96d539d9d75a521edbd1d8e9ff825924",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c24863ae599b7d511a96a3be/coarse/mesh.msh",
+      "bytes": 1110800,
+      "sha256": "82f7c20669a1981259aa86b962259c8846b34149015ff3714601ad255ffaa623",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c24863ae599b7d511a96a3be/fine/mesh.msh",
+      "bytes": 3348967,
+      "sha256": "3418dc83b3dd355726793cf52668e95d465be15c55ec870103d3a0ccf13b3b51",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c24863ae599b7d511a96a3be/wide/mesh.msh",
+      "bytes": 3458574,
+      "sha256": "5029fcc37b13ae024fb63006e8682aabcfbfd987bcf9045a7f2ebc49f496b7df",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c6d4a508c247288cf862198c/coarse/mesh.msh",
+      "bytes": 930009,
+      "sha256": "cc79e66fddc595f55a3d5e739bd9d2ea23dd2d6e8ce5f73964118497bf4ade27",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c6d4a508c247288cf862198c/fine/mesh.msh",
+      "bytes": 2790713,
+      "sha256": "871dddd61a41ccdecb0d9c50325f43785cfb4ba689145913360cc7c8d99de83d",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c6d4a508c247288cf862198c/wide/mesh.msh",
+      "bytes": 2909389,
+      "sha256": "19e2cb7ff7f61fd316d80f9eb6f424658c23f273517ad59edcfcfe94d9e6a26f",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c77deb97e2c994ec41525e62/coarse/mesh.msh",
+      "bytes": 929782,
+      "sha256": "ddeb586f220a241c2a962b1630b4eb48cf3497f5dcc6200a80f98bd199de9dfc",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c77deb97e2c994ec41525e62/fine/mesh.msh",
+      "bytes": 2816624,
+      "sha256": "427820d68853b2efe1035c06e4cf78a7de7365c2dd31283ccbc77e3e6c9c3b41",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c77deb97e2c994ec41525e62/wide/mesh.msh",
+      "bytes": 2923512,
+      "sha256": "75cb0a3838031b285cb05ab881c44ec6c766192249da2fba9b67cf96f95ae4ab",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c89cbf084272748d1149d797/coarse/mesh.msh",
+      "bytes": 1111154,
+      "sha256": "7ad4882877138964c04f4ac7a1b264db3cc6ca730cecc49d622800edb305c9f0",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c89cbf084272748d1149d797/fine/mesh.msh",
+      "bytes": 3354143,
+      "sha256": "8c73bcfd85366613cc10cebe9e380ea4a5d404e80b907b5097ba751c5c5a5b9f",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/c89cbf084272748d1149d797/wide/mesh.msh",
+      "bytes": 3456109,
+      "sha256": "90373d3e2db864045cb734c20dc2ba64caa31e3d7c798131ccae3bab7f1a969e",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/cb9ba61cd5d77a3989fa0488/coarse/mesh.msh",
+      "bytes": 1220321,
+      "sha256": "7614c45c09b8bdeb6ccbbb12f292191198bfb7a73bab2ccf7145ef32cc1acc8d",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/cb9ba61cd5d77a3989fa0488/fine/mesh.msh",
+      "bytes": 3822089,
+      "sha256": "5d35e6351cf589adb59bb91fb4f5eb18afd62cfc165d5017a98a5fa0733a754a",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/cb9ba61cd5d77a3989fa0488/wide/mesh.msh",
+      "bytes": 3941011,
+      "sha256": "809c8cdf30af860d6028868b1d752e59018928c77c5637b16b74157838d0ddfd",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-OVER/coarse/mesh.msh",
+      "bytes": 966628,
+      "sha256": "dab8828c664a63942a09a8d18ae2c379df38af73f8e7797b36dbc6800c39ebe1",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-OVER/fine/mesh.msh",
+      "bytes": 2907736,
+      "sha256": "1ff941ef2f83497eaf08e88caf1889e2699a02516fccffab114defdf504db537",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-OVER/wide/mesh.msh",
+      "bytes": 3021429,
+      "sha256": "f3be80ee12b2ee5c9e191ce69ca3c675a026375fd2ddf6c70435ca7ea71559dc",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-OVER-w00-s00/coarse/mesh.msh",
+      "bytes": 966628,
+      "sha256": "dab8828c664a63942a09a8d18ae2c379df38af73f8e7797b36dbc6800c39ebe1",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-OVER-w00-s00/fine/mesh.msh",
+      "bytes": 2907736,
+      "sha256": "1ff941ef2f83497eaf08e88caf1889e2699a02516fccffab114defdf504db537",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-OVER-w00-s00/wide/mesh.msh",
+      "bytes": 3021429,
+      "sha256": "f3be80ee12b2ee5c9e191ce69ca3c675a026375fd2ddf6c70435ca7ea71559dc",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-OVER-w08-s16/coarse/mesh.msh",
+      "bytes": 1571768,
+      "sha256": "c890e9c045db7e46284ef5db5bf421f19e617633f73bddc0f26419a2a1d07eb8",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-OVER-w08-s16/fine/mesh.msh",
+      "bytes": 5396120,
+      "sha256": "817e569a22de9c8770a64ec91fb8a5a5201d5f16a1a475173e5047f0cae6e3c3",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-OVER-w08-s16/wide/mesh.msh",
+      "bytes": 5517757,
+      "sha256": "cae90973bda24d9045b6d37fde0b67a8bd7167a0a191ec0ce5cdf8b5ffd0a1bd",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-OVERUNDER-w00-s00/coarse/mesh.msh",
+      "bytes": 1434796,
+      "sha256": "b23cdb49c36074b81ed2501b9debc8a923b2cda4dcdf82cbddf64b8737f0a591",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-OVERUNDER-w00-s00/fine/mesh.msh",
+      "bytes": 4399879,
+      "sha256": "658ffe450409db4a9c9057d0a86520a0d8c1402941f88af5835e08b02d1498d8",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-OVERUNDER-w00-s00/wide/mesh.msh",
+      "bytes": 4506953,
+      "sha256": "4538b0ba3fd83d69d6f9faca10399ad7914a182126f9ba5059e7f1f36af392d6",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-OVERUNDER-w08-s16/coarse/mesh.msh",
+      "bytes": 1704503,
+      "sha256": "4b11944cc83e37afcd9e8920b3d307eb691268ea209231d09897a693232b68b1",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-OVERUNDER-w08-s16/fine/mesh.msh",
+      "bytes": 5854118,
+      "sha256": "9971b5520d27aa173f66bc24c390c95b1190b66a9d98cfe86f8c155d57fd07ab",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-OVERUNDER-w08-s16/wide/mesh.msh",
+      "bytes": 5974009,
+      "sha256": "4a2e41a30a3c13e914bac228a0ab5edab063f7e416e48b64892159c4600b631b",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-UNDER-w00-s00/coarse/mesh.msh",
+      "bytes": 985753,
+      "sha256": "1c0e5caa0dc4d7150526fdc94310a13c0faa8d6f9dea3062d14f856d7718063a",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-UNDER-w00-s00/fine/mesh.msh",
+      "bytes": 2961338,
+      "sha256": "453dcf2430142bbd7a12849e0ab6c095063c708eea982eb6105a123ce1a70213",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-UNDER-w00-s00/wide/mesh.msh",
+      "bytes": 3065633,
+      "sha256": "be5091e601ae5616a7da6b480fada87da790f418e20198b66bea4c3198503a02",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-UNDER-w08-s16/coarse/mesh.msh",
+      "bytes": 1562806,
+      "sha256": "3e2a8de376f291b5b0695925335d9af03d56ef44159e53b893f421eb1aca7b7d",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-UNDER-w08-s16/fine/mesh.msh",
+      "bytes": 5375205,
+      "sha256": "17dee8ab3c9c2767e162f3c22759c0149681cd0e7097c3a19f606b9753f9d533",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M4-UNDER-w08-s16/wide/mesh.msh",
+      "bytes": 5501633,
+      "sha256": "d811618ab9f5d51c4105259551aadbdc747c5a79b495cbdfcba6d55d401afd28",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M5-OVER-w00-s00/coarse/mesh.msh",
+      "bytes": 991842,
+      "sha256": "99d4960cd550894d73a9a8c6f8a98b88dba4ff3337c91f8fa4fb1ab564aee131",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M5-OVER-w00-s00/fine/mesh.msh",
+      "bytes": 2965315,
+      "sha256": "ae685febb4ad2d129e0ce8c39ea5e70e7351919523679d804c610b7d2f2b51ee",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M5-OVER-w00-s00/wide/mesh.msh",
+      "bytes": 3079575,
+      "sha256": "faac67d5731497d8f17239498123b9b54eb68c965d2474d8fba3e494eba7e833",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M5-OVER-w08-s16/coarse/mesh.msh",
+      "bytes": 1576127,
+      "sha256": "7fb2b7eb33c98632de9a3446b8d215d070e295353caddd5def7de20176dd8402",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M5-OVER-w08-s16/fine/mesh.msh",
+      "bytes": 5415147,
+      "sha256": "c08e98c235fb153023e368af7c146bfc1a4cae1091c067ac3a9d77e69ec3aa1f",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M5-OVER-w08-s16/wide/mesh.msh",
+      "bytes": 5528368,
+      "sha256": "8d4eea42f9f88a639bb8cd9efefe229079cf4063b367d21e11bcfea483ad10aa",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M5-OVERUNDER-w00-s00/coarse/mesh.msh",
+      "bytes": 1464007,
+      "sha256": "8803b8e1aaa32ae8388d72cfe9a6764b125ae95385656162ca2ae6d9385ea822",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M5-OVERUNDER-w00-s00/fine/mesh.msh",
+      "bytes": 4476185,
+      "sha256": "0235e3bbbf3c414dd32f19ac58e1d6561f4b65494362ccfc2a7706acf5e843a4",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M5-OVERUNDER-w00-s00/wide/mesh.msh",
+      "bytes": 4593975,
+      "sha256": "17ea22be689f9e32733b5a8f98e9efeb97ceb0256ce33717ab62559dbb73ea17",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M5-OVERUNDER-w08-s16/coarse/mesh.msh",
+      "bytes": 1701448,
+      "sha256": "bd467235b63e60799a2c7e3b7c18cea9b929cfd691fbaca01f0b45ebe245c134",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M5-OVERUNDER-w08-s16/fine/mesh.msh",
+      "bytes": 5890127,
+      "sha256": "de0d3e98f804e0b9795059ee3780ca0da7f6f9c56413a11f77aead6ff0bc83af",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M5-OVERUNDER-w08-s16/wide/mesh.msh",
+      "bytes": 6005596,
+      "sha256": "8c94e68622e9c70bb920cad5ed21ea1fcc991aa472fe344bab61ceb2abd81f73",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M5-UNDER-w00-s00/coarse/mesh.msh",
+      "bytes": 992383,
+      "sha256": "39e85c99b39cbda13295eb983cb8127e11aec556c0923af826a082fbed1f275e",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M5-UNDER-w00-s00/fine/mesh.msh",
+      "bytes": 2987629,
+      "sha256": "874e63389ea2578605f92c476afcfce01c84033555efdbd8e3ed99552e7a5b5c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M5-UNDER-w00-s00/wide/mesh.msh",
+      "bytes": 3105626,
+      "sha256": "cadbd7c607b7e9a15ab7ef9d2b213d6609649f0c3ecbf0bacc8b408b25f8a432",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M5-UNDER-w08-s16/coarse/mesh.msh",
+      "bytes": 1559952,
+      "sha256": "1498b004ecf69e5e13eec4a49071fa5f7613a683e3265cdf17815d35ff1fc921",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M5-UNDER-w08-s16/fine/mesh.msh",
+      "bytes": 5374720,
+      "sha256": "c1f7234bff471f043860fbf8d8a127a8fccd00e3fdc88704b7f30e049efbb036",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/control-M5-UNDER-w08-s16/wide/mesh.msh",
+      "bytes": 5489913,
+      "sha256": "5a6b679664e618c1bf1d19482ced76fa5fc804ae9a88e40c94b97c00c17f1c2d",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/d06b55e6d3541477330291ea/coarse/mesh.msh",
+      "bytes": 1579405,
+      "sha256": "61f30a71dbb4347b391f767457724c97fc2c283fc2e1e3eb0edf6fec0fdf917d",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/d06b55e6d3541477330291ea/fine/mesh.msh",
+      "bytes": 4854712,
+      "sha256": "dbacc638f3462561d4576d426a6281ab6fa4a8acced7112559d0e852e7a7da8c",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/d06b55e6d3541477330291ea/wide/mesh.msh",
+      "bytes": 4973374,
+      "sha256": "8b5cebd4f52b711e69c0f321c47127ed4be21e7e0db1339ad6f087af5838176b",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/d94b8485d9680973b8b35593/coarse/mesh.msh",
+      "bytes": 941816,
+      "sha256": "c1e5273af851971c934df401604f2f814ca4bda393cd3bf43f659a7db3b2e63b",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/d94b8485d9680973b8b35593/fine/mesh.msh",
+      "bytes": 2831910,
+      "sha256": "3ad9e5e809d46c4e2a91da5cda0cd73a282c09ac8cb76d926b922830ac160953",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/d94b8485d9680973b8b35593/wide/mesh.msh",
+      "bytes": 2940859,
+      "sha256": "f1c6eb3219e275d1441a52e3f498a703e5304f88b2c740a5f34511ea2f8fe4ba",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/daa20c59e7ae6c36ca0e7ee1/coarse/mesh.msh",
+      "bytes": 1123044,
+      "sha256": "7e6bbf5fae1a71a2c19bcaad7638ff35356909f4b14a9991eb21445129385bd0",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/daa20c59e7ae6c36ca0e7ee1/fine/mesh.msh",
+      "bytes": 3361368,
+      "sha256": "12dbcc3cdbe73cc53a1e58f45cec2ffc6b547eb53708bd770fcb36c21a1c7ae8",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/daa20c59e7ae6c36ca0e7ee1/wide/mesh.msh",
+      "bytes": 3478427,
+      "sha256": "b86f51d0332932b5bdd6d08d17e31e5411422063f47afefffa85a3ebbe520931",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/e03a2da8eb5bc81e393d743f/coarse/mesh.msh",
+      "bytes": 1220446,
+      "sha256": "f2cd1e53416c073e04d369e8ecd03141afe295e10aac295f180a8aa974caa9f1",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/e03a2da8eb5bc81e393d743f/fine/mesh.msh",
+      "bytes": 3823771,
+      "sha256": "99da2aaa3001ff2eb3a60641ea4a1c8597b9a690d44984466a57b56cf9ad02b1",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/e03a2da8eb5bc81e393d743f/wide/mesh.msh",
+      "bytes": 3936760,
+      "sha256": "1d0fb50013bb3dd0e0f1e8a8ae6fb56e1a226dee3db139b2532b809d5b63a4cc",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/e10e3421903317427d7d90e2/coarse/mesh.msh",
+      "bytes": 1115534,
+      "sha256": "a23a7f2dd98c1ceb54e495b7b7825f8b0d0c4845bcae9e7d3b8a5618368b12cf",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/e10e3421903317427d7d90e2/fine/mesh.msh",
+      "bytes": 3356147,
+      "sha256": "c4c08a7e56d5781eaa0562f8aa69b7e801b4fe7f84b475cc50a0a41dc8d2bd42",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/e10e3421903317427d7d90e2/wide/mesh.msh",
+      "bytes": 3465165,
+      "sha256": "188a24fc7f7379fd41849e75cd3369b243ea02e8d98f8ce9f34db829f6d7d6ac",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/e3be30bdebe99b79e35511fb/coarse/mesh.msh",
+      "bytes": 1112967,
+      "sha256": "e0f14f8a0331f3624aadddb5c11533bd973ef56d89a84885956a434413dd4354",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/e3be30bdebe99b79e35511fb/fine/mesh.msh",
+      "bytes": 3361747,
+      "sha256": "395166cc2f1a9a0222ce9f5358906641bb0fad7efbdcae2f756501f496ab5df5",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/e3be30bdebe99b79e35511fb/wide/mesh.msh",
+      "bytes": 3465055,
+      "sha256": "fd62bc93b096a0b802e1481a9433e5a7735725f04cd1b9e5918ef8cadd0e75cf",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/e8330cace7bc79271977ea6b/coarse/mesh.msh",
+      "bytes": 1116517,
+      "sha256": "bca8d36b11fecd5ca4da8d00ad6a89e2c0d7cec587d1cc777da84c8914bd95f3",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/e8330cace7bc79271977ea6b/fine/mesh.msh",
+      "bytes": 3360854,
+      "sha256": "dc9a52ffff39f2f48cd72ddeec8db562de6730d6377bb85370bef537f299a640",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/e8330cace7bc79271977ea6b/wide/mesh.msh",
+      "bytes": 3473215,
+      "sha256": "5c75464300411edb8061ec76dcc71f9bf11cefbf0e1753b4e84ab26be5c9b819",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/f3ec3c2b7b44fe481154f286/coarse/mesh.msh",
+      "bytes": 1122582,
+      "sha256": "df6d0177b18075824e2934e4811623e5a6f638ab654b96f3774cb874a283f1c7",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/f3ec3c2b7b44fe481154f286/fine/mesh.msh",
+      "bytes": 3387227,
+      "sha256": "a8011db9465e4ce1be4089c0f9445d76cecf4ee5a8926d842d8fe4843728a35b",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/f3ec3c2b7b44fe481154f286/wide/mesh.msh",
+      "bytes": 3497222,
+      "sha256": "8ab22cca03417ba11e1bb73b89bd909957509d491ec9f4f2d6544bc2c737c295",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/f63dc3bd3be1f15e33a38c44/coarse/mesh.msh",
+      "bytes": 1116363,
+      "sha256": "3e8a1629cbddaba395f1d44a099ba14400883a98e41cf7a3e3a2dd4b272cac25",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/f63dc3bd3be1f15e33a38c44/fine/mesh.msh",
+      "bytes": 3364320,
+      "sha256": "20ae62a8f74b4e1e33ab4f7ea58b10d61d2d0cde9367045ec15f1d8670a3c0fb",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/f63dc3bd3be1f15e33a38c44/wide/mesh.msh",
+      "bytes": 3475261,
+      "sha256": "6e351f2261d6d8979731873d7ffdfb4f4a1c3ff3488b70dcdb729923235486c6",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/f813c9b326f1cae6f67d5dcc/coarse/mesh.msh",
+      "bytes": 1574154,
+      "sha256": "013077493ce128813dfc2354c7670100b1ac0f17f8f77a74228b2d8c85443204",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/f813c9b326f1cae6f67d5dcc/fine/mesh.msh",
+      "bytes": 4849128,
+      "sha256": "e8fb74cd8a7557c1824245c8aade2b2ca5af6090b6bd19030c6a963d2db60570",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/f813c9b326f1cae6f67d5dcc/wide/mesh.msh",
+      "bytes": 4961315,
+      "sha256": "4213bc05a66db81502f40b27d79ad32db3497342e8945d77ea9d41fec2b62594",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/fee359f2ef3ed7a07349d0ce/coarse/mesh.msh",
+      "bytes": 1544795,
+      "sha256": "73ccd5996203d1890304ea5b04e452e3208b7995b221b5cafc099cbb33dac75a",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/fee359f2ef3ed7a07349d0ce/fine/mesh.msh",
+      "bytes": 4750709,
+      "sha256": "ea872315d2b85fc766ca950dabd2565fdfbca590f4ac1a7434260fdb41e5de31",
+      "distribution": "local-only; reproducible or input-license dependent"
+    },
+    {
+      "path": "results/layout_offgrid_20261115/reference_results/fee359f2ef3ed7a07349d0ce/wide/mesh.msh",
+      "bytes": 4871241,
+      "sha256": "ae85575ebdd81d5fc50540224a132faede5fa9ca17ef0d44edab04a2c75d18ed",
+      "distribution": "local-only; reproducible or input-license dependent"
+    }
+  ],
+  "total_bytes": 2045621775
+}

@@ -1,0 +1,9 @@
+{
+  "reference_plan_sha256": "fe67c9585868e213b86ae426a366cdf11588b682b30c88793ba0add5591631f3",
+  "pilot_passed": 12,
+  "pilot_cpu_s": 134.24000000000004,
+  "pilot_wall_sum_s": 137.02425707131624,
+  "formal_queries": 71,
+  "decision": "retain full geometrically selected 71-query cohort; no prediction errors inspected; 3 fixed levels and component gates unchanged",
+  "max_formal_cpu_reservation_s": 38340
+}

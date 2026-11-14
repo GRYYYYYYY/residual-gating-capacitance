@@ -1,0 +1,14 @@
+{
+  "case": "ihp-sg13g2/aes",
+  "odb_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/sta/ihp-sg13g2/aes/connected.odb",
+  "odb_sha256": "62ef705df51dc19dd597977fdcbd6e6063c39ca88968c0ba0d83e60438ec40f4",
+  "rules_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/ihp_sg13g2/IHP_rcx_patterns.rules",
+  "rules_sha256": "ffda02d57a6ecb39b02268be9511d89ef072911f17bd2dcd095f3f3cbeb5a905",
+  "binary_sha256": "6511a67b5ce066ff7ab2607b8580fc9fe3648c7ee4208c214d82c27f20aa7b1f",
+  "original_binary_sha256": "94c4bc5e394ef709d9c1afd5bce3b4abe01fc8088e6d9c5564cc17dc154d3222",
+  "electrical_spef_identical": true,
+  "wall_s": 7.53440922871232,
+  "cpu_s": 6.7161660000000065,
+  "trace_sha256": "5b9464c3dc489cc1db6cafe8612542a319fc99935aff0a459fdb3042c558bb5c",
+  "spef_sha256": "59daef037021544048fa6be46fd95452ee22543b1f678e856517a007944dd6ef"
+}
