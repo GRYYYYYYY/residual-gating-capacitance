@@ -1,0 +1,14 @@
+{
+  "hard_limit_cpu_s": 14400,
+  "engineering_limit_cpu_s": 900,
+  "prior_debit_cpu_s": 150.849287,
+  "prior_hashes": {
+    "results/dac_support_mismatch_20261114/RESOURCE_LEDGER.jsonl": "f052b6032169122c2773e83e1bb60883d8dc91b0323892d124753803660da96e",
+    "results/dac_support_mismatch_20261114/RESOURCE_SUMMARY.json": "a0ba2d1aafbc033a3462bbcee61022a9c88f00c3da01767f301e1e19775a5502"
+  },
+  "new_admin_debit_cpu_s": 30,
+  "pilot_updates_each": 20,
+  "pilot_consumption": "RESOURCE_LEDGER rows pilot_*; formal prefixes resume optimizer/RNG/step",
+  "feasibility": "used cumulative CPU +2*max(pilot training CPU/20)*(24000-80)+1800 <=14400",
+  "measurement": "single-thread/worker, waited process-tree RUSAGE_CHILDREN + supervisor SELF; prior60 not repeated; new30 explicitly conservative; /proc process-group watcher and RLIMIT_CPU"
+}

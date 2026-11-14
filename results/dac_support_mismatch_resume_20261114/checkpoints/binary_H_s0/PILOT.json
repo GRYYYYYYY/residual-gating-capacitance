@@ -1,0 +1,25 @@
+{
+  "unit": "binary_H_s0",
+  "attempt_id": "dac_support_mismatch_resume_20261114",
+  "status": "success",
+  "freeze_sha256": "a90fd5d1bc133623a057deba3190ff9efff876de9ba5578b8c4438326f1e8de3",
+  "updates": 20,
+  "startstep": 0,
+  "training_cpu_s": 1.3377086410000003,
+  "training_wall_s": 1.3527198545634747,
+  "history": [
+    {
+      "step": 1,
+      "loss": 4.960969090461731e-05,
+      "cpu_seconds": 0.06799274599999983,
+      "wall_seconds": 0.06757671758532524
+    },
+    {
+      "step": 20,
+      "loss": 1.392041303915903e-05,
+      "cpu_seconds": 1.3278380440000004,
+      "wall_seconds": 1.3305746987462044
+    }
+  ],
+  "resume_sha256": "577bcca8a5eb10afafc306f3fa606aa5ba221a2c8cdd0e213df2b1bcf8f65592"
+}

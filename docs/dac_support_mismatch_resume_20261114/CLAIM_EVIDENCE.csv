@@ -1,0 +1,6 @@
+claim_id,claim,status,evidence
+R1,Exact paired low-support protocol under unchanged scientific parameters,SUPPORTED_EXECUTION,FROZEN_PLAN.yaml; EPISODE_PROVENANCE.json; PREPARE_SUCCESS.json
+R2,C/D/I/G and per-seed consistency,MEASURED_LOCAL,EFFECTS_BY_SEED.csv; EFFECT_SUMMARY.csv; EFFECTS_BY_SEED_BUDGET.csv
+R3,"Independent confirmation, pure cardinality causality or global architecture necessity",NOT_ESTABLISHED,MECHANISM_REPORT.md: retrospective four-group scope and induced coverage change
+R4,"New solver, transfer, native PEX/STA or whole-process efficiency gains",NOT_MEASURED,RESOURCE_LEDGER.csv; scope; original FINAL_DECISION unchanged
+R5,Global COMPLETION_ACCURACY_ONLY,UNCHANGED,FINAL_DECISION.md

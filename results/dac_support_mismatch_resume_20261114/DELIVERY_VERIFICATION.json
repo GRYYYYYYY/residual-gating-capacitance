@@ -1,0 +1,11 @@
+{
+  "attempt_id": "dac_support_mismatch_resume_20261114",
+  "status": "success",
+  "independent_primary_arithmetic": true,
+  "all12_checkpoints_verified": true,
+  "old_tracked_artifacts_unchanged": true,
+  "analysis_code_bound_before_evaluation": true,
+  "markdown_tex_roundtrip_identical": true,
+  "raw_component_rows": 13824,
+  "freeze_sha256": "a90fd5d1bc133623a057deba3190ff9efff876de9ba5578b8c4438326f1e8de3"
+}

@@ -1,0 +1,189 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
+(./main.out) (./main.out)
+Underfull \hbox (badness 1173) in paragraph at lines 21--22
+\T1/cmr/m/n/10 Parasitic ex-trac-tion com-monly reuses a char-ac-ter-ized
+
+Underfull \hbox (badness 1127) in paragraph at lines 31--32
+\T1/cmr/m/n/10 maries, with fi-nite learning-rate se-lec-tion and equal-
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2 <./figures/workflow.p
+df>]
+Underfull \hbox (badness 2351) in paragraph at lines 62--63
+[]\T1/cmr/m/n/10 Primary macro NRMSE pools squared er-ror and
+
+Underfull \hbox (badness 3058) in paragraph at lines 66--67
+\T1/cmr/m/n/10 pre-serv-ing non-attainment rather than ex-trap-o-lat-ing
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+\T1/cmr/m/n/10 completion/target-fitting/selection/export/native time.
+
+Underfull \hbox (badness 2158) in paragraph at lines 66--67
+\T1/cmr/m/n/10 records and ex-act fine-matrix pro-jec-tions. Cached
+
+Underfull \vbox (badness 1320) has occurred while \output is active [3 <./figur
+es/architecture.pdf>]
+Underfull \hbox (badness 1603) in paragraph at lines 96--97
+[]\T1/cmr/m/n/10 Public re-sults are re-stricted to the fea-si-ble rank-
+
+Underfull \hbox (badness 1565) in paragraph at lines 96--97
+\T1/cmr/m/n/10 one co-hort. At B4, full/binary/anchor NRMSE is
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+\T1/cmr/m/n/10 reference: at the frozen per-table thresh-old
+
+Underfull \hbox (badness 6063) in paragraph at lines 146--147
+\T1/cmr/m/n/10 0.28821552937419825, all 48 ta-ble/seed tra-jec-to-ries
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+[]\T1/cmr/m/n/10 to_asap7: at the frozen per-table thresh-old
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+\T1/cmr/m/n/10 0.2907519133283675, all 24 ta-ble/seed tra-jec-to-ries
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+[]\T1/cmr/m/n/10 The component-supervised of-fi-cial At-ten-tion-Cap
+
+Underfull \hbox (badness 4316) in paragraph at lines 165--166
+\T1/cmr/m/n/10 coun-terex-am-ple. Its fi-nite train-ing and mod-i-fied
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+\T1/cmr/m/n/10 heterogeneous-material/boundary rep-re-sen-ta-tion limit
+
+Underfull \hbox (badness 2762) in paragraph at lines 165--166
+\T1/cmr/m/n/10 con-clu-sions about the orig-i-nal pa-per's method; no
+
+Underfull \hbox (badness 1817) in paragraph at lines 165--166
+\T1/cmr/m/n/10 ASAP7-to-FreePDK15 direct-MLP ex-per-i-ment uses 8
+
+Underfull \hbox (badness 1584) in paragraph at lines 165--166
+\T1/cmr/m/n/10 fit-ting, 12 source-selection and 8 target-confirmation
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+[]\T1/cmr/m/n/10 Previously re-ported 30%-random-missing out-
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+\T1/cmr/m/n/10 of-support cases re-main coun-terex-am-ples: FEM
+
+Underfull \hbox (badness 4001) in paragraph at lines 207--208
+[]\T1/cmr/m/n/10 Let C=E 0-EH de-note continued-original-protocol
+
+Underfull \hbox (badness 2197) in paragraph at lines 207--208
+\T1/cmr/m/n/10 im-prove-ment, D=EH-EL the ad-di-tional low-support-
+
+Underfull \hbox (badness 4229) in paragraph at lines 216--217
+[]\T1/cmr/m/n/10 Mean D(Full)=0.005066, D(binary)=0.015766, I=-
+[5 <./figures/budget_accuracy.pdf>]
+Underfull \hbox (badness 2426) in paragraph at lines 220--221
+[]\T1/cmr/m/n/10 Under the original-support re-ten-tion check, mean
+
+Underfull \hbox (badness 1137) in paragraph at lines 220--221
+\T1/cmr/m/n/10 D(Full)=-0.005611 and D(binary)=-0.010675; neg-a-tive
+
+Underfull \hbox (badness 1043) in paragraph at lines 220--221
+\T1/cmr/m/n/10 D in-di-cates worse L er-ror than matched H in that
+[6 <./figures/fixed_error_cost.pdf>]
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd)
+Underfull \hbox (badness 1259) in paragraph at lines 236--237
+[]\T1/cmr/m/n/10 [3] C.-Y. Tsai, S. Kim and S.-K. Lim. Ca-pac-i-
+
+Underfull \hbox (badness 1478) in paragraph at lines 238--239
+[]\T1/cmr/m/n/10 [4] J.-C. Tsai et al. ResCap: Fast-yet-Accurate
+
+Underfull \hbox (badness 1147) in paragraph at lines 238--239
+\T1/cmr/m/n/10 Ca-pac-i-tance Ex-trac-tion for Stan-dard Cell De-sign by
+
+Underfull \hbox (badness 1365) in paragraph at lines 238--239
+\T1/cmr/m/n/10 Physics-Guided Ma-chine Learn-ing. ASP-DAC 2025.
+
+Underfull \hbox (badness 1205) in paragraph at lines 240--241
+[]\T1/cmr/m/n/10 [5] M. S. Abouelyazid, S. Ham-mouda and Y. Is-
+
+Underfull \hbox (badness 1320) in paragraph at lines 240--241
+\T1/cmr/m/n/10 mail. Accuracy-Based Hy-brid Par-a-sitic Ca-pac-i-tance
+
+Underfull \hbox (badness 2735) in paragraph at lines 240--241
+\T1/cmr/m/n/10 Ex-trac-tion Us-ing Rule-Based, Neural-Networks, and
+
+Underfull \hbox (badness 1845) in paragraph at lines 240--241
+\T1/cmr/m/n/10 Field-Solver Meth-ods. IEEE TCAD 41(12), 5681--
+
+Underfull \hbox (badness 1460) in paragraph at lines 242--243
+\T1/cmr/m/n/10 ICML 2018. []$\T1/cmtt/m/n/10 https : / / proceedings . mlr . pr
+ess / v80 /
+
+Underfull \hbox (badness 1888) in paragraph at lines 244--245
+\T1/cmr/m/n/10 2019 / arXiv:1901.05761. []$\T1/cmtt/m/n/10 https : / / arxiv . 
+org / abs /
+[7 <./figures/completion_cost.pdf> <./figures/gating_training_seeds.pdf>]
+[8 <./figures/native_fidelity_B4.pdf>] [9] [10 <./figures/error_budget.pdf> <./
+figures/paired_effects.pdf>] (./main.aux) )
+(see the transcript file for additional information) </root/.texlive2021/texmf-
+var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk> </root/.texlive2021/texmf-var/f
+onts/pk/ljfour/jknappen/ec/ecrm0700.600pk> </root/.texlive2021/texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecbx1200.600pk> </root/.texlive2021/texmf-var/fonts/pk/lj
+four/jknappen/ec/ecrm1000.600pk> </root/.texlive2021/texmf-var/fonts/pk/ljfour/
+jknappen/ec/ecbx1440.600pk> </root/.texlive2021/texmf-var/fonts/pk/ljfour/jknap
+pen/ec/ecrm1200.600pk> </root/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/e
+c/ecrm1728.600pk>
+Output written on main.pdf (10 pages, 277564 bytes).
+Transcript written on main.log.

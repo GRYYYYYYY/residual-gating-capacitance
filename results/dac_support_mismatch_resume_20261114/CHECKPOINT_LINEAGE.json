@@ -1,0 +1,242 @@
+[
+  {
+    "architecture": "Full",
+    "seed": 0,
+    "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/runs/v10_reference_all_s0/checkpoint.pt",
+    "sha256": "d39e40dc0381e2cceff9b0caab57512e8ce4acdb81263fa928797aa5ce53250d",
+    "source_steps": 12000,
+    "source_config": {
+      "seed": 0,
+      "steps": 12000,
+      "eta": 0.0,
+      "learning_rate": 0.0002,
+      "weight_decay": 0.0001,
+      "anchor_logit_gap": 2.0,
+      "gate_hidden": 32,
+      "width": 64,
+      "layers": 2,
+      "dropout": 0.0,
+      "huber_delta": 1.0,
+      "span_weight": false,
+      "temperature": 0.25,
+      "agreement": true,
+      "gradient_clip": 1.0,
+      "torch_threads": 1,
+      "partitions": [
+        "train"
+      ],
+      "data": "./runs/reference_dataset_v2/tables.jsonl",
+      "scales_from": "./runs/reference_study_v1/residual_eta0_seed0/checkpoint.pt",
+      "init_from": null,
+      "train_scope": "all",
+      "tag": ""
+    },
+    "source_frozen_sha256": "f18dc40960dc8b5710ff3aa910bff02a5424983a0cd02cc7cc8ecc1c82f6d6fd",
+    "source_receipt_sha256": "e7760e22498fa6d0ad2d372bf7d468d87dfb3ca76a6ef87a07993c92c675e1dd",
+    "source_wall_seconds": 1669.387633819133,
+    "successors": [
+      "Full_H_s0",
+      "Full_L_s0"
+    ]
+  },
+  {
+    "architecture": "Full",
+    "seed": 1,
+    "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/runs/v10_reference_all_s1/checkpoint.pt",
+    "sha256": "c84c718d60859c26877fa2e39907109e3827a61e88e0dbbd0bd8c4288dd8af27",
+    "source_steps": 12000,
+    "source_config": {
+      "seed": 1,
+      "steps": 12000,
+      "eta": 0.0,
+      "learning_rate": 0.0002,
+      "weight_decay": 0.0001,
+      "anchor_logit_gap": 2.0,
+      "gate_hidden": 32,
+      "width": 64,
+      "layers": 2,
+      "dropout": 0.0,
+      "huber_delta": 1.0,
+      "span_weight": false,
+      "temperature": 0.25,
+      "agreement": true,
+      "gradient_clip": 1.0,
+      "torch_threads": 1,
+      "partitions": [
+        "train"
+      ],
+      "data": "./runs/reference_dataset_v2/tables.jsonl",
+      "scales_from": "./runs/reference_study_v1/residual_eta0_seed1/checkpoint.pt",
+      "init_from": null,
+      "train_scope": "all",
+      "tag": ""
+    },
+    "source_frozen_sha256": "cc475aa132f11709df909458c9584cded1c2c0ae1e14962c5bf1ea5d6b72059f",
+    "source_receipt_sha256": "2672d094330125fd104b88f1d7e2b70d03f962329d994786a09ea227d1fef2a3",
+    "source_wall_seconds": 1675.5605793446302,
+    "successors": [
+      "Full_H_s1",
+      "Full_L_s1"
+    ]
+  },
+  {
+    "architecture": "Full",
+    "seed": 2,
+    "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/runs/v10_reference_all_s2/checkpoint.pt",
+    "sha256": "5353ea614f82731f2ff1a130ef7ded8eaf76f23542647a64e5ba737f2015661e",
+    "source_steps": 12000,
+    "source_config": {
+      "seed": 2,
+      "steps": 12000,
+      "eta": 0.0,
+      "learning_rate": 0.0002,
+      "weight_decay": 0.0001,
+      "anchor_logit_gap": 2.0,
+      "gate_hidden": 32,
+      "width": 64,
+      "layers": 2,
+      "dropout": 0.0,
+      "huber_delta": 1.0,
+      "span_weight": false,
+      "temperature": 0.25,
+      "agreement": true,
+      "gradient_clip": 1.0,
+      "torch_threads": 1,
+      "partitions": [
+        "train"
+      ],
+      "data": "./runs/reference_dataset_v2/tables.jsonl",
+      "scales_from": "./runs/reference_study_v1/residual_eta0_seed2/checkpoint.pt",
+      "init_from": null,
+      "train_scope": "all",
+      "tag": ""
+    },
+    "source_frozen_sha256": "1849df173630b5b0ced4f55f218f67cf94924347ac46a951d162f8f9096fe5d2",
+    "source_receipt_sha256": "80a88b90cf3cf87f79d0f4f8e57315b38b5b3017f82276af87832f163b5c7fc9",
+    "source_wall_seconds": 1667.7272887472063,
+    "successors": [
+      "Full_H_s2",
+      "Full_L_s2"
+    ]
+  },
+  {
+    "architecture": "binary",
+    "seed": 0,
+    "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/reference_binary_s0/checkpoint.pt",
+    "sha256": "758a6d8872e29b0da6dda85f022e98ec1a3a92ea49468012f75ea4682fe05c22",
+    "source_steps": 12000,
+    "source_config": {
+      "seed": 0,
+      "steps": 12000,
+      "eta": 0.0,
+      "learning_rate": 0.0002,
+      "weight_decay": 0.0001,
+      "anchor_logit_gap": 2.0,
+      "gate_hidden": 32,
+      "width": 64,
+      "layers": 2,
+      "dropout": 0.0,
+      "huber_delta": 1.0,
+      "span_weight": false,
+      "temperature": 0.25,
+      "agreement": true,
+      "gradient_clip": 1.0,
+      "torch_threads": 1,
+      "partitions": [
+        "train"
+      ],
+      "data": "./runs/reference_dataset_v2/tables.jsonl",
+      "scales_from": "./runs/reference_study_v1/residual_eta0_seed0/checkpoint.pt",
+      "init_from": null,
+      "train_scope": "all",
+      "tag": ""
+    },
+    "source_frozen_sha256": "acdbd97c9eeafc400776d9855f0ec4abd350aa8768d69d061cb9a43bdc662f69",
+    "source_receipt_sha256": "7a7c32cdc065d38d7a9e786f89866baccc99c6073a40596ab60af08576c77548",
+    "source_wall_seconds": 1931.9016752522439,
+    "successors": [
+      "binary_H_s0",
+      "binary_L_s0"
+    ]
+  },
+  {
+    "architecture": "binary",
+    "seed": 1,
+    "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/reference_binary_s1/checkpoint.pt",
+    "sha256": "693d02afef107e2f6c967c49fe7df733a6dd8cf809cdc3c9b113379b5c86f5b9",
+    "source_steps": 12000,
+    "source_config": {
+      "seed": 1,
+      "steps": 12000,
+      "eta": 0.0,
+      "learning_rate": 0.0002,
+      "weight_decay": 0.0001,
+      "anchor_logit_gap": 2.0,
+      "gate_hidden": 32,
+      "width": 64,
+      "layers": 2,
+      "dropout": 0.0,
+      "huber_delta": 1.0,
+      "span_weight": false,
+      "temperature": 0.25,
+      "agreement": true,
+      "gradient_clip": 1.0,
+      "torch_threads": 1,
+      "partitions": [
+        "train"
+      ],
+      "data": "./runs/reference_dataset_v2/tables.jsonl",
+      "scales_from": "./runs/reference_study_v1/residual_eta0_seed1/checkpoint.pt",
+      "init_from": null,
+      "train_scope": "all",
+      "tag": ""
+    },
+    "source_frozen_sha256": "20996eacfcc6408cc763ddb5ba24f29fbb4bad24ae2de8ff04f1eb026a3168d9",
+    "source_receipt_sha256": "3e0eea5d42a34dec6345b05fa06651cdd196335d12fc35e247a35400f84fe5c7",
+    "source_wall_seconds": 1943.6193994935602,
+    "successors": [
+      "binary_H_s1",
+      "binary_L_s1"
+    ]
+  },
+  {
+    "architecture": "binary",
+    "seed": 2,
+    "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/reference_binary_s2/checkpoint.pt",
+    "sha256": "6b6286f267f3e3b1e3bfee72e74785d117677fc493990b07f6c28c3e65879d64",
+    "source_steps": 12000,
+    "source_config": {
+      "seed": 2,
+      "steps": 12000,
+      "eta": 0.0,
+      "learning_rate": 0.0002,
+      "weight_decay": 0.0001,
+      "anchor_logit_gap": 2.0,
+      "gate_hidden": 32,
+      "width": 64,
+      "layers": 2,
+      "dropout": 0.0,
+      "huber_delta": 1.0,
+      "span_weight": false,
+      "temperature": 0.25,
+      "agreement": true,
+      "gradient_clip": 1.0,
+      "torch_threads": 1,
+      "partitions": [
+        "train"
+      ],
+      "data": "./runs/reference_dataset_v2/tables.jsonl",
+      "scales_from": "./runs/reference_study_v1/residual_eta0_seed2/checkpoint.pt",
+      "init_from": null,
+      "train_scope": "all",
+      "tag": ""
+    },
+    "source_frozen_sha256": "01de53560cfa1411adfaa686f958c0aa24c212011ff7b3eb3fc3b43e5058249a",
+    "source_receipt_sha256": "becf605f780b62a1dcf91a9c3a50ff798e8f5b1381e98ec0651c02626df8d777",
+    "source_wall_seconds": 1927.527323629707,
+    "successors": [
+      "binary_H_s2",
+      "binary_L_s2"
+    ]
+  }
+]

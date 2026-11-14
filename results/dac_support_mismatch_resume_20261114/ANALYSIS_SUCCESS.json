@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "attempt_id": "dac_support_mismatch_resume_20261114",
+  "analysis_code_sha256": "47a44045b6e8027bc0166eec392685a4d98c90ba61b46532dddd4a0b1de1197f",
+  "freeze_sha256": "a90fd5d1bc133623a057deba3190ff9efff876de9ba5578b8c4438326f1e8de3",
+  "evaluation_sha256": "6c58ffa7c7ab6af7db1743e710115be89f006171485a3db80f81cc47f7d31763",
+  "primary_aggregation": "unchanged FROZEN_PLAN.metric",
+  "population_cells": 256,
+  "component_rows": 13824,
+  "endpoints": 12,
+  "means": {
+    "C_Full": -0.0005446519414792442,
+    "C_binary": -9.644996262723564e-05,
+    "D_Full": 0.005065860077848136,
+    "D_binary": 0.015766467815436207,
+    "I": -0.01070060773758807,
+    "G": 0.002939403490823662
+  },
+  "bootstrap_caveat": "conditional on 4 existing groups and fixed 3 training seeds; not independent ensembles"
+}

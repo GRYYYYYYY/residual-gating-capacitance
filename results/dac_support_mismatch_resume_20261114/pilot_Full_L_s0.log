@@ -1,0 +1,3 @@
+{"step": 1, "loss": 0.0014412010787054896, "cpu_seconds": 0.08400257, "wall_seconds": 0.08544421941041946}
+{"step": 20, "loss": 0.00027379897073842585, "cpu_seconds": 1.6958535290000003, "wall_seconds": 1.6956403702497482}
+PILOT_DONE Full_L_s0

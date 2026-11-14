@@ -1,0 +1,95 @@
+{
+  "start_sha": "449fa39556ef9803d8e5eda14ec330324cb3383b",
+  "freeze_utc": "2026-11-14T07:46:55Z",
+  "setting": "reference",
+  "architectures": [
+    "Full",
+    "binary"
+  ],
+  "arms": [
+    "H",
+    "L"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "updates": 2000,
+  "pilot_updates": 20,
+  "learning_rate": 0.0002,
+  "weight_decay": 0.0001,
+  "gradient_clip": 1,
+  "dropout": 0,
+  "train_scope": "all",
+  "optimizer": "AdamW reset identically within H/L; no historical optimizer state",
+  "eta": 0,
+  "family_weights": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "huber_delta": 1,
+  "span_weight": false,
+  "source_tables": 16,
+  "train_nodes": 153,
+  "H": "unified.train.sample_episode RNG order unchanged; mcar/block/extrapolation/width, ratios .1/.3/.5/.7",
+  "L": "independent RNG 611140+seed chooses uniform B4/8/16/32; geometry_order(X,S_H) prefix B, sorted; removed H supports are NOT new queries",
+  "pairing": "same table,X,Q,truth_Q,scales,family weight at every update across all four cells",
+  "low_budgets": [
+    4,
+    8,
+    16,
+    32
+  ],
+  "data_seeds": [
+    11,
+    29,
+    47
+  ],
+  "low_evaluation_cells": 192,
+  "high_evaluation": "all 16 confirmation tables x original supported protocols, ratio .3 seed11; no selection on metrics",
+  "metric": "For each table/data_seed/B compute mean over nonzero components sqrt(sum_Q(error^2)/sum_Q(truth^2)); average data_seed then tables within existing process-layer group, then groups equally, then B4/8/16/32 equally. All architecture/arm/train-seed contrasts paired before aggregation.",
+  "old_E1_metric": "also preserve component SSE/SY for old macro pooled process/family/component NRMSE per budget; distinguish from new group/table primary",
+  "effects": {
+    "C": "E0-EH",
+    "D": "EH-EL",
+    "I": "D_Full-D_binary",
+    "G": "E_binary_L-E_Full_L"
+  },
+  "bootstrap": "2000 fixed RNG61114 paired group bootstrap, strata process, retain all cells/budgets/three train seeds together; conditional on 4 known groups and 3 fixed train seeds",
+  "tail": "P95/P99 query absolute error per cell/component; no downstream extrapolation",
+  "failure": "all endpoints required; NaN/Inf scientific stop; bounded ordinary engineering repairs allowed under 900 CPU seconds; no outcome-driven changes",
+  "checkpoint_selection": "last update U only, pilot no validation; intermediate pilot checkpoint administrative resume only",
+  "stop": "all12 endpoints+evaluation+report then STOP; budget infeasible => INCONCLUSIVE_BUDGET, never reduce U or extend cap",
+  "global_state": "COMPLETION_ACCURACY_ONLY",
+  "unit_order": [
+    "Full_H_s0",
+    "Full_L_s0",
+    "binary_H_s0",
+    "binary_L_s0",
+    "Full_H_s1",
+    "Full_L_s1",
+    "binary_H_s1",
+    "binary_L_s1",
+    "Full_H_s2",
+    "Full_L_s2",
+    "binary_H_s2",
+    "binary_L_s2"
+  ],
+  "engineering_threshold": "none: old proposed10%/5% lack application tolerance; report continuous effects and seed signs, no claim of practical EDA sufficiency",
+  "descriptive_baselines": "old MLP/CNP and other controls remain descriptive; source-training opportunities differ",
+  "resources": {
+    "cpu_limit_s": 14400,
+    "threads": 1,
+    "workers": 1,
+    "gpu": 0,
+    "new_solver": 0,
+    "new_PEX_STA": 0,
+    "prediction_stats_exit_reserve_s": 1800,
+    "max_new_files_bytes": 8589934592
+  },
+  "attempt_id": "dac_support_mismatch_resume_20261114",
+  "prior_debit_cpu_seconds": 150.849287
+}

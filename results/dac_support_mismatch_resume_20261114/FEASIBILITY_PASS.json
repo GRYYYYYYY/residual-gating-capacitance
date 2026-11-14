@@ -1,0 +1,16 @@
+{
+  "status": "success",
+  "attempt_id": "dac_support_mismatch_resume_20261114",
+  "freeze_sha256": "a90fd5d1bc133623a057deba3190ff9efff876de9ba5578b8c4438326f1e8de3",
+  "artifacts": {
+    "results/dac_support_mismatch_resume_20261114/checkpoints/Full_H_s0/PILOT.json": "7e57875d74035f6664fba3511198ecbd204af9669052655a2b7ea5437c5dbae0",
+    "results/dac_support_mismatch_resume_20261114/resume/Full_H_s0.pt": "f0d7581596b48662dd820f23b5d5c750be5f8571bf31a579817d02c3d49b70dd",
+    "results/dac_support_mismatch_resume_20261114/checkpoints/Full_L_s0/PILOT.json": "ed11f625cfbaaae9facd7fd91b25208f6db1ef91733e9c55ce645849d2569188",
+    "results/dac_support_mismatch_resume_20261114/resume/Full_L_s0.pt": "6a49beda28be70203cf74cc322a3b7a162de23f22a2214aa76556132cfb1ae74",
+    "results/dac_support_mismatch_resume_20261114/checkpoints/binary_H_s0/PILOT.json": "7a7148490f4c13647a8e6bf8207fea74b597dbaaa7d4870763e1cb9760f03cdf",
+    "results/dac_support_mismatch_resume_20261114/resume/binary_H_s0.pt": "577bcca8a5eb10afafc306f3fa606aa5ba221a2c8cdd0e213df2b1bcf8f65592",
+    "results/dac_support_mismatch_resume_20261114/checkpoints/binary_L_s0/PILOT.json": "e61fe9e7a0624dd6cc56e34979b0a6280c3188551a92328bc62edec63ca1f779",
+    "results/dac_support_mismatch_resume_20261114/resume/binary_L_s0.pt": "bbd8cbf72029a051bb50a1eaa6d35c38c08bf8bb031164dbc2908b11f7174940",
+    "results/dac_support_mismatch_resume_20261114/FEASIBILITY.json": "42a55f78fe00bdf2694c8caae1f6d5c07fe4f8646e2cb541a8449aeca2356f1e"
+  }
+}

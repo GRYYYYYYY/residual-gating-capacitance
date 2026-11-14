@@ -1,0 +1,29 @@
+{
+  "status": "success",
+  "attempt_id": "dac_support_mismatch_resume_20261114",
+  "checks": [
+    "valid finite entries and matching raw unavailable NaNs pass",
+    "common applicable nan rejected",
+    "common applicable inf rejected",
+    "zero unavailable sentinel rejected",
+    "finite delta change rejected",
+    "valid-mask change rejected",
+    "delta shape change rejected",
+    "numeric feature NaN rejected",
+    "JSON exact roundtrip",
+    "no prepare success rejected",
+    "no freeze success pilot rejected",
+    "no matching feasibility formal rejected",
+    "failed prepare command prevents downstream command",
+    "prior debit incl old60 carried once; new30 separate"
+  ],
+  "artifacts": {
+    "experiments/dac_support_mismatch_resume_20261114/regression.py": "1c1b2f2b1073308172e37701dd77fc3094cbee79fdf22785bda6ed7754cc9d7c",
+    "experiments/dac_support_mismatch_resume_20261114/checks.py": "401b2367c27380fa7c43a011971cd5834dbd0ca6a958c3291ef0a8e19b31383a",
+    "experiments/dac_support_mismatch_resume_20261114/gates.py": "8f665388737aebac3f58f9b851187140f3a1f67aa6e69a4c279c07314859415c",
+    "experiments/dac_support_mismatch_resume_20261114/driver.py": "0aff3e7a27cd0d9463252bc02c2a089999a460f33d451e9424c910072941b4ec",
+    "experiments/dac_support_mismatch_resume_20261114/budget.py": "ea3acf5e6d4a95d486b53c4420bcb4ff49a52de4b851aca9643fdd54a512d4a4",
+    "experiments/dac_support_mismatch_resume_20261114/paths.py": "b70136e8757d2093089dd062ad7fb082b685d343664825ffa3ef0ae986e0805b",
+    "experiments/dac_support_mismatch_resume_20261114/ATTEMPT.json": "ab2dda45c90e22302a530dd3417c661dd8816b472aca321d85904c09dc22cb3a"
+  }
+}

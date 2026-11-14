@@ -1,0 +1,178 @@
+{
+  "unit": "binary_H_s1",
+  "architecture": "binary",
+  "arm": "H",
+  "seed": 1,
+  "updates": 2000,
+  "startstep": 0,
+  "source_sha256": "693d02afef107e2f6c967c49fe7df733a6dd8cf809cdc3c9b113379b5c86f5b9",
+  "checkpoint_sha256": "c81e26f35ca7e603e17c95a21b8f84369a409793bf699d58e6d944d1e6913eb4",
+  "freeze_sha256": "a90fd5d1bc133623a057deba3190ff9efff876de9ba5578b8c4438326f1e8de3",
+  "training_cpu_s": 127.938396435,
+  "training_wall_s": 127.94289487227798,
+  "history": [
+    {
+      "step": 1,
+      "loss": 4.3158186599612236e-05,
+      "cpu_seconds": 0.07200140799999977,
+      "wall_seconds": 0.07130004093050957
+    },
+    {
+      "step": 101,
+      "loss": 6.550320540554821e-05,
+      "cpu_seconds": 6.619713894,
+      "wall_seconds": 6.618203047662973
+    },
+    {
+      "step": 201,
+      "loss": 4.04527090722695e-05,
+      "cpu_seconds": 12.963592753,
+      "wall_seconds": 12.962385173887014
+    },
+    {
+      "step": 301,
+      "loss": 6.217375630512834e-05,
+      "cpu_seconds": 19.331477747,
+      "wall_seconds": 19.329506158828735
+    },
+    {
+      "step": 401,
+      "loss": 0.0001462494838051498,
+      "cpu_seconds": 25.671404208,
+      "wall_seconds": 25.67027458921075
+    },
+    {
+      "step": 501,
+      "loss": 0.00013252913777250797,
+      "cpu_seconds": 31.983372100000004,
+      "wall_seconds": 31.984508477151394
+    },
+    {
+      "step": 601,
+      "loss": 2.691394547582604e-05,
+      "cpu_seconds": 38.351315795000005,
+      "wall_seconds": 38.34929392114282
+    },
+    {
+      "step": 701,
+      "loss": 0.00012998984311707318,
+      "cpu_seconds": 44.671192712,
+      "wall_seconds": 44.671614319086075
+    },
+    {
+      "step": 801,
+      "loss": 2.221954127890058e-05,
+      "cpu_seconds": 50.987052717000005,
+      "wall_seconds": 50.98577679693699
+    },
+    {
+      "step": 901,
+      "loss": 9.8976212029811e-05,
+      "cpu_seconds": 57.434981803,
+      "wall_seconds": 57.43334109708667
+    },
+    {
+      "step": 1001,
+      "loss": 3.060571907553822e-05,
+      "cpu_seconds": 63.818918929000006,
+      "wall_seconds": 63.81916416808963
+    },
+    {
+      "step": 1101,
+      "loss": 1.1350482054695021e-05,
+      "cpu_seconds": 70.254805834,
+      "wall_seconds": 70.25545273348689
+    },
+    {
+      "step": 1201,
+      "loss": 2.9342823836486787e-05,
+      "cpu_seconds": 76.650774096,
+      "wall_seconds": 76.65014604479074
+    },
+    {
+      "step": 1301,
+      "loss": 0.00029636098770424724,
+      "cpu_seconds": 82.978707579,
+      "wall_seconds": 82.9784183204174
+    },
+    {
+      "step": 1401,
+      "loss": 3.923378244508058e-05,
+      "cpu_seconds": 89.506623664,
+      "wall_seconds": 89.50822839513421
+    },
+    {
+      "step": 1501,
+      "loss": 2.194678563682828e-05,
+      "cpu_seconds": 95.930591249,
+      "wall_seconds": 95.93064163252711
+    },
+    {
+      "step": 1601,
+      "loss": 2.773585765680764e-05,
+      "cpu_seconds": 102.294521159,
+      "wall_seconds": 102.29556932300329
+    },
+    {
+      "step": 1701,
+      "loss": 0.00021079689031466842,
+      "cpu_seconds": 108.650419168,
+      "wall_seconds": 108.65190957859159
+    },
+    {
+      "step": 1801,
+      "loss": 4.2511372157605365e-05,
+      "cpu_seconds": 115.106349663,
+      "wall_seconds": 115.10762492194772
+    },
+    {
+      "step": 1901,
+      "loss": 0.0002470731269568205,
+      "cpu_seconds": 121.550242792,
+      "wall_seconds": 121.55174161493778
+    },
+    {
+      "step": 2000,
+      "loss": 1.8735843696049415e-05,
+      "cpu_seconds": 127.934143238,
+      "wall_seconds": 127.93486892431974
+    }
+  ],
+  "optimizer": "AdamW reset at step0; pilot exact resume",
+  "state_keys": [
+    "encoder.layers.0.linear1.bias",
+    "encoder.layers.0.linear1.weight",
+    "encoder.layers.0.linear2.bias",
+    "encoder.layers.0.linear2.weight",
+    "encoder.layers.0.norm1.bias",
+    "encoder.layers.0.norm1.weight",
+    "encoder.layers.0.norm2.bias",
+    "encoder.layers.0.norm2.weight",
+    "encoder.layers.0.self_attn.in_proj_bias",
+    "encoder.layers.0.self_attn.in_proj_weight",
+    "encoder.layers.0.self_attn.out_proj.bias",
+    "encoder.layers.0.self_attn.out_proj.weight",
+    "encoder.layers.1.linear1.bias",
+    "encoder.layers.1.linear1.weight",
+    "encoder.layers.1.linear2.bias",
+    "encoder.layers.1.linear2.weight",
+    "encoder.layers.1.norm1.bias",
+    "encoder.layers.1.norm1.weight",
+    "encoder.layers.1.norm2.bias",
+    "encoder.layers.1.norm2.weight",
+    "encoder.layers.1.self_attn.in_proj_bias",
+    "encoder.layers.1.self_attn.in_proj_weight",
+    "encoder.layers.1.self_attn.out_proj.bias",
+    "encoder.layers.1.self_attn.out_proj.weight",
+    "gate.0.bias",
+    "gate.0.weight",
+    "gate.2.bias",
+    "gate.2.weight",
+    "gate_bias",
+    "input.bias",
+    "input.weight",
+    "log_temperature",
+    "residual.bias",
+    "residual.weight"
+  ]
+}

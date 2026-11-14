@@ -1,0 +1,3 @@
+{"step": 1, "loss": 4.960969090461731e-05, "cpu_seconds": 0.06799274599999983, "wall_seconds": 0.06757671758532524}
+{"step": 20, "loss": 1.392041303915903e-05, "cpu_seconds": 1.3278380440000004, "wall_seconds": 1.3305746987462044}
+PILOT_DONE binary_H_s0

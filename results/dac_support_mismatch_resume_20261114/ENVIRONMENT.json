@@ -1,0 +1,15 @@
+{
+  "python": "3.10.12 (main, Jul 15 2026, 23:40:17) [GCC 11.4.0]",
+  "executable": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/.venv-eval/bin/python",
+  "platform": "Linux-5.15.0-119-generic-x86_64-with-glibc2.35",
+  "packages": {
+    "torch": "2.4.0+cpu",
+    "numpy": "1.26.4",
+    "scipy": "1.14.1",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.0"
+  },
+  "threads": 1,
+  "workers": 1,
+  "gpu": false
+}

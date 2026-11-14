@@ -1,0 +1,17 @@
+method,budget,nrmse,comparison
+binary,4,0.12791088632081926,historical ensemble / baseline; different source-training opportunity; descriptive only
+binary,8,0.09105845983849399,historical ensemble / baseline; different source-training opportunity; descriptive only
+binary,16,0.053118302711218555,historical ensemble / baseline; different source-training opportunity; descriptive only
+binary,32,0.049586567000802634,historical ensemble / baseline; different source-training opportunity; descriptive only
+cnp,4,0.2098207363409435,historical ensemble / baseline; different source-training opportunity; descriptive only
+cnp,8,0.20499498484925374,historical ensemble / baseline; different source-training opportunity; descriptive only
+cnp,16,0.20320669847676925,historical ensemble / baseline; different source-training opportunity; descriptive only
+cnp,32,0.20082828399672423,historical ensemble / baseline; different source-training opportunity; descriptive only
+full,4,0.11629968932703871,historical ensemble / baseline; different source-training opportunity; descriptive only
+full,8,0.08796943986063736,historical ensemble / baseline; different source-training opportunity; descriptive only
+full,16,0.03806842806115318,historical ensemble / baseline; different source-training opportunity; descriptive only
+full,32,0.02932323268232801,historical ensemble / baseline; different source-training opportunity; descriptive only
+mlp_adapt,4,0.051194958940783554,historical ensemble / baseline; different source-training opportunity; descriptive only
+mlp_adapt,8,0.04088457735421141,historical ensemble / baseline; different source-training opportunity; descriptive only
+mlp_adapt,16,0.030525047753771434,historical ensemble / baseline; different source-training opportunity; descriptive only
+mlp_adapt,32,0.023801641098567777,historical ensemble / baseline; different source-training opportunity; descriptive only

@@ -1,0 +1,11 @@
+cohort      budget  train_seed  E_Full_0  E_Full_H  E_Full_L  E_binary_0  E_binary_H  E_binary_L    C_Full  C_binary    D_Full  D_binary         I        G
+   low ALL_4_EQUAL           0  0.071013  0.063422  0.068673    0.084032    0.084382    0.071484  0.007591 -0.000351 -0.005250  0.012898 -0.018149 0.002811
+   low ALL_4_EQUAL           1  0.073074  0.080006  0.070535    0.089205    0.090545    0.071132 -0.006932 -0.001340  0.009471  0.019413 -0.009942 0.000597
+   low ALL_4_EQUAL           2  0.069011  0.071304  0.060327    0.082126    0.080725    0.065737 -0.002293  0.001402  0.010977  0.014988 -0.004011 0.005410
+  effect      mean  seed_min  seed_max  positive_seeds  negative_seeds  zero_seeds  conditional_group_ci_low  conditional_group_ci_high  bootstrap_replicates  dependency_groups  training_seeds
+  C_Full -0.000545 -0.006932  0.007591               1               2           0                 -0.000752                  -0.000337                  2000                  4               3
+C_binary -0.000096 -0.001340  0.001402               1               2           0                 -0.001419                   0.001226                  2000                  4               3
+  D_Full  0.005066 -0.005250  0.010977               2               1           0                  0.000665                   0.009466                  2000                  4               3
+D_binary  0.015766  0.012898  0.019413               3               0           0                  0.009922                   0.021611                  2000                  4               3
+       I -0.010701 -0.018149 -0.004011               0               3           0                 -0.012145                  -0.009256                  2000                  4               3
+       G  0.002939  0.000597  0.005410               3               0           0                  0.000372                   0.005507                  2000                  4               3
