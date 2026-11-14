@@ -1,0 +1,9 @@
+# Protocol changes frozen before training
+
+The previous REVIEW_PACKET §8 used a new common 15-query holdout and coverage-prefix supports for BOTH arms. That is not equivalent to the current authorized mechanism question. H now reproduces the original random process/table/protocol/ratio/mask sampler. L is nested geometry-only thinning of that H support; the original H query and its loss weights remain identical. Removed H observations are not added to the loss. Thus this tests a **low-support protocol**, including induced coverage changes; it does not identify a pure cardinality causal effect.
+
+U=2000, three original seeds, AdamW lr2e-4/weight_decay1e-4, full parameter continuation, dropout0, clip1, normalized Huber delta1 and eta0 uniform four-family weights are retained. Full and binary inherit their own COMPLETE trained states, not a trunk-only initialization. Historical optimizer states are absent; both arms reset AdamW. Pilot prefixes retain optimizer/RNG exactly. H reproduces the support protocol but is not a bit-for-bit resumption of historical optimization.
+
+The four budgets are equally weighted after paired table/group aggregation. All pre-existing confirmation cells are evaluated unconditionally; the previously contemplated outcome-dependent confirmation gate is removed. They are retrospective, not blind. Old 10%/5% heuristic thresholds are not engineering tolerances; continuous C/D/I/G, tails and all three seeds replace those gates. Original E1 per-budget aggregation is additionally reconstructible from component accumulators. No original claims, thresholds or downstream results are overwritten.
+
+No new target training labels, field solves, baseline fits, cross-process transfer or native extraction/STA. The latest user instruction authorizes pushing evidence and a separately versioned paper, overriding the attachment's older no-push ending. Old papers and results stay unchanged.

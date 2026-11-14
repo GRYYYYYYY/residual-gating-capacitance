@@ -1,0 +1,17 @@
+{
+  "mechanism_status": "INCONCLUSIVE_IMPLEMENTATION",
+  "global_status": "COMPLETION_ACCURACY_ONLY",
+  "start_sha": "b0a2edcac216af53b417be2a3b922c4deff98185",
+  "planned": 12,
+  "started": 0,
+  "completed": 0,
+  "failed_training": 0,
+  "not_started": 12,
+  "pilot_updates": 0,
+  "new_endpoint_predictions": 0,
+  "preflight_failures": 2,
+  "freeze_failures": 1,
+  "freeze_complete": false,
+  "one_repair_consumed": true,
+  "stop": true
+}

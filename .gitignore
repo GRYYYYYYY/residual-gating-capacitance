@@ -48,3 +48,11 @@ paper/dac_revision_20261114/*.fdb_latexmk
 /sta
 /upstream
 results/dac_characterization_20261114/reverse_transfer/*.pt
+
+# Bounded support-mismatch continuation; large states stay local, hash-referenced.
+results/dac_support_mismatch_20261114/checkpoints/
+results/dac_support_mismatch_20261114/resume/
+results/dac_support_mismatch_20261114/budget.lock
+results/dac_support_mismatch_20261114/ACTIVE.json
+paper/dac_support_revision_20261114/*.aux
+paper/dac_support_revision_20261114/*.out

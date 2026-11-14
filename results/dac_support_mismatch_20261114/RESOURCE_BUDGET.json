@@ -1,0 +1,10 @@
+{
+  "limit_cpu_s": 14400,
+  "old_log_linear_estimate_s": 3887.238798987121,
+  "old_logs": "six original COMPLETED receipts in lineage",
+  "pilot": "20 updates first prefix of four seed0 cells, resumed bit-for-bit including optimizer/RNG; no validation read",
+  "pilot_consumption": "will be measured in RESOURCE_LEDGER and separate FEASIBILITY.json before formal continuation",
+  "feasibility": "charged CPU + max pilot CPU/update * remaining updates *2 +1800s reserve must be <=14400",
+  "measurement": "single-owner budget.py: getrusage CHILDREN after wait counts reaped process-tree CPU; supervisor SELF separately; /proc process-group watchdog and RLIMIT_CPU; threads1 concurrency1; 60s conservative prior administration debit,30s hard exit margin",
+  "wall": "reported separately; all failed and pilot runs charged"
+}

@@ -1,0 +1,13 @@
+unit,architecture,arm,seed,planned_updates,completed_updates,status,reason
+Full_H_s0,Full,H,0,2000,0,NOT_STARTED,preflight failed; repair allowance exhausted; freeze incomplete
+Full_L_s0,Full,L,0,2000,0,NOT_STARTED,preflight failed; repair allowance exhausted; freeze incomplete
+binary_H_s0,binary,H,0,2000,0,NOT_STARTED,preflight failed; repair allowance exhausted; freeze incomplete
+binary_L_s0,binary,L,0,2000,0,NOT_STARTED,preflight failed; repair allowance exhausted; freeze incomplete
+Full_H_s1,Full,H,1,2000,0,NOT_STARTED,preflight failed; repair allowance exhausted; freeze incomplete
+Full_L_s1,Full,L,1,2000,0,NOT_STARTED,preflight failed; repair allowance exhausted; freeze incomplete
+binary_H_s1,binary,H,1,2000,0,NOT_STARTED,preflight failed; repair allowance exhausted; freeze incomplete
+binary_L_s1,binary,L,1,2000,0,NOT_STARTED,preflight failed; repair allowance exhausted; freeze incomplete
+Full_H_s2,Full,H,2,2000,0,NOT_STARTED,preflight failed; repair allowance exhausted; freeze incomplete
+Full_L_s2,Full,L,2,2000,0,NOT_STARTED,preflight failed; repair allowance exhausted; freeze incomplete
+binary_H_s2,binary,H,2,2000,0,NOT_STARTED,preflight failed; repair allowance exhausted; freeze incomplete
+binary_L_s2,binary,L,2,2000,0,NOT_STARTED,preflight failed; repair allowance exhausted; freeze incomplete

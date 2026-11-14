@@ -1,0 +1,7 @@
+claim_id,claim,status,evidence,limitation
+M1,Original FEM support counts exceed B4/8/16/32,SUPPORTED_CONFIGURATION_FACT,review/dac_capacitance_20261114/REVIEW_PACKET.md; results/dac_support_mismatch_20261114/CHECKPOINT_LINEAGE.json; SUPPORT_QUERY_COUNTS.csv,does not establish causal contribution to model error
+M2,Low-support continuation improves error,UNMEASURED,ENDPOINT_STATUS.csv; EFFECTS_BY_SEED.csv,zero completed continuation endpoints
+M3,Full benefits more than binary or is locally better,UNMEASURED,EFFECTS_BY_SEED.csv,I and G both NA
+M4,Second preflight assertion is a NaN sentinel comparison failure,SUPPORTED_DIAGNOSIS,FAILURE_DIAGNOSIS.json; prepare_repaired.log; unified/basis.py,diagnosis is not a repaired and completed scientific run
+M5,General characterization efficiency / new transfer or STA gains,NOT_ESTABLISHED,original FINAL_DECISION.md; EXECUTION_STATUS.json,no new corresponding experiments
+M6,COMPLETION_ACCURACY_ONLY remains current,UNCHANGED,docs/dac_characterization_20261114/FINAL_DECISION.md,limited original completion evidence only

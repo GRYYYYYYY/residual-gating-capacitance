@@ -1,0 +1,56 @@
+{
+  "checks": [
+    {
+      "architecture": "Full",
+      "seed": 0,
+      "strict_load": true,
+      "hidden_label_poison_equal": true,
+      "full_loader_equal": true,
+      "optimizer_present": false
+    },
+    {
+      "architecture": "Full",
+      "seed": 1,
+      "strict_load": true,
+      "hidden_label_poison_equal": true,
+      "full_loader_equal": true,
+      "optimizer_present": false
+    },
+    {
+      "architecture": "Full",
+      "seed": 2,
+      "strict_load": true,
+      "hidden_label_poison_equal": true,
+      "full_loader_equal": true,
+      "optimizer_present": false
+    },
+    {
+      "architecture": "binary",
+      "seed": 0,
+      "strict_load": true,
+      "hidden_label_poison_equal": true,
+      "full_loader_equal": "strict SimpleControl state, same forward",
+      "optimizer_present": false
+    },
+    {
+      "architecture": "binary",
+      "seed": 1,
+      "strict_load": true,
+      "hidden_label_poison_equal": true,
+      "full_loader_equal": "strict SimpleControl state, same forward",
+      "optimizer_present": false
+    },
+    {
+      "architecture": "binary",
+      "seed": 2,
+      "strict_load": true,
+      "hidden_label_poison_equal": true,
+      "full_loader_equal": "strict SimpleControl state, same forward",
+      "optimizer_present": false
+    }
+  ],
+  "training_tables": 16,
+  "validation_tables": 24,
+  "confirmation_tables": 16,
+  "preparation_utc": "2026-11-14T07:12:17Z"
+}

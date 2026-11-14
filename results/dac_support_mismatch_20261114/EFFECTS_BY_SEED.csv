@@ -1,0 +1,4 @@
+train_seed,E_Full_0,E_Full_H,E_Full_L,E_binary_0,E_binary_H,E_binary_L,C_Full,C_binary,D_Full,D_binary,I,G,status,reason
+0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NOT_EVALUATED,preflight failed; no matched U=2000 endpoints
+1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NOT_EVALUATED,preflight failed; no matched U=2000 endpoints
+2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NOT_EVALUATED,preflight failed; no matched U=2000 endpoints

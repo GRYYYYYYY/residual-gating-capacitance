@@ -1,0 +1,23 @@
+{
+  "measured_cpu_seconds": 90.849287,
+  "measured_cpu_core_hours": 0.025235913055555555,
+  "administrative_conservative_charge_s": 60,
+  "charged_cpu_seconds": 150.84928699999998,
+  "charged_cpu_core_hours": 0.041902579722222215,
+  "hard_limit_cpu_s": 14400,
+  "remaining_charged_cpu_s": 14249.150713,
+  "worker_wall_sum_s": 103.71974635124207,
+  "measured_stage_start_utc": "2026-11-14T07:12:01Z",
+  "measured_stage_end_utc": "2026-11-14T07:19:39Z",
+  "measured_stage_elapsed_wall_s": 458.0,
+  "delivery_snapshot_utc": "2026-11-14T07:21:11.266831+00:00",
+  "training_cpu_s": 0,
+  "pilot_cpu_s": 0,
+  "formal_prediction_cpu_s": 0,
+  "threads": 1,
+  "max_concurrency": 1,
+  "gpu_jobs": 0,
+  "solver_jobs": 0,
+  "PEX_STA_jobs": 0,
+  "stage_note": "measured phase wall includes between-stage drafting; initial read-only audit and final git/publication are outside this wall definition; their lightweight administration has conservative CPU debit, not invented measurement"
+}

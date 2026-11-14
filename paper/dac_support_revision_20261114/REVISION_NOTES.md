@@ -1,0 +1,1 @@
+A separate evidence-limited version of paper/dac_revision_20261114; original files are unchanged. New language is mapped sentence-by-sentence in docs/dac_support_mismatch_20261114/PAPER_DELTA.md. No new mechanism result or claim of completed continuation is made.

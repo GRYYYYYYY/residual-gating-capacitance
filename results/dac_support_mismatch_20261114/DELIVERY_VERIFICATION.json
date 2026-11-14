@@ -1,0 +1,12 @@
+{
+  "archive_sha256": "76b591ec34742b61d99aed7e2234b614fbb750b528e19362b0883f16cad1450a",
+  "archive_bytes": 2545872,
+  "archive_entries": 76,
+  "all_member_hashes_verified": true,
+  "old_tracked_artifacts_unchanged": true,
+  "six_source_weights_rehashed": true,
+  "pdf_text_verified": true,
+  "no_active_budget_job": true,
+  "freeze_incomplete_intentionally": true,
+  "no_new_checkpoints": true
+}
