@@ -1,0 +1,9 @@
+{
+  "runs": 96,
+  "passed": true,
+  "units": [
+    "time 1ns",
+    "time 1ps"
+  ],
+  "scope": "Raw report values with max qualifier, native units and picosecond conversion; no extraction rerun or timing adjustment"
+}

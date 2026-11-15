@@ -1,0 +1,62 @@
+{
+  "case": "sky130hs/aes",
+  "method": "cmi",
+  "block": 0,
+  "wall_s": 8.782320339232683,
+  "cpu_s": 8.586723999999993,
+  "peak_rss_kib": 281976,
+  "rule_bytes": 44983,
+  "rule_sha256": "3d97082c17cec55d3e01bd601e71d944bade6853317fff04730966917dec72ff",
+  "openroad_sha256": "94c4bc5e394ef709d9c1afd5bce3b4abe01fc8088e6d9c5564cc17dc154d3222",
+  "odb_sha256": "7a98291548184a2cc206ada6d2ad9a54ca225da1fe5f81f5a3f3211c2a02d197",
+  "spef_sha256": "42cc78cf9b13841bac639b3645ba9dd3cd55d0f3159884641e93358e4adc0352",
+  "worst_slack": -0.014300783,
+  "tns": -0.027581716,
+  "layout_and_libs_s": 1.74574,
+  "rule_registration_s": 9.7e-05,
+  "extraction_s": 2.395249,
+  "spef_write_s": 0.718212,
+  "sta_read_s": 1.601902,
+  "sta_analysis_s": 2.134383,
+  "before_rule_registration_rss_kib": 160012,
+  "after_rule_registration_rss_kib": 160012,
+  "after_extraction_rss_kib": 195100,
+  "comparison": {
+    "units": {
+      "*C_UNIT": [
+        1.0,
+        "PF"
+      ],
+      "*R_UNIT": [
+        1.0,
+        "OHM"
+      ]
+    },
+    "golden_nets": 15355,
+    "candidate_nets": 15355,
+    "common_nets": 15355,
+    "metrics": {
+      "capacitance": {
+        "mae": 2.3261972517095364e-05,
+        "rmse": 6.660130216318799e-05,
+        "nrmse": 0.004738226091156413,
+        "smape": 0.004388442151233212,
+        "r2": 0.9999700547528254,
+        "spearman": 0.9999840172198056
+      },
+      "resistance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 1.0
+      }
+    }
+  },
+  "electrical_sha256": "bcb2657d906692df449f20f9d3918038da6dbb532dfb6959f5516f6219ae8b4d",
+  "identical_frozen_variant": true,
+  "sta_time_unit": "time 1ns",
+  "worst_slack_ps": -14.300783,
+  "tns_ps": -27.581716
+}

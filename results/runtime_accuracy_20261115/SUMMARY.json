@@ -1,0 +1,19 @@
+{
+  "queries": {
+    "fem": 71,
+    "native": 480
+  },
+  "repetitions": 20,
+  "warmups": 3,
+  "batches": [
+    1,
+    8,
+    32
+  ],
+  "solver_repetitions": 3,
+  "native_runs": 96,
+  "accounted_main_cpu_core_hours": 0.6489339456041666,
+  "accounting": "Main completed experiment CPU; launch/import, failed setup checks, compilation and analysis additionally accounted in resource ledger. Not a hard upper-bound claim.",
+  "runtime_scope": "Query replay and same-node offline export; no online replacement or added rule nodes",
+  "source_training": "No new source training; frozen source training receipts retained under results/dac_characterization_20261114; shared characterization S not charged per Q"
+}

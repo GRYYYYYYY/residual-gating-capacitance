@@ -1,0 +1,59 @@
+{
+  "rows": [
+    {
+      "method": "anchor",
+      "wall_s": 0.05000746250152588,
+      "cpu_s": 0.05000641299999842
+    },
+    {
+      "method": "cmi",
+      "wall_s": 0.05969735234975815,
+      "cpu_s": 0.05969719799999851
+    },
+    {
+      "method": "affine",
+      "wall_s": 0.012220613658428192,
+      "cpu_s": 0.012212982999997735
+    },
+    {
+      "method": "gp",
+      "wall_s": 0.024920012801885605,
+      "cpu_s": 0.024919991999997393
+    },
+    {
+      "method": "residual",
+      "wall_s": 0.16283832862973213,
+      "cpu_s": 0.16283786700000036
+    },
+    {
+      "method": "binary",
+      "wall_s": 0.17921433225274086,
+      "cpu_s": 0.17920120800000205
+    },
+    {
+      "method": "full",
+      "wall_s": 0.3479701243340969,
+      "cpu_s": 0.347955025000001
+    },
+    {
+      "method": "mlp_adapt",
+      "wall_s": 0.015542097389698029,
+      "cpu_s": 0.01554206500000177
+    },
+    {
+      "method": "cnp",
+      "wall_s": 0.030061542987823486,
+      "cpu_s": 0.030061565000000456
+    }
+  ],
+  "blocks": 20,
+  "warmups": 3,
+  "inner_repetitions": 1,
+  "reason": "Each block covers the whole frozen population; individual calls use high-resolution clocks; C++ getter uses a separate long loop",
+  "batch_sizes": [
+    32,
+    1,
+    8
+  ],
+  "seed": 20261115
+}

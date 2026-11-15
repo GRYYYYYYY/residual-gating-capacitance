@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/experiments/runtime_accuracy_20261115/summarize.py", line 127, in <module>
+    if __name__=='__main__':main()
+  File "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/experiments/runtime_accuracy_20261115/summarize.py", line 68, in main
+    fr.append(dict(case=case,method=m,**data,extraction_ratio=data['mean_extraction_s']/base['extraction_s'],process_wall_ratio=data['mean_wall_s']/base['wall_s'],sd_extraction_s=float(np.std([float(r['extraction_s']) for r in sub],ddof=1)),rule_bytes=int(sub[0]['rule_bytes']),worst_slack=float(sub[0]['worst_slack']),tns=float(sub[0]['tns']),slack_delta_vs_original=float(sub[0]['worst_slack'])-float(original[0]['worst_slack']),tns_delta_vs_original=float(sub[0]['tns'])-float(original[0]['tns']),capacitance_metrics=json.dumps(comp,sort_keys=True)))
+ValueError: could not convert string to float: ''

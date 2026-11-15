@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/experiments/runtime_accuracy_20261115/solver.py", line 58, in <module>
+    if __name__=='__main__':main()
+  File "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/experiments/runtime_accuracy_20261115/solver.py", line 43, in main
+    r=read(OLD/'reference_results'/q['query_id']/lev/'receipt.json');cold.append(dict(query_id=q['query_id'],level=lev,**r))
+TypeError: dict() got multiple values for keyword argument 'query_id'

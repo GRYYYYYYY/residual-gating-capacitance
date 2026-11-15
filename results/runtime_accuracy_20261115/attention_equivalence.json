@@ -1,0 +1,62 @@
+{
+  "rows": [
+    {
+      "table_id": "asap7-M4-OVER",
+      "queries": 12,
+      "support_count": 153,
+      "adapt_steps": 50,
+      "source_scaled_error": 0.0,
+      "passed": true,
+      "material_boundary_geometry_projection_verified": true
+    },
+    {
+      "table_id": "asap7-M4-OVERUNDER",
+      "queries": 12,
+      "support_count": 153,
+      "adapt_steps": 50,
+      "source_scaled_error": 0.0,
+      "passed": true,
+      "material_boundary_geometry_projection_verified": true
+    },
+    {
+      "table_id": "asap7-M4-UNDER",
+      "queries": 11,
+      "support_count": 153,
+      "adapt_steps": 50,
+      "source_scaled_error": 0.0,
+      "passed": true,
+      "material_boundary_geometry_projection_verified": true
+    },
+    {
+      "table_id": "asap7-M5-OVER",
+      "queries": 12,
+      "support_count": 153,
+      "adapt_steps": 50,
+      "source_scaled_error": 3.5392793364968244e-07,
+      "passed": true,
+      "material_boundary_geometry_projection_verified": true
+    },
+    {
+      "table_id": "asap7-M5-OVERUNDER",
+      "queries": 12,
+      "support_count": 153,
+      "adapt_steps": 50,
+      "source_scaled_error": 0.0,
+      "passed": true,
+      "material_boundary_geometry_projection_verified": true
+    },
+    {
+      "table_id": "asap7-M5-UNDER",
+      "queries": 12,
+      "support_count": 153,
+      "adapt_steps": 50,
+      "source_scaled_error": 0.0,
+      "passed": true,
+      "material_boundary_geometry_projection_verified": true
+    }
+  ],
+  "passed": true,
+  "scope": "existing component-supervised AttentionCap adapter and source-selected 50-step adaptation; explicit outer-ground token, same material stack, frozen template rectangles; not a reproduction of original full-matrix supervision",
+  "wall_s": 27.133477170020342,
+  "cpu_s": 27.132484311000002
+}

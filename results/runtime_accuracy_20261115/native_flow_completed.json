@@ -1,0 +1,9 @@
+{
+  "runs": 96,
+  "total_cpu_s": 799.7770860000002,
+  "total_wall_s": 820.3735830634832,
+  "trace_enabled": false,
+  "rule_parse_scope": "rule_registration is measured separately; deferred parse remains inside extract_parasitics, not falsely called isolated rule-load time",
+  "memory_scope": "resident RSS before/after rule registration and extraction; peak process RSS; no attribution of all extraction allocation to rule tables",
+  "input_scope": "8 fixed ODBs, original/CMI/Binary/Full B8 seed11 rules, 3 passes, same release OpenROAD/corner"
+}

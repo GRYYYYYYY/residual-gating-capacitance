@@ -1,0 +1,4121 @@
+{
+  "files": [
+    {
+      "path": "results/runtime_accuracy_20261115/CHECKS.json",
+      "bytes": 373,
+      "sha256": "49c699939103f8796df7d4609a9fd6413e4bb9d4053f366f82274ddbc88f20cb",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/COMPLETION_LEVELS.json",
+      "bytes": 709,
+      "sha256": "244f2f83f0b56342be114baa2b4c4da7c94b964580bf0f45207cb812273a87cf",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/OUTPUT_EQUIVALENCE.json",
+      "bytes": 255089,
+      "sha256": "d6e867fca6ec20d98382131fcbb172dd3c29dfab85f34ef52f922c4de88f5d99",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/PAPER_VALUES.json",
+      "bytes": 6570,
+      "sha256": "e5916cf79eedb54a2648d030351645962000c408e6276b72972a12f976183fb1",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/PROTOCOL.json",
+      "bytes": 1287,
+      "sha256": "323ca5f82d0330695eb6c04729c2ffb61167fd992abd0d4ad42eb2616f6e7c41",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/RESOURCE_LEDGER.json",
+      "bytes": 872,
+      "sha256": "f2c435eba4f671bf05e41492d3114fe92acf96134194aa850f809d2af01777d3",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/SUMMARY.json",
+      "bytes": 706,
+      "sha256": "d19cd2f2aaca09f0c1e891eaa2dddb53bfc037e585c33b582724c211edeac328",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/WORKLOADS.json",
+      "bytes": 340850,
+      "sha256": "7b97f6ef5f8d58c2daded8dd0c0ff431945e47eb41b75eca34158de3a125c260",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/accuracy_runtime.csv",
+      "bytes": 33538,
+      "sha256": "4fbf811b3cc0b70163ac66460ea1f69dd1cdd00f92e874d76bb77298b9409b49",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/analysis.log",
+      "bytes": 28038,
+      "sha256": "73c9e494303d7884274c774b55e2a0f3f72f2ab28bb9527b65cb177796127ab3",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/analysis_initial_sta_parse.log",
+      "bytes": 1077,
+      "sha256": "1f5e46f0e6d98a29f77155b7e138cfbd5292ce6561e0ca83a66cc37c2808832d",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/analysis_resources.txt",
+      "bytes": 782,
+      "sha256": "1d987882334506c6084fd48516bbc0bd4b33331851ce57b010e0620c67c347c9",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/attention.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/attention_air_check.log",
+      "bytes": 578,
+      "sha256": "77843e107cb4c7804a145b1fbd68fbaf28ef8f05ae2ab7de4743f186e641acc3",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/attention_equivalence.json",
+      "bytes": 1803,
+      "sha256": "45df683438a7a8ac37590eaa74df3b0a5c6884252e9058370d6d84dbb2fd7335",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/attention_initial_check.log",
+      "bytes": 1298,
+      "sha256": "d26387918e23cedbbfcfdff74d5967689153f9bd1e919c263ae9a7ba4a77f664",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cached_query.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cached_query_equivalence.json",
+      "bytes": 23722,
+      "sha256": "726e76e5bf78ba820c7ea9dec0aabe009223534bc71327bd0f4d1ffa7fe5e4de",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cached_union_initial_fem.csv",
+      "bytes": 1017779,
+      "sha256": "c14c9cb9793ea5da265080bc59a9ba3d9052f5904657723ee82472dd4e9fc9b2",
+      "local_only": false,
+      "compressed_duplicate": true
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cached_union_initial_fem.csv.gz",
+      "bytes": 188419,
+      "sha256": "424f2b84f9a4ed5008de2ebbff5f31b3037bf3d5cb9a358f80959d6e9f0961dd",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cached_union_initial_native.csv",
+      "bytes": 3550412,
+      "sha256": "91062cc1fbf12628adde05e357afab7e35947497ec74554a83369e5ae2bd1198",
+      "local_only": false,
+      "compressed_duplicate": true
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cached_union_initial_native.csv.gz",
+      "bytes": 667454,
+      "sha256": "a74cd0e3af3cabe7b1b7021430bda26fb0093d7f4bc166004ac2f103748737b4",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cnp_combined_initial_fem.csv",
+      "bytes": 455473,
+      "sha256": "65f2a49f01161223eaa7f163be0b186084c1b1d49060d49c9e17ab49ced6b3e4",
+      "local_only": false,
+      "compressed_duplicate": true
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cnp_combined_initial_fem.csv.gz",
+      "bytes": 76657,
+      "sha256": "e029f65ab0f6a7d01ce18c252d2d02384bc9a9abdd3a049155ab0b17fcc7bbea",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cnp_combined_initial_native.csv",
+      "bytes": 3232368,
+      "sha256": "f78b683bda96f133d2081ee4d8276ee5bc506b397007332fdf35d54a4bfe2ef1",
+      "local_only": false,
+      "compressed_duplicate": true
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cnp_combined_initial_native.csv.gz",
+      "bytes": 545933,
+      "sha256": "b54198441aa41659dfa570e6c17a0735b8ee71d585a42265231e99c8d8ad1bc5",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cnp_staged_equivalence.json",
+      "bytes": 501,
+      "sha256": "e8101c15b9f39571bf3107921629c7b2425c0302d0c6c6ddff1c2bbaab817316",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cnp_stages.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cold_load.json",
+      "bytes": 17045,
+      "sha256": "8e9492fd8a65872aa9fbedd5677b63e1b562c546fdce149a601055b0dd5765f5",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cold_load.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cold_worker_fem_attentioncap.json",
+      "bytes": 362,
+      "sha256": "8ba9e85d07b722f84ce534476a23c38d4cf057fb6c57612ad14559d3b5c32dc6",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cold_worker_fem_binary.json",
+      "bytes": 405,
+      "sha256": "b08a42bd2dd71131904266d38c8cef760f76532af48ea21c0966fb6e11ddb43d",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cold_worker_fem_cnp.json",
+      "bytes": 358,
+      "sha256": "b32cde16b75cf924a46941b21f367b0a5ee3f82bad816afc2b634cf0a488db19",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cold_worker_fem_full.json",
+      "bytes": 354,
+      "sha256": "642749561e3c3bbe2eab98d4722213326937f4b9024850c806c581248ad3b133",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cold_worker_fem_mlp.json",
+      "bytes": 345,
+      "sha256": "558698f169a1ffbe55b9443245eeb546fd89e1eeeed07f3f63f12b4e626b65ff",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cold_worker_fem_numerical.json",
+      "bytes": 362,
+      "sha256": "551fd6f6c7ece534cb54c05f322c43d3bd70f8cc416b7dfbcc17646e43430cca",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cold_worker_native_binary.json",
+      "bytes": 414,
+      "sha256": "6e1b8d1cab7654f047d275ea3b8e90e15247acf6beb93bc14cc8936f3642b9c6",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cold_worker_native_cnp.json",
+      "bytes": 366,
+      "sha256": "5d9a1b60dff12e6495acc72c9f17de475d0db3900cfdc8e2e04a44775070606a",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cold_worker_native_full.json",
+      "bytes": 352,
+      "sha256": "c358de06a20b7d58a83f70191b4c1292dc7535aaebcfc8c6be91276d36f2eb78",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cold_worker_native_mlp.json",
+      "bytes": 358,
+      "sha256": "534c24e336c62ff3981acd7a479fa676c10d31c6068ce7340bcb0c5fbce7b59b",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/cold_worker_native_numerical.json",
+      "bytes": 367,
+      "sha256": "ff94f11c50f50a9f1b4ce075ff1a206e811cfc60ef1832be60550a8bcb5b9275",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/completed_fem.json",
+      "bytes": 3294,
+      "sha256": "82d5b67695fbe5717eb271f432601e082a9ccdca920e2e7ea1c22aa1ec386993",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/completed_native.json",
+      "bytes": 11376,
+      "sha256": "77e6a23d5b35c37572865494401a0c119976112fe9435773c868f41ddf60c84a",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/component_accuracy.csv",
+      "bytes": 192098,
+      "sha256": "7a5d2bf52d30b89ac682a6ecfd98101a7b932d933bd9a7fc4fd61233a5e33d54",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/deployment_cost.json",
+      "bytes": 2030,
+      "sha256": "a9c573a604690c119fbec6fcd29fdc9b83854af744b02fd7f20c92bb88e35fcb",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/environment.json",
+      "bytes": 5749,
+      "sha256": "16b0d84bf2a658af62d060834e0fed36fe4f48521a69875000ccf9dc12dc35a2",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/equivalence_fem.json",
+      "bytes": 6603,
+      "sha256": "673ac4c6610fec87399296b0e9b17fe3d86d80b7d1ed5367f60f20913c73bea6",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/equivalence_native.json",
+      "bytes": 50381,
+      "sha256": "9b3906ec149964254aebc33809f130d5a34e7cc08d370fc38b66bb3bab2064ef",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/extended_build.log",
+      "bytes": 16998,
+      "sha256": "6910a0cbf341ccbe1319c5f2f99e917c18d9d14052c9b769509239b8db699684",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/fem.log",
+      "bytes": 1258,
+      "sha256": "013d8d4b75b3214b8da862552814038654bf72db6f580206a9184a60a583711f",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/finalization_resources.txt",
+      "bytes": 1155,
+      "sha256": "a531f469c8e22d75d027f7d4c7304e54a97d24f928c5a997a69f3b189202be30",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/kernel.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/main_build.log",
+      "bytes": 15510,
+      "sha256": "ddfa9755f08f7ee8453b62aa98551186b539a822161d6ae80dbefd7c6895d1f0",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/binary/0/comparison.json",
+      "bytes": 652,
+      "sha256": "c1df3eaa2dac020fbb05b1207175e8639d589e07f22544e710f128da49091203",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/binary/0/extracted.spef",
+      "bytes": 19303379,
+      "sha256": "031dadb27467151abd3a43bbd3a830568e6fea6502895e8e98dc8ac2b687ca87",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/binary/0/native.log",
+      "bytes": 4087,
+      "sha256": "7770378dd5e2661e7ba5e4412fec61b840c2ee2ec248b7311e591fd5d990e41b",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/binary/0/receipt.json",
+      "bytes": 1790,
+      "sha256": "0e7fa0fac88069dd94f243d9dd1af7701016cf92b8c3fec6acec3204ef3bdb5c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/binary/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "61650891c9427b0b099469ddd01ea9774891e5aa970d26f8cb75b2a3ee12c566",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/binary/1/comparison.json",
+      "bytes": 652,
+      "sha256": "c1df3eaa2dac020fbb05b1207175e8639d589e07f22544e710f128da49091203",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/binary/1/extracted.spef",
+      "bytes": 19303379,
+      "sha256": "e9a2d2c0d75919ebf2ba7f57ba104442ac5dcda743bba9e4206c57cd099640f8",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/binary/1/native.log",
+      "bytes": 4087,
+      "sha256": "7737256fa1c856636176c6adba77afbe745a91635d6fe6997d7004afe4b3a571",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/binary/1/receipt.json",
+      "bytes": 1790,
+      "sha256": "d5bab8994bc549d310ccbb1e6b0ca1a35d18b6449bb1100733ca37e14130677a",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/binary/1/resource.txt",
+      "bytes": 1015,
+      "sha256": "d1c47a9f0348107ced857e64a5003d958ed544a28457d4478b3a7c924a64eaa6",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/binary/2/comparison.json",
+      "bytes": 652,
+      "sha256": "c1df3eaa2dac020fbb05b1207175e8639d589e07f22544e710f128da49091203",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/binary/2/extracted.spef",
+      "bytes": 19303379,
+      "sha256": "e06bf9ac2446399584820d453e38e5a972d9b879d7aa28157888ea463084c9a5",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/binary/2/native.log",
+      "bytes": 4087,
+      "sha256": "d713f01c2c6c1c3ac32e07b665cfa90d7ca2d8a951c1670ab71e1253850ee489",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/binary/2/receipt.json",
+      "bytes": 1790,
+      "sha256": "26b261b7bfb376386bac4a96f07b044f3d16f16cf77e7661da22d39203fffd49",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/binary/2/resource.txt",
+      "bytes": 1015,
+      "sha256": "3e56fd6e8b6dacef925ad9cd45944faa23c53d88ba60081de39ccfefac5e52c9",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/cmi/0/comparison.json",
+      "bytes": 651,
+      "sha256": "f77399ffde48fb84668939bb7c9a2c49da3dde91b18b900adbaae2a9e1451e89",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/cmi/0/extracted.spef",
+      "bytes": 19303624,
+      "sha256": "fccf4801a7753efc2c5de6d4252ab91ab70056401be581092173cdacbf10474e",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/cmi/0/native.log",
+      "bytes": 4084,
+      "sha256": "50ef406259f0be5809f6a72734f733f4bba7564d3c41b74a26812fdbd8599e20",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/cmi/0/receipt.json",
+      "bytes": 1774,
+      "sha256": "385b1436bd7ecfdcf44abdac7526d55bdb81603e8deeb8c8e87be8ed9aee535b",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/cmi/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "39824c638d5d01eca1dbaad05f231544c597ca95cb80b0846eef1ccebf4010d3",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/cmi/1/comparison.json",
+      "bytes": 651,
+      "sha256": "f77399ffde48fb84668939bb7c9a2c49da3dde91b18b900adbaae2a9e1451e89",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/cmi/1/extracted.spef",
+      "bytes": 19303624,
+      "sha256": "61522c92e40d3b742633ca2c60ffa5f74d0f2fbb649b0639ad6d419489d68c51",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/cmi/1/native.log",
+      "bytes": 4083,
+      "sha256": "43a0e8d4d3a2cae8751e554b9f7ea20e6eebadcc1adaaf53fd874e35b0c512ac",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/cmi/1/receipt.json",
+      "bytes": 1783,
+      "sha256": "9ce50af974377a506c0a5aaf6712faf8cf8699e5e4aea0d4167d0e4c64075823",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/cmi/1/resource.txt",
+      "bytes": 1014,
+      "sha256": "9d6a6bdfca36257d377906228e5af55a8ed72d35986e1d015fc011f5cc36265a",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/cmi/2/comparison.json",
+      "bytes": 651,
+      "sha256": "f77399ffde48fb84668939bb7c9a2c49da3dde91b18b900adbaae2a9e1451e89",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/cmi/2/extracted.spef",
+      "bytes": 19303624,
+      "sha256": "0138357ae09806a8a0e6924bcf6b1ff3e49de494d108a104ced22aa4f539c5db",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/cmi/2/native.log",
+      "bytes": 4082,
+      "sha256": "11d0de82830e3158940803e473abfa60fd25849e9d36a92f5582c5e0bf413802",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/cmi/2/receipt.json",
+      "bytes": 1782,
+      "sha256": "3832092715554b07d2fdeb5a590a3e90ad105d008b783ff60b839ddbcb6af3fd",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/cmi/2/resource.txt",
+      "bytes": 1015,
+      "sha256": "871f62bb29ece077f55925bd48b0a8bfe38717e86a7d1cb040d752c49af2960f",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/full/0/comparison.json",
+      "bytes": 651,
+      "sha256": "856a1d71a728dfd2585f4e54b851418043214a4a1807f6275d4619c81e44d4e5",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/full/0/extracted.spef",
+      "bytes": 19303407,
+      "sha256": "6733d9c823440ea501d76cbfdd2d2ccb5cabce77935b35648e476b0144aac887",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/full/0/native.log",
+      "bytes": 4087,
+      "sha256": "ecd7bb9e89708070ec74f059a229790d863f6c69ade3cb0e98ed6561875fe5ca",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/full/0/receipt.json",
+      "bytes": 1788,
+      "sha256": "4283d081d6527fd148548bb26acfba46a8a3c4e5050bccac64cc27cd710fd0e8",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/full/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "f5fccb62666e1f8152395a749999abd4ba2da48ae123943bc877cbb4eb8f9038",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/full/1/comparison.json",
+      "bytes": 651,
+      "sha256": "856a1d71a728dfd2585f4e54b851418043214a4a1807f6275d4619c81e44d4e5",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/full/1/extracted.spef",
+      "bytes": 19303407,
+      "sha256": "1f96eb7bd0d9bd4554824e502abb5c30409b787a76c1d49fd64082dacfed8bd4",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/full/1/native.log",
+      "bytes": 4083,
+      "sha256": "a6afa012c886784d94a6a333e76b21c7fefa4f3b8968e84e12040fcb5e239745",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/full/1/receipt.json",
+      "bytes": 1785,
+      "sha256": "b547733be6ff64f43b6bce2e536a612981102813a811bb0cf5d40f5f22041633",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/full/1/resource.txt",
+      "bytes": 1015,
+      "sha256": "2d32de01f9c4bff0aeb427abce09814817ca1247b885933ccb53043018a742ed",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/full/2/comparison.json",
+      "bytes": 651,
+      "sha256": "856a1d71a728dfd2585f4e54b851418043214a4a1807f6275d4619c81e44d4e5",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/full/2/extracted.spef",
+      "bytes": 19303407,
+      "sha256": "eba39ecf61aba369b5e6a9242d0c1c23c2575673a7c871053e084f822627471e",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/full/2/native.log",
+      "bytes": 4081,
+      "sha256": "5bee41c8ba496a52d7e5602e586635990c21c8d06a5d415765d0dd1a67ff93e3",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/full/2/receipt.json",
+      "bytes": 1783,
+      "sha256": "33722d7e4861a853ce02c289aaf452b8ebe84fbec98b5c4e374907e70dde2ceb",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/full/2/resource.txt",
+      "bytes": 1015,
+      "sha256": "d2d9a01872e48fd17d059ee62135777179aafefb1937ca463ac4a87d23a0f02a",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/original/0/comparison.json",
+      "bytes": 550,
+      "sha256": "6ba55dc3e33fe5a7f3ca00d126df74e83f3d05c0e90b1a22c18302ca5de81cad",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/original/0/extracted.spef",
+      "bytes": 19286587,
+      "sha256": "c35c3de1370098ba5e2f7e045fe34f03fa76e385326f13f7a91a798adaac6a25",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/original/0/native.log",
+      "bytes": 3992,
+      "sha256": "afb5b60b99782544950b06ec87059ded859d0b4ddd463bbfd0298775ff4dadd0",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/original/0/receipt.json",
+      "bytes": 1688,
+      "sha256": "88f99319d094a9d7d623cb141fc9ceeb6c2c4dfe459c3c8d8ff62f5cc94be50b",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/original/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "900e86dcfcf503173b4161418724ccc7230b80a651949bcb48b1d67f42cea1e3",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/original/1/comparison.json",
+      "bytes": 550,
+      "sha256": "6ba55dc3e33fe5a7f3ca00d126df74e83f3d05c0e90b1a22c18302ca5de81cad",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/original/1/extracted.spef",
+      "bytes": 19286587,
+      "sha256": "2c5092274c6a285980589d59c9d4bc1d1992355eae0bf2ff83165533a2c13f86",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/original/1/native.log",
+      "bytes": 3992,
+      "sha256": "a2f0c07e7862a0372de46def14d1ce62def22714300cc9f75f78ad0c2a0cddec",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/original/1/receipt.json",
+      "bytes": 1688,
+      "sha256": "19ab34104f9d4024d9d40cebeb271a2e22c3978d0583cdaef9ef4a445faf0d68",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/original/1/resource.txt",
+      "bytes": 1015,
+      "sha256": "27dd0fe370fa442ec7f762a01b867365a26f8057d8972b9c7254a8fa9ba54766",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/original/2/comparison.json",
+      "bytes": 550,
+      "sha256": "6ba55dc3e33fe5a7f3ca00d126df74e83f3d05c0e90b1a22c18302ca5de81cad",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/original/2/extracted.spef",
+      "bytes": 19286587,
+      "sha256": "76918505a3d09f7675fccd4855a2a4632042881a1314759a18f6ad35219a0d85",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/original/2/native.log",
+      "bytes": 3992,
+      "sha256": "efeeeb7e844a4603bc5d4f9efc5930779ef0b5d2ca75c67122fb9a35a7b14c73",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/original/2/receipt.json",
+      "bytes": 1688,
+      "sha256": "c417a1d6ecc362eb5db2a482987273684bf9c81d522a4fbaf6d726dedbe5751d",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/aes/original/2/resource.txt",
+      "bytes": 1015,
+      "sha256": "926e2971960a5212581f926bc9777ce4f6e956e2dec528b7a6ed912067b5428a",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/binary/0/comparison.json",
+      "bytes": 635,
+      "sha256": "afbef1707a13d16c9da9e45f90895518b25553db5455231c165392d198afb833",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/binary/0/extracted.spef",
+      "bytes": 28859244,
+      "sha256": "2cbb19ac6ab505677db78ed563920335987c26f06aec9cc61cc7559647b86692",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/binary/0/native.log",
+      "bytes": 4179,
+      "sha256": "fc141bc2f84ca1235cb3fa0332098811be0c5d6a1b61cd07b20d0830bdce4152",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/binary/0/receipt.json",
+      "bytes": 1777,
+      "sha256": "d1c07fd6f67f267213828cdb24b07964adc11b48895ccb0dee082a492c309a54",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/binary/0/resource.txt",
+      "bytes": 1017,
+      "sha256": "062d29f490530351cca671f0ce12660ec6ded2d29f259a52ebce3cb5b20193d5",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/binary/1/comparison.json",
+      "bytes": 635,
+      "sha256": "afbef1707a13d16c9da9e45f90895518b25553db5455231c165392d198afb833",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/binary/1/extracted.spef",
+      "bytes": 28859244,
+      "sha256": "e29e2ee8e567f3e5ae26aa5031499ec3d280116432b85bcb6a84ab733cd1cf29",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/binary/1/native.log",
+      "bytes": 4177,
+      "sha256": "243f92e242892f5f461a4304dbb55e6f5781e55b05b2528f5bbdcc9cfed5bd8c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/binary/1/receipt.json",
+      "bytes": 1774,
+      "sha256": "015726b8ea312f8c020d19faa2a2bb31d97f07f5e7252c853b6c17bb20bb1cc1",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/binary/1/resource.txt",
+      "bytes": 1017,
+      "sha256": "b9ab17b4dda2ed82dc8e893765185b032401c8e99d489f7bb6a24a1e0ee17ac9",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/binary/2/comparison.json",
+      "bytes": 635,
+      "sha256": "afbef1707a13d16c9da9e45f90895518b25553db5455231c165392d198afb833",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/binary/2/extracted.spef",
+      "bytes": 28859244,
+      "sha256": "d4f86bf155639ec7cc7e7cd03e266910a7e6c70658a17baedcd921488e02a342",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/binary/2/native.log",
+      "bytes": 4176,
+      "sha256": "362f12808a1cf6fe77395a2569b5306d8d54dc4dcbe64edee0f7d857c819739c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/binary/2/receipt.json",
+      "bytes": 1774,
+      "sha256": "ab9032882ec90e30c4f19a967655fc63be3eb7bebace82201dca5d4b13023bfd",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/binary/2/resource.txt",
+      "bytes": 1016,
+      "sha256": "7b0f5c48f5f83b733677fbc21d5acccb9b1e08e126942f4631621155f102de0c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/cmi/0/comparison.json",
+      "bytes": 637,
+      "sha256": "b4c3639acb31c581a2fa0234e8cc5e1c3f8ab4efe31c7b8ffd629b74b5c74414",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/cmi/0/extracted.spef",
+      "bytes": 28859348,
+      "sha256": "9aa2ef6b095abfe13e431c5dc9a3c02354e50b46db561a2c36b6f3679d0dd7bd",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/cmi/0/native.log",
+      "bytes": 4172,
+      "sha256": "d10693bce81075ce7e9c3d12209ae1af303cab38edc36920d54ee6539f52d285",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/cmi/0/receipt.json",
+      "bytes": 1773,
+      "sha256": "5c4a9e821f777d8dc8d97cc0a53b0787d37cd3b1b0bd0f9dcff0f2b986ab776b",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/cmi/0/resource.txt",
+      "bytes": 1017,
+      "sha256": "fca26a0c3528a47f3e33ddd4c399198d24ace9cce60b394aacd37cda8c177ea7",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/cmi/1/comparison.json",
+      "bytes": 637,
+      "sha256": "b4c3639acb31c581a2fa0234e8cc5e1c3f8ab4efe31c7b8ffd629b74b5c74414",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/cmi/1/extracted.spef",
+      "bytes": 28859348,
+      "sha256": "9573ebec3665103b9e9b1ac65ef8e8285154feb28c8f2bf9334e86c0137a91bf",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/cmi/1/native.log",
+      "bytes": 4173,
+      "sha256": "4b56b1513555804fbe09f2e68224986075605c0bc1987c2c836d153460757b25",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/cmi/1/receipt.json",
+      "bytes": 1772,
+      "sha256": "e35ab3e903d5d0d3b1f7210ee7ec83124987b869bfaf79ec062bef1143e7429f",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/cmi/1/resource.txt",
+      "bytes": 1016,
+      "sha256": "d313bd03d5be091d46ee138ae12a3027cfa11c9e755796a69ce91eb1d9d3a276",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/cmi/2/comparison.json",
+      "bytes": 637,
+      "sha256": "b4c3639acb31c581a2fa0234e8cc5e1c3f8ab4efe31c7b8ffd629b74b5c74414",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/cmi/2/extracted.spef",
+      "bytes": 28859348,
+      "sha256": "2d78882fd82df68d7f5d5fcff49a64322f005588225d2143339b8b3079833fb4",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/cmi/2/native.log",
+      "bytes": 4173,
+      "sha256": "0700b3c388cc151eb6b80faedb84e286028b864940f1dccd66a9ceab74d26322",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/cmi/2/receipt.json",
+      "bytes": 1774,
+      "sha256": "869ad5fddb8efc3377b05fb609b9dba83d5a39cb4c3680ecf2145c0d2306f462",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/cmi/2/resource.txt",
+      "bytes": 1017,
+      "sha256": "baee2eae54d7ff8108172786d05778b163b6d364b413fa0001c49047400c816a",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/full/0/comparison.json",
+      "bytes": 638,
+      "sha256": "bec8c2ba33c30d618201b54820c320a3aeee630b9227456bb68028a0c2688769",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/full/0/extracted.spef",
+      "bytes": 28859218,
+      "sha256": "3aa03a5c27a5f38a2aaf53016adaacd06e76f04c4d9cf3a15bce34261a0f8550",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/full/0/native.log",
+      "bytes": 4175,
+      "sha256": "15f59b9e146ea936724b89eeb06f13887bf32ec1dc301943df5c04c7cbf55a6b",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/full/0/receipt.json",
+      "bytes": 1777,
+      "sha256": "87c8930a41bddb390aa915a7d246619854b0b00470297c9d341cd5f2ee446c2c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/full/0/resource.txt",
+      "bytes": 1017,
+      "sha256": "e5618dc705ecd985e8fb2a3807dc2efba16078971fcfe1399f041f827a05ca25",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/full/1/comparison.json",
+      "bytes": 638,
+      "sha256": "bec8c2ba33c30d618201b54820c320a3aeee630b9227456bb68028a0c2688769",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/full/1/extracted.spef",
+      "bytes": 28859218,
+      "sha256": "4097f0a4dc50a6c086d9a21db353c413a100f49766c57d0279e2c01943f49441",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/full/1/native.log",
+      "bytes": 4174,
+      "sha256": "d6b894a3ef418707f0438a535a3364f8e2e4487f87dc71e77fc3bd58fc8f5da7",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/full/1/receipt.json",
+      "bytes": 1776,
+      "sha256": "3efe8c72995d16db9d0437f2bfbf82cc83a8567f11f363a38c3ba3c5ce24527a",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/full/1/resource.txt",
+      "bytes": 1016,
+      "sha256": "079032fdf61ef4246b7dc0da4b8eda3d4cf2536eb03ceecafa41afa77e3801b7",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/full/2/comparison.json",
+      "bytes": 638,
+      "sha256": "bec8c2ba33c30d618201b54820c320a3aeee630b9227456bb68028a0c2688769",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/full/2/extracted.spef",
+      "bytes": 28859218,
+      "sha256": "7519909b631b0ca5b407c274ac1e07ae8dc0e7ba709b9acc96438f91cde29049",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/full/2/native.log",
+      "bytes": 4175,
+      "sha256": "d3084eadf557858e137222792c222dab4c8f834917fff7555095cf8be06eaf85",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/full/2/receipt.json",
+      "bytes": 1777,
+      "sha256": "1ada81b34ba6d1c0e274f120236a99ede788803228dbbd3b0962e4d43a4836d3",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/full/2/resource.txt",
+      "bytes": 1016,
+      "sha256": "ad8244d4d47267031b4f75b58a85a7b44dc629807e9d8961b1c5858b779d280f",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/original/0/comparison.json",
+      "bytes": 535,
+      "sha256": "760e357bae76d950a117218166432f9d381d42f8544065c36f0d07661d951167",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/original/0/extracted.spef",
+      "bytes": 28836010,
+      "sha256": "5b7205b01a93161ee7bfc8711e2490eda6ff56435f5b00a8858cb84609ec3790",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/original/0/native.log",
+      "bytes": 4082,
+      "sha256": "7e6424d6dcd4081e1525ae970ae0e025573b27da79a113ec504296df3abd3295",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/original/0/receipt.json",
+      "bytes": 1678,
+      "sha256": "51d172e789628731a834c74acd0887f3930c64cfd3e02e8efc6b42d9c5ba933a",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/original/0/resource.txt",
+      "bytes": 1017,
+      "sha256": "dd43318da4fd14bd7ff0c32591e38e6dc0be6d39e67a6313bb1e88aa1fb81669",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/original/1/comparison.json",
+      "bytes": 535,
+      "sha256": "760e357bae76d950a117218166432f9d381d42f8544065c36f0d07661d951167",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/original/1/extracted.spef",
+      "bytes": 28836010,
+      "sha256": "1f75442b1c32113dae60167ff87cfd50c436e3c8849769714d09b1fc4ce395a4",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/original/1/native.log",
+      "bytes": 4082,
+      "sha256": "9e8814e361f6fed9b167e1e44b9e829fc49637727e2a97990908af9f5930b553",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/original/1/receipt.json",
+      "bytes": 1678,
+      "sha256": "82422f6a3da3787559c69df2755906772bb7b664a1f25406d897c7869201c3a9",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/original/1/resource.txt",
+      "bytes": 1017,
+      "sha256": "236d5f57d034284d42bd9b04481344b3fa16096843f059b17c38ae6abe38317a",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/original/2/comparison.json",
+      "bytes": 535,
+      "sha256": "760e357bae76d950a117218166432f9d381d42f8544065c36f0d07661d951167",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/original/2/extracted.spef",
+      "bytes": 28836010,
+      "sha256": "94d476e65f15c13a34599e75aefb8769c82762d01178f1251a83bab541659100",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/original/2/native.log",
+      "bytes": 4080,
+      "sha256": "0e63e815e038883c1189e4fdf483288a540b4b1fd807b5cfca1c69333e8fc503",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/original/2/receipt.json",
+      "bytes": 1676,
+      "sha256": "bdb7b3a0e5e2cbebfc2f079c57981a9a8b3afbc3f649f2b65a0b5ef1830b2c93",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/asap7/ibex/original/2/resource.txt",
+      "bytes": 1017,
+      "sha256": "efc55d41eeae87fab564ad4f80c011a3c2d4209b846a945b57380b5c185a7242",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/binary/0/comparison.json",
+      "bytes": 654,
+      "sha256": "efd29cfe20c9397885e57a863d2fd79e529e6b2d94e1c4796f9cc00b0bc85e6f",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/binary/0/extracted.spef",
+      "bytes": 21180911,
+      "sha256": "11ce4099660a98c515f94c0ea47d54ba52c7240569dbd41bb9beeff65c870d6b",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/binary/0/native.log",
+      "bytes": 1861,
+      "sha256": "42957f4929c9e850e1b17e2c8ec361b64ee4f2b7cba80b7fcd3fc6bedc6283dc",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/binary/0/receipt.json",
+      "bytes": 1792,
+      "sha256": "46b9dcd40cfe7a2676bc5d377b579189306e5886d84d1f22352e7093a621477b",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/binary/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "202dfc4424cc12a466d797acaec415761a12f1937c2985f27b8521a7208fc4e5",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/binary/1/comparison.json",
+      "bytes": 654,
+      "sha256": "efd29cfe20c9397885e57a863d2fd79e529e6b2d94e1c4796f9cc00b0bc85e6f",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/binary/1/extracted.spef",
+      "bytes": 21180911,
+      "sha256": "8dbc651594ddad5c55d00c27d2ee50a59718d240a3a78859629337c4fa5e3078",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/binary/1/native.log",
+      "bytes": 1863,
+      "sha256": "a5f5a91ec9f47f96f4949f4560f6565fa7747f14188a85b07f99fd7e24631bc6",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/binary/1/receipt.json",
+      "bytes": 1793,
+      "sha256": "cd0d9b8364f0e3b615bea5193dc18cd9f98a66cc2dc699c23e789077716f40ae",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/binary/1/resource.txt",
+      "bytes": 1015,
+      "sha256": "a1365d20c5e9c2d8c8d22e2815a12577814cf529bb4ac833a941819eb177be03",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/binary/2/comparison.json",
+      "bytes": 654,
+      "sha256": "efd29cfe20c9397885e57a863d2fd79e529e6b2d94e1c4796f9cc00b0bc85e6f",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/binary/2/extracted.spef",
+      "bytes": 21180911,
+      "sha256": "0125e9cba1c9a64bb5dd19f70e15facffc7c849f1f00941b869452139f9f4162",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/binary/2/native.log",
+      "bytes": 1861,
+      "sha256": "58155a919a62d0918895e7896bc69ed6f64a071aa2a29af8bc0fae19b3318159",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/binary/2/receipt.json",
+      "bytes": 1792,
+      "sha256": "61101ea1e8ed0d8fecea3859e9c5fc5c6a71c01f0bf263ec7ee31fcef0e71dd3",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/binary/2/resource.txt",
+      "bytes": 1015,
+      "sha256": "9b569c483f7dff64726500110d10d5b2c55f288c10a2d7740ff64218d8540f96",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/cmi/0/comparison.json",
+      "bytes": 651,
+      "sha256": "4be71cb360581e282c84a6de98743b836779f481f7fd63a22ff9d2fdb3741d4d",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/cmi/0/extracted.spef",
+      "bytes": 21600114,
+      "sha256": "c028d3cd17068da45737cd193e9e07ec3d6a4fb4d6bf1d8edef3265576637b8d",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/cmi/0/native.log",
+      "bytes": 1858,
+      "sha256": "8a8310166a92b840bdf1d044ccde27d99452272e938608859bfc6a5cfc1d84ed",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/cmi/0/receipt.json",
+      "bytes": 1785,
+      "sha256": "f0866764a41620a8ca0f7d5e29c2ce8ee7992c0f216379af0be970bb6c503d49",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/cmi/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "bcd82950d5efbf2052b60c41d79f38f6a53413726b83ee987cea4fc6fce78d7e",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/cmi/1/comparison.json",
+      "bytes": 651,
+      "sha256": "4be71cb360581e282c84a6de98743b836779f481f7fd63a22ff9d2fdb3741d4d",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/cmi/1/extracted.spef",
+      "bytes": 21600114,
+      "sha256": "1d50e71d6722a93a821d906cb7fcd50a619d210d896996d64996e5d5a2fcc7f6",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/cmi/1/native.log",
+      "bytes": 1859,
+      "sha256": "12816bf7f7e347e0ce7714a5dd54c710dacde4b0f07e3d699b6f3d259f81f666",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/cmi/1/receipt.json",
+      "bytes": 1787,
+      "sha256": "05fa0560af822fda9ed0b3f6995250f558f1a05369af35658b8516fb8d3f0075",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/cmi/1/resource.txt",
+      "bytes": 1014,
+      "sha256": "77d14282133aa7c8bafd41664673d9772f3bce0c6a15e8bb508c40c66ee27fc3",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/cmi/2/comparison.json",
+      "bytes": 651,
+      "sha256": "4be71cb360581e282c84a6de98743b836779f481f7fd63a22ff9d2fdb3741d4d",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/cmi/2/extracted.spef",
+      "bytes": 21600114,
+      "sha256": "74eca0d7ce46cb1e261926ae26fbf5e5c5ce467bf7045a3bee8898eda08fde40",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/cmi/2/native.log",
+      "bytes": 1859,
+      "sha256": "6f25b7c82262f1d6efd4033ac94303fc031cc27a47fceb8076148b1ca14c04d7",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/cmi/2/receipt.json",
+      "bytes": 1787,
+      "sha256": "1b276d8a85b6d891f7ecca594f36825d7742b8cf97d2832ce8706bb71ca4fa52",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/cmi/2/resource.txt",
+      "bytes": 1014,
+      "sha256": "ec523a545b35f314ff04b8ba0cb750e07b06d3cc7e8af883f6ad4eb0512593f7",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/full/0/comparison.json",
+      "bytes": 651,
+      "sha256": "251ebd23fbf36b2f5d1d033ea4d8b764533c52f4863b409e858b227c093f31a2",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/full/0/extracted.spef",
+      "bytes": 21088147,
+      "sha256": "af9733da3969233da32e11d27ef5a6236811e19783d62813a81c90bf75d7dcea",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/full/0/native.log",
+      "bytes": 1862,
+      "sha256": "9c2192bf145a7a8ff8b1ee47517d91068b8dddd9e988bff6ee1863c80b91cacf",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/full/0/receipt.json",
+      "bytes": 1794,
+      "sha256": "348957a71c2f706d651950656e50d7aae98b47e20b0d5b04b7a0f5458730c5fd",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/full/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "94c4ec9b0d8b8ce8f99b6254393b5c7e152639c108ef57f28c0c09ebe653da74",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/full/1/comparison.json",
+      "bytes": 651,
+      "sha256": "251ebd23fbf36b2f5d1d033ea4d8b764533c52f4863b409e858b227c093f31a2",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/full/1/extracted.spef",
+      "bytes": 21088147,
+      "sha256": "ac4a2268c632cff6be21933db8d815675cb44d0bab8b282ae09d59b2d9661784",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/full/1/native.log",
+      "bytes": 1860,
+      "sha256": "d816aec92cf9e88f6fade7ea52690fe15bd7a9d69671f294659e4fbf0077b68a",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/full/1/receipt.json",
+      "bytes": 1794,
+      "sha256": "fad94e0f56bbe4cbd6caffafbf9a200e0841fdbf3cf228ebdf05e4244794d5c5",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/full/1/resource.txt",
+      "bytes": 1015,
+      "sha256": "2769748be794286bd86c1e8f1e7877d992eed2cebcb8ccc97cf18e51aa96118e",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/full/2/comparison.json",
+      "bytes": 651,
+      "sha256": "251ebd23fbf36b2f5d1d033ea4d8b764533c52f4863b409e858b227c093f31a2",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/full/2/extracted.spef",
+      "bytes": 21088147,
+      "sha256": "f6a10e52e8907247ca539618fa231c9795181d59edf9585afb27b88f6f9b184e",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/full/2/native.log",
+      "bytes": 1860,
+      "sha256": "afdeccbf981d1f2c19b82e756bfdd4c82a8bfd3caf9259f0b418337527666c11",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/full/2/receipt.json",
+      "bytes": 1784,
+      "sha256": "09b1adb58e43aa07a7e9b8ea72850f61f337eb094e641282f76e7cc1462cbeab",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/full/2/resource.txt",
+      "bytes": 1015,
+      "sha256": "059a5665ca20dfcb670be1a378b9a518ecd212ee6117f29d55b4ea5d30c50738",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/original/0/comparison.json",
+      "bytes": 550,
+      "sha256": "4eb8d2e24d82b5628153a3a83be0681a6b93e386768c6fe7c20de53a11e8ddae",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/original/0/extracted.spef",
+      "bytes": 21088188,
+      "sha256": "3ffb1008a290d97c3b42c0c1ac1df39eeb9e7839b06fcc76a61bf48d42d44b53",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/original/0/native.log",
+      "bytes": 1792,
+      "sha256": "7cddf79453cea4064386e611837496bb3e04d6f2a6085ab47d1c37cd3d713ff1",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/original/0/receipt.json",
+      "bytes": 1703,
+      "sha256": "94818215f4554259db8a8e98e24423e8d736b1dc579f3de03efb78bb1917834f",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/original/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "1f9b1d7c8ac8149255c73ca85f66db3977c84e2319fb6c9597f93a078b0ba4df",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/original/1/comparison.json",
+      "bytes": 550,
+      "sha256": "4eb8d2e24d82b5628153a3a83be0681a6b93e386768c6fe7c20de53a11e8ddae",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/original/1/extracted.spef",
+      "bytes": 21088188,
+      "sha256": "e843fb1171230709addbfc0fd141bbc53e73449e6676154021a4557fb23f165f",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/original/1/native.log",
+      "bytes": 1790,
+      "sha256": "5637854f154e5a1cd656c13c3f27c58fdec37aff00595a2105d783ebd4845a48",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/original/1/receipt.json",
+      "bytes": 1700,
+      "sha256": "7da14f755ae350bd00320f7eb464bc9033ef0d74c9e69ecc06705a433d807b39",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/original/1/resource.txt",
+      "bytes": 1015,
+      "sha256": "d9fa436f349bc6da87a5e69bb9afa99fbcec5ea4e3451d596baa800546031fa0",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/original/2/comparison.json",
+      "bytes": 550,
+      "sha256": "4eb8d2e24d82b5628153a3a83be0681a6b93e386768c6fe7c20de53a11e8ddae",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/original/2/extracted.spef",
+      "bytes": 21088188,
+      "sha256": "dcfe02a799375fa259c2db94d9bb75c3afb3ae58bac81140b6fc22ba6fa6c9b9",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/original/2/native.log",
+      "bytes": 1789,
+      "sha256": "c0babb37f813551e6c31b888129ee62205c1bb5447339f03e299157ef8e47141",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/original/2/receipt.json",
+      "bytes": 1700,
+      "sha256": "89a08ea07c473883f8423eaec98031f1308a05d51ac55b06fb05e3389c653dbb",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/aes/original/2/resource.txt",
+      "bytes": 1014,
+      "sha256": "98fd67c5fe129ce9a86805b824ec608cd9bae2a731d1274ee97309a5ba56834f",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/binary/0/comparison.json",
+      "bytes": 637,
+      "sha256": "d74a713c8865191b1ebac8a3cad5fd6c6c7b52be0fbf183bf37b936e6bfa93be",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/binary/0/extracted.spef",
+      "bytes": 20556144,
+      "sha256": "cee8f6851bbdccebe2ee6b2b5565f8b15e1eea69b093c63e1e600d934cfb1ac6",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/binary/0/native.log",
+      "bytes": 1952,
+      "sha256": "c7bfc066489d01eef6bd6b72d99e7eb94e6f2c26707eab379e7e7287f4c62ad2",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/binary/0/receipt.json",
+      "bytes": 1786,
+      "sha256": "394f1e02f063182530f29a74061eb0626d1c0b4220a7fb6d61cb2a377f2d7856",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/binary/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "825a78497c2b2ecc738d51b87a713f742e8a647fb57e5a9a59634dae8e4f2233",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/binary/1/comparison.json",
+      "bytes": 637,
+      "sha256": "d74a713c8865191b1ebac8a3cad5fd6c6c7b52be0fbf183bf37b936e6bfa93be",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/binary/1/extracted.spef",
+      "bytes": 20556144,
+      "sha256": "a42c3ad595e820daa4aa37ede9c7f85bf1bb64bf0803603b0a62e18f3d60e83c",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/binary/1/native.log",
+      "bytes": 1953,
+      "sha256": "76ed4cd45998ce6ec672de6010d773530c627ee3f1deb2e1607c55db1f2bba0f",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/binary/1/receipt.json",
+      "bytes": 1786,
+      "sha256": "3eb0fdec5673f314139b316421f6db52240e42efc81b1075f08a6fdc5352872d",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/binary/1/resource.txt",
+      "bytes": 1015,
+      "sha256": "f74fde193e1635955cb91926cf2681da36c8dfffd774cb69a3cd94493f86ddb1",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/binary/2/comparison.json",
+      "bytes": 637,
+      "sha256": "d74a713c8865191b1ebac8a3cad5fd6c6c7b52be0fbf183bf37b936e6bfa93be",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/binary/2/extracted.spef",
+      "bytes": 20556144,
+      "sha256": "5b14939bcaa34ad5ffaf94099023be2b9ee5c75e2ca791b22723dcaac8ad7bc7",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/binary/2/native.log",
+      "bytes": 1952,
+      "sha256": "ee68cf77250460970bc66e86808349d832da925bc34f14e7d09ea2288950d6f6",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/binary/2/receipt.json",
+      "bytes": 1785,
+      "sha256": "4ae332b1d44e7b9e3e2a67badbe2ac6d542c4dbad6bb7fc55b25ca07071ea184",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/binary/2/resource.txt",
+      "bytes": 1015,
+      "sha256": "98a9f7e54ccc32d8425592b0911a88e06bbf15b38dbfa43796e6a73bddb01eea",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/cmi/0/comparison.json",
+      "bytes": 638,
+      "sha256": "5d0023900b8ed3f619a39ac00af81474c0f10aee1a582dd431e1f2693982ffd2",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/cmi/0/extracted.spef",
+      "bytes": 21017031,
+      "sha256": "af1ec2034f4b08b0ee78d5559a8288eb7ff5eaf12328cc16078e8f0684948c84",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/cmi/0/native.log",
+      "bytes": 1949,
+      "sha256": "a4398234fbf6bbd2d06314c8f442e023648f211b664c483b7b1374a29bf433ea",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/cmi/0/receipt.json",
+      "bytes": 1772,
+      "sha256": "a27b0cc73407b14e2bb9029e22d76c226251ab46f9741b9604a88ea2b98f576c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/cmi/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "9fe9952eefaf0667fbec9695284a3384a9fc53ad2d76298cb74b4e7784f05bd0",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/cmi/1/comparison.json",
+      "bytes": 638,
+      "sha256": "5d0023900b8ed3f619a39ac00af81474c0f10aee1a582dd431e1f2693982ffd2",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/cmi/1/extracted.spef",
+      "bytes": 21017031,
+      "sha256": "9e9037d7c4ce0b00ba992f084ddef16ab41bd9e1593274102dfaf175e3c941aa",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/cmi/1/native.log",
+      "bytes": 1949,
+      "sha256": "f2eccb4959cbb33396a098fb61bfd82aae093631b40e03ccb822a40dd76d556e",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/cmi/1/receipt.json",
+      "bytes": 1773,
+      "sha256": "513f2af1f9aa8ec244161e12c3726e7f98708537205daa2c669788084816012c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/cmi/1/resource.txt",
+      "bytes": 1014,
+      "sha256": "c191cfd08f6c044d11c69c4bd36a3497d3c3577517e8e39b090c0822a44364dc",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/cmi/2/comparison.json",
+      "bytes": 638,
+      "sha256": "5d0023900b8ed3f619a39ac00af81474c0f10aee1a582dd431e1f2693982ffd2",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/cmi/2/extracted.spef",
+      "bytes": 21017031,
+      "sha256": "bf601c74ade2a5ca58a8bb1d4b26d0c4dbabbc9beb4fbf2488e4f80c51a02c3e",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/cmi/2/native.log",
+      "bytes": 1951,
+      "sha256": "ba27d5c4fb94b97fdd6c35714e35fb38b020f52c39ca2c6743a521e61abf4b10",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/cmi/2/receipt.json",
+      "bytes": 1774,
+      "sha256": "29e6aff8d2c36574622c185ab15a6e437f77d8e557eff7b29bcdf787b303caef",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/cmi/2/resource.txt",
+      "bytes": 1014,
+      "sha256": "53967a0ff7572b34931bdd80cec6761e4e741450ee77c2da4d4e2e12f01b84d2",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/full/0/comparison.json",
+      "bytes": 638,
+      "sha256": "fe814a88587efda92a898e96bffab83796f9d00c0fb43be7fea99d1185e1e988",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/full/0/extracted.spef",
+      "bytes": 20458920,
+      "sha256": "3600f659967f511d95b3deb4e9abe9865ecd5054f6b2d098dde8fc05b346be7e",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/full/0/native.log",
+      "bytes": 1949,
+      "sha256": "9bc1f3bf5ce3bdcff102b1bdb146ed5541d6331f009713adc0e53ca5fa2cd292",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/full/0/receipt.json",
+      "bytes": 1777,
+      "sha256": "a6623788a17c56c9dcef7be7e121fd146d5006aaf3a71bf631e8bcd8ace496f8",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/full/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "24b0764e1a7eb64b7cb0cb9907c03eaacca4d0bbcd5ba311d9c9e0eba0a0fc0c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/full/1/comparison.json",
+      "bytes": 638,
+      "sha256": "fe814a88587efda92a898e96bffab83796f9d00c0fb43be7fea99d1185e1e988",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/full/1/extracted.spef",
+      "bytes": 20458920,
+      "sha256": "3ae406ef841fb22ce3796d54da695479f5d5a404264260a7a00965618d3f72bf",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/full/1/native.log",
+      "bytes": 1950,
+      "sha256": "9856a5d8b114aae8b2f6773d40e643ee190deec32f371324506187cf7acc386f",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/full/1/receipt.json",
+      "bytes": 1778,
+      "sha256": "f2f97fcf2151b939adf7aea7fa2287aa43c25b5151c500b33c1db5562fa4bbe2",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/full/1/resource.txt",
+      "bytes": 1015,
+      "sha256": "f4f50a2e18cf62f04d9ccaaffa75a133a17de799a3fe02c19b6c75fd3f3831cc",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/full/2/comparison.json",
+      "bytes": 638,
+      "sha256": "fe814a88587efda92a898e96bffab83796f9d00c0fb43be7fea99d1185e1e988",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/full/2/extracted.spef",
+      "bytes": 20458920,
+      "sha256": "d47ffab7991c538fe2444e88926fa4d88edb46ae6492fa492746af93e01a89e5",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/full/2/native.log",
+      "bytes": 1950,
+      "sha256": "c9ce9cd3ea4c4211563b30da2792af6af4d76b38b1d198e2f1ff7ccec0a43a1b",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/full/2/receipt.json",
+      "bytes": 1778,
+      "sha256": "b6af769a54dcc4cc01cd40610371ea3c3662da8235d7a768d034d64c45dcdb42",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/full/2/resource.txt",
+      "bytes": 1014,
+      "sha256": "39f595c5d1e43eb3d74ad47cb9bd0624e7b39d506236f0d46331583551686af5",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/original/0/comparison.json",
+      "bytes": 550,
+      "sha256": "704b1ce0997655dbc480eee3ff1ab776293fb1f8fc3eb05af197ac5541abfd3c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/original/0/extracted.spef",
+      "bytes": 20458241,
+      "sha256": "cd5c59ee350cec1cfbbfb90693056488ef756c5d8be5af4acc403b0e552f5ec8",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/original/0/native.log",
+      "bytes": 1883,
+      "sha256": "4dff36e808f79c19a629ddff559c8febc01a66c48ff8e267181ae944d1cf68fe",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/original/0/receipt.json",
+      "bytes": 1698,
+      "sha256": "94c3bc62b121ad739d5f283b0f99a6f5382c9d2367f4d101f4bf70a78b5dd074",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/original/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "f01d0fa932d717a23c0659ac0e65eaff52563e39aee80cd34feed6ea53e121ce",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/original/1/comparison.json",
+      "bytes": 550,
+      "sha256": "704b1ce0997655dbc480eee3ff1ab776293fb1f8fc3eb05af197ac5541abfd3c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/original/1/extracted.spef",
+      "bytes": 20458241,
+      "sha256": "acc475dd74fc77053e90528f48b8d80c78fd4ec2d04e2097ab51d0cbca1cf296",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/original/1/native.log",
+      "bytes": 1880,
+      "sha256": "156241cab101779985a6d617239bc7443ad24c9d2e5292b83cf509159f80cfb2",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/original/1/receipt.json",
+      "bytes": 1696,
+      "sha256": "2500abcc321420e764733a3b66239726185b457f6abc6d00c5b3732045e74f52",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/original/1/resource.txt",
+      "bytes": 1015,
+      "sha256": "87d6bc3bccf57963ab485143ec0c226118b1284050166902e2bde5cf6cee8b3c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/original/2/comparison.json",
+      "bytes": 550,
+      "sha256": "704b1ce0997655dbc480eee3ff1ab776293fb1f8fc3eb05af197ac5541abfd3c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/original/2/extracted.spef",
+      "bytes": 20458241,
+      "sha256": "f25d0d995959c53b8f5c61ca484f42b4b14ba472a9f6079dd2a1745ac610f91c",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/original/2/native.log",
+      "bytes": 1883,
+      "sha256": "613322a286214cb7ac6dc8491c26c1cab62f3a4edf07b79ec2dac327b063393c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/original/2/receipt.json",
+      "bytes": 1698,
+      "sha256": "bffdb58fa51e8f84af0b9da5efa542d73144c0b21bbe4e61e1f5daf51ef222e1",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/gf180/ibex/original/2/resource.txt",
+      "bytes": 1015,
+      "sha256": "9f2c05b2ded8bfbd8d223696fe8ca27061b6960bf9798ce2a1feb41964a42b7e",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/binary/0/comparison.json",
+      "bytes": 638,
+      "sha256": "ccd08df73993b584d5bf4a80961fd415609fc26f483145234cde5d447334d278",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/binary/0/extracted.spef",
+      "bytes": 14976260,
+      "sha256": "dae27c57c8e4d433f2844131f186aac2b2e2d0314d8f037417bd11b28dfa19dd",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/binary/0/native.log",
+      "bytes": 1862,
+      "sha256": "1413a363524bf1271545ed3fb1338d574543c612b813bf63cb0872c2d304635e",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/binary/0/receipt.json",
+      "bytes": 1763,
+      "sha256": "a533796d122eb9a21e583118986c2573ca698270f8fbd25e9ac49a51b99cffec",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/binary/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "c5fa3e51a36444364af41077d2bc6196b89d311c2ae2b30f90efe87d278a4aa2",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/binary/1/comparison.json",
+      "bytes": 638,
+      "sha256": "ccd08df73993b584d5bf4a80961fd415609fc26f483145234cde5d447334d278",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/binary/1/extracted.spef",
+      "bytes": 14976260,
+      "sha256": "d14e426e0b0d97bf6e4d04c8d554ec6d3cb5b4eb08ee6697ba0c7334f71321ee",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/binary/1/native.log",
+      "bytes": 1862,
+      "sha256": "ad196b45dda51c7b6fdd7d1e25471467b0c7e3485376e20fd3864ef56c6853bd",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/binary/1/receipt.json",
+      "bytes": 1763,
+      "sha256": "bd978e7de0849c710a7e5311ef24e940a822221017a4904e828a388e635d8c80",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/binary/1/resource.txt",
+      "bytes": 1014,
+      "sha256": "1d39f9db938ea69cd037b399cf0c73b09cf4334d34975f1b288c76f26d37b747",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/binary/2/comparison.json",
+      "bytes": 638,
+      "sha256": "ccd08df73993b584d5bf4a80961fd415609fc26f483145234cde5d447334d278",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/binary/2/extracted.spef",
+      "bytes": 14976260,
+      "sha256": "ea6daade4bc6bfc3709efc373bf5a7fefee6290b2212566e4cd319c5c2ac9507",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/binary/2/native.log",
+      "bytes": 1862,
+      "sha256": "89591e64da1b69859aee814dadbb4f52e8b449840725eee89bd616db9434adc0",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/binary/2/receipt.json",
+      "bytes": 1763,
+      "sha256": "cdbe100941b03a8706e9a88827094cd30425a0809958c90371d3cd88bffac7f3",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/binary/2/resource.txt",
+      "bytes": 1014,
+      "sha256": "31eb8fea8ab2ee19bfd7cbf64d991bf51e22bc11c1e3a042ab52decac826282c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/cmi/0/comparison.json",
+      "bytes": 638,
+      "sha256": "e2bf105fb13b2fe3b16debc5bf3610e459d20a111613885373ab898dafe1339c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/cmi/0/extracted.spef",
+      "bytes": 14977464,
+      "sha256": "0ef44481bd6c5e28c94f2f9270e4a8604bec112babcd530c4d21891a5b0ea225",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/cmi/0/native.log",
+      "bytes": 1862,
+      "sha256": "39c889ed269756050a124bc7d080d573423865c547810dfa07d021c5dc33cd97",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/cmi/0/receipt.json",
+      "bytes": 1755,
+      "sha256": "e532a409aaed746617cc1a7b66984f1b2d230aeb1d425bc6101e1d1df9afa3b2",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/cmi/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "722aee46e4bd829fafae007d7186e0679c5242d4e6b8c22c99a38406b3fc0339",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/cmi/1/comparison.json",
+      "bytes": 638,
+      "sha256": "e2bf105fb13b2fe3b16debc5bf3610e459d20a111613885373ab898dafe1339c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/cmi/1/extracted.spef",
+      "bytes": 14977464,
+      "sha256": "dde1159a813a58ce7a3a152095fee9acb3843d10fd5105f4434e45da22cb4572",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/cmi/1/native.log",
+      "bytes": 1859,
+      "sha256": "33ae4a186e0d3e53a134d8acf66486f0f8bd96e96754b67243c6a4648aea68d4",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/cmi/1/receipt.json",
+      "bytes": 1754,
+      "sha256": "32697c4124120c95fc3c409e1680d85e00042990bcf9630fd315526f145f09db",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/cmi/1/resource.txt",
+      "bytes": 1014,
+      "sha256": "540dc635108200d7f8a123a7128d350702561a12be705868a924e073e684773e",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/cmi/2/comparison.json",
+      "bytes": 638,
+      "sha256": "e2bf105fb13b2fe3b16debc5bf3610e459d20a111613885373ab898dafe1339c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/cmi/2/extracted.spef",
+      "bytes": 14977464,
+      "sha256": "ece484a4d5752b25ca47dc683c1fca8d89c3f36c7df07c01e7a27e6d8c0ac00d",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/cmi/2/native.log",
+      "bytes": 1859,
+      "sha256": "938756b04457d8f14b84238cc09abd9e8be5a9e76162ad65595dbeca7e760890",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/cmi/2/receipt.json",
+      "bytes": 1753,
+      "sha256": "8f9c5680fb2b069c19ce502ec6fe82247de453fd64e8a64bce33b5ea107f3aa4",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/cmi/2/resource.txt",
+      "bytes": 1014,
+      "sha256": "2bf2fda3f791f50730a53bc4003590e535034a2711dc1fdf66c470ad10fd1c12",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/full/0/comparison.json",
+      "bytes": 636,
+      "sha256": "d58722916a44cb3604d1cfef48a1f67eadd65623e15a631276dec4e31aff194f",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/full/0/extracted.spef",
+      "bytes": 14977452,
+      "sha256": "835455117624ce1bf74026f317f7c120c6cbb42ca237f077100839841113d2c2",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/full/0/native.log",
+      "bytes": 1859,
+      "sha256": "f2acd5c45f3f1a507a46e0ae65a8d2b66363c3272954109df64331c91147277d",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/full/0/receipt.json",
+      "bytes": 1757,
+      "sha256": "d5d3cb7bb03a8db533acb2574c45c763c6354725e2464a819e275478b95352a4",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/full/0/resource.txt",
+      "bytes": 1014,
+      "sha256": "997b268cacc956b74c3839ec51e25e4f7b8f7c187c1e08277effeaa6ce45a599",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/full/1/comparison.json",
+      "bytes": 636,
+      "sha256": "d58722916a44cb3604d1cfef48a1f67eadd65623e15a631276dec4e31aff194f",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/full/1/extracted.spef",
+      "bytes": 14977452,
+      "sha256": "30a02b7d75f5ad8a871a422a55f985b5d7306776dad16f20539937846fc35a3d",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/full/1/native.log",
+      "bytes": 1858,
+      "sha256": "e0384178c78285fc9ccfcf57421385ea4631eef23b31f714d51656db288f1dbf",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/full/1/receipt.json",
+      "bytes": 1757,
+      "sha256": "ccef7b8ecd838e5f3ebf67d79cd7b5b9ff6846bd663382773a4751c84edf4a54",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/full/1/resource.txt",
+      "bytes": 1015,
+      "sha256": "9f22d85a63c63e76abcc11f3b4bf8db7d8ff9abd9a03ebff3e80ffdfb98f5596",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/full/2/comparison.json",
+      "bytes": 636,
+      "sha256": "d58722916a44cb3604d1cfef48a1f67eadd65623e15a631276dec4e31aff194f",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/full/2/extracted.spef",
+      "bytes": 14977452,
+      "sha256": "56c99f852939a1ee7e76339150ee69c67d9b80dd3fa3d949bf803ac47c28e876",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/full/2/native.log",
+      "bytes": 1861,
+      "sha256": "d361c3cdf3b38463d8869dc20a1e2d8d5a9635122df4fb30299c9aaea99e5b7d",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/full/2/receipt.json",
+      "bytes": 1760,
+      "sha256": "57df162262314582e6199ce3d75e25e7bfbb3339e00b491c913c6adfa74af901",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/full/2/resource.txt",
+      "bytes": 1014,
+      "sha256": "64caf16133c3233672a5419738530274c73fd20ab600fbab0a457ef67d7ffd80",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/original/0/comparison.json",
+      "bytes": 550,
+      "sha256": "9386cf0359496263837544498459405ace1933d8757ce5400d79accdc96c0fc1",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/original/0/extracted.spef",
+      "bytes": 14975985,
+      "sha256": "e4f140f81d0c974d931d64d9d82de2b3f57f21b7e4376a3c10cfcb55b7af944f",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/original/0/native.log",
+      "bytes": 1772,
+      "sha256": "05a9369b52d310efdff27d155e306a696efc63ca82715222f35af6be4416b449",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/original/0/receipt.json",
+      "bytes": 1671,
+      "sha256": "508b2201ac5b1d59cbd07123b628d7843d95309957d528f33511e7bec39ded85",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/original/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "b3e0266e154581a2957232c2fe642880ef79e81b758aa63fd87c8c5012848b45",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/original/1/comparison.json",
+      "bytes": 550,
+      "sha256": "9386cf0359496263837544498459405ace1933d8757ce5400d79accdc96c0fc1",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/original/1/extracted.spef",
+      "bytes": 14975985,
+      "sha256": "182086a4a810eceff93e307968cd6c73a233e22e7b07fb8ab78ca060f240ef8e",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/original/1/native.log",
+      "bytes": 1770,
+      "sha256": "d206d3e17ea84a729fa53b6198cb6c642aec38eb9361ab3e66d8751ab03dbf93",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/original/1/receipt.json",
+      "bytes": 1669,
+      "sha256": "f9163b80c10bfd0ec4d155a2793377a3bd674cc39e4b63ca0f06d51b21d802c1",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/original/1/resource.txt",
+      "bytes": 1014,
+      "sha256": "7017478bcf5fb91a83610b80f93c0204185d88846fc98d8b3ac603214cdbb6e6",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/original/2/comparison.json",
+      "bytes": 550,
+      "sha256": "9386cf0359496263837544498459405ace1933d8757ce5400d79accdc96c0fc1",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/original/2/extracted.spef",
+      "bytes": 14975985,
+      "sha256": "167e04175e9dccc193531721d700461f83f1b9fbf4050565bfd441570469ac4e",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/original/2/native.log",
+      "bytes": 1774,
+      "sha256": "386d622585d821ff29d219f820ab0c05a176369e8e578e99e6c921fe187507e7",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/original/2/receipt.json",
+      "bytes": 1672,
+      "sha256": "774e84e9bf5bdad617046e7d66453340a58128958ca1f6202782f5d3f2ae8376",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/aes/original/2/resource.txt",
+      "bytes": 1015,
+      "sha256": "9166f5ad8365f3f12fb2e91d697463e3463540e9bbbe3d92abed8b157ac235ed",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/binary/0/comparison.json",
+      "bytes": 650,
+      "sha256": "2a556ba5a7436bffe861bfc32558b1e9ea771b283f38aa261d419eb33917033e",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/binary/0/extracted.spef",
+      "bytes": 21811976,
+      "sha256": "502d2d6cbab88ca0a1cfe97c962d906cdd997f8e9f6ae3a7973f5bf22179e377",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/binary/0/native.log",
+      "bytes": 1862,
+      "sha256": "5616a65824c655f49545ce3fe6812a04300db2255e1eb7c55d4b921af19b5325",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/binary/0/receipt.json",
+      "bytes": 1767,
+      "sha256": "993bc86f3ee6783b53b9297a60ca60da5c14a4e91937f60013053d1e60087fc0",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/binary/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "7900017c92516b969384324b5d0dea2e8e39235c9200f7f855310066b1d200e7",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/binary/1/comparison.json",
+      "bytes": 650,
+      "sha256": "2a556ba5a7436bffe861bfc32558b1e9ea771b283f38aa261d419eb33917033e",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/binary/1/extracted.spef",
+      "bytes": 21811976,
+      "sha256": "248bcb17d409d20eabc303e5f6cefaef8357e0c9fb8553a29c1a7cf951ba98e4",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/binary/1/native.log",
+      "bytes": 1865,
+      "sha256": "f794b0a687b1ca8f6eb6d7dac848ac905cf281265b5f87a6b4d48601c9e53cfc",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/binary/1/receipt.json",
+      "bytes": 1769,
+      "sha256": "e70ddb936e169454def25b0e619724a016606e5dede55066954ca16c739cfd3e",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/binary/1/resource.txt",
+      "bytes": 1015,
+      "sha256": "8b920315f763c2854f35440a0a0d5a420f43984f92dcab1606389338e5bf0d12",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/binary/2/comparison.json",
+      "bytes": 650,
+      "sha256": "2a556ba5a7436bffe861bfc32558b1e9ea771b283f38aa261d419eb33917033e",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/binary/2/extracted.spef",
+      "bytes": 21811976,
+      "sha256": "b9dc49e5f31026d22d28ebc9f7f006545ac77cc4c90f35927c0c3c7a49b6c559",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/binary/2/native.log",
+      "bytes": 1865,
+      "sha256": "df8fb18b94120727e3586c68ccdb0623edba097176795f703bcfbe93a7139dda",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/binary/2/receipt.json",
+      "bytes": 1770,
+      "sha256": "4690650f7ce89eb31d80ca7752675d1a6fa1cb9861f0171e5da88da9210eebd8",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/binary/2/resource.txt",
+      "bytes": 1014,
+      "sha256": "b5114aa67a85fc244f8738a51f06541fd477576ac871984303e3b02801e9f004",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/cmi/0/comparison.json",
+      "bytes": 654,
+      "sha256": "c62856c1e78ebc6d42bfc05c191c79d169b2fc0a407a116a458b2a13cf7f2a9d",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/cmi/0/extracted.spef",
+      "bytes": 21814121,
+      "sha256": "a3f2798187677495463fe69bdc0030917d7780a49a08ba8d8df001dc5b9e6b79",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/cmi/0/native.log",
+      "bytes": 1861,
+      "sha256": "adffc3b2d48541f1b54092303f658aceff860923c6b36f5c00b235a767c46d97",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/cmi/0/receipt.json",
+      "bytes": 1780,
+      "sha256": "9da432923681f92ad231ff1ce1745062ee30fb279b7a77f156e82055dbc28682",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/cmi/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "a61c502c793d4c179050003cfa18c43e22dd34e30f331d9841c9fe65860133fa",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/cmi/1/comparison.json",
+      "bytes": 654,
+      "sha256": "c62856c1e78ebc6d42bfc05c191c79d169b2fc0a407a116a458b2a13cf7f2a9d",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/cmi/1/extracted.spef",
+      "bytes": 21814121,
+      "sha256": "1dfc8fe9d50f45c944f936a15b681d3a6fbc2ee9ab1753d2f3b5748f6cf28994",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/cmi/1/native.log",
+      "bytes": 1860,
+      "sha256": "66d3dc55ef35a7b88d9cc4ba56575b63368a3fc229f11c9589ef3c709199590b",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/cmi/1/receipt.json",
+      "bytes": 1779,
+      "sha256": "b866d5c22ca66e5a7808e870f34f078fc56c1da4f57074c9a434436bb56bad03",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/cmi/1/resource.txt",
+      "bytes": 1014,
+      "sha256": "e541d81dd64961f7e60e1c497715e59759a4b47fbad38ff7d26fab77e85a0963",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/cmi/2/comparison.json",
+      "bytes": 654,
+      "sha256": "c62856c1e78ebc6d42bfc05c191c79d169b2fc0a407a116a458b2a13cf7f2a9d",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/cmi/2/extracted.spef",
+      "bytes": 21814121,
+      "sha256": "4ba91427134b22a5b4ac98a3b7d5f548302b18b2f0324c73ddc2974f397511ac",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/cmi/2/native.log",
+      "bytes": 1862,
+      "sha256": "1df25c1afa6105ab0b50103dfd0e267230c6deeb7fae7c7763f0b385baaa3980",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/cmi/2/receipt.json",
+      "bytes": 1780,
+      "sha256": "19ec8b60bcbb22848cbb7150101aecf76c4f44d8bed3e59947e0bbaf506a5b1a",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/cmi/2/resource.txt",
+      "bytes": 1014,
+      "sha256": "a83e47a576d11f0d02f81b3b3878af9de32254ff04227716ab8cabae1d538a3c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/full/0/comparison.json",
+      "bytes": 651,
+      "sha256": "5952623f690b58dbea361cc8fd6300cfa6667a3a00b635d73eb5f23f2afcc262",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/full/0/extracted.spef",
+      "bytes": 21813765,
+      "sha256": "0d1d48a8a5ff6b648096344d1756b2e455151dff07d5949ea9d8c3fb140cdf51",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/full/0/native.log",
+      "bytes": 1863,
+      "sha256": "aa2f60b752e29e3f807c233a4bcce2ecd9a155e1be90b80236bf6cf8b5ae0cd5",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/full/0/receipt.json",
+      "bytes": 1778,
+      "sha256": "084613eb89c0397795f89bc7d078cf087e683ad00ff4fe97915487914156ce7a",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/full/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "fef6a115bd2d0a0ece32b605a53a316bc14ad741fd175f35b4c62bb8c8de0487",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/full/1/comparison.json",
+      "bytes": 651,
+      "sha256": "5952623f690b58dbea361cc8fd6300cfa6667a3a00b635d73eb5f23f2afcc262",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/full/1/extracted.spef",
+      "bytes": 21813765,
+      "sha256": "78cb0248b56c4e323fbcee5aeab8941a972ef90aafbfb30a4e36a4a0ab2f783e",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/full/1/native.log",
+      "bytes": 1862,
+      "sha256": "466b0cb28dc5d73ab722be2d8607bfff9aba4838830fadeb59a7c856e093db8c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/full/1/receipt.json",
+      "bytes": 1777,
+      "sha256": "1bea6af092c755197d827b4847bccbf9c86fe9d7951a3e7be7952800bba598c0",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/full/1/resource.txt",
+      "bytes": 1014,
+      "sha256": "e9156e3f1baca785c062d024b6871eba3657d9f737fea68683cea90c427a55d3",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/full/2/comparison.json",
+      "bytes": 651,
+      "sha256": "5952623f690b58dbea361cc8fd6300cfa6667a3a00b635d73eb5f23f2afcc262",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/full/2/extracted.spef",
+      "bytes": 21813765,
+      "sha256": "049a04223ab17372b844563be7967b504d14633941116a7e1b27ab31a4900e56",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/full/2/native.log",
+      "bytes": 1863,
+      "sha256": "b15d68020221efcfe1ad0f3fa5840490e3c1192fce8d399a57adef600fd0c6a1",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/full/2/receipt.json",
+      "bytes": 1778,
+      "sha256": "c2b84210dc013ab376afe3a8b41b53e5124728c8b04d9e7dbeb035014875f7a3",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/full/2/resource.txt",
+      "bytes": 1014,
+      "sha256": "a78fb73bba042cbb053e4ef841f09563eb57850db2e542e3b0f538e385bb7311",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/original/0/comparison.json",
+      "bytes": 550,
+      "sha256": "bed761f85eae608e3ab4ba2c02b4ebc37c086f074f3a8a772d3468dd91d5ff00",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/original/0/extracted.spef",
+      "bytes": 21811605,
+      "sha256": "968335efe8304f28179e957b87592923de11a21584af088c5d266a2f52a7792c",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/original/0/native.log",
+      "bytes": 1774,
+      "sha256": "a03643aebc9a8b131ef07e56ab356ec54547993c3cc5c0bacd43cff8863df668",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/original/0/receipt.json",
+      "bytes": 1670,
+      "sha256": "79ac70663ffc08f11f3a86e18e12b50fc47d026b72d773043a8dfe51b1a5f84a",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/original/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "3749af7f0d8c7031630bd4f193f83c0420bfd69681982054523ec758e3f726f3",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/original/1/comparison.json",
+      "bytes": 550,
+      "sha256": "bed761f85eae608e3ab4ba2c02b4ebc37c086f074f3a8a772d3468dd91d5ff00",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/original/1/extracted.spef",
+      "bytes": 21811605,
+      "sha256": "60be13f09441b6241d026cf07bcc30a0436b868bf097a04e72d4469eea6c7690",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/original/1/native.log",
+      "bytes": 1771,
+      "sha256": "12f92aa6d6bd42a25dce33274194762e3369839cb20bb73a20326db4d14a894b",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/original/1/receipt.json",
+      "bytes": 1670,
+      "sha256": "10996f9f22dada13cbf538137c230ac34907b8e2d5d01857c561c2bb1b393af1",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/original/1/resource.txt",
+      "bytes": 1014,
+      "sha256": "7a8630134f9179f3064bfaec79bdff477185eae85867e349964c8ec0217df925",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/original/2/comparison.json",
+      "bytes": 550,
+      "sha256": "bed761f85eae608e3ab4ba2c02b4ebc37c086f074f3a8a772d3468dd91d5ff00",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/original/2/extracted.spef",
+      "bytes": 21811605,
+      "sha256": "83bd909b2368ff2f258bcfa99ac6b7db1b1055c1c302c633f600184d984352a2",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/original/2/native.log",
+      "bytes": 1772,
+      "sha256": "88cb2b3f97af2ce18f79bda5e3f98b1326bb94ca458485da39bb09a2aa02ec57",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/original/2/receipt.json",
+      "bytes": 1670,
+      "sha256": "7bed511aa48c4183897b53e250c0779f54f25b20283d0d1e9254bc7ab3e00e18",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/ihp-sg13g2/ibex/original/2/resource.txt",
+      "bytes": 1015,
+      "sha256": "d689a1d7241c4a3842848d5910a4ce65d6748c9da892b4a8f3a3938badf69498",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/binary/0/comparison.json",
+      "bytes": 636,
+      "sha256": "7824eb0800dd331d1e72e0cad087149a415e17d2ae3a45703784dcf18c2c7db9",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/binary/0/extracted.spef",
+      "bytes": 20287914,
+      "sha256": "1b1c8531550bdeaec6a4f7740a652d24bc7736558135deea40b57d0f62d2259d",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/binary/0/native.log",
+      "bytes": 1864,
+      "sha256": "caecdad63d63fd10c40a5ab8e06bf9c1610e2aaff1679eec6b5b92dd3e805b5e",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/binary/0/receipt.json",
+      "bytes": 1769,
+      "sha256": "5a5253635058dd0e58479ef8903d02df9e4b3d6ce7f607ff07d48a3593441332",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/binary/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "8f5a98f60f5edfd04465f44f26cfae42a39f1c992dfa243253d67398c1b2da51",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/binary/1/comparison.json",
+      "bytes": 636,
+      "sha256": "7824eb0800dd331d1e72e0cad087149a415e17d2ae3a45703784dcf18c2c7db9",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/binary/1/extracted.spef",
+      "bytes": 20287914,
+      "sha256": "5ba6149b2f9bf4d959a172004b7e3ac4a285cdf6129798a7d584497e81762152",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/binary/1/native.log",
+      "bytes": 1866,
+      "sha256": "827326e55a812c9a7d9ea4dbb24bc67e4662d86b00a8ac9549238fd913306d96",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/binary/1/receipt.json",
+      "bytes": 1771,
+      "sha256": "f2d1276cb0149037c456f82be944ee976927f4ef7de3486ef7b0bf07c7f29a12",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/binary/1/resource.txt",
+      "bytes": 1015,
+      "sha256": "f02b247a0c307b27dc9b179c00f95f53b88bee2276a37274f69d4ff3d9db0b39",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/binary/2/comparison.json",
+      "bytes": 636,
+      "sha256": "7824eb0800dd331d1e72e0cad087149a415e17d2ae3a45703784dcf18c2c7db9",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/binary/2/extracted.spef",
+      "bytes": 20287914,
+      "sha256": "bbb7587dd1b4e9c424bd8ca22e3def391f504c80add206689c13b382607e7bde",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/binary/2/native.log",
+      "bytes": 1864,
+      "sha256": "307dfca2050a95328b2c61d925291781ded15b130868a1cbdeeea6f19c22a5ab",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/binary/2/receipt.json",
+      "bytes": 1768,
+      "sha256": "2959582ebc78baa2423f6501fa5962088bc3ae24bca0a392d4e4dd9627f2c97e",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/binary/2/resource.txt",
+      "bytes": 1014,
+      "sha256": "c75074fc82c933a052a7fc1147f2284a4125176e87c94fc176d430bc386fd332",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/cmi/0/comparison.json",
+      "bytes": 636,
+      "sha256": "4f63936e3c3c42addc181a09c64af0cb43dc2491e157c2760f5a6314561f7fe6",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/cmi/0/extracted.spef",
+      "bytes": 20476036,
+      "sha256": "42cc78cf9b13841bac639b3645ba9dd3cd55d0f3159884641e93358e4adc0352",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/cmi/0/native.log",
+      "bytes": 1860,
+      "sha256": "d8c14c88d3a0e651d1e15e05ec19d177fc7754365b95be46282e5b91f7ff5fcb",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/cmi/0/receipt.json",
+      "bytes": 1766,
+      "sha256": "4bea166b7922b17c0c77b5776dfcde8a30e1bf326cd51bb02410f4fab7e37c7c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/cmi/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "db3f50b80d311553c5524ef380266cb4e80b4d6f5c51f91c833c2a2e8939321b",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/cmi/1/comparison.json",
+      "bytes": 636,
+      "sha256": "4f63936e3c3c42addc181a09c64af0cb43dc2491e157c2760f5a6314561f7fe6",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/cmi/1/extracted.spef",
+      "bytes": 20476036,
+      "sha256": "9467865001f8ee374a89a949b47e7ec024a2c28a3505d9657f75e4e9d609ea91",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/cmi/1/native.log",
+      "bytes": 1860,
+      "sha256": "f897b443e7a2788b2f9ab4a4c85292566b13be5e734472eb8631ad23b7ab722c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/cmi/1/receipt.json",
+      "bytes": 1765,
+      "sha256": "91a5c4e9433b48717bad7e38e7fea10429362c150b8cd58cb61569e7836f48f0",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/cmi/1/resource.txt",
+      "bytes": 1015,
+      "sha256": "e6d63562184a4cc09c977877bb956351c35d34781c215c22a860ec248d8a060c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/cmi/2/comparison.json",
+      "bytes": 636,
+      "sha256": "4f63936e3c3c42addc181a09c64af0cb43dc2491e157c2760f5a6314561f7fe6",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/cmi/2/extracted.spef",
+      "bytes": 20476036,
+      "sha256": "31f7dbab1e3778ad65d4017dc0c229c15161c1dc09907e69617fe11485efaf42",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/cmi/2/native.log",
+      "bytes": 1863,
+      "sha256": "94d6d5cc418943f665ef15ce60dca6195b8695daa3fb0f396e4038076e76a085",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/cmi/2/receipt.json",
+      "bytes": 1767,
+      "sha256": "c0b26ed95037fd2f5a672f9bb1355aec65a5e5fa30ed9648ab4464a063d30288",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/cmi/2/resource.txt",
+      "bytes": 1014,
+      "sha256": "c26399b7fb0372cf6f2591ed2611999d3301dc55f4c009b0733de847c5346bb4",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/full/0/comparison.json",
+      "bytes": 638,
+      "sha256": "0c0cec53ba79a034a7ac2e53d0d749706540e2ae2095a9b20200089cacaff735",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/full/0/extracted.spef",
+      "bytes": 20162444,
+      "sha256": "2b2b9d7c6299456c2c97426a874d8d8737f0c0ae434ff1e3a93ff621415dafa9",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/full/0/native.log",
+      "bytes": 1864,
+      "sha256": "1ed6b4b007b4cbe41adcfb6fa1b802e9fca879a4512a05942f8a68d88aa3fea1",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/full/0/receipt.json",
+      "bytes": 1779,
+      "sha256": "9216a46ae6658d47c75b738793676d4ab6e7258f06c0571f3168aff0757770b4",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/full/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "5385d5c5ef4d4a5a107377c598ff18d9b686f95fe93daff7141c0d1e0de14c2e",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/full/1/comparison.json",
+      "bytes": 638,
+      "sha256": "0c0cec53ba79a034a7ac2e53d0d749706540e2ae2095a9b20200089cacaff735",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/full/1/extracted.spef",
+      "bytes": 20162444,
+      "sha256": "8eade18fe02023d9ead1ef0289854377794cecd37c8bf22c3bad1d434d6965d7",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/full/1/native.log",
+      "bytes": 1864,
+      "sha256": "c871b86fa4720e2472debfa08189553045e686e8fab0e1e798eeef5b4759a5f3",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/full/1/receipt.json",
+      "bytes": 1779,
+      "sha256": "948079e99b7bfb1935e70259c843dd5744de54789eb7f1aa00396e7ddfe042f9",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/full/1/resource.txt",
+      "bytes": 1015,
+      "sha256": "e51c47051338834740e220f9f5bd3cd7cf60615dd1b8d8ecc86f53119712b83a",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/full/2/comparison.json",
+      "bytes": 638,
+      "sha256": "0c0cec53ba79a034a7ac2e53d0d749706540e2ae2095a9b20200089cacaff735",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/full/2/extracted.spef",
+      "bytes": 20162444,
+      "sha256": "3218a2dbbf5136bef123b4e0a1bb419d1f1a4756db35413b9c794ee2e3a791e8",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/full/2/native.log",
+      "bytes": 1862,
+      "sha256": "ac544f648e1e9630349122f8c6bbe786f84f715143f7c4be91c356f8cb162ae7",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/full/2/receipt.json",
+      "bytes": 1774,
+      "sha256": "3b1d4868e642d9a034fe2c30278c4afcf9531d8fdb40819c6d0217ebb5bc16e9",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/full/2/resource.txt",
+      "bytes": 1015,
+      "sha256": "053e37048ab20031d7d24b77a85bf41d331d33f6af9fd14edce8ae4685867578",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/original/0/comparison.json",
+      "bytes": 535,
+      "sha256": "d482e066fe948c3b12f8ef1830d82177b18a19be818f00670f7ed573141d23ef",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/original/0/extracted.spef",
+      "bytes": 19887939,
+      "sha256": "e11fe66353f1a516dc2bff8988468fa3be1560758a67add6e45a2d33d2b56188",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/original/0/native.log",
+      "bytes": 1767,
+      "sha256": "212f105982ad2addcf88a2dd9df152df4c919c4b8c1e2e4218bd07b0ecf04be9",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/original/0/receipt.json",
+      "bytes": 1680,
+      "sha256": "cc2d57636f659545586a0d2ef3f54ad968576fd13a7f099931a87f66e2314280",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/original/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "64c1ae32c1776f3842a52c336ad0357e463e13bf22e569188d2a7419a40ac3a9",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/original/1/comparison.json",
+      "bytes": 535,
+      "sha256": "d482e066fe948c3b12f8ef1830d82177b18a19be818f00670f7ed573141d23ef",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/original/1/extracted.spef",
+      "bytes": 19887939,
+      "sha256": "3981dd4b6d25061068294f5729d2fbc8f58101ca694a5aacebdbf13f051ee9b9",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/original/1/native.log",
+      "bytes": 1767,
+      "sha256": "24ab514ea3c904c38efe17a5290f488e8e075343ce3d096c89c3cc2f22cf42da",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/original/1/receipt.json",
+      "bytes": 1680,
+      "sha256": "dfa109a73b5ad42e26f639cb11ccf9d68e021ccc569a44ad344e1e2d8fad9e8b",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/original/1/resource.txt",
+      "bytes": 1015,
+      "sha256": "aaafb83154339c8f6fa74c7e6d6ea724507c19da3d7fbe42b60ce9326fc7e7b6",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/original/2/comparison.json",
+      "bytes": 535,
+      "sha256": "d482e066fe948c3b12f8ef1830d82177b18a19be818f00670f7ed573141d23ef",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/original/2/extracted.spef",
+      "bytes": 19887939,
+      "sha256": "8f43667fcd00870c372540838eebd8ec89a284e40e7cdfd105fc9de8f78db1bd",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/original/2/native.log",
+      "bytes": 1766,
+      "sha256": "71ea92654512fdee9de0dbe5f607d21c5141b83967ea0621bebcee11032fa759",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/original/2/receipt.json",
+      "bytes": 1679,
+      "sha256": "cfab0e16efca5c2c768d57cbea832e2583446a2e273d63e89e873ef44e512d2d",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/aes/original/2/resource.txt",
+      "bytes": 1014,
+      "sha256": "8bd12b8e6998e3cca3b97de8c62869003a1b5855d2d3bff214ffcaf1b071f701",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/binary/0/comparison.json",
+      "bytes": 638,
+      "sha256": "12897e9997b442cb310c118372b5d39d76f5a8950ed15af30791df7666543fe1",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/binary/0/extracted.spef",
+      "bytes": 19285307,
+      "sha256": "82ef43ad92a141e2f47a4594bcc9d2d2888abb0c2667693959c6f877f323e605",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/binary/0/native.log",
+      "bytes": 1860,
+      "sha256": "e30c69526daedfc6a4e9d8afe5430bc1475b368a81e24b336930b612c34e5f2f",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/binary/0/receipt.json",
+      "bytes": 1776,
+      "sha256": "56217a30357add640adad448a6c3ceb9bf10d432f409c2b9d0aafcce4db422c5",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/binary/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "3e583735a260ec8ff54e9190f7e8a229895707efa20caadf9e2c3ddedc4f6407",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/binary/1/comparison.json",
+      "bytes": 638,
+      "sha256": "12897e9997b442cb310c118372b5d39d76f5a8950ed15af30791df7666543fe1",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/binary/1/extracted.spef",
+      "bytes": 19285307,
+      "sha256": "afc512cea8fb1c675f7e7acdc85c48206793a84826d463a212bf4bad8e692162",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/binary/1/native.log",
+      "bytes": 1862,
+      "sha256": "986d6e44bc06f7164b56f3f5c820c25656373c2ad038ff6d30cb76263faaadb3",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/binary/1/receipt.json",
+      "bytes": 1777,
+      "sha256": "575c9e60be62074cb7ba0fa7db88bc7d3d0b35bee8f5306c2111b7fbe449cb16",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/binary/1/resource.txt",
+      "bytes": 1015,
+      "sha256": "d87edb9f600b49aa928f13a07c4cee20d80f97ff5c01806b2873c819c8ead0a1",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/binary/2/comparison.json",
+      "bytes": 638,
+      "sha256": "12897e9997b442cb310c118372b5d39d76f5a8950ed15af30791df7666543fe1",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/binary/2/extracted.spef",
+      "bytes": 19285307,
+      "sha256": "2524ddb33a3eea22ffdf94ee54069ffe62c63ee119e89f2f6da0be2e00101e80",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/binary/2/native.log",
+      "bytes": 1861,
+      "sha256": "c7b1608ca50b5791570810af75c434e488fd2ccc06d7afbdc374775a61090a85",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/binary/2/receipt.json",
+      "bytes": 1776,
+      "sha256": "86c623a482701d1c3dd5bd4de755288f9404ee42740c924312e5e549530f3ce3",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/binary/2/resource.txt",
+      "bytes": 1015,
+      "sha256": "509cd4295f36ecb99b53b9bcd6b993106dbd4dc401a09b59ac1e39ef997693ce",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/cmi/0/comparison.json",
+      "bytes": 637,
+      "sha256": "bb28f459efb845c2672bc1f955959dcf6b7ecd06a9b24e262982f6efdd250dce",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/cmi/0/extracted.spef",
+      "bytes": 19363841,
+      "sha256": "dc89053e0184bb923628d55fc0711d7ec76d7a467ddbfcdef92e69c001c0a61a",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/cmi/0/native.log",
+      "bytes": 1859,
+      "sha256": "448937f1a84eeadf6d1853d6ca9db2335e098e8b491312c97d3191c044a463d8",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/cmi/0/receipt.json",
+      "bytes": 1782,
+      "sha256": "cd078fa148948bd812312369899c808a5f44d5ca1b4fda619a2312d574e07314",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/cmi/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "ace60d7f93a871cf9ff66b4b2f36fbfab9508494ca1fd6c4e131bc59e02cc238",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/cmi/1/comparison.json",
+      "bytes": 637,
+      "sha256": "bb28f459efb845c2672bc1f955959dcf6b7ecd06a9b24e262982f6efdd250dce",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/cmi/1/extracted.spef",
+      "bytes": 19363841,
+      "sha256": "0d8036a5f04526a4520110182b2411bd110e32bf0d1644b6fe610e137314beb9",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/cmi/1/native.log",
+      "bytes": 1858,
+      "sha256": "bc9c959df04a04f1ccf19ff70d3aef756c749fb6d251d601276600679054fb8b",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/cmi/1/receipt.json",
+      "bytes": 1781,
+      "sha256": "afc6a344b0996475f0455f966e9c18825e9124e0b88ac2e5883099fa32e022e9",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/cmi/1/resource.txt",
+      "bytes": 1015,
+      "sha256": "2492fbcf5096ffe5481b63a70669e28f00039defe66e209090ef6398e0107f75",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/cmi/2/comparison.json",
+      "bytes": 637,
+      "sha256": "bb28f459efb845c2672bc1f955959dcf6b7ecd06a9b24e262982f6efdd250dce",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/cmi/2/extracted.spef",
+      "bytes": 19363841,
+      "sha256": "69933b85252b48e9bae9ef7c6a615d51947c44522db38705795f33f3b3bf7a7f",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/cmi/2/native.log",
+      "bytes": 1858,
+      "sha256": "fb7ee960b56174dc781164379ee334e87eaf89fe3a839a342719f7a5a6df9931",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/cmi/2/receipt.json",
+      "bytes": 1781,
+      "sha256": "f370b6a9dc82563153df0278887d5c711101506dc6c9206c540c86e1f57acc7b",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/cmi/2/resource.txt",
+      "bytes": 1015,
+      "sha256": "722c255f349a6e9922b445f9d035e2da8e24998819cdc35188a30d0c31746759",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/full/0/comparison.json",
+      "bytes": 636,
+      "sha256": "b115b700db438d0a6988d6a611b6ab06debbc0c702bb220dc675dc2a5b7ba865",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/full/0/extracted.spef",
+      "bytes": 19239660,
+      "sha256": "75bd48aed08a6a7b963e9cadc5f9997fe1fca017bc4f3a191bfc0ffbcfab71fd",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/full/0/native.log",
+      "bytes": 1861,
+      "sha256": "942f44245c9db25422296402387eda7b550b9abba87eefd14468ba453bcae73c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/full/0/receipt.json",
+      "bytes": 1782,
+      "sha256": "351c0b5af15a96bdb55b56cc053ad36174a6e00d6d3e9b7052a9a50f424e5509",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/full/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "f80b69ba837f0396b3bcdfee85093a3392d9205ce9127237aa4cadf1c251885c",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/full/1/comparison.json",
+      "bytes": 636,
+      "sha256": "b115b700db438d0a6988d6a611b6ab06debbc0c702bb220dc675dc2a5b7ba865",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/full/1/extracted.spef",
+      "bytes": 19239660,
+      "sha256": "b21a766dc829bbb5e95a98471936b2912833d3bba53d369e079f202282ea920e",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/full/1/native.log",
+      "bytes": 1859,
+      "sha256": "48bdceae1b60ae8113ce98e7d310a49fd595d8c12b54e250e159d86f0ea7e9b9",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/full/1/receipt.json",
+      "bytes": 1781,
+      "sha256": "39a1237ce335254eaa3390b15d71f8a5854632964fe0ce6f0b8589f634b1467e",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/full/1/resource.txt",
+      "bytes": 1015,
+      "sha256": "3ea36be1ce0387750cfe0a056d96fdc76a3672894795162449a8567841010df7",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/full/2/comparison.json",
+      "bytes": 636,
+      "sha256": "b115b700db438d0a6988d6a611b6ab06debbc0c702bb220dc675dc2a5b7ba865",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/full/2/extracted.spef",
+      "bytes": 19239660,
+      "sha256": "7dc1a79ea7ea319fee6a8903f44c022950bb6af776560f2cc2192b508d5b4696",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/full/2/native.log",
+      "bytes": 1857,
+      "sha256": "8fb4477844c960984662babbabb09ee07f74515b21f5d81674e9812fea4db451",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/full/2/receipt.json",
+      "bytes": 1779,
+      "sha256": "8d6a9de93af59ba41205d1e88b6b3d80715e627886de5fa9caf780753a9cebfa",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/full/2/resource.txt",
+      "bytes": 1014,
+      "sha256": "1c5d4d1f399dfd1f9cddbd167d1e50baf2086f0eddc0013a3d558d835495841e",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/original/0/comparison.json",
+      "bytes": 550,
+      "sha256": "60bef47efa1c5a8451af135d5ca2fb619f244c309b1342352f0bf90c6fd1bbcc",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/original/0/extracted.spef",
+      "bytes": 18783838,
+      "sha256": "b56e1f41fb0f054981d03b645ea42a67793578f9fb79cf85928c72bd57c3c364",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/original/0/native.log",
+      "bytes": 1765,
+      "sha256": "6f1222b170bd8d5fd4a35cbf8c3b5bac35dd510a7e14a6776d5c1835285487d5",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/original/0/receipt.json",
+      "bytes": 1691,
+      "sha256": "ac8c92d5600394654ba427343b6306bb48f3e614ee5f8f813e722eee14f09a45",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/original/0/resource.txt",
+      "bytes": 1015,
+      "sha256": "52576438f1388a05522019309543fc5c2602eebf5ebd692dc54b10ddc2e917b8",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/original/1/comparison.json",
+      "bytes": 550,
+      "sha256": "60bef47efa1c5a8451af135d5ca2fb619f244c309b1342352f0bf90c6fd1bbcc",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/original/1/extracted.spef",
+      "bytes": 18783838,
+      "sha256": "131dc68d1e75560b8bc358c9bce35f55d8b589ca5d9b7d1377da1a92043a7e7c",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/original/1/native.log",
+      "bytes": 1765,
+      "sha256": "4c25882c78aeeb5f65175a382ebd5f2a4ff5c661ecca816f353cf4d233d7cc4b",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/original/1/receipt.json",
+      "bytes": 1692,
+      "sha256": "409493ce6ce5bb922d2f8b79d6600f575b6a8c88ac934d3d8fc09348bda85f02",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/original/1/resource.txt",
+      "bytes": 1015,
+      "sha256": "428744629a650d94273d0872ca17554f28338298ba7a245db4beff04c7f44860",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/original/2/comparison.json",
+      "bytes": 550,
+      "sha256": "60bef47efa1c5a8451af135d5ca2fb619f244c309b1342352f0bf90c6fd1bbcc",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/original/2/extracted.spef",
+      "bytes": 18783838,
+      "sha256": "f3214e31b23426c30f0de9d5c1941ade967c6c88353a339e341aee9625b25a91",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/original/2/native.log",
+      "bytes": 1763,
+      "sha256": "4347ef4fad030681e5a921661e7feca68e6c3d5c0ac618563c2f3067b6608404",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/original/2/receipt.json",
+      "bytes": 1690,
+      "sha256": "055240e577e5f477fa2084a397e2c02e7fa6d49961fed21519b00498e8219d15",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native/sky130hs/ibex/original/2/resource.txt",
+      "bytes": 1015,
+      "sha256": "d6d09c4c180507badc2e5b2c405364b539bdedbabd88dbe219621e3567bc27f2",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native.log",
+      "bytes": 2826,
+      "sha256": "3d235f6fd25e6d8ffca8eb15a117f6c8c02e95a0ab2b8eb62f81d9a46f75ae41",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native_cpp_predictions.jsonl",
+      "bytes": 286459,
+      "sha256": "ecc11e28799f11ae93d651c1ae5d057e46d698ce6561d618ec1191a05bc6551e",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native_cpp_raw.txt",
+      "bytes": 22990,
+      "sha256": "00ee0e6cb88ceca8fa40e61a988d3b8f5c44d78dd056b654eddbe250c80d73d6",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native_ctypes_timing.csv",
+      "bytes": 1492,
+      "sha256": "97de53826047c0b36007a066149ff6e2b8decd86e95091b8423570f1580e393a",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native_flow.log",
+      "bytes": 3225,
+      "sha256": "016de1a131ef4267b61550dcd1787e2e66272c52a3963f1c83302476396a6a68",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native_flow_completed.json",
+      "bytes": 549,
+      "sha256": "632bcb53f605c16ca5b0128cdf6738e465a2c604662a51f621d1bf79478ffde6",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native_flow_summary.csv",
+      "bytes": 17052,
+      "sha256": "91d271474393e06178693e82f5d1aaa4e18fa2d104cdbec9c9069a6867307fdf",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native_flow_timing.csv",
+      "bytes": 44887,
+      "sha256": "273a3f951f974eb36ac743b1d09be5ce0e68569d29c6fa3f12fa314446541dfc",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native_kernel_input.txt",
+      "bytes": 25765,
+      "sha256": "6a2f835b3ba57666c7a86a37c31b9513466aed4483904321764ed59556f46b91",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native_kernel_summary.json",
+      "bytes": 316,
+      "sha256": "4d561bff0f5e9c9ca017fe573bc0540910c9aa5aba520a3f285f836c55ab6685",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native_kernel_timing.csv",
+      "bytes": 1915,
+      "sha256": "e29b5de312fa3f05b9b46731e06a6be057ca17cc300cd76b745650972f2c38b6",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native_kernel_validation.json",
+      "bytes": 1354,
+      "sha256": "0f8f46a979f1e089746ef3dc0e73f42bf179561c13fc7d2e83783fd7e0e80abe",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native_lookup",
+      "bytes": 27808,
+      "sha256": "dab2a3a27ab870639cb4b272266f56c584809c0c4006f6396ed4fc87f94fa0b2",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native_lookup.so",
+      "bytes": 27624,
+      "sha256": "050d82baff579efb86d419182456a10ea1b07df6e2c14373bb70d458483b22bc",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/native_support_equivalence.json",
+      "bytes": 119077,
+      "sha256": "445937312524866253bf8a5ba5ad8baa4f808b50a8e684837619f4073dde1324",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/pdf_preview/page6.png",
+      "bytes": 492247,
+      "sha256": "842ebb1da0611b6b76fcbbac2ecae867a74cdd8fc342f45ca172252dfb435498",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/pilot_fem.json",
+      "bytes": 1408,
+      "sha256": "dfc33961e98e7666c6637e6536f061265c683605b0b23c5c61399131c661c2e8",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/pilot_native.json",
+      "bytes": 1282,
+      "sha256": "8e28289127e5f65b40273bc6fa4faf1d9cc2b699c29b906da48fc403041f4a5b",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/predictions_fem.jsonl",
+      "bytes": 1141926,
+      "sha256": "6f843a9fc63d46a29d97f3f28c27d6ae3fc3e1ab277bcb43534f54a85d23f834",
+      "local_only": false,
+      "compressed_duplicate": true
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/predictions_fem.jsonl.gz",
+      "bytes": 135297,
+      "sha256": "1fef29d60418fa083ade33fd7f01d96f7a22d2b278e70dfdc50b9c15c94c6be4",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/predictions_native.jsonl",
+      "bytes": 6567408,
+      "sha256": "784b785a0d27c218f7b67046df0b17d74089f3db4b43e79abcc9c6b65adc231b",
+      "local_only": false,
+      "compressed_duplicate": true
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/predictions_native.jsonl.gz",
+      "bytes": 1085263,
+      "sha256": "813b711336a6e49520b485bef89f37d16c92f6cd544b60c8265fb9516c825361",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/preparation_fem.json",
+      "bytes": 3323,
+      "sha256": "5b097b2ac0c352b770733bb20ac54129a47fe0fec91cca9bbb29613fa01843e5",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/preparation_native.json",
+      "bytes": 11332,
+      "sha256": "c4681baaaf5a56ab86cdb68e14eff35cd36b8694e5ab913d721921c627978312",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/rule_preparation.json",
+      "bytes": 13702,
+      "sha256": "88449108fe753eab7f6c8e3dfb4d422dc971702e017c0984990a68f3a9c9f008",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/rule_preparation_summary.csv",
+      "bytes": 587,
+      "sha256": "78e6af27abe166eff005ffdc84ce8cee8ebc5b4e43a80b6b1a28392816d17b2a",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/rule_prepare.log",
+      "bytes": 28,
+      "sha256": "65e2169fdf170f4b308184b46a6c7026d0d8e1cc9fcbea69646822b63579b457",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/rules/asap7_binary_B8_s11.rules",
+      "bytes": 118855,
+      "sha256": "c02211d03f6a6587bcd37a6513b1bb1d6e2ffde12fd60ccc1f563f882d9ce860",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/rules/asap7_cmi_B8_s11.rules",
+      "bytes": 117547,
+      "sha256": "b667d6433f07859041200fb8f8168a0e4c4dcb6ff22451abc6b03fbaabffa779",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/rules/asap7_full_B8_s11.rules",
+      "bytes": 118904,
+      "sha256": "d76de73699586a79a29d5b4e3e0e0dc0de88b47fdf159d00e44380e5554c5748",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/rules/binary_B8_s11.json",
+      "bytes": 39202,
+      "sha256": "f9b9319650e46b3dc5721fd8c7164323b30e1d56eca730939ce11edbd8dcadbb",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/rules/cmi_B8_s11.json",
+      "bytes": 36864,
+      "sha256": "13b265cf9f92c00135f134ba390d5d887ba2483c8e2aee6a0f6d21de88663060",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/rules/full_B8_s11.json",
+      "bytes": 39318,
+      "sha256": "0d976d92a3b27dfdc3ece560e5f4ed5cfd02e35cd2105777e8ca8cd92976631a",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/rules/gf180_binary_B8_s11.rules",
+      "bytes": 31680,
+      "sha256": "de1228571e47f55f81f54266693d2c48499fd11e2152e6542ce7d750c8ea48cf",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/rules/gf180_cmi_B8_s11.rules",
+      "bytes": 31495,
+      "sha256": "6551ab96e46ee37cbb92e489a37765e9b26a6060f0d3c989f820bf5dd15cdd56",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/rules/gf180_full_B8_s11.rules",
+      "bytes": 31684,
+      "sha256": "48d9c9d2a1a1e59532e397d5281997bede5c02801dfc2467f9d27e44049fa7d4",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/rules/ihp-sg13g2_binary_B8_s11.rules",
+      "bytes": 50768,
+      "sha256": "53e2cb3d76a2c479d692fae9283d0b04b3d511fdb4eef4a1e8bfd2c481fb115e",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/rules/ihp-sg13g2_cmi_B8_s11.rules",
+      "bytes": 50533,
+      "sha256": "d9a1fe08ea60286c5818ba1f9fc7214283b371fc5878a5123185c70b8e13eb3d",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/rules/ihp-sg13g2_full_B8_s11.rules",
+      "bytes": 50780,
+      "sha256": "2b80202ea0e40e59efe745706f34ea4e709baba61b4412b128b1b0acfa426f91",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/rules/sky130hs_binary_B8_s11.rules",
+      "bytes": 45392,
+      "sha256": "709069e8a88bfcbb1cc4c4a6b99f13827a7984a6cb037b1ba99609b5af9b656f",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/rules/sky130hs_cmi_B8_s11.rules",
+      "bytes": 44983,
+      "sha256": "3d97082c17cec55d3e01bd601e71d944bade6853317fff04730966917dec72ff",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/rules/sky130hs_full_B8_s11.rules",
+      "bytes": 45439,
+      "sha256": "0234b64d15ef4bcfacb664a5daf2763eda8a162c390faae1e157addeff57c667",
+      "local_only": true,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/solver.log",
+      "bytes": 294,
+      "sha256": "20a08da029a6dcdff65393cc106df683b315753700e02d4aac3a0c027d74a22d",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/solver_initial_check.log",
+      "bytes": 661,
+      "sha256": "2474ab3e9b1b9e69c30c57ec70d8dd252393f341c69c194ab05014ed9578517d",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/solver_raw.jsonl",
+      "bytes": 186090,
+      "sha256": "268c7753c96f51052a9cf02a2961d5327ba25e535d10957937b25f5f20fdfee2",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/solver_task_match.json",
+      "bytes": 4285,
+      "sha256": "8cc1287326bfde919b329ab685630c6a7121a5b5de5d56be2df64e0892f0f61d",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/solver_timing.csv",
+      "bytes": 58638,
+      "sha256": "6689aae2f986d5f801d3279979bdc6894a71d792ecffaa920b8e66a0731a54ef",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/sta_parse_checks.json",
+      "bytes": 217,
+      "sha256": "0789929ada05ebb78a820e7d383f4388e1adf0684a3ab517cac008d7c1fb9c77",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/supplied_input_costs.json",
+      "bytes": 786561,
+      "sha256": "fdb897bd7a16f3a4a24589b29d3961590f39150023a5e112593a1251208c54d1",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/timing_fem.csv",
+      "bytes": 4774763,
+      "sha256": "4e0d28ebd6337217a574c950829168aa99c9cc541cf96ebb9f1496a2de92b5b5",
+      "local_only": false,
+      "compressed_duplicate": true
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/timing_fem.csv.gz",
+      "bytes": 920764,
+      "sha256": "1429b5e8ad15c298d7cc4d071ec032915d3d6086d8e1e6680102384763b88f52",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/timing_native.csv",
+      "bytes": 30590715,
+      "sha256": "ee043657fdd9b3f9bd186b3f050c668e70139492993ff932cbef88ef976c6eda",
+      "local_only": false,
+      "compressed_duplicate": true
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/timing_native.csv.gz",
+      "bytes": 5869508,
+      "sha256": "ee2f88b80c1ec9be18605a7d31aeaea4ac5afd96649c67a459cb3e79e16ddd65",
+      "local_only": false,
+      "compressed_duplicate": false
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/timing_raw.csv",
+      "bytes": 63119578,
+      "sha256": "0e78b8f4edfc20aa7330f267079e5ba8e50da5d5499b45606d3954ff7251a052",
+      "local_only": false,
+      "compressed_duplicate": true
+    },
+    {
+      "path": "results/runtime_accuracy_20261115/timing_raw.csv.gz",
+      "bytes": 9247913,
+      "sha256": "4a293226a1b30bf759e2021cc0b8d7338421d6d559948a4956c574824960b5aa",
+      "local_only": false,
+      "compressed_duplicate": false
+    }
+  ],
+  "large_artifact_policy": "SPEFs, rewritten rule files, binaries and redundant uncompressed timing/prediction files remain local; no model weights or new meshes uploaded"
+}

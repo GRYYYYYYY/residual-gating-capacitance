@@ -1,0 +1,558 @@
+{
+  "fem32": [
+    {
+      "task": "fem",
+      "method": "affine",
+      "batch_limit": 32,
+      "queries": 71,
+      "macro_nrmse": 0.052539572658505874,
+      "occurrence_HT_macro_nrmse": 0.05914837949467774,
+      "p95_nonzero_component_absolute": 3.4004398516065426e-12,
+      "p99_nonzero_component_absolute": 4.506449072552442e-12,
+      "mean_total_wall_s": 0.016449856758117675,
+      "mean_total_cpu_s": 0.01645337324999936,
+      "sd_total_wall_s": 0.00041871157250473074,
+      "amortized_wall_ms": 0.23168812335377006,
+      "amortized_cpu_ms": 0.23173765140844166,
+      "throughput_queries_s": 4316.1470062627095,
+      "batch_mean_ms": 2.7416427930196123,
+      "batch_median_ms": 2.7229487895965576,
+      "batch_p95_ms": 2.8830504044890404,
+      "single_request_p95_ms": null,
+      "fit_once_all_contexts_wall_s": 0,
+      "batch_count_per_pass": 6,
+      "mean_actual_query_batch": 11.833333333333334,
+      "reference": "independent certified fine FEM, F/m",
+      "hardware": "Xeon Gold 6530, CPU24, one thread, float32 neural / float64 numerical",
+      "load_scope": "shared bundle cold load reported separately in preparation JSON; not assigned repeatedly to each method"
+    },
+    {
+      "task": "fem",
+      "method": "anchor",
+      "batch_limit": 32,
+      "queries": 71,
+      "macro_nrmse": 0.004512190190904297,
+      "occurrence_HT_macro_nrmse": 0.005269301748318501,
+      "p95_nonzero_component_absolute": 2.4057090075978374e-13,
+      "p99_nonzero_component_absolute": 3.5709865381368046e-13,
+      "mean_total_wall_s": 0.05596013255417347,
+      "mean_total_cpu_s": 0.055961444300001516,
+      "sd_total_wall_s": 0.0036850908905737717,
+      "amortized_wall_ms": 0.7881708810446968,
+      "amortized_cpu_ms": 0.7881893563380494,
+      "throughput_queries_s": 1268.7603970785246,
+      "batch_mean_ms": 9.326688759028912,
+      "batch_median_ms": 8.976815268397331,
+      "batch_p95_ms": 10.022136755287644,
+      "single_request_p95_ms": null,
+      "fit_once_all_contexts_wall_s": 0,
+      "batch_count_per_pass": 6,
+      "mean_actual_query_batch": 11.833333333333334,
+      "reference": "independent certified fine FEM, F/m",
+      "hardware": "Xeon Gold 6530, CPU24, one thread, float32 neural / float64 numerical",
+      "load_scope": "shared bundle cold load reported separately in preparation JSON; not assigned repeatedly to each method"
+    },
+    {
+      "task": "fem",
+      "method": "attentioncap_adapted",
+      "batch_limit": 32,
+      "queries": 71,
+      "macro_nrmse": 0.7069515017594425,
+      "occurrence_HT_macro_nrmse": 0.7401343622589489,
+      "p95_nonzero_component_absolute": 4.8096261177575916e-11,
+      "p99_nonzero_component_absolute": 5.141869473214702e-11,
+      "mean_total_wall_s": 0.0162962319329381,
+      "mean_total_cpu_s": 0.016303462799999658,
+      "sd_total_wall_s": 0.0013806679524211885,
+      "amortized_wall_ms": 0.22952439342166336,
+      "amortized_cpu_ms": 0.2296262366197135,
+      "throughput_queries_s": 4356.835389443257,
+      "batch_mean_ms": 2.716038655489683,
+      "batch_median_ms": 2.6223063468933105,
+      "batch_p95_ms": 3.295925259590149,
+      "single_request_p95_ms": null,
+      "fit_once_all_contexts_wall_s": 11.266464054584503,
+      "batch_count_per_pass": 6,
+      "mean_actual_query_batch": 11.833333333333334,
+      "reference": "independent certified fine FEM, F/m",
+      "hardware": "Xeon Gold 6530, CPU24, one thread, float32 neural / float64 numerical",
+      "load_scope": "shared bundle cold load reported separately in preparation JSON; not assigned repeatedly to each method"
+    },
+    {
+      "task": "fem",
+      "method": "binary",
+      "batch_limit": 32,
+      "queries": 71,
+      "macro_nrmse": 0.02218064742232295,
+      "occurrence_HT_macro_nrmse": 0.023230859641279255,
+      "p95_nonzero_component_absolute": 1.3386207093894958e-12,
+      "p99_nonzero_component_absolute": 1.4805723531358742e-12,
+      "mean_total_wall_s": 0.14979323521256446,
+      "mean_total_cpu_s": 0.14980038754999897,
+      "sd_total_wall_s": 0.0051914089295905345,
+      "amortized_wall_ms": 2.1097638762333024,
+      "amortized_cpu_ms": 2.109864613380267,
+      "throughput_queries_s": 473.9866917170677,
+      "batch_mean_ms": 24.965539202094078,
+      "batch_median_ms": 24.455904960632324,
+      "batch_p95_ms": 27.88680251687765,
+      "single_request_p95_ms": null,
+      "fit_once_all_contexts_wall_s": 0,
+      "batch_count_per_pass": 6,
+      "mean_actual_query_batch": 11.833333333333334,
+      "reference": "independent certified fine FEM, F/m",
+      "hardware": "Xeon Gold 6530, CPU24, one thread, float32 neural / float64 numerical",
+      "load_scope": "shared bundle cold load reported separately in preparation JSON; not assigned repeatedly to each method"
+    },
+    {
+      "task": "fem",
+      "method": "cmi",
+      "batch_limit": 32,
+      "queries": 71,
+      "macro_nrmse": 0.0045177425829712355,
+      "occurrence_HT_macro_nrmse": 0.0052693094537432485,
+      "p95_nonzero_component_absolute": 2.4057090075978374e-13,
+      "p99_nonzero_component_absolute": 3.5709865381368046e-13,
+      "mean_total_wall_s": 0.0655683282762766,
+      "mean_total_cpu_s": 0.06557116334999762,
+      "sd_total_wall_s": 0.0051081534196058655,
+      "amortized_wall_ms": 0.9234975813560083,
+      "amortized_cpu_ms": 0.9235375119717975,
+      "throughput_queries_s": 1082.8398689812052,
+      "batch_mean_ms": 10.928054712712765,
+      "batch_median_ms": 10.712407529354095,
+      "batch_p95_ms": 11.859158985316753,
+      "single_request_p95_ms": null,
+      "fit_once_all_contexts_wall_s": 0,
+      "batch_count_per_pass": 6,
+      "mean_actual_query_batch": 11.833333333333334,
+      "reference": "independent certified fine FEM, F/m",
+      "hardware": "Xeon Gold 6530, CPU24, one thread, float32 neural / float64 numerical",
+      "load_scope": "shared bundle cold load reported separately in preparation JSON; not assigned repeatedly to each method"
+    },
+    {
+      "task": "fem",
+      "method": "cnp",
+      "batch_limit": 32,
+      "queries": 71,
+      "macro_nrmse": 0.1657520411652959,
+      "occurrence_HT_macro_nrmse": 0.1716119413696695,
+      "p95_nonzero_component_absolute": 1.3050098287354287e-11,
+      "p99_nonzero_component_absolute": 1.492065656519044e-11,
+      "mean_total_wall_s": 0.010984009876847268,
+      "mean_total_cpu_s": 0.010988293699999985,
+      "sd_total_wall_s": 0.0035852811288302334,
+      "amortized_wall_ms": 0.15470436446263758,
+      "amortized_cpu_ms": 0.15476469999999978,
+      "throughput_queries_s": 6463.9417476906965,
+      "batch_mean_ms": 1.8306683128078778,
+      "batch_median_ms": 1.5914402902126312,
+      "batch_p95_ms": 3.4982364624738684,
+      "single_request_p95_ms": null,
+      "fit_once_all_contexts_wall_s": 0,
+      "batch_count_per_pass": 6,
+      "mean_actual_query_batch": 11.833333333333334,
+      "reference": "independent certified fine FEM, F/m",
+      "hardware": "Xeon Gold 6530, CPU24, one thread, float32 neural / float64 numerical",
+      "load_scope": "shared bundle cold load reported separately in preparation JSON; not assigned repeatedly to each method"
+    },
+    {
+      "task": "fem",
+      "method": "full",
+      "batch_limit": 32,
+      "queries": 71,
+      "macro_nrmse": 0.016754605037472965,
+      "occurrence_HT_macro_nrmse": 0.014559409724699005,
+      "p95_nonzero_component_absolute": 1.0248233698857733e-12,
+      "p99_nonzero_component_absolute": 1.5688242952571473e-12,
+      "mean_total_wall_s": 0.2630949918180704,
+      "mean_total_cpu_s": 0.26308839274999923,
+      "sd_total_wall_s": 0.0058596443950345665,
+      "amortized_wall_ms": 3.705563265043245,
+      "amortized_cpu_ms": 3.705470320422524,
+      "throughput_queries_s": 269.86450600738283,
+      "batch_mean_ms": 43.84916530301174,
+      "batch_median_ms": 43.233999982476234,
+      "batch_p95_ms": 45.99038362503052,
+      "single_request_p95_ms": null,
+      "fit_once_all_contexts_wall_s": 0,
+      "batch_count_per_pass": 6,
+      "mean_actual_query_batch": 11.833333333333334,
+      "reference": "independent certified fine FEM, F/m",
+      "hardware": "Xeon Gold 6530, CPU24, one thread, float32 neural / float64 numerical",
+      "load_scope": "shared bundle cold load reported separately in preparation JSON; not assigned repeatedly to each method"
+    },
+    {
+      "task": "fem",
+      "method": "gp",
+      "batch_limit": 32,
+      "queries": 71,
+      "macro_nrmse": 0.05371214942534592,
+      "occurrence_HT_macro_nrmse": 0.04158131363490023,
+      "p95_nonzero_component_absolute": 3.508964972483914e-12,
+      "p99_nonzero_component_absolute": 3.837870794774718e-12,
+      "mean_total_wall_s": 0.02247071508318186,
+      "mean_total_cpu_s": 0.022473261050001626,
+      "sd_total_wall_s": 0.0010397958607562124,
+      "amortized_wall_ms": 0.3164889448335473,
+      "amortized_cpu_ms": 0.3165248035211497,
+      "throughput_queries_s": 3159.66802734906,
+      "batch_mean_ms": 3.7451191805303097,
+      "batch_median_ms": 3.6573726683855057,
+      "batch_p95_ms": 3.8628460839390755,
+      "single_request_p95_ms": null,
+      "fit_once_all_contexts_wall_s": 0,
+      "batch_count_per_pass": 6,
+      "mean_actual_query_batch": 11.833333333333334,
+      "reference": "independent certified fine FEM, F/m",
+      "hardware": "Xeon Gold 6530, CPU24, one thread, float32 neural / float64 numerical",
+      "load_scope": "shared bundle cold load reported separately in preparation JSON; not assigned repeatedly to each method"
+    },
+    {
+      "task": "fem",
+      "method": "mlp_adapt",
+      "batch_limit": 32,
+      "queries": 71,
+      "macro_nrmse": 0.01889031873115397,
+      "occurrence_HT_macro_nrmse": 0.017917985952776837,
+      "p95_nonzero_component_absolute": 1.9754604287526745e-12,
+      "p99_nonzero_component_absolute": 2.365149077346013e-12,
+      "mean_total_wall_s": 0.00174245648086071,
+      "mean_total_cpu_s": 0.0017444468000022083,
+      "sd_total_wall_s": 0.0001567520484742286,
+      "amortized_wall_ms": 0.024541640575502958,
+      "amortized_cpu_ms": 0.024569673239467724,
+      "throughput_queries_s": 40747.07218221518,
+      "batch_mean_ms": 0.290409413476785,
+      "batch_median_ms": 0.2970695495605469,
+      "batch_p95_ms": 0.37407632917165756,
+      "single_request_p95_ms": null,
+      "fit_once_all_contexts_wall_s": 14.03333106264472,
+      "batch_count_per_pass": 6,
+      "mean_actual_query_batch": 11.833333333333334,
+      "reference": "independent certified fine FEM, F/m",
+      "hardware": "Xeon Gold 6530, CPU24, one thread, float32 neural / float64 numerical",
+      "load_scope": "shared bundle cold load reported separately in preparation JSON; not assigned repeatedly to each method"
+    },
+    {
+      "task": "fem",
+      "method": "residual",
+      "batch_limit": 32,
+      "queries": 71,
+      "macro_nrmse": 0.026879908649463446,
+      "occurrence_HT_macro_nrmse": 0.0230861347931019,
+      "p95_nonzero_component_absolute": 1.6992601636097115e-12,
+      "p99_nonzero_component_absolute": 2.7819327999960386e-12,
+      "mean_total_wall_s": 0.1455859001725912,
+      "mean_total_cpu_s": 0.14558815335000067,
+      "sd_total_wall_s": 0.002378557081082115,
+      "amortized_wall_ms": 2.050505636233679,
+      "amortized_cpu_ms": 2.0505373711267696,
+      "throughput_queries_s": 487.6845897564938,
+      "batch_mean_ms": 24.26431669543187,
+      "batch_median_ms": 24.006566032767296,
+      "batch_p95_ms": 25.56370422244072,
+      "single_request_p95_ms": null,
+      "fit_once_all_contexts_wall_s": 0,
+      "batch_count_per_pass": 6,
+      "mean_actual_query_batch": 11.833333333333334,
+      "reference": "independent certified fine FEM, F/m",
+      "hardware": "Xeon Gold 6530, CPU24, one thread, float32 neural / float64 numerical",
+      "load_scope": "shared bundle cold load reported separately in preparation JSON; not assigned repeatedly to each method"
+    }
+  ],
+  "native_kernel_ns": 1.7246570117680022,
+  "main_cpu_core_hours": 0.6489339456041666
+}
+all runtime/accuracy scientific checks passed
+Rc files read:
+  /etc/LatexMk
+Latexmk: This is Latexmk, John Collins, 20 November 2021, version: 4.76.
+Latexmk: Changing directory to 'paper/dac_layout_query_revision/'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'figures/runtime_accuracy.pdf'
+      'main.tex'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  "main.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21> (./IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+-- This is a 9 point document.
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./main.aux)
+-- Lines per column: 61 (exact).
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
+(./main.out) (./main.out)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg) [1{/var/lib/texm
+f/fonts/map/pdftex/updmap/pdftex.map}] [2 <./figures/method.pdf>]
+(./tables/fixed_missingness.tex)
+Underfull \hbox (badness 1859) in paragraph at lines 159--161
+\T1/ptm/m/n/9 (+20) Zero-truth-energy groups are ex-cluded from nor-mal-ized er
+-ror
+(./tables/fem_gain_range.tex) (./tables/budget_aux.tex) [3] [4 <./figures/budge
+t_accuracy.pdf>] (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd)
+(./tables/offgrid_runtime.tex) [5 <./figures/native_fidelity.pdf>]
+Underfull \hbox (badness 3536) in paragraph at lines 262--263
+\T1/ptm/m/n/9 (+20) trols re-pro-duce the reused ma-tri-ces ex-actly. Macro nor
+-mal-
+[6 <./figures/runtime_accuracy.pdf>] (./main.bbl)
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+[7] (./main.aux) )
+(see the transcript file for additional information){/usr/share/texlive/texmf-d
+ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
+bi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (7 pages, 281746 bytes).
+Transcript written on main.log.
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Examining 'main.log'
+=== TeX engine is 'pdfTeX'
+Latexmk: Found bibliography file(s) [references.bib]
+Latexmk: Undoing directory change
+Latexmk: All targets (main.pdf) are up-to-date
+Rc files read:
+  /etc/LatexMk
+Latexmk: This is Latexmk, John Collins, 20 November 2021, version: 4.76.
+Latexmk: Changing directory to 'paper/dac_layout_query_revision/'
+Rule 'pdflatex': File changes, etc:
+   Changed files, or newly in use since previous run(s):
+      'figures/runtime_accuracy.pdf'
+      'figures/runtime_native_agreement.pdf'
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  "extended.tex"'
+------------
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./extended.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21> (./IEEEtran.cls
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+-- This is a 9 point document.
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(./extended.aux)
+-- Lines per column: 61 (exact).
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ptm.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty))
+(./extended.out) (./extended.out)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg) [1{/var/lib/texm
+f/fonts/map/pdftex/updmap/pdftex.map}] [2 <./figures/method.pdf>]
+(./tables/fixed_missingness.tex)
+Underfull \hbox (badness 1859) in paragraph at lines 169--171
+\T1/ptm/m/n/9 (+20) Zero-truth-energy groups are ex-cluded from nor-mal-ized er
+-ror
+(./tables/fem_gain_range.tex) [3] (./tables/budget_aux.tex) [4 <./figures/budge
+t_accuracy.pdf>] [5 <./figures/native_fidelity.pdf>]
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 231--241
+[]\T1/ptm/m/n/9 (+20) We in-stru-ment two ca-pac-i-tance get-ters in Open-ROAD
+
+Underfull \hbox (badness 6708) in paragraph at lines 231--241
+\T1/pcr/m/n/9 0b54bb3203\T1/ptm/m/n/9 (+20) : fi-nite width/distance eval-u-a-t
+ion and in-dexed
+(./tables/offgrid.tex) [6 <./figures/support_protocol.pdf>]
+(./tables/runtime_detail.tex)
+Underfull \vbox (badness 6758) has occurred while \output is active [7 <./figur
+es/query_census.pdf> <./figures/runtime_accuracy.pdf>]
+Underfull \hbox (badness 1721) in paragraph at lines 367--368
+[]\T1/ptm/m/n/9 (+20) Public ge-om-e-try is rank one, FEM mod-els ide-al-ized t
+wo-
+[8 <./figures/runtime_native_agreement.pdf>] [9 <./figures/query_errors.pdf>]
+(./extended.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active)
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+[10] (./extended.aux) )
+(see the transcript file for additional information){/usr/share/texlive/texmf-d
+ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
+mes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on extended.pdf (10 pages, 425744 bytes).
+Transcript written on extended.log.
+Latexmk: Found input bbl file 'extended.bbl'
+Latexmk: Log file says output to 'extended.pdf'
+Latexmk: Examining 'extended.log'
+=== TeX engine is 'pdfTeX'
+Latexmk: Found bibliography file(s) [references.bib]
+Latexmk: Undoing directory change
+Latexmk: All targets (extended.pdf) are up-to-date

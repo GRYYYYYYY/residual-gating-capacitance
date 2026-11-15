@@ -1,0 +1,698 @@
+{
+  "rows": [
+    {
+      "task": "fem",
+      "method": "numerical",
+      "imports": {
+        "wall_s": 5.528941765427589,
+        "cpu_s": 3.3096919849999997
+      },
+      "load": {
+        "wall_s": 2.096220850944519e-05,
+        "cpu_s": 2.1134999999894433e-05
+      },
+      "total": {
+        "wall_s": 5.528974179178476,
+        "cpu_s": 3.3097199259999996
+      },
+      "members_loaded": 0,
+      "scope": "numerical",
+      "peak_rss_kib": 210396,
+      "block": 0,
+      "whole_process_wall_s": 5.847039770334959
+    },
+    {
+      "task": "fem",
+      "method": "numerical",
+      "imports": {
+        "wall_s": 2.320584036409855,
+        "cpu_s": 2.273698132
+      },
+      "load": {
+        "wall_s": 9.514391422271729e-06,
+        "cpu_s": 9.599999999831965e-06
+      },
+      "total": {
+        "wall_s": 2.32059970125556,
+        "cpu_s": 2.27371113
+      },
+      "members_loaded": 0,
+      "scope": "numerical",
+      "peak_rss_kib": 210308,
+      "block": 1,
+      "whole_process_wall_s": 2.58111073076725
+    },
+    {
+      "task": "fem",
+      "method": "numerical",
+      "imports": {
+        "wall_s": 2.2590961642563343,
+        "cpu_s": 2.212020931
+      },
+      "load": {
+        "wall_s": 9.715557098388672e-06,
+        "cpu_s": 9.850000000088954e-06
+      },
+      "total": {
+        "wall_s": 2.259112149477005,
+        "cpu_s": 2.212034269
+      },
+      "members_loaded": 0,
+      "scope": "numerical",
+      "peak_rss_kib": 210456,
+      "block": 2,
+      "whole_process_wall_s": 2.522988960146904
+    },
+    {
+      "task": "fem",
+      "method": "full",
+      "imports": {
+        "wall_s": 2.269241239875555,
+        "cpu_s": 2.227955268
+      },
+      "load": {
+        "wall_s": 0.14094725251197815,
+        "cpu_s": 0.06803221699999984
+      },
+      "total": {
+        "wall_s": 2.410201568156481,
+        "cpu_s": 2.295994077
+      },
+      "members_loaded": 3,
+      "scope": "full",
+      "peak_rss_kib": 214192,
+      "block": 0,
+      "whole_process_wall_s": 2.699192751199007
+    },
+    {
+      "task": "fem",
+      "method": "full",
+      "imports": {
+        "wall_s": 2.271175667643547,
+        "cpu_s": 2.229736548
+      },
+      "load": {
+        "wall_s": 0.02296331152319908,
+        "cpu_s": 0.022966253999999964
+      },
+      "total": {
+        "wall_s": 2.2941498197615147,
+        "cpu_s": 2.252708143
+      },
+      "members_loaded": 3,
+      "scope": "full",
+      "peak_rss_kib": 214300,
+      "block": 1,
+      "whole_process_wall_s": 2.5653334110975266
+    },
+    {
+      "task": "fem",
+      "method": "full",
+      "imports": {
+        "wall_s": 2.2753662317991257,
+        "cpu_s": 2.237801575
+      },
+      "load": {
+        "wall_s": 0.02302313968539238,
+        "cpu_s": 0.0230260659999999
+      },
+      "total": {
+        "wall_s": 2.298400189727545,
+        "cpu_s": 2.2608326510000003
+      },
+      "members_loaded": 3,
+      "scope": "full",
+      "peak_rss_kib": 214292,
+      "block": 2,
+      "whole_process_wall_s": 2.560065232217312
+    },
+    {
+      "task": "fem",
+      "method": "binary",
+      "imports": {
+        "wall_s": 2.222822304815054,
+        "cpu_s": 2.1826374050000004
+      },
+      "load": {
+        "wall_s": 0.4206625670194626,
+        "cpu_s": 0.23663154099999995
+      },
+      "total": {
+        "wall_s": 2.643500830978155,
+        "cpu_s": 2.419278219
+      },
+      "members_loaded": 9,
+      "scope": "Full + Binary + Residual bundle (loader granularity)",
+      "peak_rss_kib": 218148,
+      "block": 0,
+      "whole_process_wall_s": 2.9469121359288692
+    },
+    {
+      "task": "fem",
+      "method": "binary",
+      "imports": {
+        "wall_s": 2.294659998267889,
+        "cpu_s": 2.2717845050000003
+      },
+      "load": {
+        "wall_s": 0.09056948125362396,
+        "cpu_s": 0.09057241000000005
+      },
+      "total": {
+        "wall_s": 2.3852410316467285,
+        "cpu_s": 2.3623626910000004
+      },
+      "members_loaded": 9,
+      "scope": "Full + Binary + Residual bundle (loader granularity)",
+      "peak_rss_kib": 217652,
+      "block": 1,
+      "whole_process_wall_s": 2.673032522201538
+    },
+    {
+      "task": "fem",
+      "method": "binary",
+      "imports": {
+        "wall_s": 2.279100876301527,
+        "cpu_s": 2.2379119210000002
+      },
+      "load": {
+        "wall_s": 0.11439401283860207,
+        "cpu_s": 0.11439734600000007
+      },
+      "total": {
+        "wall_s": 2.3935073912143707,
+        "cpu_s": 2.352315494
+      },
+      "members_loaded": 9,
+      "scope": "Full + Binary + Residual bundle (loader granularity)",
+      "peak_rss_kib": 217672,
+      "block": 2,
+      "whole_process_wall_s": 2.657796833664179
+    },
+    {
+      "task": "fem",
+      "method": "mlp",
+      "imports": {
+        "wall_s": 2.307645846158266,
+        "cpu_s": 2.2624316390000003
+      },
+      "load": {
+        "wall_s": 0.005440320819616318,
+        "cpu_s": 0.005442194000000011
+      },
+      "total": {
+        "wall_s": 2.3130955286324024,
+        "cpu_s": 2.2678785550000002
+      },
+      "members_loaded": 3,
+      "scope": "mlp",
+      "peak_rss_kib": 211376,
+      "block": 0,
+      "whole_process_wall_s": 2.569699365645647
+    },
+    {
+      "task": "fem",
+      "method": "mlp",
+      "imports": {
+        "wall_s": 2.2629455029964447,
+        "cpu_s": 2.223464768
+      },
+      "load": {
+        "wall_s": 0.005361136049032211,
+        "cpu_s": 0.00536255100000016
+      },
+      "total": {
+        "wall_s": 2.2683146074414253,
+        "cpu_s": 2.2288317639999997
+      },
+      "members_loaded": 3,
+      "scope": "mlp",
+      "peak_rss_kib": 211580,
+      "block": 1,
+      "whole_process_wall_s": 2.546404629945755
+    },
+    {
+      "task": "fem",
+      "method": "mlp",
+      "imports": {
+        "wall_s": 2.286016248166561,
+        "cpu_s": 2.24433799
+      },
+      "load": {
+        "wall_s": 0.005460638552904129,
+        "cpu_s": 0.005462091000000058
+      },
+      "total": {
+        "wall_s": 2.291485283523798,
+        "cpu_s": 2.24980456
+      },
+      "members_loaded": 3,
+      "scope": "mlp",
+      "peak_rss_kib": 211480,
+      "block": 2,
+      "whole_process_wall_s": 2.54753689840436
+    },
+    {
+      "task": "fem",
+      "method": "cnp",
+      "imports": {
+        "wall_s": 2.315859828144312,
+        "cpu_s": 2.24993258
+      },
+      "load": {
+        "wall_s": 0.00725569948554039,
+        "cpu_s": 0.0072576239999997405
+      },
+      "total": {
+        "wall_s": 2.323124349117279,
+        "cpu_s": 2.2571944029999997
+      },
+      "members_loaded": 3,
+      "scope": "cnp",
+      "peak_rss_kib": 211584,
+      "block": 0,
+      "whole_process_wall_s": 2.5801117792725563
+    },
+    {
+      "task": "fem",
+      "method": "cnp",
+      "imports": {
+        "wall_s": 2.232750415802002,
+        "cpu_s": 2.1950236690000002
+      },
+      "load": {
+        "wall_s": 0.007376082241535187,
+        "cpu_s": 0.00737790299999963
+      },
+      "total": {
+        "wall_s": 2.2401357255876064,
+        "cpu_s": 2.202406763
+      },
+      "members_loaded": 3,
+      "scope": "cnp",
+      "peak_rss_kib": 211404,
+      "block": 1,
+      "whole_process_wall_s": 2.5006012246012688
+    },
+    {
+      "task": "fem",
+      "method": "cnp",
+      "imports": {
+        "wall_s": 2.2569941245019436,
+        "cpu_s": 2.216013998
+      },
+      "load": {
+        "wall_s": 0.0072838254272937775,
+        "cpu_s": 0.0072857800000001305
+      },
+      "total": {
+        "wall_s": 2.2642871886491776,
+        "cpu_s": 2.2233040870000003
+      },
+      "members_loaded": 3,
+      "scope": "cnp",
+      "peak_rss_kib": 211500,
+      "block": 2,
+      "whole_process_wall_s": 2.529402419924736
+    },
+    {
+      "task": "fem",
+      "method": "attentioncap",
+      "imports": {
+        "wall_s": 2.236492495983839,
+        "cpu_s": 2.196443652
+      },
+      "load": {
+        "wall_s": 1.0787570923566818,
+        "cpu_s": 0.7672256490000002
+      },
+      "total": {
+        "wall_s": 3.3152678832411766,
+        "cpu_s": 2.963678861
+      },
+      "members_loaded": 3,
+      "scope": "attentioncap",
+      "peak_rss_kib": 307036,
+      "block": 0,
+      "whole_process_wall_s": 3.8523555770516396
+    },
+    {
+      "task": "fem",
+      "method": "attentioncap",
+      "imports": {
+        "wall_s": 2.4041369408369064,
+        "cpu_s": 2.357677863
+      },
+      "load": {
+        "wall_s": 0.5285303145647049,
+        "cpu_s": 0.528531262
+      },
+      "total": {
+        "wall_s": 2.9326764829456806,
+        "cpu_s": 2.886213463
+      },
+      "members_loaded": 3,
+      "scope": "attentioncap",
+      "peak_rss_kib": 306936,
+      "block": 1,
+      "whole_process_wall_s": 3.4034261479973793
+    },
+    {
+      "task": "fem",
+      "method": "attentioncap",
+      "imports": {
+        "wall_s": 2.2563065476715565,
+        "cpu_s": 2.216899702
+      },
+      "load": {
+        "wall_s": 0.5255310945212841,
+        "cpu_s": 0.5255217990000003
+      },
+      "total": {
+        "wall_s": 2.781847931444645,
+        "cpu_s": 2.742426364
+      },
+      "members_loaded": 3,
+      "scope": "attentioncap",
+      "peak_rss_kib": 307156,
+      "block": 2,
+      "whole_process_wall_s": 3.274964541196823
+    },
+    {
+      "task": "native",
+      "method": "numerical",
+      "imports": {
+        "wall_s": 2.223461978137493,
+        "cpu_s": 2.2026001969999998
+      },
+      "load": {
+        "wall_s": 8.359551429748535e-06,
+        "cpu_s": 8.440999999859145e-06
+      },
+      "total": {
+        "wall_s": 2.2234762497246265,
+        "cpu_s": 2.202611679
+      },
+      "members_loaded": 0,
+      "scope": "numerical",
+      "peak_rss_kib": 210184,
+      "block": 0,
+      "whole_process_wall_s": 2.484315011650324
+    },
+    {
+      "task": "native",
+      "method": "numerical",
+      "imports": {
+        "wall_s": 2.25137372687459,
+        "cpu_s": 2.2121832830000003
+      },
+      "load": {
+        "wall_s": 9.07108187675476e-06,
+        "cpu_s": 9.153999999789164e-06
+      },
+      "total": {
+        "wall_s": 2.2513897344470024,
+        "cpu_s": 2.2121960950000004
+      },
+      "members_loaded": 0,
+      "scope": "numerical",
+      "peak_rss_kib": 210312,
+      "block": 1,
+      "whole_process_wall_s": 2.5077612921595573
+    },
+    {
+      "task": "native",
+      "method": "numerical",
+      "imports": {
+        "wall_s": 2.2624234072864056,
+        "cpu_s": 2.219051233
+      },
+      "load": {
+        "wall_s": 1.0926276445388794e-05,
+        "cpu_s": 1.1048999999818676e-05
+      },
+      "total": {
+        "wall_s": 2.262440610677004,
+        "cpu_s": 2.219065551
+      },
+      "members_loaded": 0,
+      "scope": "numerical",
+      "peak_rss_kib": 210312,
+      "block": 2,
+      "whole_process_wall_s": 2.5173779167234898
+    },
+    {
+      "task": "native",
+      "method": "full",
+      "imports": {
+        "wall_s": 2.260292522609234,
+        "cpu_s": 2.221994756
+      },
+      "load": {
+        "wall_s": 0.17015597596764565,
+        "cpu_s": 0.06581729600000008
+      },
+      "total": {
+        "wall_s": 2.430462557822466,
+        "cpu_s": 2.287819433
+      },
+      "members_loaded": 3,
+      "scope": "full",
+      "peak_rss_kib": 213884,
+      "block": 0,
+      "whole_process_wall_s": 2.734202954918146
+    },
+    {
+      "task": "native",
+      "method": "full",
+      "imports": {
+        "wall_s": 2.319940946996212,
+        "cpu_s": 2.267462084
+      },
+      "load": {
+        "wall_s": 0.023296520113945007,
+        "cpu_s": 0.02329956099999997
+      },
+      "total": {
+        "wall_s": 2.3432482071220875,
+        "cpu_s": 2.290766492
+      },
+      "members_loaded": 3,
+      "scope": "full",
+      "peak_rss_kib": 214560,
+      "block": 1,
+      "whole_process_wall_s": 2.606813345104456
+    },
+    {
+      "task": "native",
+      "method": "full",
+      "imports": {
+        "wall_s": 2.267485097050667,
+        "cpu_s": 2.227628015
+      },
+      "load": {
+        "wall_s": 0.02341090887784958,
+        "cpu_s": 0.023414177000000258
+      },
+      "total": {
+        "wall_s": 2.2909076549112797,
+        "cpu_s": 2.251047547
+      },
+      "members_loaded": 3,
+      "scope": "full",
+      "peak_rss_kib": 214508,
+      "block": 2,
+      "whole_process_wall_s": 2.5592584162950516
+    },
+    {
+      "task": "native",
+      "method": "binary",
+      "imports": {
+        "wall_s": 2.356584832072258,
+        "cpu_s": 2.3115658910000003
+      },
+      "load": {
+        "wall_s": 0.4213581159710884,
+        "cpu_s": 0.24570627100000042
+      },
+      "total": {
+        "wall_s": 2.777958683669567,
+        "cpu_s": 2.557280499
+      },
+      "members_loaded": 9,
+      "scope": "Full + Binary + Residual bundle (loader granularity)",
+      "peak_rss_kib": 218128,
+      "block": 0,
+      "whole_process_wall_s": 3.1259930320084095
+    },
+    {
+      "task": "native",
+      "method": "binary",
+      "imports": {
+        "wall_s": 2.5425721891224384,
+        "cpu_s": 2.491545904
+      },
+      "load": {
+        "wall_s": 0.12001453712582588,
+        "cpu_s": 0.12000642000000017
+      },
+      "total": {
+        "wall_s": 2.662599951028824,
+        "cpu_s": 2.61155871
+      },
+      "members_loaded": 9,
+      "scope": "Full + Binary + Residual bundle (loader granularity)",
+      "peak_rss_kib": 218152,
+      "block": 1,
+      "whole_process_wall_s": 2.9277493469417095
+    },
+    {
+      "task": "native",
+      "method": "binary",
+      "imports": {
+        "wall_s": 2.383300516754389,
+        "cpu_s": 2.3312057630000003
+      },
+      "load": {
+        "wall_s": 0.0951903760433197,
+        "cpu_s": 0.09517058200000017
+      },
+      "total": {
+        "wall_s": 2.4785023741424084,
+        "cpu_s": 2.4263820380000003
+      },
+      "members_loaded": 9,
+      "scope": "Full + Binary + Residual bundle (loader granularity)",
+      "peak_rss_kib": 218028,
+      "block": 2,
+      "whole_process_wall_s": 2.745411194860935
+    },
+    {
+      "task": "native",
+      "method": "mlp",
+      "imports": {
+        "wall_s": 2.25648932531476,
+        "cpu_s": 2.216675826
+      },
+      "load": {
+        "wall_s": 0.0054248422384262085,
+        "cpu_s": 0.005426895999999903
+      },
+      "total": {
+        "wall_s": 2.2619239389896393,
+        "cpu_s": 2.222107506
+      },
+      "members_loaded": 3,
+      "scope": "mlp",
+      "peak_rss_kib": 211348,
+      "block": 0,
+      "whole_process_wall_s": 2.5206169858574867
+    },
+    {
+      "task": "native",
+      "method": "mlp",
+      "imports": {
+        "wall_s": 2.274027179926634,
+        "cpu_s": 2.232736604
+      },
+      "load": {
+        "wall_s": 0.005395982414484024,
+        "cpu_s": 0.0053975670000001585
+      },
+      "total": {
+        "wall_s": 2.279431425035,
+        "cpu_s": 2.238138647
+      },
+      "members_loaded": 3,
+      "scope": "mlp",
+      "peak_rss_kib": 211436,
+      "block": 1,
+      "whole_process_wall_s": 2.5357622243463993
+    },
+    {
+      "task": "native",
+      "method": "mlp",
+      "imports": {
+        "wall_s": 2.336157325655222,
+        "cpu_s": 2.3319480639999997
+      },
+      "load": {
+        "wall_s": 0.005513697862625122,
+        "cpu_s": 0.005515407999999944
+      },
+      "total": {
+        "wall_s": 2.3416795060038567,
+        "cpu_s": 2.337467903
+      },
+      "members_loaded": 3,
+      "scope": "mlp",
+      "peak_rss_kib": 211528,
+      "block": 2,
+      "whole_process_wall_s": 2.602631863206625
+    },
+    {
+      "task": "native",
+      "method": "cnp",
+      "imports": {
+        "wall_s": 2.287010110914707,
+        "cpu_s": 2.241791353
+      },
+      "load": {
+        "wall_s": 0.007945019751787186,
+        "cpu_s": 0.007947338999999776
+      },
+      "total": {
+        "wall_s": 2.2949652895331383,
+        "cpu_s": 2.249743684
+      },
+      "members_loaded": 3,
+      "scope": "cnp",
+      "peak_rss_kib": 211372,
+      "block": 0,
+      "whole_process_wall_s": 2.5631083548069
+    },
+    {
+      "task": "native",
+      "method": "cnp",
+      "imports": {
+        "wall_s": 2.291558563709259,
+        "cpu_s": 2.2525805190000003
+      },
+      "load": {
+        "wall_s": 0.007131218910217285,
+        "cpu_s": 0.007132813000000127
+      },
+      "total": {
+        "wall_s": 2.298698104918003,
+        "cpu_s": 2.259717745
+      },
+      "members_loaded": 3,
+      "scope": "cnp",
+      "peak_rss_kib": 211388,
+      "block": 1,
+      "whole_process_wall_s": 2.5586760975420475
+    },
+    {
+      "task": "native",
+      "method": "cnp",
+      "imports": {
+        "wall_s": 2.2721839360892773,
+        "cpu_s": 2.2255093930000003
+      },
+      "load": {
+        "wall_s": 0.0072725750505924225,
+        "cpu_s": 0.007274579999999808
+      },
+      "total": {
+        "wall_s": 2.279465928673744,
+        "cpu_s": 2.2327884470000003
+      },
+      "members_loaded": 3,
+      "scope": "cnp",
+      "peak_rss_kib": 211424,
+      "block": 2,
+      "whole_process_wall_s": 2.542821567505598
+    }
+  ],
+  "scope": "fresh interpreter and model load; OS page cache uncontrolled, not storage-cold latency; no target adaptation; bundled control loader explicitly identified"
+}

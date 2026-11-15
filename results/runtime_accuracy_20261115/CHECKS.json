@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "timing_rows": 126340,
+  "timing_groups": 1140,
+  "canonical_equivalence": true,
+  "same_query_pairing": true,
+  "solver_rows": 213,
+  "native_runs": 96,
+  "fixed_node_exports": 12,
+  "source_training": false,
+  "scope": "query replay, matched 2D template solve, same-node offline native extraction; no node enrichment or online model substitution"
+}

@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "method": "anchor",
+      "wall_s": 0.05521123856306076,
+      "cpu_s": 0.05521023000000014
+    },
+    {
+      "method": "cmi",
+      "wall_s": 0.0657307431101799,
+      "cpu_s": 0.0657305490000013
+    },
+    {
+      "method": "affine",
+      "wall_s": 0.015616849064826965,
+      "cpu_s": 0.015616809999997372
+    },
+    {
+      "method": "gp",
+      "wall_s": 0.021895114332437515,
+      "cpu_s": 0.021895150999998947
+    },
+    {
+      "method": "residual",
+      "wall_s": 0.14625218510627747,
+      "cpu_s": 0.1462379459999994
+    },
+    {
+      "method": "binary",
+      "wall_s": 0.14601986482739449,
+      "cpu_s": 0.14601937100000129
+    },
+    {
+      "method": "full",
+      "wall_s": 0.2602108009159565,
+      "cpu_s": 0.26020334000000034
+    },
+    {
+      "method": "mlp_adapt",
+      "wall_s": 0.005899470299482346,
+      "cpu_s": 0.005899527000000404
+    },
+    {
+      "method": "cnp",
+      "wall_s": 0.01039949432015419,
+      "cpu_s": 0.010399559999999752
+    },
+    {
+      "method": "attentioncap_adapted",
+      "wall_s": 0.021724790334701538,
+      "cpu_s": 0.021724891999998164
+    }
+  ],
+  "blocks": 20,
+  "warmups": 3,
+  "inner_repetitions": 1,
+  "reason": "Each block covers the whole frozen population; individual calls use high-resolution clocks; C++ getter uses a separate long loop",
+  "batch_sizes": [
+    32,
+    1,
+    8
+  ],
+  "seed": 20261115
+}

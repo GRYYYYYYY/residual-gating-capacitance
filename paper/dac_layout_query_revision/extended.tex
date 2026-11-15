@@ -35,8 +35,8 @@ be generated and stored~\cite{yang2023cnncap}. This motivates improving rule
 evaluation while holding the available characterization samples fixed.
 
 Prior work has automated pattern and formula construction from field-solver
-samples~\cite{li2020autoprechar}, developed neural capacitance
-models~\cite{yang2023cnncap,zhou2026rmlpcap}, and studied geometry and
+samples~\cite{li2020autoprechar}, developed neural capacitance and matrix
+predictors~\cite{yang2023cnncap,zhou2026rmlpcap,attentioncap,flash}, and studied geometry and
 layer-thickness exploration~\cite{tsai}. We focus on the complementary
 problem of estimating uncharacterized queries from a supplied set of
 process-specific characterization samples.
@@ -296,12 +296,70 @@ chunks of at most 32 with all support samples. Original-grid API outputs and
 support restoration are bit-exact. Development checks show that changing
 query sets changes Full's predictions (maximum 0.0205 in source-normalized
 units in the public check), while fixed-policy input reordering leaves them
-unchanged. Raw token reordering in FEM changes Full by up to 0.00319 in source-normalized units; support envelope and gate descriptors change even when token features and anchor values are unchanged. Canonicalization is therefore part of the protocol. This is batch-conditioned query evaluation. Mean three-member
-FEM-batch wall times, including encoding and numerical branches, are
-43.67\,ms for Full, 25.33\,ms for Binary, and 8.32\,ms for Anchor;
-MLP fitting plus prediction takes 605.07\,ms. Model loading and reference
-solving are separate costs. These measurements do not establish end-to-end
-PEX speedup or online replacement.
+unchanged. Raw token reordering in FEM changes Full by up to 0.00319 in source-normalized units; support envelope and gate descriptors change even when token features and anchor values are unchanged. Canonicalization is therefore part of the protocol. This is batch-conditioned query evaluation.
+
+\begin{figure*}[t]
+\centering\includegraphics[width=\textwidth]{figures/runtime_accuracy.pdf}
+\caption{Accuracy and deployment cost. (a) Same 71 template queries: circles/squares/triangles use Q limits 32/8/1, respectively; each point has its own precision measurement. The ordinate is linear below 0.001 and logarithmic above it. The fine-solver marker denotes numerical agreement with the certified fine reference, not zero discretization error. Adaptation/loading is separate from warm evaluation. (b) Per-layout mean extraction ratios over three release runs; bars mark medians across eight layouts. (c) One-off prediction and fixed-node export for four process libraries at B=8, seed 11, excluding separately reported shared loading/support preparation. This panel uses its own controlled-support protocol, not the accuracy population in (a).}
+\label{fig:runtime}
+\end{figure*}
+
+% BEGIN RUNTIME_ADDENDUM
+\subsection{Accuracy--Runtime Trade-offs and Deployment Cost}
+We measure the same queries on one pinned Xeon Gold 6530 CPU thread,
+with three warmups and 20 randomized timing blocks. Each batch limit
+$Q\in\{1,8,32\}$ has separately evaluated predictions. Times include
+query encoding, numerical candidates, all three ensemble members, and output
+assembly; support and material tokens are excluded from the query denominator.
+Table~\ref{tab:offgrid} and Fig.~\ref{fig:runtime} pair error with measured cost.
+For the 71 templates, Full's warm amortized cost is
+3.706\,ms/query, versus 2.110 for Binary
+and 0.788 for Anchor. Full's actual single-request mean
+is 40.97\,ms; throughput does not imply this latency.
+
+Retaining each fixed-support fit reduces adapted MLP's warm cost to
+0.025\,ms/query, with NRMSE 0.01889;
+its one-time six-context fit costs 14.03\,s,
+including first-use optimizer initialization. Adapted AttentionCap costs
+0.230\,ms/query but has NRMSE 0.70695
+on these same templates; its source-selected adaptation costs
+11.27\,s. No query labels enter either fit.
+Transformer support states are not cached: changing $Q$ changes its predictions.
+Anchor/CMI remain more accurate than Full with this full support.
+
+A resident one-RHS P2 solve takes 3.719\,s/query,
+including a regenerated fine mesh, assembly, factorization and both nonzero
+outputs. Three passes match the certified full-matrix target row within
+1.5e-15 relative scale. Cold fine-only solving and
+three-level certification cost 316.1 and
+799.1\,s over these 71 geometries, respectively.
+Surrogate errors exceed reference uncertainty; these are not equal-accuracy
+speedup claims.
+
+For native agreement, a validated C++ finite-distance getter counterpart takes
+1.72\,ns/query in long warm loops after width/context resolution;
+the ctypes calling loop takes 0.567\,$\mu$s/query.
+Neither measures a complete PEX query. In 96 release-OpenROAD runs (eight
+unchanged layouts, four rule variants, three repeats), Full's extraction-time
+ratio to original rules ranges from 0.983 to 1.047.
+At $B=8$, seed 11, prediction and export for all four libraries cost
+0.70/0.67/0.91\,s for CMI/Binary/Full,
+plus shared input, support and model loading. Each library serves two measured
+designs. SPEF writing and STA are timed separately; rule parsing remains in
+extraction. The exported electrical results match the frozen variants exactly.
+This configuration keeps learned inference outside the native extraction loop;
+it establishes neither added-node enrichment nor online model replacement.
+% END RUNTIME_ADDENDUM
+\begin{table*}[t]
+\centering\caption{CPU query timing on the same 71 FEM templates. Warm ms/Q uses actual batch sizes with a maximum of 32; Q=1 mean/P95 are measured request latencies in ms. Fit is the one-time total for six support contexts, including first-use optimizer initialization. All neural results use three members; loading is reported separately. Complete component MAE/P95/P99 and per-block variation are in the reproduction CSVs.}
+\label{tab:runtime_detail}\small\input{tables/runtime_detail.tex}
+\end{table*}
+\begin{figure*}[t]
+\centering\includegraphics[width=.8\textwidth]{figures/runtime_native_agreement.pdf}
+\caption{Separate native-agreement runtime comparison on all 480 queries. Each method has independently scored Q limits 1, 8 and 32. The validated C++ counterpart reproduces the reference by construction, after width/context resolution. This is interface agreement, not a physical error ranking.}
+\label{fig:runtime_native}
+\end{figure*}
+
 
 \subsection{Discussion}
 Target observations support three deployment choices: numerical fitting, source-trained conditional residuals, and target parameter adaptation. Full fusion adds value in all five FEM controlled-subsampling conditions; sparse support and native timing tails favor simpler alternatives in several comparisons. With all supplied characterization samples, interpolation is more accurate on the layout-parameterized template cohort. Query-level replay, offline addition of rule nodes, and in-extractor replacement are distinct deployment levels. The evidence here supports replay and fixed-grid rule export; node enrichment and online model substitution are not established.

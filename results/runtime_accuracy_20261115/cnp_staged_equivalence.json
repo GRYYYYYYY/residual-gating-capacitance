@@ -1,0 +1,18 @@
+[
+  {
+    "task": "fem",
+    "passed": true,
+    "exact_predictions": true,
+    "timed_rows": 1780,
+    "cpu_s": 2.806166661999996,
+    "reason": "Expose original encoding, three forwards and assembly separately; not a faster-algorithm search"
+  },
+  {
+    "task": "native",
+    "passed": true,
+    "exact_predictions": true,
+    "timed_rows": 12060,
+    "cpu_s": 7.799820295999986,
+    "reason": "Expose original encoding, three forwards and assembly separately; not a faster-algorithm search"
+  }
+]

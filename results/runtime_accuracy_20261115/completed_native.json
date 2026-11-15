@@ -1,0 +1,430 @@
+{
+  "wall_s": 295.03463174030185,
+  "cpu_s": 294.94470117099996,
+  "timing_rows": 108540,
+  "predictions": 12960,
+  "queries": 480,
+  "preparation": [
+    {
+      "task": "native",
+      "table_id": "06f8f2a308808f0adfd88743",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.9267881289124489,
+      "cpu_s": 0.9267135120000001
+    },
+    {
+      "task": "native",
+      "table_id": "0b997be2eb616b97c59e77ab",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.4275406785309315,
+      "cpu_s": 0.4274808699999997
+    },
+    {
+      "task": "native",
+      "table_id": "0f76a8174aa1f76e26939943",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.42991797626018524,
+      "cpu_s": 0.4299194859999993
+    },
+    {
+      "task": "native",
+      "table_id": "10f7e1e8290f294ee1730887",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 13,
+      "query_labels_read": 0,
+      "wall_s": 0.4253416210412979,
+      "cpu_s": 0.425319161
+    },
+    {
+      "task": "native",
+      "table_id": "112c2949ae255c51e54f7488",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.4252447448670864,
+      "cpu_s": 0.4252456130000004
+    },
+    {
+      "task": "native",
+      "table_id": "113026b5c3054c598871535c",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.4273054972290993,
+      "cpu_s": 0.4272902350000001
+    },
+    {
+      "task": "native",
+      "table_id": "12248df76c94dd6bdf89ff99",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.4172142408788204,
+      "cpu_s": 0.4172154799999994
+    },
+    {
+      "task": "native",
+      "table_id": "16b458038977de2c8b4df345",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.4339776150882244,
+      "cpu_s": 0.43396993100000003
+    },
+    {
+      "task": "native",
+      "table_id": "1b1ef037580dde5f3c020423",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.42361868917942047,
+      "cpu_s": 0.4235974029999996
+    },
+    {
+      "task": "native",
+      "table_id": "1b49b1de34b4405354b5ff0c",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.4223819114267826,
+      "cpu_s": 0.42238333500000014
+    },
+    {
+      "task": "native",
+      "table_id": "2934641044496e0c34bbb395",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.4258212633430958,
+      "cpu_s": 0.4257978789999992
+    },
+    {
+      "task": "native",
+      "table_id": "31b9c8c860b1fea95145f073",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.4474601745605469,
+      "cpu_s": 0.4474386069999987
+    },
+    {
+      "task": "native",
+      "table_id": "35b601c5208b2a189d4fc497",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.4183526448905468,
+      "cpu_s": 0.4183303909999996
+    },
+    {
+      "task": "native",
+      "table_id": "37fa2f22d0385ed6ac4fd0d7",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.45234303548932076,
+      "cpu_s": 0.4523440839999999
+    },
+    {
+      "task": "native",
+      "table_id": "3c36b22d566fe13db4b23d1a",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.45066193491220474,
+      "cpu_s": 0.450638957999999
+    },
+    {
+      "task": "native",
+      "table_id": "448958cf09d7bcb97bb1b7ff",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.4289811886847019,
+      "cpu_s": 0.42898258099999964
+    },
+    {
+      "task": "native",
+      "table_id": "47dd5a65d3872c7e92c4523f",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.43174250796437263,
+      "cpu_s": 0.4317243029999993
+    },
+    {
+      "task": "native",
+      "table_id": "53a87308e39d4726dd9b09fb",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.45536642894148827,
+      "cpu_s": 0.4552958629999999
+    },
+    {
+      "task": "native",
+      "table_id": "54a13978d8eb1f71e42894a1",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 13,
+      "query_labels_read": 0,
+      "wall_s": 0.43394672870635986,
+      "cpu_s": 0.4339478630000002
+    },
+    {
+      "task": "native",
+      "table_id": "59887933e872a5c232d3c3e1",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.42709773406386375,
+      "cpu_s": 0.4270857639999992
+    },
+    {
+      "task": "native",
+      "table_id": "5a8affc5b945e38a8fa458c7",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 13,
+      "query_labels_read": 0,
+      "wall_s": 0.43066107481718063,
+      "cpu_s": 0.4306620369999994
+    },
+    {
+      "task": "native",
+      "table_id": "5a8b81ec5a31ddb1c9831218",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.4248886667191982,
+      "cpu_s": 0.4248663490000002
+    },
+    {
+      "task": "native",
+      "table_id": "60b54504ca69824d7d4ea758",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.4280238635838032,
+      "cpu_s": 0.4280254140000004
+    },
+    {
+      "task": "native",
+      "table_id": "611512c64581fed6987c8b1e",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.42341817915439606,
+      "cpu_s": 0.42339606899999893
+    },
+    {
+      "task": "native",
+      "table_id": "6b4fae633b18c759861ebc6b",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.42156023904681206,
+      "cpu_s": 0.42156162900000105
+    },
+    {
+      "task": "native",
+      "table_id": "6b5e6a13d750e69bdae1fb4f",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.41703997924923897,
+      "cpu_s": 0.4170203870000009
+    },
+    {
+      "task": "native",
+      "table_id": "7932ecb9a5db74ace09c5d40",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.4209996312856674,
+      "cpu_s": 0.4209892719999999
+    },
+    {
+      "task": "native",
+      "table_id": "7c4fcab3d99f38a406c6fcb5",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 13,
+      "query_labels_read": 0,
+      "wall_s": 0.45466965809464455,
+      "cpu_s": 0.45406032500000215
+    },
+    {
+      "task": "native",
+      "table_id": "7de91e4894393f3657d45cfa",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.5744347907602787,
+      "cpu_s": 0.5744207640000027
+    },
+    {
+      "task": "native",
+      "table_id": "88e750d55381fc7e00e4794b",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.5090336203575134,
+      "cpu_s": 0.5090127459999998
+    },
+    {
+      "task": "native",
+      "table_id": "92aeb9567f0645ddd7253a33",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.46094200015068054,
+      "cpu_s": 0.4609199799999999
+    },
+    {
+      "task": "native",
+      "table_id": "ab74c12303ff74e4bc0d5e92",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.41821372881531715,
+      "cpu_s": 0.41820439799999676
+    },
+    {
+      "task": "native",
+      "table_id": "b58ba9511499705531a06b1d",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.4175122044980526,
+      "cpu_s": 0.4174994380000001
+    },
+    {
+      "task": "native",
+      "table_id": "b7ba1b40372f907cb9777d67",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.4182436168193817,
+      "cpu_s": 0.4181905859999979
+    },
+    {
+      "task": "native",
+      "table_id": "ba70279e72268817beeef943",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 13,
+      "query_labels_read": 0,
+      "wall_s": 0.4591673016548157,
+      "cpu_s": 0.45915495399999884
+    },
+    {
+      "task": "native",
+      "table_id": "baa87426faeaad473af74984",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.4314461015164852,
+      "cpu_s": 0.431447820999999
+    },
+    {
+      "task": "native",
+      "table_id": "c639e50826b3dc98856105c8",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.4262513481080532,
+      "cpu_s": 0.4262299440000028
+    },
+    {
+      "task": "native",
+      "table_id": "cf85ceea9685e3e8648182a5",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.42049281671643257,
+      "cpu_s": 0.42049432600000003
+    },
+    {
+      "task": "native",
+      "table_id": "d08435bd563ed226c2885049",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.4246179014444351,
+      "cpu_s": 0.42460820500000196
+    },
+    {
+      "task": "native",
+      "table_id": "da9faefc287449d1c4106e48",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.42478976026177406,
+      "cpu_s": 0.42477688700000016
+    },
+    {
+      "task": "native",
+      "table_id": "ed89d3c7f81abefbe41786d7",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.42357533797621727,
+      "cpu_s": 0.4235655429999987
+    },
+    {
+      "task": "native",
+      "table_id": "f985f6fc0fc912db562f475d",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 12,
+      "query_labels_read": 0,
+      "wall_s": 0.42817314714193344,
+      "cpu_s": 0.42816215799999924
+    }
+  ],
+  "peak_rss_kib": 428924
+}

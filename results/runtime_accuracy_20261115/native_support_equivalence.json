@@ -1,0 +1,4325 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "query_id": "6da8d2eff68677bea4315b5a",
+      "table_id": "06f8f2a308808f0adfd88743",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3dec877ca4214e078009975b",
+      "table_id": "06f8f2a308808f0adfd88743",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "ab42464be77b110e0a75c0c9",
+      "table_id": "06f8f2a308808f0adfd88743",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "79b709fe07b3175756f107b1",
+      "table_id": "06f8f2a308808f0adfd88743",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "f17a1d0c1f6478c3a61f0f84",
+      "table_id": "06f8f2a308808f0adfd88743",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "ea77e4c8c8f7dc9199890220",
+      "table_id": "06f8f2a308808f0adfd88743",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7ce82f09910849e1108013f4",
+      "table_id": "06f8f2a308808f0adfd88743",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6c66f750aa37c75ec76a7a3c",
+      "table_id": "06f8f2a308808f0adfd88743",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7c98e321e2dd000ff02b65fe",
+      "table_id": "0b997be2eb616b97c59e77ab",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "f7d99a0f90482145b1eb5d5e",
+      "table_id": "0b997be2eb616b97c59e77ab",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c7d540a717211362bdfa6ea7",
+      "table_id": "0b997be2eb616b97c59e77ab",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "43018b9027d7678b00a0e3b4",
+      "table_id": "0b997be2eb616b97c59e77ab",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6ab37aeb098156bf52dc6204",
+      "table_id": "0b997be2eb616b97c59e77ab",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c2b86e74df8f8bf78c9de15a",
+      "table_id": "0b997be2eb616b97c59e77ab",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1ecec814e76cb5ad92839d10",
+      "table_id": "0b997be2eb616b97c59e77ab",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "5efec88c0331b8011dfcb3cd",
+      "table_id": "0b997be2eb616b97c59e77ab",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "ca505cf21df2942ec54d86bd",
+      "table_id": "0b997be2eb616b97c59e77ab",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b86c6c066a603d7835ee5cdb",
+      "table_id": "0b997be2eb616b97c59e77ab",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "44aa2e546243b03a4f3dc2a2",
+      "table_id": "0b997be2eb616b97c59e77ab",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b34a43d02734b8bbbdb9196a",
+      "table_id": "0b997be2eb616b97c59e77ab",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6f928b904db1add73fc4d438",
+      "table_id": "0f76a8174aa1f76e26939943",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b2ab229f1eb7518b1da71303",
+      "table_id": "0f76a8174aa1f76e26939943",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e6f03a0ced4b56b183248c92",
+      "table_id": "0f76a8174aa1f76e26939943",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "312a0f39fe1e947043ec37d2",
+      "table_id": "0f76a8174aa1f76e26939943",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1f7687562691a00541534886",
+      "table_id": "0f76a8174aa1f76e26939943",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "4368d3466a16f271b8ab7f09",
+      "table_id": "0f76a8174aa1f76e26939943",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "4902d9b34497fe4c004aab4b",
+      "table_id": "0f76a8174aa1f76e26939943",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "a9c358fd6eb5e5b487e35ed9",
+      "table_id": "0f76a8174aa1f76e26939943",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "61f7d8448690bc323f98ab23",
+      "table_id": "0f76a8174aa1f76e26939943",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e59e15c633e811d95a5db495",
+      "table_id": "0f76a8174aa1f76e26939943",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "9b4b52666972e8d4d827437c",
+      "table_id": "0f76a8174aa1f76e26939943",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "8a37f55347e8966367966463",
+      "table_id": "0f76a8174aa1f76e26939943",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e4995d4749c83c0872d7da78",
+      "table_id": "10f7e1e8290f294ee1730887",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "f02f9a13ebd978fe81f13492",
+      "table_id": "10f7e1e8290f294ee1730887",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c08cb0254c26b440a9ec3247",
+      "table_id": "10f7e1e8290f294ee1730887",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "aa3c3bf295cafa3051d186e9",
+      "table_id": "10f7e1e8290f294ee1730887",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3d954894fe99a1d3d5db7a24",
+      "table_id": "10f7e1e8290f294ee1730887",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e4fc6b0a0d3e0555976a551f",
+      "table_id": "10f7e1e8290f294ee1730887",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "4c99f405b29f52cdc9589e9c",
+      "table_id": "10f7e1e8290f294ee1730887",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "344e69ee077339fe65d6f185",
+      "table_id": "10f7e1e8290f294ee1730887",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "ca4d157b89e95dbbc5fe9ffa",
+      "table_id": "10f7e1e8290f294ee1730887",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "06be1d634a1222e0f3708bf3",
+      "table_id": "10f7e1e8290f294ee1730887",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "06c1137bff15b639970f3177",
+      "table_id": "10f7e1e8290f294ee1730887",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e9d633822c057540f3312edc",
+      "table_id": "10f7e1e8290f294ee1730887",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6c8203135525765fb8e25014",
+      "table_id": "112c2949ae255c51e54f7488",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "78b43935bf282a513c0a108a",
+      "table_id": "112c2949ae255c51e54f7488",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3bb2b3f1ccd611c984e30175",
+      "table_id": "112c2949ae255c51e54f7488",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b758ca0721d9ec7c70d1f420",
+      "table_id": "112c2949ae255c51e54f7488",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "ce3755d2696942ca108d72da",
+      "table_id": "112c2949ae255c51e54f7488",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "da9d1df3141d3670511dc1c8",
+      "table_id": "112c2949ae255c51e54f7488",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "0b99faca88c14ab317ca9804",
+      "table_id": "112c2949ae255c51e54f7488",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "996838209d218160f40cf093",
+      "table_id": "112c2949ae255c51e54f7488",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "4cb30903d315680459074c34",
+      "table_id": "112c2949ae255c51e54f7488",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "13c8cb581c506c106f0bd497",
+      "table_id": "112c2949ae255c51e54f7488",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e852295d1fac953e9e98208a",
+      "table_id": "112c2949ae255c51e54f7488",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6e8bc1c96e13c23e298f8784",
+      "table_id": "112c2949ae255c51e54f7488",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "385b5c66f32bce11e854e9e7",
+      "table_id": "113026b5c3054c598871535c",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6ff851a235d95a99fb466cf0",
+      "table_id": "113026b5c3054c598871535c",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b742a28b611f4e001a63d486",
+      "table_id": "113026b5c3054c598871535c",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1591c70021197e42ca234051",
+      "table_id": "113026b5c3054c598871535c",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "dcb721187abef95dd33c8fc7",
+      "table_id": "113026b5c3054c598871535c",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "51ff54b64ca302c245d31ac4",
+      "table_id": "113026b5c3054c598871535c",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "88c0de0228eb3307eab810b8",
+      "table_id": "113026b5c3054c598871535c",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "41071a8275b90467eae28ae3",
+      "table_id": "12248df76c94dd6bdf89ff99",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "d0d92083d77be95ae30a0c57",
+      "table_id": "12248df76c94dd6bdf89ff99",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "24cf11be3d734e8ec74126f2",
+      "table_id": "12248df76c94dd6bdf89ff99",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1aff1b937a48ca7156de0ae2",
+      "table_id": "12248df76c94dd6bdf89ff99",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3235f70b7914676410f0929b",
+      "table_id": "12248df76c94dd6bdf89ff99",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "9051990d2bc9c8c8f7f09498",
+      "table_id": "12248df76c94dd6bdf89ff99",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b0a5784c2630d2568558ec7b",
+      "table_id": "12248df76c94dd6bdf89ff99",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "fd1564ff34118d798d43624c",
+      "table_id": "12248df76c94dd6bdf89ff99",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "22034abcd03486a4e017942c",
+      "table_id": "12248df76c94dd6bdf89ff99",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "2962dbe567912fdee098ca18",
+      "table_id": "12248df76c94dd6bdf89ff99",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "2adbc962684f405a15c0e224",
+      "table_id": "12248df76c94dd6bdf89ff99",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "de23ba51ce660812e12416fe",
+      "table_id": "12248df76c94dd6bdf89ff99",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "853770f23e4a545677c96e09",
+      "table_id": "16b458038977de2c8b4df345",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "08819040f5e5df008a3e5861",
+      "table_id": "16b458038977de2c8b4df345",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c45ba386e0fee2a7e6d3d1f0",
+      "table_id": "16b458038977de2c8b4df345",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e4ec6442e186255303d2c2d6",
+      "table_id": "16b458038977de2c8b4df345",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "885a5d86266e180534e9def9",
+      "table_id": "16b458038977de2c8b4df345",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1d32d76506506b0c56e06862",
+      "table_id": "16b458038977de2c8b4df345",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "5dd3e5dbef58c0c79dedb7e1",
+      "table_id": "16b458038977de2c8b4df345",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "365d7d4bf9d594b7bae41321",
+      "table_id": "16b458038977de2c8b4df345",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "4aa44c95837f67e963e5fa34",
+      "table_id": "16b458038977de2c8b4df345",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "5ae6f936217a8dc1cf71f597",
+      "table_id": "16b458038977de2c8b4df345",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "858df3e98ef3d9b438dbff0a",
+      "table_id": "16b458038977de2c8b4df345",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "2b983b58e4bf20743b324f31",
+      "table_id": "16b458038977de2c8b4df345",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "82beffd1a34bbd1643fdf022",
+      "table_id": "1b1ef037580dde5f3c020423",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "54fbff1861424875779de6cf",
+      "table_id": "1b1ef037580dde5f3c020423",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "92b9384de2bf4ac081fdbbf2",
+      "table_id": "1b1ef037580dde5f3c020423",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "976eb1f81542f4065ddf29c2",
+      "table_id": "1b1ef037580dde5f3c020423",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "0fcb3c3f877bff7e7a8bdfca",
+      "table_id": "1b1ef037580dde5f3c020423",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "9c937b7606e501f39be55682",
+      "table_id": "1b1ef037580dde5f3c020423",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3d9011214597ccd9e1d59114",
+      "table_id": "1b1ef037580dde5f3c020423",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "4dc2390f0f1633a07d1a4068",
+      "table_id": "1b1ef037580dde5f3c020423",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1cd0aa7f6418a98af008c632",
+      "table_id": "1b1ef037580dde5f3c020423",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "41cb3bbabf60e1134054c324",
+      "table_id": "1b1ef037580dde5f3c020423",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "f44f209ba893209c5846b887",
+      "table_id": "1b1ef037580dde5f3c020423",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "15dafa9ee931f35e391283fe",
+      "table_id": "1b49b1de34b4405354b5ff0c",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "8f946b730421546ecdb12bee",
+      "table_id": "1b49b1de34b4405354b5ff0c",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "a3385bbc9a2f3cfc83c612d6",
+      "table_id": "1b49b1de34b4405354b5ff0c",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "d320af92e1a66de72897bfc6",
+      "table_id": "1b49b1de34b4405354b5ff0c",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "10c594ecbd49f656e004d661",
+      "table_id": "1b49b1de34b4405354b5ff0c",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "300ab25b8e7fe222c8c0fbc0",
+      "table_id": "1b49b1de34b4405354b5ff0c",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6517256be38ff09345731783",
+      "table_id": "1b49b1de34b4405354b5ff0c",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7d0d47c413592046ed0cef92",
+      "table_id": "1b49b1de34b4405354b5ff0c",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "49916b739455166bfae93321",
+      "table_id": "1b49b1de34b4405354b5ff0c",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "053ede9c5952ed9d162371c9",
+      "table_id": "1b49b1de34b4405354b5ff0c",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "234a397f26bee51c7ca6aa80",
+      "table_id": "1b49b1de34b4405354b5ff0c",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "17ce2f928a5f4bfdea80623c",
+      "table_id": "1b49b1de34b4405354b5ff0c",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "652a5584555d0f871f200d6b",
+      "table_id": "2934641044496e0c34bbb395",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "24bcf70f090b9450a0fa5ea2",
+      "table_id": "2934641044496e0c34bbb395",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "4f36dc7e47b79f36e2e23bff",
+      "table_id": "2934641044496e0c34bbb395",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "a2bd22f7427b55d833a00480",
+      "table_id": "2934641044496e0c34bbb395",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "900e07b0cbc84a135721d751",
+      "table_id": "2934641044496e0c34bbb395",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7c104305f9ffe7b674ffe37c",
+      "table_id": "2934641044496e0c34bbb395",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "88ca6b90bcf11a1eb1ab77af",
+      "table_id": "2934641044496e0c34bbb395",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c582a41b2b40b90a1417063f",
+      "table_id": "2934641044496e0c34bbb395",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6dac531312708ca378c4b83c",
+      "table_id": "2934641044496e0c34bbb395",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "8407dc4982913c920e19c72f",
+      "table_id": "2934641044496e0c34bbb395",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "41ecbc21e41fd51d9d86ff0c",
+      "table_id": "2934641044496e0c34bbb395",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "2a5f3738160b687e88d5aca2",
+      "table_id": "2934641044496e0c34bbb395",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "9754c47a07e4cb63bac0551e",
+      "table_id": "31b9c8c860b1fea95145f073",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "ba10f924d191b37d7f27ffd8",
+      "table_id": "31b9c8c860b1fea95145f073",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "8d6fb03545804b442d8a6b85",
+      "table_id": "31b9c8c860b1fea95145f073",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "8dee2ddcdc9b1db969888e96",
+      "table_id": "31b9c8c860b1fea95145f073",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "a914112ec848479040e939c5",
+      "table_id": "31b9c8c860b1fea95145f073",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "2bd4c4cfd12c40eaa4c92479",
+      "table_id": "31b9c8c860b1fea95145f073",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1b5cd1f71bbd6cc306dd1121",
+      "table_id": "31b9c8c860b1fea95145f073",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "8cdf3e60a0972dbda97e769e",
+      "table_id": "31b9c8c860b1fea95145f073",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1fdb28ea1848edda76cefee7",
+      "table_id": "31b9c8c860b1fea95145f073",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "889672dc43f8c411fc888a23",
+      "table_id": "31b9c8c860b1fea95145f073",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "5267b275f7cef6b0698322d0",
+      "table_id": "31b9c8c860b1fea95145f073",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1414a4025917bd34aa929659",
+      "table_id": "31b9c8c860b1fea95145f073",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b967378554a4de54b247b191",
+      "table_id": "35b601c5208b2a189d4fc497",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e03f5880a6882fbd010396f1",
+      "table_id": "35b601c5208b2a189d4fc497",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "46b7c4b285d550269cedace7",
+      "table_id": "35b601c5208b2a189d4fc497",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7d25f6e1e0e9ba466ca67194",
+      "table_id": "35b601c5208b2a189d4fc497",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "52537c2bd698f804b613a29c",
+      "table_id": "35b601c5208b2a189d4fc497",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b4f6b2b3ead03f4868cf8253",
+      "table_id": "35b601c5208b2a189d4fc497",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "056ecd18d1fafd36b4a55f62",
+      "table_id": "35b601c5208b2a189d4fc497",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c6fa4c543388225d340c5cfe",
+      "table_id": "35b601c5208b2a189d4fc497",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "61f3fe690326fc17e4d1294d",
+      "table_id": "35b601c5208b2a189d4fc497",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6d66f703c1312e9d84e4e686",
+      "table_id": "35b601c5208b2a189d4fc497",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c8e8db59e6a551cdcaf027c3",
+      "table_id": "35b601c5208b2a189d4fc497",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c76b049d42988f0fab3931b2",
+      "table_id": "35b601c5208b2a189d4fc497",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "a601a4c54ebcc632304a26b1",
+      "table_id": "37fa2f22d0385ed6ac4fd0d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e27ea59f7dfa4b4282f7968f",
+      "table_id": "37fa2f22d0385ed6ac4fd0d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "2d872a191d55521f54b16b6c",
+      "table_id": "37fa2f22d0385ed6ac4fd0d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e8fa004da5f4ab0e3255c8fa",
+      "table_id": "37fa2f22d0385ed6ac4fd0d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "75aacbb4e08ad38b464389a9",
+      "table_id": "37fa2f22d0385ed6ac4fd0d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "53a715c8e2a584da65ae1356",
+      "table_id": "37fa2f22d0385ed6ac4fd0d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "55516480cc9399dc7b979ad4",
+      "table_id": "37fa2f22d0385ed6ac4fd0d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3995d9259421b6b91a554b0b",
+      "table_id": "37fa2f22d0385ed6ac4fd0d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "21939b5d3226d3c5f198b6bd",
+      "table_id": "37fa2f22d0385ed6ac4fd0d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e546af0a1235d36b1c8e0b34",
+      "table_id": "37fa2f22d0385ed6ac4fd0d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "d2f6b3d2f16bd18211e39496",
+      "table_id": "37fa2f22d0385ed6ac4fd0d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "0e2348836075fcf4cc8b2e83",
+      "table_id": "37fa2f22d0385ed6ac4fd0d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "0e14c1f3aa80d8402ccb45fe",
+      "table_id": "3c36b22d566fe13db4b23d1a",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "09032c04a42854ce2c7e5af1",
+      "table_id": "3c36b22d566fe13db4b23d1a",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b5241f2b851ca1c43b3bc38f",
+      "table_id": "3c36b22d566fe13db4b23d1a",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "10ec27643bade969a724c317",
+      "table_id": "3c36b22d566fe13db4b23d1a",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "14335c7fcd84f200a9b5bdc8",
+      "table_id": "3c36b22d566fe13db4b23d1a",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "fa0fb6b906e7073a4d9f4c71",
+      "table_id": "3c36b22d566fe13db4b23d1a",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "593d1958d6bc287110be7d43",
+      "table_id": "3c36b22d566fe13db4b23d1a",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3ac6cce8f61e3942d79c1c9c",
+      "table_id": "3c36b22d566fe13db4b23d1a",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "230545119fbd67b15b82a6e1",
+      "table_id": "3c36b22d566fe13db4b23d1a",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e87fe964b597a77243ba878a",
+      "table_id": "3c36b22d566fe13db4b23d1a",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c5e3618903763ea475180a3e",
+      "table_id": "3c36b22d566fe13db4b23d1a",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "ca526733de9ab1ea6f49eeb1",
+      "table_id": "3c36b22d566fe13db4b23d1a",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "767b4100683bdaab375f5d09",
+      "table_id": "448958cf09d7bcb97bb1b7ff",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "036542f6d9cbd2b005271931",
+      "table_id": "448958cf09d7bcb97bb1b7ff",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "193fac3407fc90767e0fb860",
+      "table_id": "448958cf09d7bcb97bb1b7ff",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "9d3be7fb6db00a28fda08015",
+      "table_id": "448958cf09d7bcb97bb1b7ff",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3815b4439625bc6b57656224",
+      "table_id": "448958cf09d7bcb97bb1b7ff",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6e0068b6083877661280447b",
+      "table_id": "448958cf09d7bcb97bb1b7ff",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "ccfc022f2a75317c06fc02ca",
+      "table_id": "448958cf09d7bcb97bb1b7ff",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "54b20d66c4ea26840b6bfc98",
+      "table_id": "448958cf09d7bcb97bb1b7ff",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "fd3dbe1eff75f590e99ea2fe",
+      "table_id": "448958cf09d7bcb97bb1b7ff",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e894f55ccfc23ebb644d6e70",
+      "table_id": "448958cf09d7bcb97bb1b7ff",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "49c8329bfc3bbca9069e7a67",
+      "table_id": "448958cf09d7bcb97bb1b7ff",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c2b55bfb735f42cd664eaf49",
+      "table_id": "448958cf09d7bcb97bb1b7ff",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "4b09f3a2ec651b4712d14162",
+      "table_id": "47dd5a65d3872c7e92c4523f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e91eb33a65da880061bc295f",
+      "table_id": "47dd5a65d3872c7e92c4523f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "606ba06f3a032eba14ca9804",
+      "table_id": "47dd5a65d3872c7e92c4523f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "79e8234000e384814170ab5b",
+      "table_id": "47dd5a65d3872c7e92c4523f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "0839c8bfc0a85086939e7add",
+      "table_id": "47dd5a65d3872c7e92c4523f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "dcdb10214cad2b74f9b13c6e",
+      "table_id": "47dd5a65d3872c7e92c4523f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "430ec66d0f84ef2a0d34f5ed",
+      "table_id": "47dd5a65d3872c7e92c4523f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "8f88c6b6455b6640ed3431ad",
+      "table_id": "47dd5a65d3872c7e92c4523f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "2ee1a7d44d4f56fcd776b081",
+      "table_id": "47dd5a65d3872c7e92c4523f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c6d9e95e79c2591c2a551c61",
+      "table_id": "47dd5a65d3872c7e92c4523f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "2ae71a1a45c3e4c201242981",
+      "table_id": "53a87308e39d4726dd9b09fb",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "125d2400a99d029776e4b01c",
+      "table_id": "53a87308e39d4726dd9b09fb",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e475c7cb1040a709a9a47ca6",
+      "table_id": "53a87308e39d4726dd9b09fb",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "9704f9c6bca27a3a2e347292",
+      "table_id": "53a87308e39d4726dd9b09fb",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "74e37f382b91a3f58929f58e",
+      "table_id": "53a87308e39d4726dd9b09fb",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "53c1630f3b5c57e6a1e9598c",
+      "table_id": "53a87308e39d4726dd9b09fb",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "750ab539bd2f971e42d0c06e",
+      "table_id": "53a87308e39d4726dd9b09fb",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c01cb2919509d4133f32c1b5",
+      "table_id": "53a87308e39d4726dd9b09fb",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b2d91dbcff810c776af97d02",
+      "table_id": "53a87308e39d4726dd9b09fb",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "43605507cf66e377669f2308",
+      "table_id": "53a87308e39d4726dd9b09fb",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b26e9d565c736445ea623740",
+      "table_id": "53a87308e39d4726dd9b09fb",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "219e17c3c51904fc702ee9a0",
+      "table_id": "53a87308e39d4726dd9b09fb",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1fad2bd34cc5524ef72fe5a3",
+      "table_id": "54a13978d8eb1f71e42894a1",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c0dda13bee2b194331dabd32",
+      "table_id": "54a13978d8eb1f71e42894a1",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "25961db38f1c5d212e44904b",
+      "table_id": "54a13978d8eb1f71e42894a1",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "13a7d788eb7bf66bf87e2ceb",
+      "table_id": "54a13978d8eb1f71e42894a1",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "bf1fb43424fccdbf820b8f93",
+      "table_id": "54a13978d8eb1f71e42894a1",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "f643906296936d704af7749c",
+      "table_id": "54a13978d8eb1f71e42894a1",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "10d702b087c2b1f6fc728e0c",
+      "table_id": "54a13978d8eb1f71e42894a1",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "4270c4667c453d2881ff434e",
+      "table_id": "54a13978d8eb1f71e42894a1",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "ce592fe212f1026149929773",
+      "table_id": "54a13978d8eb1f71e42894a1",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c798fa56ab90ad8540858791",
+      "table_id": "54a13978d8eb1f71e42894a1",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "110d37f4664b5f0038388dde",
+      "table_id": "54a13978d8eb1f71e42894a1",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7b1de6a93530dd064f274a06",
+      "table_id": "54a13978d8eb1f71e42894a1",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "ea5ccfc54cfba27c50f3af93",
+      "table_id": "59887933e872a5c232d3c3e1",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7f6c030017c83e15e1f29bf6",
+      "table_id": "59887933e872a5c232d3c3e1",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "38a5e9b332962f978183d892",
+      "table_id": "59887933e872a5c232d3c3e1",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "ce4f4071c0cfdc833521bda6",
+      "table_id": "59887933e872a5c232d3c3e1",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "0d1a912b98674e65b2938bb8",
+      "table_id": "59887933e872a5c232d3c3e1",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "0f3b0cfe1638619973d1b35e",
+      "table_id": "59887933e872a5c232d3c3e1",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "442933ae9ea17e2d88b53ee2",
+      "table_id": "59887933e872a5c232d3c3e1",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "96871b0df954c4cdde83d62a",
+      "table_id": "59887933e872a5c232d3c3e1",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3053d055c7c985c1b6207919",
+      "table_id": "59887933e872a5c232d3c3e1",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "ae8d3095feeb83edb0a211b5",
+      "table_id": "59887933e872a5c232d3c3e1",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "776ea766988126c174ed17fe",
+      "table_id": "59887933e872a5c232d3c3e1",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "57be8fafa61546b54fb4fa10",
+      "table_id": "59887933e872a5c232d3c3e1",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3685328d751bdeb88d72cf8b",
+      "table_id": "5a8affc5b945e38a8fa458c7",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "303742c0fc1c32c1e696c34f",
+      "table_id": "5a8affc5b945e38a8fa458c7",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "f25d89e725089621d8f4b295",
+      "table_id": "5a8affc5b945e38a8fa458c7",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "95e87f8e3db906491c9d456c",
+      "table_id": "5a8affc5b945e38a8fa458c7",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3bdae4420400784c4d9d3828",
+      "table_id": "5a8affc5b945e38a8fa458c7",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6faa2a8791fa8ca42b8982c0",
+      "table_id": "5a8affc5b945e38a8fa458c7",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "64c0c64807cfb78fa5ba1af3",
+      "table_id": "5a8affc5b945e38a8fa458c7",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "0bb38712dab450461ffe49ce",
+      "table_id": "5a8affc5b945e38a8fa458c7",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "5736cca7ae7152b0a38c51f5",
+      "table_id": "5a8affc5b945e38a8fa458c7",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "55113be2c715f75b80d15bd7",
+      "table_id": "5a8affc5b945e38a8fa458c7",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "02bdc760ba2c2b367a4dc5f8",
+      "table_id": "5a8affc5b945e38a8fa458c7",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "a3da9f1c5fe2c5bba1cf970e",
+      "table_id": "5a8affc5b945e38a8fa458c7",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "129d1df732238526e40f822a",
+      "table_id": "5a8b81ec5a31ddb1c9831218",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "541b5a2d6d1a72a62682b8bf",
+      "table_id": "5a8b81ec5a31ddb1c9831218",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "4151f33d610e298901dfc054",
+      "table_id": "5a8b81ec5a31ddb1c9831218",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1b4c455fd1697488bae5bf7c",
+      "table_id": "5a8b81ec5a31ddb1c9831218",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c59a6749c07862a2ac5424a2",
+      "table_id": "5a8b81ec5a31ddb1c9831218",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "2978fe96c140b4af02e96481",
+      "table_id": "5a8b81ec5a31ddb1c9831218",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "889c9223bdb51298dbe2f7a4",
+      "table_id": "5a8b81ec5a31ddb1c9831218",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7799cf26536df9e85f0cda95",
+      "table_id": "5a8b81ec5a31ddb1c9831218",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "752561084393d4a01401800c",
+      "table_id": "5a8b81ec5a31ddb1c9831218",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7336d40903c615854da5036f",
+      "table_id": "5a8b81ec5a31ddb1c9831218",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3042acf01c2e4273c5a6f306",
+      "table_id": "5a8b81ec5a31ddb1c9831218",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "bbb724ebb59d9ff9b2f6bb65",
+      "table_id": "5a8b81ec5a31ddb1c9831218",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1551d6740fdab6bc79fe2a59",
+      "table_id": "60b54504ca69824d7d4ea758",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "497a0adde11280ec3736c924",
+      "table_id": "60b54504ca69824d7d4ea758",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "0c9575f91c7f2c95c9eefbe3",
+      "table_id": "60b54504ca69824d7d4ea758",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "54e9bb98c213224c33ac5940",
+      "table_id": "60b54504ca69824d7d4ea758",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "cb9834aca20ec9250e81bfa1",
+      "table_id": "60b54504ca69824d7d4ea758",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "a3b5ebda5398a7b7b4121395",
+      "table_id": "60b54504ca69824d7d4ea758",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "9236432177c6f0f55257ade2",
+      "table_id": "60b54504ca69824d7d4ea758",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "a6db3937092c4f80d15c7142",
+      "table_id": "60b54504ca69824d7d4ea758",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "2da663bce61bc048f32862f5",
+      "table_id": "60b54504ca69824d7d4ea758",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1c9fc2a4b09759f33669e5c4",
+      "table_id": "60b54504ca69824d7d4ea758",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "faf1cd8c322e005e0ed87ee0",
+      "table_id": "60b54504ca69824d7d4ea758",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "a4fca5919bf4a9c305122b91",
+      "table_id": "60b54504ca69824d7d4ea758",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "303d30614a6a21bdb7f36c7c",
+      "table_id": "611512c64581fed6987c8b1e",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "ee2c9f637627cc94b85659dd",
+      "table_id": "611512c64581fed6987c8b1e",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "275856e824b9baf27a5baf74",
+      "table_id": "611512c64581fed6987c8b1e",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "d0b1b59a610aeef0fdabd4ae",
+      "table_id": "611512c64581fed6987c8b1e",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "9f5bb3346ed83971478b9de5",
+      "table_id": "611512c64581fed6987c8b1e",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "ec5843525d89868077d32363",
+      "table_id": "611512c64581fed6987c8b1e",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e7a005b9a6d005ddbd012cf0",
+      "table_id": "611512c64581fed6987c8b1e",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "8f2c7794f51da667cd1ae3d6",
+      "table_id": "611512c64581fed6987c8b1e",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e73c8096c6bd767680cc4566",
+      "table_id": "611512c64581fed6987c8b1e",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "82517a9163c0e15132910ad8",
+      "table_id": "611512c64581fed6987c8b1e",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "bbb0778e63358e52facccfc6",
+      "table_id": "611512c64581fed6987c8b1e",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3ef29657dad8dbf46d4b07c7",
+      "table_id": "611512c64581fed6987c8b1e",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "fb691c8bacd7dc03856f9bfc",
+      "table_id": "6b4fae633b18c759861ebc6b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6ce4f4965c1d11bc02ee9152",
+      "table_id": "6b4fae633b18c759861ebc6b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e00dc6be1f8f52bbfd5e77c4",
+      "table_id": "6b4fae633b18c759861ebc6b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1cee84a0c59ee59d6fee7b4e",
+      "table_id": "6b4fae633b18c759861ebc6b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "2a64793c28d7afab4f28cc02",
+      "table_id": "6b4fae633b18c759861ebc6b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "cfa97677f06831beb1805c15",
+      "table_id": "6b4fae633b18c759861ebc6b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "d7ab8561244dfb9498cbd88c",
+      "table_id": "6b4fae633b18c759861ebc6b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "a0671019f6f35e2cbe682b1c",
+      "table_id": "6b4fae633b18c759861ebc6b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3600d11e93ff19feafe963bc",
+      "table_id": "6b4fae633b18c759861ebc6b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "14f24d4ad7c1f3af1fa971f3",
+      "table_id": "6b4fae633b18c759861ebc6b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "67edab66d66b1790f57352d5",
+      "table_id": "6b4fae633b18c759861ebc6b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "eecdd22223528db164ec3800",
+      "table_id": "6b4fae633b18c759861ebc6b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "249aeec3ff6931ba4288d8c3",
+      "table_id": "6b5e6a13d750e69bdae1fb4f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "50256f706bb0aab0ebaa050a",
+      "table_id": "6b5e6a13d750e69bdae1fb4f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "753a6e997e7650b8dcbd5746",
+      "table_id": "6b5e6a13d750e69bdae1fb4f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "2a2c21c58121922ad2eebadc",
+      "table_id": "6b5e6a13d750e69bdae1fb4f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "022a2ea937b2eebd30280a40",
+      "table_id": "6b5e6a13d750e69bdae1fb4f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7dd9f75303a103dd2628ce8d",
+      "table_id": "6b5e6a13d750e69bdae1fb4f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "5502a4d92ef4baed6bfe7d95",
+      "table_id": "6b5e6a13d750e69bdae1fb4f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "f180cd9abe50b5be43ed3a79",
+      "table_id": "6b5e6a13d750e69bdae1fb4f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "636da45c0d634e02a297410e",
+      "table_id": "6b5e6a13d750e69bdae1fb4f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "596e260bf11ce8637a960665",
+      "table_id": "6b5e6a13d750e69bdae1fb4f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "73345fecd61c5993f01723be",
+      "table_id": "6b5e6a13d750e69bdae1fb4f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "9036ed27d680a9380285fdfa",
+      "table_id": "6b5e6a13d750e69bdae1fb4f",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "f257a0dbfae06973177c75b7",
+      "table_id": "7932ecb9a5db74ace09c5d40",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e75dfa5f80148b0f2d280388",
+      "table_id": "7932ecb9a5db74ace09c5d40",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "adacf33f8e58e8f7aa6c9354",
+      "table_id": "7932ecb9a5db74ace09c5d40",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "8b5637ef8b1b33e8b722be0f",
+      "table_id": "7932ecb9a5db74ace09c5d40",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "db4108af1ebaa3063b009d55",
+      "table_id": "7932ecb9a5db74ace09c5d40",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1de830624367fd5472e8325a",
+      "table_id": "7932ecb9a5db74ace09c5d40",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6e082faf4c0f36a3ea6209f8",
+      "table_id": "7932ecb9a5db74ace09c5d40",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1ae5439af105d12a3d6cd626",
+      "table_id": "7932ecb9a5db74ace09c5d40",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "cd0fcdbd5022bd5872ce73a9",
+      "table_id": "7932ecb9a5db74ace09c5d40",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "eb416e412af46ce6dfedff0f",
+      "table_id": "7932ecb9a5db74ace09c5d40",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "8dffe3b796a9b467b671a8ff",
+      "table_id": "7932ecb9a5db74ace09c5d40",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "ada9a39774619b5d52ff74bf",
+      "table_id": "7932ecb9a5db74ace09c5d40",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "95b0082b2a16215bc2e7be06",
+      "table_id": "7c4fcab3d99f38a406c6fcb5",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "bad098b1694b88838d5b59c0",
+      "table_id": "7c4fcab3d99f38a406c6fcb5",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "35fe76def7b7bbcecc3e3619",
+      "table_id": "7c4fcab3d99f38a406c6fcb5",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "63b01fe35f7407e4384da764",
+      "table_id": "7c4fcab3d99f38a406c6fcb5",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "577ca604ebfe46d266ebdfc7",
+      "table_id": "7c4fcab3d99f38a406c6fcb5",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1ce260cc3749a97408294de0",
+      "table_id": "7c4fcab3d99f38a406c6fcb5",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6a128ba29ad4339fb3549c7b",
+      "table_id": "7c4fcab3d99f38a406c6fcb5",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "d12703286f681a41537d03f1",
+      "table_id": "7c4fcab3d99f38a406c6fcb5",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "8e7ab6750238ebe0b1414e11",
+      "table_id": "7c4fcab3d99f38a406c6fcb5",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "95ef115c96935153f4644e97",
+      "table_id": "7c4fcab3d99f38a406c6fcb5",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "d0487774d8fe8090b865b82e",
+      "table_id": "7c4fcab3d99f38a406c6fcb5",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "02a4de7a2aa46ea71a55363d",
+      "table_id": "7c4fcab3d99f38a406c6fcb5",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7f6623a752e9e828a8a01b94",
+      "table_id": "7de91e4894393f3657d45cfa",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "9b6c303593d279864bf767d1",
+      "table_id": "7de91e4894393f3657d45cfa",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "4a12451aaa00d3d302488013",
+      "table_id": "7de91e4894393f3657d45cfa",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "11d1db4bcf82d20423fd1f4b",
+      "table_id": "7de91e4894393f3657d45cfa",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "28a5d84d9170fd06ebabca60",
+      "table_id": "7de91e4894393f3657d45cfa",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "a668753b63284485604f7c23",
+      "table_id": "7de91e4894393f3657d45cfa",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "bc0cbfe6161806b086b2d945",
+      "table_id": "7de91e4894393f3657d45cfa",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "48ba01541c081c4e844737d7",
+      "table_id": "7de91e4894393f3657d45cfa",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "a0eb713ff43f34289bd8034f",
+      "table_id": "7de91e4894393f3657d45cfa",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "852e5771a3c7f79d4263d54d",
+      "table_id": "7de91e4894393f3657d45cfa",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "215931044e48f03131974333",
+      "table_id": "7de91e4894393f3657d45cfa",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6e271b405f1f4b32e4ccaf40",
+      "table_id": "7de91e4894393f3657d45cfa",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7091ee0b0603c9544b5d8aff",
+      "table_id": "88e750d55381fc7e00e4794b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6ab883d6f832135b584d9e1d",
+      "table_id": "88e750d55381fc7e00e4794b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e340bb7d05f7fbd7b090a898",
+      "table_id": "88e750d55381fc7e00e4794b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "da4f01edec6ff059388c213e",
+      "table_id": "88e750d55381fc7e00e4794b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "d2b7125dcd8bc04a1e2f0680",
+      "table_id": "88e750d55381fc7e00e4794b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "96cf387e8f12a8a1466a048f",
+      "table_id": "88e750d55381fc7e00e4794b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b1cda80143a459f911c933d7",
+      "table_id": "88e750d55381fc7e00e4794b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "5e3776f14ce4280c7ef4a220",
+      "table_id": "88e750d55381fc7e00e4794b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e1c1f0bb9511e507293dc4fe",
+      "table_id": "88e750d55381fc7e00e4794b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "8ab27411b61dd9053be3ebe8",
+      "table_id": "88e750d55381fc7e00e4794b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "ec5f77f5533d2f0a58282c8b",
+      "table_id": "88e750d55381fc7e00e4794b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "709039e1a2220012ef1d2b3a",
+      "table_id": "88e750d55381fc7e00e4794b",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "d7340dd3e25d8a132f671a97",
+      "table_id": "92aeb9567f0645ddd7253a33",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "8dec84734676524e8a247e90",
+      "table_id": "92aeb9567f0645ddd7253a33",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "72456a29955710c8f36c904f",
+      "table_id": "92aeb9567f0645ddd7253a33",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b59a244bf0a465ee7e204c1b",
+      "table_id": "92aeb9567f0645ddd7253a33",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6e290a0378ec0e46c6fa6e6d",
+      "table_id": "92aeb9567f0645ddd7253a33",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "f50d4682de1fba42c9be9609",
+      "table_id": "92aeb9567f0645ddd7253a33",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "552d8a0f90700ca4872ebb7f",
+      "table_id": "92aeb9567f0645ddd7253a33",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1228fb0cc31a220b3702b99e",
+      "table_id": "92aeb9567f0645ddd7253a33",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "73d8de19733c6c757320d98d",
+      "table_id": "92aeb9567f0645ddd7253a33",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c60a62a7ef9da5f08eb297f4",
+      "table_id": "92aeb9567f0645ddd7253a33",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "695e5d1753388db1f061b8ab",
+      "table_id": "92aeb9567f0645ddd7253a33",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "4d6d4e8154428b4cf4a8f482",
+      "table_id": "92aeb9567f0645ddd7253a33",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "0e5cfc8463be8efb1eec9143",
+      "table_id": "ab74c12303ff74e4bc0d5e92",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "f72a038756afb802afb6111f",
+      "table_id": "ab74c12303ff74e4bc0d5e92",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "d7182cb77967d4ff5def7276",
+      "table_id": "ab74c12303ff74e4bc0d5e92",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "bb611cda456e4f992344faf3",
+      "table_id": "ab74c12303ff74e4bc0d5e92",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "92ef6d66b926cecf463752bc",
+      "table_id": "ab74c12303ff74e4bc0d5e92",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c58aa6ae3f7616d3362cbaef",
+      "table_id": "ab74c12303ff74e4bc0d5e92",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "aafdaff6a35e334ae2d6f201",
+      "table_id": "ab74c12303ff74e4bc0d5e92",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7e6b015886c517f293f1c7c7",
+      "table_id": "ab74c12303ff74e4bc0d5e92",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3c0f6290378d9bf12d95b36f",
+      "table_id": "ab74c12303ff74e4bc0d5e92",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7466b93e256d137ac369043f",
+      "table_id": "ab74c12303ff74e4bc0d5e92",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "69059898d7414136d05192df",
+      "table_id": "ab74c12303ff74e4bc0d5e92",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "da660d7d5958035fea151742",
+      "table_id": "ab74c12303ff74e4bc0d5e92",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "0eb47579465a3a1e7b16baac",
+      "table_id": "b58ba9511499705531a06b1d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "caed2668fd4d878f8258f397",
+      "table_id": "b58ba9511499705531a06b1d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e9d09000f19617caed744a7e",
+      "table_id": "b58ba9511499705531a06b1d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "17a2aed68655b092c83704b9",
+      "table_id": "b58ba9511499705531a06b1d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "8a7d2d5303366910bfe1b069",
+      "table_id": "b58ba9511499705531a06b1d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "0e8362741a80043e5e47cb4a",
+      "table_id": "b58ba9511499705531a06b1d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "d321f626a0287acb8b464994",
+      "table_id": "b58ba9511499705531a06b1d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "de0e825221912e8b72d77be6",
+      "table_id": "b58ba9511499705531a06b1d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b0c1692ff0df6972bb3067c6",
+      "table_id": "b58ba9511499705531a06b1d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c364553eef117c60b99b63ea",
+      "table_id": "b58ba9511499705531a06b1d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "27fd3ba87d2a6c398a2a8e90",
+      "table_id": "b58ba9511499705531a06b1d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "d5853590d57a78ad65b5d767",
+      "table_id": "b58ba9511499705531a06b1d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3a3d74fdc644037689bbe2e5",
+      "table_id": "b7ba1b40372f907cb9777d67",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "5753e7664b74c61d9b41e4f9",
+      "table_id": "b7ba1b40372f907cb9777d67",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3ecd128042a38d3f274d792f",
+      "table_id": "b7ba1b40372f907cb9777d67",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "636ba142fd4fa694fcf339bb",
+      "table_id": "b7ba1b40372f907cb9777d67",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "05a61e068402777dcaf0ee44",
+      "table_id": "b7ba1b40372f907cb9777d67",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "66c561c59fedc36e860b25bf",
+      "table_id": "b7ba1b40372f907cb9777d67",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "cca3200fbe1b855c6449d487",
+      "table_id": "b7ba1b40372f907cb9777d67",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b94d78b572b58c9ba8acb1e0",
+      "table_id": "b7ba1b40372f907cb9777d67",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "847dd2105ec096c4dc2c25a0",
+      "table_id": "b7ba1b40372f907cb9777d67",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "4f5b8a4661cf58fd52282f26",
+      "table_id": "b7ba1b40372f907cb9777d67",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "abbde2b16be5524e1dfc524f",
+      "table_id": "b7ba1b40372f907cb9777d67",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "40747ef46468405d3f379054",
+      "table_id": "b7ba1b40372f907cb9777d67",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "da4fd4201aa66abe231b79df",
+      "table_id": "ba70279e72268817beeef943",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6eb7645e1a7928dc02aa60b1",
+      "table_id": "ba70279e72268817beeef943",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "a1a08245dd2034d9879f435f",
+      "table_id": "ba70279e72268817beeef943",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "640f99a62d40dd4f61b47b47",
+      "table_id": "ba70279e72268817beeef943",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "0036a115e6036bc6d1ab6c8f",
+      "table_id": "ba70279e72268817beeef943",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3b00849bee53ac4efe56188b",
+      "table_id": "ba70279e72268817beeef943",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e7eeb157c3daea42c1c11497",
+      "table_id": "ba70279e72268817beeef943",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "af1608e9d4d75c2dd848f5a9",
+      "table_id": "ba70279e72268817beeef943",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "f108d24b8d00a795209752ff",
+      "table_id": "ba70279e72268817beeef943",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "fc4a9de8616c0a072aceb0b8",
+      "table_id": "ba70279e72268817beeef943",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b7baf2ca9fcb6b9600cd880f",
+      "table_id": "ba70279e72268817beeef943",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b042a1c6da28642e58841c9b",
+      "table_id": "ba70279e72268817beeef943",
+      "support_count": 13,
+      "native_knots": 13,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "757f669eecde3ef576234197",
+      "table_id": "baa87426faeaad473af74984",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6182fb74862fd8eb081d12da",
+      "table_id": "baa87426faeaad473af74984",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "48095ef48c4a3f6784c5bcc7",
+      "table_id": "baa87426faeaad473af74984",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6fd26e5ee92c9a8f1bd93dd6",
+      "table_id": "baa87426faeaad473af74984",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "055b5aabc0b117a15dd436f4",
+      "table_id": "baa87426faeaad473af74984",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e81a1a1faf0d8d78288df939",
+      "table_id": "baa87426faeaad473af74984",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "d0a52c5b529827e9e28c4f07",
+      "table_id": "baa87426faeaad473af74984",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "5a36295c7222fdc796a49ec6",
+      "table_id": "baa87426faeaad473af74984",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "ac9aa27477c326d39e880f15",
+      "table_id": "baa87426faeaad473af74984",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "a346a3db68204645656d77b6",
+      "table_id": "baa87426faeaad473af74984",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "9eed538697f6ce3e1af07e4c",
+      "table_id": "baa87426faeaad473af74984",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b19b55cfb73842753097a3fa",
+      "table_id": "baa87426faeaad473af74984",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6ffd650e415cd74f511d94b9",
+      "table_id": "c639e50826b3dc98856105c8",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "f9757215532146eb809b61b8",
+      "table_id": "c639e50826b3dc98856105c8",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "2e6ed22c398e28d30b96a3cf",
+      "table_id": "c639e50826b3dc98856105c8",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "be1ada920e4fafea5c5d7ee2",
+      "table_id": "c639e50826b3dc98856105c8",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "18ebe9f3f8f04ffefe5ef033",
+      "table_id": "c639e50826b3dc98856105c8",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "a1667c341d28e52e3bd92731",
+      "table_id": "c639e50826b3dc98856105c8",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c7cd6cd9adb8d378527a3ecc",
+      "table_id": "c639e50826b3dc98856105c8",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "48a3b0d66e1b9474e5a55e6b",
+      "table_id": "c639e50826b3dc98856105c8",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "89f4a1ac5d1d553f3b3952ed",
+      "table_id": "c639e50826b3dc98856105c8",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "236b3a9db8ccc9daf120d484",
+      "table_id": "c639e50826b3dc98856105c8",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "039cb04ac0acb40160a50067",
+      "table_id": "c639e50826b3dc98856105c8",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "5910a7d60f17a11a5591e822",
+      "table_id": "c639e50826b3dc98856105c8",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "ab7b2cfd5a6efb9f1e2f8e01",
+      "table_id": "cf85ceea9685e3e8648182a5",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e8f4baf41ed356a7137d87eb",
+      "table_id": "cf85ceea9685e3e8648182a5",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "0e72d50571127a54eab8cf16",
+      "table_id": "d08435bd563ed226c2885049",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "4778b3777687105b4062916d",
+      "table_id": "d08435bd563ed226c2885049",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "51108a41bb8357fd7c011e32",
+      "table_id": "d08435bd563ed226c2885049",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7e6bb21bed0d624de9ca4a4f",
+      "table_id": "d08435bd563ed226c2885049",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7b02d66e546d21cdc855039a",
+      "table_id": "d08435bd563ed226c2885049",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "49ed987018c5def010405386",
+      "table_id": "d08435bd563ed226c2885049",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "fc54e387e766a0e7c51388af",
+      "table_id": "d08435bd563ed226c2885049",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "710cb6f896eac903720f5a68",
+      "table_id": "d08435bd563ed226c2885049",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b049506a4c1c48923ccfaced",
+      "table_id": "d08435bd563ed226c2885049",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7070b35f206b0cc2fc7235d7",
+      "table_id": "d08435bd563ed226c2885049",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "bbf8d73a2a41d80fa3588163",
+      "table_id": "d08435bd563ed226c2885049",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b653a53a924b85570f533f91",
+      "table_id": "d08435bd563ed226c2885049",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e4bf5b8104089309654a4dd4",
+      "table_id": "da9faefc287449d1c4106e48",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "5a9d79f2377ab75699cac47c",
+      "table_id": "da9faefc287449d1c4106e48",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7235b11c987d8e900d2c292f",
+      "table_id": "da9faefc287449d1c4106e48",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3d6b5ba9b8714779095abe99",
+      "table_id": "da9faefc287449d1c4106e48",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "3adea3cf1f11a08263558e6a",
+      "table_id": "da9faefc287449d1c4106e48",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "feaf274426fc506c5e1d87d4",
+      "table_id": "da9faefc287449d1c4106e48",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "50c51a56985af01af953293e",
+      "table_id": "da9faefc287449d1c4106e48",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c39f939ed14d444448fcb51b",
+      "table_id": "da9faefc287449d1c4106e48",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "e4611b0466d02520da9cdf8f",
+      "table_id": "da9faefc287449d1c4106e48",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "8447b38be11d136bcdf7e6f0",
+      "table_id": "da9faefc287449d1c4106e48",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "fd8016823d5aeafc709e5af8",
+      "table_id": "da9faefc287449d1c4106e48",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "224fd5a14ee5e2cfbeaa1205",
+      "table_id": "ed89d3c7f81abefbe41786d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "dfffb0999f9ce5076fffb61e",
+      "table_id": "ed89d3c7f81abefbe41786d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7d468c2541b7583a437ba6db",
+      "table_id": "ed89d3c7f81abefbe41786d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "25442b77558e56c5713e6c62",
+      "table_id": "ed89d3c7f81abefbe41786d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "8c9e1767ef3db402d4838162",
+      "table_id": "ed89d3c7f81abefbe41786d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "59718a185fc7787b25ceba29",
+      "table_id": "ed89d3c7f81abefbe41786d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1ab3c3a15d9525ce4f273dcd",
+      "table_id": "ed89d3c7f81abefbe41786d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "371b17fd46fb81ea333725ea",
+      "table_id": "ed89d3c7f81abefbe41786d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b9dae99ba91f7557e0161672",
+      "table_id": "ed89d3c7f81abefbe41786d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "c08cdafb08749ca953c4adcb",
+      "table_id": "ed89d3c7f81abefbe41786d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "d0ad45803b524a3d675b7b5e",
+      "table_id": "ed89d3c7f81abefbe41786d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "dc69d08b5b5814acaa0063fb",
+      "table_id": "ed89d3c7f81abefbe41786d7",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1c7c5b59cfd9b674cebe145d",
+      "table_id": "f985f6fc0fc912db562f475d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "b611f8a58544499d1f10b07c",
+      "table_id": "f985f6fc0fc912db562f475d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "82e785ca2d5796a829526308",
+      "table_id": "f985f6fc0fc912db562f475d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "f0c7f24649c9bb5e12b35960",
+      "table_id": "f985f6fc0fc912db562f475d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "817644848b86ef1d057da4bd",
+      "table_id": "f985f6fc0fc912db562f475d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "1058072448f32148db89b28d",
+      "table_id": "f985f6fc0fc912db562f475d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "2aeb913b49db39f98bd3516e",
+      "table_id": "f985f6fc0fc912db562f475d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "62e0e31b5fb3a0e6842c5ee2",
+      "table_id": "f985f6fc0fc912db562f475d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "418f2420f0008da0968ebf7d",
+      "table_id": "f985f6fc0fc912db562f475d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "7f18392bc1fdcd5cfe0ba745",
+      "table_id": "f985f6fc0fc912db562f475d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    },
+    {
+      "query_id": "6b766ca43e9a2b38ef36ee9b",
+      "table_id": "f985f6fc0fc912db562f475d",
+      "support_count": 12,
+      "native_knots": 12,
+      "same_coordinates": true,
+      "max_scaled_value_error": 0.0,
+      "passed": true
+    }
+  ]
+}

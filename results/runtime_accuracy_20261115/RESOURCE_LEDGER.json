@@ -1,0 +1,11 @@
+{
+  "main_measured_cpu_core_hours": 0.6489339456041666,
+  "auxiliary_budget_allowance_core_hours": 0.25,
+  "conservative_budget_charge_core_hours": 0.8989339456041666,
+  "budget_core_hours": 8,
+  "gpu_seconds": 0,
+  "new_source_training_steps": 0,
+  "allowance_scope": "Conservative budget allowance for process imports not inside stage timers, short failed checks, compilation, metadata processing, plotting, document builds, packaging and version control; NOT an additional measured timing result.",
+  "overlap_note": "finalization_resources.txt includes cached_query.py, already counted in the main sum; do not add it twice.",
+  "supervision": "long-run-supervision skill; exact luna delegation was unavailable under exposed tool constraints; current Codex session retained sole observation/recovery ownership; sequential terminal jobs, no restart for model routing"
+}

@@ -1,0 +1,40 @@
+{
+  "shared_comparison_setup_once_s": 0.8773943670094013,
+  "shared_bundle_loading_scope": "B8 seed11; 83 eligible source-held-out tables; same nodes and R; no node enrichment. Prediction timing spans all four processes; load and support selection shared and counted once. Full/control weights bundled by existing loader.",
+  "rows": [
+    {
+      "method": "cmi",
+      "actual_designs": 8,
+      "actual_process_libraries": 4,
+      "designs_per_library": 2,
+      "one_off_predict_export_s": 0.7006470113992691,
+      "sum_mean_extract_plus_spef_s": 24.625735666666664,
+      "marginal_total_after_shared_setup_s": 25.326382678065933,
+      "marginal_total_including_native_process_start_layout_and_STA_s": 70.11605872834723,
+      "mean_STA_read_and_analysis_s": 32.652907666666664
+    },
+    {
+      "method": "binary",
+      "actual_designs": 8,
+      "actual_process_libraries": 4,
+      "designs_per_library": 2,
+      "one_off_predict_export_s": 0.670025460422039,
+      "sum_mean_extract_plus_spef_s": 24.549977,
+      "marginal_total_after_shared_setup_s": 25.220002460422037,
+      "marginal_total_including_native_process_start_layout_and_STA_s": 68.4787427422901,
+      "mean_STA_read_and_analysis_s": 31.93812633333333
+    },
+    {
+      "method": "full",
+      "actual_designs": 8,
+      "actual_process_libraries": 4,
+      "designs_per_library": 2,
+      "one_off_predict_export_s": 0.9142913483083248,
+      "sum_mean_extract_plus_spef_s": 24.61764833333333,
+      "marginal_total_after_shared_setup_s": 25.531939681641656,
+      "marginal_total_including_native_process_start_layout_and_STA_s": 69.56248745198052,
+      "mean_STA_read_and_analysis_s": 32.785865333333334
+    }
+  ],
+  "note": "Observed D=8 comparison pipeline, two designs per process library. Shared setup is counted once across methods. Marginal values are not isolated cold standalone deployments; fresh-process load costs are separately measured. No per-query amortization using unmeasured native call counts, no online Amdahl estimate."
+}

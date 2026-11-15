@@ -1,0 +1,815 @@
+{
+  "rows": [
+    {
+      "task": "fem",
+      "methods": [
+        "mlp_adapt",
+        "attentioncap_adapted"
+      ],
+      "passed": true,
+      "exact_predictions": true,
+      "timed_rows": 3560,
+      "repeated_fit_for_validation": [
+        {
+          "task": "fem",
+          "table_id": "asap7-M4-OVER",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 153,
+          "query_labels_read": 0,
+          "wall_s": 1.2957560643553734,
+          "cpu_s": 1.1196961160000005
+        },
+        {
+          "task": "fem",
+          "table_id": "asap7-M4-OVER",
+          "method": "attentioncap_adapted",
+          "stage": "fit_once",
+          "support_count": 153,
+          "query_labels_read": 0,
+          "wall_s": 1.80051089823246,
+          "cpu_s": 1.8004330240000002
+        },
+        {
+          "task": "fem",
+          "table_id": "asap7-M4-OVERUNDER",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 153,
+          "query_labels_read": 0,
+          "wall_s": 0.48773498460650444,
+          "cpu_s": 0.4877203899999998
+        },
+        {
+          "task": "fem",
+          "table_id": "asap7-M4-OVERUNDER",
+          "method": "attentioncap_adapted",
+          "stage": "fit_once",
+          "support_count": 153,
+          "query_labels_read": 0,
+          "wall_s": 2.0098703615367413,
+          "cpu_s": 2.0098253349999995
+        },
+        {
+          "task": "fem",
+          "table_id": "asap7-M4-UNDER",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 153,
+          "query_labels_read": 0,
+          "wall_s": 0.4750971980392933,
+          "cpu_s": 0.4750959160000008
+        },
+        {
+          "task": "fem",
+          "table_id": "asap7-M4-UNDER",
+          "method": "attentioncap_adapted",
+          "stage": "fit_once",
+          "support_count": 153,
+          "query_labels_read": 0,
+          "wall_s": 1.815367542207241,
+          "cpu_s": 1.8153123200000003
+        },
+        {
+          "task": "fem",
+          "table_id": "asap7-M5-OVER",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 153,
+          "query_labels_read": 0,
+          "wall_s": 0.4789057560265064,
+          "cpu_s": 0.47889284900000106
+        },
+        {
+          "task": "fem",
+          "table_id": "asap7-M5-OVER",
+          "method": "attentioncap_adapted",
+          "stage": "fit_once",
+          "support_count": 153,
+          "query_labels_read": 0,
+          "wall_s": 1.799668099731207,
+          "cpu_s": 1.7995316779999992
+        },
+        {
+          "task": "fem",
+          "table_id": "asap7-M5-OVERUNDER",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 153,
+          "query_labels_read": 0,
+          "wall_s": 0.5091061294078827,
+          "cpu_s": 0.5090801970000012
+        },
+        {
+          "task": "fem",
+          "table_id": "asap7-M5-OVERUNDER",
+          "method": "attentioncap_adapted",
+          "stage": "fit_once",
+          "support_count": 153,
+          "query_labels_read": 0,
+          "wall_s": 2.052543066442013,
+          "cpu_s": 2.0524199359999997
+        },
+        {
+          "task": "fem",
+          "table_id": "asap7-M5-UNDER",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 153,
+          "query_labels_read": 0,
+          "wall_s": 0.487459659576416,
+          "cpu_s": 0.4874310680000029
+        },
+        {
+          "task": "fem",
+          "table_id": "asap7-M5-UNDER",
+          "method": "attentioncap_adapted",
+          "stage": "fit_once",
+          "support_count": 153,
+          "query_labels_read": 0,
+          "wall_s": 1.8106130920350552,
+          "cpu_s": 1.8105127420000002
+        }
+      ],
+      "original_canonical_S_plus_Q": [
+        {
+          "table_id": "asap7-M4-OVER",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "asap7-M4-OVERUNDER",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "asap7-M4-UNDER",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "asap7-M5-OVER",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "asap7-M5-OVERUNDER",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "asap7-M5-UNDER",
+          "source_scaled_error": 0.0,
+          "passed": true
+        }
+      ],
+      "reason": "Remove unused S+Q construction for pointwise retained-fit models; no algorithm or parameter change"
+    },
+    {
+      "task": "native",
+      "methods": [
+        "mlp_adapt"
+      ],
+      "passed": true,
+      "exact_predictions": true,
+      "timed_rows": 12060,
+      "repeated_fit_for_validation": [
+        {
+          "task": "native",
+          "table_id": "06f8f2a308808f0adfd88743",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.4446524754166603,
+          "cpu_s": 0.44465107999999987
+        },
+        {
+          "task": "native",
+          "table_id": "0b997be2eb616b97c59e77ab",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.41863906010985374,
+          "cpu_s": 0.41862065500000156
+        },
+        {
+          "task": "native",
+          "table_id": "0f76a8174aa1f76e26939943",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.4231077544391155,
+          "cpu_s": 0.42308171099999825
+        },
+        {
+          "task": "native",
+          "table_id": "10f7e1e8290f294ee1730887",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 13,
+          "query_labels_read": 0,
+          "wall_s": 0.45247316360473633,
+          "cpu_s": 0.4524621420000017
+        },
+        {
+          "task": "native",
+          "table_id": "112c2949ae255c51e54f7488",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.4536333382129669,
+          "cpu_s": 0.4536241150000002
+        },
+        {
+          "task": "native",
+          "table_id": "113026b5c3054c598871535c",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.42763106897473335,
+          "cpu_s": 0.4276293150000008
+        },
+        {
+          "task": "native",
+          "table_id": "12248df76c94dd6bdf89ff99",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.46505264565348625,
+          "cpu_s": 0.4650513899999993
+        },
+        {
+          "task": "native",
+          "table_id": "16b458038977de2c8b4df345",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.4240270368754864,
+          "cpu_s": 0.42402598900000044
+        },
+        {
+          "task": "native",
+          "table_id": "1b1ef037580dde5f3c020423",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.43043096363544464,
+          "cpu_s": 0.4304040159999971
+        },
+        {
+          "task": "native",
+          "table_id": "1b49b1de34b4405354b5ff0c",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.4231799580156803,
+          "cpu_s": 0.4231479930000006
+        },
+        {
+          "task": "native",
+          "table_id": "2934641044496e0c34bbb395",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.4428516514599323,
+          "cpu_s": 0.44283851799999496
+        },
+        {
+          "task": "native",
+          "table_id": "31b9c8c860b1fea95145f073",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.4260265454649925,
+          "cpu_s": 0.4260254599999982
+        },
+        {
+          "task": "native",
+          "table_id": "35b601c5208b2a189d4fc497",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.42748069763183594,
+          "cpu_s": 0.42747981299999793
+        },
+        {
+          "task": "native",
+          "table_id": "37fa2f22d0385ed6ac4fd0d7",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.43587223440408707,
+          "cpu_s": 0.4358709449999978
+        },
+        {
+          "task": "native",
+          "table_id": "3c36b22d566fe13db4b23d1a",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.4285827837884426,
+          "cpu_s": 0.4285685259999994
+        },
+        {
+          "task": "native",
+          "table_id": "448958cf09d7bcb97bb1b7ff",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.4316382557153702,
+          "cpu_s": 0.4316126140000023
+        },
+        {
+          "task": "native",
+          "table_id": "47dd5a65d3872c7e92c4523f",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.4246221333742142,
+          "cpu_s": 0.42460923200000167
+        },
+        {
+          "task": "native",
+          "table_id": "53a87308e39d4726dd9b09fb",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.44109492748975754,
+          "cpu_s": 0.4410820109999989
+        },
+        {
+          "task": "native",
+          "table_id": "54a13978d8eb1f71e42894a1",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 13,
+          "query_labels_read": 0,
+          "wall_s": 0.438047107309103,
+          "cpu_s": 0.43798773700000027
+        },
+        {
+          "task": "native",
+          "table_id": "59887933e872a5c232d3c3e1",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.43272851407527924,
+          "cpu_s": 0.43272764800000374
+        },
+        {
+          "task": "native",
+          "table_id": "5a8affc5b945e38a8fa458c7",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 13,
+          "query_labels_read": 0,
+          "wall_s": 0.43004555627703667,
+          "cpu_s": 0.430031280999998
+        },
+        {
+          "task": "native",
+          "table_id": "5a8b81ec5a31ddb1c9831218",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.42492780461907387,
+          "cpu_s": 0.424914011999995
+        },
+        {
+          "task": "native",
+          "table_id": "60b54504ca69824d7d4ea758",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.42897099256515503,
+          "cpu_s": 0.4289573699999991
+        },
+        {
+          "task": "native",
+          "table_id": "611512c64581fed6987c8b1e",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.4260084554553032,
+          "cpu_s": 0.4259963209999995
+        },
+        {
+          "task": "native",
+          "table_id": "6b4fae633b18c759861ebc6b",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.42856520786881447,
+          "cpu_s": 0.4285533599999951
+        },
+        {
+          "task": "native",
+          "table_id": "6b5e6a13d750e69bdae1fb4f",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.42696463316679,
+          "cpu_s": 0.42695240900000186
+        },
+        {
+          "task": "native",
+          "table_id": "7932ecb9a5db74ace09c5d40",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.4307667650282383,
+          "cpu_s": 0.43075272599999437
+        },
+        {
+          "task": "native",
+          "table_id": "7c4fcab3d99f38a406c6fcb5",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 13,
+          "query_labels_read": 0,
+          "wall_s": 0.46729590371251106,
+          "cpu_s": 0.46727311100000435
+        },
+        {
+          "task": "native",
+          "table_id": "7de91e4894393f3657d45cfa",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.4307049624621868,
+          "cpu_s": 0.43069084999999774
+        },
+        {
+          "task": "native",
+          "table_id": "88e750d55381fc7e00e4794b",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.43305495381355286,
+          "cpu_s": 0.43305307400000004
+        },
+        {
+          "task": "native",
+          "table_id": "92aeb9567f0645ddd7253a33",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.43929067626595497,
+          "cpu_s": 0.4392896930000063
+        },
+        {
+          "task": "native",
+          "table_id": "ab74c12303ff74e4bc0d5e92",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.43215758726000786,
+          "cpu_s": 0.43214444600000235
+        },
+        {
+          "task": "native",
+          "table_id": "b58ba9511499705531a06b1d",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.4216378293931484,
+          "cpu_s": 0.4216256359999946
+        },
+        {
+          "task": "native",
+          "table_id": "b7ba1b40372f907cb9777d67",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.4281524010002613,
+          "cpu_s": 0.42812889599999693
+        },
+        {
+          "task": "native",
+          "table_id": "ba70279e72268817beeef943",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 13,
+          "query_labels_read": 0,
+          "wall_s": 0.4350398778915405,
+          "cpu_s": 0.4350235339999955
+        },
+        {
+          "task": "native",
+          "table_id": "baa87426faeaad473af74984",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.4266330674290657,
+          "cpu_s": 0.4266181950000032
+        },
+        {
+          "task": "native",
+          "table_id": "c639e50826b3dc98856105c8",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.431461114436388,
+          "cpu_s": 0.4314604770000017
+        },
+        {
+          "task": "native",
+          "table_id": "cf85ceea9685e3e8648182a5",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.4253102131187916,
+          "cpu_s": 0.425309225999996
+        },
+        {
+          "task": "native",
+          "table_id": "d08435bd563ed226c2885049",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.42899463698267937,
+          "cpu_s": 0.42898109700000475
+        },
+        {
+          "task": "native",
+          "table_id": "da9faefc287449d1c4106e48",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.42338787019252777,
+          "cpu_s": 0.4233642989999993
+        },
+        {
+          "task": "native",
+          "table_id": "ed89d3c7f81abefbe41786d7",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.43868160247802734,
+          "cpu_s": 0.4386548830000052
+        },
+        {
+          "task": "native",
+          "table_id": "f985f6fc0fc912db562f475d",
+          "method": "mlp_adapt",
+          "stage": "fit_once",
+          "support_count": 12,
+          "query_labels_read": 0,
+          "wall_s": 0.43964405357837677,
+          "cpu_s": 0.43955959799999533
+        }
+      ],
+      "original_canonical_S_plus_Q": [
+        {
+          "table_id": "06f8f2a308808f0adfd88743",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "0b997be2eb616b97c59e77ab",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "0f76a8174aa1f76e26939943",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "10f7e1e8290f294ee1730887",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "112c2949ae255c51e54f7488",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "113026b5c3054c598871535c",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "12248df76c94dd6bdf89ff99",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "16b458038977de2c8b4df345",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "1b1ef037580dde5f3c020423",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "1b49b1de34b4405354b5ff0c",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "2934641044496e0c34bbb395",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "31b9c8c860b1fea95145f073",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "35b601c5208b2a189d4fc497",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "37fa2f22d0385ed6ac4fd0d7",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "3c36b22d566fe13db4b23d1a",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "448958cf09d7bcb97bb1b7ff",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "47dd5a65d3872c7e92c4523f",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "53a87308e39d4726dd9b09fb",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "54a13978d8eb1f71e42894a1",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "59887933e872a5c232d3c3e1",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "5a8affc5b945e38a8fa458c7",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "5a8b81ec5a31ddb1c9831218",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "60b54504ca69824d7d4ea758",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "611512c64581fed6987c8b1e",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "6b4fae633b18c759861ebc6b",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "6b5e6a13d750e69bdae1fb4f",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "7932ecb9a5db74ace09c5d40",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "7c4fcab3d99f38a406c6fcb5",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "7de91e4894393f3657d45cfa",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "88e750d55381fc7e00e4794b",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "92aeb9567f0645ddd7253a33",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "ab74c12303ff74e4bc0d5e92",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "b58ba9511499705531a06b1d",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "b7ba1b40372f907cb9777d67",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "ba70279e72268817beeef943",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "baa87426faeaad473af74984",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "c639e50826b3dc98856105c8",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "cf85ceea9685e3e8648182a5",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "d08435bd563ed226c2885049",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "da9faefc287449d1c4106e48",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "ed89d3c7f81abefbe41786d7",
+          "source_scaled_error": 0.0,
+          "passed": true
+        },
+        {
+          "table_id": "f985f6fc0fc912db562f475d",
+          "source_scaled_error": 0.0,
+          "passed": true
+        }
+      ],
+      "reason": "Remove unused S+Q construction for pointwise retained-fit models; no algorithm or parameter change"
+    }
+  ],
+  "wall_s": 64.4529028609395,
+  "cpu_s": 63.930120217
+}

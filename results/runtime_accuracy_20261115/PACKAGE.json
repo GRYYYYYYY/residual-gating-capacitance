@@ -1,0 +1,8 @@
+{
+  "path": "review/DAC_RUNTIME_ACCURACY_20261115.zip",
+  "bytes": 21576635,
+  "sha256": "dc0aaf19571ad37266b77d7c7b0c6309e6a7602efe9d8b01b21ef484b5c5fdb7",
+  "contains_weights": false,
+  "contains_new_meshes": false,
+  "contains_spefs": false
+}

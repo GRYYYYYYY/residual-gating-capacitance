@@ -1,0 +1,29 @@
+{
+  "baseline_commit": "175fe3877e3f20de87f8fcb701b8df115802edd6",
+  "seed": 20261115,
+  "cpu_core_hour_budget": 8,
+  "max_concurrent_benchmark_workers": 1,
+  "threads": 1,
+  "canonical": "all S + geometry-hash-sorted Q chunks32; frozen 3-member ensembles",
+  "batch_limits": [
+    32,
+    1,
+    8
+  ],
+  "warmups": 3,
+  "timed_blocks": 20,
+  "query_denominator": "unique requested geometry configurations, never support tokens or output components",
+  "solver_passes": 3,
+  "solver_rhs": 1,
+  "native_flow_passes": 3,
+  "native_flow_budget": 8,
+  "native_flow_seed": 11,
+  "fit": "source-selected updates once per fixed S/context/member; no query labels",
+  "cache": "weights + target-adapted pointwise models + native compute grid; no answers or Transformer support hidden states",
+  "selection": "all methods and Q limits retained regardless of precision or speed",
+  "source_training": "none in this continuation",
+  "new_physical_geometries": 0,
+  "semantics": "2D symmetric layout-parameterized template vs native-rule agreement, separately",
+  "native_kernel": "source-validated finite C++ compute-table counterpart after resolved width/context, not linked OpenRCX getter",
+  "native_flow": "release OpenROAD; fixed nodes; no dense node enrichment or online model replacement"
+}

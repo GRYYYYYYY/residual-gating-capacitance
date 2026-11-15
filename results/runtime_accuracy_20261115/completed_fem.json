@@ -1,0 +1,130 @@
+{
+  "wall_s": 270.3317793570459,
+  "cpu_s": 260.72849266099996,
+  "timing_rows": 17800,
+  "predictions": 2130,
+  "queries": 71,
+  "preparation": [
+    {
+      "task": "fem",
+      "table_id": "asap7-M4-OVER",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 153,
+      "query_labels_read": 0,
+      "wall_s": 11.507828991860151,
+      "cpu_s": 1.9695074979999996
+    },
+    {
+      "task": "fem",
+      "table_id": "asap7-M4-OVER",
+      "method": "attentioncap_adapted",
+      "stage": "fit_once",
+      "support_count": 153,
+      "query_labels_read": 0,
+      "wall_s": 1.8319253958761692,
+      "cpu_s": 1.828539652
+    },
+    {
+      "task": "fem",
+      "table_id": "asap7-M4-OVERUNDER",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 153,
+      "query_labels_read": 0,
+      "wall_s": 0.5053913109004498,
+      "cpu_s": 0.5053805629999992
+    },
+    {
+      "task": "fem",
+      "table_id": "asap7-M4-OVERUNDER",
+      "method": "attentioncap_adapted",
+      "stage": "fit_once",
+      "support_count": 153,
+      "query_labels_read": 0,
+      "wall_s": 2.015187632292509,
+      "cpu_s": 2.0150717050000004
+    },
+    {
+      "task": "fem",
+      "table_id": "asap7-M4-UNDER",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 153,
+      "query_labels_read": 0,
+      "wall_s": 0.5035068094730377,
+      "cpu_s": 0.5035077690000005
+    },
+    {
+      "task": "fem",
+      "table_id": "asap7-M4-UNDER",
+      "method": "attentioncap_adapted",
+      "stage": "fit_once",
+      "support_count": 153,
+      "query_labels_read": 0,
+      "wall_s": 1.8018293119966984,
+      "cpu_s": 1.8017748320000013
+    },
+    {
+      "task": "fem",
+      "table_id": "asap7-M5-OVER",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 153,
+      "query_labels_read": 0,
+      "wall_s": 0.5020692348480225,
+      "cpu_s": 0.5020495339999993
+    },
+    {
+      "task": "fem",
+      "table_id": "asap7-M5-OVER",
+      "method": "attentioncap_adapted",
+      "stage": "fit_once",
+      "support_count": 153,
+      "query_labels_read": 0,
+      "wall_s": 1.7891112342476845,
+      "cpu_s": 1.789048127000001
+    },
+    {
+      "task": "fem",
+      "table_id": "asap7-M5-OVERUNDER",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 153,
+      "query_labels_read": 0,
+      "wall_s": 0.5081069692969322,
+      "cpu_s": 0.508094289999999
+    },
+    {
+      "task": "fem",
+      "table_id": "asap7-M5-OVERUNDER",
+      "method": "attentioncap_adapted",
+      "stage": "fit_once",
+      "support_count": 153,
+      "query_labels_read": 0,
+      "wall_s": 2.0407289639115334,
+      "cpu_s": 2.0406050170000007
+    },
+    {
+      "task": "fem",
+      "table_id": "asap7-M5-UNDER",
+      "method": "mlp_adapt",
+      "stage": "fit_once",
+      "support_count": 153,
+      "query_labels_read": 0,
+      "wall_s": 0.5064277462661266,
+      "cpu_s": 0.5063988019999996
+    },
+    {
+      "task": "fem",
+      "table_id": "asap7-M5-UNDER",
+      "method": "attentioncap_adapted",
+      "stage": "fit_once",
+      "support_count": 153,
+      "query_labels_read": 0,
+      "wall_s": 1.7876815162599087,
+      "cpu_s": 1.7875643060000002
+    }
+  ],
+  "peak_rss_kib": 396052
+}

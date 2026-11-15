@@ -1,0 +1,48 @@
+OpenROAD 26Q3-1860-g0b54bb3203 
+Features included (+) or not (-): +GPU -GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 1 thread(s).
+[WARNING STA-1212] /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 9184, timing group from output port.
+[WARNING STA-1212] /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 9217, timing group from output port.
+[WARNING STA-1212] /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 9250, timing group from output port.
+[WARNING STA-1212] /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 9283, timing group from output port.
+[WARNING STA-1212] /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 9316, timing group from output port.
+[WARNING STA-1212] /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 9349, timing group from output port.
+[WARNING STA-1212] /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 9382, timing group from output port.
+[WARNING STA-1212] /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 10518, timing group from output port.
+[WARNING STA-1212] /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 10551, timing group from output port.
+[WARNING STA-1212] /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz line 10584, timing group from output port.
+[WARNING ORD-0012] Hierarchical flow (-hier) is currently in development and may cause multiple issues. Do not use in production environments.
+[WARNING STA-0450] virtual clock vclk_clk can not be propagated.
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+RUNTIME_STAGE layout_and_libs 1.665161
+RUNTIME_RSS before_rule_registration 197972
+RUNTIME_STAGE rule_registration 9.3e-5
+RUNTIME_RSS after_rule_registration 197972
+[INFO RCX-0435] Reading extraction model file /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/asap7/rcx_patterns.rules ...
+[INFO RCX-0436] RC segment generation aes_cipher_top (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 99362 rc segments
+[INFO RCX-0439] Coupling Cap extraction aes_cipher_top ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 54% of 112731 wires extracted
+[INFO RCX-0442] 100% of 112731 wires extracted
+[INFO RCX-0045] Extract 12671 nets, 112033 rsegs, 112033 caps, 170431 ccs
+RUNTIME_STAGE extraction 2.040824
+RUNTIME_RSS after_extraction 230636
+[INFO RCX-0443] 12671 nets finished
+RUNTIME_STAGE spef_write 0.486179
+RUNTIME_STAGE sta_read 2.044157
+ time 1ps
+ capacitance 1fF
+ resistance 1kohm
+ voltage 1v
+ current 1mA
+ power 1pW
+ distance 1um
+worst slack max -3.801070690
+wns max -3.801070690
+tns max -10.841772079
+RUNTIME_STAGE sta_analysis 1.791399
+RUNTIME_COMPLETE

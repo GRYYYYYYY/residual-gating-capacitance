@@ -1,0 +1,21 @@
+verified fem asap7-M4-OVER
+verified fem asap7-M4-OVERUNDER
+verified fem asap7-M4-UNDER
+verified fem asap7-M5-OVER
+verified fem asap7-M5-OVERUNDER
+verified fem asap7-M5-UNDER
+timed fem 32 -1 {'wall_s': 29.182334158569574, 'cpu_s': 19.615537823}
+timed fem 32 4 {'wall_s': 32.992810130119324, 'cpu_s': 23.42581811}
+timed fem 32 9 {'wall_s': 36.766413789242506, 'cpu_s': 27.199081203}
+timed fem 32 14 {'wall_s': 40.54685177281499, 'cpu_s': 30.979226862000004}
+timed fem 32 19 {'wall_s': 44.451323326677084, 'cpu_s': 34.883485429000004}
+timed fem 1 -1 {'wall_s': 69.68215347081423, 'cpu_s': 60.111508908999994}
+timed fem 1 4 {'wall_s': 111.44704903289676, 'cpu_s': 101.874223928}
+timed fem 1 9 {'wall_s': 152.99660421907902, 'cpu_s': 143.42153760899998}
+timed fem 1 14 {'wall_s': 194.46489243209362, 'cpu_s': 184.88787015499997}
+timed fem 1 19 {'wall_s': 236.0540322251618, 'cpu_s': 226.47353165599998}
+timed fem 8 -1 {'wall_s': 240.5942477621138, 'cpu_s': 231.001249705}
+timed fem 8 4 {'wall_s': 247.83430177345872, 'cpu_s': 238.24108417999997}
+timed fem 8 9 {'wall_s': 255.0583096370101, 'cpu_s': 245.464873443}
+timed fem 8 14 {'wall_s': 262.8085969313979, 'cpu_s': 253.21493079599998}
+timed fem 8 19 {'wall_s': 270.09208282083273, 'cpu_s': 260.49818636699996}

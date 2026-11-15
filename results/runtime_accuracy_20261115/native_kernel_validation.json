@@ -1,0 +1,31 @@
+{
+  "status": "completed",
+  "queries": 480,
+  "passed": true,
+  "max_scaled_error": 2.1436072918063457e-16,
+  "source_sha256": "dd43d6398618422106ae911aefe0f371e19c2679045cfb10bea5b1edf6c851d0",
+  "input_sha256": "6a2f835b3ba57666c7a86a37c31b9513466aed4483904321764ed59556f46b91",
+  "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0\nCopyright (C) 2021 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "flags": [
+    "-O3",
+    "-DNDEBUG",
+    "-std=c++17"
+  ],
+  "setup": [
+    "0.0011921519999999999",
+    "0.0010000000000000002",
+    "480"
+  ],
+  "pilot": [
+    "0.00084057200000000004",
+    "35690",
+    "480"
+  ],
+  "subprocess_wall": {
+    "wall_s": 0.6897965259850025,
+    "cpu_s": 0.0004767970000001398
+  },
+  "scope": "source-validated C++ counterpart of finite, no-sentinel getComputeRC; resolved width/context. NOT linked OpenRCX or full getRC. Both returned components, no trace/debug IO in timed loop.",
+  "cross_boundary_scope": "Python ctypes loop + argument marshaling + getter + checksum; no per-call latency distribution claimed",
+  "source_reference": "OpenROAD 0b54bb3203e0895f87940ff982358a6e4d406e28 src/rcx/src/extRCmodel.cpp; preexisting validation covers 29735 trace records"
+}

@@ -1,0 +1,9 @@
+{
+  "query_level_replay": "completed: 71 template geometries and 480 native replay geometries, Q limits 1/8/32",
+  "independent_reference": "completed: 213 resident one-RHS solves of the same 71 certified fine templates",
+  "fixed_node_offline_export": "completed: 12 identical rule exports; 96 release native extraction/STA runs",
+  "offline_rule_enrichment": "new rule nodes NOT implemented or claimed",
+  "actual_online_substitution": "NOT implemented or claimed",
+  "native_FEM_physical_alignment": "NOT established; native agreement and template physical error remain separate",
+  "exact_full_layout_cross_sections": "NOT claimed; the physical contract is a symmetric 2D layout-parameterized template"
+}

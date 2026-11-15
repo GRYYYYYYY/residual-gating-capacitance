@@ -1,0 +1,326 @@
+[
+  {
+    "table_id": "asap7-M4-OVER",
+    "method": "anchor",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-OVER",
+    "method": "cmi",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-OVER",
+    "method": "affine",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-OVER",
+    "method": "gp",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-OVER",
+    "method": "residual",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-OVER",
+    "method": "binary",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-OVER",
+    "method": "full",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-OVER",
+    "method": "mlp_adapt",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-OVER",
+    "method": "cnp",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-OVERUNDER",
+    "method": "anchor",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-OVERUNDER",
+    "method": "cmi",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-OVERUNDER",
+    "method": "affine",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-OVERUNDER",
+    "method": "gp",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-OVERUNDER",
+    "method": "residual",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-OVERUNDER",
+    "method": "binary",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-OVERUNDER",
+    "method": "full",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-OVERUNDER",
+    "method": "mlp_adapt",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-OVERUNDER",
+    "method": "cnp",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-UNDER",
+    "method": "anchor",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-UNDER",
+    "method": "cmi",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-UNDER",
+    "method": "affine",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-UNDER",
+    "method": "gp",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-UNDER",
+    "method": "residual",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-UNDER",
+    "method": "binary",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-UNDER",
+    "method": "full",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-UNDER",
+    "method": "mlp_adapt",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M4-UNDER",
+    "method": "cnp",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-OVER",
+    "method": "anchor",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-OVER",
+    "method": "cmi",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-OVER",
+    "method": "affine",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-OVER",
+    "method": "gp",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-OVER",
+    "method": "residual",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-OVER",
+    "method": "binary",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-OVER",
+    "method": "full",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-OVER",
+    "method": "mlp_adapt",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-OVER",
+    "method": "cnp",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-OVERUNDER",
+    "method": "anchor",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-OVERUNDER",
+    "method": "cmi",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-OVERUNDER",
+    "method": "affine",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-OVERUNDER",
+    "method": "gp",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-OVERUNDER",
+    "method": "residual",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-OVERUNDER",
+    "method": "binary",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-OVERUNDER",
+    "method": "full",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-OVERUNDER",
+    "method": "mlp_adapt",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-OVERUNDER",
+    "method": "cnp",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-UNDER",
+    "method": "anchor",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-UNDER",
+    "method": "cmi",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-UNDER",
+    "method": "affine",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-UNDER",
+    "method": "gp",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-UNDER",
+    "method": "residual",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-UNDER",
+    "method": "binary",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-UNDER",
+    "method": "full",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-UNDER",
+    "method": "mlp_adapt",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  },
+  {
+    "table_id": "asap7-M5-UNDER",
+    "method": "cnp",
+    "max_source_scaled_error": 0.0,
+    "passed": true
+  }
+]

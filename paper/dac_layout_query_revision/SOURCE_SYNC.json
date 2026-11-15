@@ -1,5 +1,18 @@
 {
   "authoritative": "main.tex",
-  "main_tex_sha256": "364e8ffd83d76417327f1847344524388860cf2a39726f256101e18b84b20391",
-  "reading_md_sha256": "feaa729f02773bdee2393c80f75f73f6b189c31e38ed45d9ace8f99f5626a87b"
+  "main_tex_sha256": "805c41c82a3d20b7b47e70bc6f351ac66714d4ea4f7ebe46f331a6d858d01cde",
+  "reading_md_sha256": "642d3234cd355f7845748a4ea55751b64e8a9d862379670c00dbe1f589d0246f",
+  "compiled_pdf_sha256": "305cde7c3f01eedba9c6504ed0d7f72f300f7272ad4b1342d43c27c8afba06aa",
+  "rendered_inputs": {
+    "IEEEtran.cls": "c972aca108fda004c3514d63658e02816da2e54d9a1451e870b9bd970e003f55",
+    "figures/budget_accuracy.pdf": "e4a92dcbccd0744d3d86fd73a88ca34f5756dfa9789274c40fffdbf3c0b7a8a7",
+    "figures/method.pdf": "1bb9444420d9ca93137075342a160152d2db0140035ea53bc647c069e4114567",
+    "figures/native_fidelity.pdf": "e403cbce54eae33eff75f1621201fec6dc26c2fb1720f4730dd833afe6f7196f",
+    "figures/runtime_accuracy.pdf": "eb52c6c7708fe8d22a4efc6888e8c32758ed005e6350fb68a32e8730d4673466",
+    "references.bib": "3406a8e06ea015896bac85520339e8402e1505d00fbc870b6cddb4bc7ac52ba6",
+    "tables/budget_aux.tex": "ceccacb9e4aa08861f5a30711dfb66af4a379c38c21c6a0fd90d26cbe0f14938",
+    "tables/fem_gain_range.tex": "2f379c4f44910af5d449722d931a2b74650b52dceb7abd5dd52df3e079605367",
+    "tables/fixed_missingness.tex": "4db7b229afec84d9d165efa48f39a78502941d3e4c0e73f4eef2539fe4f92d13",
+    "tables/offgrid_runtime.tex": "8e0ea9a05e27137360f829ac8b5a03169f46f19b50cee7e3840ab4391716ec34"
+  }
 }

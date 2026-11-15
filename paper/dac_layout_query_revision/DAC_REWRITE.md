@@ -27,21 +27,13 @@ be generated and stored [2]. This motivates improving rule
 evaluation while holding the available characterization samples fixed.
 
 Prior work has automated pattern and formula construction from field-solver
-samples [6], developed neural capacitance
-models [2, 5], and studied geometry and
+samples [6], developed neural capacitance and matrix
+predictors [2, 5, 7, 8], and studied geometry and
 layer-thickness exploration [1]. We focus on the complementary
 problem of estimating uncharacterized queries from a supplied set of
 process-specific characterization samples.
 
-We formulate the task as characterization-conditioned capacitance estimation.
-For a query geometry, a numerical anchor summarizes the available samples, while
-a shared Transformer predicts residual corrections from geometry, material
-context, and observed capacitances. Component-wise fusion combines numerical and
-neural corrections, and a lightweight binary variant retains the same
-conditioning interface. Learned parameters remain fixed during conditional
-inference, while changes in the supplied characterization data alter the
-predictions. The estimator can supply additional rule values for an otherwise
-unchanged extraction flow.
+We condition a numerical anchor and Transformer residual on supplied capacitance samples, geometry, and material context. Component-wise fusion combines numerical and neural corrections; a binary variant retains the same conditioning interface. Parameters remain fixed during conditional inference, while observations alter predictions. Predicted rule values can be exported into the native flow.
 
 We evaluate controlled characterization subsampling, support-size sensitivity,
 cross-process prediction, and native extraction fidelity. Full improves over
@@ -49,7 +41,7 @@ Binary in all five FEM conditions at 30% holdout, whereas sparse-support
 comparisons and downstream tails often favor simpler methods. A native query
 census and direct reference solves on declared layout-parameterized templates
 then test relevance and accuracy when all supplied samples remain available.
-These evaluations separate native agreement from physical reference error.
+These evaluations separate native agreement from physical error and distinguish query computation, rule preparation, and native extraction cost.
 
 Our contributions are:
 
@@ -222,7 +214,7 @@ Table III. Additional fixed-budget controls, pooled-replicate macro NRMSE. AC de
 
 Table III retains CNP and adapted AttentionCap. CNP is less accurate than Full/Binary in these cohorts. Adapted AttentionCap improves from 0.4546 at FEM $B=4$ to 0.1657 at $B=64$, but reaches 6.8753 at transfer $B=4$, showing sensitivity to sparse component-supervised fitting. In a separate reverse-direction MLP experiment (ASAP7 to FreePDK15), target fitting reduces NRMSE from 0.4414 without updates to 0.0569 at $B=4$ and 0.0284 at $B=64$.
 
-Target fitting consumes updates per table; Full/Binary reuse weights. Full still evaluates its numerical bank: recorded shared encoding plus one forward pass costs 15.05–18.01 ms for Full-L versus 8.58–10.75 ms for Binary-L across the support-analysis budgets (single-member component costs, not ensemble wall times). FEM characterization work replays recorded costs including initial support; public accesses are simulated. Several strong methods meet the evaluated source-validation tolerances at the first tested $B=4$. These minimum-budget results are retrospective comparisons, not deployment stopping rules with access to query truth.
+Target fitting consumes updates per table; Full/Binary reuse weights. Full evaluates a numerical bank in addition to its learned correction; full-ensemble costs are measured separately below. FEM characterization work replays recorded costs including initial support; public accesses are simulated. Several strong methods meet the evaluated source-validation tolerances at the first tested $B=4$. These minimum-budget results are retrospective comparisons, not deployment stopping rules with access to query truth.
 
 ### Native extraction and timing fidelity
 
@@ -237,7 +229,7 @@ These dependent fixed-design comparisons measure full-rule fidelity.
 
 ### Support-protocol sensitivity
 Matched 2,000-step continuation compares original-support (H) and low-budget
-coverage sampling (L) for Full/Binary, with three seeds. The H-minus-L mean
+coverage sampling (L) for Full/Binary across four process/layer groups and three seeds; count and coverage change jointly. The H-minus-L mean
 error improvement is 0.005066 for Full and 0.015766 for Binary. Binary-L wins
 at $B=4$ for all seeds and at $B=8$ for two; Full-L wins at $B=16,32$ but is
 20.0%/28.9% less accurate than source-trained Full. Original-support retention
@@ -246,43 +238,28 @@ continuation narrows Full's average advantage over Binary from 0.014088 to
 0.002939, with a denser-support accuracy cost. These are mean-member, group-balanced scores; the expanded treatment retains the detailed analysis.
 
 ### Native queries and independent template references
-We instrument two capacitance getters in OpenROAD
-\texttt{0b54bb3203}: finite width/distance evaluation and indexed fringe lookup.
-Original and instrumented extraction produce identical SPEF electrical records
-on all eight fixed routed databases. Across 9,888,586 logged calls and 19,562
-unique rule/geometry keys, 2,696,515 calls hit characterization nodes,
-4,547,424 are non-node queries within the selected width slice's support,
-and 967,755 lie outside it. The remaining 1,676,892 are fringe/special calls.
-Non-node calls represent 55.77% of this denominator and 67.16% of finite
-distance calls. The trace excludes resistance, five-argument diagonal getters,
-and subsequent assembly; it is not a count of every extraction operation.
+Two instrumented OpenROAD `0b54bb3203` capacitance getters (finite width/distance and indexed fringe) preserve SPEF electrical records on all eight fixed routed databases. Of 9,888,586 logged calls and 19,562 unique rule/geometry keys, 2,696,515 hit characterization nodes, 4,547,424 are non-node queries inside the selected width slice, 967,755 lie outside, and 1,676,892 are fringe/special. Non-node calls are 55.77% of logged calls and 67.16% of finite-distance calls. The trace excludes resistance, five-argument diagonal getters, and later assembly.
 
-![Figure 4](figures/query_census.png)
+![Figure 4](figures/runtime_accuracy.png)
 
-Figure 4. Measured query distribution on eight unchanged layouts. Left: occurrence-weighted classes over the two logged getters. Right: native M4 width/spacing requests from ASAP7 and original rule knots; marker area reflects log occurrence. Classification uses integer database coordinates and the selected native width slice.
+Figure 4. Accuracy and deployment cost. (a) Same 71 templates; circles/squares/triangles denote Q limits 32/8/1, each with its own error. Y is linear below 0.001 and logarithmic above; the fine-FEM point measures agreement with the fine reference, not zero discretization error. (b) Three-run mean per-layout extraction ratios; bars mark medians. (c) Fixed-node B=8, seed-11 prediction/export for four libraries. Shared setup and adaptation are separate. Panels (b,c) use controlled support; panel (a) uses all S.
 
-OpenRCX maps widths and constructs an internal distance compute grid.
-Among raw non-node calls, 849,663 return an effective characterization node;
-these are reported as quantized-to-node, separately from interpolation.
-An independent reproduction of the finite, non-sentinel computation matches
-29,735 design-specific query records (8,211,694 occurrences), with maximum
-support-scaled difference $2.1\times10^{-16}$. Rule identity is uniquely
-resolved for 95.42% of logged calls. This is an interface identity result;
-matching rule names does not establish matching electrostatic materials.
+Native width mapping and the distance compute grid quantize 849,663 raw non-node calls to characterization nodes. A finite, non-sentinel reimplementation matches 29,735 design-specific records (8,211,694 occurrences), with maximum support-scaled difference $2.1\times10^{-16}$. Rule identity is uniquely resolved for 95.42% of calls; this interface agreement does not establish electrostatic material alignment.
 
-Table IV. Off-grid query comparisons, macro NRMSE. Native agreement: 480 queries from 42 source-held-out rule groups, using every supplied rule sample and actual OpenRCX returns as reference. FEM: 71 independent template queries with 153 matched support samples per context. Weighted FEM uses occurrence counts divided by sampling probability. Native agreement and direct physical error have different references and units; compare methods only within a column.
+Table IV. Off-grid query comparisons, macro NRMSE. Native agreement: 480 queries from 42 source-held-out rule groups, using every supplied rule sample and actual OpenRCX returns as reference. FEM: 71 independent template queries with 153 matched support samples per context. FEM$_w$ weights occurrences by inverse sampling probability. The last column is warm FEM wall ms/query on one CPU thread, with Q limit 32 and three learned members; fitting/loading is separate. AC is adapted AttentionCap. Native agreement and physical error have distinct references; compare within a column.
 
-| Method | Native agreement | FEM unique | FEM weighted |
-| — | — | — | — |
-| Multilinear | 0.00761 | 0.00452 | 0.00527 |
-| Support anchor | 0.00761 | 0.00451 | 0.00527 |
-| Local affine | 0.17500 | 0.05254 | 0.05915 |
-| RBF-GP | 0.41736 | 0.05371 | 0.04158 |
-| Ungated | 0.21853 | 0.02688 | 0.02309 |
-| Binary | 0.24363 | 0.02218 | 0.02323 |
-| Full | 0.23620 | 0.01675 | 0.01456 |
-| Adapted MLP | 0.34070 | 0.01889 | 0.01792 |
-| CNP | 0.24988 | 0.16575 | 0.17161 |
+| Method | Native | FEM | FEM$_w$ | ms/Q |
+| — | — | — | — | — |
+| Multilinear | 0.00761 | 0.00452 | 0.00527 | 0.923 |
+| Support anchor | 0.00761 | 0.00451 | 0.00527 | 0.788 |
+| Local affine | 0.17500 | 0.05254 | 0.05915 | 0.232 |
+| RBF-GP | 0.41736 | 0.05371 | 0.04158 | 0.316 |
+| Ungated | 0.21853 | 0.02688 | 0.02309 | 2.051 |
+| Binary | 0.24363 | 0.02218 | 0.02323 | 2.110 |
+| Full | 0.23620 | 0.01675 | 0.01456 | 3.706 |
+| Adapted MLP | 0.34070 | 0.01889 | 0.01792 | 0.025 |
+| CNP | 0.24988 | 0.16575 | 0.17161 | 0.155 |
+| Adapted AC | – | 0.70695 | 0.74013 | 0.230 |
 
 For direct references, 114 ASAP7 AES/Ibex candidates on M4/M5 in adjacent
 OVER, UNDER, and OVERUNDER contexts account for 86,587 calls (0.876%).
@@ -301,34 +278,48 @@ accuracy claim is made. For the same template, direct P2 FEM solves provide
 query labels independently of prediction; support geometry, solver hashes,
 and component projections are verified against the reused matrices.
 
-All 83 pilot/formal geometries pass coarse/fine/doubled-domain checks and
-component-scaled convergence limits. Twelve additional on-grid controls
-reproduce the reused matrices exactly. Macro normalized component uncertainty
-is 0.00016, compared with Anchor/Full/Binary errors of
-0.00451/0.01675/0.02218. Source training and selection for this cohort use
-FreePDK15 only. Table IV shows that the support anchor is more
-accurate than learned correction with the full supplied characterization.
-Full improves over Binary and adapted MLP on this cohort, but does not improve
-on numerical interpolation. In native replay, interpolation also agrees more
-closely with OpenRCX than the learned methods. Agreement alone does not rank
-physical accuracy.
+All 83 pilot/formal geometries pass coarse/fine/doubled-domain and component-scaled convergence checks; twelve on-grid controls reproduce the reused matrices exactly. Macro normalized uncertainty is 0.00016, versus Anchor/Full/Binary errors of 0.00451/0.01675/0.02218. Training and selection use FreePDK15 only. With all supplied samples, Full improves over Binary and adapted MLP but not numerical interpolation (Table IV). Interpolation also agrees more closely with native returns; agreement alone does not rank physical accuracy.
 
-Query batches contain all support and at most 32 hash-sorted queries per
-context. The new API preserves original-grid outputs and support values
-bit-exactly. Development set changes affect Full's output (public maximum
-0.0205 in source-normalized units); canonical input reordering does not. Raw FEM token reordering changes Full by 0.00319 through order-sensitive support envelopes.
-Thus evaluation is batch-conditioned. Mean three-member FEM-batch wall times
-are Full 43.67, Binary 25.33, Anchor 8.32, and adapted MLP 605.07 ms,
-including encoding, numerical work and, for MLP, fitting. Loading and
-reference solves are separate; no end-to-end speedup follows.
+Canonical batches include all S and at most 32 hash-sorted queries per context. The query API preserves original-grid predictions and observed values exactly. Changing Q affects Full (public maximum 0.0205 in source-normalized units), whereas canonical input reordering does not. Raw FEM token reordering changes Full by 0.00319 through order-sensitive support envelopes.
 
-### Discussion
-Target observations support three deployment choices: numerical fitting, source-trained conditional residuals, and target parameter adaptation. Full fusion adds value in all five FEM controlled-subsampling conditions; sparse support and native timing tails favor simpler alternatives in several comparisons. With all supplied characterization samples, interpolation is more accurate on the layout-parameterized template cohort. Query-level replay, offline addition of rule nodes, and in-extractor replacement are distinct deployment levels. The evidence here supports replay and fixed-grid rule export; node enrichment and online model substitution are not established.
+### Accuracy–Runtime Trade-offs and Deployment Cost
+On one pinned Xeon Gold 6530 thread, three warmups precede 20 randomized
+timing blocks. Each Q limit (1/8/32) has its own scored predictions.
+Warm times include encoding, numerical candidates, three learned members and
+assembly; only requested geometries enter the denominator.
+At Q limit 32, Full/Binary/Anchor cost
+3.706/2.110/0.788 ms/query
+(Table IV, Fig. 4).
+Full's measured single-request mean is 40.97 ms.
 
-Public geometry is rank one, FEM models idealized two-dimensional cross sections, and native exports replace held-out tables within otherwise complete libraries. Budgeted learning controls have different source-training opportunities; their controlled-subsampling counterparts use distinct protocols. The support analysis covers four process/layer groups and three seeds, changing count and coverage jointly. Deployment selection should consider table accuracy, target fitting, correction-bank computation, and downstream error metrics.
+With support fits retained, adapted MLP costs 0.025 ms/query
+at NRMSE 0.01889; its six-context fit costs
+14.03 s including first-use optimizer initialization.
+Adapted AttentionCap costs 0.230 ms/query, but its NRMSE is
+0.70695, with 11.27 s adaptation.
+Neither fit accesses query labels. Query-dependent Transformer support states
+are not cached. Anchor/CMI are more accurate than Full here.
+
+Resident one-RHS fine P2 solving costs 3.719 s/query,
+including remeshing, assembly, factorization and both nonzero outputs.
+All 213 solves match certified full-matrix target rows within
+$1.5\times10^{-15}$ relative scale. Certification cost is separate;
+surrogate errors exceed reference uncertainty, precluding an equal-accuracy
+speedup claim. A validated C++ finite-distance getter counterpart costs
+1.72 ns/query in warm loops after width/context resolution
+(0.567 $\mu$s through ctypes), not a complete PEX query.
+
+Across 96 release runs, Full's extraction/original ratio is
+0.983–1.047. Fixed-node prediction/export for four libraries
+at B=8, seed 11 costs 0.70/0.67/0.91 s
+for CMI/Binary/Full, plus 0.88 s shared loading/support preparation.
+Each library serves two measured layouts. SPEF writing and STA are separate;
+rule parsing remains in extraction. Electrical results match the frozen
+variants exactly. This offline configuration keeps learned inference outside
+the native extraction loop.
 
 ## Conclusion
-We presented characterization-conditioned capacitance estimation with an anchor-based residual predictor, binary and numerical–neural gates, and native rule export. Experiments connect completion to extraction and timing fidelity, showing how support coverage, target adaptation, and fusion complexity affect accuracy and cost. The native census establishes the occurrence of non-node requests, while direct template references show that learned corrections need not improve interpolation when the full characterization support is available.
+Characterization-conditioned residual prediction links rule completion to PEX/STA fidelity. Its benefit depends on support coverage: Full improves tested subsampling conditions, while interpolation is more accurate on the fully supported off-grid templates. Measured preparation and query costs motivate explicit deployment choices. Evidence covers query replay and fixed-node export; node enrichment and online substitution remain unestablished.
 
 ## References
 

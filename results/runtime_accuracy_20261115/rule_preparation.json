@@ -1,0 +1,346 @@
+{
+  "data_load": {
+    "wall_s": 0.2990044429898262,
+    "cpu_s": 0.23273562400000003
+  },
+  "shared_model_bundle_load": {
+    "wall_s": 0.4659077636897564,
+    "cpu_s": 0.271076871
+  },
+  "support_selection": {
+    "wall_s": 0.11248216032981873,
+    "cpu_s": 0.11247326899999965
+  },
+  "rows": [
+    {
+      "platform": "asap7",
+      "method": "cmi",
+      "rule_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/runtime_accuracy_20261115/rules/asap7_cmi_B8_s11.rules",
+      "rule_sha256": "b667d6433f07859041200fb8f8168a0e4c4dcb6ff22451abc6b03fbaabffa779",
+      "bytes": 117547,
+      "original": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/asap7/rcx_patterns.rules",
+      "original_sha256": "32a117e5e866d3de1406e8f18d65b6f1857781f156638941a4769e25ef5252cc",
+      "original_bytes": 117122,
+      "prediction_all_platforms": {
+        "wall_s": 0.15466416254639626,
+        "cpu_s": 0.15464720399999976
+      },
+      "export": {
+        "wall_s": 0.1354714147746563,
+        "cpu_s": 0.11577244600000025
+      },
+      "payload_write": {
+        "wall_s": 0.0049638450145721436,
+        "cpu_s": 0.00287495999999976
+      },
+      "equal_frozen_export": true,
+      "receipt": {
+        "changed_rows": 167,
+        "source_tables": 219
+      }
+    },
+    {
+      "platform": "gf180",
+      "method": "cmi",
+      "rule_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/runtime_accuracy_20261115/rules/gf180_cmi_B8_s11.rules",
+      "rule_sha256": "6551ab96e46ee37cbb92e489a37765e9b26a6060f0d3c989f820bf5dd15cdd56",
+      "bytes": 31495,
+      "original": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/gf180/gf180mcu_1p5m_1tm_9k_sp_smim_OPTB_typ.rules",
+      "original_sha256": "39ca464e9e5b588c2bf8a81e2dfd2b8430f1f6da2d909ea5ee56610366a64128",
+      "original_bytes": 31312,
+      "prediction_all_platforms": {
+        "wall_s": 0.15466416254639626,
+        "cpu_s": 0.15464720399999976
+      },
+      "export": {
+        "wall_s": 0.11677565053105354,
+        "cpu_s": 0.10374626399999975
+      },
+      "payload_write": {
+        "wall_s": 0.0049638450145721436,
+        "cpu_s": 0.00287495999999976
+      },
+      "equal_frozen_export": true,
+      "receipt": {
+        "changed_rows": 33,
+        "source_tables": 50
+      }
+    },
+    {
+      "platform": "ihp-sg13g2",
+      "method": "cmi",
+      "rule_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/runtime_accuracy_20261115/rules/ihp-sg13g2_cmi_B8_s11.rules",
+      "rule_sha256": "d9a1fe08ea60286c5818ba1f9fc7214283b371fc5878a5123185c70b8e13eb3d",
+      "bytes": 50533,
+      "original": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/ihp_sg13g2/IHP_rcx_patterns.rules",
+      "original_sha256": "ffda02d57a6ecb39b02268be9511d89ef072911f17bd2dcd095f3f3cbeb5a905",
+      "original_bytes": 50282,
+      "prediction_all_platforms": {
+        "wall_s": 0.15466416254639626,
+        "cpu_s": 0.15464720399999976
+      },
+      "export": {
+        "wall_s": 0.15021461248397827,
+        "cpu_s": 0.13191964899999942
+      },
+      "payload_write": {
+        "wall_s": 0.0049638450145721436,
+        "cpu_s": 0.00287495999999976
+      },
+      "equal_frozen_export": true,
+      "receipt": {
+        "changed_rows": 83,
+        "source_tables": 109
+      }
+    },
+    {
+      "platform": "sky130hs",
+      "method": "cmi",
+      "rule_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/runtime_accuracy_20261115/rules/sky130hs_cmi_B8_s11.rules",
+      "rule_sha256": "3d97082c17cec55d3e01bd601e71d944bade6853317fff04730966917dec72ff",
+      "bytes": 44983,
+      "original": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/sky130/rcx_patterns.rules",
+      "original_sha256": "d5bd9b1077ceac9929416abca272a6d52e51cd9a575453a31d129817bb286476",
+      "original_bytes": 44745,
+      "prediction_all_platforms": {
+        "wall_s": 0.15466416254639626,
+        "cpu_s": 0.15464720399999976
+      },
+      "export": {
+        "wall_s": 0.1385573260486126,
+        "cpu_s": 0.12345303399999974
+      },
+      "payload_write": {
+        "wall_s": 0.0049638450145721436,
+        "cpu_s": 0.00287495999999976
+      },
+      "equal_frozen_export": true,
+      "receipt": {
+        "changed_rows": 60,
+        "source_tables": 76
+      }
+    },
+    {
+      "platform": "asap7",
+      "method": "binary",
+      "rule_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/runtime_accuracy_20261115/rules/asap7_binary_B8_s11.rules",
+      "rule_sha256": "c02211d03f6a6587bcd37a6513b1bb1d6e2ffde12fd60ccc1f563f882d9ce860",
+      "bytes": 118855,
+      "original": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/asap7/rcx_patterns.rules",
+      "original_sha256": "32a117e5e866d3de1406e8f18d65b6f1857781f156638941a4769e25ef5252cc",
+      "original_bytes": 117122,
+      "prediction_all_platforms": {
+        "wall_s": 0.3732518032193184,
+        "cpu_s": 0.37325275400000013
+      },
+      "export": {
+        "wall_s": 0.08237602561712265,
+        "cpu_s": 0.08100213899999975
+      },
+      "payload_write": {
+        "wall_s": 0.0038097724318504333,
+        "cpu_s": 0.0024229430000000107
+      },
+      "equal_frozen_export": true,
+      "receipt": {
+        "changed_rows": 167,
+        "source_tables": 219
+      }
+    },
+    {
+      "platform": "gf180",
+      "method": "binary",
+      "rule_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/runtime_accuracy_20261115/rules/gf180_binary_B8_s11.rules",
+      "rule_sha256": "de1228571e47f55f81f54266693d2c48499fd11e2152e6542ce7d750c8ea48cf",
+      "bytes": 31680,
+      "original": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/gf180/gf180mcu_1p5m_1tm_9k_sp_smim_OPTB_typ.rules",
+      "original_sha256": "39ca464e9e5b588c2bf8a81e2dfd2b8430f1f6da2d909ea5ee56610366a64128",
+      "original_bytes": 31312,
+      "prediction_all_platforms": {
+        "wall_s": 0.3732518032193184,
+        "cpu_s": 0.37325275400000013
+      },
+      "export": {
+        "wall_s": 0.06462729349732399,
+        "cpu_s": 0.06275173200000062
+      },
+      "payload_write": {
+        "wall_s": 0.0038097724318504333,
+        "cpu_s": 0.0024229430000000107
+      },
+      "equal_frozen_export": true,
+      "receipt": {
+        "changed_rows": 33,
+        "source_tables": 50
+      }
+    },
+    {
+      "platform": "ihp-sg13g2",
+      "method": "binary",
+      "rule_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/runtime_accuracy_20261115/rules/ihp-sg13g2_binary_B8_s11.rules",
+      "rule_sha256": "53e2cb3d76a2c479d692fae9283d0b04b3d511fdb4eef4a1e8bfd2c481fb115e",
+      "bytes": 50768,
+      "original": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/ihp_sg13g2/IHP_rcx_patterns.rules",
+      "original_sha256": "ffda02d57a6ecb39b02268be9511d89ef072911f17bd2dcd095f3f3cbeb5a905",
+      "original_bytes": 50282,
+      "prediction_all_platforms": {
+        "wall_s": 0.3732518032193184,
+        "cpu_s": 0.37325275400000013
+      },
+      "export": {
+        "wall_s": 0.07869872450828552,
+        "cpu_s": 0.07562584900000058
+      },
+      "payload_write": {
+        "wall_s": 0.0038097724318504333,
+        "cpu_s": 0.0024229430000000107
+      },
+      "equal_frozen_export": true,
+      "receipt": {
+        "changed_rows": 83,
+        "source_tables": 109
+      }
+    },
+    {
+      "platform": "sky130hs",
+      "method": "binary",
+      "rule_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/runtime_accuracy_20261115/rules/sky130hs_binary_B8_s11.rules",
+      "rule_sha256": "709069e8a88bfcbb1cc4c4a6b99f13827a7984a6cb037b1ba99609b5af9b656f",
+      "bytes": 45392,
+      "original": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/sky130/rcx_patterns.rules",
+      "original_sha256": "d5bd9b1077ceac9929416abca272a6d52e51cd9a575453a31d129817bb286476",
+      "original_bytes": 44745,
+      "prediction_all_platforms": {
+        "wall_s": 0.3732518032193184,
+        "cpu_s": 0.37325275400000013
+      },
+      "export": {
+        "wall_s": 0.06726184114813805,
+        "cpu_s": 0.06615687599999998
+      },
+      "payload_write": {
+        "wall_s": 0.0038097724318504333,
+        "cpu_s": 0.0024229430000000107
+      },
+      "equal_frozen_export": true,
+      "receipt": {
+        "changed_rows": 60,
+        "source_tables": 76
+      }
+    },
+    {
+      "platform": "asap7",
+      "method": "full",
+      "rule_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/runtime_accuracy_20261115/rules/asap7_full_B8_s11.rules",
+      "rule_sha256": "d76de73699586a79a29d5b4e3e0e0dc0de88b47fdf159d00e44380e5554c5748",
+      "bytes": 118904,
+      "original": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/asap7/rcx_patterns.rules",
+      "original_sha256": "32a117e5e866d3de1406e8f18d65b6f1857781f156638941a4769e25ef5252cc",
+      "original_bytes": 117122,
+      "prediction_all_platforms": {
+        "wall_s": 0.6225645057857037,
+        "cpu_s": 0.6225518599999997
+      },
+      "export": {
+        "wall_s": 0.07816407456994057,
+        "cpu_s": 0.07687862200000062
+      },
+      "payload_write": {
+        "wall_s": 0.0031752288341522217,
+        "cpu_s": 0.0022890870000003005
+      },
+      "equal_frozen_export": true,
+      "receipt": {
+        "changed_rows": 167,
+        "source_tables": 219
+      }
+    },
+    {
+      "platform": "gf180",
+      "method": "full",
+      "rule_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/runtime_accuracy_20261115/rules/gf180_full_B8_s11.rules",
+      "rule_sha256": "48d9c9d2a1a1e59532e397d5281997bede5c02801dfc2467f9d27e44049fa7d4",
+      "bytes": 31684,
+      "original": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/gf180/gf180mcu_1p5m_1tm_9k_sp_smim_OPTB_typ.rules",
+      "original_sha256": "39ca464e9e5b588c2bf8a81e2dfd2b8430f1f6da2d909ea5ee56610366a64128",
+      "original_bytes": 31312,
+      "prediction_all_platforms": {
+        "wall_s": 0.6225645057857037,
+        "cpu_s": 0.6225518599999997
+      },
+      "export": {
+        "wall_s": 0.06745877116918564,
+        "cpu_s": 0.06314232899999972
+      },
+      "payload_write": {
+        "wall_s": 0.0031752288341522217,
+        "cpu_s": 0.0022890870000003005
+      },
+      "equal_frozen_export": true,
+      "receipt": {
+        "changed_rows": 33,
+        "source_tables": 50
+      }
+    },
+    {
+      "platform": "ihp-sg13g2",
+      "method": "full",
+      "rule_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/runtime_accuracy_20261115/rules/ihp-sg13g2_full_B8_s11.rules",
+      "rule_sha256": "2b80202ea0e40e59efe745706f34ea4e709baba61b4412b128b1b0acfa426f91",
+      "bytes": 50780,
+      "original": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/ihp_sg13g2/IHP_rcx_patterns.rules",
+      "original_sha256": "ffda02d57a6ecb39b02268be9511d89ef072911f17bd2dcd095f3f3cbeb5a905",
+      "original_bytes": 50282,
+      "prediction_all_platforms": {
+        "wall_s": 0.6225645057857037,
+        "cpu_s": 0.6225518599999997
+      },
+      "export": {
+        "wall_s": 0.0765509195625782,
+        "cpu_s": 0.07600029399999997
+      },
+      "payload_write": {
+        "wall_s": 0.0031752288341522217,
+        "cpu_s": 0.0022890870000003005
+      },
+      "equal_frozen_export": true,
+      "receipt": {
+        "changed_rows": 83,
+        "source_tables": 109
+      }
+    },
+    {
+      "platform": "sky130hs",
+      "method": "full",
+      "rule_path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/runtime_accuracy_20261115/rules/sky130hs_full_B8_s11.rules",
+      "rule_sha256": "0234b64d15ef4bcfacb664a5daf2763eda8a162c390faae1e157addeff57c667",
+      "bytes": 45439,
+      "original": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/sky130/rcx_patterns.rules",
+      "original_sha256": "d5bd9b1077ceac9929416abca272a6d52e51cd9a575453a31d129817bb286476",
+      "original_bytes": 44745,
+      "prediction_all_platforms": {
+        "wall_s": 0.6225645057857037,
+        "cpu_s": 0.6225518599999997
+      },
+      "export": {
+        "wall_s": 0.06637784838676453,
+        "cpu_s": 0.06500064600000055
+      },
+      "payload_write": {
+        "wall_s": 0.0031752288341522217,
+        "cpu_s": 0.0022890870000003005
+      },
+      "equal_frozen_export": true,
+      "receipt": {
+        "changed_rows": 60,
+        "source_tables": 76
+      }
+    }
+  ],
+  "total": {
+    "wall_s": 3.2368436008691788,
+    "cpu_s": 2.829697972
+  },
+  "scope": "B8 seed11; 83 eligible source-held-out tables; same nodes and R; no node enrichment. Prediction timing spans all four processes; load and support selection shared and counted once. Full/control weights bundled by existing loader.",
+  "peak_rss_kib": 231000
+}

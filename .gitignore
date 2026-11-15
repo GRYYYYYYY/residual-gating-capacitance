@@ -77,3 +77,16 @@ paper/dac_layout_query_revision/*.out
 paper/dac_layout_query_revision/*.fls
 paper/dac_layout_query_revision/*.fdb_latexmk
 results/layout_offgrid_20261115/query_manifest.jsonl
+
+# Runtime experiment: retain compact raw records, keep large generated files local.
+results/runtime_accuracy_20261115/native/*/*/*/*/*.spef
+results/runtime_accuracy_20261115/rules/*.rules
+results/runtime_accuracy_20261115/rules/*_B8_s11.json
+results/runtime_accuracy_20261115/native_lookup
+results/runtime_accuracy_20261115/native_lookup.so
+results/runtime_accuracy_20261115/timing_*.csv
+results/runtime_accuracy_20261115/predictions_*.jsonl
+results/runtime_accuracy_20261115/cnp_combined_initial_*.csv
+results/runtime_accuracy_20261115/cached_union_initial_*.csv
+results/runtime_accuracy_20261115/pdf_preview/
+results/runtime_accuracy_20261115/cold_worker_*.json
