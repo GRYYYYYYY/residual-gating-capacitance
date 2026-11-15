@@ -1,0 +1,66 @@
+{
+  "case": "gf180/ibex",
+  "method": "pass",
+  "block": 0,
+  "wall_s": 9.930254712700844,
+  "cpu_s": 9.61012399999999,
+  "layout_and_libs_s": 0.900317,
+  "rule_registration_s": 9.9e-05,
+  "extraction_s": 4.020551,
+  "spef_write_s": 0.504028,
+  "sta_read_s": 1.916874,
+  "sta_analysis_s": 2.421847,
+  "tables": 35,
+  "slots": 62735,
+  "eligible": 57055,
+  "applied": 11136,
+  "changed": 0,
+  "protected": 5680,
+  "special_tables": 0,
+  "native_build_s": 0.002306184,
+  "injection_s": 0.01845462,
+  "electrical_sha256": "a49bcebc8195057c12e976cb9ea4358d0316460d1c8295138a87acd02cafcf07",
+  "identical_native": true,
+  "trace": true,
+  "inventory_dump": false,
+  "worst_slack_ps": -5249.367237,
+  "tns_ps": -6614478.0273440005,
+  "rule_sha256": "39ca464e9e5b588c2bf8a81e2dfd2b8430f1f6da2d909ea5ee56610366a64128",
+  "binary_sha256": "1a7ec03ad6ce27d9aab26cce6ab7413257c2eb7d05f454b6e1bff4f78063f172",
+  "namespace": "gf180-typ-b892b04df31dafcc5ac173b9",
+  "dbu_per_um": 2000,
+  "peak_rss_kib": 290044,
+  "comparison": {
+    "units": {
+      "*C_UNIT": [
+        1.0,
+        "PF"
+      ],
+      "*R_UNIT": [
+        1.0,
+        "OHM"
+      ]
+    },
+    "golden_nets": 14568,
+    "candidate_nets": 14568,
+    "common_nets": 14568,
+    "metrics": {
+      "capacitance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 0.9999999999999999
+      },
+      "resistance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 1.0
+      }
+    }
+  }
+}

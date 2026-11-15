@@ -1,0 +1,66 @@
+{
+  "case": "sky130hs/aes",
+  "method": "pass",
+  "block": 1,
+  "wall_s": 8.679099496454,
+  "cpu_s": 8.472176000000049,
+  "layout_and_libs_s": 1.59179,
+  "rule_registration_s": 9e-05,
+  "extraction_s": 2.447588,
+  "spef_write_s": 0.739385,
+  "sta_read_s": 1.618149,
+  "sta_analysis_s": 2.084468,
+  "tables": 56,
+  "slots": 60956,
+  "eligible": 55156,
+  "applied": 9505,
+  "changed": 0,
+  "protected": 5800,
+  "special_tables": 0,
+  "native_build_s": 0.00252598,
+  "injection_s": 0.018013436,
+  "electrical_sha256": "81de04a37b0c3ec2f5d4cf135dc16bca0253849d071e5aa96d5592128d5b2289",
+  "identical_native": true,
+  "trace": false,
+  "inventory_dump": false,
+  "worst_slack_ps": -12.163382,
+  "tns_ps": -23.579138999999998,
+  "rule_sha256": "d5bd9b1077ceac9929416abca272a6d52e51cd9a575453a31d129817bb286476",
+  "binary_sha256": "5a969ff1b5f92d5a56e875af331789a428d3df38ba50735243ecde57bb0d7ede",
+  "namespace": "sky130hs-typ-d649153d7071a664c4fc0389",
+  "dbu_per_um": 1000,
+  "peak_rss_kib": 282704,
+  "comparison": {
+    "units": {
+      "*C_UNIT": [
+        1.0,
+        "PF"
+      ],
+      "*R_UNIT": [
+        1.0,
+        "OHM"
+      ]
+    },
+    "golden_nets": 15355,
+    "candidate_nets": 15355,
+    "common_nets": 15355,
+    "metrics": {
+      "capacitance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 1.0
+      },
+      "resistance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 1.0
+      }
+    }
+  }
+}

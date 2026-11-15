@@ -1,0 +1,2888 @@
+{
+  "passed": true,
+  "queries": 480,
+  "max_scaled_error": 0.0,
+  "rows": [
+    {
+      "query_id": "6da8d2eff68677bea4315b5a",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 168,
+      "expected_sep": 168
+    },
+    {
+      "query_id": "3dec877ca4214e078009975b",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 160,
+      "expected_sep": 160
+    },
+    {
+      "query_id": "ab42464be77b110e0a75c0c9",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 124,
+      "expected_sep": 124
+    },
+    {
+      "query_id": "79b709fe07b3175756f107b1",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 26,
+      "expected_sep": 26
+    },
+    {
+      "query_id": "f17a1d0c1f6478c3a61f0f84",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 98,
+      "expected_sep": 98
+    },
+    {
+      "query_id": "ea77e4c8c8f7dc9199890220",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 132,
+      "expected_sep": 132
+    },
+    {
+      "query_id": "7ce82f09910849e1108013f4",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 216,
+      "expected_sep": 216
+    },
+    {
+      "query_id": "6c66f750aa37c75ec76a7a3c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 204,
+      "expected_sep": 204
+    },
+    {
+      "query_id": "7c98e321e2dd000ff02b65fe",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "f7d99a0f90482145b1eb5d5e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "c7d540a717211362bdfa6ea7",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 228,
+      "expected_sep": 228
+    },
+    {
+      "query_id": "43018b9027d7678b00a0e3b4",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "6ab37aeb098156bf52dc6204",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "c2b86e74df8f8bf78c9de15a",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "1ecec814e76cb5ad92839d10",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "5efec88c0331b8011dfcb3cd",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "ca505cf21df2942ec54d86bd",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 164,
+      "expected_sep": 164
+    },
+    {
+      "query_id": "b86c6c066a603d7835ee5cdb",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "44aa2e546243b03a4f3dc2a2",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "b34a43d02734b8bbbdb9196a",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "6f928b904db1add73fc4d438",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 260,
+      "expected_sep": 260
+    },
+    {
+      "query_id": "b2ab229f1eb7518b1da71303",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 216,
+      "expected_sep": 216
+    },
+    {
+      "query_id": "e6f03a0ced4b56b183248c92",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 72,
+      "expected_sep": 72
+    },
+    {
+      "query_id": "312a0f39fe1e947043ec37d2",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "1f7687562691a00541534886",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 116,
+      "expected_sep": 116
+    },
+    {
+      "query_id": "4368d3466a16f271b8ab7f09",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 164,
+      "expected_sep": 164
+    },
+    {
+      "query_id": "4902d9b34497fe4c004aab4b",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 168,
+      "expected_sep": 168
+    },
+    {
+      "query_id": "a9c358fd6eb5e5b487e35ed9",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 212,
+      "expected_sep": 212
+    },
+    {
+      "query_id": "61f7d8448690bc323f98ab23",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "e59e15c633e811d95a5db495",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "9b4b52666972e8d4d827437c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 68,
+      "expected_sep": 68
+    },
+    {
+      "query_id": "8a37f55347e8966367966463",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 116,
+      "expected_sep": 116
+    },
+    {
+      "query_id": "e4995d4749c83c0872d7da78",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1540,
+      "expected_sep": 1540
+    },
+    {
+      "query_id": "f02f9a13ebd978fe81f13492",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "c08cb0254c26b440a9ec3247",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1420,
+      "expected_sep": 1420
+    },
+    {
+      "query_id": "aa3c3bf295cafa3051d186e9",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "3d954894fe99a1d3d5db7a24",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "e4fc6b0a0d3e0555976a551f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1328,
+      "expected_sep": 1328
+    },
+    {
+      "query_id": "4c99f405b29f52cdc9589e9c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "344e69ee077339fe65d6f185",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "ca4d157b89e95dbbc5fe9ffa",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "06be1d634a1222e0f3708bf3",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "06c1137bff15b639970f3177",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 188,
+      "expected_sep": 188
+    },
+    {
+      "query_id": "e9d633822c057540f3312edc",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "6c8203135525765fb8e25014",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 84,
+      "expected_sep": 84
+    },
+    {
+      "query_id": "78b43935bf282a513c0a108a",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 204,
+      "expected_sep": 204
+    },
+    {
+      "query_id": "3bb2b3f1ccd611c984e30175",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "b758ca0721d9ec7c70d1f420",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 108,
+      "expected_sep": 108
+    },
+    {
+      "query_id": "ce3755d2696942ca108d72da",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 132,
+      "expected_sep": 132
+    },
+    {
+      "query_id": "da9d1df3141d3670511dc1c8",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 156,
+      "expected_sep": 156
+    },
+    {
+      "query_id": "0b99faca88c14ab317ca9804",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "996838209d218160f40cf093",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "4cb30903d315680459074c34",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "13c8cb581c506c106f0bd497",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "e852295d1fac953e9e98208a",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 228,
+      "expected_sep": 228
+    },
+    {
+      "query_id": "6e8bc1c96e13c23e298f8784",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "385b5c66f32bce11e854e9e7",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 5040,
+      "expected_sep": 5040
+    },
+    {
+      "query_id": "6ff851a235d95a99fb466cf0",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3920,
+      "expected_sep": 3920
+    },
+    {
+      "query_id": "b742a28b611f4e001a63d486",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6720,
+      "expected_sep": 6720
+    },
+    {
+      "query_id": "1591c70021197e42ca234051",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6720,
+      "expected_sep": 6720
+    },
+    {
+      "query_id": "dcb721187abef95dd33c8fc7",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6720,
+      "expected_sep": 6720
+    },
+    {
+      "query_id": "51ff54b64ca302c245d31ac4",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6720,
+      "expected_sep": 6720
+    },
+    {
+      "query_id": "88c0de0228eb3307eab810b8",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6160,
+      "expected_sep": 6160
+    },
+    {
+      "query_id": "41071a8275b90467eae28ae3",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2320,
+      "expected_sep": 2320
+    },
+    {
+      "query_id": "d0d92083d77be95ae30a0c57",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1005,
+      "expected_sep": 1005
+    },
+    {
+      "query_id": "24cf11be3d734e8ec74126f2",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "1aff1b937a48ca7156de0ae2",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 402,
+      "expected_sep": 402
+    },
+    {
+      "query_id": "3235f70b7914676410f0929b",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 210,
+      "expected_sep": 210
+    },
+    {
+      "query_id": "9051990d2bc9c8c8f7f09498",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 342,
+      "expected_sep": 342
+    },
+    {
+      "query_id": "b0a5784c2630d2568558ec7b",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 210,
+      "expected_sep": 210
+    },
+    {
+      "query_id": "fd1564ff34118d798d43624c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 464,
+      "expected_sep": 464
+    },
+    {
+      "query_id": "22034abcd03486a4e017942c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1021,
+      "expected_sep": 1021
+    },
+    {
+      "query_id": "2962dbe567912fdee098ca18",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 589,
+      "expected_sep": 589
+    },
+    {
+      "query_id": "2adbc962684f405a15c0e224",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 326,
+      "expected_sep": 326
+    },
+    {
+      "query_id": "de23ba51ce660812e12416fe",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "853770f23e4a545677c96e09",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1160,
+      "expected_sep": 1160
+    },
+    {
+      "query_id": "08819040f5e5df008a3e5861",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1760,
+      "expected_sep": 1760
+    },
+    {
+      "query_id": "c45ba386e0fee2a7e6d3d1f0",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2600,
+      "expected_sep": 2600
+    },
+    {
+      "query_id": "e4ec6442e186255303d2c2d6",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 11040,
+      "expected_sep": 11040
+    },
+    {
+      "query_id": "885a5d86266e180534e9def9",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 11040,
+      "expected_sep": 11040
+    },
+    {
+      "query_id": "1d32d76506506b0c56e06862",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3000,
+      "expected_sep": 3000
+    },
+    {
+      "query_id": "5dd3e5dbef58c0c79dedb7e1",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2400,
+      "expected_sep": 2400
+    },
+    {
+      "query_id": "365d7d4bf9d594b7bae41321",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 11040,
+      "expected_sep": 11040
+    },
+    {
+      "query_id": "4aa44c95837f67e963e5fa34",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 4680,
+      "expected_sep": 4680
+    },
+    {
+      "query_id": "5ae6f936217a8dc1cf71f597",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 11040,
+      "expected_sep": 11040
+    },
+    {
+      "query_id": "858df3e98ef3d9b438dbff0a",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 11040,
+      "expected_sep": 11040
+    },
+    {
+      "query_id": "2b983b58e4bf20743b324f31",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 10600,
+      "expected_sep": 10600
+    },
+    {
+      "query_id": "82beffd1a34bbd1643fdf022",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 222,
+      "expected_sep": 222
+    },
+    {
+      "query_id": "54fbff1861424875779de6cf",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1900,
+      "expected_sep": 1900
+    },
+    {
+      "query_id": "92b9384de2bf4ac081fdbbf2",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "976eb1f81542f4065ddf29c2",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "0fcb3c3f877bff7e7a8bdfca",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1480,
+      "expected_sep": 1480
+    },
+    {
+      "query_id": "9c937b7606e501f39be55682",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "3d9011214597ccd9e1d59114",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2320,
+      "expected_sep": 2320
+    },
+    {
+      "query_id": "4dc2390f0f1633a07d1a4068",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1062,
+      "expected_sep": 1062
+    },
+    {
+      "query_id": "1cd0aa7f6418a98af008c632",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "41cb3bbabf60e1134054c324",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "f44f209ba893209c5846b887",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 642,
+      "expected_sep": 642
+    },
+    {
+      "query_id": "15dafa9ee931f35e391283fe",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1308,
+      "expected_sep": 1308
+    },
+    {
+      "query_id": "8f946b730421546ecdb12bee",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "a3385bbc9a2f3cfc83c612d6",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 448,
+      "expected_sep": 448
+    },
+    {
+      "query_id": "d320af92e1a66de72897bfc6",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "10c594ecbd49f656e004d661",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 748,
+      "expected_sep": 748
+    },
+    {
+      "query_id": "300ab25b8e7fe222c8c0fbc0",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 924,
+      "expected_sep": 924
+    },
+    {
+      "query_id": "6517256be38ff09345731783",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 406,
+      "expected_sep": 406
+    },
+    {
+      "query_id": "7d0d47c413592046ed0cef92",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 272,
+      "expected_sep": 272
+    },
+    {
+      "query_id": "49916b739455166bfae93321",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "053ede9c5952ed9d162371c9",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "234a397f26bee51c7ca6aa80",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1540,
+      "expected_sep": 1540
+    },
+    {
+      "query_id": "17ce2f928a5f4bfdea80623c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "652a5584555d0f871f200d6b",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "24bcf70f090b9450a0fa5ea2",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 260,
+      "expected_sep": 260
+    },
+    {
+      "query_id": "4f36dc7e47b79f36e2e23bff",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "a2bd22f7427b55d833a00480",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 72,
+      "expected_sep": 72
+    },
+    {
+      "query_id": "900e07b0cbc84a135721d751",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "7c104305f9ffe7b674ffe37c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 68,
+      "expected_sep": 68
+    },
+    {
+      "query_id": "88ca6b90bcf11a1eb1ab77af",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 72,
+      "expected_sep": 72
+    },
+    {
+      "query_id": "c582a41b2b40b90a1417063f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 264,
+      "expected_sep": 264
+    },
+    {
+      "query_id": "6dac531312708ca378c4b83c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "8407dc4982913c920e19c72f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 216,
+      "expected_sep": 216
+    },
+    {
+      "query_id": "41ecbc21e41fd51d9d86ff0c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 68,
+      "expected_sep": 68
+    },
+    {
+      "query_id": "2a5f3738160b687e88d5aca2",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 168,
+      "expected_sep": 168
+    },
+    {
+      "query_id": "9754c47a07e4cb63bac0551e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 224,
+      "expected_sep": 224
+    },
+    {
+      "query_id": "ba10f924d191b37d7f27ffd8",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "8d6fb03545804b442d8a6b85",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 164,
+      "expected_sep": 164
+    },
+    {
+      "query_id": "8dee2ddcdc9b1db969888e96",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "a914112ec848479040e939c5",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "2bd4c4cfd12c40eaa4c92479",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "1b5cd1f71bbd6cc306dd1121",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "8cdf3e60a0972dbda97e769e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 160,
+      "expected_sep": 160
+    },
+    {
+      "query_id": "1fdb28ea1848edda76cefee7",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "889672dc43f8c411fc888a23",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "5267b275f7cef6b0698322d0",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "1414a4025917bd34aa929659",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 32,
+      "expected_sep": 32
+    },
+    {
+      "query_id": "b967378554a4de54b247b191",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 84,
+      "expected_sep": 84
+    },
+    {
+      "query_id": "e03f5880a6882fbd010396f1",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "46b7c4b285d550269cedace7",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "7d25f6e1e0e9ba466ca67194",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 228,
+      "expected_sep": 228
+    },
+    {
+      "query_id": "52537c2bd698f804b613a29c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "b4f6b2b3ead03f4868cf8253",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 260,
+      "expected_sep": 260
+    },
+    {
+      "query_id": "056ecd18d1fafd36b4a55f62",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 72,
+      "expected_sep": 72
+    },
+    {
+      "query_id": "c6fa4c543388225d340c5cfe",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 156,
+      "expected_sep": 156
+    },
+    {
+      "query_id": "61f3fe690326fc17e4d1294d",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "6d66f703c1312e9d84e4e686",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 132,
+      "expected_sep": 132
+    },
+    {
+      "query_id": "c8e8db59e6a551cdcaf027c3",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 228,
+      "expected_sep": 228
+    },
+    {
+      "query_id": "c76b049d42988f0fab3931b2",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "a601a4c54ebcc632304a26b1",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6880,
+      "expected_sep": 6880
+    },
+    {
+      "query_id": "e27ea59f7dfa4b4282f7968f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 4388,
+      "expected_sep": 4388
+    },
+    {
+      "query_id": "2d872a191d55521f54b16b6c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 4580,
+      "expected_sep": 4580
+    },
+    {
+      "query_id": "e8fa004da5f4ab0e3255c8fa",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2988,
+      "expected_sep": 2988
+    },
+    {
+      "query_id": "75aacbb4e08ad38b464389a9",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 4328,
+      "expected_sep": 4328
+    },
+    {
+      "query_id": "53a715c8e2a584da65ae1356",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2680,
+      "expected_sep": 2680
+    },
+    {
+      "query_id": "55516480cc9399dc7b979ad4",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 8248,
+      "expected_sep": 8248
+    },
+    {
+      "query_id": "3995d9259421b6b91a554b0b",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 8560,
+      "expected_sep": 8560
+    },
+    {
+      "query_id": "21939b5d3226d3c5f198b6bd",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3240,
+      "expected_sep": 3240
+    },
+    {
+      "query_id": "e546af0a1235d36b1c8e0b34",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 7720,
+      "expected_sep": 7720
+    },
+    {
+      "query_id": "d2f6b3d2f16bd18211e39496",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 7660,
+      "expected_sep": 7660
+    },
+    {
+      "query_id": "0e2348836075fcf4cc8b2e83",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6320,
+      "expected_sep": 6320
+    },
+    {
+      "query_id": "0e14c1f3aa80d8402ccb45fe",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2740,
+      "expected_sep": 2740
+    },
+    {
+      "query_id": "09032c04a42854ce2c7e5af1",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "b5241f2b851ca1c43b3bc38f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3540,
+      "expected_sep": 3540
+    },
+    {
+      "query_id": "10ec27643bade969a724c317",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "14335c7fcd84f200a9b5bdc8",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "fa0fb6b906e7073a4d9f4c71",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "593d1958d6bc287110be7d43",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2000,
+      "expected_sep": 2000
+    },
+    {
+      "query_id": "3ac6cce8f61e3942d79c1c9c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2820,
+      "expected_sep": 2820
+    },
+    {
+      "query_id": "230545119fbd67b15b82a6e1",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "e87fe964b597a77243ba878a",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "c5e3618903763ea475180a3e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "ca526733de9ab1ea6f49eeb1",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "767b4100683bdaab375f5d09",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 45,
+      "expected_sep": 45
+    },
+    {
+      "query_id": "036542f6d9cbd2b005271931",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 124,
+      "expected_sep": 124
+    },
+    {
+      "query_id": "193fac3407fc90767e0fb860",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 216,
+      "expected_sep": 216
+    },
+    {
+      "query_id": "9d3be7fb6db00a28fda08015",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 81,
+      "expected_sep": 81
+    },
+    {
+      "query_id": "3815b4439625bc6b57656224",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 216,
+      "expected_sep": 216
+    },
+    {
+      "query_id": "6e0068b6083877661280447b",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 216,
+      "expected_sep": 216
+    },
+    {
+      "query_id": "ccfc022f2a75317c06fc02ca",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 49,
+      "expected_sep": 49
+    },
+    {
+      "query_id": "54b20d66c4ea26840b6bfc98",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 216,
+      "expected_sep": 216
+    },
+    {
+      "query_id": "fd3dbe1eff75f590e99ea2fe",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 196,
+      "expected_sep": 196
+    },
+    {
+      "query_id": "e894f55ccfc23ebb644d6e70",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 45,
+      "expected_sep": 45
+    },
+    {
+      "query_id": "49c8329bfc3bbca9069e7a67",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 216,
+      "expected_sep": 216
+    },
+    {
+      "query_id": "c2b55bfb735f42cd664eaf49",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 216,
+      "expected_sep": 216
+    },
+    {
+      "query_id": "4b09f3a2ec651b4712d14162",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 763,
+      "expected_sep": 763
+    },
+    {
+      "query_id": "e91eb33a65da880061bc295f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2200,
+      "expected_sep": 2200
+    },
+    {
+      "query_id": "606ba06f3a032eba14ca9804",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 282,
+      "expected_sep": 282
+    },
+    {
+      "query_id": "79e8234000e384814170ab5b",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "0839c8bfc0a85086939e7add",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "dcdb10214cad2b74f9b13c6e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1242,
+      "expected_sep": 1242
+    },
+    {
+      "query_id": "430ec66d0f84ef2a0d34f5ed",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1720,
+      "expected_sep": 1720
+    },
+    {
+      "query_id": "8f88c6b6455b6640ed3431ad",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "2ee1a7d44d4f56fcd776b081",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "c6d9e95e79c2591c2a551c61",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "2ae71a1a45c3e4c201242981",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1410,
+      "expected_sep": 1410
+    },
+    {
+      "query_id": "125d2400a99d029776e4b01c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "e475c7cb1040a709a9a47ca6",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2220,
+      "expected_sep": 2220
+    },
+    {
+      "query_id": "9704f9c6bca27a3a2e347292",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "74e37f382b91a3f58929f58e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "53c1630f3b5c57e6a1e9598c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2808,
+      "expected_sep": 2808
+    },
+    {
+      "query_id": "750ab539bd2f971e42d0c06e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "c01cb2919509d4133f32c1b5",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "b2d91dbcff810c776af97d02",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2768,
+      "expected_sep": 2768
+    },
+    {
+      "query_id": "43605507cf66e377669f2308",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "b26e9d565c736445ea623740",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "219e17c3c51904fc702ee9a0",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "1fad2bd34cc5524ef72fe5a3",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2068,
+      "expected_sep": 2068
+    },
+    {
+      "query_id": "c0dda13bee2b194331dabd32",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 822,
+      "expected_sep": 822
+    },
+    {
+      "query_id": "25961db38f1c5d212e44904b",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1150,
+      "expected_sep": 1150
+    },
+    {
+      "query_id": "13a7d788eb7bf66bf87e2ceb",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 408,
+      "expected_sep": 408
+    },
+    {
+      "query_id": "bf1fb43424fccdbf820b8f93",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1130,
+      "expected_sep": 1130
+    },
+    {
+      "query_id": "f643906296936d704af7749c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1462,
+      "expected_sep": 1462
+    },
+    {
+      "query_id": "10d702b087c2b1f6fc728e0c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 870,
+      "expected_sep": 870
+    },
+    {
+      "query_id": "4270c4667c453d2881ff434e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2440,
+      "expected_sep": 2440
+    },
+    {
+      "query_id": "ce592fe212f1026149929773",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 810,
+      "expected_sep": 810
+    },
+    {
+      "query_id": "c798fa56ab90ad8540858791",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 668,
+      "expected_sep": 668
+    },
+    {
+      "query_id": "110d37f4664b5f0038388dde",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 688,
+      "expected_sep": 688
+    },
+    {
+      "query_id": "7b1de6a93530dd064f274a06",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2508,
+      "expected_sep": 2508
+    },
+    {
+      "query_id": "ea5ccfc54cfba27c50f3af93",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "7f6c030017c83e15e1f29bf6",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "38a5e9b332962f978183d892",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 370,
+      "expected_sep": 370
+    },
+    {
+      "query_id": "ce4f4071c0cfdc833521bda6",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 268,
+      "expected_sep": 268
+    },
+    {
+      "query_id": "0d1a912b98674e65b2938bb8",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 820,
+      "expected_sep": 820
+    },
+    {
+      "query_id": "0f3b0cfe1638619973d1b35e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 208,
+      "expected_sep": 208
+    },
+    {
+      "query_id": "442933ae9ea17e2d88b53ee2",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 720,
+      "expected_sep": 720
+    },
+    {
+      "query_id": "96871b0df954c4cdde83d62a",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 244,
+      "expected_sep": 244
+    },
+    {
+      "query_id": "3053d055c7c985c1b6207919",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "ae8d3095feeb83edb0a211b5",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1452,
+      "expected_sep": 1452
+    },
+    {
+      "query_id": "776ea766988126c174ed17fe",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 140,
+      "expected_sep": 140
+    },
+    {
+      "query_id": "57be8fafa61546b54fb4fa10",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "3685328d751bdeb88d72cf8b",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 164,
+      "expected_sep": 164
+    },
+    {
+      "query_id": "303742c0fc1c32c1e696c34f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 116,
+      "expected_sep": 116
+    },
+    {
+      "query_id": "f25d89e725089621d8f4b295",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 40,
+      "expected_sep": 40
+    },
+    {
+      "query_id": "95e87f8e3db906491c9d456c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 140,
+      "expected_sep": 140
+    },
+    {
+      "query_id": "3bdae4420400784c4d9d3828",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 44,
+      "expected_sep": 44
+    },
+    {
+      "query_id": "6faa2a8791fa8ca42b8982c0",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 16,
+      "expected_sep": 16
+    },
+    {
+      "query_id": "64c0c64807cfb78fa5ba1af3",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 8,
+      "expected_sep": 8
+    },
+    {
+      "query_id": "0bb38712dab450461ffe49ce",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 140,
+      "expected_sep": 140
+    },
+    {
+      "query_id": "5736cca7ae7152b0a38c51f5",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 164,
+      "expected_sep": 164
+    },
+    {
+      "query_id": "55113be2c715f75b80d15bd7",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 160,
+      "expected_sep": 160
+    },
+    {
+      "query_id": "02bdc760ba2c2b367a4dc5f8",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 212,
+      "expected_sep": 212
+    },
+    {
+      "query_id": "a3da9f1c5fe2c5bba1cf970e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 80,
+      "expected_sep": 80
+    },
+    {
+      "query_id": "129d1df732238526e40f822a",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 820,
+      "expected_sep": 820
+    },
+    {
+      "query_id": "541b5a2d6d1a72a62682b8bf",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "4151f33d610e298901dfc054",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1464,
+      "expected_sep": 1464
+    },
+    {
+      "query_id": "1b4c455fd1697488bae5bf7c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "c59a6749c07862a2ac5424a2",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "2978fe96c140b4af02e96481",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 308,
+      "expected_sep": 308
+    },
+    {
+      "query_id": "889c9223bdb51298dbe2f7a4",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1220,
+      "expected_sep": 1220
+    },
+    {
+      "query_id": "7799cf26536df9e85f0cda95",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "752561084393d4a01401800c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "7336d40903c615854da5036f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 228,
+      "expected_sep": 228
+    },
+    {
+      "query_id": "3042acf01c2e4273c5a6f306",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "bbb724ebb59d9ff9b2f6bb65",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1300,
+      "expected_sep": 1300
+    },
+    {
+      "query_id": "1551d6740fdab6bc79fe2a59",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2200,
+      "expected_sep": 2200
+    },
+    {
+      "query_id": "497a0adde11280ec3736c924",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "0c9575f91c7f2c95c9eefbe3",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "54e9bb98c213224c33ac5940",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 222,
+      "expected_sep": 222
+    },
+    {
+      "query_id": "cb9834aca20ec9250e81bfa1",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2320,
+      "expected_sep": 2320
+    },
+    {
+      "query_id": "a3b5ebda5398a7b7b4121395",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 282,
+      "expected_sep": 282
+    },
+    {
+      "query_id": "9236432177c6f0f55257ade2",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "a6db3937092c4f80d15c7142",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "2da663bce61bc048f32862f5",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "1c9fc2a4b09759f33669e5c4",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 763,
+      "expected_sep": 763
+    },
+    {
+      "query_id": "faf1cd8c322e005e0ed87ee0",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1720,
+      "expected_sep": 1720
+    },
+    {
+      "query_id": "a4fca5919bf4a9c305122b91",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1062,
+      "expected_sep": 1062
+    },
+    {
+      "query_id": "303d30614a6a21bdb7f36c7c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1300,
+      "expected_sep": 1300
+    },
+    {
+      "query_id": "ee2c9f637627cc94b85659dd",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 140,
+      "expected_sep": 140
+    },
+    {
+      "query_id": "275856e824b9baf27a5baf74",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "d0b1b59a610aeef0fdabd4ae",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 820,
+      "expected_sep": 820
+    },
+    {
+      "query_id": "9f5bb3346ed83971478b9de5",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "ec5843525d89868077d32363",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 912,
+      "expected_sep": 912
+    },
+    {
+      "query_id": "e7a005b9a6d005ddbd012cf0",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 414,
+      "expected_sep": 414
+    },
+    {
+      "query_id": "8f2c7794f51da667cd1ae3d6",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1524,
+      "expected_sep": 1524
+    },
+    {
+      "query_id": "e73c8096c6bd767680cc4566",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "82517a9163c0e15132910ad8",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 308,
+      "expected_sep": 308
+    },
+    {
+      "query_id": "bbb0778e63358e52facccfc6",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1132,
+      "expected_sep": 1132
+    },
+    {
+      "query_id": "3ef29657dad8dbf46d4b07c7",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "fb691c8bacd7dc03856f9bfc",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 4172,
+      "expected_sep": 4172
+    },
+    {
+      "query_id": "6ce4f4965c1d11bc02ee9152",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6720,
+      "expected_sep": 6720
+    },
+    {
+      "query_id": "e00dc6be1f8f52bbfd5e77c4",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6720,
+      "expected_sep": 6720
+    },
+    {
+      "query_id": "1cee84a0c59ee59d6fee7b4e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6720,
+      "expected_sep": 6720
+    },
+    {
+      "query_id": "2a64793c28d7afab4f28cc02",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6720,
+      "expected_sep": 6720
+    },
+    {
+      "query_id": "cfa97677f06831beb1805c15",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 5480,
+      "expected_sep": 5480
+    },
+    {
+      "query_id": "d7ab8561244dfb9498cbd88c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3840,
+      "expected_sep": 3840
+    },
+    {
+      "query_id": "a0671019f6f35e2cbe682b1c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 5368,
+      "expected_sep": 5368
+    },
+    {
+      "query_id": "3600d11e93ff19feafe963bc",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1540,
+      "expected_sep": 1540
+    },
+    {
+      "query_id": "14f24d4ad7c1f3af1fa971f3",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2640,
+      "expected_sep": 2640
+    },
+    {
+      "query_id": "67edab66d66b1790f57352d5",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6720,
+      "expected_sep": 6720
+    },
+    {
+      "query_id": "eecdd22223528db164ec3800",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 4708,
+      "expected_sep": 4708
+    },
+    {
+      "query_id": "249aeec3ff6931ba4288d8c3",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2000,
+      "expected_sep": 2000
+    },
+    {
+      "query_id": "50256f706bb0aab0ebaa050a",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 660,
+      "expected_sep": 660
+    },
+    {
+      "query_id": "753a6e997e7650b8dcbd5746",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "2a2c21c58121922ad2eebadc",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1244,
+      "expected_sep": 1244
+    },
+    {
+      "query_id": "022a2ea937b2eebd30280a40",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "7dd9f75303a103dd2628ce8d",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "5502a4d92ef4baed6bfe7d95",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2644,
+      "expected_sep": 2644
+    },
+    {
+      "query_id": "f180cd9abe50b5be43ed3a79",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3480,
+      "expected_sep": 3480
+    },
+    {
+      "query_id": "636da45c0d634e02a297410e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 794,
+      "expected_sep": 794
+    },
+    {
+      "query_id": "596e260bf11ce8637a960665",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1260,
+      "expected_sep": 1260
+    },
+    {
+      "query_id": "73345fecd61c5993f01723be",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3384,
+      "expected_sep": 3384
+    },
+    {
+      "query_id": "9036ed27d680a9380285fdfa",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2272,
+      "expected_sep": 2272
+    },
+    {
+      "query_id": "f257a0dbfae06973177c75b7",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "e75dfa5f80148b0f2d280388",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "adacf33f8e58e8f7aa6c9354",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "8b5637ef8b1b33e8b722be0f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2100,
+      "expected_sep": 2100
+    },
+    {
+      "query_id": "db4108af1ebaa3063b009d55",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2368,
+      "expected_sep": 2368
+    },
+    {
+      "query_id": "1de830624367fd5472e8325a",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "6e082faf4c0f36a3ea6209f8",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 300,
+      "expected_sep": 300
+    },
+    {
+      "query_id": "1ae5439af105d12a3d6cd626",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 890,
+      "expected_sep": 890
+    },
+    {
+      "query_id": "cd0fcdbd5022bd5872ce73a9",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "eb416e412af46ce6dfedff0f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2080,
+      "expected_sep": 2080
+    },
+    {
+      "query_id": "8dffe3b796a9b467b671a8ff",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "ada9a39774619b5d52ff74bf",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1920,
+      "expected_sep": 1920
+    },
+    {
+      "query_id": "95b0082b2a16215bc2e7be06",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2120,
+      "expected_sep": 2120
+    },
+    {
+      "query_id": "bad098b1694b88838d5b59c0",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "35fe76def7b7bbcecc3e3619",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "63b01fe35f7407e4384da764",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "577ca604ebfe46d266ebdfc7",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "1ce260cc3749a97408294de0",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "6a128ba29ad4339fb3549c7b",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "d12703286f681a41537d03f1",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "8e7ab6750238ebe0b1414e11",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "95ef115c96935153f4644e97",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "d0487774d8fe8090b865b82e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3600,
+      "expected_sep": 3600
+    },
+    {
+      "query_id": "02a4de7a2aa46ea71a55363d",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1430,
+      "expected_sep": 1430
+    },
+    {
+      "query_id": "7f6623a752e9e828a8a01b94",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 160,
+      "expected_sep": 160
+    },
+    {
+      "query_id": "9b6c303593d279864bf767d1",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "4a12451aaa00d3d302488013",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "11d1db4bcf82d20423fd1f4b",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "28a5d84d9170fd06ebabca60",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 224,
+      "expected_sep": 224
+    },
+    {
+      "query_id": "a668753b63284485604f7c23",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "bc0cbfe6161806b086b2d945",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "48ba01541c081c4e844737d7",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "a0eb713ff43f34289bd8034f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 32,
+      "expected_sep": 32
+    },
+    {
+      "query_id": "852e5771a3c7f79d4263d54d",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 100,
+      "expected_sep": 100
+    },
+    {
+      "query_id": "215931044e48f03131974333",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "6e271b405f1f4b32e4ccaf40",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "7091ee0b0603c9544b5d8aff",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "6ab883d6f832135b584d9e1d",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2320,
+      "expected_sep": 2320
+    },
+    {
+      "query_id": "e340bb7d05f7fbd7b090a898",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2200,
+      "expected_sep": 2200
+    },
+    {
+      "query_id": "da4f01edec6ff059388c213e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "d2b7125dcd8bc04a1e2f0680",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "96cf387e8f12a8a1466a048f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "b1cda80143a459f911c933d7",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "5e3776f14ce4280c7ef4a220",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1720,
+      "expected_sep": 1720
+    },
+    {
+      "query_id": "e1c1f0bb9511e507293dc4fe",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "8ab27411b61dd9053be3ebe8",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 763,
+      "expected_sep": 763
+    },
+    {
+      "query_id": "ec5f77f5533d2f0a58282c8b",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 282,
+      "expected_sep": 282
+    },
+    {
+      "query_id": "709039e1a2220012ef1d2b3a",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "d7340dd3e25d8a132f671a97",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2320,
+      "expected_sep": 2320
+    },
+    {
+      "query_id": "8dec84734676524e8a247e90",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 266,
+      "expected_sep": 266
+    },
+    {
+      "query_id": "72456a29955710c8f36c904f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "b59a244bf0a465ee7e204c1b",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "6e290a0378ec0e46c6fa6e6d",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 342,
+      "expected_sep": 342
+    },
+    {
+      "query_id": "f50d4682de1fba42c9be9609",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 520,
+      "expected_sep": 520
+    },
+    {
+      "query_id": "552d8a0f90700ca4872ebb7f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1242,
+      "expected_sep": 1242
+    },
+    {
+      "query_id": "1228fb0cc31a220b3702b99e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1480,
+      "expected_sep": 1480
+    },
+    {
+      "query_id": "73d8de19733c6c757320d98d",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "c60a62a7ef9da5f08eb297f4",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1900,
+      "expected_sep": 1900
+    },
+    {
+      "query_id": "695e5d1753388db1f061b8ab",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1360,
+      "expected_sep": 1360
+    },
+    {
+      "query_id": "4d6d4e8154428b4cf4a8f482",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "0e5cfc8463be8efb1eec9143",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "f72a038756afb802afb6111f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 32,
+      "expected_sep": 32
+    },
+    {
+      "query_id": "d7182cb77967d4ff5def7276",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 164,
+      "expected_sep": 164
+    },
+    {
+      "query_id": "bb611cda456e4f992344faf3",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "92ef6d66b926cecf463752bc",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "c58aa6ae3f7616d3362cbaef",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "aafdaff6a35e334ae2d6f201",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "7e6b015886c517f293f1c7c7",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "3c0f6290378d9bf12d95b36f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "7466b93e256d137ac369043f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 288,
+      "expected_sep": 288
+    },
+    {
+      "query_id": "69059898d7414136d05192df",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 228,
+      "expected_sep": 228
+    },
+    {
+      "query_id": "da660d7d5958035fea151742",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 100,
+      "expected_sep": 100
+    },
+    {
+      "query_id": "0eb47579465a3a1e7b16baac",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "caed2668fd4d878f8258f397",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 848,
+      "expected_sep": 848
+    },
+    {
+      "query_id": "e9d09000f19617caed744a7e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1480,
+      "expected_sep": 1480
+    },
+    {
+      "query_id": "17a2aed68655b092c83704b9",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1268,
+      "expected_sep": 1268
+    },
+    {
+      "query_id": "8a7d2d5303366910bfe1b069",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1900,
+      "expected_sep": 1900
+    },
+    {
+      "query_id": "0e8362741a80043e5e47cb4a",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "d321f626a0287acb8b464994",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 428,
+      "expected_sep": 428
+    },
+    {
+      "query_id": "de0e825221912e8b72d77be6",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 642,
+      "expected_sep": 642
+    },
+    {
+      "query_id": "b0c1692ff0df6972bb3067c6",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "c364553eef117c60b99b63ea",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "27fd3ba87d2a6c398a2a8e90",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "d5853590d57a78ad65b5d767",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1062,
+      "expected_sep": 1062
+    },
+    {
+      "query_id": "3a3d74fdc644037689bbe2e5",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "5753e7664b74c61d9b41e4f9",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "3ecd128042a38d3f274d792f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1728,
+      "expected_sep": 1728
+    },
+    {
+      "query_id": "636ba142fd4fa694fcf339bb",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1190,
+      "expected_sep": 1190
+    },
+    {
+      "query_id": "05a61e068402777dcaf0ee44",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 864,
+      "expected_sep": 864
+    },
+    {
+      "query_id": "66c561c59fedc36e860b25bf",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2388,
+      "expected_sep": 2388
+    },
+    {
+      "query_id": "cca3200fbe1b855c6449d487",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "b94d78b572b58c9ba8acb1e0",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 306,
+      "expected_sep": 306
+    },
+    {
+      "query_id": "847dd2105ec096c4dc2c25a0",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "4f5b8a4661cf58fd52282f26",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2424,
+      "expected_sep": 2424
+    },
+    {
+      "query_id": "abbde2b16be5524e1dfc524f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1230,
+      "expected_sep": 1230
+    },
+    {
+      "query_id": "40747ef46468405d3f379054",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 730,
+      "expected_sep": 730
+    },
+    {
+      "query_id": "da4fd4201aa66abe231b79df",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 572,
+      "expected_sep": 572
+    },
+    {
+      "query_id": "6eb7645e1a7928dc02aa60b1",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "a1a08245dd2034d9879f435f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 624,
+      "expected_sep": 624
+    },
+    {
+      "query_id": "640f99a62d40dd4f61b47b47",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1360,
+      "expected_sep": 1360
+    },
+    {
+      "query_id": "0036a115e6036bc6d1ab6c8f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "3b00849bee53ac4efe56188b",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "e7eeb157c3daea42c1c11497",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "af1608e9d4d75c2dd848f5a9",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 804,
+      "expected_sep": 804
+    },
+    {
+      "query_id": "f108d24b8d00a795209752ff",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 828,
+      "expected_sep": 828
+    },
+    {
+      "query_id": "fc4a9de8616c0a072aceb0b8",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1180,
+      "expected_sep": 1180
+    },
+    {
+      "query_id": "b7baf2ca9fcb6b9600cd880f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1660,
+      "expected_sep": 1660
+    },
+    {
+      "query_id": "b042a1c6da28642e58841c9b",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1680,
+      "expected_sep": 1680
+    },
+    {
+      "query_id": "757f669eecde3ef576234197",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6720,
+      "expected_sep": 6720
+    },
+    {
+      "query_id": "6182fb74862fd8eb081d12da",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6008,
+      "expected_sep": 6008
+    },
+    {
+      "query_id": "48095ef48c4a3f6784c5bcc7",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3400,
+      "expected_sep": 3400
+    },
+    {
+      "query_id": "6fd26e5ee92c9a8f1bd93dd6",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6412,
+      "expected_sep": 6412
+    },
+    {
+      "query_id": "055b5aabc0b117a15dd436f4",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 580,
+      "expected_sep": 580
+    },
+    {
+      "query_id": "e81a1a1faf0d8d78288df939",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2448,
+      "expected_sep": 2448
+    },
+    {
+      "query_id": "d0a52c5b529827e9e28c4f07",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 4400,
+      "expected_sep": 4400
+    },
+    {
+      "query_id": "5a36295c7222fdc796a49ec6",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2160,
+      "expected_sep": 2160
+    },
+    {
+      "query_id": "ac9aa27477c326d39e880f15",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 4348,
+      "expected_sep": 4348
+    },
+    {
+      "query_id": "a346a3db68204645656d77b6",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 4408,
+      "expected_sep": 4408
+    },
+    {
+      "query_id": "9eed538697f6ce3e1af07e4c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1160,
+      "expected_sep": 1160
+    },
+    {
+      "query_id": "b19b55cfb73842753097a3fa",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1140,
+      "expected_sep": 1140
+    },
+    {
+      "query_id": "6ffd650e415cd74f511d94b9",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1242,
+      "expected_sep": 1242
+    },
+    {
+      "query_id": "f9757215532146eb809b61b8",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "2e6ed22c398e28d30b96a3cf",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 763,
+      "expected_sep": 763
+    },
+    {
+      "query_id": "be1ada920e4fafea5c5d7ee2",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 282,
+      "expected_sep": 282
+    },
+    {
+      "query_id": "18ebe9f3f8f04ffefe5ef033",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "a1667c341d28e52e3bd92731",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 254,
+      "expected_sep": 254
+    },
+    {
+      "query_id": "c7cd6cd9adb8d378527a3ecc",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "48a3b0d66e1b9474e5a55e6b",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 787,
+      "expected_sep": 787
+    },
+    {
+      "query_id": "89f4a1ac5d1d553f3b3952ed",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "236b3a9db8ccc9daf120d484",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1720,
+      "expected_sep": 1720
+    },
+    {
+      "query_id": "039cb04ac0acb40160a50067",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "5910a7d60f17a11a5591e822",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2200,
+      "expected_sep": 2200
+    },
+    {
+      "query_id": "ab7b2cfd5a6efb9f1e2f8e01",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 600,
+      "expected_sep": 600
+    },
+    {
+      "query_id": "e8f4baf41ed356a7137d87eb",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 968,
+      "expected_sep": 968
+    },
+    {
+      "query_id": "0e72d50571127a54eab8cf16",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2200,
+      "expected_sep": 2200
+    },
+    {
+      "query_id": "4778b3777687105b4062916d",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 286,
+      "expected_sep": 286
+    },
+    {
+      "query_id": "51108a41bb8357fd7c011e32",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1900,
+      "expected_sep": 1900
+    },
+    {
+      "query_id": "7e6bb21bed0d624de9ca4a4f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2320,
+      "expected_sep": 2320
+    },
+    {
+      "query_id": "7b02d66e546d21cdc855039a",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "49ed987018c5def010405386",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "fc54e387e766a0e7c51388af",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "710cb6f896eac903720f5a68",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2172,
+      "expected_sep": 2172
+    },
+    {
+      "query_id": "b049506a4c1c48923ccfaced",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1062,
+      "expected_sep": 1062
+    },
+    {
+      "query_id": "7070b35f206b0cc2fc7235d7",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "bbf8d73a2a41d80fa3588163",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "b653a53a924b85570f533f91",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1242,
+      "expected_sep": 1242
+    },
+    {
+      "query_id": "e4bf5b8104089309654a4dd4",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1480,
+      "expected_sep": 1480
+    },
+    {
+      "query_id": "5a9d79f2377ab75699cac47c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "7235b11c987d8e900d2c292f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "3d6b5ba9b8714779095abe99",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2320,
+      "expected_sep": 2320
+    },
+    {
+      "query_id": "3adea3cf1f11a08263558e6a",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "feaf274426fc506c5e1d87d4",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 642,
+      "expected_sep": 642
+    },
+    {
+      "query_id": "50c51a56985af01af953293e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "c39f939ed14d444448fcb51b",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1900,
+      "expected_sep": 1900
+    },
+    {
+      "query_id": "e4611b0466d02520da9cdf8f",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 2520,
+      "expected_sep": 2520
+    },
+    {
+      "query_id": "8447b38be11d136bcdf7e6f0",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 1062,
+      "expected_sep": 1062
+    },
+    {
+      "query_id": "fd8016823d5aeafc709e5af8",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 222,
+      "expected_sep": 222
+    },
+    {
+      "query_id": "224fd5a14ee5e2cfbeaa1205",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 116,
+      "expected_sep": 116
+    },
+    {
+      "query_id": "dfffb0999f9ce5076fffb61e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 216,
+      "expected_sep": 216
+    },
+    {
+      "query_id": "7d468c2541b7583a437ba6db",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 216,
+      "expected_sep": 216
+    },
+    {
+      "query_id": "25442b77558e56c5713e6c62",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 45,
+      "expected_sep": 45
+    },
+    {
+      "query_id": "8c9e1767ef3db402d4838162",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 196,
+      "expected_sep": 196
+    },
+    {
+      "query_id": "59718a185fc7787b25ceba29",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 216,
+      "expected_sep": 216
+    },
+    {
+      "query_id": "1ab3c3a15d9525ce4f273dcd",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 216,
+      "expected_sep": 216
+    },
+    {
+      "query_id": "371b17fd46fb81ea333725ea",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 216,
+      "expected_sep": 216
+    },
+    {
+      "query_id": "b9dae99ba91f7557e0161672",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 160,
+      "expected_sep": 160
+    },
+    {
+      "query_id": "c08cdafb08749ca953c4adcb",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 45,
+      "expected_sep": 45
+    },
+    {
+      "query_id": "d0ad45803b524a3d675b7b5e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 81,
+      "expected_sep": 81
+    },
+    {
+      "query_id": "dc69d08b5b5814acaa0063fb",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 81,
+      "expected_sep": 81
+    },
+    {
+      "query_id": "1c7c5b59cfd9b674cebe145d",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 4408,
+      "expected_sep": 4408
+    },
+    {
+      "query_id": "b611f8a58544499d1f10b07c",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6720,
+      "expected_sep": 6720
+    },
+    {
+      "query_id": "82e785ca2d5796a829526308",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6720,
+      "expected_sep": 6720
+    },
+    {
+      "query_id": "f0c7f24649c9bb5e12b35960",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6720,
+      "expected_sep": 6720
+    },
+    {
+      "query_id": "817644848b86ef1d057da4bd",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3920,
+      "expected_sep": 3920
+    },
+    {
+      "query_id": "1058072448f32148db89b28d",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6720,
+      "expected_sep": 6720
+    },
+    {
+      "query_id": "2aeb913b49db39f98bd3516e",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6160,
+      "expected_sep": 6160
+    },
+    {
+      "query_id": "62e0e31b5fb3a0e6842c5ee2",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 5040,
+      "expected_sep": 5040
+    },
+    {
+      "query_id": "418f2420f0008da0968ebf7d",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 3480,
+      "expected_sep": 3480
+    },
+    {
+      "query_id": "7f18392bc1fdcd5cfe0ba745",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 6720,
+      "expected_sep": 6720
+    },
+    {
+      "query_id": "6b766ca43e9a2b38ef36ee9b",
+      "max_support_scaled_error": 0.0,
+      "returned_sep": 560,
+      "expected_sep": 560
+    }
+  ],
+  "reference": "actual OpenRCX returns; finite non-sentinel; not physics"
+}

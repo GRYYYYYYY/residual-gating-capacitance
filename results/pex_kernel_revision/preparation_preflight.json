@@ -1,0 +1,1779 @@
+{
+  "wall_s": 29.842721566557884,
+  "cpu_s": 29.718453674,
+  "model_bundle_load": {
+    "wall_s": 0.2814948856830597,
+    "cpu_s": 0.20400857200000022
+  },
+  "data_load": {
+    "wall_s": 0.08710606768727303,
+    "cpu_s": 0.06424977400000031
+  },
+  "platforms": [
+    {
+      "platform": "asap7",
+      "support_mapping": {
+        "wall_s": 0.34914950281381607,
+        "cpu_s": 0.348854953
+      },
+      "total_dump_slots": 13595,
+      "eligible_slots": 10138,
+      "injected_slots": 1852,
+      "matched_tables": {
+        "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|1|0|2|18": "e5bb4f607ed5e16a8209727c",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|1|0|6|18": "63b414f706ea05fa6774439d",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|1|0|9|18": "007149d30f19d0c64e613d3a",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|2|0|6|18": "06f8f2a308808f0adfd88743",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|2|1|9|18": "216d2ab6fd57c7063e72a463",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|3|0|0|18": "ed89d3c7f81abefbe41786d7",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|3|0|6|18": "448958cf09d7bcb97bb1b7ff",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|3|1|4|18": "87d42c5f0781a32397d736f8",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|3|1|7|18": "2a2438d14e3e542af0bf2d19",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|3|1|9|18": "7d6190f683041b9be5ff66be",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|4|0|0|24": "2934641044496e0c34bbb395",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|4|1|5|24": "38ad186c65081b21a7f2d805",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|4|3|5|24": "0f76a8174aa1f76e26939943",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|4|3|9|24": "9367bac675916abdb9fde044",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|5|0|0|24": "35b601c5208b2a189d4fc497",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|5|0|7|24": "fba14f3710861db48e1435e3",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|5|0|9|24": "92928d519b3c0f3322fd5ce9",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|5|1|8|24": "22fc9ba7f135248442b892e8",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|5|1|9|24": "f8b41aa49381208ec3e529d9",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|5|2|7|24": "497689561d920d27b84c9cf3",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|5|3|6|24": "112c2949ae255c51e54f7488",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|5|4|7|24": "5c8e753d77a41c6acec09922",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|5|4|8|24": "3e673054659c885f1a2e83d9",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|6|1|8|32": "3b5429bf37a6ac234760b745",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|6|2|7|32": "7de91e4894393f3657d45cfa",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|6|4|7|32": "41ce83acfbc224f5fc62bfc5",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|7|0|0|32": "ab74c12303ff74e4bc0d5e92",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|7|2|0|32": "0b997be2eb616b97c59e77ab",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|7|5|0|32": "31b9c8c860b1fea95145f073",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|7|4|9|32": "141a237c68368bf037810ab2",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|8|2|0|40": "9c2e06bc712d8a3f96948ff9",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|8|2|9|40": "93e63412d4865328e49a0621",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|9|6|0|40": "c69ba1e8e1e1a4c7a27e9656",
+        "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|9|7|0|40": "99e2818c29fa5fabc0d25759"
+      },
+      "excluded_contexts": [
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|1|0|0|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|1|0|3|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|1|0|4|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|1|0|5|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|1|0|7|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|1|0|8|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|2|0|0|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|2|1|0|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|2|0|3|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|2|0|4|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|2|0|5|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|2|0|7|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|2|0|8|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|2|0|9|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|2|1|3|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|2|1|4|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|2|1|5|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|2|1|6|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|2|1|7|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|2|1|8|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|3|1|0|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|3|2|0|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|3|0|4|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|3|0|5|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|3|0|7|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|3|0|8|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|3|0|9|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|3|1|5|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|3|1|6|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|3|1|8|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|3|2|4|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|3|2|5|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|3|2|6|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|3|2|7|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|3|2|8|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|3|2|9|18",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|4|1|0|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|4|2|0|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|4|3|0|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|4|0|5|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|4|0|6|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|4|0|7|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|4|0|8|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|4|0|9|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|4|1|6|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|4|1|7|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|4|1|8|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|4|1|9|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|4|2|5|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|4|2|6|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|4|2|7|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|4|2|8|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|4|2|9|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|4|3|6|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|4|3|7|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|4|3|8|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|5|1|0|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|5|2|0|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|5|3|0|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|5|4|0|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|5|0|6|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|5|0|8|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|5|1|6|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|5|1|7|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|5|2|6|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|5|2|8|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|5|2|9|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|5|3|7|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|5|3|8|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|5|3|9|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|5|4|6|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|5|4|9|24",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|6|0|0|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|6|1|0|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|6|2|0|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|6|3|0|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|6|4|0|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|6|5|0|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|6|0|7|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|6|0|8|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|6|0|9|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|6|1|7|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|6|1|9|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|6|2|8|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|6|2|9|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|6|3|7|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|6|3|8|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|6|3|9|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|6|4|8|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|6|4|9|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|6|5|7|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|6|5|8|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|6|5|9|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|7|1|0|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|7|3|0|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|7|4|0|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|7|6|0|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|7|0|8|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|7|0|9|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|7|1|8|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|7|1|9|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|7|2|8|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|7|2|9|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|7|3|8|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|7|3|9|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|7|4|8|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|7|5|8|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|7|5|9|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|7|6|8|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|7|6|9|32",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|8|0|0|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|8|1|0|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|8|3|0|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|8|4|0|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|8|5|0|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|8|6|0|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|8|7|0|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|UNDER|8|0|9|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|8|1|9|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|8|3|9|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|8|4|9|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|8|5|9|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|8|6|9|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|8|7|9|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|9|0|0|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|9|1|0|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|9|2|0|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|9|3|0|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|9|4|0|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|9|5|0|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|9|8|0|40",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|9|1|10|40",
+          "candidates": 8,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|9|2|10|40",
+          "candidates": 8,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|9|3|10|40",
+          "candidates": 8,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|9|4|10|40",
+          "candidates": 8,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|9|5|10|40",
+          "candidates": 8,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|9|6|10|40",
+          "candidates": 8,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|9|7|10|40",
+          "candidates": 8,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVERUNDER|9|8|10|40",
+          "candidates": 8,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|10|0|0|40",
+          "candidates": 10,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|10|1|0|40",
+          "candidates": 10,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|10|2|0|40",
+          "candidates": 10,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|10|3|0|40",
+          "candidates": 10,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|10|4|0|40",
+          "candidates": 10,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|10|5|0|40",
+          "candidates": 10,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|10|6|0|40",
+          "candidates": 10,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|10|7|0|40",
+          "candidates": 10,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|10|8|0|40",
+          "candidates": 10,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "asap7-typ-3dd0911191e347ec50344e5c|0|OVER|10|9|0|40",
+          "candidates": 10,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        }
+      ],
+      "scale": 1000.0,
+      "all_real_supports": true,
+      "namespace": "asap7-typ-3dd0911191e347ec50344e5c"
+    },
+    {
+      "platform": "gf180",
+      "support_mapping": {
+        "wall_s": 0.6457498408854008,
+        "cpu_s": 0.6453380129999999
+      },
+      "total_dump_slots": 62735,
+      "eligible_slots": 57055,
+      "injected_slots": 11136,
+      "matched_tables": {
+        "gf180-typ-796fa78d12c2dbd43eda0c48|0|UNDER|1|0|3|460": "4c75c78c1b72402997363ede",
+        "gf180-typ-796fa78d12c2dbd43eda0c48|0|UNDER|1|0|5|460": "76629dedf5f5cba2bad1e7fb",
+        "gf180-typ-796fa78d12c2dbd43eda0c48|0|UNDER|2|0|3|560": "baa87426faeaad473af74984",
+        "gf180-typ-796fa78d12c2dbd43eda0c48|0|UNDER|2|0|4|560": "6b4fae633b18c759861ebc6b",
+        "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVERUNDER|2|1|3|560": "f985f6fc0fc912db562f475d",
+        "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVERUNDER|3|2|5|560": "113026b5c3054c598871535c",
+        "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVER|5|4|0|880": "16b458038977de2c8b4df345"
+      },
+      "excluded_contexts": [
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVER|1|0|0|460",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|UNDER|1|0|2|460",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|UNDER|1|0|4|460",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVER|2|0|0|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVER|2|1|0|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|UNDER|2|0|5|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVERUNDER|2|1|4|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVERUNDER|2|1|5|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVER|3|0|0|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVER|3|1|0|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVER|3|2|0|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|UNDER|3|0|4|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|UNDER|3|0|5|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVERUNDER|3|1|4|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVERUNDER|3|1|5|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVERUNDER|3|2|4|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVER|4|0|0|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVER|4|1|0|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVER|4|2|0|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVER|4|3|0|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|UNDER|4|0|5|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVERUNDER|4|1|5|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVERUNDER|4|2|5|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVERUNDER|4|3|5|560",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVER|5|0|0|880",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVER|5|1|0|880",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVER|5|2|0|880",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "gf180-typ-796fa78d12c2dbd43eda0c48|0|OVER|5|3|0|880",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        }
+      ],
+      "scale": 2000.0,
+      "all_real_supports": true,
+      "namespace": "gf180-typ-796fa78d12c2dbd43eda0c48"
+    },
+    {
+      "platform": "ihp-sg13g2",
+      "support_mapping": {
+        "wall_s": 1.3793381936848164,
+        "cpu_s": 1.3789978460000007
+      },
+      "total_dump_slots": 141444,
+      "eligible_slots": 128601,
+      "injected_slots": 27164,
+      "matched_tables": {
+        "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|1|0|4|160": "005418aceee651d091169364",
+        "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|1|0|5|160": "494f2745d4339881c2126bce",
+        "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|2|0|0|200": "b7ba1b40372f907cb9777d67",
+        "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|3|1|0|200": "d08435bd563ed226c2885049",
+        "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|3|2|4|200": "12248df76c94dd6bdf89ff99",
+        "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|4|0|0|200": "92aeb9567f0645ddd7253a33",
+        "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|4|2|0|200": "88e750d55381fc7e00e4794b",
+        "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|4|0|5|200": "c639e50826b3dc98856105c8",
+        "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|4|1|6|200": "47dd5a65d3872c7e92c4523f",
+        "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|4|3|7|200": "60b54504ca69824d7d4ea758",
+        "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|5|0|7|200": "da9faefc287449d1c4106e48",
+        "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|5|2|7|200": "1b1ef037580dde5f3c020423",
+        "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|5|4|6|200": "b58ba9511499705531a06b1d",
+        "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|6|1|0|1640": "ca3b13873c34cb8564ee2918",
+        "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|6|2|7|1640": "4d4771cfd160625d04566acb",
+        "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|7|1|0|2000": "918b0bba2cf77af0a866fcb6",
+        "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|7|6|0|2000": "021ad2402a90a7c5808b591e"
+      },
+      "excluded_contexts": [
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|1|0|0|160",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|1|0|2|160",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|1|0|3|160",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|1|0|6|160",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|1|0|7|160",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|2|1|0|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|2|0|3|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|2|0|4|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|2|0|5|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|2|0|6|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|2|0|7|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|2|1|3|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|2|1|4|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|2|1|5|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|2|1|6|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|2|1|7|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|3|0|0|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|3|2|0|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|3|0|4|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|3|0|5|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|3|0|6|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|3|0|7|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|3|1|4|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|3|1|5|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|3|1|6|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|3|1|7|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|3|2|5|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|3|2|6|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|3|2|7|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|4|1|0|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|4|3|0|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|4|0|6|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|4|0|7|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|4|1|5|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|4|1|7|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|4|2|5|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|4|2|6|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|4|2|7|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|4|3|5|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|4|3|6|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|5|0|0|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|5|1|0|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|5|2|0|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|5|3|0|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|5|4|0|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|5|0|6|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|5|1|6|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|5|1|7|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|5|2|6|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|5|3|6|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|5|3|7|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|5|4|7|200",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|6|0|0|1640",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|6|2|0|1640",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|6|3|0|1640",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|6|4|0|1640",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|6|5|0|1640",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|UNDER|6|0|7|1640",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|6|1|7|1640",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|6|3|7|1640",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|6|4|7|1640",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVERUNDER|6|5|7|1640",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|7|0|0|2000",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|7|2|0|2000",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|7|3|0|2000",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|7|4|0|2000",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b|0|OVER|7|5|0|2000",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        }
+      ],
+      "scale": 1000.0,
+      "all_real_supports": true,
+      "namespace": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b"
+    },
+    {
+      "platform": "sky130hs",
+      "support_mapping": {
+        "wall_s": 0.5342093594372272,
+        "cpu_s": 0.5335488029999986
+      },
+      "total_dump_slots": 60956,
+      "eligible_slots": 55156,
+      "injected_slots": 9505,
+      "matched_tables": {
+        "sky130hs-typ-26556d40b4e03665ac25a8a2|0|UNDER|2|0|4|140": "1b49b1de34b4405354b5ff0c",
+        "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|2|1|6|140": "cf85ceea9685e3e8648182a5",
+        "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|3|2|0|140": "611512c64581fed6987c8b1e",
+        "sky130hs-typ-26556d40b4e03665ac25a8a2|0|UNDER|3|0|6|140": "5a8b81ec5a31ddb1c9831218",
+        "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|3|2|4|140": "59887933e872a5c232d3c3e1",
+        "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|4|0|0|300": "7932ecb9a5db74ace09c5d40",
+        "sky130hs-typ-26556d40b4e03665ac25a8a2|0|UNDER|4|0|6|300": "3c36b22d566fe13db4b23d1a",
+        "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|4|2|5|300": "6b5e6a13d750e69bdae1fb4f",
+        "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|5|2|0|300": "53a87308e39d4726dd9b09fb",
+        "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|6|0|0|1600": "37fa2f22d0385ed6ac4fd0d7"
+      },
+      "excluded_contexts": [
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|1|0|0|170",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|UNDER|1|0|2|170",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|UNDER|1|0|3|170",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|UNDER|1|0|4|170",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|UNDER|1|0|5|170",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|UNDER|1|0|6|170",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|2|0|0|140",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|2|1|0|140",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|UNDER|2|0|3|140",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|UNDER|2|0|5|140",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|UNDER|2|0|6|140",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|2|1|3|140",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|2|1|4|140",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|2|1|5|140",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|3|0|0|140",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|3|1|0|140",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|UNDER|3|0|4|140",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|UNDER|3|0|5|140",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|3|1|4|140",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|3|1|5|140",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|3|1|6|140",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|3|2|5|140",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|3|2|6|140",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|4|1|0|300",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|4|2|0|300",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|4|3|0|300",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|UNDER|4|0|5|300",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|4|1|5|300",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|4|1|6|300",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|4|2|6|300",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|4|3|5|300",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|4|3|6|300",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|5|0|0|300",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|5|1|0|300",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|5|3|0|300",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|5|4|0|300",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|UNDER|5|0|6|300",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|5|1|6|300",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|5|2|6|300",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|5|3|6|300",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVERUNDER|5|4|6|300",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|6|1|0|1600",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|6|2|0|1600",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|6|3|0|1600",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|6|4|0|1600",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        },
+        {
+          "context": "sky130hs-typ-26556d40b4e03665ac25a8a2|0|OVER|6|5|0|1600",
+          "candidates": 1,
+          "reason": "non-heldout, ambiguous, or fewer than four real supports"
+        }
+      ],
+      "scale": 1000.0,
+      "all_real_supports": true,
+      "namespace": "sky130hs-typ-26556d40b4e03665ac25a8a2"
+    }
+  ],
+  "rows": [
+    {
+      "platform": "asap7",
+      "method": "pass",
+      "slots": 1852,
+      "tables": 34,
+      "prediction_wall_s": 0.004277423024177551,
+      "prediction_cpu_s": 0.004278757000000244,
+      "write_wall_s": 0.007431909441947937,
+      "payload_bytes": 259207,
+      "payload_sha256": "a946c258f14d168fc5f3b33bc4730686215b1f3c0e3bfa6c2b63fd1a51ea6cda",
+      "canonical_Q_hash": "863b7258beff1750cadec8fc2112e96934bc305d2caaf3425e79e4645e353ada",
+      "design_independent_grid_verified": true
+    },
+    {
+      "platform": "asap7",
+      "method": "binary",
+      "slots": 1852,
+      "tables": 34,
+      "prediction_wall_s": 0.41275565698742867,
+      "prediction_cpu_s": 0.41275719600000027,
+      "write_wall_s": 0.0052851103246212006,
+      "payload_bytes": 261578,
+      "payload_sha256": "dd9430664a20ff64dda9724d3d4db10746384517a4aa16562a2ad67dddfb1ef2",
+      "canonical_Q_hash": "863b7258beff1750cadec8fc2112e96934bc305d2caaf3425e79e4645e353ada",
+      "design_independent_grid_verified": true
+    },
+    {
+      "platform": "asap7",
+      "method": "full",
+      "slots": 1852,
+      "tables": 34,
+      "prediction_wall_s": 0.7653688527643681,
+      "prediction_cpu_s": 0.7653067489999996,
+      "write_wall_s": 0.004749540239572525,
+      "payload_bytes": 262830,
+      "payload_sha256": "81247ce70e145adf7f69a5efac7ae937a1f796d637f43e635ccae78b9284e565",
+      "canonical_Q_hash": "863b7258beff1750cadec8fc2112e96934bc305d2caaf3425e79e4645e353ada",
+      "design_independent_grid_verified": true
+    },
+    {
+      "platform": "gf180",
+      "method": "pass",
+      "slots": 11136,
+      "tables": 7,
+      "prediction_wall_s": 0.014258533716201782,
+      "prediction_cpu_s": 0.014260178999999873,
+      "write_wall_s": 0.02440512925386429,
+      "payload_bytes": 1674665,
+      "payload_sha256": "3f51e5ac8afec3c31e09f822229db8c832c16a379f4e4180774b04d703542336",
+      "canonical_Q_hash": "e6c041a82ef2866b54dcf8bc8aff3114822ea7f5fe71f1e394a6cd677691ac52",
+      "design_independent_grid_verified": true
+    },
+    {
+      "platform": "gf180",
+      "method": "binary",
+      "slots": 11136,
+      "tables": 7,
+      "prediction_wall_s": 2.053621981292963,
+      "prediction_cpu_s": 2.0534748710000006,
+      "write_wall_s": 0.025022383779287338,
+      "payload_bytes": 1693535,
+      "payload_sha256": "58a7720b6939ad3098ee61cc6b430235e9061dd14d8eb83fce2d25405d417839",
+      "canonical_Q_hash": "e6c041a82ef2866b54dcf8bc8aff3114822ea7f5fe71f1e394a6cd677691ac52",
+      "design_independent_grid_verified": true
+    },
+    {
+      "platform": "gf180",
+      "method": "full",
+      "slots": 11136,
+      "tables": 7,
+      "prediction_wall_s": 3.732613693922758,
+      "prediction_cpu_s": 3.7324061420000003,
+      "write_wall_s": 0.023922275751829147,
+      "payload_bytes": 1693547,
+      "payload_sha256": "f2cfbb79e8f8437b8d03aa1d6c78372e0cd9559856aa16b39ff59c95838f42c8",
+      "canonical_Q_hash": "e6c041a82ef2866b54dcf8bc8aff3114822ea7f5fe71f1e394a6cd677691ac52",
+      "design_independent_grid_verified": true
+    },
+    {
+      "platform": "ihp-sg13g2",
+      "method": "pass",
+      "slots": 27164,
+      "tables": 17,
+      "prediction_wall_s": 0.04652223363518715,
+      "prediction_cpu_s": 0.046526331999999115,
+      "write_wall_s": 0.04720420017838478,
+      "payload_bytes": 3910744,
+      "payload_sha256": "531e12a6691faf52a725139f8f15cf03be3e9a8ce364dbb97db6fcee9fdbd3c5",
+      "canonical_Q_hash": "7d99293b59abeb7685b3456ab7bfed5843faa2adc2de6331638dbb1899832f55",
+      "design_independent_grid_verified": true
+    },
+    {
+      "platform": "ihp-sg13g2",
+      "method": "binary",
+      "slots": 27164,
+      "tables": 17,
+      "prediction_wall_s": 4.859530996531248,
+      "prediction_cpu_s": 4.859258896,
+      "write_wall_s": 0.050541263073682785,
+      "payload_bytes": 3937065,
+      "payload_sha256": "d51573b4ac1e6258978d3292426a3219fc57e99fae1c89b374584cca642e7f7f",
+      "canonical_Q_hash": "7d99293b59abeb7685b3456ab7bfed5843faa2adc2de6331638dbb1899832f55",
+      "design_independent_grid_verified": true
+    },
+    {
+      "platform": "ihp-sg13g2",
+      "method": "full",
+      "slots": 27164,
+      "tables": 17,
+      "prediction_wall_s": 9.29453069716692,
+      "prediction_cpu_s": 9.294046126000001,
+      "write_wall_s": 0.05514627695083618,
+      "payload_bytes": 3945488,
+      "payload_sha256": "0a85a9a9561ea0971d17e5d86c6c881dd42ebf852663d78a6f43b59aad701e9e",
+      "canonical_Q_hash": "7d99293b59abeb7685b3456ab7bfed5843faa2adc2de6331638dbb1899832f55",
+      "design_independent_grid_verified": true
+    },
+    {
+      "platform": "sky130hs",
+      "method": "pass",
+      "slots": 9505,
+      "tables": 10,
+      "prediction_wall_s": 0.014958050101995468,
+      "prediction_cpu_s": 0.014960213000001943,
+      "write_wall_s": 0.01876574009656906,
+      "payload_bytes": 1375831,
+      "payload_sha256": "80ac62e85370848c2c324abcc7b6314c3bab7fefeaa8f065847bfd5fffc920bd",
+      "canonical_Q_hash": "7b6925f77dde471994b374058619f3a7110ee7319c9d30d95a5ae390fad2619b",
+      "design_independent_grid_verified": true
+    },
+    {
+      "platform": "sky130hs",
+      "method": "binary",
+      "slots": 9505,
+      "tables": 10,
+      "prediction_wall_s": 1.7285053357481956,
+      "prediction_cpu_s": 1.7284054920000003,
+      "write_wall_s": 0.01944011077284813,
+      "payload_bytes": 1431352,
+      "payload_sha256": "16031d4c74bddb9a47568150651fe7d38bad6ed9b61050a059ef8a9c00f1dab1",
+      "canonical_Q_hash": "7b6925f77dde471994b374058619f3a7110ee7319c9d30d95a5ae390fad2619b",
+      "design_independent_grid_verified": true
+    },
+    {
+      "platform": "sky130hs",
+      "method": "full",
+      "slots": 9505,
+      "tables": 10,
+      "prediction_wall_s": 3.222445674240589,
+      "prediction_cpu_s": 3.222310950999997,
+      "write_wall_s": 0.02011331543326378,
+      "payload_bytes": 1431016,
+      "payload_sha256": "7f73d4898bbf16867ce257bc50f5b970ec240c337c91f4c4c6f5f21472cb6add",
+      "canonical_Q_hash": "7b6925f77dde471994b374058619f3a7110ee7319c9d30d95a5ae390fad2619b",
+      "design_independent_grid_verified": true
+    }
+  ],
+  "policy": {
+    "coverage": "all eligible finite slots in source-held-out tables; original full characterization retained",
+    "chunk_limit": 32,
+    "order": "effective separation ascending per fixed context",
+    "source": "immutable Full/Binary three-member ensemble",
+    "components": [
+      "coupling",
+      "fringe"
+    ],
+    "preserve": "measurement-bin conflicts, boundary measure returns, resistance, special tables, unsupported contexts",
+    "full_checkpoints": [
+      "a44d7dcd5d1b6cc0518d2da2e0a0363edc4a2227ea04be6f37e05d1bbb704713",
+      "9e8c808433c2adbeb17358749b001feafa49d53912cb2ee0774a97f213c377cd",
+      "8bfa742183a1fe2793ea145e76fdc4a2779dffb99a6351b426b9c156fcced702"
+    ],
+    "binary_checkpoints": [
+      "b8e358ce1612046b06ad06c0231c6ec96846341c20722054720b00af5bde0598",
+      "9bfe08f2f0248282632aa455fb39c01cfed5fc90255834394ae337c5af97956d",
+      "9b333c5e7d81540e4465f40cc82d9c268190540572eaa71cb3cdac6355ebbe8b"
+    ]
+  }
+}

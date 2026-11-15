@@ -1,0 +1,45 @@
+{
+  "checks": [
+    {
+      "case": "asap7/aes",
+      "sha256": "e4477dd887a2251450edf959695b431ca34694e437a4a9948278429d4c1b1b48",
+      "exact_grid_equal": true
+    },
+    {
+      "case": "asap7/ibex",
+      "sha256": "e4477dd887a2251450edf959695b431ca34694e437a4a9948278429d4c1b1b48",
+      "exact_grid_equal": true
+    },
+    {
+      "case": "gf180/aes",
+      "sha256": "a9058d1a97ccf2413af5372773afbfec527d8798390dffeb5701e5e1e671a9df",
+      "exact_grid_equal": true
+    },
+    {
+      "case": "gf180/ibex",
+      "sha256": "a9058d1a97ccf2413af5372773afbfec527d8798390dffeb5701e5e1e671a9df",
+      "exact_grid_equal": true
+    },
+    {
+      "case": "ihp-sg13g2/aes",
+      "sha256": "288645ea9e7872612af33659220a87af16e535f77d9d51b7338732b4e428c8d1",
+      "exact_grid_equal": true
+    },
+    {
+      "case": "ihp-sg13g2/ibex",
+      "sha256": "288645ea9e7872612af33659220a87af16e535f77d9d51b7338732b4e428c8d1",
+      "exact_grid_equal": true
+    },
+    {
+      "case": "sky130hs/aes",
+      "sha256": "684bb69c8bc2284f386c4204c6d58f9acf2cf1ea49c5ddae8b90ed90cca6b6f7",
+      "exact_grid_equal": true
+    },
+    {
+      "case": "sky130hs/ibex",
+      "sha256": "684bb69c8bc2284f386c4204c6d58f9acf2cf1ea49c5ddae8b90ed90cca6b6f7",
+      "exact_grid_equal": true
+    }
+  ],
+  "reason": "separate raw inventory and getter-validation receipts; old inventory timing CSV retained, overwritten diagnostic logs not reconstructed"
+}

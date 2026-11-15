@@ -1,0 +1,5 @@
+{
+  "change": "Hold native width map fixed while removing only distance quantization; initial lower-width ideal is superseded, retained separately",
+  "learned_predictions_changed": false,
+  "source_sha256": "2ce717e7be83f998bfe0989a06424d18a21dd19d2c3f3f789c43b43f157915e1"
+}

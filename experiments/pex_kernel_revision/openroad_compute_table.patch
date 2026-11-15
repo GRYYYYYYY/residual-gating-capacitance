@@ -1,0 +1,160 @@
+--- a/src/rcx/src/extRCmodel.cpp
++++ b/src/rcx/src/extRCmodel.cpp
+@@ -25,7 +25,76 @@
+ 
+ using utl::RCX;
+ 
++#include <iomanip>
+ namespace rcx {
++// Preparation-only injection, no changes to production getter or RC assembly.
++#include <chrono>
++#include <fstream>
++#include <sstream>
++#include <map>
++#include <set>
++#include <string>
++#include <cmath>
++#include <cstdlib>
++struct DacCT {
++ std::string context, scope; unsigned corner=0;
++ std::map<std::string,std::pair<double,double>> values;
++ std::ofstream dump, trace;
++ std::map<const void*,std::string> keys;
++ unsigned long tables=0,slots=0,eligible=0,changed=0,applied=0,protected_slots=0,special_tables=0;
++ double build_s=0,hook_s=0;
++ bool enabled=false;
++ DacCT(){
++  const char* ns=std::getenv("DAC_CT_NAMESPACE");scope=ns?ns:"unset";
++  if(const char* p=std::getenv("DAC_CT_DUMP")){dump.open(p);enabled=true;}
++  if(const char* p=std::getenv("DAC_CT_INPUT")){
++   enabled=true;std::ifstream f(p);if(!f)std::abort();std::string k;double c,g;
++   while(f>>k>>c>>g){if(!std::isfinite(c)||!std::isfinite(g)||c<0||g<0||!values.emplace(k,std::make_pair(c,g)).second)std::abort();}
++  }
++#ifdef DAC_CT_TRACE
++  if(const char* p=std::getenv("DAC_CT_TRACE")){trace.open(p);enabled=true;}
++#endif
++ }
++ ~DacCT(){std::printf("DAC_CT_STATS %lu %lu %lu %lu %lu %lu %lu %.9f %.9f\n",tables,slots,eligible,applied,changed,protected_slots,special_tables,build_s,hook_s);}
++};
++static DacCT dac_ct;
++static auto dac_now(){return std::chrono::steady_clock::now();}
++static double dac_seconds(std::chrono::steady_clock::time_point t){return std::chrono::duration<double>(dac_now()-t).count();}
++static void dac_context(const char* f,unsigned met,unsigned below,unsigned above,unsigned w){
++ dac_ct.context=dac_ct.scope+"|"+std::to_string(dac_ct.corner)+"|"+f+"|"+std::to_string(met)+"|"+std::to_string(below)+"|"+std::to_string(above)+"|"+std::to_string(w);
++}
++template<class A> static void dac_populate(const void* ptr,A* measure,A* compute,unsigned unit){
++ auto start=dac_now();dac_ct.tables++;
++ if(!dac_ct.enabled){dac_ct.hook_s+=dac_seconds(start);return;}
++ dac_ct.keys[ptr]=dac_ct.context;
++ if(!measure||!compute||measure->getCnt()<2){dac_ct.special_tables++;return;}
++ unsigned n=measure->getCnt();auto first=measure->get(0);auto last=measure->get(n-1);
++ if(last->getSep()>=99000){dac_ct.special_tables++;return;}
++ std::set<unsigned> protected_bins;
++ for(unsigned i=0;i<n;i++){auto r=measure->get(i);protected_bins.insert(r->getSep()/unit);
++  if(dac_ct.dump)dac_ct.dump<<"K\t"<<dac_ct.context<<"\t"<<r->getSep()<<"\t"<<std::setprecision(17)<<r->getCoupling()<<"\t"<<r->getFringe()<<"\t"<<r->getRes()<<"\n";
++ }
++ // Array1D::set does not update getCnt, and spare capacity is uninitialized.
++ // Enumerate exactly the slots written by mapExtrapolate/mapInterpolate.
++ std::set<unsigned> initialized;
++ for(unsigned d=0;d<=unsigned(first->getSep());d+=unit)initialized.insert(d/unit);
++ for(unsigned j=0;j+1<n;j++)for(unsigned d=measure->get(j)->getSep();d<=unsigned(measure->get(j+1)->getSep());d+=unit)initialized.insert(d/unit);
++ for(unsigned i:initialized){
++  auto r=compute->geti(i);if(!r)continue;dac_ct.slots++;
++  bool ok=i*unit>first->getSep() && i*unit<last->getSep()-unit && !protected_bins.count(i) && r->getSep()<99000;
++  dac_ct.eligible+=ok;dac_ct.protected_slots+=!ok;
++  std::string key=dac_ct.context+"|"+std::to_string(i)+"|"+std::to_string(r->getSep())+"|coupling,fringe|native_per_internal_length";
++  if(dac_ct.dump)dac_ct.dump<<"S\t"<<key<<"\t"<<ok<<"\t"<<std::setprecision(17)<<r->getCoupling()<<"\t"<<r->getFringe()<<"\t"<<r->getRes()<<"\n";
++  auto it=dac_ct.values.find(key);
++  if(it!=dac_ct.values.end()){
++   if(!ok)std::abort();double oldc=r->getCoupling(),oldg=r->getFringe();
++   r->setCoupling(it->second.first);r->setFringe(it->second.second);dac_ct.applied++;
++   dac_ct.changed+=(oldc!=r->getCoupling()||oldg!=r->getFringe());
++  }
++ }
++ dac_ct.hook_s+=dac_seconds(start);
++}
++
+ 
+ int extRCModel::getMaxMetIndexOverUnder(int met, int layerCnt)
+ {
+@@ -572,7 +641,10 @@
+   measureTable_ = table;
+ 
+   if (compute) {
++    auto dac_start=dac_now();
+     interpolate(4, -1, rcPool);
++    dac_ct.build_s+=dac_seconds(dac_start);
++    if (!dac_ct.context.empty()) dac_populate(this,measureTable_,computeTable_,unit_);
+   }
+ 
+   return cnt;
+@@ -1274,6 +1346,7 @@
+     parser->getInt(3);
+ 
+     for (uint32_t jj = 0; jj < widthCnt; jj++) {
++      if (!ignore && !res) dac_context("OVER",_met,ii,0,_widthTable->get(jj)); else dac_ct.context.clear();
+       if (res) {
+         if (!ignore) {
+           cnt += _rcDistTable[ii][jj]->readRules_res2(
+@@ -1302,6 +1375,7 @@
+                                              bool ignore,
+                                              double dbFactor)
+ {
++  dac_ct.context.clear();
+   uint32_t cnt = 0;
+   for (uint32_t ii = _met + 1; ii < _layerCnt; ii++) {
+     uint32_t met = 0;
+@@ -1317,6 +1391,7 @@
+     parser->getInt(3);
+ 
+     for (uint32_t jj = 0; jj < widthCnt; jj++) {
++      if (!ignore) dac_context("UNDER",_met,0,ii,_widthTable->get(jj)); else dac_ct.context.clear();
+       cnt += _rcDistTable[metIndex][jj]->readRules(
+           parser, _rcPoolPtr, true, bin, ignore, dbFactor);
+     }
+@@ -1332,6 +1407,7 @@
+                                                  bool ignore,
+                                                  double dbFactor)
+ {
++  dac_ct.context.clear();
+   uint32_t cnt = 0;
+   for (uint32_t ii = _met + 1; ii < _met + 5 && ii < _layerCnt; ii++) {
+     uint32_t met = 0;
+@@ -1379,6 +1455,7 @@
+                                                  bool ignore,
+                                                  double dbFactor)
+ {
++  dac_ct.context.clear();
+   uint32_t cnt = 0;
+   for (uint32_t ii = _met + 1; ii < _layerCnt; ii++) {
+     uint32_t met = 0;
+@@ -1430,6 +1507,7 @@
+       }
+       int mcnt = 0;
+       for (uint32_t jj = 0; jj < widthCnt; jj++) {
++      if (!ignore) dac_context("OVERUNDER",_met,mUnder,mOver,_widthTable->get(jj)); else dac_ct.context.clear();
+         if (!ignore) {
+           mcnt += _rcDistTable[metIndex][jj]->readRules(
+               parser, _rcPoolPtr, true, bin, ignore, dbFactor);
+@@ -1740,7 +1818,13 @@
+     return nullptr;
+   }
+ 
++#ifdef DAC_CT_TRACE
++  auto* tab=_rcDistTable[mou][wIndex]; auto* r=tab->getRC(s,true);
++  if(dac_ct.trace && r)dac_ct.trace<<dac_ct.keys[tab]<<"\t"<<w<<"\t"<<s<<"\t"<<r->sep_<<"\t"<<std::setprecision(17)<<r->coupling_<<"\t"<<r->fringe_<<"\t"<<r->res_<<"\n";
++  return r;
++#else
+   return _rcDistTable[mou][wIndex]->getRC(s, true);
++#endif
+ }
+ 
+ extDistRC* extDistWidthRCTable::getRC(uint32_t mou,
+@@ -3487,6 +3571,7 @@
+                                bool ignore,
+                                double dbFactor)
+ {
++  dac_ct.corner=m; dac_ct.context.clear();
+   uint32_t cnt = 0;
+   uint32_t met = 0;
+   Array1D<double>* wTable

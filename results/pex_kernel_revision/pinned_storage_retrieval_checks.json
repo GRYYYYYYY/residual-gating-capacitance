@@ -1,0 +1,134 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "input": "results/pex_kernel_revision/harness_asap7-M4-OVERUNDER_binary.txt",
+      "sha256": "ce84aac218e5f11e3820ac0512bfc7289845a50f888216dfbb69e053cb73d0e8",
+      "method": "binary_compute",
+      "queries": 12,
+      "max_scaled_error": 0.0
+    },
+    {
+      "input": "results/pex_kernel_revision/harness_asap7-M4-OVERUNDER_full.txt",
+      "sha256": "30a5b6dd81a92006c3ec07875d62ade7f2c65d4879b53c0dd591b43170e35bd9",
+      "method": "full_compute",
+      "queries": 12,
+      "max_scaled_error": 0.0
+    },
+    {
+      "input": "results/pex_kernel_revision/harness_asap7-M4-OVERUNDER_pass.txt",
+      "sha256": "f4ad2d98d4290c8a868d54c2a59231e2238197af58d862d9cf7cce38ac9771cd",
+      "method": "openrcx_kernel",
+      "queries": 12,
+      "max_scaled_error": 0.0
+    },
+    {
+      "input": "results/pex_kernel_revision/harness_asap7-M4-OVER_binary.txt",
+      "sha256": "779160753e060f9ca3a30d82532a308d95ad4aa59250eaacd3fa9a0cebbaf322",
+      "method": "binary_compute",
+      "queries": 12,
+      "max_scaled_error": 0.0
+    },
+    {
+      "input": "results/pex_kernel_revision/harness_asap7-M4-OVER_full.txt",
+      "sha256": "9567f4a9682e030201dcbb77f2e8d3dd0461cd3c72e5ef375aa3abeaadda2a3f",
+      "method": "full_compute",
+      "queries": 12,
+      "max_scaled_error": 0.0
+    },
+    {
+      "input": "results/pex_kernel_revision/harness_asap7-M4-OVER_pass.txt",
+      "sha256": "b0fd2d5c8fbbc80a9d26c750feae998e9b6be157e2d0e6ed4383463da71b480b",
+      "method": "openrcx_kernel",
+      "queries": 12,
+      "max_scaled_error": 0.0
+    },
+    {
+      "input": "results/pex_kernel_revision/harness_asap7-M4-UNDER_binary.txt",
+      "sha256": "86bf9bda73dcee3abbabb0e73ccff8d6735e8103e0d74796c985b37dc1dde17b",
+      "method": "binary_compute",
+      "queries": 11,
+      "max_scaled_error": 0.0
+    },
+    {
+      "input": "results/pex_kernel_revision/harness_asap7-M4-UNDER_full.txt",
+      "sha256": "5d39031916c78c3e8e51ce8bae966432ca0d8e2dfcb004afdaff440c966483d9",
+      "method": "full_compute",
+      "queries": 11,
+      "max_scaled_error": 0.0
+    },
+    {
+      "input": "results/pex_kernel_revision/harness_asap7-M4-UNDER_pass.txt",
+      "sha256": "9cec8ae2b9f204afe9b509b6667d9d38a1f92a4a6510a57e36ed9041af2c6413",
+      "method": "openrcx_kernel",
+      "queries": 11,
+      "max_scaled_error": 0.0
+    },
+    {
+      "input": "results/pex_kernel_revision/harness_asap7-M5-OVERUNDER_binary.txt",
+      "sha256": "21f32aeb27507bd5ccfb0a8c67e2407b0fb2e304e5f4f25a073c486563fdd014",
+      "method": "binary_compute",
+      "queries": 12,
+      "max_scaled_error": 0.0
+    },
+    {
+      "input": "results/pex_kernel_revision/harness_asap7-M5-OVERUNDER_full.txt",
+      "sha256": "5bfbeedd896aa54f8147e67daaed855b57d3a955b37af52098486552e65536a3",
+      "method": "full_compute",
+      "queries": 12,
+      "max_scaled_error": 0.0
+    },
+    {
+      "input": "results/pex_kernel_revision/harness_asap7-M5-OVERUNDER_pass.txt",
+      "sha256": "2be1bbdec8a74edfdbfa2714541e4056a2942c38f6cb76dd241fdfd1428b9da2",
+      "method": "openrcx_kernel",
+      "queries": 12,
+      "max_scaled_error": 0.0
+    },
+    {
+      "input": "results/pex_kernel_revision/harness_asap7-M5-OVER_binary.txt",
+      "sha256": "f539cbf30ff5b2e7d31e478cd4e1aa5e51295a597e4f42674bd1975c17827261",
+      "method": "binary_compute",
+      "queries": 12,
+      "max_scaled_error": 0.0
+    },
+    {
+      "input": "results/pex_kernel_revision/harness_asap7-M5-OVER_full.txt",
+      "sha256": "7e859aeb138a1618e336ae47de54035d4433762977913adcd544f32431af3127",
+      "method": "full_compute",
+      "queries": 12,
+      "max_scaled_error": 0.0
+    },
+    {
+      "input": "results/pex_kernel_revision/harness_asap7-M5-OVER_pass.txt",
+      "sha256": "3210c192e7b2d1864ad570c15f9a11afe04b7bbe265c5e0109c53580a9d12055",
+      "method": "openrcx_kernel",
+      "queries": 12,
+      "max_scaled_error": 0.0
+    },
+    {
+      "input": "results/pex_kernel_revision/harness_asap7-M5-UNDER_binary.txt",
+      "sha256": "da28de3885e50f801dc18632aa9c710ee67d552a0b125dfd98d9132639717b63",
+      "method": "binary_compute",
+      "queries": 12,
+      "max_scaled_error": 0.0
+    },
+    {
+      "input": "results/pex_kernel_revision/harness_asap7-M5-UNDER_full.txt",
+      "sha256": "3c76bdec78023221db4515a1db56462a13457d95d37d39b0d918834aaa277ff4",
+      "method": "full_compute",
+      "queries": 12,
+      "max_scaled_error": 0.0
+    },
+    {
+      "input": "results/pex_kernel_revision/harness_asap7-M5-UNDER_pass.txt",
+      "sha256": "1adfe281f5e71111603ab78bd86e29f41aa7ac6ad20a63a99295f18b2b7f24e6",
+      "method": "openrcx_kernel",
+      "queries": 12,
+      "max_scaled_error": 0.0
+    }
+  ],
+  "kernel_sha256": "4f401cfe15347e398e44b25f23837bdfdd5203b5ba8792c09770654b3ebe82cb",
+  "array_header_sha256": "6b9f63de86fb66c2dc51b658057eacf6ab4662bb8913f3ca434fbcdbd244a13a",
+  "scope": "Exact pinned Array1D and function bodies; minimal allocation wrapper; finite no-sentinel inputs only"
+}

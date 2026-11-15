@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "manuscripts": {
+    "main": {
+      "pages": 6,
+      "source_sha256": "27f861bb06031fac005694df618cf1f6285967535cba46299614846fa7141289",
+      "pdf_sha256": "53fbc8dbb3bd905f60adb11eaeb035a83e5f4b297714dd0f0c65f6d6948c73bb",
+      "rendered_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "census_figure_page": 2,
+      "render_tool": "pdftoppm 110dpi",
+      "checked": "all-page contact sheets and detailed figure/table/final-page inspection; no clipping, undefined references or overfull boxes; natural font sizes retained"
+    },
+    "extended": {
+      "pages": 15,
+      "source_sha256": "e5394f899a3b5ca6e8ae5d02987a911e111c571421819ec026299edcbb4b3cb8",
+      "pdf_sha256": "36bad7217779ed5d2dba449a3b3a984078609e0a3aef9fc9672f0685811fd461",
+      "rendered_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "census_figure_page": 2,
+      "render_tool": "pdftoppm 110dpi",
+      "checked": "all-page contact sheets and detailed figure/table/final-page inspection; no clipping, undefined references or overfull boxes; natural font sizes retained"
+    }
+  },
+  "main_content_pages": 5,
+  "main_reference_pages": 1,
+  "extended_not_submission_page_limit": true
+}

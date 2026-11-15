@@ -1,0 +1,66 @@
+{
+  "case": "ihp-sg13g2/ibex",
+  "method": "full",
+  "block": 0,
+  "wall_s": 8.32723230496049,
+  "cpu_s": 8.269500000000008,
+  "layout_and_libs_s": 0.259345,
+  "rule_registration_s": 9.2e-05,
+  "extraction_s": 3.059439,
+  "spef_write_s": 0.583232,
+  "sta_read_s": 2.238991,
+  "sta_analysis_s": 1.96367,
+  "tables": 84,
+  "slots": 141444,
+  "eligible": 128601,
+  "applied": 27164,
+  "changed": 27164,
+  "protected": 12843,
+  "special_tables": 0,
+  "native_build_s": 0.006328847,
+  "injection_s": 0.041976611,
+  "electrical_sha256": "a22df6ce6246c4e3547c142cc56d80fea1b765f26aa0782d73eebf6af36d2cab",
+  "identical_native": false,
+  "trace": false,
+  "inventory_dump": false,
+  "worst_slack_ps": 197.103679,
+  "tns_ps": 0.0,
+  "rule_sha256": "ffda02d57a6ecb39b02268be9511d89ef072911f17bd2dcd095f3f3cbeb5a905",
+  "binary_sha256": "5a969ff1b5f92d5a56e875af331789a428d3df38ba50735243ecde57bb0d7ede",
+  "namespace": "ihp-sg13g2-typ-ed875e7b7b444624f516fb89",
+  "dbu_per_um": 1000,
+  "peak_rss_kib": 268400,
+  "comparison": {
+    "units": {
+      "*C_UNIT": [
+        1.0,
+        "PF"
+      ],
+      "*R_UNIT": [
+        1.0,
+        "OHM"
+      ]
+    },
+    "golden_nets": 18579,
+    "candidate_nets": 18579,
+    "common_nets": 18579,
+    "metrics": {
+      "capacitance": {
+        "mae": 0.0003982210927929395,
+        "rmse": 0.0007938563517267047,
+        "nrmse": 0.054766225679213576,
+        "smape": 0.045630052846411466,
+        "r2": 0.9957430288666601,
+        "spearman": 0.9996895663733738
+      },
+      "resistance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 0.9999999999999999
+      }
+    }
+  }
+}

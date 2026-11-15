@@ -1,0 +1,65 @@
+{
+  "case": "gf180/aes",
+  "method": "disabled",
+  "block": 0,
+  "wall_s": 7.777755800634623,
+  "cpu_s": 7.465420999999999,
+  "layout_and_libs_s": 1.24221,
+  "rule_registration_s": 9.5e-05,
+  "extraction_s": 2.58111,
+  "spef_write_s": 0.53339,
+  "sta_read_s": 1.665546,
+  "sta_analysis_s": 1.583911,
+  "tables": 35,
+  "slots": 62735,
+  "eligible": 57055,
+  "applied": 0,
+  "changed": 0,
+  "protected": 5680,
+  "special_tables": 0,
+  "native_build_s": 0.003256662,
+  "injection_s": 0.123525488,
+  "electrical_sha256": "e52860f57cdd52e279f0d855f17eb78d11ccd6d2bf9c221a66e03f96f93ccf00",
+  "identical_native": true,
+  "trace": false,
+  "inventory_dump": true,
+  "worst_slack_ps": -3000.1709459999997,
+  "tns_ps": -523456.78710899997,
+  "rule_sha256": "39ca464e9e5b588c2bf8a81e2dfd2b8430f1f6da2d909ea5ee56610366a64128",
+  "binary_sha256": "5a969ff1b5f92d5a56e875af331789a428d3df38ba50735243ecde57bb0d7ede",
+  "namespace": "gf180-typ-796fa78d12c2dbd43eda0c48",
+  "peak_rss_kib": 293280,
+  "comparison": {
+    "units": {
+      "*C_UNIT": [
+        1.0,
+        "PF"
+      ],
+      "*R_UNIT": [
+        1.0,
+        "OHM"
+      ]
+    },
+    "golden_nets": 18864,
+    "candidate_nets": 18864,
+    "common_nets": 18864,
+    "metrics": {
+      "capacitance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 1.0
+      },
+      "resistance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 0.9999999999999998
+      }
+    }
+  }
+}

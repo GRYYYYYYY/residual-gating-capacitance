@@ -1,0 +1,57 @@
+{
+  "case": "sky130hs/ibex",
+  "method": "original",
+  "block": 1,
+  "wall_s": 8.679584372788668,
+  "cpu_s": 8.566630999999935,
+  "layout_and_libs_s": 1.594801,
+  "rule_registration_s": 8.9e-05,
+  "extraction_s": 2.240225,
+  "spef_write_s": 0.473548,
+  "sta_read_s": 1.525355,
+  "sta_analysis_s": 2.559662,
+  "electrical_sha256": "7567a348aac27bfba2aff85de6cce78f2ea35e8e89b5ff3ea7eb3215b0c424cc",
+  "identical_native": true,
+  "trace": false,
+  "inventory_dump": false,
+  "worst_slack_ps": -245.319322,
+  "tns_ps": -39309.909821,
+  "rule_sha256": "d5bd9b1077ceac9929416abca272a6d52e51cd9a575453a31d129817bb286476",
+  "binary_sha256": "94c4bc5e394ef709d9c1afd5bce3b4abe01fc8088e6d9c5564cc17dc154d3222",
+  "namespace": "sky130hs-typ-d649153d7071a664c4fc0389",
+  "dbu_per_um": 1000,
+  "peak_rss_kib": 289292,
+  "comparison": {
+    "units": {
+      "*C_UNIT": [
+        1.0,
+        "PF"
+      ],
+      "*R_UNIT": [
+        1.0,
+        "OHM"
+      ]
+    },
+    "golden_nets": 14357,
+    "candidate_nets": 14357,
+    "common_nets": 14357,
+    "metrics": {
+      "capacitance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 1.0000000000000002
+      },
+      "resistance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 1.0
+      }
+    }
+  }
+}

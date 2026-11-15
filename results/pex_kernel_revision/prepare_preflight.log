@@ -1,0 +1,12 @@
+asap7 pass 1852 slots 0.004 s
+asap7 binary 1852 slots 0.413 s
+asap7 full 1852 slots 0.765 s
+gf180 pass 11136 slots 0.014 s
+gf180 binary 11136 slots 2.054 s
+gf180 full 11136 slots 3.733 s
+ihp-sg13g2 pass 27164 slots 0.047 s
+ihp-sg13g2 binary 27164 slots 4.86 s
+ihp-sg13g2 full 27164 slots 9.295 s
+sky130hs pass 9505 slots 0.015 s
+sky130hs binary 9505 slots 1.729 s
+sky130hs full 9505 slots 3.222 s

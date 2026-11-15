@@ -1,0 +1,20 @@
+asap7/aes disabled 0 wall 9.081 slots 0
+asap7/ibex disabled 0 wall 11.783 slots 0
+gf180/aes disabled 0 wall 7.778 slots 0
+gf180/ibex disabled 0 wall 8.93 slots 0
+ihp-sg13g2/aes disabled 0 wall 6.175 slots 0
+ihp-sg13g2/ibex disabled 0 wall 8.478 slots 0
+Traceback (most recent call last):
+  File "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/experiments/pex_kernel_revision/native_flow.py", line 125, in <module>
+    a=argparse.ArgumentParser();a.add_argument('phase',choices=['inventory','prepare','validate','benchmark']);v=a.parse_args();globals()[v.phase]()
+  File "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/experiments/pex_kernel_revision/native_flow.py", line 47, in inventory
+    for case in sorted(CASES):rows.append(run_one(case,'disabled',dump=True))
+  File "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/experiments/pex_kernel_revision/native_flow.py", line 42, in run_one
+    row=dict(case=case,method=method,block=block,wall_s=wall,cpu_s=after.ru_utime+after.ru_stime-before.ru_utime-before.ru_stime,**stages,**counts,electrical_sha256=electrical,identical_native=electrical==nativehash,trace=trace,inventory_dump=dump,worst_slack_ps=slack*factor,tns_ps=tns*factor,rule_sha256=sha(source(platform)),binary_sha256=sha(exe),namespace=namespace(platform),peak_rss_kib=int(re.search(r'Maximum resident set size \(kbytes\): (\d+)',(dest/'resource.txt').read_text())[1]))
+  File "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/experiments/pex_kernel_revision/common.py", line 8, in sha
+    def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+  File "/usr/lib/python3.10/pathlib.py", line 1126, in read_bytes
+    with self.open(mode='rb') as f:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/openroad-release'

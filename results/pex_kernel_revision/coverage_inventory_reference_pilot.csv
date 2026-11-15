@@ -1,0 +1,61 @@
+domain,table_id,protocol,requested_holdout,seed,n_total,support_count,query_count,actual_holdout,rank,complete_cell_queries,sparse_extension_queries,clamped_queries,inside_count,outside_count,SQ_hash,duplicate_of,openrcx_applicable
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.1,11,128,115,13,0.1015625,2,0,13,0,11,2,bc3185f095489a18d37919c27d6127449e96f2c0b5a645ceda633a25c7f13f51,null,True
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.1,29,128,115,13,0.1015625,2,0,13,0,13,0,31e4a92c47f65ec14fd00364ca051034ef421620f5878c1338a99530d28e1ac7,null,True
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.1,47,128,115,13,0.1015625,2,0,13,0,13,0,6c346fd8dfa1016f1bacab1fb4b247819ae22d19c02cf3874d3df2b8269767e0,null,True
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.1,71,128,115,13,0.1015625,2,0,13,0,13,0,e0c09bfd0af243ec7ac1a7896f21745a85771c09adecb5c1ec6987004fbd8f77,null,True
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.1,101,128,115,13,0.1015625,2,0,13,0,13,0,d1bdb4490d6fc97f0abdd15b7b83ae75d47e552b7a6473583e30794cd2fa0d33,null,True
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.3,11,128,90,38,0.296875,2,0,38,0,36,2,8e326be22aef74f29898ccc02a2836b95d54f18603aa2126fb2ed9e330445056,null,True
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.3,29,128,90,38,0.296875,2,0,38,0,37,1,20b4bfc0cdfe01a75c4590b2d655053e72824032ceefb1ecfbfd1b1191be7d1d,null,True
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.3,47,128,90,38,0.296875,2,0,38,0,38,0,603b7167bc14c5faa5d36efd3659553373de18bcbfe288a5ba7db4b6ecd6eb64,null,True
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.3,71,128,90,38,0.296875,2,0,38,0,38,0,5b823194e234b49617f656de80093ae93c1761ba0e2989c19a902e103ae990d0,null,True
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.3,101,128,90,38,0.296875,2,0,38,0,37,1,6a6f87e31c1ed256b0ad35a32f79a09f2f2d3a9db74d0da78e3b2b4fc8dbc026,null,True
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.5,11,128,64,64,0.5,2,0,64,0,57,7,44ade6990980441e5fc2deac425a1944dd15ac0fdb0fb76fb070ba8928305541,null,True
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.5,29,128,64,64,0.5,2,0,64,0,51,13,3c57c536d1da97b4850fcd055686292b1d59a7782c3f85e106e6548030a8ea7e,null,True
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.5,47,128,64,64,0.5,2,0,64,0,52,12,6b1fa6691d8b661f4fd415914dea1d12b9c4944dcbdad51b4c84ba2ad48083c7,null,True
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.5,71,128,64,64,0.5,2,0,64,0,57,7,a6f68df920d0ad6662c511d3075dd1f8cb0e927c39b7241ab425888c520ea497,null,True
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.5,101,128,64,64,0.5,2,0,64,0,58,6,af5ffa3846662987b14254854834aa902218e32aaf6d03690e32e9f489f4ea40,null,True
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.7,11,128,38,90,0.703125,2,1,89,0,79,11,d1ff32ebf870301983e86c9f563af4142ae3a6da95eaef01ae21352aec3f5c78,null,True
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.7,29,128,38,90,0.703125,2,0,90,0,73,17,057d00b7b8db6dbdce2d68fba37ec00e070fee1be0a71c8a43697f914b39c4b3,null,True
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.7,47,128,38,90,0.703125,2,0,90,0,71,19,6e879db79dd9572fa10c43586fa9e618a408fc1f4d8f63feb8baa80abce3e611,null,True
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.7,71,128,38,90,0.703125,2,0,90,0,81,9,c048af2a717eb8dce4a2561eac5b51e79d945847aaceea31a70324a3397e7435,null,True
+reference,r3-asap7-M7-DIAGUNDER,mcar,0.7,101,128,38,90,0.703125,2,0,90,0,75,15,f423e3d97800285d6c3993c2f444775a8aa2131808c98c1aea8d63940d0b016b,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.1,11,128,115,13,0.1015625,2,3,10,0,13,0,daf522029f63eb8b69b5858e24601eaebf3cde52686cfd9d7162e912a8b05df6,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.1,29,128,115,13,0.1015625,2,3,10,0,11,2,98f1871e9740681238290710ff8af09db217337d978c19a9a4efb6976405cdba,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.1,47,128,115,13,0.1015625,2,3,10,0,13,0,e057a44ff02ec68ad284bbc09797a588f518cb3a78e5cc186345aeb268a52e99,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.1,71,128,115,13,0.1015625,2,3,10,0,8,5,e06a8e2abba3a647d1828f8236e715763971cf570856acd086dad637d55bbe84,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.1,101,128,115,13,0.1015625,2,3,10,0,13,0,ba0f6f2c1762db5004c88aa3b0e4ac024622e7f590cfc426f436dd462541bb80,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.3,11,128,90,38,0.296875,2,8,30,0,38,0,5fe8e529b4d9bcc832eb00db06b31959ec1958edb1c05a032dd1de7b9a71009f,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.3,29,128,90,38,0.296875,2,8,30,0,28,10,432724da5ab007fba099ac29ca635ae0e73e1a28cd3f8201b22dede6738f6a2f,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.3,47,128,90,38,0.296875,2,8,30,0,38,0,f66cf17a5ebb2f4367b3dedea43416b00465c29301462992ecc42a149267252f,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.3,71,128,90,38,0.296875,2,8,30,0,26,12,2868a8f7c55432bc86a39e9ea7ab1b77e0305c78e05b29ba4123404887c4cc28,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.3,101,128,90,38,0.296875,2,8,30,0,38,0,3aa3bc47361f5930aab2fe497de642a180d09c4dc2c8af6a75561c1013208a89,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.5,11,128,64,64,0.5,2,64,0,0,64,0,768ccee73f1182a6a9e868a8a2385f64a047c08b0d0485c08eea712ad5a7e5cd,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.5,29,128,64,64,0.5,2,0,64,0,46,18,6052c6494059323a3d3282f6a943d724709a2821f99fb7912bb93ea78926d634,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.5,47,128,64,64,0.5,2,0,64,0,50,14,1a00ab48cc04c3dbf9b125ab510e51ceb5d649f02963dc5cbb86c0137bbcf9bc,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.5,71,128,64,64,0.5,2,0,64,0,42,22,8f6097d9aea3c74b8aeaff10d9b59f8fef9436b7f32be473c47371639c78035d,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.5,101,128,64,64,0.5,2,0,64,0,64,0,16da964ee32e477bb6e38b3dde29d4d930e57d8d90fbccef6c6029ca5fd12b3d,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.7,11,128,38,90,0.703125,2,0,90,0,62,28,7c3ee61e0ad5bbd1a46320308be19baf9d716928f6bbe79919aae666d8d68869,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.7,29,128,38,90,0.703125,2,0,90,0,59,31,05347d72efb36e50a0fd264a66993e2b154675209781cf5a467330001a24d61f,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.7,47,128,38,90,0.703125,2,0,90,0,48,42,c22c441b0781c8e31f061eee3b096ce8c5ad333ed65918fa3d737eeff348233c,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.7,71,128,38,90,0.703125,2,0,90,0,55,35,5e125cee5acd116bf4158f7b1b035167e54bcd39c78e5389a80757d3cb8bef22,null,True
+reference,r3-asap7-M7-DIAGUNDER,block,0.7,101,128,38,90,0.703125,2,0,90,0,90,0,c634453c81ca9e6777e7b4a4135628288a3eaf2eda5c04c28454de2e55274f3a,null,True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.1,11,128,115,13,0.1015625,2,0,10,3,0,13,bdcf1576ef6e842e040a9d5b63c86b274ff3eaf3f1ca448b3a5890acc8592d87,null,True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.1,29,128,115,13,0.1015625,2,0,10,3,0,13,bdcf1576ef6e842e040a9d5b63c86b274ff3eaf3f1ca448b3a5890acc8592d87,"[""extrapolation"", 0.1, 11]",True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.1,47,128,115,13,0.1015625,2,0,10,3,0,13,bdcf1576ef6e842e040a9d5b63c86b274ff3eaf3f1ca448b3a5890acc8592d87,"[""extrapolation"", 0.1, 11]",True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.1,71,128,115,13,0.1015625,2,0,10,3,0,13,bdcf1576ef6e842e040a9d5b63c86b274ff3eaf3f1ca448b3a5890acc8592d87,"[""extrapolation"", 0.1, 11]",True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.1,101,128,115,13,0.1015625,2,0,10,3,0,13,bdcf1576ef6e842e040a9d5b63c86b274ff3eaf3f1ca448b3a5890acc8592d87,"[""extrapolation"", 0.1, 11]",True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.3,11,128,90,38,0.296875,2,0,30,8,0,38,aa87de126af58a1a84d0804ec0c6baea196c52fd71ff1bab6499074d9bc76ba6,null,True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.3,29,128,90,38,0.296875,2,0,30,8,0,38,aa87de126af58a1a84d0804ec0c6baea196c52fd71ff1bab6499074d9bc76ba6,"[""extrapolation"", 0.3, 11]",True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.3,47,128,90,38,0.296875,2,0,30,8,0,38,aa87de126af58a1a84d0804ec0c6baea196c52fd71ff1bab6499074d9bc76ba6,"[""extrapolation"", 0.3, 11]",True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.3,71,128,90,38,0.296875,2,0,30,8,0,38,aa87de126af58a1a84d0804ec0c6baea196c52fd71ff1bab6499074d9bc76ba6,"[""extrapolation"", 0.3, 11]",True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.3,101,128,90,38,0.296875,2,0,30,8,0,38,aa87de126af58a1a84d0804ec0c6baea196c52fd71ff1bab6499074d9bc76ba6,"[""extrapolation"", 0.3, 11]",True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.5,11,128,64,64,0.5,2,0,0,64,0,64,959bb60205ba4f35e484c68ed7823da57c8f07a4beea2626eb00d2e92234cc75,null,True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.5,29,128,64,64,0.5,2,0,0,64,0,64,959bb60205ba4f35e484c68ed7823da57c8f07a4beea2626eb00d2e92234cc75,"[""extrapolation"", 0.5, 11]",True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.5,47,128,64,64,0.5,2,0,0,64,0,64,959bb60205ba4f35e484c68ed7823da57c8f07a4beea2626eb00d2e92234cc75,"[""extrapolation"", 0.5, 11]",True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.5,71,128,64,64,0.5,2,0,0,64,0,64,959bb60205ba4f35e484c68ed7823da57c8f07a4beea2626eb00d2e92234cc75,"[""extrapolation"", 0.5, 11]",True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.5,101,128,64,64,0.5,2,0,0,64,0,64,959bb60205ba4f35e484c68ed7823da57c8f07a4beea2626eb00d2e92234cc75,"[""extrapolation"", 0.5, 11]",True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.7,11,128,38,90,0.703125,2,0,24,66,0,90,f7eed22684b60bd60aeb7958e688590d33cf3baf78f773fa33bddafee60df87d,null,True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.7,29,128,38,90,0.703125,2,0,24,66,0,90,f7eed22684b60bd60aeb7958e688590d33cf3baf78f773fa33bddafee60df87d,"[""extrapolation"", 0.7, 11]",True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.7,47,128,38,90,0.703125,2,0,24,66,0,90,f7eed22684b60bd60aeb7958e688590d33cf3baf78f773fa33bddafee60df87d,"[""extrapolation"", 0.7, 11]",True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.7,71,128,38,90,0.703125,2,0,24,66,0,90,f7eed22684b60bd60aeb7958e688590d33cf3baf78f773fa33bddafee60df87d,"[""extrapolation"", 0.7, 11]",True
+reference,r3-asap7-M7-DIAGUNDER,extrapolation,0.7,101,128,38,90,0.703125,2,0,24,66,0,90,f7eed22684b60bd60aeb7958e688590d33cf3baf78f773fa33bddafee60df87d,"[""extrapolation"", 0.7, 11]",True

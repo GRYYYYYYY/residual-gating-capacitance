@@ -1,0 +1,17 @@
+{
+  "base": "a519539fee8a763c74e1db61427fdd02d85511ca",
+  "budget_cpu_core_hours": 16,
+  "max_parallel_processes": 4,
+  "new_training": false,
+  "new_field_solves": false,
+  "runtime_reused": "results/runtime_accuracy_20261115",
+  "coverage_ratios": [
+    0.1,
+    0.3,
+    0.5,
+    0.7
+  ],
+  "model_identity": "unchanged Full/Binary three members",
+  "query_batches": "all real S + coordinate-sorted complete eligible slot Q chunks32; no recursive pseudo-support",
+  "selection": "no selection using test query reference"
+}

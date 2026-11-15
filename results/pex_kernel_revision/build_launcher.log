@@ -1,0 +1,6 @@
+release /usr/bin/g++
+release /usr/bin/gcc-ar-11
+release /usr/bin/g++
+trace /usr/bin/g++
+trace /usr/bin/gcc-ar-11
+trace /usr/bin/g++

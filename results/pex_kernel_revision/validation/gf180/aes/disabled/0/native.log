@@ -1,0 +1,40 @@
+OpenROAD 26Q3-1860-g0b54bb3203 
+Features included (+) or not (-): +GPU -GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 1 thread(s).
+[WARNING ORD-0012] Hierarchical flow (-hier) is currently in development and may cause multiple issues. Do not use in production environments.
+DAC_CT_DBU 2000
+[WARNING STA-0450] virtual clock vclk_clk can not be propagated.
+[INFO RCX-0431] Defined process_corner X with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner X
+RUNTIME_STAGE layout_and_libs 1.122646
+RUNTIME_RSS before_rule_registration 159704
+RUNTIME_STAGE rule_registration 9.8e-5
+RUNTIME_RSS after_rule_registration 159704
+[INFO RCX-0435] Reading extraction model file /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/data/raw/gf180/gf180mcu_1p5m_1tm_9k_sp_smim_OPTB_typ.rules ...
+[INFO RCX-0436] RC segment generation aes_cipher_top (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 58270 rc segments
+[INFO RCX-0439] Coupling Cap extraction aes_cipher_top ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 49% of 148897 wires extracted
+[INFO RCX-0442] 100% of 148897 wires extracted
+[INFO RCX-0045] Extract 18864 nets, 77134 rsegs, 77134 caps, 191117 ccs
+RUNTIME_STAGE extraction 3.820867
+RUNTIME_RSS after_extraction 197600
+[INFO RCX-0443] 18864 nets finished
+RUNTIME_STAGE spef_write 0.523553
+RUNTIME_STAGE sta_read 1.547333
+ time 1ns
+ capacitance 1pF
+ resistance 1ohm
+ voltage 1v
+ current 1mA
+ power 1uW
+ distance 1um
+worst slack max -3.000170946
+wns max -3.000170946
+tns max -523.456787109
+RUNTIME_STAGE sta_analysis 1.567838
+RUNTIME_COMPLETE
+DAC_CT_STATS 35 62735 57055 0 0 5680 0 0.003478384 0.013197769

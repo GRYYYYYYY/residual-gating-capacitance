@@ -1,0 +1,11 @@
+{
+  "production_kernel_comparison": "completed: pinned extracted OpenRCX function bodies plus specified MLI; no commercial binary execution",
+  "same_physical_reference": "completed: 71 full-support symmetric 2D templates, including learned slot generation and native retrieval",
+  "coverage_sensitivity": "completed: 21,840 paired episodes, 10/30/50/70%, all intended domains/conditions",
+  "compute_table_injection": "completed: original/disabled/native pass-through/Binary/Full; full original rules unchanged",
+  "grid_reuse": "completed: whole eligible grids identical across two designs/process",
+  "fixed_node_export": "separate completed B8 path reused from runtime_accuracy_20261115",
+  "online_neural_inference": "not implemented; inference occurs during preparation",
+  "native_calibration_to_FEM_alignment": "not claimed; native fidelity and template physics separate",
+  "commercial_xRC": "not run; supplied core mathematics only"
+}

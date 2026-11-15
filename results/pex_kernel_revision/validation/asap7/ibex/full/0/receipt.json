@@ -1,0 +1,66 @@
+{
+  "case": "asap7/ibex",
+  "method": "full",
+  "block": 0,
+  "wall_s": 14.037571277469397,
+  "cpu_s": 13.850587999999991,
+  "layout_and_libs_s": 1.773067,
+  "rule_registration_s": 9.8e-05,
+  "extraction_s": 5.631779,
+  "spef_write_s": 0.718476,
+  "sta_read_s": 2.545651,
+  "sta_analysis_s": 3.176445,
+  "tables": 219,
+  "slots": 13595,
+  "eligible": 10138,
+  "applied": 1852,
+  "changed": 1852,
+  "protected": 3457,
+  "special_tables": 36,
+  "native_build_s": 0.000552355,
+  "injection_s": 0.003675976,
+  "electrical_sha256": "5a3576f47520f014f69b0005510fe2b31f33641fa223b244ea9dfb3fe703db07",
+  "identical_native": false,
+  "trace": true,
+  "inventory_dump": false,
+  "worst_slack_ps": -6.456390858,
+  "tns_ps": -26.978420258,
+  "rule_sha256": "32a117e5e866d3de1406e8f18d65b6f1857781f156638941a4769e25ef5252cc",
+  "binary_sha256": "1a7ec03ad6ce27d9aab26cce6ab7413257c2eb7d05f454b6e1bff4f78063f172",
+  "namespace": "asap7-typ-868118c2bcc8d90a4e08ed52",
+  "dbu_per_um": 1000,
+  "peak_rss_kib": 415000,
+  "comparison": {
+    "units": {
+      "*C_UNIT": [
+        1.0,
+        "PF"
+      ],
+      "*R_UNIT": [
+        1.0,
+        "OHM"
+      ]
+    },
+    "golden_nets": 20518,
+    "candidate_nets": 20518,
+    "common_nets": 20518,
+    "metrics": {
+      "capacitance": {
+        "mae": 2.0743723754751955e-06,
+        "rmse": 1.057524199101932e-05,
+        "nrmse": 0.005158145342252109,
+        "smape": 0.0023010138318932862,
+        "r2": 0.9999700978138407,
+        "spearman": 0.9999899385101914
+      },
+      "resistance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 1.0
+      }
+    }
+  }
+}

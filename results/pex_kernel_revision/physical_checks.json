@@ -1,0 +1,152 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "table_id": "asap7-M4-OVER",
+      "mode": "pass",
+      "queries": 12,
+      "slots": 657,
+      "max_scaled_cpp_python_error": 0.0,
+      "retrieved_injected": 11
+    },
+    {
+      "table_id": "asap7-M4-OVER",
+      "mode": "binary",
+      "queries": 12,
+      "slots": 657,
+      "max_scaled_cpp_python_error": 0.0,
+      "retrieved_injected": 11
+    },
+    {
+      "table_id": "asap7-M4-OVER",
+      "mode": "full",
+      "queries": 12,
+      "slots": 657,
+      "max_scaled_cpp_python_error": 0.0,
+      "retrieved_injected": 11
+    },
+    {
+      "table_id": "asap7-M4-OVERUNDER",
+      "mode": "pass",
+      "queries": 12,
+      "slots": 657,
+      "max_scaled_cpp_python_error": 0.0,
+      "retrieved_injected": 11
+    },
+    {
+      "table_id": "asap7-M4-OVERUNDER",
+      "mode": "binary",
+      "queries": 12,
+      "slots": 657,
+      "max_scaled_cpp_python_error": 0.0,
+      "retrieved_injected": 11
+    },
+    {
+      "table_id": "asap7-M4-OVERUNDER",
+      "mode": "full",
+      "queries": 12,
+      "slots": 657,
+      "max_scaled_cpp_python_error": 0.0,
+      "retrieved_injected": 11
+    },
+    {
+      "table_id": "asap7-M4-UNDER",
+      "mode": "pass",
+      "queries": 11,
+      "slots": 657,
+      "max_scaled_cpp_python_error": 0.0,
+      "retrieved_injected": 10
+    },
+    {
+      "table_id": "asap7-M4-UNDER",
+      "mode": "binary",
+      "queries": 11,
+      "slots": 657,
+      "max_scaled_cpp_python_error": 0.0,
+      "retrieved_injected": 10
+    },
+    {
+      "table_id": "asap7-M4-UNDER",
+      "mode": "full",
+      "queries": 11,
+      "slots": 657,
+      "max_scaled_cpp_python_error": 0.0,
+      "retrieved_injected": 10
+    },
+    {
+      "table_id": "asap7-M5-OVER",
+      "mode": "pass",
+      "queries": 12,
+      "slots": 657,
+      "max_scaled_cpp_python_error": 0.0,
+      "retrieved_injected": 12
+    },
+    {
+      "table_id": "asap7-M5-OVER",
+      "mode": "binary",
+      "queries": 12,
+      "slots": 657,
+      "max_scaled_cpp_python_error": 0.0,
+      "retrieved_injected": 12
+    },
+    {
+      "table_id": "asap7-M5-OVER",
+      "mode": "full",
+      "queries": 12,
+      "slots": 657,
+      "max_scaled_cpp_python_error": 0.0,
+      "retrieved_injected": 12
+    },
+    {
+      "table_id": "asap7-M5-OVERUNDER",
+      "mode": "pass",
+      "queries": 12,
+      "slots": 657,
+      "max_scaled_cpp_python_error": 0.0,
+      "retrieved_injected": 11
+    },
+    {
+      "table_id": "asap7-M5-OVERUNDER",
+      "mode": "binary",
+      "queries": 12,
+      "slots": 657,
+      "max_scaled_cpp_python_error": 0.0,
+      "retrieved_injected": 11
+    },
+    {
+      "table_id": "asap7-M5-OVERUNDER",
+      "mode": "full",
+      "queries": 12,
+      "slots": 657,
+      "max_scaled_cpp_python_error": 0.0,
+      "retrieved_injected": 11
+    },
+    {
+      "table_id": "asap7-M5-UNDER",
+      "mode": "pass",
+      "queries": 12,
+      "slots": 657,
+      "max_scaled_cpp_python_error": 0.0,
+      "retrieved_injected": 12
+    },
+    {
+      "table_id": "asap7-M5-UNDER",
+      "mode": "binary",
+      "queries": 12,
+      "slots": 657,
+      "max_scaled_cpp_python_error": 0.0,
+      "retrieved_injected": 12
+    },
+    {
+      "table_id": "asap7-M5-UNDER",
+      "mode": "full",
+      "queries": 12,
+      "slots": 657,
+      "max_scaled_cpp_python_error": 0.0,
+      "retrieved_injected": 12
+    }
+  ],
+  "wall_s": 10.972497768700123,
+  "cpu_s": 10.374533038000001,
+  "scope": "same 71 symmetric 2D templates; same 153 S per context; scalar projection wrapper uses third scalar channel for diagonal only, not native resistance; no new field solve"
+}

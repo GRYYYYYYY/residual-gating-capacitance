@@ -1,0 +1,140 @@
+{
+  "methods": [
+    {
+      "support": "identical supplied S; no query labels",
+      "output": "vector; native coupling/fringe in source_rule_native_per_length; FEM projected ground/summed-lateral/diagonal in F/m",
+      "axes": "width and separation in um; repeated spacing coordinate not independent",
+      "ranks": [
+        1,
+        2
+      ],
+      "four_dimensional": "implementation tests only",
+      "method_id": "openrcx_native",
+      "paper_name": "OpenRCX native evaluator",
+      "execution": "pinned linked release extraction",
+      "source_commit": "0b54bb3203e0895f87940ff982358a6e4d406e28",
+      "source": "repository frozen implementation",
+      "boundary": "unchanged frozen implementation",
+      "exact_nodes": "MLI returns exact supplied values; OpenRCX quantization conflicts explicitly retained, never relabeled as exact preservation",
+      "exclusions": "OpenRCX diagonal/sentinel semantics excluded from injection; native physical projection not assumed identical to FEM",
+      "validation": "results/layout_offgrid_20261115/native_validation.json; new records added after execution"
+    },
+    {
+      "support": "identical supplied S; no query labels",
+      "output": "vector; native coupling/fringe in source_rule_native_per_length; FEM projected ground/summed-lateral/diagonal in F/m",
+      "axes": "width and separation in um; repeated spacing coordinate not independent",
+      "ranks": [
+        1,
+        2
+      ],
+      "four_dimensional": "implementation tests only",
+      "method_id": "openrcx_kernel",
+      "paper_name": "OpenRCX kernel with FEM-characterized rules",
+      "execution": "finite-distance, width-map native-validated reproduction; scalar component projection wrapper",
+      "source_commit": "0b54bb3203e0895f87940ff982358a6e4d406e28",
+      "source": "repository frozen implementation",
+      "boundary": "OpenRCX first/last measure returns; integer unit4 compute grid; width map, finite non-sentinel only",
+      "exact_nodes": "MLI returns exact supplied values; OpenRCX quantization conflicts explicitly retained, never relabeled as exact preservation",
+      "exclusions": "OpenRCX diagonal/sentinel semantics excluded from injection; native physical projection not assumed identical to FEM",
+      "validation": "results/layout_offgrid_20261115/native_validation.json; new records added after execution"
+    },
+    {
+      "support": "identical supplied S; no query labels",
+      "output": "vector; native coupling/fringe in source_rule_native_per_length; FEM projected ground/summed-lateral/diagonal in F/m",
+      "axes": "width and separation in um; repeated spacing coordinate not independent",
+      "ranks": [
+        1,
+        2
+      ],
+      "four_dimensional": "implementation tests only",
+      "method_id": "mli",
+      "paper_name": "Multilinear interpolation (specified kernel)",
+      "execution": "independent reimplementation of user-specified xRC core formulas; commercial product boundaries unverified",
+      "source_commit": null,
+      "source": "user task section4.1",
+      "boundary": "MLI complete cells; explicit clamp extension and separately labeled sparse fallback",
+      "exact_nodes": "MLI returns exact supplied values; OpenRCX quantization conflicts explicitly retained, never relabeled as exact preservation",
+      "exclusions": "OpenRCX diagonal/sentinel semantics excluded from injection; native physical projection not assumed identical to FEM",
+      "validation": "new unit tests and common-S/Q evaluation"
+    },
+    {
+      "support": "identical supplied S; no query labels",
+      "output": "vector; native coupling/fringe in source_rule_native_per_length; FEM projected ground/summed-lateral/diagonal in F/m",
+      "axes": "width and separation in um; repeated spacing coordinate not independent",
+      "ranks": [
+        1,
+        2
+      ],
+      "four_dimensional": "implementation tests only",
+      "method_id": "mli_sparse",
+      "paper_name": "MLI with sparse-support extension",
+      "execution": "specified core plus explicitly shared support-only CMI fallback",
+      "source_commit": null,
+      "source": "user task section4.1",
+      "boundary": "MLI complete cells; explicit clamp extension and separately labeled sparse fallback",
+      "exact_nodes": "MLI returns exact supplied values; OpenRCX quantization conflicts explicitly retained, never relabeled as exact preservation",
+      "exclusions": "OpenRCX diagonal/sentinel semantics excluded from injection; native physical projection not assumed identical to FEM",
+      "validation": "new unit tests and common-S/Q evaluation"
+    },
+    {
+      "support": "identical supplied S; no query labels",
+      "output": "vector; native coupling/fringe in source_rule_native_per_length; FEM projected ground/summed-lateral/diagonal in F/m",
+      "axes": "width and separation in um; repeated spacing coordinate not independent",
+      "ranks": [
+        1,
+        2
+      ],
+      "four_dimensional": "implementation tests only",
+      "method_id": "full",
+      "paper_name": "Full",
+      "execution": "frozen three-member model",
+      "source_commit": null,
+      "source": "repository frozen implementation",
+      "boundary": "unchanged frozen implementation",
+      "exact_nodes": "MLI returns exact supplied values; OpenRCX quantization conflicts explicitly retained, never relabeled as exact preservation",
+      "exclusions": "OpenRCX diagonal/sentinel semantics excluded from injection; native physical projection not assumed identical to FEM",
+      "validation": "new unit tests and common-S/Q evaluation"
+    },
+    {
+      "support": "identical supplied S; no query labels",
+      "output": "vector; native coupling/fringe in source_rule_native_per_length; FEM projected ground/summed-lateral/diagonal in F/m",
+      "axes": "width and separation in um; repeated spacing coordinate not independent",
+      "ranks": [
+        1,
+        2
+      ],
+      "four_dimensional": "implementation tests only",
+      "method_id": "binary",
+      "paper_name": "Binary",
+      "execution": "frozen three-member model",
+      "source_commit": null,
+      "source": "repository frozen implementation",
+      "boundary": "unchanged frozen implementation",
+      "exact_nodes": "MLI returns exact supplied values; OpenRCX quantization conflicts explicitly retained, never relabeled as exact preservation",
+      "exclusions": "OpenRCX diagonal/sentinel semantics excluded from injection; native physical projection not assumed identical to FEM",
+      "validation": "new unit tests and common-S/Q evaluation"
+    },
+    {
+      "support": "identical supplied S; no query labels",
+      "output": "vector; native coupling/fringe in source_rule_native_per_length; FEM projected ground/summed-lateral/diagonal in F/m",
+      "axes": "width and separation in um; repeated spacing coordinate not independent",
+      "ranks": [
+        1,
+        2
+      ],
+      "four_dimensional": "implementation tests only",
+      "method_id": "numerical_only",
+      "paper_name": "Numerical-only control",
+      "execution": "source-validation selected GP plus actual anchor; no new selection",
+      "source_commit": null,
+      "source": "repository frozen implementation",
+      "boundary": "unchanged frozen implementation",
+      "exact_nodes": "MLI returns exact supplied values; OpenRCX quantization conflicts explicitly retained, never relabeled as exact preservation",
+      "exclusions": "OpenRCX diagonal/sentinel semantics excluded from injection; native physical projection not assumed identical to FEM",
+      "validation": "new unit tests and common-S/Q evaluation"
+    }
+  ],
+  "commercial_execution": false,
+  "public_name_reason": "Only mathematical core specification supplied; use MLI publicly, xRC-derived mathematical provenance documented without product boundary claims.",
+  "source_file_sha256": "ee2a339fec72b8aa15eccf52800fba6fd9bfded4b027b2b9f304de15b10f3d20"
+}

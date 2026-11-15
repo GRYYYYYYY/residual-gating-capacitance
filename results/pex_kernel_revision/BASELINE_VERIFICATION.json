@@ -1,0 +1,42 @@
+{
+  "contract_sha256": "7893bb264fa45ed125b86c3aabf3942126cb0ef99b6b7a38b414d115407831ba",
+  "checks": {
+    "kernel_unit_tests": {
+      "path": "results/pex_kernel_revision/kernel_unit_tests.json",
+      "sha256": "16cb7b71d91141e419579b9340f81a863b1c1b8f3abdb067e396dae6dc43d4ec",
+      "passed": true
+    },
+    "extracted_native_validation": {
+      "path": "results/pex_kernel_revision/extracted_native_validation.json",
+      "sha256": "00119f6afc21a09508d2c988c20458199b340160442799a1ebf79df5e648b65a",
+      "passed": true
+    },
+    "pinned_storage_retrieval_checks": {
+      "path": "results/pex_kernel_revision/pinned_storage_retrieval_checks.json",
+      "sha256": "d440063ee12736aa4d03d5326a6de1b74dd33abf6c9a2ea018525f061cf42b86",
+      "passed": true
+    },
+    "coverage_reuse_checks": {
+      "path": "results/pex_kernel_revision/coverage_reuse_checks.json",
+      "sha256": "bcfcf35cb4056dcbef8b8e4a321aff76b545ada99ed55681a84632269a05db96",
+      "passed": true
+    },
+    "physical_checks": {
+      "path": "results/pex_kernel_revision/physical_checks.json",
+      "sha256": "0f1ed37295efc3a5767ccb38ea1520ba7f1bbb704b3ad0eb925e995be797ed63",
+      "passed": true
+    },
+    "pass_through": {
+      "path": "results/pex_kernel_revision/pass_through.json",
+      "sha256": "405305fc501d8210107df06237cf560d93bc7c879baa078b5bc51a0acf6b5284",
+      "passed": true
+    },
+    "CHECKS": {
+      "path": "results/pex_kernel_revision/CHECKS.json",
+      "sha256": "67122169f5c002cf42e58733229b190d507c71458d092b4349950c2e02bb7b42",
+      "passed": true
+    }
+  },
+  "pinned_source_unchanged": true,
+  "commercial_execution": false
+}

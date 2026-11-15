@@ -1,0 +1,11 @@
+{
+  "query_geometries": 71,
+  "source_geometry_modified": false,
+  "characterization_values_modified": false,
+  "integer_encoding": "round positive um*1000 to pinned integer rule coordinates; native width modulo4 and distance unit4",
+  "projection": "kernel independently evaluates each declared scalar: ground, summed lateral, diagonal. The harness fields are storage channels, not an assertion of native fringe/coupling/resistance physical equivalence.",
+  "native_direct_vs_ideal": "same native width map; ideal removes distance integer/grid conversion only",
+  "learned_direct_vs_populated": "changes Q-set/batching and native mapping jointly; not labeled an isolated quantization effect",
+  "injected_query_count": 67,
+  "distinct_effective_keys": 67
+}

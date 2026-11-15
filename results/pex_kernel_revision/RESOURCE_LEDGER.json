@@ -1,0 +1,758 @@
+{
+  "measured_cpu_core_hours": 2.100080409882222,
+  "auxiliary_allowance_core_hours": 0.5,
+  "budget_charge_core_hours": 2.600080409882222,
+  "budget_core_hours": 16,
+  "maximum_compute_workers": 4,
+  "new_training_steps": 0,
+  "new_field_solves": 0,
+  "gpu_seconds": 0,
+  "native_processes": [
+    {
+      "path": "results/pex_kernel_revision/inventory/asap7/aes/disabled/0/resource.txt",
+      "cpu_s": 7.88
+    },
+    {
+      "path": "results/pex_kernel_revision/inventory/asap7/ibex/disabled/0/resource.txt",
+      "cpu_s": 11.54
+    },
+    {
+      "path": "results/pex_kernel_revision/inventory/gf180/aes/disabled/0/resource.txt",
+      "cpu_s": 7.33
+    },
+    {
+      "path": "results/pex_kernel_revision/inventory/gf180/ibex/disabled/0/resource.txt",
+      "cpu_s": 8.92
+    },
+    {
+      "path": "results/pex_kernel_revision/inventory/ihp-sg13g2/aes/disabled/0/resource.txt",
+      "cpu_s": 5.84
+    },
+    {
+      "path": "results/pex_kernel_revision/inventory/ihp-sg13g2/ibex/disabled/0/resource.txt",
+      "cpu_s": 8.430000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/inventory/sky130hs/aes/disabled/0/resource.txt",
+      "cpu_s": 8.520000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/inventory/sky130hs/ibex/disabled/0/resource.txt",
+      "cpu_s": 8.63
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/aes/binary/0/resource.txt",
+      "cpu_s": 7.69
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/aes/binary/1/resource.txt",
+      "cpu_s": 7.8
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/aes/binary/2/resource.txt",
+      "cpu_s": 7.86
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/aes/disabled/0/resource.txt",
+      "cpu_s": 7.8
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/aes/disabled/1/resource.txt",
+      "cpu_s": 8.11
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/aes/disabled/2/resource.txt",
+      "cpu_s": 7.66
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/aes/full/0/resource.txt",
+      "cpu_s": 7.7299999999999995
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/aes/full/1/resource.txt",
+      "cpu_s": 7.76
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/aes/full/2/resource.txt",
+      "cpu_s": 7.82
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/aes/original/0/resource.txt",
+      "cpu_s": 7.7
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/aes/original/1/resource.txt",
+      "cpu_s": 7.82
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/aes/original/2/resource.txt",
+      "cpu_s": 7.890000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/aes/pass/0/resource.txt",
+      "cpu_s": 8.34
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/aes/pass/1/resource.txt",
+      "cpu_s": 7.88
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/aes/pass/2/resource.txt",
+      "cpu_s": 7.82
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/ibex/binary/0/resource.txt",
+      "cpu_s": 11.54
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/ibex/binary/1/resource.txt",
+      "cpu_s": 11.67
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/ibex/binary/2/resource.txt",
+      "cpu_s": 12.16
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/ibex/disabled/0/resource.txt",
+      "cpu_s": 11.540000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/ibex/disabled/1/resource.txt",
+      "cpu_s": 11.569999999999999
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/ibex/disabled/2/resource.txt",
+      "cpu_s": 11.659999999999998
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/ibex/full/0/resource.txt",
+      "cpu_s": 11.69
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/ibex/full/1/resource.txt",
+      "cpu_s": 11.56
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/ibex/full/2/resource.txt",
+      "cpu_s": 11.620000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/ibex/original/0/resource.txt",
+      "cpu_s": 11.47
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/ibex/original/1/resource.txt",
+      "cpu_s": 11.41
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/ibex/original/2/resource.txt",
+      "cpu_s": 11.49
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/ibex/pass/0/resource.txt",
+      "cpu_s": 11.51
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/ibex/pass/1/resource.txt",
+      "cpu_s": 11.95
+    },
+    {
+      "path": "results/pex_kernel_revision/native/asap7/ibex/pass/2/resource.txt",
+      "cpu_s": 11.74
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/aes/binary/0/resource.txt",
+      "cpu_s": 7.11
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/aes/binary/1/resource.txt",
+      "cpu_s": 7.35
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/aes/binary/2/resource.txt",
+      "cpu_s": 7.24
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/aes/disabled/0/resource.txt",
+      "cpu_s": 7.03
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/aes/disabled/1/resource.txt",
+      "cpu_s": 7.17
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/aes/disabled/2/resource.txt",
+      "cpu_s": 7.26
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/aes/full/0/resource.txt",
+      "cpu_s": 7.03
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/aes/full/1/resource.txt",
+      "cpu_s": 7.359999999999999
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/aes/full/2/resource.txt",
+      "cpu_s": 7.27
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/aes/original/0/resource.txt",
+      "cpu_s": 6.95
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/aes/original/1/resource.txt",
+      "cpu_s": 7.11
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/aes/original/2/resource.txt",
+      "cpu_s": 7.1
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/aes/pass/0/resource.txt",
+      "cpu_s": 7.09
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/aes/pass/1/resource.txt",
+      "cpu_s": 7.28
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/aes/pass/2/resource.txt",
+      "cpu_s": 7.16
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/ibex/binary/0/resource.txt",
+      "cpu_s": 8.190000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/ibex/binary/1/resource.txt",
+      "cpu_s": 8.2
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/ibex/binary/2/resource.txt",
+      "cpu_s": 8.26
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/ibex/disabled/0/resource.txt",
+      "cpu_s": 8.200000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/ibex/disabled/1/resource.txt",
+      "cpu_s": 8.41
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/ibex/disabled/2/resource.txt",
+      "cpu_s": 8.39
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/ibex/full/0/resource.txt",
+      "cpu_s": 8.41
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/ibex/full/1/resource.txt",
+      "cpu_s": 8.46
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/ibex/full/2/resource.txt",
+      "cpu_s": 8.72
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/ibex/original/0/resource.txt",
+      "cpu_s": 8.43
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/ibex/original/1/resource.txt",
+      "cpu_s": 8.370000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/ibex/original/2/resource.txt",
+      "cpu_s": 8.39
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/ibex/pass/0/resource.txt",
+      "cpu_s": 8.26
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/ibex/pass/1/resource.txt",
+      "cpu_s": 8.290000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/native/gf180/ibex/pass/2/resource.txt",
+      "cpu_s": 8.59
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/aes/binary/0/resource.txt",
+      "cpu_s": 5.569999999999999
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/aes/binary/1/resource.txt",
+      "cpu_s": 5.88
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/aes/binary/2/resource.txt",
+      "cpu_s": 5.9799999999999995
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/aes/disabled/0/resource.txt",
+      "cpu_s": 5.59
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/aes/disabled/1/resource.txt",
+      "cpu_s": 5.73
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/aes/disabled/2/resource.txt",
+      "cpu_s": 5.67
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/aes/full/0/resource.txt",
+      "cpu_s": 5.55
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/aes/full/1/resource.txt",
+      "cpu_s": 5.98
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/aes/full/2/resource.txt",
+      "cpu_s": 5.61
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/aes/original/0/resource.txt",
+      "cpu_s": 5.680000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/aes/original/1/resource.txt",
+      "cpu_s": 5.67
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/aes/original/2/resource.txt",
+      "cpu_s": 5.6000000000000005
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/aes/pass/0/resource.txt",
+      "cpu_s": 5.7299999999999995
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/aes/pass/1/resource.txt",
+      "cpu_s": 5.78
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/aes/pass/2/resource.txt",
+      "cpu_s": 5.75
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/ibex/binary/0/resource.txt",
+      "cpu_s": 8.1
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/ibex/binary/1/resource.txt",
+      "cpu_s": 8.21
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/ibex/binary/2/resource.txt",
+      "cpu_s": 8.35
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/ibex/disabled/0/resource.txt",
+      "cpu_s": 8.24
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/ibex/disabled/1/resource.txt",
+      "cpu_s": 7.96
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/ibex/disabled/2/resource.txt",
+      "cpu_s": 8.1
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/ibex/full/0/resource.txt",
+      "cpu_s": 8.26
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/ibex/full/1/resource.txt",
+      "cpu_s": 8.26
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/ibex/full/2/resource.txt",
+      "cpu_s": 8.379999999999999
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/ibex/original/0/resource.txt",
+      "cpu_s": 8.11
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/ibex/original/1/resource.txt",
+      "cpu_s": 8.27
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/ibex/original/2/resource.txt",
+      "cpu_s": 7.9799999999999995
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/ibex/pass/0/resource.txt",
+      "cpu_s": 8.12
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/ibex/pass/1/resource.txt",
+      "cpu_s": 8.91
+    },
+    {
+      "path": "results/pex_kernel_revision/native/ihp-sg13g2/ibex/pass/2/resource.txt",
+      "cpu_s": 8.32
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/aes/binary/0/resource.txt",
+      "cpu_s": 8.16
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/aes/binary/1/resource.txt",
+      "cpu_s": 8.540000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/aes/binary/2/resource.txt",
+      "cpu_s": 8.27
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/aes/disabled/0/resource.txt",
+      "cpu_s": 8.29
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/aes/disabled/1/resource.txt",
+      "cpu_s": 8.36
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/aes/disabled/2/resource.txt",
+      "cpu_s": 8.290000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/aes/full/0/resource.txt",
+      "cpu_s": 8.25
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/aes/full/1/resource.txt",
+      "cpu_s": 8.34
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/aes/full/2/resource.txt",
+      "cpu_s": 8.39
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/aes/original/0/resource.txt",
+      "cpu_s": 8.15
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/aes/original/1/resource.txt",
+      "cpu_s": 8.25
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/aes/original/2/resource.txt",
+      "cpu_s": 8.35
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/aes/pass/0/resource.txt",
+      "cpu_s": 8.389999999999999
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/aes/pass/1/resource.txt",
+      "cpu_s": 8.46
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/aes/pass/2/resource.txt",
+      "cpu_s": 8.5
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/ibex/binary/0/resource.txt",
+      "cpu_s": 8.610000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/ibex/binary/1/resource.txt",
+      "cpu_s": 8.65
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/ibex/binary/2/resource.txt",
+      "cpu_s": 8.540000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/ibex/disabled/0/resource.txt",
+      "cpu_s": 8.41
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/ibex/disabled/1/resource.txt",
+      "cpu_s": 8.52
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/ibex/disabled/2/resource.txt",
+      "cpu_s": 8.64
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/ibex/full/0/resource.txt",
+      "cpu_s": 8.41
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/ibex/full/1/resource.txt",
+      "cpu_s": 8.680000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/ibex/full/2/resource.txt",
+      "cpu_s": 8.64
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/ibex/original/0/resource.txt",
+      "cpu_s": 8.76
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/ibex/original/1/resource.txt",
+      "cpu_s": 8.559999999999999
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/ibex/original/2/resource.txt",
+      "cpu_s": 8.51
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/ibex/pass/0/resource.txt",
+      "cpu_s": 8.59
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/ibex/pass/1/resource.txt",
+      "cpu_s": 8.43
+    },
+    {
+      "path": "results/pex_kernel_revision/native/sky130hs/ibex/pass/2/resource.txt",
+      "cpu_s": 8.549999999999999
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/asap7/aes/binary/0/resource.txt",
+      "cpu_s": 9.55
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/asap7/aes/disabled/0/resource.txt",
+      "cpu_s": 9.78
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/asap7/aes/full/0/resource.txt",
+      "cpu_s": 9.31
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/asap7/aes/pass/0/resource.txt",
+      "cpu_s": 9.43
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/asap7/ibex/binary/0/resource.txt",
+      "cpu_s": 13.85
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/asap7/ibex/disabled/0/resource.txt",
+      "cpu_s": 13.97
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/asap7/ibex/full/0/resource.txt",
+      "cpu_s": 13.83
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/asap7/ibex/pass/0/resource.txt",
+      "cpu_s": 13.69
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/gf180/aes/binary/0/resource.txt",
+      "cpu_s": 8.68
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/gf180/aes/disabled/0/resource.txt",
+      "cpu_s": 8.51
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/gf180/aes/full/0/resource.txt",
+      "cpu_s": 8.38
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/gf180/aes/pass/0/resource.txt",
+      "cpu_s": 8.700000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/gf180/ibex/binary/0/resource.txt",
+      "cpu_s": 9.93
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/gf180/ibex/disabled/0/resource.txt",
+      "cpu_s": 9.57
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/gf180/ibex/full/0/resource.txt",
+      "cpu_s": 9.8
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/gf180/ibex/pass/0/resource.txt",
+      "cpu_s": 9.6
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/ihp-sg13g2/aes/binary/0/resource.txt",
+      "cpu_s": 6.7
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/ihp-sg13g2/aes/disabled/0/resource.txt",
+      "cpu_s": 6.890000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/ihp-sg13g2/aes/full/0/resource.txt",
+      "cpu_s": 6.77
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/ihp-sg13g2/aes/pass/0/resource.txt",
+      "cpu_s": 6.8999999999999995
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/ihp-sg13g2/ibex/binary/0/resource.txt",
+      "cpu_s": 10.12
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/ihp-sg13g2/ibex/disabled/0/resource.txt",
+      "cpu_s": 10.09
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/ihp-sg13g2/ibex/full/0/resource.txt",
+      "cpu_s": 10.12
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/ihp-sg13g2/ibex/pass/0/resource.txt",
+      "cpu_s": 10.2
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/sky130hs/aes/binary/0/resource.txt",
+      "cpu_s": 10.26
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/sky130hs/aes/disabled/0/resource.txt",
+      "cpu_s": 10.33
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/sky130hs/aes/full/0/resource.txt",
+      "cpu_s": 10.18
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/sky130hs/aes/pass/0/resource.txt",
+      "cpu_s": 10.24
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/sky130hs/ibex/binary/0/resource.txt",
+      "cpu_s": 10.21
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/sky130hs/ibex/disabled/0/resource.txt",
+      "cpu_s": 10.24
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/sky130hs/ibex/full/0/resource.txt",
+      "cpu_s": 10.18
+    },
+    {
+      "path": "results/pex_kernel_revision/validation/sky130hs/ibex/pass/0/resource.txt",
+      "cpu_s": 10.18
+    },
+    {
+      "path": "results/pex_kernel_revision/validation_initial_count/asap7/aes/disabled/0/resource.txt",
+      "cpu_s": 8.35
+    },
+    {
+      "path": "results/pex_kernel_revision/validation_initial_count/asap7/ibex/disabled/0/resource.txt",
+      "cpu_s": 11.62
+    },
+    {
+      "path": "results/pex_kernel_revision/validation_initial_count/gf180/aes/disabled/0/resource.txt",
+      "cpu_s": 7.51
+    },
+    {
+      "path": "results/pex_kernel_revision/validation_initial_count/gf180/ibex/disabled/0/resource.txt",
+      "cpu_s": 8.549999999999999
+    },
+    {
+      "path": "results/pex_kernel_revision/validation_initial_count/ihp-sg13g2/aes/disabled/0/resource.txt",
+      "cpu_s": 5.9399999999999995
+    },
+    {
+      "path": "results/pex_kernel_revision/validation_initial_count/ihp-sg13g2/ibex/disabled/0/resource.txt",
+      "cpu_s": 8.280000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/validation_initial_count/sky130hs/aes/disabled/0/resource.txt",
+      "cpu_s": 8.520000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/validation_preflight/asap7/aes/disabled/0/resource.txt",
+      "cpu_s": 8.18
+    },
+    {
+      "path": "results/pex_kernel_revision/validation_preflight/asap7/ibex/disabled/0/resource.txt",
+      "cpu_s": 12.18
+    },
+    {
+      "path": "results/pex_kernel_revision/validation_preflight/gf180/aes/disabled/0/resource.txt",
+      "cpu_s": 7.46
+    },
+    {
+      "path": "results/pex_kernel_revision/validation_preflight/gf180/ibex/disabled/0/resource.txt",
+      "cpu_s": 8.430000000000001
+    },
+    {
+      "path": "results/pex_kernel_revision/validation_preflight/ihp-sg13g2/aes/disabled/0/resource.txt",
+      "cpu_s": 6.03
+    },
+    {
+      "path": "results/pex_kernel_revision/validation_preflight/ihp-sg13g2/ibex/disabled/0/resource.txt",
+      "cpu_s": 8.65
+    },
+    {
+      "path": "results/pex_kernel_revision/validation_preflight/sky130hs/aes/disabled/0/resource.txt",
+      "cpu_s": 8.56
+    },
+    {
+      "path": "results/pex_kernel_revision/validation_preflight/sky130hs/ibex/disabled/0/resource.txt",
+      "cpu_s": 8.709999999999999
+    }
+  ],
+  "builds": [
+    {
+      "path": "results/pex_kernel_revision/build/attempt1/receipt.json",
+      "cpu_s": 2790.6844330000004
+    },
+    {
+      "path": "results/pex_kernel_revision/build/receipt.json",
+      "cpu_s": 2790.6778910000003
+    }
+  ],
+  "other": [
+    {
+      "path": "results/pex_kernel_revision/coverage_public_receipt.json",
+      "cpu_s": 218.23365700399998
+    },
+    {
+      "path": "results/pex_kernel_revision/coverage_reference_pilot_receipt.json",
+      "cpu_s": 4.984321017
+    },
+    {
+      "path": "results/pex_kernel_revision/coverage_reference_receipt.json",
+      "cpu_s": 79.882244594
+    },
+    {
+      "path": "results/pex_kernel_revision/coverage_to_asap7_receipt.json",
+      "cpu_s": 40.166491199
+    },
+    {
+      "path": "results/pex_kernel_revision/physical_checks.json",
+      "cpu_s": 10.374533038000001
+    },
+    {
+      "path": "results/pex_kernel_revision/preparation_preflight.json",
+      "cpu_s": 29.718453674
+    },
+    {
+      "path": "results/pex_kernel_revision/preparation.json",
+      "cpu_s": 29.584001049999998
+    },
+    {
+      "path": "results/pex_kernel_revision/inventory_cost_before_path_separation.csv",
+      "cpu_s": 67.56345,
+      "scope": "earlier inventory timing survives in raw CSV; its diagnostic resource paths were later overwritten by validation before path separation"
+    }
+  ],
+  "allowance_scope": "Conservative allowance, not measured runtime: initial compiler failure, imports, numerical unit checks, short failed pilot, native Python trace/SPEF comparison and orchestration, metadata/plot/TeX/packaging, supervisor work. Prior task ledger excluded."
+}

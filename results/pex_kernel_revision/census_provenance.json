@@ -1,0 +1,5 @@
+{
+  "input_sha256": "934b781c00fbb8589e9565294e6704835fa2fd96cdb31cdfd5522befd28f05d1",
+  "call_scope": "two logged getters, occurrence weighted; not all PEX operations or runtime fractions",
+  "all_layout_raw_above_30percent": false
+}

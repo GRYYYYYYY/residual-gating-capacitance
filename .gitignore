@@ -90,3 +90,17 @@ results/runtime_accuracy_20261115/cnp_combined_initial_*.csv
 results/runtime_accuracy_20261115/cached_union_initial_*.csv
 results/runtime_accuracy_20261115/pdf_preview/
 results/runtime_accuracy_20261115/cold_worker_*.json
+
+# Bounded PEX kernel revision: retain compact evidence, not tool builds/raw SPEFs.
+results/pex_kernel_revision/build/*.a
+results/pex_kernel_revision/build/*.o
+results/pex_kernel_revision/build/openroad-*
+results/pex_kernel_revision/build/extRCmodel.cpp
+results/pex_kernel_revision/pinned_kernel
+results/pex_kernel_revision/**/*.spef
+results/pex_kernel_revision/**/getters.tsv
+results/pex_kernel_revision/**/slots.tsv
+results/pex_kernel_revision/pdf_preview/
+results/pex_kernel_revision/build/**/extRCmodel.cpp
+results/pex_kernel_revision/payloads/*.tsv
+results/pex_kernel_revision/review_bundle/

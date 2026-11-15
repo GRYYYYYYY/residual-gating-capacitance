@@ -1,0 +1,6 @@
+{
+  "input": "results/runtime_accuracy_20261115/supplied_input_costs.json",
+  "sha256": "fdb897bd7a16f3a4a24589b29d3961590f39150023a5e112593a1251208c54d1",
+  "scope": "sum of three recorded final-stage wall seconds, not parallel elapsed or complete pipeline cost; missing receipts are unavailable, never zero",
+  "no_new_training": true
+}

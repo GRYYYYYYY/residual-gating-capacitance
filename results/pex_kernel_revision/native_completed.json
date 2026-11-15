@@ -1,0 +1,7 @@
+{
+  "runs": 120,
+  "cpu_s": 989.5012519999996,
+  "wall_s": 1000.2053746469319,
+  "trace": false,
+  "protocol": "same unchanged original rules, 8 layouts x 5 modes x3; new path separately timed"
+}

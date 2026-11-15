@@ -1,0 +1,66 @@
+{
+  "case": "asap7/aes",
+  "method": "full",
+  "block": 0,
+  "wall_s": 9.479385033249855,
+  "cpu_s": 9.317249000000002,
+  "layout_and_libs_s": 1.660966,
+  "rule_registration_s": 9.1e-05,
+  "extraction_s": 3.757377,
+  "spef_write_s": 0.495143,
+  "sta_read_s": 1.58441,
+  "sta_analysis_s": 1.811936,
+  "tables": 219,
+  "slots": 13595,
+  "eligible": 10138,
+  "applied": 1852,
+  "changed": 1852,
+  "protected": 3457,
+  "special_tables": 36,
+  "native_build_s": 0.000548482,
+  "injection_s": 0.003590319,
+  "electrical_sha256": "1cdf20635671f529101b09b651c2d666e6d9cfe326fabe744d1d7fec49c47b62",
+  "identical_native": false,
+  "trace": true,
+  "inventory_dump": false,
+  "worst_slack_ps": -3.627820253,
+  "tns_ps": -9.510891914,
+  "rule_sha256": "32a117e5e866d3de1406e8f18d65b6f1857781f156638941a4769e25ef5252cc",
+  "binary_sha256": "1a7ec03ad6ce27d9aab26cce6ab7413257c2eb7d05f454b6e1bff4f78063f172",
+  "namespace": "asap7-typ-868118c2bcc8d90a4e08ed52",
+  "dbu_per_um": 1000,
+  "peak_rss_kib": 314552,
+  "comparison": {
+    "units": {
+      "*C_UNIT": [
+        1.0,
+        "PF"
+      ],
+      "*R_UNIT": [
+        1.0,
+        "OHM"
+      ]
+    },
+    "golden_nets": 12671,
+    "candidate_nets": 12671,
+    "common_nets": 12671,
+    "metrics": {
+      "capacitance": {
+        "mae": 1.4791180735537827e-06,
+        "rmse": 5.351397698665453e-06,
+        "nrmse": 0.004259057580300434,
+        "smape": 0.0016797845011065418,
+        "r2": 0.9999747038435228,
+        "spearman": 0.9999952936939301
+      },
+      "resistance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 0.9999999999999998
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "policy": {
+    "coverage": "all eligible finite slots in source-held-out tables; original full characterization retained",
+    "chunk_limit": 32,
+    "order": "effective separation ascending per fixed context",
+    "source": "immutable Full/Binary three-member ensemble",
+    "components": [
+      "coupling",
+      "fringe"
+    ],
+    "preserve": "measurement-bin conflicts, boundary measure returns, resistance, special tables, unsupported contexts",
+    "coordinate_scale_per_um": {
+      "asap7": 1000.0,
+      "gf180": 2000.0,
+      "ihp-sg13g2": 1000.0,
+      "sky130hs": 1000.0
+    },
+    "full_checkpoints": [
+      "a44d7dcd5d1b6cc0518d2da2e0a0363edc4a2227ea04be6f37e05d1bbb704713",
+      "9e8c808433c2adbeb17358749b001feafa49d53912cb2ee0774a97f213c377cd",
+      "8bfa742183a1fe2793ea145e76fdc4a2779dffb99a6351b426b9c156fcced702"
+    ],
+    "binary_checkpoints": [
+      "b8e358ce1612046b06ad06c0231c6ec96846341c20722054720b00af5bde0598",
+      "9bfe08f2f0248282632aa455fb39c01cfed5fc90255834394ae337c5af97956d",
+      "9b333c5e7d81540e4465f40cc82d9c268190540572eaa71cb3cdac6355ebbe8b"
+    ]
+  },
+  "insert": "extDistRCTable::readRules immediately after interpolate(4,-1,rcPool), before any getter",
+  "key": "process/corner/rule+policy hash | model corner | family | metal | lower | upper | mapped integer width | slot | represented separation | coupling,fringe | native_per_internal_length",
+  "baseline_rules": "unchanged full original rule files",
+  "resistance": "setCoupling/setFringe only; all other fields and pointer return path preserved",
+  "special": "whole sentinel tables and diagonal/resistance read paths excluded",
+  "cost": "inventory enumerates all loaded rules, no layout access filtering; public API requires one inventory extraction, counted in cold preparation",
+  "online_inference": false
+}

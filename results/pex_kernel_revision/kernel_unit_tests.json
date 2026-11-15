@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "rank": 1,
+      "queries": 33,
+      "max_absolute": 4.032626482741719e-09,
+      "tests": "constant,affine,mixed_product,nodes,endpoints,nonuniform,anisotropic,vector,order,unit_conversion"
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "rank": 2,
+      "queries": 39,
+      "max_absolute": 4.962086674886734e-08,
+      "tests": "constant,affine,mixed_product,nodes,endpoints,nonuniform,anisotropic,vector,order,unit_conversion"
+    },
+    {
+      "dtype": "<class 'numpy.float32'>",
+      "rank": 4,
+      "queries": 111,
+      "max_absolute": 1.478195192916587e-07,
+      "tests": "constant,affine,mixed_product,nodes,endpoints,nonuniform,anisotropic,vector,order,unit_conversion"
+    },
+    {
+      "dtype": "<class 'numpy.float64'>",
+      "rank": 1,
+      "queries": 33,
+      "max_absolute": 1.1102230246251565e-16,
+      "tests": "constant,affine,mixed_product,nodes,endpoints,nonuniform,anisotropic,vector,order,unit_conversion"
+    },
+    {
+      "dtype": "<class 'numpy.float64'>",
+      "rank": 2,
+      "queries": 39,
+      "max_absolute": 2.220446049250313e-16,
+      "tests": "constant,affine,mixed_product,nodes,endpoints,nonuniform,anisotropic,vector,order,unit_conversion"
+    },
+    {
+      "dtype": "<class 'numpy.float64'>",
+      "rank": 4,
+      "queries": 111,
+      "max_absolute": 8.881784197001252e-16,
+      "tests": "constant,affine,mixed_product,nodes,endpoints,nonuniform,anisotropic,vector,order,unit_conversion"
+    }
+  ],
+  "cell_arithmetic_precision": [
+    {
+      "arithmetic": "<class 'numpy.float32'>",
+      "rank": 1,
+      "maximum": 0.0,
+      "median": 0.0,
+      "p95": 0.0
+    },
+    {
+      "arithmetic": "<class 'numpy.float32'>",
+      "rank": 2,
+      "maximum": 1.1920928955078125e-07,
+      "median": 0.0,
+      "p95": 1.1920928955078125e-07
+    },
+    {
+      "arithmetic": "<class 'numpy.float32'>",
+      "rank": 4,
+      "maximum": 4.76837158203125e-07,
+      "median": 1.1920928955078125e-07,
+      "p95": 2.384185791015625e-07
+    },
+    {
+      "arithmetic": "<class 'numpy.float64'>",
+      "rank": 1,
+      "maximum": 0.0,
+      "median": 0.0,
+      "p95": 0.0
+    },
+    {
+      "arithmetic": "<class 'numpy.float64'>",
+      "rank": 2,
+      "maximum": 2.220446049250313e-16,
+      "median": 0.0,
+      "p95": 1.1102230246251565e-16
+    },
+    {
+      "arithmetic": "<class 'numpy.float64'>",
+      "rank": 4,
+      "maximum": 4.440892098500626e-16,
+      "median": 2.220446049250313e-16,
+      "p95": 4.440892098500626e-16
+    }
+  ],
+  "experiment_arithmetic": "float64",
+  "extra": "constant/repeated axes, conflicting duplicate rejection, missing-corner rejection vs labeled extension, outside explicit clamp",
+  "commercial_equivalence_claim": false
+}

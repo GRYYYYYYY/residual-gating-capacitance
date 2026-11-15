@@ -1,0 +1,328 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "domain": "public",
+      "method": "full",
+      "condition": "inside/mcar",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "public",
+      "method": "full",
+      "condition": "inside/block",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "public",
+      "method": "full",
+      "condition": "outside/mcar",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "public",
+      "method": "full",
+      "condition": "outside/block",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "public",
+      "method": "full",
+      "condition": "outside/extrapolation",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "public",
+      "method": "binary",
+      "condition": "inside/mcar",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "public",
+      "method": "binary",
+      "condition": "inside/block",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "public",
+      "method": "binary",
+      "condition": "outside/mcar",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "public",
+      "method": "binary",
+      "condition": "outside/block",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "public",
+      "method": "binary",
+      "condition": "outside/extrapolation",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "public",
+      "method": "anchor",
+      "condition": "inside/mcar",
+      "max_absolute_difference": 1.1850995185191948e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "domain": "public",
+      "method": "anchor",
+      "condition": "inside/block",
+      "max_absolute_difference": 1.108997949028634e-09,
+      "tolerance": 1e-07
+    },
+    {
+      "domain": "public",
+      "method": "anchor",
+      "condition": "outside/mcar",
+      "max_absolute_difference": 2.7315683048811934e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "domain": "public",
+      "method": "anchor",
+      "condition": "outside/block",
+      "max_absolute_difference": 8.187480693422344e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "domain": "public",
+      "method": "anchor",
+      "condition": "outside/extrapolation",
+      "max_absolute_difference": 6.628382287487966e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "domain": "reference",
+      "method": "full",
+      "condition": "inside/mcar",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "reference",
+      "method": "full",
+      "condition": "inside/block",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "reference",
+      "method": "full",
+      "condition": "outside/mcar",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "reference",
+      "method": "full",
+      "condition": "outside/block",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "reference",
+      "method": "full",
+      "condition": "outside/extrapolation",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "reference",
+      "method": "binary",
+      "condition": "inside/mcar",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "reference",
+      "method": "binary",
+      "condition": "inside/block",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "reference",
+      "method": "binary",
+      "condition": "outside/mcar",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "reference",
+      "method": "binary",
+      "condition": "outside/block",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "reference",
+      "method": "binary",
+      "condition": "outside/extrapolation",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "reference",
+      "method": "anchor",
+      "condition": "inside/mcar",
+      "max_absolute_difference": 3.798128686560709e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "domain": "reference",
+      "method": "anchor",
+      "condition": "inside/block",
+      "max_absolute_difference": 6.705125343842155e-11,
+      "tolerance": 1e-07
+    },
+    {
+      "domain": "reference",
+      "method": "anchor",
+      "condition": "outside/mcar",
+      "max_absolute_difference": 3.5659715874603037e-09,
+      "tolerance": 1e-07
+    },
+    {
+      "domain": "reference",
+      "method": "anchor",
+      "condition": "outside/block",
+      "max_absolute_difference": 9.989941096577581e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "domain": "reference",
+      "method": "anchor",
+      "condition": "outside/extrapolation",
+      "max_absolute_difference": 6.973014388123033e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "domain": "to_asap7",
+      "method": "full",
+      "condition": "inside/mcar",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "to_asap7",
+      "method": "full",
+      "condition": "inside/block",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "to_asap7",
+      "method": "full",
+      "condition": "outside/mcar",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "to_asap7",
+      "method": "full",
+      "condition": "outside/block",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "to_asap7",
+      "method": "full",
+      "condition": "outside/extrapolation",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "to_asap7",
+      "method": "binary",
+      "condition": "inside/mcar",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "to_asap7",
+      "method": "binary",
+      "condition": "inside/block",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "to_asap7",
+      "method": "binary",
+      "condition": "outside/mcar",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "to_asap7",
+      "method": "binary",
+      "condition": "outside/block",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "to_asap7",
+      "method": "binary",
+      "condition": "outside/extrapolation",
+      "max_absolute_difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "domain": "to_asap7",
+      "method": "anchor",
+      "condition": "inside/mcar",
+      "max_absolute_difference": 2.1355309534620837e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "domain": "to_asap7",
+      "method": "anchor",
+      "condition": "inside/block",
+      "max_absolute_difference": 1.7148107933628864e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "domain": "to_asap7",
+      "method": "anchor",
+      "condition": "outside/mcar",
+      "max_absolute_difference": 2.9817444346935673e-10,
+      "tolerance": 1e-07
+    },
+    {
+      "domain": "to_asap7",
+      "method": "anchor",
+      "condition": "outside/block",
+      "max_absolute_difference": 8.797100603530339e-09,
+      "tolerance": 1e-07
+    },
+    {
+      "domain": "to_asap7",
+      "method": "anchor",
+      "condition": "outside/extrapolation",
+      "max_absolute_difference": 1.9591593902745785e-09,
+      "tolerance": 1e-07
+    }
+  ],
+  "ratios": [
+    0.1,
+    0.3,
+    0.5,
+    0.7
+  ],
+  "same_SQ_checked_for_every_episode": true,
+  "anchor_precision_note": "Prior displayed anchor was reconstructed from encoded float32; new numerical-only path returns float64. Maximum macro-score difference8.8e-9; model Full/Binary scores exact."
+}

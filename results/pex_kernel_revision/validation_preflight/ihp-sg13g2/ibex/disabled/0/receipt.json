@@ -1,0 +1,65 @@
+{
+  "case": "ihp-sg13g2/ibex",
+  "method": "disabled",
+  "block": 0,
+  "wall_s": 8.829111117869616,
+  "cpu_s": 8.659195999999998,
+  "layout_and_libs_s": 0.443822,
+  "rule_registration_s": 0.00014,
+  "extraction_s": 3.386833,
+  "spef_write_s": 0.5851,
+  "sta_read_s": 2.255971,
+  "sta_analysis_s": 2.005004,
+  "tables": 84,
+  "slots": 141444,
+  "eligible": 128601,
+  "applied": 0,
+  "changed": 0,
+  "protected": 12843,
+  "special_tables": 0,
+  "native_build_s": 0.00789562,
+  "injection_s": 0.285972088,
+  "electrical_sha256": "5b3e4c85ffdf301f82550f2fd31c8864270181d193a0695377475cf58405182b",
+  "identical_native": true,
+  "trace": false,
+  "inventory_dump": true,
+  "worst_slack_ps": 49.664274,
+  "tns_ps": 0.0,
+  "rule_sha256": "ffda02d57a6ecb39b02268be9511d89ef072911f17bd2dcd095f3f3cbeb5a905",
+  "binary_sha256": "5a969ff1b5f92d5a56e875af331789a428d3df38ba50735243ecde57bb0d7ede",
+  "namespace": "ihp-sg13g2-typ-a0b20ba69c8f016b7c117c4b",
+  "peak_rss_kib": 262696,
+  "comparison": {
+    "units": {
+      "*C_UNIT": [
+        1.0,
+        "PF"
+      ],
+      "*R_UNIT": [
+        1.0,
+        "OHM"
+      ]
+    },
+    "golden_nets": 18579,
+    "candidate_nets": 18579,
+    "common_nets": 18579,
+    "metrics": {
+      "capacitance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 1.0
+      },
+      "resistance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 0.9999999999999999
+      }
+    }
+  }
+}

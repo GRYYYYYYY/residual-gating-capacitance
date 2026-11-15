@@ -1,18 +1,19 @@
 {
   "authoritative": "main.tex",
-  "main_tex_sha256": "805c41c82a3d20b7b47e70bc6f351ac66714d4ea4f7ebe46f331a6d858d01cde",
-  "reading_md_sha256": "642d3234cd355f7845748a4ea55751b64e8a9d862379670c00dbe1f589d0246f",
-  "compiled_pdf_sha256": "305cde7c3f01eedba9c6504ed0d7f72f300f7272ad4b1342d43c27c8afba06aa",
+  "main_tex_sha256": "27f861bb06031fac005694df618cf1f6285967535cba46299614846fa7141289",
+  "reading_md_sha256": "8b8f06b85f51c6663125ad9f7f66e160ab2f08bf33568616e77f348744bb8f0b",
+  "compiled_pdf_sha256": "53fbc8dbb3bd905f60adb11eaeb035a83e5f4b297714dd0f0c65f6d6948c73bb",
   "rendered_inputs": {
     "IEEEtran.cls": "c972aca108fda004c3514d63658e02816da2e54d9a1451e870b9bd970e003f55",
-    "figures/budget_accuracy.pdf": "e4a92dcbccd0744d3d86fd73a88ca34f5756dfa9789274c40fffdbf3c0b7a8a7",
-    "figures/method.pdf": "1bb9444420d9ca93137075342a160152d2db0140035ea53bc647c069e4114567",
-    "figures/native_fidelity.pdf": "e403cbce54eae33eff75f1621201fec6dc26c2fb1720f4730dd833afe6f7196f",
-    "figures/runtime_accuracy.pdf": "eb52c6c7708fe8d22a4efc6888e8c32758ed005e6350fb68a32e8730d4673466",
+    "figures/compute_table_interface.pdf": "9955e0d16946f33be36ad1df0a7239c0ccff02dcd5bab420982cbeee85b32cfe",
+    "figures/coverage_four_ratios.pdf": "77a9723cf71511920c16a823abff0a6fefaf0e201eed719f5cb6c1177316f047",
+    "figures/query_census.pdf": "08789098d27121eef463bcd99ec20af16abee601a239653b97a8152e14737485",
     "references.bib": "3406a8e06ea015896bac85520339e8402e1505d00fbc870b6cddb4bc7ac52ba6",
-    "tables/budget_aux.tex": "ceccacb9e4aa08861f5a30711dfb66af4a379c38c21c6a0fd90d26cbe0f14938",
-    "tables/fem_gain_range.tex": "2f379c4f44910af5d449722d931a2b74650b52dceb7abd5dd52df3e079605367",
-    "tables/fixed_missingness.tex": "4db7b229afec84d9d165efa48f39a78502941d3e4c0e73f4eef2539fe4f92d13",
-    "tables/offgrid_runtime.tex": "8e0ea9a05e27137360f829ac8b5a03169f46f19b50cee7e3840ab4391716ec34"
+    "tables/compute_deployment.tex": "284556c6e04651acf59b5db84344b8493017474df353f39831a75cb48ec0d87c",
+    "tables/compute_findings.tex": "750d54744d4f24f0444c1098bdd19604e00d69a14d22e6e6d3c8dded8df6672c",
+    "tables/coverage_findings.tex": "688fde7eac74f3623dc851eadc5d4781873216e941defea824b83482bc48de8d",
+    "tables/kernel_components.tex": "d40bcb1c1eac7808e3ed4c03084274c8dde306ab170f3f14281e65abe2bf232a",
+    "tables/kernel_findings.tex": "4413dfa817023f98999d0fa0c2e803e27c842aa639bd76b68c892a890a84b478",
+    "tables/production_kernels.tex": "8001c0c3a466883cc22de1f0eb83e478dcd33ea39d750076bf0c9eeef8b08da7"
   }
 }

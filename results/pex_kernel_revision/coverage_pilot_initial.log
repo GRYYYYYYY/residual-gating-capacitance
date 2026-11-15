@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/experiments/pex_kernel_revision/coverage.py", line 61, in <module>
+    ap=argparse.ArgumentParser();ap.add_argument('domain');ap.add_argument('--pilot',action='store_true');a=ap.parse_args();run(a.domain,a.pilot)
+  File "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/experiments/pex_kernel_revision/coverage.py", line 30, in run
+    o,q=mask(x,protocol,ratio,seed);key=(t['table_id'],protocol,ratio,seed);source=original[key];assert sorted(i for rr in source for i in rr['scored_indices'])==q.tolist()
+AssertionError

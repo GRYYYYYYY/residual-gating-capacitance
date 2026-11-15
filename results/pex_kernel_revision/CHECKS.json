@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "coverage_episodes": 21840,
+  "all_four_ratios": true,
+  "exact_prior_Full_Binary_30percent": true,
+  "physical_queries": 71,
+  "native_kernel_returns": 480,
+  "native_runs": 120,
+  "pass_through": true,
+  "resistance_unchanged": true,
+  "payload_applied_counts_exact": true,
+  "PDF_pages": {
+    "main": 6,
+    "extended": 15
+  },
+  "budget_passed": true
+}

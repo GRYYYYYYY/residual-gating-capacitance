@@ -1,0 +1,165 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "case": "asap7/aes",
+      "method": "binary",
+      "getter_calls": 1031007,
+      "injected_getter_calls": 39655,
+      "changed_getter_calls": 39655,
+      "pass_through_bit_exact": true,
+      "resistance_exact": true,
+      "uncovered_returns_exact": true
+    },
+    {
+      "case": "asap7/aes",
+      "method": "full",
+      "getter_calls": 1031007,
+      "injected_getter_calls": 39655,
+      "changed_getter_calls": 39655,
+      "pass_through_bit_exact": true,
+      "resistance_exact": true,
+      "uncovered_returns_exact": true
+    },
+    {
+      "case": "asap7/ibex",
+      "method": "binary",
+      "getter_calls": 1371873,
+      "injected_getter_calls": 61456,
+      "changed_getter_calls": 61456,
+      "pass_through_bit_exact": true,
+      "resistance_exact": true,
+      "uncovered_returns_exact": true
+    },
+    {
+      "case": "asap7/ibex",
+      "method": "full",
+      "getter_calls": 1371873,
+      "injected_getter_calls": 61456,
+      "changed_getter_calls": 61456,
+      "pass_through_bit_exact": true,
+      "resistance_exact": true,
+      "uncovered_returns_exact": true
+    },
+    {
+      "case": "gf180/aes",
+      "method": "binary",
+      "getter_calls": 850246,
+      "injected_getter_calls": 54009,
+      "changed_getter_calls": 54009,
+      "pass_through_bit_exact": true,
+      "resistance_exact": true,
+      "uncovered_returns_exact": true
+    },
+    {
+      "case": "gf180/aes",
+      "method": "full",
+      "getter_calls": 850246,
+      "injected_getter_calls": 54009,
+      "changed_getter_calls": 54009,
+      "pass_through_bit_exact": true,
+      "resistance_exact": true,
+      "uncovered_returns_exact": true
+    },
+    {
+      "case": "gf180/ibex",
+      "method": "binary",
+      "getter_calls": 817932,
+      "injected_getter_calls": 54117,
+      "changed_getter_calls": 54117,
+      "pass_through_bit_exact": true,
+      "resistance_exact": true,
+      "uncovered_returns_exact": true
+    },
+    {
+      "case": "gf180/ibex",
+      "method": "full",
+      "getter_calls": 817932,
+      "injected_getter_calls": 54117,
+      "changed_getter_calls": 54117,
+      "pass_through_bit_exact": true,
+      "resistance_exact": true,
+      "uncovered_returns_exact": true
+    },
+    {
+      "case": "ihp-sg13g2/aes",
+      "method": "binary",
+      "getter_calls": 773185,
+      "injected_getter_calls": 161323,
+      "changed_getter_calls": 161323,
+      "pass_through_bit_exact": true,
+      "resistance_exact": true,
+      "uncovered_returns_exact": true
+    },
+    {
+      "case": "ihp-sg13g2/aes",
+      "method": "full",
+      "getter_calls": 773185,
+      "injected_getter_calls": 161323,
+      "changed_getter_calls": 161323,
+      "pass_through_bit_exact": true,
+      "resistance_exact": true,
+      "uncovered_returns_exact": true
+    },
+    {
+      "case": "ihp-sg13g2/ibex",
+      "method": "binary",
+      "getter_calls": 1181201,
+      "injected_getter_calls": 255136,
+      "changed_getter_calls": 255136,
+      "pass_through_bit_exact": true,
+      "resistance_exact": true,
+      "uncovered_returns_exact": true
+    },
+    {
+      "case": "ihp-sg13g2/ibex",
+      "method": "full",
+      "getter_calls": 1181201,
+      "injected_getter_calls": 255136,
+      "changed_getter_calls": 255136,
+      "pass_through_bit_exact": true,
+      "resistance_exact": true,
+      "uncovered_returns_exact": true
+    },
+    {
+      "case": "sky130hs/aes",
+      "method": "binary",
+      "getter_calls": 1181341,
+      "injected_getter_calls": 173004,
+      "changed_getter_calls": 173004,
+      "pass_through_bit_exact": true,
+      "resistance_exact": true,
+      "uncovered_returns_exact": true
+    },
+    {
+      "case": "sky130hs/aes",
+      "method": "full",
+      "getter_calls": 1181341,
+      "injected_getter_calls": 173004,
+      "changed_getter_calls": 173004,
+      "pass_through_bit_exact": true,
+      "resistance_exact": true,
+      "uncovered_returns_exact": true
+    },
+    {
+      "case": "sky130hs/ibex",
+      "method": "binary",
+      "getter_calls": 1004909,
+      "injected_getter_calls": 125947,
+      "changed_getter_calls": 125947,
+      "pass_through_bit_exact": true,
+      "resistance_exact": true,
+      "uncovered_returns_exact": true
+    },
+    {
+      "case": "sky130hs/ibex",
+      "method": "full",
+      "getter_calls": 1004909,
+      "injected_getter_calls": 125947,
+      "changed_getter_calls": 125947,
+      "pass_through_bit_exact": true,
+      "resistance_exact": true,
+      "uncovered_returns_exact": true
+    }
+  ]
+}

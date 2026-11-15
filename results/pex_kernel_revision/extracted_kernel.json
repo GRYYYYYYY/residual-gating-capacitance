@@ -1,0 +1,18 @@
+{
+  "source_commit": "0b54bb3203e0895f87940ff982358a6e4d406e28",
+  "original_source_sha256": "ee2a339fec72b8aa15eccf52800fba6fd9bfded4b027b2b9f304de15b10f3d20",
+  "extracted_functions": {
+    "static double lineSegment(": "dab50d1cd494d21a5af1744af291fe5518721a7dbe8428ea968d875c6c4b21aa",
+    "void extDistRC::interpolate(": "2010ec8a97c5d00a767763dc01755a5521460d8849a13d618aca311961e00c58",
+    "uint32_t extDistRCTable::mapExtrapolate(": "4702f9eb9f49dca38e2763e8c67ffbe8483575e74ef32f071969a6f3f4dc0a27",
+    "uint32_t extDistRCTable::mapInterpolate(": "be024b30c20695a4e417b39740dfd625b4a6928ac713379d550af288136d9538",
+    "uint32_t extDistRCTable::interpolate(": "c375cb85a5f752006b2b34267cbf0a3449c42f25d4b7ec0b1ce98d3ec72462bd",
+    "void extDistRCTable::makeComputeTable(": "1deb72f0f99457442d51683ce47f9f021bec00c9160c1918721b8149ffe2ffab",
+    "extDistRC* extDistRCTable::getComputeRC(": "01bf6f748de13b89f9c76ad2b641a1d2a2cf7d617d15e63186c3b22fc9556a8e",
+    "void extDistWidthRCTable::createWidthMap(": "b09c839d9d2b375b6def0e064ae591c16b10975679b101d52cf728a53dcc5a43",
+    "uint32_t extDistWidthRCTable::getWidthIndex(": "cb507b29ebf2aad7257bc8f45708fda32254fe5c82674ee41d71daae4fbf85c4"
+  },
+  "harness_sha256": "4f401cfe15347e398e44b25f23837bdfdd5203b5ba8792c09770654b3ebe82cb",
+  "scope": "unmodified function bodies, pinned Array1D and minimal pool storage, finite no-sentinel only; projected component scalars, not full extraction",
+  "license": "OpenROAD BSD-3-Clause; source attribution retained"
+}

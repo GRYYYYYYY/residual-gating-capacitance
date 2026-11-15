@@ -1,0 +1,57 @@
+{
+  "case": "gf180/ibex",
+  "method": "original",
+  "block": 1,
+  "wall_s": 8.428957346826792,
+  "cpu_s": 8.381763999999988,
+  "layout_and_libs_s": 0.897985,
+  "rule_registration_s": 9.3e-05,
+  "extraction_s": 2.681903,
+  "spef_write_s": 0.517631,
+  "sta_read_s": 1.629607,
+  "sta_analysis_s": 2.508561,
+  "electrical_sha256": "a49bcebc8195057c12e976cb9ea4358d0316460d1c8295138a87acd02cafcf07",
+  "identical_native": true,
+  "trace": false,
+  "inventory_dump": false,
+  "worst_slack_ps": -5249.367237,
+  "tns_ps": -6614478.0273440005,
+  "rule_sha256": "39ca464e9e5b588c2bf8a81e2dfd2b8430f1f6da2d909ea5ee56610366a64128",
+  "binary_sha256": "94c4bc5e394ef709d9c1afd5bce3b4abe01fc8088e6d9c5564cc17dc154d3222",
+  "namespace": "gf180-typ-b892b04df31dafcc5ac173b9",
+  "dbu_per_um": 2000,
+  "peak_rss_kib": 287664,
+  "comparison": {
+    "units": {
+      "*C_UNIT": [
+        1.0,
+        "PF"
+      ],
+      "*R_UNIT": [
+        1.0,
+        "OHM"
+      ]
+    },
+    "golden_nets": 14568,
+    "candidate_nets": 14568,
+    "common_nets": 14568,
+    "metrics": {
+      "capacitance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 0.9999999999999999
+      },
+      "resistance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 1.0
+      }
+    }
+  }
+}

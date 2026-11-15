@@ -1,0 +1,57 @@
+{
+  "case": "ihp-sg13g2/aes",
+  "method": "original",
+  "block": 2,
+  "wall_s": 5.623349446803331,
+  "cpu_s": 5.6047410000000895,
+  "layout_and_libs_s": 0.274342,
+  "rule_registration_s": 8.8e-05,
+  "extraction_s": 1.936859,
+  "spef_write_s": 0.408639,
+  "sta_read_s": 1.268782,
+  "sta_analysis_s": 1.57279,
+  "electrical_sha256": "70b3f7cbff4a236d6734835ab811b99214004c12374a0426c05ecbc1c79bc2f9",
+  "identical_native": true,
+  "trace": false,
+  "inventory_dump": false,
+  "worst_slack_ps": 792.876005,
+  "tns_ps": 0.0,
+  "rule_sha256": "ffda02d57a6ecb39b02268be9511d89ef072911f17bd2dcd095f3f3cbeb5a905",
+  "binary_sha256": "94c4bc5e394ef709d9c1afd5bce3b4abe01fc8088e6d9c5564cc17dc154d3222",
+  "namespace": "ihp-sg13g2-typ-ed875e7b7b444624f516fb89",
+  "dbu_per_um": 1000,
+  "peak_rss_kib": 225632,
+  "comparison": {
+    "units": {
+      "*C_UNIT": [
+        1.0,
+        "PF"
+      ],
+      "*R_UNIT": [
+        1.0,
+        "OHM"
+      ]
+    },
+    "golden_nets": 12988,
+    "candidate_nets": 12988,
+    "common_nets": 12988,
+    "metrics": {
+      "capacitance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 0.9999999999999998
+      },
+      "resistance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 1.0
+      }
+    }
+  }
+}

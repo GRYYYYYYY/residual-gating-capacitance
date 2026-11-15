@@ -1,0 +1,66 @@
+{
+  "case": "sky130hs/ibex",
+  "method": "binary",
+  "block": 0,
+  "wall_s": 10.431082610040903,
+  "cpu_s": 10.224742000000047,
+  "layout_and_libs_s": 1.626393,
+  "rule_registration_s": 9.5e-05,
+  "extraction_s": 3.89642,
+  "spef_write_s": 0.693419,
+  "sta_read_s": 1.537428,
+  "sta_analysis_s": 2.511555,
+  "tables": 56,
+  "slots": 60956,
+  "eligible": 55156,
+  "applied": 9505,
+  "changed": 9505,
+  "protected": 5800,
+  "special_tables": 0,
+  "native_build_s": 0.002476384,
+  "injection_s": 0.017409988,
+  "electrical_sha256": "0830aefd130a4152dee9a184d6c3a381dcabcffca8583f4ef62960390923a788",
+  "identical_native": false,
+  "trace": true,
+  "inventory_dump": false,
+  "worst_slack_ps": -234.047458,
+  "tns_ps": -36323.627472,
+  "rule_sha256": "d5bd9b1077ceac9929416abca272a6d52e51cd9a575453a31d129817bb286476",
+  "binary_sha256": "1a7ec03ad6ce27d9aab26cce6ab7413257c2eb7d05f454b6e1bff4f78063f172",
+  "namespace": "sky130hs-typ-d649153d7071a664c4fc0389",
+  "dbu_per_um": 1000,
+  "peak_rss_kib": 291484,
+  "comparison": {
+    "units": {
+      "*C_UNIT": [
+        1.0,
+        "PF"
+      ],
+      "*R_UNIT": [
+        1.0,
+        "OHM"
+      ]
+    },
+    "golden_nets": 14357,
+    "candidate_nets": 14357,
+    "common_nets": 14357,
+    "metrics": {
+      "capacitance": {
+        "mae": 7.854709968656435e-05,
+        "rmse": 0.00021409733312445587,
+        "nrmse": 0.010650846952272707,
+        "smape": 0.007864732121883856,
+        "r2": 0.9998643895883107,
+        "spearman": 0.9999854666604856
+      },
+      "resistance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 1.0
+      }
+    }
+  }
+}

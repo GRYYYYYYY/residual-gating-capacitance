@@ -1,0 +1,218 @@
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp: In function ‘void rcx::dac_populate(const void*, A*, A*, unsigned int)’:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:85:4: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   85 |    if(!ok)std::abort();double oldc=r->coupling_,oldg=r->fringe_;
+      |    ^~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:85:24: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   85 |    if(!ok)std::abort();double oldc=r->coupling_,oldg=r->fringe_;
+      |                        ^~~~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp: In instantiation of ‘void rcx::dac_populate(const void*, A*, A*, unsigned int) [with A = rcx::Array1D<rcx::extDistRC*>]’:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:642:46:   required from here
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:72:11: error: ‘int rcx::extDistRC::sep_’ is private within this context
+   72 |  if(last->sep_>=99000){dac_ct.special_tables++;return;}
+      |     ~~~~~~^~~~
+In file included from /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:20:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/src/rcx/src/../include/rcx/extRCap.h:110:7: note: declared private here
+  110 |   int sep_;
+      |       ^~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:72:11: note: field ‘int rcx::extDistRC::sep_’ can be accessed via ‘int rcx::extDistRC::getSep()’
+   72 |  if(last->sep_>=99000){dac_ct.special_tables++;return;}
+      |     ~~~~~~^~~~
+      |     getSep()
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:74:76: error: ‘int rcx::extDistRC::sep_’ is private within this context
+   74 |  for(unsigned i=0;i<n;i++){auto r=measure->get(i);protected_bins.insert(r->sep_/unit);
+      |                                                                         ~~~^~~~
+In file included from /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:20:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/src/rcx/src/../include/rcx/extRCap.h:110:7: note: declared private here
+  110 |   int sep_;
+      |       ^~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:74:76: note: field ‘int rcx::extDistRC::sep_’ can be accessed via ‘int rcx::extDistRC::getSep()’
+   74 |  for(unsigned i=0;i<n;i++){auto r=measure->get(i);protected_bins.insert(r->sep_/unit);
+      |                                                                         ~~~^~~~
+      |                                                                         getSep()
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:75:63: error: ‘int rcx::extDistRC::sep_’ is private within this context
+   75 |   if(dac_ct.dump)dac_ct.dump<<"K\t"<<dac_ct.context<<"\t"<<r->sep_<<"\t"<<std::setprecision(17)<<r->coupling_<<"\t"<<r->fringe_<<"\t"<<r->res_<<"\n";
+      |                                                            ~~~^~~~
+In file included from /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:20:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/src/rcx/src/../include/rcx/extRCap.h:110:7: note: declared private here
+  110 |   int sep_;
+      |       ^~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:75:63: note: field ‘int rcx::extDistRC::sep_’ can be accessed via ‘int rcx::extDistRC::getSep()’
+   75 |   if(dac_ct.dump)dac_ct.dump<<"K\t"<<dac_ct.context<<"\t"<<r->sep_<<"\t"<<std::setprecision(17)<<r->coupling_<<"\t"<<r->fringe_<<"\t"<<r->res_<<"\n";
+      |                                                            ~~~^~~~
+      |                                                            getSep()
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:75:101: error: ‘double rcx::extDistRC::coupling_’ is private within this context
+   75 |   if(dac_ct.dump)dac_ct.dump<<"K\t"<<dac_ct.context<<"\t"<<r->sep_<<"\t"<<std::setprecision(17)<<r->coupling_<<"\t"<<r->fringe_<<"\t"<<r->res_<<"\n";
+      |                                                                                                  ~~~^~~~~~~~~
+In file included from /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:20:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/src/rcx/src/../include/rcx/extRCap.h:111:10: note: declared private here
+  111 |   double coupling_;
+      |          ^~~~~~~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:75:101: note: field ‘double rcx::extDistRC::coupling_’ can be accessed via ‘double rcx::extDistRC::getCoupling()’
+   75 |   if(dac_ct.dump)dac_ct.dump<<"K\t"<<dac_ct.context<<"\t"<<r->sep_<<"\t"<<std::setprecision(17)<<r->coupling_<<"\t"<<r->fringe_<<"\t"<<r->res_<<"\n";
+      |                                                                                                  ~~~^~~~~~~~~
+      |                                                                                                  getCoupling()
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:75:121: error: ‘double rcx::extDistRC::fringe_’ is private within this context
+   75 |   if(dac_ct.dump)dac_ct.dump<<"K\t"<<dac_ct.context<<"\t"<<r->sep_<<"\t"<<std::setprecision(17)<<r->coupling_<<"\t"<<r->fringe_<<"\t"<<r->res_<<"\n";
+      |                                                                                                                      ~~~^~~~~~~
+In file included from /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:20:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/src/rcx/src/../include/rcx/extRCap.h:112:10: note: declared private here
+  112 |   double fringe_;
+      |          ^~~~~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:75:121: note: field ‘double rcx::extDistRC::fringe_’ can be accessed via ‘double rcx::extDistRC::getFringe()’
+   75 |   if(dac_ct.dump)dac_ct.dump<<"K\t"<<dac_ct.context<<"\t"<<r->sep_<<"\t"<<std::setprecision(17)<<r->coupling_<<"\t"<<r->fringe_<<"\t"<<r->res_<<"\n";
+      |                                                                                                                      ~~~^~~~~~~
+      |                                                                                                                      getFringe()
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:75:139: error: ‘double rcx::extDistRC::res_’ is private within this context
+   75 |   if(dac_ct.dump)dac_ct.dump<<"K\t"<<dac_ct.context<<"\t"<<r->sep_<<"\t"<<std::setprecision(17)<<r->coupling_<<"\t"<<r->fringe_<<"\t"<<r->res_<<"\n";
+      |                                                                                                                                        ~~~^~~~
+In file included from /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:20:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/src/rcx/src/../include/rcx/extRCap.h:115:10: note: declared private here
+  115 |   double res_;
+      |          ^~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:75:139: note: field ‘double rcx::extDistRC::res_’ can be accessed via ‘double rcx::extDistRC::getRes()’
+   75 |   if(dac_ct.dump)dac_ct.dump<<"K\t"<<dac_ct.context<<"\t"<<r->sep_<<"\t"<<std::setprecision(17)<<r->coupling_<<"\t"<<r->fringe_<<"\t"<<r->res_<<"\n";
+      |                                                                                                                                        ~~~^~~~
+      |                                                                                                                                        getRes()
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:79:25: error: ‘int rcx::extDistRC::sep_’ is private within this context
+   79 |   bool ok=i*unit>first->sep_ && i*unit<last->sep_-unit && !protected_bins.count(i) && r->sep_<99000;
+      |                  ~~~~~~~^~~~
+In file included from /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:20:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/src/rcx/src/../include/rcx/extRCap.h:110:7: note: declared private here
+  110 |   int sep_;
+      |       ^~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:79:25: note: field ‘int rcx::extDistRC::sep_’ can be accessed via ‘int rcx::extDistRC::getSep()’
+   79 |   bool ok=i*unit>first->sep_ && i*unit<last->sep_-unit && !protected_bins.count(i) && r->sep_<99000;
+      |                  ~~~~~~~^~~~
+      |                  getSep()
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:79:46: error: ‘int rcx::extDistRC::sep_’ is private within this context
+   79 |   bool ok=i*unit>first->sep_ && i*unit<last->sep_-unit && !protected_bins.count(i) && r->sep_<99000;
+      |                                        ~~~~~~^~~~
+In file included from /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:20:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/src/rcx/src/../include/rcx/extRCap.h:110:7: note: declared private here
+  110 |   int sep_;
+      |       ^~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:79:46: note: field ‘int rcx::extDistRC::sep_’ can be accessed via ‘int rcx::extDistRC::getSep()’
+   79 |   bool ok=i*unit>first->sep_ && i*unit<last->sep_-unit && !protected_bins.count(i) && r->sep_<99000;
+      |                                        ~~~~~~^~~~
+      |                                        getSep()
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:79:90: error: ‘int rcx::extDistRC::sep_’ is private within this context
+   79 |   bool ok=i*unit>first->sep_ && i*unit<last->sep_-unit && !protected_bins.count(i) && r->sep_<99000;
+      |                                                                                       ~~~^~~~
+In file included from /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:20:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/src/rcx/src/../include/rcx/extRCap.h:110:7: note: declared private here
+  110 |   int sep_;
+      |       ^~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:79:90: note: field ‘int rcx::extDistRC::sep_’ can be accessed via ‘int rcx::extDistRC::getSep()’
+   79 |   bool ok=i*unit>first->sep_ && i*unit<last->sep_-unit && !protected_bins.count(i) && r->sep_<99000;
+      |                                                                                       ~~~^~~~
+      |                                                                                       getSep()
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:81:78: error: ‘int rcx::extDistRC::sep_’ is private within this context
+   81 |   std::string key=dac_ct.context+"|"+std::to_string(i)+"|"+std::to_string(r->sep_)+"|coupling,fringe|native_per_internal_length";
+      |                                                                           ~~~^~~~
+In file included from /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:20:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/src/rcx/src/../include/rcx/extRCap.h:110:7: note: declared private here
+  110 |   int sep_;
+      |       ^~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:81:78: note: field ‘int rcx::extDistRC::sep_’ can be accessed via ‘int rcx::extDistRC::getSep()’
+   81 |   std::string key=dac_ct.context+"|"+std::to_string(i)+"|"+std::to_string(r->sep_)+"|coupling,fringe|native_per_internal_length";
+      |                                                                           ~~~^~~~
+      |                                                                           getSep()
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:82:85: error: ‘double rcx::extDistRC::coupling_’ is private within this context
+   82 |   if(dac_ct.dump)dac_ct.dump<<"S\t"<<key<<"\t"<<ok<<"\t"<<std::setprecision(17)<<r->coupling_<<"\t"<<r->fringe_<<"\t"<<r->res_<<"\n";
+      |                                                                                  ~~~^~~~~~~~~
+In file included from /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:20:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/src/rcx/src/../include/rcx/extRCap.h:111:10: note: declared private here
+  111 |   double coupling_;
+      |          ^~~~~~~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:82:85: note: field ‘double rcx::extDistRC::coupling_’ can be accessed via ‘double rcx::extDistRC::getCoupling()’
+   82 |   if(dac_ct.dump)dac_ct.dump<<"S\t"<<key<<"\t"<<ok<<"\t"<<std::setprecision(17)<<r->coupling_<<"\t"<<r->fringe_<<"\t"<<r->res_<<"\n";
+      |                                                                                  ~~~^~~~~~~~~
+      |                                                                                  getCoupling()
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:82:105: error: ‘double rcx::extDistRC::fringe_’ is private within this context
+   82 |   if(dac_ct.dump)dac_ct.dump<<"S\t"<<key<<"\t"<<ok<<"\t"<<std::setprecision(17)<<r->coupling_<<"\t"<<r->fringe_<<"\t"<<r->res_<<"\n";
+      |                                                                                                      ~~~^~~~~~~
+In file included from /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:20:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/src/rcx/src/../include/rcx/extRCap.h:112:10: note: declared private here
+  112 |   double fringe_;
+      |          ^~~~~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:82:105: note: field ‘double rcx::extDistRC::fringe_’ can be accessed via ‘double rcx::extDistRC::getFringe()’
+   82 |   if(dac_ct.dump)dac_ct.dump<<"S\t"<<key<<"\t"<<ok<<"\t"<<std::setprecision(17)<<r->coupling_<<"\t"<<r->fringe_<<"\t"<<r->res_<<"\n";
+      |                                                                                                      ~~~^~~~~~~
+      |                                                                                                      getFringe()
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:82:123: error: ‘double rcx::extDistRC::res_’ is private within this context
+   82 |   if(dac_ct.dump)dac_ct.dump<<"S\t"<<key<<"\t"<<ok<<"\t"<<std::setprecision(17)<<r->coupling_<<"\t"<<r->fringe_<<"\t"<<r->res_<<"\n";
+      |                                                                                                                        ~~~^~~~
+In file included from /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:20:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/src/rcx/src/../include/rcx/extRCap.h:115:10: note: declared private here
+  115 |   double res_;
+      |          ^~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:82:123: note: field ‘double rcx::extDistRC::res_’ can be accessed via ‘double rcx::extDistRC::getRes()’
+   82 |   if(dac_ct.dump)dac_ct.dump<<"S\t"<<key<<"\t"<<ok<<"\t"<<std::setprecision(17)<<r->coupling_<<"\t"<<r->fringe_<<"\t"<<r->res_<<"\n";
+      |                                                                                                                        ~~~^~~~
+      |                                                                                                                        getRes()
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:85:39: error: ‘double rcx::extDistRC::coupling_’ is private within this context
+   85 |    if(!ok)std::abort();double oldc=r->coupling_,oldg=r->fringe_;
+      |                                    ~~~^~~~~~~~~
+In file included from /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:20:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/src/rcx/src/../include/rcx/extRCap.h:111:10: note: declared private here
+  111 |   double coupling_;
+      |          ^~~~~~~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:85:39: note: field ‘double rcx::extDistRC::coupling_’ can be accessed via ‘double rcx::extDistRC::getCoupling()’
+   85 |    if(!ok)std::abort();double oldc=r->coupling_,oldg=r->fringe_;
+      |                                    ~~~^~~~~~~~~
+      |                                    getCoupling()
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:85:57: error: ‘double rcx::extDistRC::fringe_’ is private within this context
+   85 |    if(!ok)std::abort();double oldc=r->coupling_,oldg=r->fringe_;
+      |                                                      ~~~^~~~~~~
+In file included from /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:20:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/src/rcx/src/../include/rcx/extRCap.h:112:10: note: declared private here
+  112 |   double fringe_;
+      |          ^~~~~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:85:57: note: field ‘double rcx::extDistRC::fringe_’ can be accessed via ‘double rcx::extDistRC::getFringe()’
+   85 |    if(!ok)std::abort();double oldc=r->coupling_,oldg=r->fringe_;
+      |                                                      ~~~^~~~~~~
+      |                                                      getFringe()
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:86:7: error: ‘double rcx::extDistRC::coupling_’ is private within this context
+   86 |    r->coupling_=it->second.first;r->fringe_=it->second.second;dac_ct.applied++;
+      |    ~~~^~~~~~~~~
+In file included from /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:20:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/src/rcx/src/../include/rcx/extRCap.h:111:10: note: declared private here
+  111 |   double coupling_;
+      |          ^~~~~~~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:86:7: note: field ‘double rcx::extDistRC::coupling_’ can be accessed via ‘double rcx::extDistRC::getCoupling()’
+   86 |    r->coupling_=it->second.first;r->fringe_=it->second.second;dac_ct.applied++;
+      |    ~~~^~~~~~~~~
+      |    getCoupling()
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:86:37: error: ‘double rcx::extDistRC::fringe_’ is private within this context
+   86 |    r->coupling_=it->second.first;r->fringe_=it->second.second;dac_ct.applied++;
+      |                                  ~~~^~~~~~~
+In file included from /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:20:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/src/rcx/src/../include/rcx/extRCap.h:112:10: note: declared private here
+  112 |   double fringe_;
+      |          ^~~~~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:86:37: note: field ‘double rcx::extDistRC::fringe_’ can be accessed via ‘double rcx::extDistRC::getFringe()’
+   86 |    r->coupling_=it->second.first;r->fringe_=it->second.second;dac_ct.applied++;
+      |                                  ~~~^~~~~~~
+      |                                  getFringe()
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:87:30: error: ‘double rcx::extDistRC::coupling_’ is private within this context
+   87 |    dac_ct.changed+=(oldc!=r->coupling_||oldg!=r->fringe_);
+      |                           ~~~^~~~~~~~~
+In file included from /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:20:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/src/rcx/src/../include/rcx/extRCap.h:111:10: note: declared private here
+  111 |   double coupling_;
+      |          ^~~~~~~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:87:30: note: field ‘double rcx::extDistRC::coupling_’ can be accessed via ‘double rcx::extDistRC::getCoupling()’
+   87 |    dac_ct.changed+=(oldc!=r->coupling_||oldg!=r->fringe_);
+      |                           ~~~^~~~~~~~~
+      |                           getCoupling()
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:87:50: error: ‘double rcx::extDistRC::fringe_’ is private within this context
+   87 |    dac_ct.changed+=(oldc!=r->coupling_||oldg!=r->fringe_);
+      |                                               ~~~^~~~~~~
+In file included from /inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:20:
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/tools/OpenROAD-flow-scripts/tools/OpenROAD/src/rcx/src/../include/rcx/extRCap.h:112:10: note: declared private here
+  112 |   double fringe_;
+      |          ^~~~~~~
+/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/pex_kernel_revision/build/extRCmodel.cpp:87:50: note: field ‘double rcx::extDistRC::fringe_’ can be accessed via ‘double rcx::extDistRC::getFringe()’
+   87 |    dac_ct.changed+=(oldc!=r->coupling_||oldg!=r->fringe_);
+      |                                               ~~~^~~~~~~
+      |                                               getFringe()
