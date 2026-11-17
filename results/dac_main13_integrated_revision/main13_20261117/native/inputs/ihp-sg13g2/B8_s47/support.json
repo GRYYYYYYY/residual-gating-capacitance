@@ -1,0 +1,2076 @@
+[
+  {
+    "table_id": "005418aceee651d091169364",
+    "context_key": "ihp-sg13g2-main13-B8-s47|0|UNDER|1|0|4|160",
+    "context": {
+      "table_id": "005418aceee651d091169364",
+      "domain": "public_rules",
+      "process_id": "ihp_sg13g2",
+      "family": "UNDER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 1,
+      "context_below": 0,
+      "context_above": 4,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "221dc6e55c73f2c23e829d90"
+    },
+    "S_coordinates": [
+      [
+        0.16,
+        0.18,
+        0.18
+      ],
+      [
+        0.16,
+        0.45,
+        0.45
+      ],
+      [
+        0.16,
+        0.54,
+        0.54
+      ],
+      [
+        0.16,
+        0.72,
+        0.72
+      ],
+      [
+        0.16,
+        0.81,
+        0.81
+      ],
+      [
+        0.16,
+        1.44,
+        1.44
+      ],
+      [
+        0.16,
+        1.8,
+        1.8
+      ],
+      [
+        0.16,
+        2.16,
+        2.16
+      ]
+    ],
+    "S_values": [
+      [
+        0.0,
+        0.000133229
+      ],
+      [
+        0.0,
+        7.40508e-05
+      ],
+      [
+        0.0,
+        6.79564e-05
+      ],
+      [
+        0.0,
+        5.95489e-05
+      ],
+      [
+        0.0,
+        5.65587e-05
+      ],
+      [
+        0.0,
+        4.85505e-05
+      ],
+      [
+        0.0,
+        4.41948e-05
+      ],
+      [
+        0.0,
+        4.41948e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      2,
+      3,
+      5,
+      6,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      9,
+      6,
+      10,
+      3,
+      5,
+      2
+    ],
+    "resistance": 0.00034375
+  },
+  {
+    "table_id": "494f2745d4339881c2126bce",
+    "context_key": "ihp-sg13g2-main13-B8-s47|0|UNDER|1|0|5|160",
+    "context": {
+      "table_id": "494f2745d4339881c2126bce",
+      "domain": "public_rules",
+      "process_id": "ihp_sg13g2",
+      "family": "UNDER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 1,
+      "context_below": 0,
+      "context_above": 5,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "7e52d166bb79229e4a6868ee"
+    },
+    "S_coordinates": [
+      [
+        0.16,
+        0.18,
+        0.18
+      ],
+      [
+        0.16,
+        0.45,
+        0.45
+      ],
+      [
+        0.16,
+        0.54,
+        0.54
+      ],
+      [
+        0.16,
+        0.72,
+        0.72
+      ],
+      [
+        0.16,
+        0.81,
+        0.81
+      ],
+      [
+        0.16,
+        1.44,
+        1.44
+      ],
+      [
+        0.16,
+        1.8,
+        1.8
+      ],
+      [
+        0.16,
+        2.16,
+        2.16
+      ]
+    ],
+    "S_values": [
+      [
+        0.0,
+        0.00013329
+      ],
+      [
+        0.0,
+        7.4108e-05
+      ],
+      [
+        0.0,
+        6.80616e-05
+      ],
+      [
+        0.0,
+        5.95919e-05
+      ],
+      [
+        0.0,
+        5.65426e-05
+      ],
+      [
+        0.0,
+        4.82674e-05
+      ],
+      [
+        0.0,
+        4.3709e-05
+      ],
+      [
+        0.0,
+        4.3709e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      2,
+      3,
+      5,
+      6,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      9,
+      6,
+      10,
+      3,
+      5,
+      2
+    ],
+    "resistance": 0.00034375
+  },
+  {
+    "table_id": "b7ba1b40372f907cb9777d67",
+    "context_key": "ihp-sg13g2-main13-B8-s47|0|OVER|2|0|0|200",
+    "context": {
+      "table_id": "b7ba1b40372f907cb9777d67",
+      "domain": "public_rules",
+      "process_id": "ihp_sg13g2",
+      "family": "OVER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 2,
+      "context_below": 0,
+      "context_above": 0,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "ad08beedea4596917653a751"
+    },
+    "S_coordinates": [
+      [
+        0.2,
+        0.21,
+        0.21
+      ],
+      [
+        0.2,
+        0.63,
+        0.63
+      ],
+      [
+        0.2,
+        0.84,
+        0.84
+      ],
+      [
+        0.2,
+        0.945,
+        0.945
+      ],
+      [
+        0.2,
+        1.05,
+        1.05
+      ],
+      [
+        0.2,
+        1.68,
+        1.68
+      ],
+      [
+        0.2,
+        2.1,
+        2.1
+      ],
+      [
+        0.2,
+        2.52,
+        2.52
+      ]
+    ],
+    "S_values": [
+      [
+        0.000117597,
+        1.62371e-05
+      ],
+      [
+        0.0,
+        6.72313e-05
+      ],
+      [
+        0.0,
+        5.78058e-05
+      ],
+      [
+        0.0,
+        5.47119e-05
+      ],
+      [
+        0.0,
+        5.22722e-05
+      ],
+      [
+        0.0,
+        4.46548e-05
+      ],
+      [
+        0.0,
+        4.22869e-05
+      ],
+      [
+        0.0,
+        4.0774e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      6
+    ],
+    "resistance": 0.00022
+  },
+  {
+    "table_id": "d08435bd563ed226c2885049",
+    "context_key": "ihp-sg13g2-main13-B8-s47|0|OVER|3|1|0|200",
+    "context": {
+      "table_id": "d08435bd563ed226c2885049",
+      "domain": "public_rules",
+      "process_id": "ihp_sg13g2",
+      "family": "OVER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 3,
+      "context_below": 1,
+      "context_above": 0,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "7384dfb044b2a9330b784ff6"
+    },
+    "S_coordinates": [
+      [
+        0.2,
+        0.21,
+        0.21
+      ],
+      [
+        0.2,
+        0.63,
+        0.63
+      ],
+      [
+        0.2,
+        0.84,
+        0.84
+      ],
+      [
+        0.2,
+        0.945,
+        0.945
+      ],
+      [
+        0.2,
+        1.05,
+        1.05
+      ],
+      [
+        0.2,
+        1.68,
+        1.68
+      ],
+      [
+        0.2,
+        2.1,
+        2.1
+      ],
+      [
+        0.2,
+        2.52,
+        2.52
+      ]
+    ],
+    "S_values": [
+      [
+        0.000119231,
+        1.53121e-05
+      ],
+      [
+        0.0,
+        6.75955e-05
+      ],
+      [
+        0.0,
+        5.80321e-05
+      ],
+      [
+        0.0,
+        5.50096e-05
+      ],
+      [
+        0.0,
+        5.31593e-05
+      ],
+      [
+        0.0,
+        4.61043e-05
+      ],
+      [
+        0.0,
+        4.29684e-05
+      ],
+      [
+        0.0,
+        4.1128e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      6
+    ],
+    "resistance": 0.00022
+  },
+  {
+    "table_id": "12248df76c94dd6bdf89ff99",
+    "context_key": "ihp-sg13g2-main13-B8-s47|0|OVERUNDER|3|2|4|200",
+    "context": {
+      "table_id": "12248df76c94dd6bdf89ff99",
+      "domain": "public_rules",
+      "process_id": "ihp_sg13g2",
+      "family": "OVERUNDER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 3,
+      "context_below": 2,
+      "context_above": 4,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "c32a441a4fd7525b3825f50e"
+    },
+    "S_coordinates": [
+      [
+        0.2,
+        0.21,
+        0.21
+      ],
+      [
+        0.2,
+        0.63,
+        0.63
+      ],
+      [
+        0.2,
+        0.84,
+        0.84
+      ],
+      [
+        0.2,
+        0.945,
+        0.945
+      ],
+      [
+        0.2,
+        1.05,
+        1.05
+      ],
+      [
+        0.2,
+        1.68,
+        1.68
+      ],
+      [
+        0.2,
+        2.1,
+        2.1
+      ],
+      [
+        0.2,
+        2.52,
+        2.52
+      ]
+    ],
+    "S_values": [
+      [
+        0.000113875,
+        2.67116e-05
+      ],
+      [
+        0.0,
+        8.59119e-05
+      ],
+      [
+        0.0,
+        7.99119e-05
+      ],
+      [
+        0.0,
+        7.82795e-05
+      ],
+      [
+        0.0,
+        7.71788e-05
+      ],
+      [
+        0.0,
+        7.34788e-05
+      ],
+      [
+        0.0,
+        7.37846e-05
+      ],
+      [
+        0.0,
+        7.69598e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      6
+    ],
+    "resistance": 0.00022
+  },
+  {
+    "table_id": "92aeb9567f0645ddd7253a33",
+    "context_key": "ihp-sg13g2-main13-B8-s47|0|OVER|4|0|0|200",
+    "context": {
+      "table_id": "92aeb9567f0645ddd7253a33",
+      "domain": "public_rules",
+      "process_id": "ihp_sg13g2",
+      "family": "OVER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 4,
+      "context_below": 0,
+      "context_above": 0,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "baa013076d1da08be33e22cd"
+    },
+    "S_coordinates": [
+      [
+        0.2,
+        0.21,
+        0.21
+      ],
+      [
+        0.2,
+        0.63,
+        0.63
+      ],
+      [
+        0.2,
+        0.84,
+        0.84
+      ],
+      [
+        0.2,
+        0.945,
+        0.945
+      ],
+      [
+        0.2,
+        1.05,
+        1.05
+      ],
+      [
+        0.2,
+        1.68,
+        1.68
+      ],
+      [
+        0.2,
+        2.1,
+        2.1
+      ],
+      [
+        0.2,
+        2.52,
+        2.52
+      ]
+    ],
+    "S_values": [
+      [
+        0.000117063,
+        1.6504e-05
+      ],
+      [
+        0.0,
+        6.66609e-05
+      ],
+      [
+        0.0,
+        5.67237e-05
+      ],
+      [
+        0.0,
+        5.34864e-05
+      ],
+      [
+        0.0,
+        5.08869e-05
+      ],
+      [
+        0.0,
+        4.25177e-05
+      ],
+      [
+        0.0,
+        3.97424e-05
+      ],
+      [
+        0.0,
+        3.77386e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      6
+    ],
+    "resistance": 0.00022
+  },
+  {
+    "table_id": "88e750d55381fc7e00e4794b",
+    "context_key": "ihp-sg13g2-main13-B8-s47|0|OVER|4|2|0|200",
+    "context": {
+      "table_id": "88e750d55381fc7e00e4794b",
+      "domain": "public_rules",
+      "process_id": "ihp_sg13g2",
+      "family": "OVER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 4,
+      "context_below": 2,
+      "context_above": 0,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "8bac721fd997e662682e4ce8"
+    },
+    "S_coordinates": [
+      [
+        0.2,
+        0.21,
+        0.21
+      ],
+      [
+        0.2,
+        0.63,
+        0.63
+      ],
+      [
+        0.2,
+        0.84,
+        0.84
+      ],
+      [
+        0.2,
+        0.945,
+        0.945
+      ],
+      [
+        0.2,
+        1.05,
+        1.05
+      ],
+      [
+        0.2,
+        1.68,
+        1.68
+      ],
+      [
+        0.2,
+        2.1,
+        2.1
+      ],
+      [
+        0.2,
+        2.52,
+        2.52
+      ]
+    ],
+    "S_values": [
+      [
+        0.000119645,
+        1.53384e-05
+      ],
+      [
+        0.0,
+        6.77437e-05
+      ],
+      [
+        0.0,
+        5.85664e-05
+      ],
+      [
+        0.0,
+        5.54538e-05
+      ],
+      [
+        0.0,
+        5.41528e-05
+      ],
+      [
+        0.0,
+        4.5521e-05
+      ],
+      [
+        0.0,
+        4.2874e-05
+      ],
+      [
+        0.0,
+        4.1123e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      6
+    ],
+    "resistance": 0.00022
+  },
+  {
+    "table_id": "c639e50826b3dc98856105c8",
+    "context_key": "ihp-sg13g2-main13-B8-s47|0|UNDER|4|0|5|200",
+    "context": {
+      "table_id": "c639e50826b3dc98856105c8",
+      "domain": "public_rules",
+      "process_id": "ihp_sg13g2",
+      "family": "UNDER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 4,
+      "context_below": 0,
+      "context_above": 5,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "0fff05f2ecf9b3836c0c8147"
+    },
+    "S_coordinates": [
+      [
+        0.2,
+        0.21,
+        0.21
+      ],
+      [
+        0.2,
+        0.63,
+        0.63
+      ],
+      [
+        0.2,
+        0.84,
+        0.84
+      ],
+      [
+        0.2,
+        0.945,
+        0.945
+      ],
+      [
+        0.2,
+        1.05,
+        1.05
+      ],
+      [
+        0.2,
+        1.68,
+        1.68
+      ],
+      [
+        0.2,
+        2.1,
+        2.1
+      ],
+      [
+        0.2,
+        2.52,
+        2.52
+      ]
+    ],
+    "S_values": [
+      [
+        0.000115675,
+        1.9048e-05
+      ],
+      [
+        0.0,
+        7.15909e-05
+      ],
+      [
+        0.0,
+        6.53308e-05
+      ],
+      [
+        0.0,
+        6.34043e-05
+      ],
+      [
+        0.0,
+        6.29452e-05
+      ],
+      [
+        0.0,
+        5.66881e-05
+      ],
+      [
+        0.0,
+        5.55217e-05
+      ],
+      [
+        0.0,
+        5.55513e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      6
+    ],
+    "resistance": 0.00022
+  },
+  {
+    "table_id": "47dd5a65d3872c7e92c4523f",
+    "context_key": "ihp-sg13g2-main13-B8-s47|0|OVERUNDER|4|1|6|200",
+    "context": {
+      "table_id": "47dd5a65d3872c7e92c4523f",
+      "domain": "public_rules",
+      "process_id": "ihp_sg13g2",
+      "family": "OVERUNDER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 4,
+      "context_below": 1,
+      "context_above": 6,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "c7b27211c8d376013ce851b0"
+    },
+    "S_coordinates": [
+      [
+        0.2,
+        0.21,
+        0.21
+      ],
+      [
+        0.2,
+        0.63,
+        0.63
+      ],
+      [
+        0.2,
+        0.84,
+        0.84
+      ],
+      [
+        0.2,
+        0.945,
+        0.945
+      ],
+      [
+        0.2,
+        1.05,
+        1.05
+      ],
+      [
+        0.2,
+        1.68,
+        1.68
+      ],
+      [
+        0.2,
+        2.1,
+        2.1
+      ],
+      [
+        0.2,
+        2.52,
+        2.52
+      ]
+    ],
+    "S_values": [
+      [
+        0.000126321,
+        9.6697e-06
+      ],
+      [
+        0.0,
+        6.85593e-05
+      ],
+      [
+        0.0,
+        5.97134e-05
+      ],
+      [
+        0.0,
+        5.66366e-05
+      ],
+      [
+        0.0,
+        5.45472e-05
+      ],
+      [
+        0.0,
+        4.59487e-05
+      ],
+      [
+        0.0,
+        4.337e-05
+      ],
+      [
+        0.0,
+        4.18737e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      6
+    ],
+    "resistance": 0.00022
+  },
+  {
+    "table_id": "60b54504ca69824d7d4ea758",
+    "context_key": "ihp-sg13g2-main13-B8-s47|0|OVERUNDER|4|3|7|200",
+    "context": {
+      "table_id": "60b54504ca69824d7d4ea758",
+      "domain": "public_rules",
+      "process_id": "ihp_sg13g2",
+      "family": "OVERUNDER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 4,
+      "context_below": 3,
+      "context_above": 7,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "b346a8346f7f78c0339f89fb"
+    },
+    "S_coordinates": [
+      [
+        0.2,
+        0.21,
+        0.21
+      ],
+      [
+        0.2,
+        0.63,
+        0.63
+      ],
+      [
+        0.2,
+        0.84,
+        0.84
+      ],
+      [
+        0.2,
+        0.945,
+        0.945
+      ],
+      [
+        0.2,
+        1.05,
+        1.05
+      ],
+      [
+        0.2,
+        1.68,
+        1.68
+      ],
+      [
+        0.2,
+        2.1,
+        2.1
+      ],
+      [
+        0.2,
+        2.52,
+        2.52
+      ]
+    ],
+    "S_values": [
+      [
+        0.000118494,
+        1.69732e-05
+      ],
+      [
+        0.0,
+        7.11513e-05
+      ],
+      [
+        0.0,
+        6.32932e-05
+      ],
+      [
+        0.0,
+        5.94129e-05
+      ],
+      [
+        0.0,
+        5.69803e-05
+      ],
+      [
+        0.0,
+        5.012e-05
+      ],
+      [
+        0.0,
+        4.84508e-05
+      ],
+      [
+        0.0,
+        4.75182e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      6
+    ],
+    "resistance": 0.00022
+  },
+  {
+    "table_id": "da9faefc287449d1c4106e48",
+    "context_key": "ihp-sg13g2-main13-B8-s47|0|UNDER|5|0|7|200",
+    "context": {
+      "table_id": "da9faefc287449d1c4106e48",
+      "domain": "public_rules",
+      "process_id": "ihp_sg13g2",
+      "family": "UNDER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 5,
+      "context_below": 0,
+      "context_above": 7,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "4661460c6a35bd73b3ee83d4"
+    },
+    "S_coordinates": [
+      [
+        0.2,
+        0.21,
+        0.21
+      ],
+      [
+        0.2,
+        0.63,
+        0.63
+      ],
+      [
+        0.2,
+        0.84,
+        0.84
+      ],
+      [
+        0.2,
+        0.945,
+        0.945
+      ],
+      [
+        0.2,
+        1.05,
+        1.05
+      ],
+      [
+        0.2,
+        1.68,
+        1.68
+      ],
+      [
+        0.2,
+        2.1,
+        2.1
+      ],
+      [
+        0.2,
+        2.52,
+        2.52
+      ]
+    ],
+    "S_values": [
+      [
+        0.000124488,
+        9.89318e-06
+      ],
+      [
+        0.0,
+        6.65606e-05
+      ],
+      [
+        0.0,
+        5.73515e-05
+      ],
+      [
+        0.0,
+        5.43359e-05
+      ],
+      [
+        0.0,
+        5.18843e-05
+      ],
+      [
+        0.0,
+        4.28621e-05
+      ],
+      [
+        0.0,
+        3.97717e-05
+      ],
+      [
+        0.0,
+        3.76659e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      6
+    ],
+    "resistance": 0.00022
+  },
+  {
+    "table_id": "1b1ef037580dde5f3c020423",
+    "context_key": "ihp-sg13g2-main13-B8-s47|0|OVERUNDER|5|2|7|200",
+    "context": {
+      "table_id": "1b1ef037580dde5f3c020423",
+      "domain": "public_rules",
+      "process_id": "ihp_sg13g2",
+      "family": "OVERUNDER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 5,
+      "context_below": 2,
+      "context_above": 7,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "14da30068b3768522514a0dc"
+    },
+    "S_coordinates": [
+      [
+        0.2,
+        0.21,
+        0.21
+      ],
+      [
+        0.2,
+        0.63,
+        0.63
+      ],
+      [
+        0.2,
+        0.84,
+        0.84
+      ],
+      [
+        0.2,
+        0.945,
+        0.945
+      ],
+      [
+        0.2,
+        1.05,
+        1.05
+      ],
+      [
+        0.2,
+        1.68,
+        1.68
+      ],
+      [
+        0.2,
+        2.1,
+        2.1
+      ],
+      [
+        0.2,
+        2.52,
+        2.52
+      ]
+    ],
+    "S_values": [
+      [
+        0.000124547,
+        1.01841e-05
+      ],
+      [
+        0.0,
+        6.6828e-05
+      ],
+      [
+        0.0,
+        5.79146e-05
+      ],
+      [
+        0.0,
+        5.48485e-05
+      ],
+      [
+        0.0,
+        5.23934e-05
+      ],
+      [
+        0.0,
+        4.36417e-05
+      ],
+      [
+        0.0,
+        4.08659e-05
+      ],
+      [
+        0.0,
+        3.90146e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      6
+    ],
+    "resistance": 0.00022
+  },
+  {
+    "table_id": "b58ba9511499705531a06b1d",
+    "context_key": "ihp-sg13g2-main13-B8-s47|0|OVERUNDER|5|4|6|200",
+    "context": {
+      "table_id": "b58ba9511499705531a06b1d",
+      "domain": "public_rules",
+      "process_id": "ihp_sg13g2",
+      "family": "OVERUNDER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 5,
+      "context_below": 4,
+      "context_above": 6,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "0782f5e0a85a3f75ad1738c6"
+    },
+    "S_coordinates": [
+      [
+        0.2,
+        0.21,
+        0.21
+      ],
+      [
+        0.2,
+        0.63,
+        0.63
+      ],
+      [
+        0.2,
+        0.84,
+        0.84
+      ],
+      [
+        0.2,
+        0.945,
+        0.945
+      ],
+      [
+        0.2,
+        1.05,
+        1.05
+      ],
+      [
+        0.2,
+        1.68,
+        1.68
+      ],
+      [
+        0.2,
+        2.1,
+        2.1
+      ],
+      [
+        0.2,
+        2.52,
+        2.52
+      ]
+    ],
+    "S_values": [
+      [
+        0.000119921,
+        1.6452e-05
+      ],
+      [
+        0.0,
+        7.62775e-05
+      ],
+      [
+        0.0,
+        7.07682e-05
+      ],
+      [
+        0.0,
+        6.81336e-05
+      ],
+      [
+        0.0,
+        7.01588e-05
+      ],
+      [
+        0.0,
+        6.40295e-05
+      ],
+      [
+        0.0,
+        6.24725e-05
+      ],
+      [
+        0.0,
+        6.19422e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      6
+    ],
+    "resistance": 0.00022
+  },
+  {
+    "table_id": "ca3b13873c34cb8564ee2918",
+    "context_key": "ihp-sg13g2-main13-B8-s47|0|OVER|6|1|0|1640",
+    "context": {
+      "table_id": "ca3b13873c34cb8564ee2918",
+      "domain": "public_rules",
+      "process_id": "ihp_sg13g2",
+      "family": "OVER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 6,
+      "context_below": 1,
+      "context_above": 0,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "08da2edfb261ce4470734128"
+    },
+    "S_coordinates": [
+      [
+        1.64,
+        1.64,
+        1.64
+      ],
+      [
+        1.64,
+        4.1,
+        4.1
+      ],
+      [
+        1.64,
+        4.92,
+        4.92
+      ],
+      [
+        1.64,
+        6.56,
+        6.56
+      ],
+      [
+        1.64,
+        8.2,
+        8.2
+      ],
+      [
+        1.64,
+        13.12,
+        13.12
+      ],
+      [
+        1.64,
+        16.4,
+        16.4
+      ],
+      [
+        1.64,
+        19.68,
+        19.68
+      ]
+    ],
+    "S_values": [
+      [
+        7.59674e-05,
+        1.92983e-05
+      ],
+      [
+        3.29895e-05,
+        2.73079e-05
+      ],
+      [
+        3.06436e-05,
+        2.55578e-05
+      ],
+      [
+        2.15609e-05,
+        2.95953e-05
+      ],
+      [
+        1.56137e-05,
+        3.25746e-05
+      ],
+      [
+        0.0,
+        4.37926e-05
+      ],
+      [
+        0.0,
+        4.37926e-05
+      ],
+      [
+        0.0,
+        4.37926e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      2,
+      3,
+      5,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      2
+    ],
+    "resistance": 5.4878e-06
+  },
+  {
+    "table_id": "4d4771cfd160625d04566acb",
+    "context_key": "ihp-sg13g2-main13-B8-s47|0|OVERUNDER|6|2|7|1640",
+    "context": {
+      "table_id": "4d4771cfd160625d04566acb",
+      "domain": "public_rules",
+      "process_id": "ihp_sg13g2",
+      "family": "OVERUNDER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 6,
+      "context_below": 2,
+      "context_above": 7,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "5b1650d9bdfd09cde3399713"
+    },
+    "S_coordinates": [
+      [
+        1.64,
+        1.64,
+        1.64
+      ],
+      [
+        1.64,
+        4.1,
+        4.1
+      ],
+      [
+        1.64,
+        4.92,
+        4.92
+      ],
+      [
+        1.64,
+        6.56,
+        6.56
+      ],
+      [
+        1.64,
+        8.2,
+        8.2
+      ],
+      [
+        1.64,
+        13.12,
+        13.12
+      ],
+      [
+        1.64,
+        16.4,
+        16.4
+      ],
+      [
+        1.64,
+        19.68,
+        19.68
+      ]
+    ],
+    "S_values": [
+      [
+        6.83511e-05,
+        3.06514e-05
+      ],
+      [
+        2.34777e-05,
+        4.50278e-05
+      ],
+      [
+        1.85764e-05,
+        4.78271e-05
+      ],
+      [
+        1.09694e-05,
+        5.26654e-05
+      ],
+      [
+        0.0,
+        6.34142e-05
+      ],
+      [
+        0.0,
+        6.48087e-05
+      ],
+      [
+        0.0,
+        6.48087e-05
+      ],
+      [
+        0.0,
+        6.48087e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      2,
+      3,
+      5,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      2
+    ],
+    "resistance": 5.4878e-06
+  },
+  {
+    "table_id": "918b0bba2cf77af0a866fcb6",
+    "context_key": "ihp-sg13g2-main13-B8-s47|0|OVER|7|1|0|2000",
+    "context": {
+      "table_id": "918b0bba2cf77af0a866fcb6",
+      "domain": "public_rules",
+      "process_id": "ihp_sg13g2",
+      "family": "OVER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 7,
+      "context_below": 1,
+      "context_above": 0,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "25ea572a37beaf5cb248a98c"
+    },
+    "S_coordinates": [
+      [
+        2.0,
+        2.0,
+        2.0
+      ],
+      [
+        2.0,
+        5.0,
+        5.0
+      ],
+      [
+        2.0,
+        6.0,
+        6.0
+      ],
+      [
+        2.0,
+        8.0,
+        8.0
+      ],
+      [
+        2.0,
+        10.0,
+        10.0
+      ],
+      [
+        2.0,
+        16.0,
+        16.0
+      ],
+      [
+        2.0,
+        20.0,
+        20.0
+      ],
+      [
+        2.0,
+        24.0,
+        24.0
+      ]
+    ],
+    "S_values": [
+      [
+        7.45985e-05,
+        1.43366e-05
+      ],
+      [
+        3.29227e-05,
+        1.50702e-05
+      ],
+      [
+        2.74371e-05,
+        1.60626e-05
+      ],
+      [
+        2.2164e-05,
+        1.63875e-05
+      ],
+      [
+        1.88927e-05,
+        1.71074e-05
+      ],
+      [
+        0.0,
+        3.15281e-05
+      ],
+      [
+        0.0,
+        3.15281e-05
+      ],
+      [
+        0.0,
+        3.15281e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      2,
+      3,
+      5,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      2
+    ],
+    "resistance": 2.75e-06
+  },
+  {
+    "table_id": "021ad2402a90a7c5808b591e",
+    "context_key": "ihp-sg13g2-main13-B8-s47|0|OVER|7|6|0|2000",
+    "context": {
+      "table_id": "021ad2402a90a7c5808b591e",
+      "domain": "public_rules",
+      "process_id": "ihp_sg13g2",
+      "family": "OVER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 7,
+      "context_below": 6,
+      "context_above": 0,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "525728cef12d78f998053485"
+    },
+    "S_coordinates": [
+      [
+        2.0,
+        2.0,
+        2.0
+      ],
+      [
+        2.0,
+        5.0,
+        5.0
+      ],
+      [
+        2.0,
+        6.0,
+        6.0
+      ],
+      [
+        2.0,
+        8.0,
+        8.0
+      ],
+      [
+        2.0,
+        10.0,
+        10.0
+      ],
+      [
+        2.0,
+        16.0,
+        16.0
+      ],
+      [
+        2.0,
+        20.0,
+        20.0
+      ],
+      [
+        2.0,
+        24.0,
+        24.0
+      ]
+    ],
+    "S_values": [
+      [
+        6.13143e-05,
+        3.4642e-05
+      ],
+      [
+        2.3231e-05,
+        3.73049e-05
+      ],
+      [
+        1.85049e-05,
+        3.87129e-05
+      ],
+      [
+        1.48182e-05,
+        3.78617e-05
+      ],
+      [
+        1.29836e-05,
+        3.79624e-05
+      ],
+      [
+        0.0,
+        5.00848e-05
+      ],
+      [
+        0.0,
+        5.00848e-05
+      ],
+      [
+        0.0,
+        5.00848e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      2,
+      3,
+      5,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      2
+    ],
+    "resistance": 2.75e-06
+  }
+]

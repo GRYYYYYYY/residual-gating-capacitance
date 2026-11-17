@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/scripts/dac_main13_integrated_revision/trace_accounting.py", line 11, in <module>
+    assert [int(a[i]) for i in [2,5,6,7,8]]==[int(ctx[3]),int(b[1]),int(ctx[6]),int(b[2]),int(b[3])],(case,n)
+IndexError: list index out of range

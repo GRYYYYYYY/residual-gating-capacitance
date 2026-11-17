@@ -1,0 +1,11 @@
+{
+  "support_tables": 38,
+  "absent_from_supported_dump": [],
+  "eligible_slots": 2146,
+  "all_slots": 13595,
+  "native_eligible_slots": 10040,
+  "excluded_rules": 4,
+  "inventory_s": 9.997401028871536,
+  "prepare_total_s": 12.082759354263544,
+  "namespace": "asap7-main13-B8-s29"
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "platform": "asap7",
+    "design": "ibex",
+    "mask": "block",
+    "holdout": 0.5,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "endpoints": 3704,
+    "unconstrained": 184,
+    "mae_linear_ps": 1.298943798866091,
+    "mae_full_ps": 0.12704528554715636,
+    "relative_reduction_pct": 90.21933930797775,
+    "mean_gain_ps": 1.1718985133189346,
+    "gain_max_abs_ps": 2.872150666666671,
+    "color_limit_ps": 3,
+    "geometry_identical": true,
+    "endpoint_sets_identical": true,
+    "global_sta_verified": true,
+    "bins": [
+      50,
+      50
+    ]
+  },
+  {
+    "platform": "gf180",
+    "design": "ibex",
+    "mask": "block",
+    "holdout": 0.5,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "endpoints": 2039,
+    "unconstrained": 1820,
+    "mae_linear_ps": 32.52977848618604,
+    "mae_full_ps": 10.899059342815098,
+    "relative_reduction_pct": 66.49513199899764,
+    "mean_gain_ps": 21.630719143370943,
+    "gain_max_abs_ps": 44.365666666666584,
+    "color_limit_ps": 50,
+    "geometry_identical": true,
+    "endpoint_sets_identical": true,
+    "global_sta_verified": true,
+    "bins": [
+      50,
+      50
+    ]
+  },
+  {
+    "platform": "ihp-sg13g2",
+    "design": "ibex",
+    "mask": "block",
+    "holdout": 0.5,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "endpoints": 3704,
+    "unconstrained": 71,
+    "mae_linear_ps": 21.741506569474442,
+    "mae_full_ps": 1.7530541756659452,
+    "relative_reduction_pct": 91.9368321138919,
+    "mean_gain_ps": 19.988452393808497,
+    "gain_max_abs_ps": 46.19533333333334,
+    "color_limit_ps": 50,
+    "geometry_identical": true,
+    "endpoint_sets_identical": true,
+    "global_sta_verified": true,
+    "bins": [
+      50,
+      50
+    ]
+  },
+  {
+    "platform": "sky130hs",
+    "design": "ibex",
+    "mask": "block",
+    "holdout": 0.5,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "endpoints": 3975,
+    "unconstrained": 240,
+    "mae_linear_ps": 9.281305911949687,
+    "mae_full_ps": 1.278467002096436,
+    "relative_reduction_pct": 86.22535433887155,
+    "mean_gain_ps": 8.00283890985325,
+    "gain_max_abs_ps": 20.881166666666694,
+    "color_limit_ps": 30,
+    "geometry_identical": true,
+    "endpoint_sets_identical": true,
+    "global_sta_verified": true,
+    "bins": [
+      50,
+      50
+    ]
+  }
+]

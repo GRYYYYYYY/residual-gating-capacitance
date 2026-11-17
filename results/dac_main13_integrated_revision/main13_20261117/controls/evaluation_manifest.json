@@ -1,0 +1,188 @@
+{
+  "status": "PASS",
+  "members": [
+    {
+      "domain": "public",
+      "variant": "numerical_gate",
+      "seed": 0,
+      "steps": 24000,
+      "wall_s": 619.4546525776386,
+      "checkpoint_sha256": "37b5b48d0b585b32c980108d2d5a7d149f553b46a930d909af7b303f622d8e38",
+      "selection": "frozen final-step recipe; no configuration grid or target selection",
+      "generic_training_receipt_status": "trained; configuration selection pending"
+    },
+    {
+      "domain": "public",
+      "variant": "numerical_gate",
+      "seed": 1,
+      "steps": 24000,
+      "wall_s": 596.4330938719213,
+      "checkpoint_sha256": "ec499e5f02e9f5d035e3c89dcddb6777b4871ccfffef17ccc6e3de5a9b99e3f0",
+      "selection": "frozen final-step recipe; no configuration grid or target selection",
+      "generic_training_receipt_status": "trained; configuration selection pending"
+    },
+    {
+      "domain": "public",
+      "variant": "numerical_gate",
+      "seed": 2,
+      "steps": 24000,
+      "wall_s": 595.0963426530361,
+      "checkpoint_sha256": "7e8c9fca6c1086b4d9b8eef1e44e6e46d31c446da709b45222c4ddbf15935bfb",
+      "selection": "frozen final-step recipe; no configuration grid or target selection",
+      "generic_training_receipt_status": "trained; configuration selection pending"
+    },
+    {
+      "domain": "public",
+      "variant": "no_agreement",
+      "seed": 0,
+      "steps": 24000,
+      "wall_s": 829.0970244258642,
+      "checkpoint_sha256": "135f8d50453c13286c8ed02f9ee7ae3559c978e5a2a2c829e645570e5499f95c",
+      "selection": "frozen final-step recipe; no configuration grid or target selection",
+      "generic_training_receipt_status": "trained; configuration selection pending"
+    },
+    {
+      "domain": "public",
+      "variant": "no_agreement",
+      "seed": 1,
+      "steps": 24000,
+      "wall_s": 839.877952452749,
+      "checkpoint_sha256": "8b6677e426c515380feb9d67682a87f5fd3eab925ce731836a5849998228f69c",
+      "selection": "frozen final-step recipe; no configuration grid or target selection",
+      "generic_training_receipt_status": "trained; configuration selection pending"
+    },
+    {
+      "domain": "public",
+      "variant": "no_agreement",
+      "seed": 2,
+      "steps": 24000,
+      "wall_s": 836.8453448526561,
+      "checkpoint_sha256": "3a6df52e94014d898769daea7b8976ded3c5906c3d3ee70e813b219c702e4cba",
+      "selection": "frozen final-step recipe; no configuration grid or target selection",
+      "generic_training_receipt_status": "trained; configuration selection pending"
+    },
+    {
+      "domain": "reference",
+      "variant": "numerical_gate",
+      "seed": 0,
+      "steps": 12000,
+      "wall_s": 1306.7035069018602,
+      "checkpoint_sha256": "d0a72700174033e04cf27c06a731a64f7d5db071c6c8bd9c59e737cd163a083c",
+      "selection": "frozen final-step recipe; no configuration grid or target selection",
+      "generic_training_receipt_status": "trained; configuration selection pending"
+    },
+    {
+      "domain": "reference",
+      "variant": "numerical_gate",
+      "seed": 1,
+      "steps": 12000,
+      "wall_s": 1307.5375260859728,
+      "checkpoint_sha256": "af1cf5eaef91197865fe983971c83f26bc21026aa5e8349491b4c0471cf2fa83",
+      "selection": "frozen final-step recipe; no configuration grid or target selection",
+      "generic_training_receipt_status": "trained; configuration selection pending"
+    },
+    {
+      "domain": "reference",
+      "variant": "numerical_gate",
+      "seed": 2,
+      "steps": 12000,
+      "wall_s": 1304.2901597619057,
+      "checkpoint_sha256": "6b27c27617f9d4b2dcbf68f1433b81ce8ef8737adbadfd0a1ecab93c44f00d04",
+      "selection": "frozen final-step recipe; no configuration grid or target selection",
+      "generic_training_receipt_status": "trained; configuration selection pending"
+    },
+    {
+      "domain": "reference",
+      "variant": "no_agreement",
+      "seed": 0,
+      "steps": 12000,
+      "wall_s": 1575.7106173597276,
+      "checkpoint_sha256": "51e5fd6702cb9194aba927f98253dd75d0d62a46f88eb385a06848b8664a9c33",
+      "selection": "frozen final-step recipe; no configuration grid or target selection",
+      "generic_training_receipt_status": "trained; configuration selection pending"
+    },
+    {
+      "domain": "reference",
+      "variant": "no_agreement",
+      "seed": 1,
+      "steps": 12000,
+      "wall_s": 1572.3942388780415,
+      "checkpoint_sha256": "8b1a2bcb6ab915edfeb47107f7e057e04fb29489cda190710b2433f7cb0fe09e",
+      "selection": "frozen final-step recipe; no configuration grid or target selection",
+      "generic_training_receipt_status": "trained; configuration selection pending"
+    },
+    {
+      "domain": "reference",
+      "variant": "no_agreement",
+      "seed": 2,
+      "steps": 12000,
+      "wall_s": 1548.6932399235666,
+      "checkpoint_sha256": "9c48172b4af5f7ce071d3a609f388cd08861353bdd0f8cc8b56ac22173090489",
+      "selection": "frozen final-step recipe; no configuration grid or target selection",
+      "generic_training_receipt_status": "trained; configuration selection pending"
+    },
+    {
+      "domain": "to_asap7",
+      "variant": "numerical_gate",
+      "seed": 0,
+      "steps": 12000,
+      "wall_s": 1280.1637116409838,
+      "checkpoint_sha256": "67487ce6f0279e703912031e65af458836e3c465f2c86a6792b5b98f589ce9a1",
+      "selection": "frozen final-step recipe; no configuration grid or target selection",
+      "generic_training_receipt_status": "trained; configuration selection pending"
+    },
+    {
+      "domain": "to_asap7",
+      "variant": "numerical_gate",
+      "seed": 1,
+      "steps": 12000,
+      "wall_s": 1277.5879885032773,
+      "checkpoint_sha256": "662234bbbea9fd6c57771bee87825c8082162e78bc2428642bf4ee695a60f14b",
+      "selection": "frozen final-step recipe; no configuration grid or target selection",
+      "generic_training_receipt_status": "trained; configuration selection pending"
+    },
+    {
+      "domain": "to_asap7",
+      "variant": "numerical_gate",
+      "seed": 2,
+      "steps": 12000,
+      "wall_s": 1290.9835820756853,
+      "checkpoint_sha256": "7a0dc71ea43d07f9d7bdbf5b907bebca59498fe99a6b978f2dd75cc18c837024",
+      "selection": "frozen final-step recipe; no configuration grid or target selection",
+      "generic_training_receipt_status": "trained; configuration selection pending"
+    },
+    {
+      "domain": "to_asap7",
+      "variant": "no_agreement",
+      "seed": 0,
+      "steps": 12000,
+      "wall_s": 1539.8591855503619,
+      "checkpoint_sha256": "9458c1d15fd6b630a45947edc59fb97728079257ace1b7a26184280a9123e509",
+      "selection": "frozen final-step recipe; no configuration grid or target selection",
+      "generic_training_receipt_status": "trained; configuration selection pending"
+    },
+    {
+      "domain": "to_asap7",
+      "variant": "no_agreement",
+      "seed": 1,
+      "steps": 12000,
+      "wall_s": 1527.7502403222024,
+      "checkpoint_sha256": "6ea745dc2d76330002c18723e4ecdddfa151959d638547031f76c1ab726c0bd5",
+      "selection": "frozen final-step recipe; no configuration grid or target selection",
+      "generic_training_receipt_status": "trained; configuration selection pending"
+    },
+    {
+      "domain": "to_asap7",
+      "variant": "no_agreement",
+      "seed": 2,
+      "steps": 12000,
+      "wall_s": 1613.0443352349102,
+      "checkpoint_sha256": "528aab2b09e2d42039c2d7563e847a98a0783bfdbfecd1402d2c90f76af670dd",
+      "selection": "frozen final-step recipe; no configuration grid or target selection",
+      "generic_training_receipt_status": "trained; configuration selection pending"
+    }
+  ],
+  "total_final_stage_worker_seconds": 21461.52274307236,
+  "queue_wall_s": 7257.675785064697,
+  "selection": "single fixed recipe and final prescribed step; generic original trainer status does not imply unfinished hyperparameter selection"
+}

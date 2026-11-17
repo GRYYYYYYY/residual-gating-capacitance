@@ -1,0 +1,29 @@
+\begin{table}[t]
+\centering
+\caption{Fixed-budget controls, pooled-replicate macro NRMSE (lower is better). AC denotes component-supervised adapted AttentionCap. All methods use the same $B$ observed geometries and sealed queries; dashes mark unavailable or infeasible evaluations.}
+\label{tab:budget_controls}
+\footnotesize\setlength{\tabcolsep}{2pt}
+\begin{tabular}{llrrrrr}
+\toprule
+Data & Method & $B=4$ & 8 & 16 & 32 & 64 \\
+\midrule
+Public & Ungated & 0.0776 & 0.0682 & -- & -- & -- \\
+Public & CNP & 0.2650 & 0.2374 & -- & -- & -- \\
+Public & Adapted AC & -- & -- & -- & -- & -- \\
+Public & Binary & 0.0793 & 0.0648 & -- & -- & -- \\
+Public & Full & 0.0708 & 0.0609 & -- & -- & -- \\
+\midrule
+FEM & Ungated & 0.1100 & 0.0917 & 0.0681 & 0.0657 & 0.0609 \\
+FEM & CNP & 0.2356 & 0.2313 & 0.2297 & 0.2274 & 0.2271 \\
+FEM & Adapted AC & 0.4546 & 0.2256 & 0.2025 & 0.1677 & 0.1657 \\
+FEM & Binary & 0.1315 & 0.0947 & 0.0565 & 0.0537 & 0.0491 \\
+FEM & Full & 0.1233 & 0.0925 & 0.0409 & 0.0332 & 0.0250 \\
+\midrule
+Transfer & Ungated & 0.1410 & 0.1282 & 0.1069 & 0.0954 & 0.0814 \\
+Transfer & CNP & 0.2138 & 0.2126 & 0.2135 & 0.2127 & 0.2136 \\
+Transfer & Adapted AC & 6.8753 & 0.3199 & 0.2120 & 0.2153 & 0.1791 \\
+Transfer & Binary & 0.1153 & 0.0961 & 0.0762 & 0.0700 & 0.0611 \\
+Transfer & Full & 0.1182 & 0.1034 & 0.0685 & 0.0495 & 0.0386 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,19 @@
+{
+  "case": "asap7/aes",
+  "variant": "openrcx_kernel_B4_s47",
+  "provenance": {
+    "odb": "ea34b941eda937cd1b40220251bfae6398d11dada0731f22b1f8810efabfe836",
+    "sdc": "938a360e49be5fe7768860da3453713005be49725b3e0d992f1ebcdf33c6b468",
+    "rules": "b369337e4c12119e625f663e05c6a449f336f65403881c5da69c94c490320040",
+    "openroad": "94c4bc5e394ef709d9c1afd5bce3b4abe01fc8088e6d9c5564cc17dc154d3222",
+    "libs": {
+      "platforms/asap7/lib/NLDM/asap7sc7p5t_AO_RVT_FF_nldm_211120.lib.gz": "9e3848d247f9bbc8d405ee55617af98797b6d5be9a1af02988ec5d59ca9dad99",
+      "platforms/asap7/lib/NLDM/asap7sc7p5t_INVBUF_RVT_FF_nldm_220122.lib.gz": "e0c65688e6067ee485b0693651298636ae9ef5a0512154bcd4b7c4914d1a0ac6",
+      "platforms/asap7/lib/NLDM/asap7sc7p5t_OA_RVT_FF_nldm_211120.lib.gz": "cc9651e9235bcd29bba0737b7ba7a8afddde7462df3ff48d3870c22d05c86fb3",
+      "platforms/asap7/lib/NLDM/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz": "0c93d44fcc6a30182d71031997771ea3fc0d09235201e9252f71daf48a1c7a38",
+      "platforms/asap7/lib/NLDM/asap7sc7p5t_SEQ_RVT_FF_nldm_220123.lib": "d9b6e75c8720cdd450cff15178528502cc8df34c5ab6b0ffb53fc99d664b5302"
+    },
+    "tcl": "fc49de7c253870d97a3127eaa434bf69c1994e055562aaf8a32fec7fcaf45b7c"
+  },
+  "threads": 1
+}

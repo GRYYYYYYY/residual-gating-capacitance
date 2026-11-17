@@ -1,0 +1,35 @@
+{
+  "units": {
+    "*C_UNIT": [
+      1.0,
+      "PF"
+    ],
+    "*R_UNIT": [
+      1.0,
+      "OHM"
+    ]
+  },
+  "golden_nets": 14357,
+  "candidate_nets": 14357,
+  "common_nets": 14357,
+  "missing_nets": [],
+  "extra_nets": [],
+  "metrics": {
+    "capacitance": {
+      "mae": 3.212128843769587e-05,
+      "rmse": 0.00014811064719043632,
+      "nrmse": 0.007368162004663485,
+      "smape": 0.003739497959213779,
+      "r2": 0.9999351002418305,
+      "spearman": 0.9999736166226062
+    },
+    "resistance": {
+      "mae": 0.0,
+      "rmse": 0.0,
+      "nrmse": 0.0,
+      "smape": 0.0,
+      "r2": 1.0,
+      "spearman": 1.0
+    }
+  }
+}

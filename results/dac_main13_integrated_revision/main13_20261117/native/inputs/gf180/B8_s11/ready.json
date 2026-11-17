@@ -1,0 +1,11 @@
+{
+  "support_tables": 7,
+  "absent_from_supported_dump": [],
+  "eligible_slots": 9124,
+  "all_slots": 60695,
+  "native_eligible_slots": 55043,
+  "excluded_rules": 1,
+  "inventory_s": 9.047981020063162,
+  "prepare_total_s": 15.711528051644564,
+  "namespace": "gf180-main13-B8-s11"
+}

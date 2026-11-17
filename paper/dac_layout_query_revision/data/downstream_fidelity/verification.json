@@ -1,0 +1,19 @@
+{
+  "verified_original_table_cells": 96,
+  "layout_holdout_pairs": 16,
+  "capacitance_improved": 16,
+  "worst_slack_improved": 16,
+  "tns_improved": 12,
+  "tns_zero_ties": 4,
+  "finite_seed0_endpoints": 2039,
+  "spatial_bins": [
+    50,
+    50
+  ],
+  "mae_linear_ps": 5.873188327611587,
+  "mae_full_ps": 2.634330063756736,
+  "mae_reduction_pct": 55.146507879340845,
+  "shared_error_vmax_ps": 10.495999999999839,
+  "symmetric_gain_limit_ps": 6.235999999999464,
+  "scope": "fixed-node rule export; spatial maps are seed 0, table aggregates three seeds"
+}

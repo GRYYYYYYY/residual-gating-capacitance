@@ -1,0 +1,33 @@
+{
+  "source_dataset_sha256": "d1b2d77f04059918b11f66f912381deb8435385a6059ee9bbab0a7207691c913",
+  "export_dataset_sha256": "d1b2d77f04059918b11f66f912381deb8435385a6059ee9bbab0a7207691c913",
+  "source_implementation": "openrcbench/baselines.py:interpolate_table(method=\"linear\")",
+  "paper_name": "PL+IDW",
+  "counts_over_30_50_percent_and_seeds_0_1_2": {
+    "asap7": {
+      "tables": 44,
+      "asymmetric_tables": 2,
+      "piecewise_linear_queries": 1263,
+      "two_neighbor_idw_queries": 231,
+      "nearest_or_exact_queries": 6
+    },
+    "gf180": {
+      "tables": 8,
+      "asymmetric_tables": 0,
+      "piecewise_linear_queries": 240
+    },
+    "ihp-sg13g2": {
+      "tables": 22,
+      "asymmetric_tables": 2,
+      "piecewise_linear_queries": 649,
+      "two_neighbor_idw_queries": 215
+    },
+    "sky130hs": {
+      "tables": 15,
+      "asymmetric_tables": 1,
+      "two_neighbor_idw_queries": 113,
+      "piecewise_linear_queries": 439
+    }
+  },
+  "mapping": "Separate rule-completion control; not identical to OpenRCX kernel, MLI-ext., Anchor, or the all-observed inverse-square IDW control."
+}

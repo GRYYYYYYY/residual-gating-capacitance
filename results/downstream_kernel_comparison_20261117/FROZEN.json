@@ -1,0 +1,31 @@
+{
+  "baseline": "OpenRCX kernel, same operator and scalar component wrapper as Fig. 4",
+  "support_manifest_sha256": "4c55703e8de2568e0f0711efee0fc1f452e163fe629e5f6aaea9c2d4710ce14f",
+  "tables_sha256": "37ec17966216b304239692676929637712fe8b99fc2e4d06c0defdacff29d574",
+  "kernel_sha256": "876504db8a6df682d9a67a991361bd8f02eb379d80e4eb8921b1a09cd0b092b1",
+  "harness_sha256": "e08dc7b80326c39efd402593298d56f812b121b47da792190d2bb896b8323d4b",
+  "harness_source_sha256": "4f401cfe15347e398e44b25f23837bdfdd5203b5ba8792c09770654b3ebe82cb",
+  "source_commit": "0b54bb3203e0895f87940ff982358a6e4d406e28",
+  "native_tcl_sha256": "fc49de7c253870d97a3127eaa434bf69c1994e055562aaf8a32fec7fcaf45b7c",
+  "script_sha256": "75a0d2c3e6feac98bc9cd404270457d3c58873331d195dd8522bf869e7c8af05",
+  "method": "openrcx_kernel",
+  "budgets": [
+    4,
+    8
+  ],
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "preservation": "only nonobserved coupling/ground entries in identical eligible tables; observed rows and resistance retained",
+  "geometry": "table represented coordinates, GF180 scale 2000, others 1000; same as coverage.py",
+  "scope": "fixed-node rule completion followed by unchanged native extraction/STA; no online neural or computeTable injection",
+  "resources": {
+    "max_workers": 4,
+    "threads_per_openroad": 1,
+    "timeout_per_run_s": 300,
+    "native_runs": 48,
+    "training_runs": 0
+  }
+}

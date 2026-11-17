@@ -81,6 +81,36 @@ H.~R. Rodriguez, J.~Huang, and W.~Yu, ``{Flash-CNNCap}: Capacitance extraction
   \url{https://arxiv.org/abs/2607.23877}
 \BIBentrySTDinterwordspacing
 
+\bibitem{siemens_calibre_xact}
+\BIBentryALTinterwordspacing
+{Siemens Digital Industries Software}, ``Advancing the art of parasitic
+  extraction: The calibre xact platform,'' 2025, technical White Paper.
+  [Online]. Available:
+  \url{https://static.sw.cdn.siemens.com/siemens-disw-assets/public/82049/en-US/Siemens-SW-Advancing-the-art-of-parasitic-extraction-WP-82049-C2.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{siemens_calibre_xact3d}
+\BIBentryALTinterwordspacing
+{Siemens Digital Industries Software}, ``{Calibre xACT 3D} parasitic
+  extraction,'' Product web page, accessed Nov. 16, 2026. [Online]. Available:
+  \url{https://www.siemens.com/en-us/products/ic/calibre-design/circuit-verification/xact-3d/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{synopsys_starrc}
+\BIBentryALTinterwordspacing
+O.~Shah and M.~Koshy, ``Starrc custom rapid3d extraction: Next generation high
+  performance 3d fast field solver,'' Synopsys, Inc., White Paper, 2010.
+  [Online]. Available:
+  \url{https://www.synopsys.com/content/dam/synopsys/verification/white-papers/Rapid3D_wp.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{openroad_openrcx}
+\BIBentryALTinterwordspacing
+{The OpenROAD Project}, ``Parasitics extraction,'' openROAD Documentation.
+  [Online]. Available:
+  \url{https://openroad.readthedocs.io/en/latest/main/src/rcx/README.html}
+\BIBentrySTDinterwordspacing
+
 \bibitem{rescap}
 J.-C. Tsai, H.-M. Huang, W.-M. Hsu, P.-T. Lee, J.-H. Yang, H.-L. Huang, Y.-J.
   Su, and C.~H.-P. Wen, ``{ResCap}: Fast-yet-accurate capacitance extraction

@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "all_inputs": 24,
+  "physical_table_checks": 1296,
+  "poison_prediction_reexecution": [
+    {
+      "platform": "asap7",
+      "method": "binary_native",
+      "predictions": 2058,
+      "bit_exact": true
+    },
+    {
+      "platform": "asap7",
+      "method": "full_native",
+      "predictions": 2058,
+      "bit_exact": true
+    },
+    {
+      "platform": "ihp-sg13g2",
+      "method": "binary_native",
+      "predictions": 22325,
+      "bit_exact": true
+    },
+    {
+      "platform": "ihp-sg13g2",
+      "method": "full_native",
+      "predictions": 22325,
+      "bit_exact": true
+    }
+  ],
+  "observation_protection": true,
+  "finite_nonnegative": true,
+  "shared_eligible_keys": true,
+  "monotonicity": "not asserted without geometry/component-specific law",
+  "symmetry": "native queries retain equal left/right scalar projection; arbitrary asymmetric physical symmetry not validated"
+}

@@ -1,0 +1,15 @@
+{
+  "case": "sky130hs/ibex",
+  "variant": "openrcx_kernel_B4_s47",
+  "provenance": {
+    "odb": "014d3d885eade3e6f24c61218c13325c4f63cf5db539a8d7d257a6e48eebab1a",
+    "sdc": "1181b4fc83e9c4274245779b06dbf93709d2d5e33ef4faaf03a93dafe35dc3db",
+    "rules": "f199694692bba51a36d3d26508b091dbf8faff3328d150bf1b8528e3683abd26",
+    "openroad": "94c4bc5e394ef709d9c1afd5bce3b4abe01fc8088e6d9c5564cc17dc154d3222",
+    "libs": {
+      "platforms/sky130hs/lib/sky130_fd_sc_hs__tt_025C_1v80.lib": "0d10dd4e30a628ef692020af757593121eb4b93e69ee2a6f4f16d8630cfe3aeb"
+    },
+    "tcl": "fc49de7c253870d97a3127eaa434bf69c1994e055562aaf8a32fec7fcaf45b7c"
+  },
+  "threads": 1
+}

@@ -1,0 +1,22 @@
+{
+  "episodes": 480,
+  "wall_s": 87.34894080460072,
+  "runner_sha256": "837cfa9cb257fe8f9a3c5ffa0bde7f78c688756fa74a5face53cf62782dd4fe3",
+  "candidate_order": [
+    "linear",
+    "pchip",
+    "width_linear",
+    "gp_l0.5_r1e-06",
+    "gp_l0.5_r0.0001",
+    "gp_l1_r1e-06",
+    "gp_l1_r0.0001",
+    "gp_l2_r1e-06",
+    "gp_l2_r0.0001",
+    "neural",
+    "neural_clamp"
+  ],
+  "support_feature_schema": "pdkcap.round2_model.support_geometry: density/log-distance/log-span/inside/log-envelope; pdkcap.round3_support.describe: segment one-hot/independent-axis count/log-typical-neighbor/width-valid/coordinate coverage/log-variation/signed-log-slopes/signed-log-curvature; unified.basis.context_vector appended",
+  "support_feature_source_sha256": "164bbe4498eeff2f2e549831b292b675be75f1f4722f06fbb388ae880d078046",
+  "diagnostic_label_boundary": "candidate generation accepts public input and S labels only; independent score_candidates.py reads reference after frozen output completion",
+  "controls": false
+}

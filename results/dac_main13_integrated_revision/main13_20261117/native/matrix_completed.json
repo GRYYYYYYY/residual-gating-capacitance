@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "arm_settings": 192,
+  "paired_settings": 48,
+  "layout_budget_cells": 16,
+  "independent_layouts": 8,
+  "platforms": 4,
+  "all_resistance_exact": true,
+  "all_endpoint_identities_exact": true
+}

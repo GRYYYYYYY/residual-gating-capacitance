@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "pdf_sha256": "d52fbf3140f287adbd850d0ec8c47ae1d81ec035a88d84f182dfb803667a55a9",
+  "main_source_sha256": "5b9bfe284965580cfe9337ebf4de435ac820217f1ee25fdef76f36d6f918b35e",
+  "pages": 15,
+  "undefined_citations_or_references": false,
+  "overfull_boxes": false,
+  "missing_glyphs": false,
+  "required_generated_tables": [
+    "baseline_consistency",
+    "mechanism_controls",
+    "mli_strata",
+    "strong_numerical",
+    "numerical_30percent",
+    "native_sparse_accuracy",
+    "native_sparse_tails",
+    "native_sparse_absolute",
+    "native_sparse_cost",
+    "native_reuse_cost",
+    "rule_export_absolute"
+  ],
+  "text_extractable": true,
+  "scope": "automatic compile/dependency/text checks; visual review recorded separately; no page-limit criterion"
+}

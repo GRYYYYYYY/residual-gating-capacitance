@@ -1,0 +1,7 @@
+DONE batching
+Traceback (most recent call last):
+  File "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/scripts/dac_main13_integrated_revision/post_native_queue.py", line 20, in <module>
+    run('trace_accounting',[S/'trace_accounting.py'],O/'coverage_trace_alignment.json')
+  File "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/scripts/dac_main13_integrated_revision/post_native_queue.py", line 13, in run
+    if p.returncode:raise RuntimeError((name,p.returncode))
+RuntimeError: ('trace_accounting', 1)

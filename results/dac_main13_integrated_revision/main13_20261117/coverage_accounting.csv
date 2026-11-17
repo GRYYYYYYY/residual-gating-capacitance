@@ -1,0 +1,9 @@
+case,protocol,all_two_getter_calls,raw_nonnode,quantized_raw_to_node,effective_nonnode_from_raw,finite_getter_calls,populated_returns,changed_returns,unchanged_finite,excluded_fringe_calls,changed_fraction_finite,improved_returns,changed_fraction_all_matched_getters,trace_identity_alignment
+asap7/aes,full_characterization_compute_table,1108580,439458,59858,379600,1031007,39655,39655,991352,77573,0.03846239647257487,unmeasured: no physical reference,0.035770986306806904,PASS
+asap7/ibex,full_characterization_compute_table,1522744,664890,98725,566165,1371873,61456,61456,1310417,150871,0.04479714959037753,unmeasured: no physical reference,0.04035872083554425,PASS
+gf180/aes,full_characterization_compute_table,1049036,251094,74385,176709,850246,54009,54009,796237,198790,0.0635216160969884,unmeasured: no physical reference,0.05148441044921242,PASS
+gf180/ibex,full_characterization_compute_table,1030861,258893,82477,176416,817932,54117,54117,763815,212929,0.06616320183095906,unmeasured: no physical reference,0.05249689337359741,PASS
+ihp-sg13g2/aes,full_characterization_compute_table,979697,721614,76526,645088,773185,161323,161323,611862,206512,0.20864734830603285,unmeasured: no physical reference,0.16466621822869723,PASS
+ihp-sg13g2/ibex,full_characterization_compute_table,1454485,1109641,106710,1002931,1181201,255136,255136,926065,273284,0.21599710802818486,unmeasured: no physical reference,0.1754132906148912,PASS
+sky130hs/aes,full_characterization_compute_table,1469984,1108862,170412,938450,1181341,173004,173004,1008337,288643,0.14644713084536978,unmeasured: no physical reference,0.11769107690968066,PASS
+sky130hs/ibex,full_characterization_compute_table,1273199,960727,180570,780157,1004909,125947,125947,878962,268290,0.12533174645664433,unmeasured: no physical reference,0.0989216925241066,PASS

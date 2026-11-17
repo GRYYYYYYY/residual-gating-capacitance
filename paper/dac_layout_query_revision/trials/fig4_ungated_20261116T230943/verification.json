@@ -1,0 +1,14 @@
+{
+  "originals_unchanged": {
+    "main.tex": true,
+    "main.pdf": true,
+    "main.bbl": true,
+    "references.bib": true,
+    "figures/coverage_four_ratios.pdf": true,
+    "figures/coverage_four_ratios.png": true
+  },
+  "plotted_cells": 300,
+  "ungated_cells": 60,
+  "new_inference_episodes": 16380,
+  "reused_episodes": 5460
+}

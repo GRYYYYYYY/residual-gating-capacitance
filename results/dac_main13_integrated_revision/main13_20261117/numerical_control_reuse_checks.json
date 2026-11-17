@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "protocol": "existing 30% holdout numerical controls; unchanged mean-mask NRMSE; not a new optimized 60-condition baseline",
+  "cells": 15,
+  "max_reaggregation_delta": 0.0
+}

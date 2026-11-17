@@ -1,0 +1,34 @@
+{
+  "domain": "to_asap7",
+  "tables": 8,
+  "episodes": 480,
+  "reused_30pct_episodes": 120,
+  "new_inference_episodes": 360,
+  "records": 752,
+  "raw_sha256": "fd8b0a591c0cc10c9ab126443a0913f2b7afa253c1e38f9eb6bf13b87e5eedfd",
+  "archive_sha256": "1caa3065e3f9f6b5943a902d85593adb2237c1c30668eb197853c82b24a6c7d1",
+  "inventory_sha256": "c41991aabe55565033489cd6395693a55ff3d970d16ad99135c05d20b0b2769c",
+  "reference_records_sha256": "dedf36ec2b90fb7a96baecfb3d8b4919518e370b1cb3c3301d3060bda0dd67d4",
+  "checkpoints": [
+    {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/to_asap7_residual_s0/checkpoint.pt",
+      "sha256": "47b2b7569fdc06b26c2b8aca8b69cfdeb3cd7416b29404e288402997f2f3d856",
+      "frozen_sha256": "3aa4f29663281749c098463c0c7a21747a68ba99654f1c2805d7a2701e317b62"
+    },
+    {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/to_asap7_residual_s1/checkpoint.pt",
+      "sha256": "c3d3641726db9b6026f9ade88021823bddd7dd021844e73ec297aac94b9260d5",
+      "frozen_sha256": "038e11f2a2d43b39e800ec71c2adf4bd2f3cd8d7a17bf8f76845c4a3e6bf56f5"
+    },
+    {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/experiments/reviewer_controls/runs/to_asap7_residual_s2/checkpoint.pt",
+      "sha256": "baea3ceb9dbfdf290b3a87487e0fa4a03fa4990b2844f4bca2329808cb17001c",
+      "frozen_sha256": "d4f7fc79c6f9b91e39af5576c95a8d6a3f7110d9a5aec5578626b4309088ce31"
+    }
+  ],
+  "ensemble_members": 3,
+  "trained": false,
+  "cpu_s": 7.3253731140000005,
+  "wall_s": 7.774508401751518,
+  "alignment": "Exact inventory support/query hash, segment indices and squared-truth checks for every episode."
+}

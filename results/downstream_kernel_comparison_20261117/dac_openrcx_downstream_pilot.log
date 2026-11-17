@@ -1,0 +1,9 @@
+asap7/ibex openrcx_kernel_B8_s11 ok
+{
+  "pilot": true,
+  "new_runs": 1,
+  "completed": 1,
+  "failed": [],
+  "elapsed_seconds": 23.72785857692361,
+  "workers": 1
+}

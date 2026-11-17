@@ -1,0 +1,11 @@
+{
+  "public_full": 1.3877787807814457e-17,
+  "public_residual": 2.7755575615628914e-17,
+  "public_binary": 2.7755575615628914e-17,
+  "reference_full": 1.3877787807814457e-17,
+  "reference_residual": 5.551115123125783e-17,
+  "reference_binary": 5.551115123125783e-17,
+  "to_asap7_full": 2.7755575615628914e-17,
+  "to_asap7_residual": 2.7755575615628914e-17,
+  "to_asap7_binary": 5.551115123125783e-17
+}

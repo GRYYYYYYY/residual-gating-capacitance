@@ -1,0 +1,14 @@
+public frozen 25 tables 1500 episodes 27.1 s
+public frozen 50 tables 3000 episodes 54.8 s
+public frozen 75 tables 4500 episodes 82.3 s
+public frozen 100 tables 6000 episodes 109.4 s
+public frozen 125 tables 7500 episodes 136.5 s
+public frozen 150 tables 9000 episodes 164.0 s
+public frozen 175 tables 10500 episodes 191.1 s
+public frozen 200 tables 12000 episodes 218.4 s
+public frozen 225 tables 13500 episodes 245.2 s
+public frozen 250 tables 15000 episodes 272.0 s
+public frozen 275 tables 16500 episodes 298.9 s
+public frozen 300 tables 18000 episodes 326.2 s
+public frozen 325 tables 19500 episodes 352.8 s
+public frozen 340 tables 20400 episodes 369.1 s

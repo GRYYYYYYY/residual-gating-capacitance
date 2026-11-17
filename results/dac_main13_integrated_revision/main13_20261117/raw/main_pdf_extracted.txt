@@ -1,0 +1,1168 @@
+        Learning to Populate Capacitance Evaluation Tables for
+                    Rule-Based Parasitic Extraction
+                                                                Anonymous authors
+
+
+
+
+   Abstract—Rule-based parasitic extraction must evaluate geometries
+absent from a finite characterization set. We propose Full, an observation-
+conditioned residual model that combines a numerical anchor, Transformer
+residuals, and applicable numerical corrections through component-
+wise gating. Predictions populate eligible native compute-table entries
+during preparation, preserving supplied observations, resistance, runtime
+lookup, and parasitic-network assembly. Across public rules, finite-
+element data, and cross-process transfer, Full lowers condition-level macro
+normalized root-mean-square error (NRMSE) relative to the OpenRCX
+kernel and multilinear interpolation with sparse-support extension in
+all 60 evaluated conditions spanning 10–70% characterization holdout;
+Binary and Ungated do so in 55 and 50 conditions. This empirical
+consistency motivates Full as the default, without implying optimality
+on every condition or downstream metric. Separate fixed-node rule-
+export experiments improve capacitance and worst-slack fidelity in all
+16 layout–budget settings. A new four-arm sparse-native comparison
+completes 48 paired settings with hidden observations removed before
+native table construction: Full improves net-capacitance and worst-slack
+fidelity over Native-sparse in 7/16 and 9/16 seed-averaged cells. Thus
+the offline consistency does not imply universal downstream gains. The
+distinct full-characterization compute-table path keeps mean extraction
+time within 3.6% of native extraction, with recorded external preparation
+stages totaling 5.41–13.99 s.                                                 Fig. 1. Schematic diagram of the rule-driven parasitic parameter extraction
+                                                                              process.
+                           I. I NTRODUCTION
+   Parasitic extraction supplies electrical models for static timing
+analysis (STA). Rule-based extractors query precharacterized capaci-          material context. Component-wise gating fuses applicable numerical
+tance tables as widths, spacings, and neighboring layers vary across          and neural corrections. Parameters remain fixed during conditional
+a routed design. Rule-based parasitic extraction separates process            inference, while observations alter predictions. Predicted rule val-
+characterization from layout evaluation. Reference capacitances for           ues can be exported into the native flow. A target table supplies
+representative interconnect geometries are encoded in empirical models        candidate geometries, structural/material context, and observed geom-
+or lookup tables, and layout extraction evaluates the corresponding           etry–capacitance pairs. These observations reveal its local electrical
+models for encountered structures [1], [2]. OpenRCX provides a                response and complement information learned from other tables.
+concrete example: its extraction rules are calibrated from reference          Conditioning on them updates the completed table while keeping
+parasitics and are evaluated using coupling distance and surrounding          learned parameters fixed, even when the target has too few observations
+routing context [3], [4].                                                     to train a flexible model independently.
+   A finite set of characterization points does not coincide with every          Our predictor learns residual corrections to an anchor constructed
+geometric configuration encountered in a routed layout. Between               from the available support. Geometry tokens bind positions to obser-
+sampled points, the extractor must estimate capacitance using the             vation indicators, known capacitances, and anchor values; material
+available rule data. Model-library accuracy therefore depends not             tokens supply context. A shared Transformer associates queries with
+only on pattern coverage but also on how the nonlinear geometry–              the observed response. Full uses component-wise gating to combine the
+capacitance response is represented between characterization points [5].      applicable numerical and neural corrections. It preserves characterized
+Increasing characterization density can improve that representation,          entries and supplies predicted capacitances to the native extraction
+but also increases the amount of reference data that must be generated        flow.
+and stored [2]. This motivates improving rule evaluation while holding           The deployment interface matters as much as prediction cost.
+the available characterization samples fixed.                                 Direct neural evaluation is slower than a native lookup. We therefore
+   Prior work has automated pattern and formula construction from             prepare learned values in the internal compute table, retaining the
+field-solver samples [6], developed neural capacitance and matrix             original getter and downstream RC assembly. We evaluate controlled
+predictors [2], [5], [7], [8], and studied geometry and layer-thickness       characterization subsampling, support-size sensitivity, cross-process
+exploration [1]. We focus on the complementary problem of estimating          prediction, and native extraction fidelity. Full achieves lower error
+uncharacterized queries from a supplied set of process-specific               than the OpenRCX kernel and the extended MLI baseline in all
+characterization samples.                                                     60 evaluated characterization-holdout conditions. We retain Full as
+   We propose Full, which conditions a numerical anchor and                   the unified default for the consistency of these improvements across
+Transformer residual on supplied capacitance samples, geometry, and           the evaluated domains and support conditions. Ungated and Binary
+                                                         Node
+                                                         Non-node inside
+                                                                                 Non-node outside
+                                                                                 Fringe/special
+                                                                                                                            Original knots                      C. Problem formulation and kernel scope
+                                                                                                                                                                  For context c, available observations S = {(xi , yi )} and query
+                   100                                                                                        0.032
+                                                                                                                                                                coordinates Q, the estimator satisfies
+
+
+
+
+                                                                                       Requested width (μm)
+                    80
+Logged calls (%)
+
+
+
+
+                    60                                                                                                                                                      ybQ = Fθ (S, Q, c),           yb(xi ) = yi (xi ∈ S).     (1)
+                                                                                                              0.024
+                    40
+
+                    20                                                                                                                                          An off-grid geometry need not lie outside support. Inside-support
+                     0
+                                                                                                              0.018
+                                                                                                                                                                classification requires affine-space and hull membership; Only S values
+                                                                                                                      0.0      0.1      0.2      0.3      0.4
+                          s
+
+                                 ex
+
+
+                                           s
+
+                                                ex
+
+
+                                                         s
+
+                                                               ex
+
+
+                                                                       s
+
+                                                                            ex
+                                                                                                                                                                enter prediction; query reference values enter scoring.
+                         ae
+
+
+
+
+                                        ae
+
+
+
+
+                                                     ae
+
+
+
+
+                                                                    ae                                                      Requested spacing (μm), ASAP7 M4
+                              ib
+
+
+
+
+                                               ib
+
+
+
+
+                                                             ib
+
+
+
+
+                                                                           ib
+                         7/
+
+
+
+
+                                      0/
+
+
+
+
+                                                     P/
+
+
+
+
+                                                                    y/
+                              7/
+
+
+
+
+                                               0/
+
+
+
+
+                                                             P/
+
+
+
+
+                                                                           y/
+                                                                  Sk
+                                                    IH
+                     ap
+
+
+
+
+                                   18
+
+
+
+
+                                                                         Sk
+                                                          IH
+                            ap
+
+
+
+
+                                           18
+                   as
+
+
+
+
+                                   gf
+
+
+
+
+                                                                                                                                                                   Commercial sign-off parasitic extraction tools, including Siemens
+                          as
+
+
+
+
+                                         gf
+
+
+
+
+                                                                                                                                                                Calibre xACT [9], Calibre xACT 3D [10], and Synopsys StarRC
+Fig. 2. Measured non-node demand. Left: occurrence-weighted query classes                                                                                       [11], are not considered direct algorithmic baselines in this work,
+over two logged capacitance getters on eight fixed layouts. Right: ASAP7 M4
+requests and original knots; marker area reflects log occurrence.                                                                                               as these tools are integrated extraction platforms that incorporate or
+                                                                                                                                                                provide access to field-solver-based extraction capabilities, rather than
+                                                                                                                                                                standalone implementations of pattern-matching-based lookup-table
+improve over both baselines in 50 and 55 conditions, respectively; they                                                                                         interpolation. Our controlled algorithmic comparison uses OpenRCX
+can nevertheless have lower error than Full locally. This is a post-hoc                                                                                         [12] and a specified generic numerical interpolation baseline with
+empirical choice, not a guarantee for arbitrary unseen applications.                                                                                            identical observable support. Commercial product-level comparisons
+   Full improves over the Binary ablation in all five finite-element                                                                                            would require matched characterization inputs and access to equivalent
+(FEM) coverage conditions at 30% missingness. At fixed sparse                                                                                                   evaluation interfaces.
+budgets, a target-adapted MLP is more accurate on several FEM and                                                                                                  The primary algorithmic comparison is the pinned OpenRCX finite-
+transfer conditions. Full improves rule-export net-capacitance and                                                                                              distance kernel and specified multilinear interpolation (MLI). MLI is a
+worst-slack fidelity over MLI-ext. in all 16 layout–budget conditions,                                                                                          generic tensor interpolation baseline; we do not establish equivalence
+while Binary has lower timing-tail error in ten. We therefore evaluate                                                                                          to a proprietary Calibre xRC kernel. Complete cells require 2d vertices,
+coverage, observation count, and downstream use together.                                                                                                       in d dimensions,
+                                                                                                                                                                                                         d
+   The contributions are (i) Full, a characterization-conditioned                                                                                                                          X             Y  ϵ
+predictor with gated fusion of numerical and learned residuals; (ii)                                                                                                           yb(x) =              yϵ     tjj (1 − tj )1−ϵj .       (2)
+                                                                                                                                                                                         ϵ∈{0,1}d        j=1
+a finite-distance compute-table population interface that preserves
+measurement entries, resistance and native query assembly; and                                                                                                  Physical data have rank one or two; four-dimensional evaluation is
+(iii) matched production-kernel comparisons connecting coverage                                                                                                 an implementation test only. OpenRCX comparison retains native
+sensitivity, measured layout queries, independent template references                                                                                           width selection, integer geometry and four-unit compute bins; a
+and extraction costs.                                                                                                                                           continuous-distance variant isolates quantization effects. General
+                                                                                                                                                                numerical predictors are component controls. For two-dimensional
+                                                    II. P ROBLEM AND R ELATED W ORK                                                                             FEM/transfer inputs, the first coordinate selects a characterized width
+                                                                                                                                                                slice using the native width map, and the second is separation within
+A. Rule-based capacitance evaluation                                                                                                                            that slice. Micrometer coordinates are rounded to integer units at scale
+                                                                                                                                                                1,000 for these kernel comparisons; distance indices use four-unit bins.
+  A rule is identified by process/corner, pattern family and layer                                                                                              Single-point and boundary slices return their characterized endpoint
+context. Characterization supplies geometry–capacitance samples.                                                                                                values. Each capacitance component uses this same scalar operator;
+A preparation stage builds internal lookup structures, after which                                                                                              this adaptation does not reproduce an arbitrary multidimensional
+extraction maps a layout request to a pattern/width and evaluates the                                                                                           extractor.
+corresponding distance response. Native quantization and boundary
+behavior are part of this algorithm.                                                                                                                            D. Related models and interfaces
+                                                                                                                                                                    AttentionCap predicts capacitance matrices from conductor/material
+                                                                                                                                                                tokens [7]; Flash-CNNCap predicts window contributions in a
+B. Measured off-grid demand
+                                                                                                                                                                three-dimensional DEF-to-SPEF workflow [8]. AttentionCap itself
+   Across two instrumented OpenRCX getters on eight unchanged                                                                                                   supports partial matrix-row supervision. Our component-supervised
+routed layouts, we record 9,888,586 calls and 19,562 unique                                                                                                     AttentionCap adaptation tests a specified observation budget and
+rule/geometry keys. The calls comprise 2,696,515 node hits, 4,547,424                                                                                           fitting recipe. Flash-CNNCap’s 3D window task is not converted
+non-node requests inside the selected width slice, 967,755 outside                                                                                              into a mismatched 2D speed ranking. ResCap corrects initial physical
+it, and 1,676,892 fringe/special requests. Raw non-node requests                                                                                                estimates [13]; hybrid PEX selects extraction methods by window [14].
+account for 55.77% of all logged calls and 67.16% of finite-distance                                                                                            Here the anchor uses current observations and fusion acts within a rule.
+calls (Fig. 2). Native width mapping and compute-grid quantization                                                                                              CNPs [15] and attentive neural processes [16] provide conditional
+send 849,663 raw non-node requests to effective characterization                                                                                                regression interfaces, and is evaluated as such.
+nodes. Ordered trace alignment matches geometry and original
+                                                                                                                                                                      III. E STIMATOR AND C OMPUTE -TABLE P REPARATION
+returned capacitances for all 8,211,694 finite getter calls. Full-support
+population changes 924,647 returns: 11.26% of finite calls and 9.35%                                                                                            A. Input Encoding and Contextual Representation
+of all logged calls. These are numerical changes, not measured                                                                                                     Given a characterized rule, let X = {xi }N
+                                                                                                                                                                                                            i=1 denote its candidate
+improvements against physical truth. The raw non-node, mapped-                                                                                                  geometry coordinates and O ⊆ {1, . . . , N } the observed character-
+node, and populated sets are not interchangeable.                                                                                                               ization indices. Each observation has a K-dimensional capacitance
+   The trace preserves SPEF electrical records on all layouts.                                                                                                  vector yi ∈ RK . The remaining coordinates form the query set
+Q = {1, . . . , N } \ O. The objective is to estimate capacitances         where fi,e,k denotes the candidate prediction. A validity indicator
+at unobserved geometries using only the available characterization         mi,e ∈ {0, 1} identifies whether candidate e is applicable to query i.
+samples and process context.                                               The complete dictionary contains eleven candidate branches, including
+   Input Encoding. We construct each geometric token from normal-          the anchor and two neural corrections.
+ized coordinates, process context, observed capacitances, observation        Neural Residual and Agreement-aware Gating. The Transformer
+status, and a numerical anchor. The normalized geometric coordinates       representation is mapped to a neural residual through a linear
+are                                                                        prediction head:
+                      ei = log (1 + xi ⊘ sx ) ,
+                      x                                            (3)                           ∆i,NN,k = wkT hi + bNN
+                                                                                                                      k .                   (10)
+where sx denotes the source-derived coordinate scales. The observed        An additional envelope-clipped residual is defined as
+capacitance vector is encoded as                                                           (
+                                                                                             clip(bi,k + ∆i,NN,k , Li,k , Ui,k ) − bi,k , xi ∈ Ω,
+               ei = oi (yi ⊘ sy ),
+               y                              oi = ⊮[i ∈ O],         (4)   ∆i,NN-Clip,k =
+                                                                                             ∆i,NN,k ,                                    xi ∈
+                                                                                                                                             / Ω,
+where sy contains the source-derived capacitance scales. The indi-                                                                             (11)
+cator oi distinguishes unobserved entries from observed zero-valued        where Ω denotes the characterized support hull and Li,k , Ui,k are the
+capacitances.                                                              corresponding component-wise envelope bounds.
+  Let c denote the process and structural context, including pattern          To characterize candidate agreement, we calculate the mean,
+family, metal-layer identity, adjacent-layer context, and material         standard deviation, and range of valid corrections:
+                                                  e i = bi ⊘ sy , the
+descriptors. With the normalized numerical anchor b                                             1 X
+geometric token is                                                                     µi,k =          mi,e ∆i,e,k ,                           (12)
+                                                                                               Ni e∈E
+                    figeo = [e
+                             xi ; c; y
+                                     e i ; oi ; b
+                                                e i ; tgeo ],        (5)                       s
+                                                                                                  1 X
+                                                                                       σi,k =            mi,e (∆i,e,k − µi,k )2 + ϵ,           (13)
+where tgeo = [1, 0] identifies a geometric token. Material tokens                                Ni e∈E
+encoding layer boundaries and relative permittivity are appended
+                                                                                         ri,k =       max ∆i,e,k −           min ∆i,e,k ,     (14)
+when available, with tmat = [0, 1]. Their observation and anchor                                  e:mi,e =1                e:mi,e =1
+channels are zero-filled.
+                                                                           where Ni = e∈E mi,e and ϵ = 10−12 . The gating input combines
+                                                                                         P
+   Contextual Representation. The concatenated token sequence F
+                                                                           these statistics with the contextual representation and label-blind
+is projected into a d-dimensional embedding and processed by a
+                                                                           support descriptors:
+Transformer encoder:
+ H(0) = FWin + bin ,         H(L) = Transformerθ (H(0) , Mpad ),           vi = [hi ; ui ; ϕ(µi ); ϕ(σ i ); ϕ(ri )], ϕ(z) = sign(z) log(1+|z|),
+                                                              (6)                                                                              (15)
+where Mpad masks padded tokens. We use L = 2 layers, four                  where ui contains support density, nearest-observation distance, local
+attention heads, and d = 64 hidden dimensions. The contextual              span, hull membership, support-region indicators, affine rank, width
+representation of query i is                                               validity, coordinate coverage, and local variation, slope, and curvature
+                                                                           features.
+                                       (L)
+                            hi = Hi          ∈ Rd .                  (7)      A two-layer MLP generates candidate-specific logits with a hidden
+                                                                           dimension of 32:
+The resulting representation captures the relationships among observed
+geometries, queries, and material context, and is shared by the residual                 ai = Wg,2 ReLU(Wg,1 vi + bg,1 ) + bg,2 .             (16)
+prediction and gating modules.
+                                                                           The logits are combined with learnable candidate priors βe and a
+B. Observation-Conditioned Residual Gating                                 learnable temperature τ = softplus(θτ ) + 10−3 . The component-wise
+   The estimator combines a numerical anchor with classical and            gating weights are obtained by a validity-masked softmax:
+learned correction candidates. A component-wise gating network de-
+                                                                                                         mi,e exp((ai,e,k + βe )/τ )
+termines their contributions according to the contextual representation,                 πi,e,k = P                                     .     (17)
+support geometry, and candidate agreement.                                                              j∈E mi,j exp((ai,j,k + βj )/τ )
+
+   Numerical Anchor and Correction Basis. For query xi , let               The anchor and neural branches are initialized without prior suppres-
+bi,k denote the numerical anchor for capacitance component k.              sion, whereas classical non-anchor corrections start with a negative
+It is obtained through piecewise-linear interpolation for rank-one         logit offset.
+support, simplex interpolation within higher-rank support, and nearest-       Residual Fusion. The final capacitance estimate is obtained by
+observation fallback outside the higher-rank interpolation hull or under   fusing the anchor with the weighted corrections:
+degenerate configurations.                                                                                   X
+   We construct a correction dictionary                                                       yei,k = bi,k +   πi,e,k ∆i,e,k .             (18)
+                                                                                                                 e∈E
+ E = {Anchor, PCHIP, WidthLinear, GPℓ,λ , NN, NN-Clip}, (8)
+                                                                           To enforce non-negative capacitance, the output is projected onto the
+where ℓ ∈ {0.5, 1, 2} and λ ∈ {10−6 , 10−4 } define six RBF-GP             non-negative domain:
+configurations. PCHIP and width-aligned interpolation are activated                 "
+                                                                                            X
+                                                                                                              #
+only when their support requirements are satisfied.                          ybi,k = bi,k +     πi,e,k ∆i,e,k   ,     [z]+ = max(0, z). (19)
+   Each applicable candidate is represented by its correction relative                          e∈E                    +
+to the common anchor:
+                                                                           All predictions are represented in source-normalized units and are
+            ∆i,e,k = fi,e,k − bi,k ,           ∆i,Anchor,k = 0,      (9)   converted back to physical units using sy .
+  Ungated uses [b + rNN ]+ and Binary uses [b + αrNN ]+ with                Algorithm 1: Native Compute-Table Population
+component-wise 0 ≤ α ≤ 1. Binary retains support descriptors                    Input   : Rule R; real samples S; frozen members {Fθ(m) }3m=1 ; scales
+but removes numerical corrections, NN-Clip, and agreement features.                      (sx , sy ); native constructor C
+                                                                              Output : Prepared native compute table T
+These separately trained models have their own neural parameters,           1 RS ← RetainAvailableSamples(R, S)
+so their differences do not isolate a single gate coefficient. Full’s       2 T ← C(RS )
+weights normalize over valid candidates, but candidate validity is          3 J ← SortByCoordinate(EligibleSlots(T , R, S))
+                                                                            4 while J ̸= ∅ do
+not accuracy; agreement is neither calibrated uncertainty nor a no-         5  Jb ← TakeNext(J , 32)
+regression certificate.                                                     6  Qb ← (qj )j∈Jb
+                                                                            7  (Fb , Db , Ib , Mpad ) ← Encode(S, Qb , R, sx , sy )
+C. Native Compute-Table Population                                          8  foreach frozen member m = 1, 2, 3 (eval mode) do
+                                                                            9     Hb ← Transformerθ(m) (Fb Win + bin , Mpad )
+   The estimator is integrated into the native rule-based extraction       10     foreach i ∈ Unique(Ib ) do
+flow by populating eligible internal capacitance entries during prepa-     11       bi ← Anchor(Db , i)
+                                                                           12       (∆i , mi , ui ) ← ResidualBasisθ(m) (Hb [i], Db , i)
+ration. The original compute-table constructor, runtime getters, and       13       (µi , σ i , ri ) ← Agreement(∆i , mi ; 10−12 )
+downstream parasitic-network assembly are retained.                        14       ai ← Gateθ(m) ([Hb [i]; ui ; ϕ(µi ); ϕ(σ i ); ϕ(ri )])
+   Compute-Table Preparation. Let T denote the native distance             15       π i ← MaskedSoftmaxe (ai + β, mi , τ )
+                                                                                      (m)              P
+compute table constructed for rule descriptor R. Each table slot j is      16       y
+                                                                                    bi     ← [bi + e∈E π i,e ⊙ ∆i,e ]+
+
+associated with a represented geometry coordinate qj and a composite       17      b (m) ← Rescale((b
+                                                                                   Y
+                                                                                                          (m)
+                                                                                                        yi(j) )j∈Jb , sy )
+                                                                                      b
+key containing process/corner, rule identity, pattern family, routing            bb ← 1
+                                                                                 Y
+                                                                                           P3     b (m)
+                                                                           18            3  m=1 Yb
+layers, mapped width, slot index, separation, output components, and       19    b b ← RestoreExactObservations(Y
+                                                                                 Y                                       b b , S, Qb )
+units.                                                                     20    b native ← CheckedNativeValues(Y
+                                                                                 Y                                      b b , R)
+                                                                                   b
+   The eligible slot set is                                                21    TJCc,Cf ← Yb native [:, Cc, Cf]
+                                                                                              b
+                                                                                    b
+                                                                         22    J ← J \ Jb
+                    j is finite and non-sentinel,                        23 return T
+   J = j ∈ T : j has a unique source-rule match,               , (20)
+                     j belongs to an eligible pattern family
+                                                            
+
+where the eligible families are OVER, UNDER, and OVERUN-                   hull, then subtracts the anchor. Both neural masks are valid; nonfinite
+DER. Rule matching uses source, family, layer context, corner, and         corrections become zero.
+ordered geometry; hidden capacitances never determine eligibility.            Agreement computes valid-only component-wise mean, standard
+Measurement-bin collisions, special tails, unsupported paths, and          deviation and range. Gate implements (15)–(16); masked softmax
+resistance entries are excluded. Supplied measurement values and           sets invalid logits to −109 before division by τ = softplus(θτ ) +
+native measure-table return paths remain unchanged.                        10−3 . All parameters, including priors and temperature, belong to the
+   Predictions are evaluated at the coordinates represented by the         current frozen member. CheckedNativeValues converts units and
+eligible slots, rather than at arbitrary runtime requests. The avail-      validates finite, nonnegative predictions before writing only eligible
+able characterization support S is retained throughout preparation;        coupling/fringe fields. Observations, resistance, special tails and native
+generated values are never reused as observations. For sparse-native       return paths remain unchanged; S never includes predictions.
+evaluation, hidden rows are physically removed before the native              The prepared table is subsequently consumed by the unchanged
+constructor runs. The original full-support experiment is reported         native getters, which retain width selection, coordinate mapping, and
+separately. Native-sparse and all three injection arms share the same      compute-grid quantization. Resistance evaluation and RC-network
+sparse rules and resulting canonical grid; unsupported rules remain        assembly are unaffected. We evaluate unmodified extraction, interface-
+identical across arms. Hidden capacitances therefore cannot return         disabled extraction, native-value pass-through, Full injection, and
+through the native getter or its boundary fallback.                        Binary injection as an ablation control. A separate trace build verifies
+   Population and Native Evaluation. Algorithm 1 summarizes the            getter values, while the release build leaves the original getter
+preparation procedure. The eligible slots are processed in deterministic   implementations unchanged.
+coordinate order using query chunks of 32. Only coupling and fringe           The pinned public API defers table loading until extraction.
+capacitance fields are updated. Resistance, original characterization      Therefore, the first inventory extraction is included in the preparation
+entries, and special returns remain native.                                cost, rather than treated as a free rule-only operation. Preparation and
+   Algorithm operations. EligibleSlots applies (20) to initialized slots   native extraction costs are measured and reported separately.
+within one process/corner, pattern, layer and mapped-width context,
+                                                                                                     IV. E XPERIMENTAL S ETUP
+requiring at least four original candidate samples, using the available
+capped budget, no sentinel tail or measurement-bin conflict, and native    A. Data and training
+interior-bin eligibility. Sorting uses represented separation and then        Table I summarizes the datasets and source-training budgets. FEM
+full slot key; qj is the slot geometry in model units. Encode orders       data cover FreePDK15 and ASAP7; cross-process prediction trains
+unique support tokens before query tokens, appends material tokens,        and selects on FreePDK15 and evaluates on ASAP7. The 84 native
+caches scaled support state Db , and maps slots to query indices i(j)      holdout tables are excluded from source fitting and selection. Learned
+through Ib .                                                               completion predictions average three trained members. The raw
+   ResidualBasis assembles Anchor, PCHIP, WidthLinear, six RBF-            public inventory has 1,713 tables. Reserving 84 native holdouts
+GPs, NN and NN-Clip. Anchor has zero correction and is always              leaves 1,061 fitting and 247 selection tables, reduced by exact-curve
+valid; PCHIP requires single-width support, and WidthLinear requires       deduplication to 1,051 and 246. The retrospective confirmation cohort
+aligned brackets or an exact hit. Nonfinite numerical predictions are      retains the original 341 test tables (340 unique curves, 338 budget-
+masked. NN uses the residual head; NN-Clip clips the completed             eligible), including 20 tables later reserved for native evaluation.
+value to the support envelope only inside the observed affine space and    These protocols therefore do not provide independent confirmation
+                                       Table preparation                                                               Native extraction
+
+
+                                       Native table                                                                  Native                   RC /
+     Characterized S                                                          computeTable
+                                       construction                                                                  getter                   SPEF
+
+                              Keep measurements, R and special paths
+
+                                                                                                                     Layout Q
+                                               Full                             Eligible
+                                     same S, canonical slot Q*                  capacitances
+
+
+
+
+Fig. 3. Native compute-table population interface. The original constructor receives the available samples S (hidden rows are removed in the sparse protocol)
+and generates the native evaluation structure, after which the preparation hook selectively updates eligible coupling and fringe capacitance entries. Supplied
+measurements, resistance entries, and special return paths are preserved. Runtime layout queries continue to use the original getters and parasitic-network
+assembly.
+
+
+populations. Confirmation scores reused for the present default-                                                TABLE I
+selection and mechanism analysis are post-hoc evidence.                                DATA AND SOURCE - TRAINING OPPORTUNITIES . C OUNTS ARE
+                                                                                 FITTING / SELECTION / CONFIRMATION TABLES . P UBLIC INVENTORY SIZE IS
+   Full/Binary/Ungated optimize source-scaled component Huber loss
+                                                                                  1,713; K DENOTES 1,000 UPDATES . M ATCHED UPDATES APPLY TO F ULL
+(δ = 1), with one sampled episode per family per update, uniform                                 AND ITS B INARY /U NGATED ABLATIONS .
+family weights, AdamW learning rate 2 × 10−4 and weight decay
+10−4 . The frozen recipe uses gradient clipping at 1, no dropout,                                                 Public         FEM        Transfer
+two Transformer layers of width 64, four heads, and gate hidden                       Geometry rank               1            2            2
+width 32. Source residual initialization and source-fitted scales are                 Components         coupling, ground lateral, ground, diagonal
+reused; the residual initializer itself has 2k source-only updates in each            Units                native/length     F/m          F/m
+domain, in addition to the reported 24k/12k fusion stages. The final                  Fit/select/confirm  1051/246/340 16/24/16          8/12/8
+                                                                                      Fit/confirm nodes      variable      153/128      153/128
+prescribed step is retained. MLP/CNP use 3k updates, three members                    Budgeted tables           338           16            8
+and source selection over learning rates 10−3 and 3 × 10−4 ; MLP                      Matched updates           24k          12k          12k
+adaptation is selected from 0/50/200 steps. Adapted AttentionCap                      MLP/CNP updates            3k           3k           3k
+uses 3k updates with batches of up to 32 geometries, three members                    Adapted AC updates         –            3k           3k
+and the same learning-rate/adaptation grid. Its supervision is the
+three task components, not complete capacitance matrices. These
+are documented, unequal training opportunities; identical B matches             include Anchor, source-validation-selected GP, affine interpolation,
+target observations, not total source training or tuning cost.                  PCHIP, and IDW. Full is the proposed method; Binary and Ungated
+   Three bounded controls test the fusion mechanism. C1 learns a                are matched ablation controls. Binary retains only anchor/neural
+numerical-only gate over Anchor, PCHIP, WidthLinear, and six GPs,               fusion, whereas Ungated adds the neural residual to the anchor
+retaining numerical/support features and agreement but removing the             without gating. The ablations share Full’s source-training pools, update
+Transformer state, NN, and NN-Clip. C3 retains Full’s other inputs              budgets, and ensemble size. MLP and adapted AttentionCap [17]
+and candidates and is retrained without agreement features. Both use            use 200 and 50 support-fitting steps, respectively, selected on source
+three members, the original source pools, sampler, optimizer, and               validation; CNP conditions directly on support. AttentionCap retains its
+24k/12k final-stage budgets, without a new tuning grid. C1 retains              Transformer/symmetric head and supervises the same three capacitance
+the source scales and gate priors but has no pretrained neural trunk            components.
+to initialize after that trunk is removed. C2 instead freezes each Full
+                                                                                   Independent FEM evaluation uses 71 layout-parameterized tem-
+member’s candidate outputs and fits fixed nonnegative component-
+                                                                                plates from six ASAP7 M4/M5 contexts, with 153 characterization
+wise weights on source fitting data, renormalized over valid candidates
+                                                                                samples per context. Logged widths and spacings define symmetric
+at inference. A single frozen recipe uses three 30%-holdout protocols
+                                                                                equal-width side conductors, finite grounded planes, and an exterior
+per source table, seed 11, family/table-balanced Huber loss, and 300
+                                                                                grounded boundary. Support and query geometries share materials and
+Adam steps at 0.05; source selection is evaluated before confirmation.
+                                                                                boundary conditions; Maxwell matrices provide ground and summed
+C2 is a post-hoc intervention on learned candidates, not a retrained
+                                                                                lateral capacitance in F/m.
+fixed-fusion architecture or an exhaustive search over mixtures.
+                                                                                   Native extraction uses AES and Ibex on ASAP7, GF180, IHP
+B. Evaluation protocols and baselines                                           SG13G2, and Sky130HS with OpenROAD 0b54bb3203 and fixed
+   Coverage sensitivity uses random, block, and boundary masks                  layouts, libraries, and constraints. The archived compute-table study
+at 10/30/50/70% holdout with seeds 11/29/47/71/101 and shared                   uses full characterization. The new sparse-native study instead
+support/query sets across methods. The fixed-query budget study uses            constructs each affected rule from the same B = 4/8 farthest-point
+B = 4, 8 for public tables and B = 4, 8, 16, 32, 64 for FEM and                 support (seeds 11/29/47) before any injection. Its four arms are Native-
+transfer.                                                                       sparse, MLI-ext.-native, Binary-native, and Full-native. Geometry-
+   The primary baselines are the OpenRCX kernel and specified MLI;              only matching identifies 72 finite held-out rules (38/7/17/10 across
+MLI-ext. adds support-only sparse completion. Numerical controls                ASAP7/GF180/IHP/Sky130HS); 12 short, diagonal or special rules
+                            TABLE II                                        both on FEM Out/random at 30% holdout; their paired gap intervals
+   BASELINE - IMPROVEMENT CONSISTENCY OVER ALL 60 CONDITIONS .              are [−0.02828, 0.00923] and [−0.03334, 0.00552]. Intervals overlap
+ S TRICT WINS USE UNROUNDED ERRORS ; R = E/ min(EORCX , EMLI )
+                                                                            zero in 2/50, 4/55, and 1/60 point-improved cells for Ungated, Binary,
+AND G = 1 − R. T HE STRONGER BASELINE IS AN ANALYSIS REFERENCE ,
+NOT A DEPLOYABLE ORACLE . F LOAT 32- SCALE TOLERANCE YIELDS THE             and Full. These correlated exploratory intervals are not independent
+                   SAME THREE - VARIANT COUNTS .                            significance tests or a multiple-comparison guarantee.
+                                                                               Ungated’s largest regression is Transfer In/random at 50% holdout
+        Method ORCX MLI-ext.          Both Worst R     Min. G               (0.068591 versus 0.038578); Binary also regresses there (0.052029).
+        Ungated    54/60      52/60 50/60     1.7780 -77.80%                Both additionally regress on FEM and Transfer In/block at 10%
+        Binary     58/60      55/60 55/60     1.3487 -34.87%                holdout. These cases are consistent with inaccurate residual corrections
+        Full       60/60      60/60 60/60     0.9475   5.25%                when the support-derived baseline is already accurate, but separately
+                                                                            trained residuals prevent a causal attribution to suppression alone.
+                                                                            Conversely, simple corrections can be more accurate when additional
+remain unchanged in every arm. Constant resistance in participating         fusion is unhelpful. All successes and regressions remain in the
+rules permits row removal without changing resistance. This caps            evaluation.
+capacitance observations per affected rule, not the entire library             Binary is locally better than Full in 11/60 cells and Ungated in 5/60.
+characterization cost. Sparse support determines the common canonical       Binary wins include public block/interpolation and several boundary
+grid and native fallback; all original hidden rows are removed. Rule-       cases; Ungated wins include public In/block at 30/50% and FEM
+export fidelity compares MLI-ext., the OpenRCX kernel, and Full             Boundary at 50/70%. These outcomes are retained alongside baseline-
+at B = 4/8 with shared farthest-point support and seeds 11/29/47;           regression cases.
+budgets are capped by available candidates. The 83 eligible held-out           At 30% characterization holdout, Full improves over the Binary
+tables are completed, with other tables retained. Rule-export timing        ablation in 13/15 conditions and all five FEM conditions. FEM
+uses B = 8 and seed 11. Full-rule extraction supplies the reference         in-support random/block errors are 0.0103/0.0366 versus Binary
+for net-capacitance and timing fidelity.                                    0.0387/0.0560. Public Full/Binary block errors are 0.0678/0.0701,
+                                                                            while Ungated reaches 0.0645. These observations justify component
+C. Metrics                                                                  analysis rather than a universal benefit from a larger gate.
+  For component group g, normalized error is
+                       vP                                                   B. Residual mechanisms and support conditions
+                       u i∈Qg (b  yi − yi )2
+                       u
+                                                                               Candidate outputs, validity, member-wise weights, weighted correc-
+                  Eg = t     P         2
+                                             .                      (21)
+                                i∈Qg yi
+                                                                            tions, support counts, affine rank, and hull descriptors are recorded
+                                                                            before an independent scorer reads query labels. Eight illustrative
+Groups with nonzero reference energy enter the macro-average. Cover-        conditions are selected by a fixed post-hoc rule: each domain’s smallest
+age scores average process/family/component groups and then masks;          Full margin, each simplified variant’s worst baseline ratio, and its
+paired uncertainty resamples public split groups or FEM/transfer            largest absolute advantage over Full, merging duplicates. All 60
+process–layer groups, keeping correlated queries and masks together.        cells remain scored. Diagnostic direction and SSE summaries pool
+The 60 condition counts are descriptive, not 60 independent tests.          query/component/member occurrences within their stated valid sets;
+FEM/transfer have only four/two layer groups, limiting interval             they are not the macro NRMSE used for condition-level comparisons.
+interpretation; physical scores average family/component groups.               On Transfer In/random at 50% holdout, the rank-two support has
+Fixed-query budget scores pool data seeds before group normalization.       64 samples. Ungated’s residual points against the required anchor
+Support-protocol scores average member-wise, group-balanced errors.         correction on 19.97% of component occurrences and exceeds twice its
+Preparation and native extraction costs are timed separately.               required magnitude in the correct direction on 68.28%. Binary’s mean
+                                                                            neural coefficient is 0.547; its gate reduces pooled SSE to 0.414 of its
+                             V. R ESULTS
+                                                                            own unscaled residual candidate, yet the final error still exceeds the
+A. All four characterization holdouts                                       stronger kernel. Thus suppression helps that candidate without ensuring
+   Figure 4 includes all 60 domain–holdout–condition cells. Full has        sufficient accuracy. Full can also use different corrections: WidthLinear
+lower error than the OpenRCX kernel, MLI-ext., and Binary in 60,            is valid on 59.64% of query occurrences and has pooled SSE 0.010
+60, and 49 cells, respectively. The kernels share 21,840 feasible           of the anchor on that subset; the unit-length, 10−6 -ridge GP has SSE
+support/query episodes. Complete MLI cells cover 20.64% of query            0.269 of the anchor. These observations support complementarity as
+occurrences after explicit boundary-status reconciliation; the remainder    a hypothesis, rather than treating a large gate weight as causal proof
+use the declared boundary or sparse-support extension. The inventory        of benefit.
+flags 11,245 repeated rounded S/Q episodes, which are not additional           The narrow-margin Transfer In/block case at 10% has 115 ob-
+independent evidence. Full numerical controls are retained.                 servations, yet incomplete local support remains difficult. Full’s
+   Full is the only one of the three matched variants whose condition-      GP candidates each have larger pooled SSE than the anchor (ra-
+level point estimates improve over both kernel baselines in every           tios 1.26–3.36), while Full still improves condition-level macro
+tested cell (Table II). This motivates its unified default status, rather   NRMSE. Candidate diversity alone therefore does not explain success:
+than requiring it to minimize every metric. Its narrowest margin            conditional/component-specific fusion, error cancellation, and different
+is Transfer In/block at 10% holdout: 0.064318 versus the stronger           metric weighting remain possible. Agreement is not a calibrated
+baseline 0.067879, a 5.25% reduction. The paired error-difference           reliability score.
+interval is [−0.01098, 0.00534] under a 1,000-replicate layer-group            Local simplified wins show the other side. Public In/block at 50%
+bootstrap; with only two independent layer groups, this is descriptive      has only six or seven rank-one observations: Ungated/Binary/Full
+uncertainty, not evidence that regression risk has been eliminated. The     errors are 0.07041/0.07307/0.08493. Full assigns mean valid weights
+smallest positive Ungated and Binary margins are 0.60% and 3.01%,           0.620/0.327 to Anchor/NN-Clip and almost no weight to PCHIP,
+                                              MLI + sparse extension               OpenRCX kernel           Ungated          Binary         Full
+
+
+                                 In/random                      In/block                      Out/random                   Out/block                      Boundary
+                                                    100                                                         100                              0
+                                                                                                                                            10
+ Public NRMSE
+
+
+
+
+                  10−1
+
+                                                    10−1
+                                                                                10−1                         10−1                       10−1
+
+
+
+
+                                                                                                                100
+                                                                                   100
+ FEM NRMSE
+
+
+
+
+                       −1
+                  10
+
+                                                    10−1
+
+                  10−2                                                          10−1
+                                                                                                             10−1                       10−1
+
+
+
+                                                                                                                100
+ Transfer NRMSE
+
+
+
+
+                                                                                   100
+                  10−1
+
+
+                                                    10−1
+                                                                                10−1
+                  10−2                                                                                       10−1                       10−1
+                            10    30   50      70          10   30       50   70         10    30    50    70         10   30   50     70            10   30   50    70
+
+                                                                     Requested characterization holdout (%)
+
+
+Fig. 4. Coverage sensitivity: all 10/30/50/70% holdouts, three domains and five support/protocol conditions. Mean-mask macro NRMSE on common feasible
+S/Q; Full and its Ungated/Binary ablations each average three matched members. MLI-ext. identifies the specified core plus declared sparse-support/boundary
+extension. No curve uses the native census to set holdout. Complete-cell coverage, rounded duplicates and full numerical controls are reported separately.
+
+
+                             TABLE III                                                          The frozen-candidate fixed mixture (C2) improves both kernels in
+C OMPLETED BOUNDED CONTROLS , SAME 60 CONDITIONS AND ORIGINAL                                   51/60 cells and has worst ratio 12.4429, versus Full’s 0.9475. This
+ MEAN - MASK MACRO ERRORS . ∗ B OTH SHOWS STRICT / TOLERANCE WIN
+                                                                                                intervention supports adaptive weighting relative to the tested source-
+COUNTS , EACH OUT OF 60. W ORST R USES THE STRONGER KERNEL ; MEAN
+E IS THE UNWEIGHTED MEAN OF THE 60 CELL ERRORS . C2 USES FROZEN                                 fitted mixture, not superiority over every possible fixed mixture or a
+                CANDIDATES ; C1/C3 ARE RETRAINED .                                              retrained fixed-fusion architecture.
+
+                   Method               Both∗ Worst R Mean E Beats Full                            Removing agreement with matched retraining (C3) yields 59/60
+                   Full                     60/60     0.9475    0.0879            –             strict improvements (59/60 with tolerance), worst ratio 1.0359, and
+                   C2: fixed fusion         51/51    12.4429    0.4285         1/60             26/60 local wins over Full. The unweighted means of condition errors
+                   C1: numerical gate       29/23     6.2401    0.5187         8/60             are 0.09022 for C3 and 0.08786 for Full. This provides conditional
+                   C3: no agreement         59/59     1.0359    0.0902        26/60             evidence for agreement in this training recipe, without establishing
+                                                                                                its necessity in other settings. These source-trained interventions
+                                                                                                remain post-hoc analyses of correlated confirmation conditions, not
+although PCHIP’s pooled SSE is 0.283 of the anchor. On FEM                                      independent evidence of a safety guarantee.
+Boundary at 70%, Ungated’s correction has the wrong direction on
+only 1.68% of occurrences and its error 0.10271 is below Full’s                                    Table IV separates complete cells, sparse extensions, and clamped
+0.12387. These results are consistent with useful simple corrections                            boundaries. Direct status replay classifies 35,362 of 171,315 query
+being diluted, but separately trained residuals and observational                               occurrences as complete cells (20.64%). The archived 20.71% count
+weights do not identify that as the sole cause.                                                 included 120 singleton-support requests from two all-zero two-node
+   Table III reports all 60 conditions. Numerical-only gating (C1)                              tables; their query lies outside the constant support and is now
+improves over both kernels in 29/60 cells under strict comparison                               explicitly classified as clamped. Returned values and all aggregate
+(23/60 with the same numerical tolerance), with worst ratio 6.2401; it                          MLI errors are unchanged. Full improves over MLI in all eight Public
+is locally better than Full in 8/60. This supports the combined neural                          complete-cell conditions, but only three of four FEM and two of four
+representation/candidate pathway under this recipe, while preserving                            Transfer complete-cell conditions. Most exposure uses sparse extension
+numerical-only local wins. C1 removes the Transformer state and                                 or boundary handling, so the overall result cannot be attributed solely
+both neural candidates together, so it does not isolate each element.                           to multilinear interpolation’s complete-cell core.
+                                                             TABLE IV
+      MLI STATUS AND SUPPORT- REGION DIAGNOSTICS . Q UERIES COUNT REPEATED MASK OCCURRENCES ; ERRORS AVERAGE THE AVAILABLE
+CONDITION - LEVEL MEAN - MASK MACRO NRMSE WITHIN EACH STRATUM . D IFFERENT STRATA HAVE DIFFERENT COVERAGE AND THESE MEANS DO NOT
+                                          RECOMBINE BY SIMPLE QUERY- COUNT WEIGHTING .
+
+
+                              Domain     Status              Region     Queries      MLI      Ungated    Binary     Full
+                              Public     Complete cell       inside       32482    0.2764      0.0761    0.0735   0.0731
+                              Public     Clamp               outside      65033    0.6095      0.1151    0.1083   0.1059
+                              FEM        Complete cell       inside        1920    0.0884      0.0872    0.0687   0.0371
+                              FEM        Clamp               outside      11280    0.6561      0.1628    0.1445   0.1489
+                              FEM        Sparse extension    inside       25424    0.1367      0.0678    0.0498   0.0275
+                              FEM        Sparse extension    outside      10576    0.5508      0.1594    0.1452   0.1194
+                              Transfer   Complete cell       inside         960    0.0856      0.0951    0.0762   0.0551
+                              Transfer   Clamp               outside       5640    0.6454      0.1410    0.1376   0.1359
+                              Transfer   Sparse extension    inside       12712    0.1345      0.0756    0.0575   0.0421
+                              Transfer   Sparse extension    outside       5288    0.5412      0.1376    0.1310   0.1209
+
+
+                                                            TABLE V
+     R ETAINED NUMERICAL CONTROLS AT 30% HOLDOUT, REAGGREGATED FROM THEIR ORIGINAL RECORDS . M EAN - MASK MACRO NRMSE; THE
+    SOURCE - SELECTED AFFINE CONTROL AND FIXED RBF-GP/PCHIP/IDW RECIPES RETAIN THEIR ORIGINAL DEFINITIONS . T HESE ARE SEPARATE
+                                  NUMERICAL METHODS , NOT AN ORACLE CHOSEN USING TARGET ERRORS .
+
+
+                         Domain     Queries       Anchor    Affine     RBF-GP     PCHIP      IDW     Ungated   Binary      Full
+                         Public     In/random     0.1286    0.2062      0.4011    0.1070    0.1911    0.0875   0.0850   0.0803
+                         Public     In/block      0.2812    0.4324      0.2490    0.1891    0.2733    0.0645   0.0701   0.0678
+                         Public     Out/random    0.5531    0.4766      0.9120    0.5531    0.6235    0.0965   0.0954   0.0910
+                         Public     Out/block     0.9546    0.5588      3.5596    0.9546    1.5155    0.1455   0.1420   0.1391
+                         Public     Boundary      1.1867    0.6503      4.6800    1.1867    1.9906    0.1675   0.1629   0.1620
+                         FEM        In/random     0.0208    0.0389      0.0116    0.0389    0.1337    0.0529   0.0387   0.0103
+                         FEM        In/block      0.1286    0.1579      2.8414    0.0997    0.9631    0.0885   0.0560   0.0366
+                         FEM        Out/random    0.0606    0.0621      1.0237    0.2220    3.7321    0.1336   0.1303   0.0895
+                         FEM        Out/block     0.6542    0.3374     18.3431    0.9767    5.2144    0.1867   0.1479   0.1203
+                         FEM        Boundary      0.5663    0.2376     17.6758    0.6691    3.8558    0.1761   0.1388   0.1137
+                         Transfer   In/random     0.0205    0.0381      0.0113    0.0384    0.1331    0.0588   0.0432   0.0159
+                         Transfer   In/block      0.1246    0.1542      2.5309    0.0974    0.9024    0.0868   0.0640   0.0531
+                         Transfer   Out/random    0.0595    0.0594      0.8194    0.2173    3.1647    0.1172   0.1124   0.0877
+                         Transfer   Out/block     0.6374    0.3288     16.0145    0.9562    4.7812    0.1482   0.1291   0.1358
+                         Transfer   Boundary      0.5580    0.2364     15.5718    0.6574    3.5543    0.1172   0.1037   0.1073
+
+
+
+C. Task-specific interpolation under fixed budgets                           0.0386 on transfer.
+                                                                                Target fitting and numerical interpolation remain strong alternatives
+   Field-solver surrogates learn geometry-to-capacitance mappings,
+                                                                             in specific regimes. At FEM B = 4, adapted MLP achieves
+whereas rule interpolation must use the characterized response of the
+                                                                             0.0515 versus Full’s 0.1233; at transfer B = 64, MLP/GP achieve
+current process. We evaluate this distinction with identical observed
+                                                                             0.0264/0.0271 versus Full’s 0.0386. The full-support physical controls
+geometries and sealed queries, pooling three data seeds before
+                                                                             likewise favor Anchor (0.00451) over direct Full (0.01675); their
+group normalization. Full keeps its learned parameters fixed; adapted
+                                                                             complete tables remain in the extended paper. Our design therefore
+AttentionCap retains its geometry/material Transformer and symmetric
+                                                                             targets conditional completion from limited characterization, with
+head and fits the target capacitance components using the same
+                                                                             learned values prepared before native lookup. The following subsection
+support [7], [17]. Figure 5 reports the fixed-budget comparisons.
+                                                                             evaluates the resulting extraction cost.
+   Full outperforms CNP in all 12 available domain–budget settings
+and adapted AttentionCap in all ten FEM/transfer settings. On FEM,
+                                                                             D. Downstream fidelity and native extraction cost
+increasing B from 4 to 64 reduces Full’s error from 0.1233 to 0.0250,
+compared with 0.4546 to 0.1657 for adapted AttentionCap. On transfer,           In the fixed-node rule-export protocol at B = 4/8, Full reduces
+the corresponding errors are 0.1182 to 0.0386 for Full and 6.8753 to         net-capacitance and worst-slack errors relative to each kernel in all
+0.1791 for adapted AttentionCap. Public Full achieves 0.0708/0.0609          16 layout–budget settings (Table VII). Against either baseline, TNS
+at B = 4/8, compared with CNP’s 0.2650/0.2374.                               deviation decreases in 13 settings and remains zero for both methods in
+   These comparisons support a representation tailored to                    three. The two kernels use the same operators as Figure 4, evaluated
+characterization-conditioned interpolation. The numerical anchor             here on one-dimensional rule tables with shared characterization
+incorporates the observed target response, while residual fusion             support, and yield similar downstream errors.
+combines source-trained corrections with applicable support-derived             Against MLI-ext., for GF180/IBEX at B = 8, capacitance NRMSE
+estimates. The advantage over the adapted matrix predictor shows             decreases from 0.0161 to 0.00348, |∆WS| from 38.25 to 8.14 ps,
+that geometry-to-matrix modeling does not automatically provide an           and |∆TNS| from 52.74 to 11.77 ns. Figure 6 shows both kernel
+accurate rule-completion model under sparse characterization. The            comparisons across four IBEX layouts. Mean endpoint error falls by
+Ungated ablation further tests the role of fusion: at B = 64, Full           77.8–91.1% relative to either baseline, with improvements in all 12
+reduces error from 0.0609 to 0.0250 on FEM and from 0.0814 to                process–seed pairs for each comparison.
+                                                        Full                   Ungated                         Selected GP           Adapted AC
+                                                        Binary                 MLP (adapted)                   CNP
+
+
+
+                                           Public                                                          FEM                                           Transfer
+               4 × 10−1
+               3 × 10−1
+ Macro NRMSE
+
+
+
+
+               2 × 10−1                                                                                                               100
+
+                                                                               10−1
+
+                  10−1                                                                                                               10−1
+
+
+               6 × 10−2
+                          4                                              8                4      8     16    32               64             4         8     16    32     64
+                                  Observed samples B                                           Observed samples B                                    Observed samples B
+
+
+Fig. 5. Fixed-budget comparison including source-selected GP, target-adapted MLP, CNP, component-supervised adapted AttentionCap (AC), and all three
+variants. Pooled-replicate macro NRMSE (log scale; lower is better) on the same B observed geometries and sealed queries. Public evaluations use B = 4/8;
+adapted AC is unavailable there. Transfer targets ASAP7.
+
+                                                           TABLE VI
+S TRONG NUMERICAL AND LEARNED CONTROLS AT FIXED BUDGETS ; UNCHANGED POOLED - SEED MACRO NRMSE. N O TARGET- QUERY ORACLE SELECTS
+                                                  AMONG NUMERICAL METHODS .
+
+
+                                               Domain        B      Anchor         GP     PCHIP       Affine     MLP     Ungated   Binary     Full
+                                               Public        4       0.4229    0.3887     0.3906      0.4266    0.2860    0.0776   0.0793   0.0708
+                                               Public        8       0.3689    0.4013     0.3460      0.3532    0.2599    0.0682   0.0648   0.0609
+                                               FEM           4       0.3391    0.2767     0.3391      0.2602    0.0515    0.1100   0.1315   0.1233
+                                               FEM           8       0.2752    0.1633     0.2752      0.2253    0.0420    0.0917   0.0947   0.0925
+                                               FEM           16      0.1525    0.0543     0.1525      0.1709    0.0316    0.0681   0.0565   0.0409
+                                               FEM           32      0.0942    0.0354     0.0942      0.0986    0.0252    0.0657   0.0537   0.0332
+                                               FEM           64      0.0444    0.0280     0.0444      0.0615    0.0248    0.0609   0.0491   0.0250
+                                               Transfer      4       0.3358    0.2734     0.3358      0.2572    0.0477    0.1410   0.1153   0.1182
+                                               Transfer      8       0.2698    0.1584     0.2698      0.2217    0.0366    0.1282   0.0961   0.1034
+                                               Transfer      16      0.1500    0.0526     0.1500      0.1682    0.0310    0.1069   0.0762   0.0685
+                                               Transfer      32      0.0897    0.0341     0.0897      0.0969    0.0272    0.0954   0.0700   0.0495
+                                               Transfer      64      0.0435    0.0271     0.0435      0.0601    0.0264    0.0814   0.0611   0.0386
+
+
+
+                              TABLE VII                                                                                              TABLE VIII
+RULE - EXPORT FIDELITY: F ULL ERROR REDUCTION (%) RELATIVE TO EACH                                        F ULL - CHARACTERIZATION COMPUTE - TABLE PATH , F ULL : FULL - RULE
+  KERNEL , SHOWN AS B = 4/8. C: CAPACITANCE NRMSE; WS/TNS:                                              NET-C FIDELITY, MEAN EXTRACTION RATIO OVER THREE RELEASE RUNS ,
+ ABSOLUTE DEVIATIONS FROM FULL - TABLE EXTRACTION . E RRORS ARE                                             SUMMED EXTERNAL PREPARATION STAGES , PEX AND SPEF WALL
+ AVERAGED OVER SEEDS 11/29/47. A DASH DENOTES ZERO ERROR FOR                                                SECONDS . P REPARATION INCLUDES INVENTORY ACQUISITION AND
+                            BOTH METHODS .                                                              LOADING ; NATIVE TABLE BUILD / INJECTION REMAINS WITHIN EXTRACTION .
+                                                                                                                   O UTPUT AND STA COSTS ARE SEPARATELY RETAINED .
+                                  vs. MLI-ext.                          vs. OpenRCX kernel
+Layout                        C         WS           TNS                 C         WS         TNS                    Layout         C err. Prep. PEX SPEF T /T0
+ASAP7/AES            81.2/89.1     89.7/88.4     84.1/89.5        81.1/89.0   89.6/88.4   84.0/89.5                  asap7/aes     0.00426 5.41 2.05       0.49   0.991
+ASAP7/IBEX           81.4/89.2     90.3/98.3     85.6/96.7        81.3/89.2   90.2/98.3   85.5/96.7                  asap7/ibex    0.00516 5.41 3.30       0.72   1.020
+GF180/AES            84.6/78.7     85.0/78.5     84.4/78.3        84.6/78.7   85.0/78.5   84.4/78.3
+GF180/IBEX           84.5/78.4     85.1/78.7     84.4/77.7        84.5/78.4   85.1/78.7   84.4/77.7
+                                                                                                                     gf180/aes     0.00030 8.39 2.45       0.52   1.031
+IHP/AES              91.3/87.4     94.5/90.1           –/–        91.3/87.4   94.5/90.1         –/–                  gf180/ibex    0.00020 8.39 2.73       0.52   0.999
+IHP/IBEX             92.5/87.6     93.3/88.2       100.0/–        92.5/87.5   93.3/88.1     100.0/–                  IHP/aes       0.05656 13.99 2.00      0.40   1.035
+Sky130/AES           89.7/87.3     94.5/83.5     97.1/76.6        89.9/87.3   94.6/83.1   97.1/76.2                  IHP/ibex      0.05477 13.99 3.10      0.66   1.029
+Sky130/IBEX          88.4/85.6     91.1/78.0     89.6/81.7        88.6/85.6   91.2/77.4   89.8/81.1
+                                                                                                                     Sky/aes       0.00382 8.48 2.43       0.56   1.017
+                                                                                                                     Sky/ibex      0.00233 8.48 2.29       0.58   1.024
+
+
+   The full-characterization interface populates 49,657 eligible finite
+slots across four rule libraries. Native-value pass-through preserves                                   reports this archived full-characterization path: across 120 release
+traced getter returns and electrical SPEF records on all eight layouts.                                 runs, the Full extraction/original ratio ranges from 0.991 to 1.035.
+Full changes 924,647 traced returns; covered returns match injected                                     Summing archived inventory, input/model/support preparation and
+values, and resistance/uncovered returns remain identical. Table VIII                                   native-process startup residual, modeled first-design PEX overhead
+                                                       MLI-ext. − Full
+                                                                                                                     across cells are +0.00509 net-C NRMSE and +12.40 ps worst-slack
+                     ASAP7                   GF180                       IHP-SG13G2                   Sky130HS
+                                                                                                                     error. A descriptive bootstrap that retains each process’s layouts,
+                1.42 → 0.13             27.48 → 6.11                 38.05 → 4.41                 2.34 → 0.36        budgets, and seeds together gives ranges [−0.00588, 0.02157] and
+                                                               400                          400                      [−6.19, 44.28] ps, respectively. With only four process clusters, these
+           40                     600
+                                                                                                                     are sensitivity summaries, not reliable population confidence claims;
+                                                                                                                     complete paired seed ranges are retained.
+           0                       0                            0                            0
+                                                                                                                        In sparse-native IHP, Full’s net-C errors are 0.05580–0.05819
+                                               OpenRCX kernel − Full                                                 versus 0.02320–0.03266 for Native-sparse; worst-slack deviations
+  y (μm)
+
+
+
+
+                1.42 → 0.13             27.48 → 6.11                 37.96 → 4.41                 2.37 → 0.36
+                                                                                                                     also increase. The unit and interface checks pass, and every populated
+                                                               400
+                                                                                                                     coordinate lies within its available support’s distance range; the
+                                                                                            400
+           40                     600                                                                                negative fidelity results remain despite these checks. Conversely,
+                                                                                                                     Sky130HS at B = 4 shows substantially lower Full errors. In these
+           0
+                0       40
+                                   0
+                                        0      600
+                                                                0
+                                                                     0           400
+                                                                                             0
+                                                                                                  0        400
+                                                                                                                     one-width sparse rules, MLI-ext.-native and Native-sparse produce
+                                                                                                                     effectively identical downstream scores: population alone need not
+            −3          0     3     −40         0         40     −80         0         80     −7          0      7
+                                            x (μm); color scales in ps
+                                                                                                                     change the result of linear native interpolation. The original rule-export
+                                                                                                                     protocol inserts predicted characterization nodes before construction;
+                                                                                                                     sparse-native instead retains the sparse constructor’s grid and fallback
+Fig. 6. Spatial timing fidelity at B = 8, four IBEX layouts. Columns:                                                and fills eligible interior slots. Their different query sets, batching,
+ASAP7, GF180, IHP-SG13G2, Sky130HS. Top: MLI-ext. minus Full; bottom:
+OpenRCX kernel minus Full. Maps average endpoint absolute-error reductions                                           and boundary paths preclude transferring one protocol’s wins to the
+against full-table extraction over seeds 11/29/47 and 50 × 50 bins. Annotations                                      other. This is an interface-level explanation of the differing contracts,
+give baseline→Full MAE (ps). Each column shares a symmetric scale: blue                                              not proof of a single cause for the observed gap.
+indicates improvement, red degradation, gray empty bins. Coordinates are in                                             The diagnostic inventory really runs an extraction and is charged in
+µm.
+                                                                                                                     preparation. Its additional SPEF/STA work is retained in this conserva-
+                                                                                                                     tive cost boundary. The shared loader initializes all variant checkpoints
+ranges from 161.1% to 670.4%. SPEF output and STA are measured                                                       and is charged to each neural arm; isolated minimal per-arm cold
+separately and are not used to dilute this denominator. Values below                                                 loading was not measured. External Python process startup/import time,
+one are repeat-run variation, not a stable acceleration claim.                                                       source labels, exhaustive source training/selection, and acquisition of
+   Full’s net-C fidelity error ranges from 0.00020 to 0.05656. The                                                   target characterization are outside these measured stages and are not
+largest errors occur on IHP, with worst-slack changes of 74.4/147.4 ps                                               zero-cost items. The release runs share a host with bounded training
+for AES/Ibex. These are deviations from native full-rule extraction,                                                 workers, so their single-run stage measurements do not establish a
+not improvements against an independent field reference.                                                             speedup. Reuse of an unchanged support/grid/model/batching payload
+   The fixed-node rule-export configuration has a different support                                                  avoids prediction, while each design still incurs native construction,
+and deployment contract. Across 96 release runs, Full’s extrac-                                                      injection, and extraction. For an unchanged rule/support/model/query
+tion/original ratio is 0.983–1.047. Four-library B=8 prediction/export                                               policy, the cost model is
+costs 0.70/0.67/0.91 s for MLI-ext./Binary/Full, plus 0.88 s shared                                                             Ttotal (N ) = Treusable prep + N Tnative process .        (22)
+setup; the MLI-ext. timing uses the output-equivalent archived CMI
+implementation. Full improves net-C and worst-slack fidelity over                                                    The prepared payload was actually shared between AES and Ibex
+MLI-ext. in all 16 layout–budget cells, but improves over Binary in                                                  with every eligible key applied. Larger reuse counts in Table XIV are
+only six/four cells; Binary has lower P99 endpoint error in ten. These                                               hypothetical repetitions at the measured stage costs, not additional
+fidelity and timing results are retained without relabeling them as                                                  timing experiments or a promise of reuse after the support or library
+computeTable injection.                                                                                              changes.
+E. Paired sparse-native evaluation                                                                                   F. Reused runtime and conditional limitations
+   The sparse-native study removes the hidden rows before construc-                                                      On one pinned Xeon Gold 6530 thread, three warmups and
+tion and uses identical retained samples and native interfaces for all                                               20 interleaved blocks measure warm evaluation, with distinct
+four arms. Two smoke layouts cover ASAP7 and the higher-error                                                        Q=1/8/32 accuracy. Direct Full/Binary/Anchor at Q limit32 cost
+IHP case. Poisoning hidden labels leaves released support, sparse                                                    3.706/2.110/0.788 ms/query. Full’s actual Q=1 mean is 40.97 ms.
+rules, and predictions unchanged. Native-value pass-through, protected                                               Retained-fit MLP costs 0.025 ms/query after 14.03 s fitting across
+observation bins, finite/nonnegative values, 1,000/2,000-DBU unit                                                    six contexts; adapted AttentionCap costs 0.230 ms/query after 11.27 s
+conversion, exact payload returns, unchanged resistance and uncovered                                                fitting, at NRMSE 0.70695. No fit uses query labels. Source training is
+paths all pass. Every matrix run retains the same net and endpoint                                                   a separate supplied-model cost; recorded final-stage times are retained
+identities as its full-rule reference. These checks establish interface                                              in the expanded treatment, while complete source-label and training
+correctness, not physical accuracy.                                                                                  costs are unavailable.
+   The new sparse-native matrix completes all 192 arm-settings (48                                                       Resident single-RHS fine FEM costs 3.719 s/query including
+paired settings, 16 layout–budget cells). Full lowers net-C, worst-slack,                                            remeshing and factorization; 213 solves agree with certified matrix
+and P99 endpoint errors relative to Native-sparse in 7/16, 9/16, and                                                 rows within 1.5 × 10−15 scaled difference. Predictor errors exceed
+7/16 cells, respectively. The corresponding counts against MLI-ext.-                                                 reference uncertainty, so these times do not establish an equal-accuracy
+native are 7/16, 9/16, and 7/16; against Binary-native they are 16/16,                                               speedup. The 1.72 ns validated cache-hot getter counterpart excludes
+16/16, and 16/16. These are dependent descriptive cells after averaging                                              width/context resolution and assembly; it is not full PEX latency.
+the three support seeds. They do not establish uniform sparse-                                                           Global attention makes predictions depend on Q; deterministic
+native gains. The mean paired Full-minus-Native-sparse differences                                                   sorting does not imply query-set invariance. With fixed support and
+                               Net capacitance                                   Worst slack                                   Endpoint P99
+
+   asap7/aes B4
+   asap7/aes B8
+  asap7/ibex B4
+  asap7/ibex B8
+   gf180/aes B4
+   gf180/aes B8
+  gf180/ibex B4
+  gf180/ibex B8
+      IHP/aes B4
+      IHP/aes B8
+     IHP/ibex B4
+     IHP/ibex B8
+      Sky/aes B4
+      Sky/aes B8
+     Sky/ibex B4                                                                                                           Binary
+     Sky/ibex B8                                                                                                           Full
+
+                           −200        −100           0                −400          −200             0                  −200       −100          0
+
+                                                          Error reduction from Native-sparse (%)
+
+
+Fig. 7. Sparse-native Full and Binary fidelity relative to Native-sparse across all 16 layout–budget cells. Positive values denote lower error. Points use paired
+three-seed means; cells sharing a process are dependent.
+
+
+one fixed target on one deterministically chosen long table per domain,           capacitance and worst-slack fidelity in all 16 layout–budget settings.
+Q=1/8/32, changed companions, and changed chunk boundaries                        At B = 8, mean endpoint slack error falls by 77.8–91.1% across four
+alter predictions. The largest Full change is 0.00608 in source-                  IBEX layouts relative to either kernel. Numerical interpolation remains
+normalized units; the largest across variants is 0.04600 (Ungated). Pure          more accurate on the fully supported physical-reference templates,
+permutations give a smaller but nonzero maximum of 3.24 × 10−5 ,                  highlighting the importance of characterization coverage. Full remains
+exceeding the predeclared 8ϵ32 scale tolerance. Duplicate queries are             the default for empirical cross-condition improvements over the two
+deduplicated and masked padding leaves outputs unchanged in these                 specified kernel baselines, while Binary/Ungated local optima and
+fixtures. These are limited diagnostics, not a proof of invariance or             stronger numerical controls delimit its scope. The paired sparse-native
+leakage. Reference-error changes and absolute units are retained with             matrix verifies label isolation and the unchanged runtime interface, but
+each fixture; a zero reference is never used as a relative denominator.           its 7/16 net-C and 9/16 worst-slack improvements over Native-sparse
+Compute-table preparation therefore defines and scores its complete-              show that the offline result does not guarantee downstream gains. Full
+slot batching separately from direct query replay. Support-protocol               targets prediction under limited characterization, with learned inference
+continuation can also trade sparse accuracy for retention: the matched            performed during table preparation and native lookup retained for
+low-budget study narrows Full’s average advantage over Binary from                layout queries.
+0.014088 to 0.002939, with denser-support degradation. The expanded
+treatment retains all process, budget, learning and timing controls. No
+query-reference-selected fallback is used.
+
+                            VI. C ONCLUSION
+   We presented Full, a characterization-conditioned residual model
+that uses the available geometry–capacitance samples to improve rule
+evaluation. Its numerical anchor and gated correction basis combine
+the current process response with learned geometric context. The native
+compute-table interface prepares eligible capacitance values before
+lookup while preserving measured entries, resistance, and downstream
+extraction. Binary and Ungated serve as matched ablations that test
+the effects of simplifying or removing gated residual fusion.
+   The evaluations connect interpolation accuracy to extraction fidelity.
+Full lowers macro NRMSE relative to both kernel controls in all
+60 coverage conditions. Separate rule-export evaluations improve
+                                                                     TABLE IX
+S PARSE - NATIVE FIDELITY, THREE - SEED MEANS . C IS NET- CAPACITANCE NRMSE; WS IS ABSOLUTE WORST- SLACK DEVIATION ( PS ). A LL FOUR ARMS USE
+                               THE SAME B OBSERVATIONS PER AFFECTED RULE AND THE SAME SPARSE NATIVE TABLE .
+
+
+                     Layout        B    Native C       MLI C     Binary C     Full C    Native WS      MLI WS     Binary WS     Full WS
+                     asap7/aes     4       0.02486    0.02486     0.02421    0.02198         0.596       0.596          0.697     0.434
+                     asap7/aes     8       0.02082    0.02082     0.02538    0.02358         0.360       0.360          0.659     0.513
+                     asap7/ibex    4       0.02415    0.02415     0.02497    0.02253         4.261       4.261          3.710     3.667
+                     asap7/ibex    8       0.02144    0.02144     0.02663    0.02478         3.868       3.868          4.630     4.362
+                     gf180/aes     4       0.02269    0.02269     0.02057    0.01997        19.734      19.734         18.129    17.586
+                     gf180/aes     8       0.01824    0.01824     0.01871    0.01824        15.804      15.804         16.256    15.798
+                     gf180/ibex    4       0.01989    0.01989     0.01838    0.01772        46.683      46.683         43.624    42.143
+                     gf180/ibex    8       0.01613    0.01613     0.01659    0.01613        38.251      38.251         39.086    38.032
+                     IHP/aes       4       0.03266    0.03266     0.05876    0.05745        38.060      38.060         77.652    72.949
+                     IHP/aes       8       0.02439    0.02439     0.06056    0.05819        30.442      30.442         81.560    76.093
+                     IHP/ibex      4       0.03117    0.03117     0.05743    0.05580        82.046      82.046        154.127   149.496
+                     IHP/ibex      8       0.02320    0.02320     0.05913    0.05664        61.411      61.411        158.647   151.879
+                     Sky/aes       4       0.02544    0.02544     0.01278    0.00805        18.825      18.825          4.438     2.626
+                     Sky/aes       8       0.00548    0.00548     0.01715    0.00690         2.530       2.530          7.881     2.051
+                     Sky/ibex      4       0.02426    0.02426     0.01099    0.00723        21.908      21.908          9.413     4.825
+                     Sky/ibex      8       0.00455    0.00455     0.01636    0.00566         2.501       2.501         13.802     3.265
+
+
+
+
+                                                                TABLE X
+  S PARSE - NATIVE ENDPOINT P99 ABSOLUTE ERROR ( PS ) AND ABSOLUTE TNS DEVIATION ( NS ), WITH THE SAME CELLS AND SEED AGGREGATION AS
+                                                                TABLE IX.
+
+                 Layout       B   Native P99     MLI P99        Binary P99   Full P99    Native TNS     MLI TNS       Binary TNS   Full TNS
+                 asap7/aes    4          1.363         1.363        1.600       1.452         0.0039         0.0039       0.0047     0.0038
+                 asap7/aes    8          1.261         1.261        1.624       1.513         0.0032         0.0032       0.0047     0.0042
+                 asap7/ibex   4          4.460         4.460        4.752       4.170         0.0173         0.0173       0.0140     0.0136
+                 asap7/ibex   8          4.257         4.257        5.255       4.842         0.0116         0.0116       0.0143     0.0133
+                 gf180/aes    4         25.559        25.559       22.752      22.085         3.8625         3.8625       3.6064     3.4698
+                 gf180/aes    8         20.094        20.094       20.617      20.096         3.1648         3.1648       3.2534     3.1509
+                 gf180/ibex   4         62.659        62.659       57.030      55.743        65.0495        65.0495      60.3870    57.9268
+                 gf180/ibex   8         51.014        51.014       51.819      50.754        52.7380        52.7380      54.1253    52.3740
+                 IHP/aes      4         46.907        46.907       85.463      82.023         0.0000         0.0000       0.0000     0.0000
+                 IHP/aes      8         34.710        34.710       88.383      83.457         0.0000         0.0000       0.0000     0.0000
+                 IHP/ibex     4        119.879       119.879      225.798     215.819         0.0037         0.0037       0.0000     0.0000
+                 IHP/ibex     8         90.799        90.799      232.215     220.752         0.0000         0.0000       0.0000     0.0000
+                 Sky/aes      4         24.067        24.067       10.816       6.625         0.0777         0.0777       0.0122     0.0059
+                 Sky/aes      8          4.884         4.884       15.261       5.455         0.0051         0.0051       0.0161     0.0037
+                 Sky/ibex     4         48.663        48.663       16.827      10.296         5.7422         5.7422       2.4365     1.3615
+                 Sky/ibex     8          8.053         8.053       29.069       7.737         0.6584         0.6584       3.8324     0.9432
+
+
+
+
+                                                                 TABLE XI
+S PARSE - NATIVE ABSOLUTE NET- CAPACITANCE RMSE ( F F) AND F ULL’ S RELATIVE ERROR REDUCTION (%) FROM NATIVE - SPARSE FOR C, WS, AND P99.
+                                   N EGATIVE GAINS DENOTE REGRESSION ; NO DENOMINATOR OFFSET IS USED .
+
+                              Layout        B    Native C        MLI C   Binary C        Full C    C gain    WS gain    P99 gain
+                              asap7/aes     4    0.031236 0.031236       0.030418      0.027618     +11.6       +27.2       -6.5
+                              asap7/aes     8    0.026155 0.026155       0.031889      0.029623     -13.3       -42.6      -20.0
+                              asap7/ibex    4    0.049514 0.049514       0.051194      0.046195      +6.7       +13.9       +6.5
+                              asap7/ibex    8    0.043951 0.043951       0.054604      0.050805     -15.6       -12.8      -13.7
+                              gf180/aes     4     0.47797  0.47797        0.43326       0.42081     +12.0       +10.9      +13.6
+                              gf180/aes     8     0.38419  0.38419        0.39407         0.3843     -0.0        +0.0       -0.0
+                              gf180/ibex    4     0.86825  0.86825        0.80232       0.77378     +10.9        +9.7      +11.0
+                              gf180/ibex    8     0.70435  0.70435        0.72413       0.70412      +0.0        +0.6       +0.5
+                              IHP/aes       4     0.41737  0.41737        0.75081         0.7341    -75.9       -91.7      -74.9
+                              IHP/aes       8       0.3116   0.3116       0.77389       0.74355    -138.6      -150.0     -140.4
+                              IHP/ibex      4       0.4518   0.4518       0.83243       0.80878     -79.0       -82.2      -80.0
+                              IHP/ibex      8     0.33633  0.33633        0.85712       0.82095    -144.1      -147.3     -143.1
+                              Sky/aes       4     0.35752  0.35752        0.17962       0.11317     +68.3       +86.0      +72.5
+                              Sky/aes       8    0.076989 0.076989        0.24111      0.097036     -26.0       +18.9      -11.7
+                              Sky/ibex      4     0.48759  0.48759        0.22096       0.14524     +70.2       +78.0      +78.8
+                              Sky/ibex      8    0.091443 0.091443          0.3288      0.11387     -24.5       -30.6       +3.9
+                                                                  TABLE XII
+S EPARATE FIXED - NODE RULE - EXPORT RESULTS : ABSOLUTE NET- CAPACITANCE RMSE ( F F), WS DEVIATION ( PS ), AND ENDPOINT P99 ERROR ( PS ). T HESE
+                                  ARE THE ORIGINAL THREE - SEED MEANS AND ARE NOT SPARSE - NATIVE RESULTS .
+
+
+              Layout       B    MLI C     Binary C      Full C   MLI WS    Binary WS   Full WS   MLI P99      Binary P99    Full P99
+              asap7/aes    4   0.031396  0.006751 0.0059027       0.5972    0.055419 0.061802       1.3675      0.36427     0.29751
+              asap7/aes    8   0.026218 0.0036477 0.0028695      0.35999     0.03549 0.041744       1.2737      0.18857     0.15463
+              asap7/ibex   4   0.049888  0.010531 0.0092657       4.3198     0.52425  0.41874       4.5018      0.89125     0.74405
+              asap7/ibex   8   0.043993 0.0060746 0.0047646       3.8691     0.29417 0.067687       4.2624      0.49659     0.32921
+              gf180/aes    4    0.47797  0.016789  0.073701       19.734     0.53406    2.9669      25.559      0.84687      3.9374
+              gf180/aes    8    0.38419  0.082205  0.081856       15.804      3.4111    3.3911      20.094       4.3845      4.2893
+              gf180/ibex   4    0.86825  0.027693    0.13444      46.683      1.0306     6.934      62.659       1.7847      9.4279
+              gf180/ibex   8    0.70435    0.15061   0.15204      38.251      8.1399    8.1449      51.014       10.918      10.943
+              IHP/aes      4    0.41753  0.027303  0.036225       38.093      1.7992    2.0818      46.927       2.4421      3.5196
+              IHP/aes      8    0.31155  0.025617  0.039124       30.439      1.3271    3.0109         34.7        2.687       4.056
+              IHP/ibex     4    0.45211  0.024323  0.033729       82.111      3.5604    5.4869      119.95       6.0355      8.5791
+              IHP/ibex     8    0.33629  0.025948  0.041837       61.402      4.5919    7.2606      90.781       6.9672      10.956
+              Sky/aes      4    0.35733  0.018492  0.036729       18.765      0.8488    1.0287      23.939       1.3221      2.5416
+              Sky/aes      8    0.07755 0.0096311 0.0098538       2.5252     0.42751  0.41559       4.8262      0.69739     0.71307
+              Sky/ibex     4    0.48738  0.028111  0.056394       21.772      1.2387     1.938      48.374       2.3872      4.9896
+              Sky/ibex     8   0.092147  0.015101  0.013292       2.4724     0.48909  0.54476       8.0586            1.2    1.0894
+                             TABLE XIII
+S PARSE - NATIVE COSTS ( SECONDS ), AVERAGED OVER TWO BUDGETS AND
+ THREE SUPPORT SEEDS PER LAYOUT. B/F DENOTE B INARY /F ULL . P REP
+INCLUDES SHARED SUPPORT RELEASE , DIAGNOSTIC INVENTORY, SHARED
+    MODEL LOADING , AND ARM - SPECIFIC PREDICTION . PEX INCLUDES
+   NATIVE CONSTRUCTION / INJECTION . ∗ T OTAL IS A SUM OF MEASURED
+       STAGES , INCLUDING NATIVE PROCESS /SPEF/STA, NOT AN
+           INDEPENDENTLY TIMED STANDALONE COLD LAUNCH .
+
+       Layout       B prep F prep B PEX F PEX B total∗ F total∗
+       asap7/aes     11.70   12.11   2.39     2.48   21.07      21.44
+       asap7/ibex    11.70   12.11   3.95     3.95   26.34      26.71
+       gf180/aes     12.32   13.93   2.99     2.84   21.14      22.57
+       gf180/ibex    12.32   13.93   3.27     3.17   22.79      24.18
+       IHP/aes       14.29   18.19   2.50     2.50   21.62      25.44
+       IHP/ibex      14.29   18.19   3.60     3.53   24.65      28.52
+       Sky/aes       13.14   14.52   2.86     3.00   23.33      24.64
+       Sky/ibex      13.14   14.52   2.63     2.76   23.69      25.29
+
+
+
+
+                            TABLE XIV
+M ODELED SECONDS PER DESIGN , Ttotal (N )/N , AVERAGED OVER THE 48
+SETTINGS . A LL COLUMNS ARE STAGE - BASED MODELS , INCLUDING N = 1.
+    T HE NATIVE PROCESS INCLUDES PEX, SPEF, STA AND PROCESS
+  OVERHEAD . NATIVE - SPARSE NEEDS NO INVENTORY / INFERENCE ; ITS
+       SUPPORT- RELEASE COST WAS SEPARATELY MEASURED WITH
+  WARM / UNCONTROLLED CACHE . T HESE ARE NOT EQUAL - ACCURACY
+                             SPEEDUPS .
+
+
+          Method                N =1        N = 10    N = 100
+          Native-sparse          10.27       10.17           10.16
+          MLI-ext.-native        21.11       11.27           10.28
+          Binary-native          23.08       11.50           10.35
+          Full-native            24.85       11.63           10.31
+                               R EFERENCES
+ [1] C.-Y. Tsai, S. Kim, and S.-K. Lim, “Capacitance extraction via machine
+     learning with application to interconnect geometry exploration,” in Proc.
+     IEEE/ACM Int. Conf. Computer-Aided Design (ICCAD), 2025.
+ [2] D. Yang, H. Li, W. Yu, Y. Guo, and W. Liang, “CNN-Cap: Effective
+     convolutional neural network-based capacitance models for interconnect
+     capacitance extraction,” ACM Transactions on Design Automation
+     of Electronic Systems, vol. 28, no. 4, 2023. [Online]. Available:
+     https://numbda.cs.tsinghua.edu.cn/papers/todaes232.pdf
+ [3] The OpenROAD Project, “Parasitics extraction,” OpenROAD
+     documentation, accessed: 2026-11-14. [Online]. Available: https:
+     //openroad.readthedocs.io/en/latest/main/src/rcx/README.html
+ [4] OpenROAD Project, “OpenRCX: Extraction rules file generation,”
+     OpenROAD documentation, accessed Nov. 14, 2026. [Online].
+     Available: https://openroad.readthedocs.io/en/latest/main/src/rcx/doc/
+     calibration.html
+ [5] X. Zhou, J. Zhang, B. Li, W. Liu, Z. Wu, and B. Lu, “RMLP-
+     Cap: An end-to-end parasitic capacitance extraction flow based on
+     ResMLP,” Electronics, vol. 15, no. 1, p. 36, 2026. [Online]. Available:
+     https://www.mdpi.com/2079-9292/15/1/36
+ [6] Z. Li and W. Shi, “Layout capacitance extraction using automatic
+     pre-characterization and machine learning,” in 21st International
+     Symposium on Quality Electronic Design (ISQED), 2020, pp. 457–464.
+     [Online]. Available: https://ieeexplore.ieee.org/document/9136970/
+ [7] J. Huang, H. R. Rodriguez, D. Yang, Z. Ye, Y. Lin, and
+     W. Yu, “AttentionCap: Transformer based capacitance matrix learning
+     toward full-chip extraction,” in Proc. ACM/IEEE Design Automation
+     Conf. (DAC), 2026, arXiv:2606.08161. [Online]. Available: https:
+     //arxiv.org/abs/2606.08161
+ [8] H. R. Rodriguez, J. Huang, and W. Yu, “Flash-CNNCap: Capacitance
+     extraction via image mapping,” in Proc. IEEE/ACM Int. Conf.
+     Computer-Aided Design (ICCAD), 2026, arXiv:2607.23877. [Online].
+     Available: https://arxiv.org/abs/2607.23877
+ [9] Siemens        Digital    Industries    Software,     “Advancing      the
+     art of parasitic extraction: The calibre xact platform,”
+     2025, technical White Paper. [Online]. Available: https:
+     //static.sw.cdn.siemens.com/siemens-disw-assets/public/82049/en-US/
+     Siemens-SW-Advancing-the-art-of-parasitic-extraction-WP-82049-C2.
+     pdf
+[10] Siemens Digital Industries Software, “Calibre xACT 3D parasitic
+     extraction,” Product web page, accessed Nov. 16, 2026. [Online].
+     Available: https://www.siemens.com/en-us/products/ic/calibre-design/
+     circuit-verification/xact-3d/
+[11] O. Shah and M. Koshy, “Starrc custom rapid3d extraction: Next
+     generation high performance 3d fast field solver,” Synopsys, Inc., White
+     Paper, 2010. [Online]. Available: https://www.synopsys.com/content/
+     dam/synopsys/verification/white-papers/Rapid3D_wp.pdf
+[12] The OpenROAD Project, “Parasitics extraction,” openROAD
+     Documentation. [Online]. Available: https://openroad.readthedocs.io/en/
+     latest/main/src/rcx/README.html
+[13] J.-C. Tsai, H.-M. Huang, W.-M. Hsu, P.-T. Lee, J.-H. Yang, H.-L. Huang,
+     Y.-J. Su, and C. H.-P. Wen, “ResCap: Fast-yet-accurate capacitance
+     extraction for standard cell design by physics-guided machine learning,”
+     in Proc. Asia and South Pacific Design Automation Conf. (ASP-DAC),
+     2025, pp. 1243–1250.
+[14] M. S. Abouelyazid, S. Hammouda, and Y. Ismail, “Accuracy-based
+     hybrid parasitic capacitance extraction using rule-based, neural-networks,
+     and field-solver methods,” IEEE Trans. Computer-Aided Design Integr.
+     Circuits Syst., vol. 41, no. 12, pp. 5681–5694, 2022.
+[15] M. Garnelo, D. Rosenbaum, C. Maddison, T. Ramalho, D. Saxton,
+     M. Shanahan, Y. W. Teh, D. Rezende, and S. M. A. Eslami,
+     “Conditional neural processes,” in Proc. Int. Conf. Machine Learning
+     (ICML), ser. PMLR, vol. 80, 2018, pp. 1704–1713. [Online]. Available:
+     https://proceedings.mlr.press/v80/garnelo18a.html
+[16] H. Kim, A. Mnih, J. Schwarz, M. Garnelo, A. Eslami, D. Rosenbaum,
+     O. Vinyals, and Y. W. Teh, “Attentive neural processes,” in Proc.
+     Int. Conf. Learning Representations (ICLR), 2019. [Online]. Available:
+     https://arxiv.org/abs/1901.05761
+[17] AttentionCap Authors, “AttentionCap: Official implementation,” 2026,
+     transformer and symmetric output implementation. [Online]. Available:
+     https://github.com/THU-numbda/AttentionCap
+

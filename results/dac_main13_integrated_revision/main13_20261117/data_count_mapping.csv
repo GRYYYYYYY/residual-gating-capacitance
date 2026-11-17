@@ -1,0 +1,9 @@
+file,partition,raw_tables,unique_curve_tables,at_least_four,at_least_eight
+runs/public_inventory_v1/tables.jsonl,test,341,340,338,338
+runs/public_inventory_v1/tables.jsonl,train,1116,1106,1099,1099
+runs/public_inventory_v1/tables.jsonl,val,256,255,254,254
+runs/public_inventory_holdout_v1/tables.jsonl,holdout,84,84,83,83
+runs/public_inventory_holdout_v1/tables.jsonl,test,321,320,318,318
+runs/public_inventory_holdout_v1/tables.jsonl,train,1061,1051,1045,1045
+runs/public_inventory_holdout_v1/tables.jsonl,val,247,246,245,245
+runs/round3_evaluation_inputs_v1/public_retrospective_original.jsonl,test,341,340,338,338

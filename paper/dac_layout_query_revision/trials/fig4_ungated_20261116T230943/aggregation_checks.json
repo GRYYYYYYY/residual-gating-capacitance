@@ -1,0 +1,14 @@
+{
+  "public": {
+    "full_reaggregation_max_abs_error": 0.0,
+    "matched_cells": 20
+  },
+  "reference": {
+    "full_reaggregation_max_abs_error": 0.0,
+    "matched_cells": 20
+  },
+  "to_asap7": {
+    "full_reaggregation_max_abs_error": 0.0,
+    "matched_cells": 20
+  }
+}

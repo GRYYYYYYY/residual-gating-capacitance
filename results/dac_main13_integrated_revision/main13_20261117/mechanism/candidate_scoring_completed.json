@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "independent_scorer": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/scripts/dac_main13_integrated_revision/score_candidates.py",
+  "labels_access": "read only after frozen candidate files and completion receipts exist; no predictor imported",
+  "candidate_names": [
+    "linear",
+    "pchip",
+    "width_linear",
+    "gp_l0.5_r1e-06",
+    "gp_l0.5_r0.0001",
+    "gp_l1_r1e-06",
+    "gp_l1_r0.0001",
+    "gp_l2_r1e-06",
+    "gp_l2_r0.0001",
+    "neural",
+    "neural_clamp"
+  ],
+  "records": 960
+}

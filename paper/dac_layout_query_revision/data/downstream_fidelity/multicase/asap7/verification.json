@@ -1,0 +1,42 @@
+{
+  "case": "asap7/ibex",
+  "variants": {
+    "golden": {
+      "worst_slack_native": -6.966538429,
+      "tns_native": -30.040636063,
+      "spef_sha256": "c5411807ec5948909f7a6c4efc00dcb2770815b8ebc171d85821fc48943555ea"
+    },
+    "linear_block50_seed0": {
+      "worst_slack_native": 3.868239164,
+      "tns_native": 0.0,
+      "spef_sha256": "137fe5e756892e27c271f7111608bf19ba1f94308a3fb6495f25ba830e14b49c"
+    },
+    "ours_block50_seed0": {
+      "worst_slack_native": -6.773137569,
+      "tns_native": -28.838819504,
+      "spef_sha256": "93cea0d32816905e14061999e084910601b750f67ad05d4f8e47d170149b3d91"
+    },
+    "linear_block50_seed1": {
+      "worst_slack_native": -8.990808487,
+      "tns_native": -41.646129608,
+      "spef_sha256": "00fd30dd8cae6d0d3c84e2210a7f1bc26295f88e2ec720b74de7ac399a2b8de6"
+    },
+    "ours_block50_seed1": {
+      "worst_slack_native": -6.989076138,
+      "tns_native": -30.193626404,
+      "spef_sha256": "6c9ce2152c5b3b0fcddc92df18157781cb7b46b13ca9a602c2eee79e2a959f6d"
+    },
+    "linear_block50_seed2": {
+      "worst_slack_native": -8.250622749,
+      "tns_native": -37.78377533,
+      "spef_sha256": "40096588700d7c437c69124ce414f2929a64c83f1278be53c33b20c04cfbce54"
+    },
+    "ours_block50_seed2": {
+      "worst_slack_native": -6.897815704,
+      "tns_native": -29.59044075,
+      "spef_sha256": "790330ec644591f2cec0e2b8b27d17ca824ad0099f18854cd66f70466639fd8d"
+    }
+  },
+  "odb_sha256": "080c8463fc0fbd332dbb9bbe9fe17490b747d42130358a91dfda648230878ae2",
+  "sdc_sha256": "60f85a7e07165a4fc3373cf0957093bfadff175ee03b14c3fdc24632a4779ddc"
+}

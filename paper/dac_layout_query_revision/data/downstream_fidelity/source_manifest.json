@@ -1,0 +1,25 @@
+{
+  "sources": [
+    {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/paper_checked.pdf",
+      "sha256": "ed976374b7c7035f4523728184bf8c834bbb4093a0b4f809f48e069514ec818b"
+    },
+    {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/tables/main_downstream_compact.tex",
+      "sha256": "6f9537697202a05aeeee0bbf8ecb1f94c736e21f0622f5fa1d446335bbeefacc"
+    },
+    {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/paper_v6/paper_v6_overleaf/sta_visualization/gf180_ibex_50/raw/golden/layout.tsv",
+      "sha256": "ece8b285e6620f477f262b74deefbcf6ac479269eeb502febc693a1f67c6e49d"
+    },
+    {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/results/sta_visualization/gf180_ibex_50/data/endpoint_slack_seed0.csv",
+      "sha256": "1ab4d72f9bcf4128444341bb15297ef6308ad69a0569d21d445e31c476568bda"
+    },
+    {
+      "path": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/paper/dac_layout_query_revision/tables/native_missingness.csv",
+      "sha256": "0820117cea2b0c350f1254c8f2a17900ee2b69d80ea91d104427649e3a101322"
+    }
+  ],
+  "scope": "Existing fixed-node rule-export electrical fidelity and seed-0 spatial timing; no new experiment or compute-table deployment claim."
+}

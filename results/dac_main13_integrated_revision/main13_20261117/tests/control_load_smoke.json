@@ -1,0 +1,19 @@
+{
+  "numerical_gate": {
+    "shape": [
+      1,
+      13,
+      2
+    ],
+    "finite_nonnegative": true
+  },
+  "no_agreement": {
+    "shape": [
+      1,
+      13,
+      2
+    ],
+    "finite_nonnegative": true
+  },
+  "full_weight_normalization": true
+}

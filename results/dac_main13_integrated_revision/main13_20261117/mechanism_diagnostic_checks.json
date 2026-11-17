@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "selected_cases": 8,
+  "selection": "all-domain min Full margin, worst simplified ratio, largest absolute simplified advantage; lexical tie order; full60 scored, no condition dropped",
+  "candidate_metric": "pooled query-occurrence SSE ratios within valid candidate support; not the Fig4 macro metric; no causal inference from weight",
+  "MLI_summary": "mean of available mean-mask macro condition errors inside each status/region; exposure counts preserve repeated masks"
+}

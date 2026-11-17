@@ -1,0 +1,48 @@
+experiment_id: main13_20261117
+baseline_head: b97f90b7d2acd2f06dd7dd9a5f8032001faea422
+source: paper/dac_layout_query_revision/main.tex
+default: Full
+selection_status: post-hoc analysis of existing confirmation results
+coverage:
+  domains: [public, reference, to_asap7]
+  conditions: [In/random, In/block, Out/random, Out/block, Boundary]
+  holdout: [0.1, 0.3, 0.5, 0.7]
+  seeds: [11, 29, 47, 71, 101]
+  aggregation: unchanged process/family/component macro NRMSE then mask mean
+  tolerance: 8 * float32 epsilon * max(abs(a), abs(b)); no denominator epsilon
+  bootstrap: 1000 paired process-stratified dependency-group resamples; seed 20261117
+native:
+  platforms: [asap7, gf180, ihp-sg13g2, sky130hs]
+  designs: [aes, ibex]
+  budgets: [4, 8]
+  seeds: [11, 29, 47]
+  arms: [native_sparse, mli_native, binary_native, full_native]
+  support_selection: original population and farthest trajectory; min(B, available candidates)
+  affected_rules: source-held-out OVER/UNDER/OVERUNDER; >=4 original samples; finite tail <99000 internal units; constant resistance
+  excluded_rules: diagonal, special tails, shorter tables remain unchanged across arms; excluded inventory published
+  label_isolation: physically remove hidden rows before native construction; prediction input contains only S labels
+  native_grid: sparse S constructor; all arms share this geometry and native boundary fallback
+  eligible: native sparse finite interior slots excluding S measurement bins, same for three injection arms
+  reference: unchanged full-rule output fidelity, not physical ground truth
+  ensemble: frozen source-trained members 0/1/2
+  batching: all S plus ascending effective separation Q chunks of 32 per fixed context
+  coordinate_scale: {asap7: 1000, gf180: 2000, ihp-sg13g2: 1000, sky130hs: 1000}
+  metrics: [net_cap_nrmse, net_cap_rmse, ws_abs_ps, tns_abs_ps, endpoint_mae_ps, endpoint_p95_ps, endpoint_p99_ps, endpoint_max_ps, signed_slack_ps]
+  identities: exact net and endpoint set; missing/nonfinite endpoints reported
+  smoke: [asap7/aes/B4/s11, ihp-sg13g2/aes/B4/s11]
+  gates: hidden-label poison invariance, measurement protection, finite/nonnegative, key uniqueness, trace/getter payload equality, unchanged R and uncovered paths, disabled and native-value pass-through
+  timing: release binary only; inventory separately charged; injection included in extraction; shared-host one native worker
+  statistical_unit: 8 routed layouts nested in 4 platforms; seeds are dependent support repeats
+mechanism:
+  C1: learn numerical-only gate with same source fitting, numerical/support and agreement features; no neural residual or hidden state
+  C2: fit fixed per-member nonnegative candidate weights on source fitting only; fixed configuration; evaluate source selection separately
+  C3: retrain with agreement=false, otherwise original recipe
+  training: original 24000 public / 12000 FEM and transfer updates; three members; final step; no new hyperparameter grid
+resources:
+  max_workers: 4
+  training_workers: 3
+  native_workers: 1
+  threads_per_worker: 1
+  native_timeout_seconds: 300
+  training_timeout_seconds: 10800
+  retry: no automatic retries; correctness failure requires recorded fix, new attempt directory, and affected-only rerun

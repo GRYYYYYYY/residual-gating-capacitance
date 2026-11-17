@@ -1,0 +1,34 @@
+{
+  "config": {
+    "seed": 0,
+    "steps": 24000,
+    "eta": 0.0,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.0001,
+    "anchor_logit_gap": 8.0,
+    "gate_hidden": 32,
+    "width": 64,
+    "layers": 2,
+    "dropout": 0.0,
+    "huber_delta": 1.0,
+    "span_weight": false,
+    "temperature": 0.25,
+    "agreement": true,
+    "gradient_clip": 1.0,
+    "torch_threads": 1,
+    "partitions": [
+      "train"
+    ],
+    "data": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/runs/public_inventory_holdout_v1/tables.jsonl",
+    "scales_from": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/runs/holdout_stage1_s0/checkpoint.pt",
+    "init_from": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/runs/holdout_stage1_s0/checkpoint.pt",
+    "train_scope": "all",
+    "tag": ""
+  },
+  "variant": "numerical_gate",
+  "source": "/inspire/hdd/global_user/guoruiyuan-253208540291/ICLR2026/workspaces/test-v1/opensource_release/dac-capacitance-20261114/runs/holdout_g_s0/FROZEN.json",
+  "selection": "final step, no configuration grid; original source selection frozen",
+  "training_labels": "source fitting only",
+  "source_sha256": "509bcb0c8d874e0b898ae1c41e9144eb2cbde8c6c310644fa007c3bf096bb4c1",
+  "runner_sha256": "998b461d0adedb5c84bcc411297d0d27893116a9759e603bd73b765829b712ec"
+}

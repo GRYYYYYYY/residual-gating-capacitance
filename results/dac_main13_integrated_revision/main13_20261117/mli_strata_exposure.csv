@@ -1,0 +1,17 @@
+domain,status,regime,query_occurrences,tables
+public,complete_cell,inside,32482,338
+public,complete_cell,outside,0,0
+public,explicit_clamp,inside,0,0
+public,explicit_clamp,outside,65033,340
+reference,complete_cell,inside,1920,16
+reference,complete_cell,outside,0,0
+reference,explicit_clamp,inside,0,0
+reference,explicit_clamp,outside,11280,16
+reference,sparse_support_extension,inside,25424,16
+reference,sparse_support_extension,outside,10576,16
+to_asap7,complete_cell,inside,960,8
+to_asap7,complete_cell,outside,0,0
+to_asap7,explicit_clamp,inside,0,0
+to_asap7,explicit_clamp,outside,5640,8
+to_asap7,sparse_support_extension,inside,12712,8
+to_asap7,sparse_support_extension,outside,5288,8

@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "support_contexts": 432,
+  "equal_left_right_scalar_projection": true,
+  "scope": "evaluated native S/Q symmetric scalar contexts; not arbitrary asymmetric geometry or universal monotonicity"
+}

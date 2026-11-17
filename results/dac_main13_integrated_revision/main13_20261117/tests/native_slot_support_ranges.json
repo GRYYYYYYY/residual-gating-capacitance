@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "platform": "asap7",
+      "setting": "B4_s11",
+      "slots": 2058,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "asap7",
+      "setting": "B4_s29",
+      "slots": 2298,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "asap7",
+      "setting": "B4_s47",
+      "slots": 2548,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "asap7",
+      "setting": "B8_s11",
+      "slots": 1906,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "asap7",
+      "setting": "B8_s29",
+      "slots": 2146,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "asap7",
+      "setting": "B8_s47",
+      "slots": 2396,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "gf180",
+      "setting": "B4_s11",
+      "slots": 9152,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "gf180",
+      "setting": "B4_s29",
+      "slots": 10172,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "gf180",
+      "setting": "B4_s47",
+      "slots": 11192,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "gf180",
+      "setting": "B8_s11",
+      "slots": 9124,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "gf180",
+      "setting": "B8_s29",
+      "slots": 10144,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "gf180",
+      "setting": "B8_s47",
+      "slots": 11164,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "ihp-sg13g2",
+      "setting": "B4_s11",
+      "slots": 22325,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "ihp-sg13g2",
+      "setting": "B4_s29",
+      "slots": 24807,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "ihp-sg13g2",
+      "setting": "B4_s47",
+      "slots": 27300,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "ihp-sg13g2",
+      "setting": "B8_s11",
+      "slots": 22257,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "ihp-sg13g2",
+      "setting": "B8_s29",
+      "slots": 24739,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "ihp-sg13g2",
+      "setting": "B8_s47",
+      "slots": 27232,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "sky130hs",
+      "setting": "B4_s11",
+      "slots": 7835,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "sky130hs",
+      "setting": "B4_s29",
+      "slots": 8710,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "sky130hs",
+      "setting": "B4_s47",
+      "slots": 9585,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "sky130hs",
+      "setting": "B8_s11",
+      "slots": 7795,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "sky130hs",
+      "setting": "B8_s29",
+      "slots": 8670,
+      "outside_S_distance_range": 0
+    },
+    {
+      "platform": "sky130hs",
+      "setting": "B8_s47",
+      "slots": 9545,
+      "outside_S_distance_range": 0
+    }
+  ],
+  "meaning": "populated represented coordinates are within available S distance range; component/native units separately checked"
+}

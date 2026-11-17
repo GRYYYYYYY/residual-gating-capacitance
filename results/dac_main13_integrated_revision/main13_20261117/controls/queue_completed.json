@@ -1,0 +1,77 @@
+{
+  "tasks": [
+    {
+      "task": "public_numerical_gate_s0",
+      "exit_code": 0
+    },
+    {
+      "task": "public_numerical_gate_s1",
+      "exit_code": 0
+    },
+    {
+      "task": "public_numerical_gate_s2",
+      "exit_code": 0
+    },
+    {
+      "task": "public_no_agreement_s0",
+      "exit_code": 0
+    },
+    {
+      "task": "public_no_agreement_s1",
+      "exit_code": 0
+    },
+    {
+      "task": "public_no_agreement_s2",
+      "exit_code": 0
+    },
+    {
+      "task": "reference_numerical_gate_s0",
+      "exit_code": 0
+    },
+    {
+      "task": "reference_numerical_gate_s1",
+      "exit_code": 0
+    },
+    {
+      "task": "reference_numerical_gate_s2",
+      "exit_code": 0
+    },
+    {
+      "task": "reference_no_agreement_s0",
+      "exit_code": 0
+    },
+    {
+      "task": "reference_no_agreement_s1",
+      "exit_code": 0
+    },
+    {
+      "task": "reference_no_agreement_s2",
+      "exit_code": 0
+    },
+    {
+      "task": "to_asap7_numerical_gate_s0",
+      "exit_code": 0
+    },
+    {
+      "task": "to_asap7_numerical_gate_s1",
+      "exit_code": 0
+    },
+    {
+      "task": "to_asap7_numerical_gate_s2",
+      "exit_code": 0
+    },
+    {
+      "task": "to_asap7_no_agreement_s0",
+      "exit_code": 0
+    },
+    {
+      "task": "to_asap7_no_agreement_s1",
+      "exit_code": 0
+    },
+    {
+      "task": "to_asap7_no_agreement_s2",
+      "exit_code": 0
+    }
+  ],
+  "wall_s": 7257.675785064697
+}

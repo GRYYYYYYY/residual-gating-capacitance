@@ -1,0 +1,216 @@
+PREPARED asap7 4 11 2058
+PREPARED ihp-sg13g2 4 11 22325
+MATRIX 1 /192 asap7/aes 4 11 native_sparse 0.0134
+MATRIX 2 /192 asap7/aes 4 11 mli_native 0.0134
+MATRIX 3 /192 asap7/aes 4 11 binary_native 0.01738
+MATRIX 4 /192 asap7/aes 4 11 full_native 0.01459
+MATRIX 5 /192 asap7/ibex 4 11 native_sparse 0.01288
+MATRIX 6 /192 asap7/ibex 4 11 mli_native 0.01288
+MATRIX 7 /192 asap7/ibex 4 11 binary_native 0.0196
+MATRIX 8 /192 asap7/ibex 4 11 full_native 0.01691
+PREPARED asap7 4 29 2298
+MATRIX 9 /192 asap7/aes 4 29 native_sparse 0.0448
+MATRIX 10 /192 asap7/aes 4 29 mli_native 0.0448
+MATRIX 11 /192 asap7/aes 4 29 binary_native 0.04602
+MATRIX 12 /192 asap7/aes 4 29 full_native 0.04581
+MATRIX 13 /192 asap7/ibex 4 29 native_sparse 0.04323
+MATRIX 14 /192 asap7/ibex 4 29 mli_native 0.04323
+MATRIX 15 /192 asap7/ibex 4 29 binary_native 0.04403
+MATRIX 16 /192 asap7/ibex 4 29 full_native 0.04399
+PREPARED asap7 4 47 2548
+MATRIX 17 /192 asap7/aes 4 47 native_sparse 0.01638
+MATRIX 18 /192 asap7/aes 4 47 mli_native 0.01638
+MATRIX 19 /192 asap7/aes 4 47 binary_native 0.00923
+MATRIX 20 /192 asap7/aes 4 47 full_native 0.00554
+MATRIX 21 /192 asap7/ibex 4 47 native_sparse 0.01634
+MATRIX 22 /192 asap7/ibex 4 47 mli_native 0.01634
+MATRIX 23 /192 asap7/ibex 4 47 binary_native 0.01128
+MATRIX 24 /192 asap7/ibex 4 47 full_native 0.0067
+PREPARED asap7 8 11 1906
+MATRIX 25 /192 asap7/aes 8 11 native_sparse 0.01078
+MATRIX 26 /192 asap7/aes 8 11 mli_native 0.01078
+MATRIX 27 /192 asap7/aes 8 11 binary_native 0.01689
+MATRIX 28 /192 asap7/aes 8 11 full_native 0.01388
+MATRIX 29 /192 asap7/ibex 8 11 native_sparse 0.01228
+MATRIX 30 /192 asap7/ibex 8 11 mli_native 0.01228
+MATRIX 31 /192 asap7/ibex 8 11 binary_native 0.01878
+MATRIX 32 /192 asap7/ibex 8 11 full_native 0.01577
+PREPARED asap7 8 29 2146
+MATRIX 33 /192 asap7/aes 8 29 native_sparse 0.04954
+MATRIX 34 /192 asap7/aes 8 29 mli_native 0.04954
+MATRIX 35 /192 asap7/aes 8 29 binary_native 0.05232
+MATRIX 36 /192 asap7/aes 8 29 full_native 0.05114
+MATRIX 37 /192 asap7/ibex 8 29 native_sparse 0.04929
+MATRIX 38 /192 asap7/ibex 8 29 mli_native 0.04929
+MATRIX 39 /192 asap7/ibex 8 29 binary_native 0.05266
+MATRIX 40 /192 asap7/ibex 8 29 full_native 0.05146
+PREPARED asap7 8 47 2396
+MATRIX 41 /192 asap7/aes 8 47 native_sparse 0.00212
+MATRIX 42 /192 asap7/aes 8 47 mli_native 0.00212
+MATRIX 43 /192 asap7/aes 8 47 binary_native 0.00693
+MATRIX 44 /192 asap7/aes 8 47 full_native 0.0057
+MATRIX 45 /192 asap7/ibex 8 47 native_sparse 0.00274
+MATRIX 46 /192 asap7/ibex 8 47 mli_native 0.00274
+MATRIX 47 /192 asap7/ibex 8 47 binary_native 0.00847
+MATRIX 48 /192 asap7/ibex 8 47 full_native 0.0071
+PREPARED gf180 4 11 9152
+MATRIX 49 /192 gf180/aes 4 11 native_sparse 0.00159
+MATRIX 50 /192 gf180/aes 4 11 mli_native 0.00159
+MATRIX 51 /192 gf180/aes 4 11 binary_native 0.0023
+MATRIX 52 /192 gf180/aes 4 11 full_native 0.00169
+MATRIX 53 /192 gf180/ibex 4 11 native_sparse 0.00138
+MATRIX 54 /192 gf180/ibex 4 11 mli_native 0.00138
+MATRIX 55 /192 gf180/ibex 4 11 binary_native 0.00226
+MATRIX 56 /192 gf180/ibex 4 11 full_native 0.00161
+PREPARED gf180 4 29 10172
+MATRIX 57 /192 gf180/aes 4 29 native_sparse 0.04827
+MATRIX 58 /192 gf180/aes 4 29 mli_native 0.04827
+MATRIX 59 /192 gf180/aes 4 29 binary_native 0.05576
+MATRIX 60 /192 gf180/aes 4 29 full_native 0.05523
+MATRIX 61 /192 gf180/ibex 4 29 native_sparse 0.04219
+MATRIX 62 /192 gf180/ibex 4 29 mli_native 0.04219
+MATRIX 63 /192 gf180/ibex 4 29 binary_native 0.04955
+MATRIX 64 /192 gf180/ibex 4 29 full_native 0.04889
+PREPARED gf180 4 47 11192
+MATRIX 65 /192 gf180/aes 4 47 native_sparse 0.01821
+MATRIX 66 /192 gf180/aes 4 47 mli_native 0.01821
+MATRIX 67 /192 gf180/aes 4 47 binary_native 0.00364
+MATRIX 68 /192 gf180/aes 4 47 full_native 0.00301
+MATRIX 69 /192 gf180/ibex 4 47 native_sparse 0.0161
+MATRIX 70 /192 gf180/ibex 4 47 mli_native 0.0161
+MATRIX 71 /192 gf180/ibex 4 47 binary_native 0.00332
+MATRIX 72 /192 gf180/ibex 4 47 full_native 0.00267
+PREPARED gf180 8 11 9124
+MATRIX 73 /192 gf180/aes 8 11 native_sparse 0.00164
+MATRIX 74 /192 gf180/aes 8 11 mli_native 0.00164
+MATRIX 75 /192 gf180/aes 8 11 binary_native 0.00227
+MATRIX 76 /192 gf180/aes 8 11 full_native 0.00175
+MATRIX 77 /192 gf180/ibex 8 11 native_sparse 0.00162
+MATRIX 78 /192 gf180/ibex 8 11 mli_native 0.00162
+MATRIX 79 /192 gf180/ibex 8 11 binary_native 0.00225
+MATRIX 80 /192 gf180/ibex 8 11 full_native 0.00173
+PREPARED gf180 8 29 10144
+MATRIX 81 /192 gf180/aes 8 29 native_sparse 0.05257
+MATRIX 82 /192 gf180/aes 8 29 mli_native 0.05257
+MATRIX 83 /192 gf180/aes 8 29 binary_native 0.05297
+MATRIX 84 /192 gf180/aes 8 29 full_native 0.0526
+MATRIX 85 /192 gf180/ibex 8 29 native_sparse 0.04632
+MATRIX 86 /192 gf180/ibex 8 29 mli_native 0.04632
+MATRIX 87 /192 gf180/ibex 8 29 binary_native 0.04677
+MATRIX 88 /192 gf180/ibex 8 29 full_native 0.04635
+PREPARED gf180 8 47 11164
+MATRIX 89 /192 gf180/aes 8 47 native_sparse 0.0005
+MATRIX 90 /192 gf180/aes 8 47 mli_native 0.0005
+MATRIX 91 /192 gf180/aes 8 47 binary_native 0.00087
+MATRIX 92 /192 gf180/aes 8 47 full_native 0.00038
+MATRIX 93 /192 gf180/ibex 8 47 native_sparse 0.00047
+MATRIX 94 /192 gf180/ibex 8 47 mli_native 0.00047
+MATRIX 95 /192 gf180/ibex 8 47 binary_native 0.00074
+MATRIX 96 /192 gf180/ibex 8 47 full_native 0.0003
+MATRIX 97 /192 ihp-sg13g2/aes 4 11 native_sparse 0.0104
+MATRIX 98 /192 ihp-sg13g2/aes 4 11 mli_native 0.0104
+MATRIX 99 /192 ihp-sg13g2/aes 4 11 binary_native 0.05807
+MATRIX 100 /192 ihp-sg13g2/aes 4 11 full_native 0.05359
+MATRIX 101 /192 ihp-sg13g2/ibex 4 11 native_sparse 0.00928
+MATRIX 102 /192 ihp-sg13g2/ibex 4 11 mli_native 0.00928
+MATRIX 103 /192 ihp-sg13g2/ibex 4 11 binary_native 0.05722
+MATRIX 104 /192 ihp-sg13g2/ibex 4 11 full_native 0.05231
+PREPARED ihp-sg13g2 4 29 24807
+MATRIX 105 /192 ihp-sg13g2/aes 4 29 native_sparse 0.06167
+MATRIX 106 /192 ihp-sg13g2/aes 4 29 mli_native 0.06167
+MATRIX 107 /192 ihp-sg13g2/aes 4 29 binary_native 0.06289
+MATRIX 108 /192 ihp-sg13g2/aes 4 29 full_native 0.06379
+MATRIX 109 /192 ihp-sg13g2/ibex 4 29 native_sparse 0.06039
+MATRIX 110 /192 ihp-sg13g2/ibex 4 29 mli_native 0.06039
+MATRIX 111 /192 ihp-sg13g2/ibex 4 29 binary_native 0.06135
+MATRIX 112 /192 ihp-sg13g2/ibex 4 29 full_native 0.06255
+PREPARED ihp-sg13g2 4 47 27300
+MATRIX 113 /192 ihp-sg13g2/aes 4 47 native_sparse 0.02592
+MATRIX 114 /192 ihp-sg13g2/aes 4 47 mli_native 0.02592
+MATRIX 115 /192 ihp-sg13g2/aes 4 47 binary_native 0.05532
+MATRIX 116 /192 ihp-sg13g2/aes 4 47 full_native 0.05497
+MATRIX 117 /192 ihp-sg13g2/ibex 4 47 native_sparse 0.02384
+MATRIX 118 /192 ihp-sg13g2/ibex 4 47 mli_native 0.02384
+MATRIX 119 /192 ihp-sg13g2/ibex 4 47 binary_native 0.05371
+MATRIX 120 /192 ihp-sg13g2/ibex 4 47 full_native 0.05252
+PREPARED ihp-sg13g2 8 11 22257
+MATRIX 121 /192 ihp-sg13g2/aes 8 11 native_sparse 0.00475
+MATRIX 122 /192 ihp-sg13g2/aes 8 11 mli_native 0.00475
+MATRIX 123 /192 ihp-sg13g2/aes 8 11 binary_native 0.06042
+MATRIX 124 /192 ihp-sg13g2/aes 8 11 full_native 0.05489
+MATRIX 125 /192 ihp-sg13g2/ibex 8 11 native_sparse 0.00283
+MATRIX 126 /192 ihp-sg13g2/ibex 8 11 mli_native 0.00283
+MATRIX 127 /192 ihp-sg13g2/ibex 8 11 binary_native 0.05934
+MATRIX 128 /192 ihp-sg13g2/ibex 8 11 full_native 0.05339
+PREPARED ihp-sg13g2 8 29 24739
+MATRIX 129 /192 ihp-sg13g2/aes 8 29 native_sparse 0.06295
+MATRIX 130 /192 ihp-sg13g2/aes 8 29 mli_native 0.06295
+MATRIX 131 /192 ihp-sg13g2/aes 8 29 binary_native 0.06365
+MATRIX 132 /192 ihp-sg13g2/aes 8 29 full_native 0.0645
+MATRIX 133 /192 ihp-sg13g2/ibex 8 29 native_sparse 0.06181
+MATRIX 134 /192 ihp-sg13g2/ibex 8 29 mli_native 0.06181
+MATRIX 135 /192 ihp-sg13g2/ibex 8 29 binary_native 0.06231
+MATRIX 136 /192 ihp-sg13g2/ibex 8 29 full_native 0.06339
+PREPARED ihp-sg13g2 8 47 27232
+MATRIX 137 /192 ihp-sg13g2/aes 8 47 native_sparse 0.00546
+MATRIX 138 /192 ihp-sg13g2/aes 8 47 mli_native 0.00546
+MATRIX 139 /192 ihp-sg13g2/aes 8 47 binary_native 0.05762
+MATRIX 140 /192 ihp-sg13g2/aes 8 47 full_native 0.05518
+MATRIX 141 /192 ihp-sg13g2/ibex 8 47 native_sparse 0.00498
+MATRIX 142 /192 ihp-sg13g2/ibex 8 47 mli_native 0.00498
+MATRIX 143 /192 ihp-sg13g2/ibex 8 47 binary_native 0.05574
+MATRIX 144 /192 ihp-sg13g2/ibex 8 47 full_native 0.05313
+PREPARED sky130hs 4 11 7835
+MATRIX 145 /192 sky130hs/aes 4 11 native_sparse 0.01888
+MATRIX 146 /192 sky130hs/aes 4 11 mli_native 0.01888
+MATRIX 147 /192 sky130hs/aes 4 11 binary_native 0.01776
+MATRIX 148 /192 sky130hs/aes 4 11 full_native 0.00783
+MATRIX 149 /192 sky130hs/ibex 4 11 native_sparse 0.01837
+MATRIX 150 /192 sky130hs/ibex 4 11 mli_native 0.01837
+MATRIX 151 /192 sky130hs/ibex 4 11 binary_native 0.01715
+MATRIX 152 /192 sky130hs/ibex 4 11 full_native 0.00774
+PREPARED sky130hs 4 29 8710
+MATRIX 153 /192 sky130hs/aes 4 29 native_sparse 0.00802
+MATRIX 154 /192 sky130hs/aes 4 29 mli_native 0.00802
+MATRIX 155 /192 sky130hs/aes 4 29 binary_native 0.00879
+MATRIX 156 /192 sky130hs/aes 4 29 full_native 0.00859
+MATRIX 157 /192 sky130hs/ibex 4 29 native_sparse 0.00734
+MATRIX 158 /192 sky130hs/ibex 4 29 mli_native 0.00734
+MATRIX 159 /192 sky130hs/ibex 4 29 binary_native 0.00477
+MATRIX 160 /192 sky130hs/ibex 4 29 full_native 0.00593
+PREPARED sky130hs 4 47 9585
+MATRIX 161 /192 sky130hs/aes 4 47 native_sparse 0.04941
+MATRIX 162 /192 sky130hs/aes 4 47 mli_native 0.04941
+MATRIX 163 /192 sky130hs/aes 4 47 binary_native 0.01179
+MATRIX 164 /192 sky130hs/aes 4 47 full_native 0.00773
+MATRIX 165 /192 sky130hs/ibex 4 47 native_sparse 0.04705
+MATRIX 166 /192 sky130hs/ibex 4 47 mli_native 0.04705
+MATRIX 167 /192 sky130hs/ibex 4 47 binary_native 0.01106
+MATRIX 168 /192 sky130hs/ibex 4 47 full_native 0.00801
+PREPARED sky130hs 8 11 7795
+MATRIX 169 /192 sky130hs/aes 8 11 native_sparse 0.00474
+MATRIX 170 /192 sky130hs/aes 8 11 mli_native 0.00474
+MATRIX 171 /192 sky130hs/aes 8 11 binary_native 0.01913
+MATRIX 172 /192 sky130hs/aes 8 11 full_native 0.00757
+MATRIX 173 /192 sky130hs/ibex 8 11 native_sparse 0.00591
+MATRIX 174 /192 sky130hs/ibex 8 11 mli_native 0.00591
+MATRIX 175 /192 sky130hs/ibex 8 11 binary_native 0.01877
+MATRIX 176 /192 sky130hs/ibex 8 11 full_native 0.00737
+PREPARED sky130hs 8 29 8670
+MATRIX 177 /192 sky130hs/aes 8 29 native_sparse 0.00715
+MATRIX 178 /192 sky130hs/aes 8 29 mli_native 0.00715
+MATRIX 179 /192 sky130hs/aes 8 29 binary_native 0.01584
+MATRIX 180 /192 sky130hs/aes 8 29 full_native 0.00837
+MATRIX 181 /192 sky130hs/ibex 8 29 native_sparse 0.00371
+MATRIX 182 /192 sky130hs/ibex 8 29 mli_native 0.00371
+MATRIX 183 /192 sky130hs/ibex 8 29 binary_native 0.01418
+MATRIX 184 /192 sky130hs/ibex 8 29 full_native 0.00642
+PREPARED sky130hs 8 47 9545
+MATRIX 185 /192 sky130hs/aes 8 47 native_sparse 0.00453
+MATRIX 186 /192 sky130hs/aes 8 47 mli_native 0.00453
+MATRIX 187 /192 sky130hs/aes 8 47 binary_native 0.01649
+MATRIX 188 /192 sky130hs/aes 8 47 full_native 0.00478
+MATRIX 189 /192 sky130hs/ibex 8 47 native_sparse 0.00403
+MATRIX 190 /192 sky130hs/ibex 8 47 mli_native 0.00403
+MATRIX 191 /192 sky130hs/ibex 8 47 binary_native 0.01612
+MATRIX 192 /192 sky130hs/ibex 8 47 full_native 0.0032

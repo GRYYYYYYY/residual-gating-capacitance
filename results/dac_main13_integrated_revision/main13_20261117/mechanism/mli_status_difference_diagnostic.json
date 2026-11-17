@@ -1,0 +1,1082 @@
+[
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.1",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.1",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.1",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.1",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.1",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.3",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.3",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.3",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.3",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.3",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.5",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.5",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.5",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.5",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.5",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.7",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.7",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.7",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.7",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "mcar",
+    "ratio": "0.7",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.1",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.1",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.1",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.1",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.1",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.3",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.3",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.3",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.3",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.3",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.5",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.5",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.5",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.5",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.5",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.7",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.7",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.7",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.7",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "block",
+    "ratio": "0.7",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.1",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.1",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.1",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.1",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.1",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.3",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.3",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.3",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.3",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.3",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.5",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.5",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.5",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.5",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.5",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.7",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.7",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.7",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.7",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "0ee4acc736638f7e03dcebf2",
+    "protocol": "extrapolation",
+    "ratio": "0.7",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.1",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.1",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.1",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.1",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.1",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.3",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.3",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.3",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.3",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.3",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.5",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.5",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.5",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.5",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.5",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.7",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.7",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.7",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.7",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "mcar",
+    "ratio": "0.7",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.1",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.1",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.1",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.1",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.1",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.3",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.3",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.3",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.3",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.3",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.5",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.5",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.5",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.5",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.5",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.7",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.7",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.7",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.7",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "block",
+    "ratio": "0.7",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.1",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.1",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.1",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.1",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.1",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.3",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.3",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.3",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.3",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.3",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.5",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.5",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.5",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.5",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.5",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.7",
+    "seed": "11",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.7",
+    "seed": "29",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.7",
+    "seed": "47",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.7",
+    "seed": "71",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  },
+  {
+    "table": "aef01eb2513ccf1f4fe8d76a",
+    "protocol": "extrapolation",
+    "ratio": "0.7",
+    "seed": "101",
+    "old": 1,
+    "new": 0,
+    "applicable": "True"
+  }
+]

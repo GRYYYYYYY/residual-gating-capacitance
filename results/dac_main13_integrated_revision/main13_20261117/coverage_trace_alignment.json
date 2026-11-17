@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "case": "asap7/aes",
+      "aligned_calls": 1031007,
+      "order_geometry_and_values_exact": true,
+      "unresolved_context_calls": 206272
+    },
+    {
+      "case": "asap7/ibex",
+      "aligned_calls": 1371873,
+      "order_geometry_and_values_exact": true,
+      "unresolved_context_calls": 246531
+    },
+    {
+      "case": "gf180/aes",
+      "aligned_calls": 850246,
+      "order_geometry_and_values_exact": true,
+      "unresolved_context_calls": 150002
+    },
+    {
+      "case": "gf180/ibex",
+      "aligned_calls": 817932,
+      "order_geometry_and_values_exact": true,
+      "unresolved_context_calls": 141864
+    },
+    {
+      "case": "ihp-sg13g2/aes",
+      "aligned_calls": 773185,
+      "order_geometry_and_values_exact": true,
+      "unresolved_context_calls": 186370
+    },
+    {
+      "case": "ihp-sg13g2/ibex",
+      "aligned_calls": 1181201,
+      "order_geometry_and_values_exact": true,
+      "unresolved_context_calls": 266729
+    },
+    {
+      "case": "sky130hs/aes",
+      "aligned_calls": 1181341,
+      "order_geometry_and_values_exact": true,
+      "unresolved_context_calls": 380988
+    },
+    {
+      "case": "sky130hs/ibex",
+      "aligned_calls": 1004909,
+      "order_geometry_and_values_exact": true,
+      "unresolved_context_calls": 302457
+    }
+  ],
+  "all_calls": 9888586,
+  "finite_calls": 8211694,
+  "changed_returns": 924647,
+  "changed_fraction_all": 0.09350649324382677,
+  "changed_fraction_finite": 0.11260124890187091,
+  "interpretation": "Numerical changes only. Fringe getter unchanged in compute hook. No physical improvement fraction established."
+}

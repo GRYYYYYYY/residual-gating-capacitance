@@ -1,0 +1,4 @@
+method,conditions,point_improvements,point_regressions,improvement_intervals_cross_zero,regression_intervals_cross_zero,interpretation
+residual,60,50,10,2,6,"paired group-bootstrap intervals; small FEM/transfer groups; dependent cells; counts are descriptive, no multiplicity-adjusted significance or safety probability"
+binary,60,55,5,4,4,"paired group-bootstrap intervals; small FEM/transfer groups; dependent cells; counts are descriptive, no multiplicity-adjusted significance or safety probability"
+full,60,60,0,1,0,"paired group-bootstrap intervals; small FEM/transfer groups; dependent cells; counts are descriptive, no multiplicity-adjusted significance or safety probability"

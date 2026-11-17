@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "platform": "asap7",
+      "method": "mli_native",
+      "calls": 1031007,
+      "populated_returns": 46537,
+      "changed_returns": 31359,
+      "unchanged_returns": 999648,
+      "uncovered_returns": 984470,
+      "resistance_exact": true,
+      "uncovered_exact": true
+    },
+    {
+      "platform": "asap7",
+      "method": "binary_native",
+      "calls": 1031007,
+      "populated_returns": 46537,
+      "changed_returns": 46537,
+      "unchanged_returns": 984470,
+      "uncovered_returns": 984470,
+      "resistance_exact": true,
+      "uncovered_exact": true
+    },
+    {
+      "platform": "asap7",
+      "method": "full_native",
+      "calls": 1031007,
+      "populated_returns": 46537,
+      "changed_returns": 46537,
+      "unchanged_returns": 984470,
+      "uncovered_returns": 984470,
+      "resistance_exact": true,
+      "uncovered_exact": true
+    },
+    {
+      "platform": "ihp-sg13g2",
+      "method": "mli_native",
+      "calls": 773185,
+      "populated_returns": 154814,
+      "changed_returns": 105534,
+      "unchanged_returns": 667651,
+      "uncovered_returns": 618371,
+      "resistance_exact": true,
+      "uncovered_exact": true
+    },
+    {
+      "platform": "ihp-sg13g2",
+      "method": "binary_native",
+      "calls": 773185,
+      "populated_returns": 154814,
+      "changed_returns": 154814,
+      "unchanged_returns": 618371,
+      "uncovered_returns": 618371,
+      "resistance_exact": true,
+      "uncovered_exact": true
+    },
+    {
+      "platform": "ihp-sg13g2",
+      "method": "full_native",
+      "calls": 773185,
+      "populated_returns": 154814,
+      "changed_returns": 154814,
+      "unchanged_returns": 618371,
+      "uncovered_returns": 618371,
+      "resistance_exact": true,
+      "uncovered_exact": true
+    }
+  ],
+  "hidden_label_isolation": "poisoned hidden labels removed before construction; S-only predictor input identical; full extraction/getters bit-identical",
+  "observations": "native K dump equals S; S bins excluded from injected slots",
+  "units": "native K vs S conversion checked at 1000/2000 DBU; two components",
+  "gate_to_matrix": true
+}

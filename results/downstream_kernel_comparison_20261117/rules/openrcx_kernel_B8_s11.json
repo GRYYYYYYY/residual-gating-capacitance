@@ -1,0 +1,1542 @@
+{
+  "tables": {
+    "df2c2e1e1660d05ee7d46a12": {
+      "1": {
+        "coupling_cap": 5.0773111111111106e-05,
+        "ground_cap": 3.2953407407407406e-05
+      },
+      "4": {
+        "coupling_cap": 1.7311111111111113e-05,
+        "ground_cap": 4.8184066666666665e-05
+      },
+      "6": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.347195555555556e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.10535e-05
+      }
+    },
+    "a2ea70739b1660b41e1e7a94": {
+      "1": {
+        "coupling_cap": 5.8826481481481484e-05,
+        "ground_cap": 1.774637777777778e-05
+      },
+      "4": {
+        "coupling_cap": 3.6599233333333334e-05,
+        "ground_cap": 2.051191111111111e-05
+      },
+      "6": {
+        "coupling_cap": 2.9214577777777775e-05,
+        "ground_cap": 2.28722e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 4.08737e-05
+      }
+    },
+    "a5da6b9966801ce1775a3e53": {
+      "1": {
+        "coupling_cap": 5.8932044444444447e-05,
+        "ground_cap": 2.4835618518518516e-05
+      },
+      "4": {
+        "coupling_cap": 3.6709911111111115e-05,
+        "ground_cap": 2.5706255555555556e-05
+      },
+      "6": {
+        "coupling_cap": 2.9687955555555555e-05,
+        "ground_cap": 2.2276866666666667e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 4.03356e-05
+      }
+    },
+    "50f1c59596ea9d6f971126d3": {
+      "1": {
+        "coupling_cap": 7.52e-05,
+        "ground_cap": 1.7458381481481483e-05
+      },
+      "4": {
+        "coupling_cap": 4.809367777777778e-05,
+        "ground_cap": 2.0001677777777777e-05
+      },
+      "6": {
+        "coupling_cap": 3.906788888888889e-05,
+        "ground_cap": 2.515618888888889e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 4.48623e-05
+      }
+    },
+    "d1a9ca52383b5eba286da008": {
+      "1": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      },
+      "6": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      },
+      "8": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      },
+      "10": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      }
+    },
+    "6b4a6e9209615f28754cf573": {
+      "1": {
+        "coupling_cap": 5.1188914814814815e-05,
+        "ground_cap": 2.8861333333333334e-05
+      },
+      "4": {
+        "coupling_cap": 2.8840222222222223e-05,
+        "ground_cap": 3.438201111111111e-05
+      },
+      "6": {
+        "coupling_cap": 1.3604722222222223e-05,
+        "ground_cap": 4.584556666666667e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 5.24061e-05
+      }
+    },
+    "3b87b5db1e7dbe39e0f36560": {
+      "1": {
+        "coupling_cap": 6.164065925925926e-05,
+        "ground_cap": 1.2533992592592592e-05
+      },
+      "4": {
+        "coupling_cap": 4.0360133333333333e-05,
+        "ground_cap": 1.3760433333333333e-05
+      },
+      "6": {
+        "coupling_cap": 3.3762633333333334e-05,
+        "ground_cap": 1.4821922222222222e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 3.20162e-05
+      }
+    },
+    "fe813f569647eece3db2c3e4": {
+      "1": {
+        "coupling_cap": 6.0680170370370374e-05,
+        "ground_cap": 1.3557525925925927e-05
+      },
+      "4": {
+        "coupling_cap": 3.9086666666666666e-05,
+        "ground_cap": 1.53187e-05
+      },
+      "6": {
+        "coupling_cap": 3.205321111111111e-05,
+        "ground_cap": 1.700101111111111e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 3.42849e-05
+      }
+    },
+    "200d8fac2651cd899ae7b3c8": {
+      "1": {
+        "coupling_cap": 5.370937777777778e-05,
+        "ground_cap": 2.4187774074074076e-05
+      },
+      "4": {
+        "coupling_cap": 3.074035555555556e-05,
+        "ground_cap": 2.963938888888889e-05
+      },
+      "6": {
+        "coupling_cap": 1.431988888888889e-05,
+        "ground_cap": 4.2062377777777774e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.42556e-05
+      }
+    },
+    "573cd5516d086bb0947888cf": {
+      "1": {
+        "coupling_cap": 5.833088518518519e-05,
+        "ground_cap": 2.3520537037037038e-05
+      },
+      "4": {
+        "coupling_cap": 3.619542222222222e-05,
+        "ground_cap": 1.9384722222222222e-05
+      },
+      "6": {
+        "coupling_cap": 2.8842733333333334e-05,
+        "ground_cap": 2.503631111111111e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 3.91564e-05
+      }
+    },
+    "7abd108a785975aadc254466": {
+      "1": {
+        "coupling_cap": 5.803975925925926e-05,
+        "ground_cap": 1.6534562962962964e-05
+      },
+      "4": {
+        "coupling_cap": 3.638271111111111e-05,
+        "ground_cap": 1.9142022222222222e-05
+      },
+      "6": {
+        "coupling_cap": 2.93961e-05,
+        "ground_cap": 2.4528722222222222e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 3.81574e-05
+      }
+    },
+    "2ec82ae3068e8e4ceefe7d05": {
+      "1": {
+        "coupling_cap": 8.129605e-05,
+        "ground_cap": 1.1159705e-05
+      },
+      "2": {
+        "coupling_cap": 6.5519575e-05,
+        "ground_cap": 1.18038025e-05
+      },
+      "6": {
+        "coupling_cap": 3.80352e-05,
+        "ground_cap": 1.40734e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 3.34429e-05
+      }
+    },
+    "aaf6682440a11c126bd217d4": {
+      "1": {
+        "coupling_cap": 6.676235e-05,
+        "ground_cap": 3.1967e-05
+      },
+      "2": {
+        "coupling_cap": 4.992752500000001e-05,
+        "ground_cap": 3.603255e-05
+      },
+      "6": {
+        "coupling_cap": 1.1671000000000002e-05,
+        "ground_cap": 5.86265e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.2634e-05
+      }
+    },
+    "84ec560c3cf8d8791a085346": {
+      "1": {
+        "coupling_cap": 5.7648e-05,
+        "ground_cap": 5.05001e-05
+      },
+      "2": {
+        "coupling_cap": 4.000325e-05,
+        "ground_cap": 5.654135000000001e-05
+      },
+      "6": {
+        "coupling_cap": 0.0,
+        "ground_cap": 8.57298e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 7.81069e-05
+      }
+    },
+    "be164a5f046e70a29e761bd0": {
+      "1": {
+        "coupling_cap": 6.712685e-05,
+        "ground_cap": 3.605295e-05
+      },
+      "2": {
+        "coupling_cap": 5.0960175e-05,
+        "ground_cap": 3.9594575e-05
+      },
+      "6": {
+        "coupling_cap": 2.272055e-05,
+        "ground_cap": 4.868355e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 7.12421e-05
+      }
+    },
+    "e2e48eea16cc837ef9a728bb": {
+      "1": {
+        "coupling_cap": 8.19367e-05,
+        "ground_cap": 1.244485e-05
+      },
+      "2": {
+        "coupling_cap": 6.625205e-05,
+        "ground_cap": 1.2936825e-05
+      },
+      "6": {
+        "coupling_cap": 3.9096550000000004e-05,
+        "ground_cap": 1.474135e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 3.33776e-05
+      }
+    },
+    "8fafc7fda971bf95680babe7": {
+      "1": {
+        "coupling_cap": 7.98525e-05,
+        "ground_cap": 1.730385e-05
+      },
+      "2": {
+        "coupling_cap": 6.409375e-05,
+        "ground_cap": 1.9207524999999997e-05
+      },
+      "6": {
+        "coupling_cap": 3.61483e-05,
+        "ground_cap": 2.108815e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 4.13037e-05
+      }
+    },
+    "c4e553abad1570673fc503fb": {
+      "1": {
+        "coupling_cap": 8.118175e-05,
+        "ground_cap": 1.29006e-05
+      },
+      "2": {
+        "coupling_cap": 6.5692625e-05,
+        "ground_cap": 1.3362149999999999e-05
+      },
+      "6": {
+        "coupling_cap": 3.8202149999999995e-05,
+        "ground_cap": 1.581735e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 4.03385e-05
+      }
+    },
+    "cabb3f63cf5c0f1f567ec20e": {
+      "1": {
+        "coupling_cap": 0.0,
+        "ground_cap": 1.349435e-05
+      },
+      "3": {
+        "coupling_cap": 0.0,
+        "ground_cap": 1.3148e-05
+      },
+      "6": {
+        "coupling_cap": 0.0,
+        "ground_cap": 1.258985e-05
+      },
+      "10": {
+        "coupling_cap": 0.0,
+        "ground_cap": 7.8038e-06
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 3.901899999999999e-06
+      }
+    },
+    "638487e92d1c807ee2f655a4": {
+      "1": {
+        "coupling_cap": 7.880845e-05,
+        "ground_cap": 1.469315e-05
+      },
+      "2": {
+        "coupling_cap": 6.3033675e-05,
+        "ground_cap": 1.6087475e-05
+      },
+      "6": {
+        "coupling_cap": 3.4499700000000004e-05,
+        "ground_cap": 2.3115450000000002e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 3.83115e-05
+      }
+    },
+    "4b6147985dff4a4820ee2569": {
+      "1": {
+        "coupling_cap": 7.973955e-05,
+        "ground_cap": 1.84249e-05
+      },
+      "2": {
+        "coupling_cap": 6.415182500000001e-05,
+        "ground_cap": 1.966255e-05
+      },
+      "6": {
+        "coupling_cap": 3.6021450000000004e-05,
+        "ground_cap": 1.865365e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 3.66969e-05
+      }
+    },
+    "e552b434e40cafb41bd0650d": {
+      "1": {
+        "coupling_cap": 7.57392e-05,
+        "ground_cap": 1.864895e-05
+      },
+      "2": {
+        "coupling_cap": 5.9522300000000004e-05,
+        "ground_cap": 2.0679575000000003e-05
+      },
+      "6": {
+        "coupling_cap": 3.00353e-05,
+        "ground_cap": 2.931385e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 4.71208e-05
+      }
+    },
+    "ba4615a65ecdefa7a093c286": {
+      "1": {
+        "coupling_cap": 6.538584999999999e-05,
+        "ground_cap": 3.82338e-05
+      },
+      "2": {
+        "coupling_cap": 4.8351424999999994e-05,
+        "ground_cap": 4.149355e-05
+      },
+      "6": {
+        "coupling_cap": 1.07412e-05,
+        "ground_cap": 5.898905e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.46049e-05
+      }
+    },
+    "7419bca8c23bbea89c77db14": {
+      "1": {
+        "coupling_cap": 6.705135e-05,
+        "ground_cap": 3.56006e-05
+      },
+      "2": {
+        "coupling_cap": 5.0224025e-05,
+        "ground_cap": 3.82794e-05
+      },
+      "6": {
+        "coupling_cap": 1.183955e-05,
+        "ground_cap": 5.5769e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.18872e-05
+      }
+    },
+    "3bf7f28a9995d9a840801c0c": {
+      "1": {
+        "coupling_cap": 6.897595e-05,
+        "ground_cap": 3.0669650000000005e-05
+      },
+      "2": {
+        "coupling_cap": 5.2430924999999995e-05,
+        "ground_cap": 3.4185025e-05
+      },
+      "6": {
+        "coupling_cap": 2.32578e-05,
+        "ground_cap": 4.563445e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.39372e-05
+      }
+    },
+    "1af5b6fbf3280f3b9b1bd02d": {
+      "1": {
+        "coupling_cap": 9.80709e-05,
+        "ground_cap": 1.3771499999999999e-05
+      },
+      "2": {
+        "coupling_cap": 7.742535e-05,
+        "ground_cap": 1.4815449999999999e-05
+      },
+      "6": {
+        "coupling_cap": 4.09084e-05,
+        "ground_cap": 1.928125e-05
+      },
+      "11": {
+        "coupling_cap": 1.78382e-05,
+        "ground_cap": 3.36867e-05
+      }
+    },
+    "1d3c3bc2542af485304cc881": {
+      "1": {
+        "coupling_cap": 8.959375000000002e-05,
+        "ground_cap": 2.513675e-05
+      },
+      "2": {
+        "coupling_cap": 6.8184125e-05,
+        "ground_cap": 2.9038175e-05
+      },
+      "6": {
+        "coupling_cap": 3.01081e-05,
+        "ground_cap": 4.260195e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.2113e-05
+      }
+    },
+    "2bd5d6f9bba5992c0411c7c5": {
+      "1": {
+        "coupling_cap": 8.680485e-05,
+        "ground_cap": 3.1284799999999996e-05
+      },
+      "2": {
+        "coupling_cap": 6.4914275e-05,
+        "ground_cap": 3.589335e-05
+      },
+      "6": {
+        "coupling_cap": 2.5985999999999998e-05,
+        "ground_cap": 5.1274149999999994e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.78999e-05
+      }
+    },
+    "adef9b64883097f2d1dd92a1": {
+      "1": {
+        "coupling_cap": 0.00010267275000000001,
+        "ground_cap": 1.2420265e-05
+      },
+      "2": {
+        "coupling_cap": 8.2318125e-05,
+        "ground_cap": 1.36469825e-05
+      },
+      "6": {
+        "coupling_cap": 4.791515e-05,
+        "ground_cap": 1.197425e-05
+      },
+      "11": {
+        "coupling_cap": 2.81342e-05,
+        "ground_cap": 1.59304e-05
+      }
+    },
+    "db73d899c77be6bae8a174e1": {
+      "1": {
+        "coupling_cap": 0.000100416,
+        "ground_cap": 1.3249100000000002e-05
+      },
+      "2": {
+        "coupling_cap": 8.0617e-05,
+        "ground_cap": 1.4774000000000001e-05
+      },
+      "6": {
+        "coupling_cap": 4.65007e-05,
+        "ground_cap": 1.55306e-05
+      },
+      "11": {
+        "coupling_cap": 2.61107e-05,
+        "ground_cap": 1.87727e-05
+      }
+    },
+    "85364ba41a23fb335de2f6f3": {
+      "1": {
+        "coupling_cap": 9.744635e-05,
+        "ground_cap": 1.507815e-05
+      },
+      "2": {
+        "coupling_cap": 7.714502499999999e-05,
+        "ground_cap": 1.6415725e-05
+      },
+      "6": {
+        "coupling_cap": 4.171265e-05,
+        "ground_cap": 2.39147e-05
+      },
+      "11": {
+        "coupling_cap": 2.01645e-05,
+        "ground_cap": 2.86568e-05
+      }
+    },
+    "709acec1092f76c7fd7a78d2": {
+      "1": {
+        "coupling_cap": 9.689825e-05,
+        "ground_cap": 1.3066425e-05
+      },
+      "2": {
+        "coupling_cap": 7.5920875e-05,
+        "ground_cap": 1.65853125e-05
+      },
+      "6": {
+        "coupling_cap": 3.864015e-05,
+        "ground_cap": 2.570145e-05
+      },
+      "11": {
+        "coupling_cap": 1.52301e-05,
+        "ground_cap": 3.4795e-05
+      }
+    },
+    "2fb1808a50ea3d182c4a5400": {
+      "1": {
+        "coupling_cap": 7.484233333333333e-05,
+        "ground_cap": 9.22589e-06
+      },
+      "3": {
+        "coupling_cap": 5.10742e-05,
+        "ground_cap": 1.202814e-05
+      },
+      "5": {
+        "coupling_cap": 4.15591e-05,
+        "ground_cap": 1.3117450000000001e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 2.97193e-05
+      }
+    },
+    "a40cbb2f4317349d7b162682": {
+      "1": {
+        "coupling_cap": 0.0,
+        "ground_cap": 2.9935199999999998e-05
+      },
+      "3": {
+        "coupling_cap": 0.0,
+        "ground_cap": 2.306355e-05
+      },
+      "6": {
+        "coupling_cap": 0.0,
+        "ground_cap": 1.89979e-05
+      },
+      "10": {
+        "coupling_cap": 0.0,
+        "ground_cap": 1.0352066666666669e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 5.176033333333334e-06
+      }
+    },
+    "95d15a7bd44053961b39cb37": {
+      "1": {
+        "coupling_cap": 6.152466666666667e-05,
+        "ground_cap": 3.6784266666666666e-05
+      },
+      "3": {
+        "coupling_cap": 3.571675e-05,
+        "ground_cap": 4.49733e-05
+      },
+      "5": {
+        "coupling_cap": 2.543065e-05,
+        "ground_cap": 4.7219949999999995e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 7.05446e-05
+      }
+    },
+    "9b87a631c6b1ed762f7ac4dc": {
+      "1": {
+        "coupling_cap": 7.190326666666667e-05,
+        "ground_cap": 1.2930299999999999e-05
+      },
+      "3": {
+        "coupling_cap": 4.6860199999999996e-05,
+        "ground_cap": 1.4991449999999999e-05
+      },
+      "5": {
+        "coupling_cap": 3.668655e-05,
+        "ground_cap": 1.6643499999999997e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 3.28629e-05
+      }
+    },
+    "c85bc82490b63b3d7c033474": {
+      "1": {
+        "coupling_cap": 6.97074e-05,
+        "ground_cap": 1.76167e-05
+      },
+      "3": {
+        "coupling_cap": 4.41206e-05,
+        "ground_cap": 2.0156049999999998e-05
+      },
+      "5": {
+        "coupling_cap": 3.36641e-05,
+        "ground_cap": 2.132005e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 4.00677e-05
+      }
+    },
+    "1824969aee8499a44ce957b8": {
+      "1": {
+        "coupling_cap": 6.119306666666666e-05,
+        "ground_cap": 3.278966666666667e-05
+      },
+      "3": {
+        "coupling_cap": 3.50813e-05,
+        "ground_cap": 3.826835e-05
+      },
+      "5": {
+        "coupling_cap": 2.4794e-05,
+        "ground_cap": 4.25703e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 5.83416e-05
+      }
+    },
+    "e4b6878b9d49b840da68895c": {
+      "1": {
+        "coupling_cap": 6.119306666666666e-05,
+        "ground_cap": 3.278966666666667e-05
+      },
+      "3": {
+        "coupling_cap": 3.50813e-05,
+        "ground_cap": 3.826835e-05
+      },
+      "5": {
+        "coupling_cap": 2.4794e-05,
+        "ground_cap": 4.25703e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 5.83416e-05
+      }
+    },
+    "348ce7e082359a2f0eaa5b2a": {
+      "1": {
+        "coupling_cap": 6.119306666666666e-05,
+        "ground_cap": 3.278966666666667e-05
+      },
+      "3": {
+        "coupling_cap": 3.50813e-05,
+        "ground_cap": 3.826835e-05
+      },
+      "5": {
+        "coupling_cap": 2.4794e-05,
+        "ground_cap": 4.25703e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 5.83416e-05
+      }
+    },
+    "099cdce743d5b028ce3d22c6": {
+      "1": {
+        "coupling_cap": 6.119306666666666e-05,
+        "ground_cap": 3.278966666666667e-05
+      },
+      "3": {
+        "coupling_cap": 3.50813e-05,
+        "ground_cap": 3.826835e-05
+      },
+      "5": {
+        "coupling_cap": 2.4794e-05,
+        "ground_cap": 4.25703e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 5.83416e-05
+      }
+    },
+    "7a7011fe6aedfaef4712ac50": {
+      "1": {
+        "coupling_cap": 8.38234e-05,
+        "ground_cap": 1.466767e-05
+      },
+      "5": {
+        "coupling_cap": 3.637404521739131e-05,
+        "ground_cap": 2.879256028985507e-05
+      },
+      "6": {
+        "coupling_cap": 3.1842e-05,
+        "ground_cap": 3.114023333333333e-05
+      },
+      "11": {
+        "coupling_cap": 9.5982e-06,
+        "ground_cap": 4.71051e-05
+      }
+    },
+    "f4e7493ceef812e4728df176": {
+      "1": {
+        "coupling_cap": 8.810166666666666e-05,
+        "ground_cap": 9.812146666666668e-06
+      },
+      "5": {
+        "coupling_cap": 4.3638484927536234e-05,
+        "ground_cap": 2.077226376811594e-05
+      },
+      "6": {
+        "coupling_cap": 3.8879166666666665e-05,
+        "ground_cap": 2.2687133333333335e-05
+      },
+      "11": {
+        "coupling_cap": 1.41051e-05,
+        "ground_cap": 3.79153e-05
+      }
+    },
+    "aa9f9c04eb61dc15259f8a76": {
+      "1": {
+        "coupling_cap": 0.0,
+        "ground_cap": 1.0809254999999999e-05
+      },
+      "3": {
+        "coupling_cap": 0.0,
+        "ground_cap": 9.405535304347826e-06
+      },
+      "6": {
+        "coupling_cap": 0.0,
+        "ground_cap": 8.903768782608695e-06
+      },
+      "10": {
+        "coupling_cap": 0.0,
+        "ground_cap": 7.1774366666666665e-06
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.382473333333333e-06
+      }
+    },
+    "fe53341c42ed8736398c2698": {
+      "1": {
+        "coupling_cap": 6.568633333333334e-05,
+        "ground_cap": 2.7717999999999998e-05
+      },
+      "4": {
+        "coupling_cap": 3.0411e-05,
+        "ground_cap": 4.262785e-05
+      },
+      "6": {
+        "coupling_cap": 2.013645e-05,
+        "ground_cap": 5.082795e-05
+      },
+      "11": {
+        "coupling_cap": 5.13643e-06,
+        "ground_cap": 6.43186e-05
+      }
+    },
+    "9e54bee06f07cf1f3f66a4f7": {
+      "1": {
+        "coupling_cap": 7.681966666666667e-05,
+        "ground_cap": 1.1814366666666667e-05
+      },
+      "4": {
+        "coupling_cap": 4.23286e-05,
+        "ground_cap": 2.044865e-05
+      },
+      "6": {
+        "coupling_cap": 3.139745e-05,
+        "ground_cap": 2.6441749999999998e-05
+      },
+      "11": {
+        "coupling_cap": 9.60569e-06,
+        "ground_cap": 4.3086e-05
+      }
+    },
+    "a66f4c7929ff2ae84de7e02a": {
+      "1": {
+        "coupling_cap": 5.299813333333333e-05,
+        "ground_cap": 4.5402866666666665e-05
+      },
+      "4": {
+        "coupling_cap": 1.97709e-05,
+        "ground_cap": 6.441705000000001e-05
+      },
+      "6": {
+        "coupling_cap": 1.173533e-05,
+        "ground_cap": 7.3051e-05
+      },
+      "11": {
+        "coupling_cap": 1.74713e-06,
+        "ground_cap": 8.34012e-05
+      }
+    },
+    "bfae70973112c9eb11361105": {
+      "1": {
+        "coupling_cap": 6.396513333333334e-05,
+        "ground_cap": 2.9758833333333334e-05
+      },
+      "4": {
+        "coupling_cap": 2.909825e-05,
+        "ground_cap": 4.704605e-05
+      },
+      "6": {
+        "coupling_cap": 2.01322e-05,
+        "ground_cap": 5.384155e-05
+      },
+      "11": {
+        "coupling_cap": 4.72344e-06,
+        "ground_cap": 6.77278e-05
+      }
+    },
+    "727fd0e3aa2f125d285768db": {
+      "1": {
+        "coupling_cap": 7.510793333333333e-05,
+        "ground_cap": 2.31567e-05
+      },
+      "5": {
+        "coupling_cap": 3.28534e-05,
+        "ground_cap": 3.96215e-05
+      },
+      "6": {
+        "coupling_cap": 2.81217e-05,
+        "ground_cap": 4.3105299999999995e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 7.12165e-05
+      }
+    },
+    "3fc882bcf3bea216f2c4e00e": {
+      "1": {
+        "coupling_cap": 0.0,
+        "ground_cap": 9.377686666666666e-05
+      },
+      "4": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.384606666666667e-05
+      },
+      "6": {
+        "coupling_cap": 0.0,
+        "ground_cap": 5.6933784444444445e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 4.41948e-05
+      }
+    },
+    "ab450d620df9985dc87de4e8": {
+      "1": {
+        "coupling_cap": 0.0,
+        "ground_cap": 9.383533333333333e-05
+      },
+      "4": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.392085777777777e-05
+      },
+      "6": {
+        "coupling_cap": 0.0,
+        "ground_cap": 5.6917335555555555e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 4.3709e-05
+      }
+    },
+    "96886613e7460a035010bd8b": {
+      "1": {
+        "coupling_cap": 3.8452352380952384e-05,
+        "ground_cap": 5.492568666666667e-05
+      },
+      "3": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.779628285714286e-05
+      },
+      "5": {
+        "coupling_cap": 0.0,
+        "ground_cap": 5.813336857142857e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 4.22869e-05
+      }
+    },
+    "48ca28083077ee7d97b89ff5": {
+      "1": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      },
+      "3": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      },
+      "6": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      },
+      "10": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      }
+    },
+    "717750fdafe86d0e09130cd4": {
+      "1": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      },
+      "3": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      },
+      "6": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      },
+      "10": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      }
+    },
+    "2d8e7107e717f4d3902a9a3a": {
+      "1": {
+        "coupling_cap": 3.8986644444444446e-05,
+        "ground_cap": 5.4957311428571424e-05
+      },
+      "3": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.814173428571429e-05
+      },
+      "5": {
+        "coupling_cap": 0.0,
+        "ground_cap": 5.837953428571429e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 4.29684e-05
+      }
+    },
+    "8a08d63997dbd2b9facf60c6": {
+      "1": {
+        "coupling_cap": 3.7235317460317466e-05,
+        "ground_cap": 6.720306158730158e-05
+      },
+      "3": {
+        "coupling_cap": 0.0,
+        "ground_cap": 8.456269142857143e-05
+      },
+      "5": {
+        "coupling_cap": 0.0,
+        "ground_cap": 8.018622e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 7.37846e-05
+      }
+    },
+    "5d47264a6b9ed24342e8216c": {
+      "1": {
+        "coupling_cap": 3.8277742857142864e-05,
+        "ground_cap": 5.4823437460317455e-05
+      },
+      "3": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.716816476190477e-05
+      },
+      "5": {
+        "coupling_cap": 0.0,
+        "ground_cap": 5.702648e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 3.97424e-05
+      }
+    },
+    "c302f220d2f97f736465ab92": {
+      "1": {
+        "coupling_cap": 3.912201587301587e-05,
+        "ground_cap": 5.501759873015873e-05
+      },
+      "3": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.842688095238096e-05
+      },
+      "5": {
+        "coupling_cap": 0.0,
+        "ground_cap": 5.884962285714286e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 4.2874e-05
+      }
+    },
+    "769bfc6a423b23f5821e2356": {
+      "1": {
+        "coupling_cap": 3.782388888888889e-05,
+        "ground_cap": 5.771141587301588e-05
+      },
+      "3": {
+        "coupling_cap": 0.0,
+        "ground_cap": 7.221030857142857e-05
+      },
+      "5": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.555985142857143e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 5.55217e-05
+      }
+    },
+    "5a69386e98bcff52ba670fc7": {
+      "1": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      },
+      "3": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      },
+      "6": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      },
+      "10": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 0.0
+      }
+    },
+    "44e2ed598cbdfa8e46f0be30": {
+      "1": {
+        "coupling_cap": 4.130496190476191e-05,
+        "ground_cap": 5.367948666666667e-05
+      },
+      "3": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.934947428571429e-05
+      },
+      "5": {
+        "coupling_cap": 0.0,
+        "ground_cap": 5.998360857142857e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 4.337e-05
+      }
+    },
+    "e704c792705d0497e4cd5429": {
+      "1": {
+        "coupling_cap": 3.874565714285715e-05,
+        "ground_cap": 5.7380198095238085e-05
+      },
+      "3": {
+        "coupling_cap": 0.0,
+        "ground_cap": 7.186677238095237e-05
+      },
+      "5": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.291480285714286e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 4.84508e-05
+      }
+    },
+    "9e43c23b5b2c13028c1e8419": {
+      "1": {
+        "coupling_cap": 4.07056e-05,
+        "ground_cap": 5.2468244888888884e-05
+      },
+      "3": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.714992476190477e-05
+      },
+      "5": {
+        "coupling_cap": 0.0,
+        "ground_cap": 5.758785428571429e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 3.97717e-05
+      }
+    },
+    "38ad7c21991b91eed898d438": {
+      "1": {
+        "coupling_cap": 4.072489206349207e-05,
+        "ground_cap": 5.2691513333333334e-05
+      },
+      "3": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.755154380952381e-05
+      },
+      "5": {
+        "coupling_cap": 0.0,
+        "ground_cap": 5.815111428571429e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 4.08659e-05
+      }
+    },
+    "4f68ae985551e64df9fe64fb": {
+      "1": {
+        "coupling_cap": 3.92122634920635e-05,
+        "ground_cap": 5.9187700317460314e-05
+      },
+      "3": {
+        "coupling_cap": 0.0,
+        "ground_cap": 7.647546666666666e-05
+      },
+      "5": {
+        "coupling_cap": 0.0,
+        "ground_cap": 7.046488285714286e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.24725e-05
+      }
+    },
+    "7e007e6f41cbab1b68631e29": {
+      "1": {
+        "coupling_cap": 4.731546666666667e-05,
+        "ground_cap": 2.4638033333333334e-05
+      },
+      "4": {
+        "coupling_cap": 2.610225e-05,
+        "ground_cap": 2.757655e-05
+      },
+      "6": {
+        "coupling_cap": 1.8587299999999997e-05,
+        "ground_cap": 3.108495e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 4.37926e-05
+      }
+    },
+    "4ecc9869e5ab440cb2dba3f8": {
+      "1": {
+        "coupling_cap": 3.84355e-05,
+        "ground_cap": 4.023566666666667e-05
+      },
+      "4": {
+        "coupling_cap": 1.47729e-05,
+        "ground_cap": 5.024625e-05
+      },
+      "6": {
+        "coupling_cap": 5.484699999999999e-06,
+        "ground_cap": 5.80398e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 6.48087e-05
+      }
+    },
+    "b62b825f9d987ebc8d80d733": {
+      "1": {
+        "coupling_cap": 4.681463333333333e-05,
+        "ground_cap": 1.4825666666666666e-05
+      },
+      "3": {
+        "coupling_cap": 2.8815e-05,
+        "ground_cap": 1.54428e-05
+      },
+      "5": {
+        "coupling_cap": 2.24952e-05,
+        "ground_cap": 1.6309999999999998e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 3.15281e-05
+      }
+    },
+    "1351e9c0ba88a837877b9d4d": {
+      "1": {
+        "coupling_cap": 3.592543333333333e-05,
+        "ground_cap": 3.641726666666667e-05
+      },
+      "3": {
+        "coupling_cap": 1.99498e-05,
+        "ground_cap": 3.737725e-05
+      },
+      "5": {
+        "coupling_cap": 1.51655e-05,
+        "ground_cap": 3.77214e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 5.00848e-05
+      }
+    },
+    "dee2798243bfcd12460d115e": {
+      "1": {
+        "coupling_cap": 8.757153333333333e-05,
+        "ground_cap": 1.6607033333333332e-05
+      },
+      "4": {
+        "coupling_cap": 5.234202857142857e-05,
+        "ground_cap": 1.881915714285714e-05
+      },
+      "6": {
+        "coupling_cap": 4.001291142857143e-05,
+        "ground_cap": 2.2966385714285713e-05
+      },
+      "11": {
+        "coupling_cap": 1.49853e-05,
+        "ground_cap": 3.43422e-05
+      }
+    },
+    "5fcb7d8b9bc747ff17edb54b": {
+      "1": {
+        "coupling_cap": 0.0,
+        "ground_cap": 9.592049999999999e-06
+      },
+      "6": {
+        "coupling_cap": 0.0,
+        "ground_cap": 9.103657428571429e-06
+      },
+      "8": {
+        "coupling_cap": 0.0,
+        "ground_cap": 8.920283428571427e-06
+      },
+      "10": {
+        "coupling_cap": 0.0,
+        "ground_cap": 5.8797e-06
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 2.9398500000000003e-06
+      }
+    },
+    "4584279f42b9e441da3add4e": {
+      "1": {
+        "coupling_cap": 8.08824e-05,
+        "ground_cap": 2.5141366666666666e-05
+      },
+      "4": {
+        "coupling_cap": 4.611982e-05,
+        "ground_cap": 2.9256685714285713e-05
+      },
+      "6": {
+        "coupling_cap": 3.5009182857142856e-05,
+        "ground_cap": 3.368816285714286e-05
+      },
+      "11": {
+        "coupling_cap": 1.29366e-05,
+        "ground_cap": 4.64806e-05
+      }
+    },
+    "0b264c3a1a242d55b31ce086": {
+      "1": {
+        "coupling_cap": 7.85502e-05,
+        "ground_cap": 3.00573e-05
+      },
+      "4": {
+        "coupling_cap": 4.188466e-05,
+        "ground_cap": 3.742075142857143e-05
+      },
+      "6": {
+        "coupling_cap": 3.0357940000000002e-05,
+        "ground_cap": 4.245069428571429e-05
+      },
+      "11": {
+        "coupling_cap": 1.08465e-05,
+        "ground_cap": 5.32306e-05
+      }
+    },
+    "aaa4e0607b42fc8885b63c92": {
+      "1": {
+        "coupling_cap": 8.982953333333333e-05,
+        "ground_cap": 1.2432633333333334e-05
+      },
+      "4": {
+        "coupling_cap": 5.48691e-05,
+        "ground_cap": 1.4705262857142857e-05
+      },
+      "6": {
+        "coupling_cap": 4.274246285714286e-05,
+        "ground_cap": 1.8680151428571428e-05
+      },
+      "11": {
+        "coupling_cap": 2.1936e-05,
+        "ground_cap": 2.41638e-05
+      }
+    },
+    "7bc501bce4e1b2319a8a1250": {
+      "1": {
+        "coupling_cap": 0.0,
+        "ground_cap": 1.207865e-05
+      },
+      "6": {
+        "coupling_cap": 0.0,
+        "ground_cap": 1.1538765714285715e-05
+      },
+      "8": {
+        "coupling_cap": 0.0,
+        "ground_cap": 1.138362e-05
+      },
+      "10": {
+        "coupling_cap": 0.0,
+        "ground_cap": 1.09001e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 1.05716e-05
+      }
+    },
+    "66b95b8afb59f87516881865": {
+      "1": {
+        "coupling_cap": 6.851886666666667e-05,
+        "ground_cap": 4.56748e-05
+      },
+      "4": {
+        "coupling_cap": 3.148122285714286e-05,
+        "ground_cap": 5.808926571428572e-05
+      },
+      "6": {
+        "coupling_cap": 2.1475917142857143e-05,
+        "ground_cap": 6.465390571428572e-05
+      },
+      "11": {
+        "coupling_cap": 6.21704e-06,
+        "ground_cap": 7.4809e-05
+      }
+    },
+    "00e6e39576ec33c7ac512339": {
+      "1": {
+        "coupling_cap": 9.851226666666668e-05,
+        "ground_cap": 8.255340000000001e-06
+      },
+      "4": {
+        "coupling_cap": 5.760819066666667e-05,
+        "ground_cap": 1.1729852e-05
+      },
+      "6": {
+        "coupling_cap": 4.3625785333333334e-05,
+        "ground_cap": 1.6706126666666667e-05
+      },
+      "11": {
+        "coupling_cap": 1.95583e-05,
+        "ground_cap": 2.58394e-05
+      }
+    },
+    "9e471c6abe720e78a7d5cd21": {
+      "1": {
+        "coupling_cap": 9.115760000000001e-05,
+        "ground_cap": 1.6681733333333333e-05
+      },
+      "4": {
+        "coupling_cap": 5.1706981333333336e-05,
+        "ground_cap": 1.9698018666666666e-05
+      },
+      "6": {
+        "coupling_cap": 3.9153084e-05,
+        "ground_cap": 2.3879798666666665e-05
+      },
+      "11": {
+        "coupling_cap": 1.50997e-05,
+        "ground_cap": 3.45089e-05
+      }
+    },
+    "60ca0ad9f701a9e961d2a3e9": {
+      "1": {
+        "coupling_cap": 0.0,
+        "ground_cap": 3.18281e-05
+      },
+      "6": {
+        "coupling_cap": 0.0,
+        "ground_cap": 1.851300266666667e-05
+      },
+      "8": {
+        "coupling_cap": 0.0,
+        "ground_cap": 1.6624070222222225e-05
+      },
+      "10": {
+        "coupling_cap": 0.0,
+        "ground_cap": 1.3832133333333333e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 1.2321066666666666e-05
+      }
+    },
+    "c178544dca85690e4a26303c": {
+      "1": {
+        "coupling_cap": 7.527980000000001e-05,
+        "ground_cap": 4.8620733333333334e-05
+      },
+      "4": {
+        "coupling_cap": 3.249926e-05,
+        "ground_cap": 6.119509733333333e-05
+      },
+      "6": {
+        "coupling_cap": 2.1154497333333334e-05,
+        "ground_cap": 6.700469999999999e-05
+      },
+      "11": {
+        "coupling_cap": 4.16879e-06,
+        "ground_cap": 7.95897e-05
+      }
+    },
+    "6844bc56a48fa45712be3845": {
+      "1": {
+        "coupling_cap": 9.25318e-05,
+        "ground_cap": 1.3918633333333333e-05
+      },
+      "4": {
+        "coupling_cap": 5.541696666666667e-05,
+        "ground_cap": 1.5679245333333333e-05
+      },
+      "6": {
+        "coupling_cap": 4.3410504e-05,
+        "ground_cap": 1.9014588e-05
+      },
+      "11": {
+        "coupling_cap": 2.15726e-05,
+        "ground_cap": 2.51067e-05
+      }
+    },
+    "89d39c2436fabc28ebfd72e8": {
+      "1": {
+        "coupling_cap": 0.0,
+        "ground_cap": 3.8877699999999995e-05
+      },
+      "6": {
+        "coupling_cap": 0.0,
+        "ground_cap": 2.276306e-05
+      },
+      "8": {
+        "coupling_cap": 0.0,
+        "ground_cap": 2.0218048444444442e-05
+      },
+      "10": {
+        "coupling_cap": 0.0,
+        "ground_cap": 1.695863333333333e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 1.5723366666666666e-05
+      }
+    },
+    "924891524416d37516d8892b": {
+      "1": {
+        "coupling_cap": 4.891116666666667e-05,
+        "ground_cap": 1.7642366666666666e-05
+      },
+      "4": {
+        "coupling_cap": 2.2173549999999997e-05,
+        "ground_cap": 2.695925e-05
+      },
+      "6": {
+        "coupling_cap": 1.559095e-05,
+        "ground_cap": 3.06713e-05
+      },
+      "11": {
+        "coupling_cap": 0.0,
+        "ground_cap": 4.2381e-05
+      }
+    }
+  }
+}

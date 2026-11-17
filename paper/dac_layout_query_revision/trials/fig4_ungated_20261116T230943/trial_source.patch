@@ -1,0 +1,13 @@
+--- formal/main.tex
++++ trial/main_ungated.tex
+@@ -885,8 +885,8 @@
+ \section{Results}
+ \subsection{All four characterization holdouts}
+ \begin{figure*}[t]
+-\centering\includegraphics[width=\textwidth]{figures/coverage_four_ratios.pdf}
+-\caption{Coverage sensitivity: all 10/30/50/70\% holdouts, three domains and five support/protocol conditions. Mean-mask macro NRMSE on common feasible S/Q; Full and Binary average three matched members. MLI-ext. identifies the specified core plus declared sparse-support/boundary extension. No curve uses the native census to set holdout. Complete-cell coverage, rounded duplicates and full numerical controls are reported separately.}
++\centering\includegraphics[width=\textwidth]{trials/fig4_ungated_20261116T230943/coverage_four_ratios_ungated.pdf}
++\caption{Coverage sensitivity: all 10/30/50/70\% holdouts, three domains and five support/protocol conditions. Mean-mask macro NRMSE on common feasible S/Q; Full, Binary, and Ungated average three matched members. MLI-ext. identifies the specified core plus declared sparse-support/boundary extension. No curve uses the native census to set holdout. Complete-cell coverage, rounded duplicates and full numerical controls are reported separately.}
+ \label{fig:coverage}
+ \end{figure*}
+ \input{tables/coverage_findings.tex}

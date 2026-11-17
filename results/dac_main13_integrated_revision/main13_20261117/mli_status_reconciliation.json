@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "archived_complete": 35482,
+  "replayed_complete": 35362,
+  "all_queries": 171315,
+  "archived_percent": 20.711554738347488,
+  "corrected_percent": 20.641508332603685,
+  "mli_error_reaggregation_max_delta": {
+    "public": 4.440892098500626e-16,
+    "reference": 2.220446049250313e-16,
+    "to_asap7": 1.1102230246251565e-16
+  },
+  "explanation": "120 single-support requests from two all-zero two-node Public tables: archived inventory says complete_cell; current explicit constant-axis boundary test says clamp. Values remain zero and all condition MLI errors reproduce; original inventory is retained, only status counts corrected."
+}

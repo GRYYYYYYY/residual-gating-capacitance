@@ -1,0 +1,37 @@
+domain,method,budget,nrmse,available
+Public,CNP,4,0.2650,True
+Public,CNP,8,0.2374,True
+Public,Adapted AC,4,,False
+Public,Adapted AC,8,,False
+Public,Full,4,0.0708,True
+Public,Full,8,0.0609,True
+FEM,CNP,4,0.2356,True
+FEM,CNP,8,0.2313,True
+FEM,CNP,16,0.2297,True
+FEM,CNP,32,0.2274,True
+FEM,CNP,64,0.2271,True
+FEM,Adapted AC,4,0.4546,True
+FEM,Adapted AC,8,0.2256,True
+FEM,Adapted AC,16,0.2025,True
+FEM,Adapted AC,32,0.1677,True
+FEM,Adapted AC,64,0.1657,True
+FEM,Full,4,0.1233,True
+FEM,Full,8,0.0925,True
+FEM,Full,16,0.0409,True
+FEM,Full,32,0.0332,True
+FEM,Full,64,0.0250,True
+Transfer,CNP,4,0.2138,True
+Transfer,CNP,8,0.2126,True
+Transfer,CNP,16,0.2135,True
+Transfer,CNP,32,0.2127,True
+Transfer,CNP,64,0.2136,True
+Transfer,Adapted AC,4,6.8753,True
+Transfer,Adapted AC,8,0.3199,True
+Transfer,Adapted AC,16,0.2120,True
+Transfer,Adapted AC,32,0.2153,True
+Transfer,Adapted AC,64,0.1791,True
+Transfer,Full,4,0.1182,True
+Transfer,Full,8,0.1034,True
+Transfer,Full,16,0.0685,True
+Transfer,Full,32,0.0495,True
+Transfer,Full,64,0.0386,True

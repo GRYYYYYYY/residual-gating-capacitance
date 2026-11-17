@@ -1,0 +1,43 @@
+{
+  "checks": {
+    "public": {
+      "max_abs_reaggregation_difference": 4.440892098500626e-16,
+      "records": 188398,
+      "episodes": 20400,
+      "duplicate_rounded_SQ": 10861,
+      "distinct_SQ": 9539,
+      "complete_cell_queries": 32602,
+      "all_queries": 97515
+    },
+    "reference": {
+      "max_abs_reaggregation_difference": 2.220446049250313e-16,
+      "records": 10528,
+      "episodes": 960,
+      "duplicate_rounded_SQ": 256,
+      "distinct_SQ": 704,
+      "complete_cell_queries": 1920,
+      "all_queries": 49200
+    },
+    "to_asap7": {
+      "max_abs_reaggregation_difference": 2.220446049250313e-16,
+      "records": 5264,
+      "episodes": 480,
+      "duplicate_rounded_SQ": 128,
+      "distinct_SQ": 352,
+      "complete_cell_queries": 960,
+      "all_queries": 24600
+    }
+  },
+  "sources": {
+    "results/pex_kernel_revision/coverage_public.jsonl.gz": "7e3f95b4715ecc933966fcc9dbdad2736268bb7c4d20879e17ffbaeb235cf62c",
+    "paper/dac_layout_query_revision/trials/fig4_ungated_20261116T230943/ungated_public.jsonl.gz": "a981e4fc28cf0ffd4cd80d94891c5c9c1f9d52ef64b633f6ba86281c5e758a9e",
+    "results/pex_kernel_revision/coverage_reference.jsonl.gz": "fe00e0abe62b287eb9c1683aea4abbee89b72916bd52052af19d68c9623f7b50",
+    "paper/dac_layout_query_revision/trials/fig4_ungated_20261116T230943/ungated_reference.jsonl.gz": "d6c671077dc6a72de5df7cd92b9e66ea3429ce89756241e9967715c86b8e7e08",
+    "results/pex_kernel_revision/coverage_to_asap7.jsonl.gz": "dedf36ec2b90fb7a96baecfb3d8b4919518e370b1cb3c3301d3060bda0dd67d4",
+    "paper/dac_layout_query_revision/trials/fig4_ungated_20261116T230943/ungated_to_asap7.jsonl.gz": "fd8b0a591c0cc10c9ab126443a0913f2b7afa253c1e38f9eb6bf13b87e5eedfd"
+  },
+  "tolerance_relative": 9.5367431640625e-07,
+  "bootstrap_unit": "public split_group; FEM/transfer process-layer, stratified by process",
+  "bootstrap_seed": 20261117,
+  "bootstrap_repetitions": 1000
+}

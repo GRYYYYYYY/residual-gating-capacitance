@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "wall_seconds": 17.29536299780011,
+  "extraction_seconds": 3.162893,
+  "worst_slack_native": -0.010832224,
+  "tns_native": -0.010832224,
+  "comparison": {
+    "units": {
+      "*C_UNIT": [
+        1.0,
+        "PF"
+      ],
+      "*R_UNIT": [
+        1.0,
+        "OHM"
+      ]
+    },
+    "golden_nets": 18579,
+    "candidate_nets": 18579,
+    "common_nets": 18579,
+    "metrics": {
+      "capacitance": {
+        "mae": 0.00017621107877711467,
+        "rmse": 0.0003444779516845801,
+        "nrmse": 0.023764698994265556,
+        "smape": 0.02116677265554904,
+        "r2": 0.9991984332062734,
+        "spearman": 0.9998983432646472
+      },
+      "resistance": {
+        "mae": 0.0,
+        "rmse": 0.0,
+        "nrmse": 0.0,
+        "smape": 0.0,
+        "r2": 1.0,
+        "spearman": 0.9999999999999999
+      }
+    }
+  },
+  "spef_sha256": "41e328594e3a1772c074f20b8500088ed8afa31f0d7d44010514eb1f3f3dab30"
+}

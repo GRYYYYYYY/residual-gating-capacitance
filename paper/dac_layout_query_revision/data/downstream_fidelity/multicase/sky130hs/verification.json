@@ -1,0 +1,42 @@
+{
+  "case": "sky130hs/ibex",
+  "variants": {
+    "golden": {
+      "worst_slack_native": -0.245319322,
+      "tns_native": -39.309909821,
+      "spef_sha256": "10b5d5432c791b096e426887d19cfbd6220b2757e91d92f0d4204a737ddec2f4"
+    },
+    "linear_block50_seed0": {
+      "worst_slack_native": -0.258357793,
+      "tns_native": -42.406799316,
+      "spef_sha256": "8f6625f7c6450f84668a03c2ef46a34768b8fc835de0674ba9d7f3a12d34e94a"
+    },
+    "ours_block50_seed0": {
+      "worst_slack_native": -0.247863963,
+      "tns_native": -39.863937378,
+      "spef_sha256": "2a9ee33baffc9401f5e0c7065f9e7d6fc6793c892109edb66fbafa7a4f3c059f"
+    },
+    "linear_block50_seed1": {
+      "worst_slack_native": -0.257290184,
+      "tns_native": -42.901569366,
+      "spef_sha256": "500bce3211ffdf5eccfb31c66750b70ca2cfb0a824e705e4e8e70b1122ef66e0"
+    },
+    "ours_block50_seed1": {
+      "worst_slack_native": -0.245381504,
+      "tns_native": -39.381778717,
+      "spef_sha256": "1ff42044bc9d3485386ee56243a067ea14413d498434c8438ecd83705631c681"
+    },
+    "linear_block50_seed2": {
+      "worst_slack_native": -0.251723081,
+      "tns_native": -41.279541016,
+      "spef_sha256": "a9e5bcbc6c56f9b74a2fa47776b8c8767908d373f9c2190b18d589b66ceaa383"
+    },
+    "ours_block50_seed2": {
+      "worst_slack_native": -0.242287979,
+      "tns_native": -38.526000977,
+      "spef_sha256": "357ada6f15fcc9c7555645318ddc620cc7b9d734923485dd6942d15d9694f796"
+    }
+  },
+  "odb_sha256": "014d3d885eade3e6f24c61218c13325c4f63cf5db539a8d7d257a6e48eebab1a",
+  "sdc_sha256": "1181b4fc83e9c4274245779b06dbf93709d2d5e33ef4faaf03a93dafe35dc3db"
+}

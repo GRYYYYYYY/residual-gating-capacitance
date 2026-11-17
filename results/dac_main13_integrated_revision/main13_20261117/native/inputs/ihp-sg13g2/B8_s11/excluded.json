@@ -1,0 +1,20 @@
+[
+  {
+    "table_id": "15d17505a961167eb4d28b31",
+    "family": "DIAGUNDER",
+    "n": 13,
+    "reason": "short, diagonal, or special tail"
+  },
+  {
+    "table_id": "8046d01e462caa608ee2259a",
+    "family": "DIAGUNDER",
+    "n": 13,
+    "reason": "short, diagonal, or special tail"
+  },
+  {
+    "table_id": "e514692a88a1a9d9178d220d",
+    "family": "DIAGUNDER",
+    "n": 13,
+    "reason": "short, diagonal, or special tail"
+  }
+]

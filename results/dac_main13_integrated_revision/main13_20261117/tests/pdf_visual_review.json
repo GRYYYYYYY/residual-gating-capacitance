@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "pdf_sha256": "d52fbf3140f287adbd850d0ec8c47ae1d81ec035a88d84f182dfb803667a55a9",
+  "pages": 15,
+  "reviewed_utc": "2026-11-17T15:27:43.892435+00:00",
+  "all_pages_layout_review": "15-page contact sheet rendered at650px per page",
+  "detailed_reviews": "Final page11 at1700px after shared-axis-label fix; mechanism, original Fig4 and downstream cost tables additionally reviewed at1700px before layout-only reflow",
+  "findings": [
+    "No visible overlap or clipping in final page layouts",
+    "New sparse-native figure repeated axis labels replaced by one shared label",
+    "Table/figure contents readable at detailed rendering",
+    "Trailing float whitespace retained; no page-limit compression requested"
+  ],
+  "artifacts": [
+    "raw/pdf_review/contact-final.png",
+    "raw/pdf_review/fixed-11.png"
+  ],
+  "scope": "visual layout check; numerical validity comes from separate raw-result checks"
+}

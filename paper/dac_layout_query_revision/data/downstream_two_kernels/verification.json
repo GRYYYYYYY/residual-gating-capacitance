@@ -1,0 +1,91 @@
+{
+  "new_native_runs": 48,
+  "reused_native_runs": 96,
+  "golden_runs": 8,
+  "common_support_episodes": 498,
+  "kernel_validation_max_scaled_error": 2.338779773943225e-16,
+  "baseline_wins": {
+    "cmi": {
+      "net_cap_nrmse": 16,
+      "ws_abs_ns": 16,
+      "tns_abs_ns": 13
+    },
+    "openrcx_kernel": {
+      "net_cap_nrmse": 16,
+      "ws_abs_ns": 16,
+      "tns_abs_ns": 13
+    }
+  },
+  "spatial": [
+    {
+      "case": "asap7/ibex",
+      "baseline": "cmi",
+      "endpoints": 3704,
+      "baseline_mae_ps": 1.4189451412886969,
+      "full_mae_ps": 0.12577294744420417,
+      "reduction_pct": 91.1361656075036
+    },
+    {
+      "case": "asap7/ibex",
+      "baseline": "openrcx_kernel",
+      "endpoints": 3704,
+      "baseline_mae_ps": 1.4183142934665223,
+      "full_mae_ps": 0.12577294744420417,
+      "reduction_pct": 91.13222308880489
+    },
+    {
+      "case": "gf180/ibex",
+      "baseline": "cmi",
+      "endpoints": 2039,
+      "baseline_mae_ps": 27.47799297041033,
+      "full_mae_ps": 6.111868563021096,
+      "reduction_pct": 77.75722350026561
+    },
+    {
+      "case": "gf180/ibex",
+      "baseline": "openrcx_kernel",
+      "endpoints": 2039,
+      "baseline_mae_ps": 27.47799297041033,
+      "full_mae_ps": 6.111868563021096,
+      "reduction_pct": 77.75722350026561
+    },
+    {
+      "case": "ihp-sg13g2/ibex",
+      "baseline": "cmi",
+      "endpoints": 3704,
+      "baseline_mae_ps": 38.04707892368611,
+      "full_mae_ps": 4.414446994240456,
+      "reduction_pct": 88.39740889676486
+    },
+    {
+      "case": "ihp-sg13g2/ibex",
+      "baseline": "openrcx_kernel",
+      "endpoints": 3704,
+      "baseline_mae_ps": 37.956729931605466,
+      "full_mae_ps": 4.414446994240456,
+      "reduction_pct": 88.369791069476
+    },
+    {
+      "case": "sky130hs/ibex",
+      "baseline": "cmi",
+      "endpoints": 3975,
+      "baseline_mae_ps": 2.3434678406708587,
+      "full_mae_ps": 0.35923153039832434,
+      "reduction_pct": 84.67094260207607
+    },
+    {
+      "case": "sky130hs/ibex",
+      "baseline": "openrcx_kernel",
+      "endpoints": 3975,
+      "baseline_mae_ps": 2.3685703983228508,
+      "full_mae_ps": 0.35923153039832434,
+      "reduction_pct": 84.83340285546544
+    }
+  ],
+  "spatial_seed_wins": {
+    "cmi": 12,
+    "openrcx_kernel": 12
+  },
+  "layout": "single column; MLI-ext./OpenRCX rows, four process columns; common scale within each column",
+  "scope": "Same-support fixed-node completion and native extraction; not computeTable injection"
+}

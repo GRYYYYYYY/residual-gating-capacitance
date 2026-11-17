@@ -1,0 +1,62 @@
+{
+  "native_runs": 96,
+  "golden_runs": 8,
+  "support_episodes": 498,
+  "checked_prediction_components": 6108,
+  "max_mli_archive_absolute_difference": 2.710505431213761e-20,
+  "ranks": {
+    "1": 498
+  },
+  "policies": {
+    "complete_cell": 5732,
+    "explicit_clamp": 310
+  },
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "budgets": [
+    4,
+    8
+  ],
+  "spatial_budget": 8,
+  "spatial": [
+    {
+      "case": "asap7/ibex",
+      "endpoints": 3704,
+      "mli_mae_ps": 1.4189451412886969,
+      "full_mae_ps": 0.12577294744420417,
+      "reduction_pct": 91.1361656075036
+    },
+    {
+      "case": "gf180/ibex",
+      "endpoints": 2039,
+      "mli_mae_ps": 27.47799297041033,
+      "full_mae_ps": 6.111868563021096,
+      "reduction_pct": 77.75722350026561
+    },
+    {
+      "case": "ihp-sg13g2/ibex",
+      "endpoints": 3704,
+      "mli_mae_ps": 38.04707892368611,
+      "full_mae_ps": 4.414446994240456,
+      "reduction_pct": 88.39740889676486
+    },
+    {
+      "case": "sky130hs/ibex",
+      "endpoints": 3975,
+      "mli_mae_ps": 2.3434678406708587,
+      "full_mae_ps": 0.35923153039832434,
+      "reduction_pct": 84.67094260207607
+    }
+  ],
+  "spatial_seed_improvements": 12,
+  "wins": {
+    "net_cap_nrmse": 16,
+    "ws_abs_ns": 16,
+    "tns_abs_ns": 13
+  },
+  "evidence": "Native frozen rule hashes, same ODB/SDC/libraries/OpenROAD, unchanged R, identical endpoint sets and geometry",
+  "scope": "Fixed-node rule export; MLI-ext. verified on this cohort; no computeTable or commercial-product claim"
+}

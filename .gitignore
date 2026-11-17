@@ -104,3 +104,25 @@ results/pex_kernel_revision/pdf_preview/
 results/pex_kernel_revision/build/**/extRCmodel.cpp
 results/pex_kernel_revision/payloads/*.tsv
 results/pex_kernel_revision/review_bundle/
+
+# Integrated main13 revision: compact evidence is tracked; raw outputs remain local.
+results/dac_main13_integrated_revision/**/*.spef
+results/dac_main13_integrated_revision/**/getters.tsv
+results/dac_main13_integrated_revision/**/slots.tsv
+results/dac_main13_integrated_revision/**/native/inputs/*/*/*.tsv
+results/dac_main13_integrated_revision/**/*.pt
+results/dac_main13_integrated_revision/**/*_candidate_outputs.jsonl.gz
+results/dac_main13_integrated_revision/**/*.rules
+results/downstream_kernel_comparison_20261117/**/*.spef
+results/downstream_kernel_comparison_20261117/**/paths.tsv
+results/downstream_kernel_comparison_20261117/**/layout.tsv
+results/downstream_kernel_comparison_20261117/**/top_paths.json
+results/downstream_kernel_comparison_20261117/**/*.rules
+# Historical manuscript snapshots are local; retain Fig.4 raw evidence and tools.
+paper/dac_layout_query_revision/trials/before_*/
+paper/dac_layout_query_revision/trials/fig4_before_merge_*/
+paper/dac_layout_query_revision/trials/fig4_ungated_*/baseline/
+paper/dac_layout_query_revision/trials/fig4_ungated_*/main_ungated.*
+paper/dac_layout_query_revision/trials/fig4_ungated_*/page6_preview.png
+paper/dac_layout_query_revision/main (11).pdf
+/texput.log

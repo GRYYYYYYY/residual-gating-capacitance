@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "methods": {
+    "mli_native": {
+      "max_source_scaled_jump": 0.17925347499550054,
+      "jumps_above_one_source_scale": 0
+    },
+    "binary_native": {
+      "max_source_scaled_jump": 0.6290347973505652,
+      "jumps_above_one_source_scale": 0
+    },
+    "full_native": {
+      "max_source_scaled_jump": 0.7006911039352419,
+      "jumps_above_one_source_scale": 0
+    }
+  },
+  "interpretation": "descriptive, not a physical smoothness certificate; protected S bins excluded from adjacent-slot pairs"
+}

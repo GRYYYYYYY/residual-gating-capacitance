@@ -1,0 +1,1222 @@
+[
+  {
+    "table_id": "1b49b1de34b4405354b5ff0c",
+    "context_key": "sky130hs-main13-B8-s47|0|UNDER|2|0|4|140",
+    "context": {
+      "table_id": "1b49b1de34b4405354b5ff0c",
+      "domain": "public_rules",
+      "process_id": "sky130",
+      "family": "UNDER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 2,
+      "context_below": 0,
+      "context_above": 4,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "07483e33edcd54849c4be161"
+    },
+    "S_coordinates": [
+      [
+        0.14,
+        0.14,
+        0.14
+      ],
+      [
+        0.14,
+        0.35,
+        0.35
+      ],
+      [
+        0.14,
+        0.42,
+        0.42
+      ],
+      [
+        0.14,
+        0.56,
+        0.56
+      ],
+      [
+        0.14,
+        0.7,
+        0.7
+      ],
+      [
+        0.14,
+        1.12,
+        1.12
+      ],
+      [
+        0.14,
+        1.4,
+        1.4
+      ],
+      [
+        0.14,
+        1.68,
+        1.68
+      ]
+    ],
+    "S_values": [
+      [
+        0.000130705,
+        1.50119e-05
+      ],
+      [
+        6.60048e-05,
+        1.74046e-05
+      ],
+      [
+        5.88336e-05,
+        1.74203e-05
+      ],
+      [
+        4.54686e-05,
+        2.03003e-05
+      ],
+      [
+        3.42363e-05,
+        2.57893e-05
+      ],
+      [
+        2.04041e-05,
+        3.13738e-05
+      ],
+      [
+        1.49853e-05,
+        3.43422e-05
+      ],
+      [
+        0.0,
+        4.79875e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      2,
+      3,
+      5,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      2
+    ],
+    "resistance": 0.000602828
+  },
+  {
+    "table_id": "cf85ceea9685e3e8648182a5",
+    "context_key": "sky130hs-main13-B8-s47|0|OVERUNDER|2|1|6|140",
+    "context": {
+      "table_id": "cf85ceea9685e3e8648182a5",
+      "domain": "public_rules",
+      "process_id": "sky130",
+      "family": "OVERUNDER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 2,
+      "context_below": 1,
+      "context_above": 6,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "fd17dcb43e50b261954c1374"
+    },
+    "S_coordinates": [
+      [
+        0.14,
+        0.14,
+        0.14
+      ],
+      [
+        0.14,
+        0.35,
+        0.35
+      ],
+      [
+        0.14,
+        0.42,
+        0.42
+      ],
+      [
+        0.14,
+        0.56,
+        0.56
+      ],
+      [
+        0.14,
+        0.7,
+        0.7
+      ],
+      [
+        0.14,
+        1.12,
+        1.12
+      ],
+      [
+        0.14,
+        1.4,
+        1.4
+      ],
+      [
+        0.14,
+        1.68,
+        1.68
+      ]
+    ],
+    "S_values": [
+      [
+        0.000124315,
+        2.20393e-05
+      ],
+      [
+        5.91661e-05,
+        2.66924e-05
+      ],
+      [
+        5.21487e-05,
+        2.73862e-05
+      ],
+      [
+        3.97363e-05,
+        3.12372e-05
+      ],
+      [
+        3.0004e-05,
+        3.62833e-05
+      ],
+      [
+        1.67524e-05,
+        4.38231e-05
+      ],
+      [
+        1.29366e-05,
+        4.64806e-05
+      ],
+      [
+        0.0,
+        5.88991e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      2,
+      3,
+      5,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      2
+    ],
+    "resistance": 0.000602828
+  },
+  {
+    "table_id": "611512c64581fed6987c8b1e",
+    "context_key": "sky130hs-main13-B8-s47|0|OVER|3|2|0|140",
+    "context": {
+      "table_id": "611512c64581fed6987c8b1e",
+      "domain": "public_rules",
+      "process_id": "sky130",
+      "family": "OVER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 3,
+      "context_below": 2,
+      "context_above": 0,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "f0ba28d31a3c5326af64f557"
+    },
+    "S_coordinates": [
+      [
+        0.14,
+        0.14,
+        0.14
+      ],
+      [
+        0.14,
+        0.35,
+        0.35
+      ],
+      [
+        0.14,
+        0.42,
+        0.42
+      ],
+      [
+        0.14,
+        0.56,
+        0.56
+      ],
+      [
+        0.14,
+        0.7,
+        0.7
+      ],
+      [
+        0.14,
+        1.12,
+        1.12
+      ],
+      [
+        0.14,
+        1.4,
+        1.4
+      ],
+      [
+        0.14,
+        1.68,
+        1.68
+      ]
+    ],
+    "S_values": [
+      [
+        0.000124423,
+        2.32963e-05
+      ],
+      [
+        5.56138e-05,
+        3.34378e-05
+      ],
+      [
+        4.92953e-05,
+        3.40191e-05
+      ],
+      [
+        3.40381e-05,
+        4.10225e-05
+      ],
+      [
+        2.64613e-05,
+        4.39629e-05
+      ],
+      [
+        1.40572e-05,
+        5.12535e-05
+      ],
+      [
+        1.08465e-05,
+        5.32306e-05
+      ],
+      [
+        0.0,
+        6.30477e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      2,
+      3,
+      5,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      2
+    ],
+    "resistance": 0.000610664
+  },
+  {
+    "table_id": "5a8b81ec5a31ddb1c9831218",
+    "context_key": "sky130hs-main13-B8-s47|0|UNDER|3|0|6|140",
+    "context": {
+      "table_id": "5a8b81ec5a31ddb1c9831218",
+      "domain": "public_rules",
+      "process_id": "sky130",
+      "family": "UNDER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 3,
+      "context_below": 0,
+      "context_above": 6,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "9a02c73a35d0b330b83747d0"
+    },
+    "S_coordinates": [
+      [
+        0.14,
+        0.14,
+        0.14
+      ],
+      [
+        0.14,
+        0.35,
+        0.35
+      ],
+      [
+        0.14,
+        0.42,
+        0.42
+      ],
+      [
+        0.14,
+        0.56,
+        0.56
+      ],
+      [
+        0.14,
+        0.7,
+        0.7
+      ],
+      [
+        0.14,
+        1.12,
+        1.12
+      ],
+      [
+        0.14,
+        1.4,
+        1.4
+      ],
+      [
+        0.14,
+        1.68,
+        1.68
+      ]
+    ],
+    "S_values": [
+      [
+        0.000131355,
+        1.24995e-05
+      ],
+      [
+        6.90668e-05,
+        1.23992e-05
+      ],
+      [
+        6.29339e-05,
+        1.15131e-05
+      ],
+      [
+        4.63299e-05,
+        1.80852e-05
+      ],
+      [
+        3.8944e-05,
+        1.93101e-05
+      ],
+      [
+        2.65995e-05,
+        2.25418e-05
+      ],
+      [
+        2.1936e-05,
+        2.41638e-05
+      ],
+      [
+        0.0,
+        4.40076e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      2,
+      3,
+      5,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      2
+    ],
+    "resistance": 0.000610664
+  },
+  {
+    "table_id": "59887933e872a5c232d3c3e1",
+    "context_key": "sky130hs-main13-B8-s47|0|OVERUNDER|3|2|4|140",
+    "context": {
+      "table_id": "59887933e872a5c232d3c3e1",
+      "domain": "public_rules",
+      "process_id": "sky130",
+      "family": "OVERUNDER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 3,
+      "context_below": 2,
+      "context_above": 4,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "3024af378343b6daab6dc70a"
+    },
+    "S_coordinates": [
+      [
+        0.14,
+        0.14,
+        0.14
+      ],
+      [
+        0.14,
+        0.35,
+        0.35
+      ],
+      [
+        0.14,
+        0.42,
+        0.42
+      ],
+      [
+        0.14,
+        0.56,
+        0.56
+      ],
+      [
+        0.14,
+        0.7,
+        0.7
+      ],
+      [
+        0.14,
+        1.12,
+        1.12
+      ],
+      [
+        0.14,
+        1.4,
+        1.4
+      ],
+      [
+        0.14,
+        1.68,
+        1.68
+      ]
+    ],
+    "S_values": [
+      [
+        0.000115608,
+        3.50312e-05
+      ],
+      [
+        4.49743e-05,
+        5.09966e-05
+      ],
+      [
+        3.77431e-05,
+        5.36392e-05
+      ],
+      [
+        2.4851e-05,
+        6.28011e-05
+      ],
+      [
+        1.79023e-05,
+        6.66157e-05
+      ],
+      [
+        8.49625e-06,
+        7.31327e-05
+      ],
+      [
+        6.21704e-06,
+        7.4809e-05
+      ],
+      [
+        0.0,
+        8.01802e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      2,
+      3,
+      5,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      2
+    ],
+    "resistance": 0.000610664
+  },
+  {
+    "table_id": "7932ecb9a5db74ace09c5d40",
+    "context_key": "sky130hs-main13-B8-s47|0|OVER|4|0|0|300",
+    "context": {
+      "table_id": "7932ecb9a5db74ace09c5d40",
+      "domain": "public_rules",
+      "process_id": "sky130",
+      "family": "OVER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 4,
+      "context_below": 0,
+      "context_above": 0,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "bfd554059cc39073b22cf614"
+    },
+    "S_coordinates": [
+      [
+        0.3,
+        0.3,
+        0.3
+      ],
+      [
+        0.3,
+        0.75,
+        0.75
+      ],
+      [
+        0.3,
+        0.9,
+        0.9
+      ],
+      [
+        0.3,
+        1.05,
+        1.05
+      ],
+      [
+        0.3,
+        1.35,
+        1.35
+      ],
+      [
+        0.3,
+        2.4,
+        2.4
+      ],
+      [
+        0.3,
+        3.0,
+        3.0
+      ],
+      [
+        0.3,
+        3.6,
+        3.6
+      ]
+    ],
+    "S_values": [
+      [
+        0.00014806,
+        6.0032e-06
+      ],
+      [
+        7.37384e-05,
+        9.38141e-06
+      ],
+      [
+        6.50704e-05,
+        1.01538e-05
+      ],
+      [
+        5.63535e-05,
+        1.19692e-05
+      ],
+      [
+        4.57542e-05,
+        1.41569e-05
+      ],
+      [
+        2.52504e-05,
+        2.33487e-05
+      ],
+      [
+        1.95583e-05,
+        2.58394e-05
+      ],
+      [
+        0.0,
+        4.34504e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      2,
+      3,
+      4,
+      6,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      9,
+      6,
+      10,
+      2,
+      4,
+      3
+    ],
+    "resistance": 8.31416e-05
+  },
+  {
+    "table_id": "3c36b22d566fe13db4b23d1a",
+    "context_key": "sky130hs-main13-B8-s47|0|UNDER|4|0|6|300",
+    "context": {
+      "table_id": "3c36b22d566fe13db4b23d1a",
+      "domain": "public_rules",
+      "process_id": "sky130",
+      "family": "UNDER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 4,
+      "context_below": 0,
+      "context_above": 6,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "7e07b3e063aebe9ae62b0336"
+    },
+    "S_coordinates": [
+      [
+        0.3,
+        0.3,
+        0.3
+      ],
+      [
+        0.3,
+        0.75,
+        0.75
+      ],
+      [
+        0.3,
+        0.9,
+        0.9
+      ],
+      [
+        0.3,
+        1.05,
+        1.05
+      ],
+      [
+        0.3,
+        1.35,
+        1.35
+      ],
+      [
+        0.3,
+        2.4,
+        2.4
+      ],
+      [
+        0.3,
+        3.0,
+        3.0
+      ],
+      [
+        0.3,
+        3.6,
+        3.6
+      ]
+    ],
+    "S_values": [
+      [
+        0.000140175,
+        1.46544e-05
+      ],
+      [
+        6.66489e-05,
+        1.76954e-05
+      ],
+      [
+        5.85025e-05,
+        1.82527e-05
+      ],
+      [
+        5.14615e-05,
+        1.91808e-05
+      ],
+      [
+        4.00772e-05,
+        2.25606e-05
+      ],
+      [
+        2.01469e-05,
+        3.18759e-05
+      ],
+      [
+        1.50997e-05,
+        3.45089e-05
+      ],
+      [
+        0.0,
+        4.83455e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      2,
+      3,
+      4,
+      6,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      9,
+      6,
+      10,
+      2,
+      4,
+      3
+    ],
+    "resistance": 8.31416e-05
+  },
+  {
+    "table_id": "6b5e6a13d750e69bdae1fb4f",
+    "context_key": "sky130hs-main13-B8-s47|0|OVERUNDER|4|2|5|300",
+    "context": {
+      "table_id": "6b5e6a13d750e69bdae1fb4f",
+      "domain": "public_rules",
+      "process_id": "sky130",
+      "family": "OVERUNDER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 4,
+      "context_below": 2,
+      "context_above": 5,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "598e79f26f2bf491af844242"
+    },
+    "S_coordinates": [
+      [
+        0.3,
+        0.3,
+        0.3
+      ],
+      [
+        0.3,
+        0.75,
+        0.75
+      ],
+      [
+        0.3,
+        0.9,
+        0.9
+      ],
+      [
+        0.3,
+        1.05,
+        1.05
+      ],
+      [
+        0.3,
+        1.35,
+        1.35
+      ],
+      [
+        0.3,
+        2.4,
+        2.4
+      ],
+      [
+        0.3,
+        3.0,
+        3.0
+      ],
+      [
+        0.3,
+        3.6,
+        3.6
+      ]
+    ],
+    "S_values": [
+      [
+        0.000130463,
+        3.46028e-05
+      ],
+      [
+        4.76882e-05,
+        5.56297e-05
+      ],
+      [
+        3.90712e-05,
+        5.83052e-05
+      ],
+      [
+        3.22341e-05,
+        6.07652e-05
+      ],
+      [
+        2.13483e-05,
+        6.64895e-05
+      ],
+      [
+        6.74808e-06,
+        7.66804e-05
+      ],
+      [
+        4.16879e-06,
+        7.95897e-05
+      ],
+      [
+        0.0,
+        8.44473e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      2,
+      3,
+      4,
+      6,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      9,
+      6,
+      10,
+      2,
+      4,
+      3
+    ],
+    "resistance": 8.31416e-05
+  },
+  {
+    "table_id": "53a87308e39d4726dd9b09fb",
+    "context_key": "sky130hs-main13-B8-s47|0|OVER|5|2|0|300",
+    "context": {
+      "table_id": "53a87308e39d4726dd9b09fb",
+      "domain": "public_rules",
+      "process_id": "sky130",
+      "family": "OVER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 5,
+      "context_below": 2,
+      "context_above": 0,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "49ca5c29919109ce3ad1bb10"
+    },
+    "S_coordinates": [
+      [
+        0.3,
+        0.3,
+        0.3
+      ],
+      [
+        0.3,
+        0.75,
+        0.75
+      ],
+      [
+        0.3,
+        0.9,
+        0.9
+      ],
+      [
+        0.3,
+        1.05,
+        1.05
+      ],
+      [
+        0.3,
+        1.35,
+        1.35
+      ],
+      [
+        0.3,
+        2.4,
+        2.4
+      ],
+      [
+        0.3,
+        3.0,
+        3.0
+      ],
+      [
+        0.3,
+        3.6,
+        3.6
+      ]
+    ],
+    "S_values": [
+      [
+        0.000138894,
+        1.35323e-05
+      ],
+      [
+        6.93507e-05,
+        1.41118e-05
+      ],
+      [
+        6.32992e-05,
+        1.31999e-05
+      ],
+      [
+        5.69962e-05,
+        1.29368e-05
+      ],
+      [
+        4.29978e-05,
+        1.90478e-05
+      ],
+      [
+        2.61844e-05,
+        2.36108e-05
+      ],
+      [
+        2.15726e-05,
+        2.51067e-05
+      ],
+      [
+        0.0,
+        4.46569e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      2,
+      3,
+      4,
+      6,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      9,
+      6,
+      10,
+      2,
+      4,
+      3
+    ],
+    "resistance": 8.4047e-05
+  },
+  {
+    "table_id": "37fa2f22d0385ed6ac4fd0d7",
+    "context_key": "sky130hs-main13-B8-s47|0|OVER|6|0|0|1600",
+    "context": {
+      "table_id": "37fa2f22d0385ed6ac4fd0d7",
+      "domain": "public_rules",
+      "process_id": "sky130",
+      "family": "OVER",
+      "units": "source_rule_native_per_length",
+      "target_names": [
+        "coupling_cap",
+        "ground_cap"
+      ],
+      "metal": 6,
+      "context_below": 0,
+      "context_above": 0,
+      "materials": null,
+      "width_count": 1,
+      "split_group": "4b7f4dde1f8bd84ffa9ca615"
+    },
+    "S_coordinates": [
+      [
+        1.6,
+        1.6,
+        1.6
+      ],
+      [
+        1.6,
+        4.0,
+        4.0
+      ],
+      [
+        1.6,
+        4.8,
+        4.8
+      ],
+      [
+        1.6,
+        6.4,
+        6.4
+      ],
+      [
+        1.6,
+        8.0,
+        8.0
+      ],
+      [
+        1.6,
+        12.8,
+        12.8
+      ],
+      [
+        1.6,
+        16.0,
+        16.0
+      ],
+      [
+        1.6,
+        19.2,
+        19.2
+      ]
+    ],
+    "S_values": [
+      [
+        7.70727e-05,
+        1.28051e-05
+      ],
+      [
+        3.48304e-05,
+        2.0061e-05
+      ],
+      [
+        2.63231e-05,
+        2.44747e-05
+      ],
+      [
+        1.8024e-05,
+        2.94438e-05
+      ],
+      [
+        1.31579e-05,
+        3.18988e-05
+      ],
+      [
+        0.0,
+        4.2381e-05
+      ],
+      [
+        0.0,
+        4.2381e-05
+      ],
+      [
+        0.0,
+        4.2381e-05
+      ]
+    ],
+    "support_indices": [
+      0,
+      2,
+      3,
+      5,
+      7,
+      9,
+      10,
+      11
+    ],
+    "original_n": 12,
+    "budget_requested": 8,
+    "budget_actual": 8,
+    "seed": 47,
+    "history": [
+      0,
+      11,
+      7,
+      9,
+      3,
+      10,
+      5,
+      2
+    ],
+    "resistance": 9.17806e-06
+  }
+]

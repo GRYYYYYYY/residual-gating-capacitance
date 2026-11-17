@@ -1,0 +1,2 @@
+The new sparse-native matrix completes all 192 arm-settings (48 paired settings, 16 layout--budget cells). Full lowers net-C, worst-slack, and P99 endpoint errors relative to Native-sparse in 7/16, 9/16, and 7/16 cells, respectively. The corresponding counts against MLI-ext.-native are 7/16, 9/16, and 7/16; against Binary-native they are 16/16, 16/16, and 16/16. These are dependent descriptive cells after averaging the three support seeds. They do not establish uniform sparse-native gains.
+

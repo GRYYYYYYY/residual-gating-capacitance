@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "domain": "public",
+      "member_episodes": 61200,
+      "max_weight_sum_error": 1.4062970798978114e-07,
+      "max_invalid_weight": 0.0,
+      "max_source_scaled_weighted_correction_roundoff": 2.3295353895636423e-07
+    },
+    {
+      "domain": "reference",
+      "member_episodes": 2880,
+      "max_weight_sum_error": 3.811133240105846e-07,
+      "max_invalid_weight": 0.0,
+      "max_source_scaled_weighted_correction_roundoff": 1.2614663090188472e-07
+    },
+    {
+      "domain": "to_asap7",
+      "member_episodes": 1440,
+      "max_weight_sum_error": 4.082714184505676e-07,
+      "max_invalid_weight": 0.0,
+      "max_source_scaled_weighted_correction_roundoff": 1.3992726640004444e-07
+    }
+  ],
+  "interpretation": "valid convex weights and weighted-correction algebra; no accuracy guarantee"
+}

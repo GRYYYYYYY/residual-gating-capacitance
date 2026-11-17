@@ -1,0 +1,11 @@
+{
+  "support_tables": 10,
+  "absent_from_supported_dump": [],
+  "eligible_slots": 8710,
+  "all_slots": 60956,
+  "native_eligible_slots": 54361,
+  "excluded_rules": 4,
+  "inventory_s": 10.507396075874567,
+  "prepare_total_s": 16.51782689616084,
+  "namespace": "sky130hs-main13-B4-s29"
+}

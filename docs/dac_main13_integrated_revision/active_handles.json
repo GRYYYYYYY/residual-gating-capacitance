@@ -1,0 +1,18 @@
+{
+  "native_exec_session": 69002,
+  "training_exec_session": 86637,
+  "post_native_exec_session": null,
+  "native_log": "/tmp/dac-main13-native.log",
+  "training_log": "/tmp/dac-main13-training.log",
+  "post_log": "/tmp/dac-main13-post.log",
+  "remaining_after_post_queue": [],
+  "main_source": "paper/dac_layout_query_revision/main.tex",
+  "experiment_id": "main13_20261117",
+  "notes": "Historical process handles retained for audit only. All experiment queues completed; do not restart them. Completion is backed by native/matrix_completed.json, controls/queue_completed.json and post_native/completed.json.",
+  "native_status": "PASS 192/192",
+  "post_native_pid": 2264258,
+  "post_native_recovery": "Attempt1 trace parser failed on unsupported blank context. Parser fixed, prior logs archived. Restart reused batching; trace PASS. New exec handle unavailable across context compaction; owner PID monitored.",
+  "status": "completed",
+  "training_status": "PASS 18/18",
+  "post_native_status": "PASS 6/6 domain-stage evaluations"
+}

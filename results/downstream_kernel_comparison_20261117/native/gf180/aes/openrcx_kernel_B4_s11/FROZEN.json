@@ -1,0 +1,15 @@
+{
+  "case": "gf180/aes",
+  "variant": "openrcx_kernel_B4_s11",
+  "provenance": {
+    "odb": "01fe5b75a63689c852482443db5adaa4d478dbc3bf0e72b1dd0150be79cf51c1",
+    "sdc": "215924627205acad93f01785ae629c5c5e1b19d8147417a68c4c46ad42ddcc5d",
+    "rules": "2e4089c9f8e5de7ac0dacacdf8383b6426c69d362340d92662d60b8b2dec4679",
+    "openroad": "94c4bc5e394ef709d9c1afd5bce3b4abe01fc8088e6d9c5564cc17dc154d3222",
+    "libs": {
+      "platforms/gf180/lib/gf180mcu_fd_sc_mcu9t5v0__tt_025C_5v00.lib.gz": "75de8f18d2ecc8564a8ff73e48f1507cb184fd0915ba15f4ff72785cbeb243d2"
+    },
+    "tcl": "fc49de7c253870d97a3127eaa434bf69c1994e055562aaf8a32fec7fcaf45b7c"
+  },
+  "threads": 1
+}
