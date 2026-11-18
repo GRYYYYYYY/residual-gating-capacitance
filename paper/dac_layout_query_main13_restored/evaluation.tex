@@ -1,0 +1,79 @@
+\section{Experimental Setup}
+We evaluate prediction under controlled characterization budgets, then measure how estimates affect native extraction and timing. Each evaluation fixes the support and reference appropriate to its task.
+
+\subsection{Data and Training}
+Table~\ref{tab:data} distinguishes public process rules from FEM cross sections. Of 1,713 public rows, the original split has 1,116/256/341 train/validation/test rows. Reserving native tables removes 55 training and nine validation rows. Deduplication removes another 10/1/1 rows from the three reported views, accounting for the difference of 76. The retrospective confirmation view retains 20 of the 84 native holdouts. The native and retrospective evaluations therefore share these test tables. The transfer setting fits and selects models on FreePDK15 and supplies only observed ASAP7 labels at evaluation.
+\begin{table}[t]\centering
+\caption{Source opportunities and evaluation populations. Counts in the first row are deduplicated fitting, selection and confirmation tables. Updates are per member. A dash indicates an unavailable control.}\label{tab:data}
+\small\begin{tabular}{@{}lrrr@{}}\toprule
+ & Public & FEM & Transfer\\\midrule
+Tables & 1051/246/340 & 16/24/16 & 8/12/8\\
+Budget-eligible tables & 338 & 16 & 8\\
+Fit/confirm nodes per table & varies & 153/128 & 153/128\\
+Fusion updates ($10^3$) & 24 & 12 & 12\\
+MLP/CNP/AC updates ($10^3$) & 3/3/-- & 3/3/3 & 3/3/3\\\bottomrule
+\end{tabular}
+\end{table}
+The three matched variants start from residual initializers trained for 2,000 source updates. AdamW uses learning rate $2\times10^{-4}$ and weight decay $10^{-4}$. Each reported ensemble averages three trained members. Public rules supply two per-length capacitances in source-rule units. FEM supplies three projected components in F/m. The six independent template contexts use all 153 characterization samples per context.
+
+\subsection{Evaluation Protocols and Baselines}
+For each requested holdout (10, 30, 50 or 70\%), we withhold the nearest integer number of nodes, retaining at least one support and one query. Random masks sample without replacement, block masks select a contiguous interval in coordinate order, and boundary masks remove the upper end. Training also includes eligible whole-width masks. Methods share feasible support/query episodes and mask seeds 11/29/47/71/101. Random and block queries are scored inside and outside support, boundary queries outside. Rounded masks can coincide on small tables.
+
+Fixed-budget evaluation uses sealed queries and common geometry-selected support, with seeds 11/29/47. Public budgets are $B=4,8$, with $B=16,32,64$ also feasible for FEM and transfer. OpenRCX and MLI-ext.\ are the primary kernels. Anchor, validation-selected GP, local affine interpolation, PCHIP and inverse-distance weighting (IDW) control for the numerical basis. CNP conditions on the support directly. The MLP and component-supervised adapted AttentionCap (AC) receive 200 and 50 target-fitting steps, respectively. Source validation compares two learning rates and three adaptation lengths for each. CNP uses two candidate learning rates and receives no target updates. AC retains its Transformer and symmetric output head~\cite{attentioncode}. Shared observations control the budget even though fitting opportunities differ.
+
+Native evaluation fixes routed AES and IBEX layouts, libraries and constraints on ASAP7, GF180, IHP SG13G2 and Sky130HS (OpenROAD \texttt{0b54bb3203}). Fixed-node export completes 83 eligible held-out tables at $B=4,8$ using common farthest-point supports capped by candidate availability. A two-node ASAP7 OVER table retains its original observations. Full-support compute-table population uses the original characterization and an eligible-slot hook. Each protocol compares against extraction with the original full rules on the same layout.
+
+\subsection{Runtime Measurement}
+Direct predictors and resident FEM use one pinned Xeon Gold 6530 thread. Three warmups precede 20 interleaved predictor timing blocks. Batch limits of 1, 8 and 32 queries have separate accuracy measurements. Warm costs include encoding, applicable corrections, ensemble inference and output assembly. Single-request latency measures one query, whereas amortized cost divides batch wall time by the actual number of queries. One-time target fitting includes first-use optimizer initialization. Target fitting, source training, export, native extraction, SPEF output and STA are recorded separately. The compute-table inventory requires a first extraction because OpenRCX defers rule loading.
+
+\begin{figure*}[t]\centering
+\includegraphics[width=\textwidth]{figures/coverage_four_ratios.pdf}
+\caption{Macro NRMSE at four requested holdout levels. Each domain includes inside/outside random and block queries and outside boundary queries. Each point averages mask-level scores on the same feasible episodes.}\label{fig:coverage}
+\end{figure*}
+
+\subsection{Metrics}
+For a component group $g$ with query indices $Q_g$, the normalized root-mean-square error is
+\begin{equation}
+E_g=\sqrt{\sum_{i\in Q_g}(\widehat y_i-y_i)^2\big/\sum_{i\in Q_g}y_i^2}.
+\end{equation}
+Coverage results average $E_g$ over nonzero-energy groups defined by process, family and component, and then over masks. Fixed-budget scores pool the three data seeds before group normalization. The independent physical comparison averages errors by family and component, whereas support-continuation scores average member-wise group-balanced errors. For native extraction we compare matched-net capacitances and absolute deviations in worst slack (WS), total negative slack (TNS) and matched endpoint slack against full-rule extraction.
+\section{Results}
+We first ask how the estimators respond to characterization coverage and fixed budgets. An independent template reference tests whether corrections help when the entire support is available. Native extraction then tests whether prediction gains carry through to nets and timing endpoints, and identifies where deployment incurs cost.
+
+\subsection{Characterization Coverage Sensitivity}
+
+Figure~\ref{fig:coverage} comprises 60 domain--coverage--holdout conditions. Full achieves lower error than both kernels in 60, Binary in 55 and Ungated in 50. Full improves on Binary in 49 and on Ungated in 55. Equal weighting of condition scores gives mean NRMSE of 0.0879 for Full, 0.4806 for OpenRCX and 0.4204 for MLI-ext., reductions of 81.7\% and 79.1\% relative to the corresponding means. Complete MLI cells cover 35,362 of 171,315 requested query instances (20.64\%). The remaining requests use boundary or sparse-support handling.
+
+At 10, 30, 50 and 70\% holdout, Full has mean errors of 0.1000, 0.0874, 0.0780 and 0.0861, respectively. The domain means are 0.0927 on public rules, 0.0822 on FEM and 0.0887 on transfer. Mean error increases from 0.0475 inside support to 0.1148 outside. The populations and reference energies vary with the mask. The 60 conditions share tables and queries. On public inside/block queries at 50\% holdout, Ungated and Binary achieve 0.0704 and 0.0731 against Full's 0.0849. On FEM inside/block queries at 10\%, Full achieves 0.0534 against 0.1104 and 0.0874. Full's narrowest margin over the lower-error kernel is 5.25\% (transfer, inside/block, 10\%). Its paired interval includes zero with just two layer groups. The repeated improvement across evaluated conditions motivates Full as the default, while individual simplified variants retain local advantages.
+
+\subsection{Fixed-Budget Learning Comparisons}
+\begin{figure}[t]\centering
+\includegraphics[width=\columnwidth]{figures/fixed_budget_controls.pdf}
+\caption{Fixed-budget macro NRMSE on common observations and sealed queries (log scale). AC is component-supervised adapted AttentionCap. Public AC results are unavailable.}\label{fig:budget_controls}
+\end{figure}
+Full has lower error than CNP in all 12 available domain--budget settings and adapted AC in all ten FEM/transfer settings (Fig.~\ref{fig:budget_controls}). On public rules at $B=4/8$, its errors are 0.0708/0.0609 against CNP's 0.2650/0.2374. On FEM, increasing $B$ from 4 to 64 reduces Full's error from 0.1233 to 0.0250 and AC's from 0.4546 to 0.1657. These comparisons concern the component-supervised adaptation and its specific fitting budget. At FEM $B=4$ the target-fitted MLP is more accurate (0.0515).
+
+\subsection{Physical Reference and Cross-Process Transfer}
+Transfer uses held-out ASAP7 table values. From $B=4$ to 64, Full improves from 0.1182 to 0.0386, compared with 6.8753 to 0.1791 for AC. At $B=64$, MLP and GP achieve lower errors of 0.0264 and 0.0271. Ungated obtains 0.0814 on transfer and 0.0609 on FEM at that budget. Target fitting, numerical smoothness and learned corrections thus have different operating ranges.
+
+The independent test uses 71 layout-parameterized, off-node geometries in six ASAP7 M4/M5 contexts. Logged widths and spacings define symmetric equal-width side conductors, finite grounded planes and a grounded exterior boundary. P2 FEM solves supply Maxwell matrices from which ground and summed lateral capacitance are projected. With all 153 samples per context, direct Anchor, Full and Binary errors are 0.00451, 0.01675 and 0.02218. On these templates, the available samples already support accurate numerical interpolation. The reference describes the specified cross sections and boundary conditions.
+
+\subsection{Native Extraction and Timing Fidelity}
+\begin{table}[t]\centering
+\caption{Fixed-node export (left) and full-support compute-table deployment (right). Both use the same eight layouts and their original full-rule extractions as reference.}\label{tab:deployment}
+\input{tables/downstream_merged.tex}
+\end{table}
+At both rule-export budgets, Full reduces net-capacitance NRMSE and absolute WS deviation relative to each kernel on every layout (Table~\ref{tab:deployment}). TNS deviation decreases in 13 of the 16 cells and is zero for both methods in three. For GF180/IBEX at $B=8$, MLI-ext.\ and Full yield net-capacitance NRMSE of 0.0161 and 0.00348, WS deviations of 38.25 and 8.14\,ps, and TNS deviations of 52.74 and 11.77\,ns. Comparing Full directly with Binary gives six net-capacitance wins and four WS wins. Binary has smaller P99 endpoint error in ten cells.
+\begin{figure}[t]\centering
+\includegraphics[width=\columnwidth]{figures/downstream_two_kernels.pdf}
+\caption{Reduction in absolute endpoint slack error (ps) at $B=8$, relative to MLI-ext.\ (top) and OpenRCX (bottom). Columns show ASAP7, GF180, IHP and Sky130HS IBEX. Each $50\times50$ map averages gains over endpoints and three seeds. Blue indicates improvement, red degradation and gray empty bins.}\label{fig:spatial}
+\end{figure}
+For endpoint $j$ and seed $r$, we measure $|s_{jr}-s_j^{\rm original}|$ in ps. We join finite slacks by endpoint name and average over endpoints and seeds to obtain mean absolute error (MAE) for each method. We report one minus the ratio of Full's MAE to the baseline MAE. The P99 summary instead takes the 99th percentile of absolute error within each run before averaging seeds. Figure~\ref{fig:spatial} contains 3,704/2,039/3,704/3,975 endpoints per seed on the four IBEX layouts. Relative MAE reductions span 77.8--91.1\% against the two kernels, with lower MAE in all 12 layout--seed pairs for each kernel.
+
+In the full-support internal protocol, pass-through preserves logged returns and electrical SPEF records on all eight layouts. Preparation covers 49,657 finite slots across four libraries and changes 924,647 traced getter returns. Full's net-capacitance NRMSE ranges from 0.00020 to 0.05656. IHP exhibits the largest WS deviations, 74.4\,ps on AES and 147.4\,ps on IBEX. These deviations measure agreement with the native full rules. In a separate paired sparse-native test, Full improves net-capacitance, WS and P99 over Native-sparse in 7, 9 and 7 of 16 cells, respectively. Full improves all three metrics over Binary-native in all 16. At fixed-node $B=4$, equal-layout mean P99 is 4.25\,ps for Full and 2.01\,ps for Binary. At the sparse-native interface, Full also has lower endpoint MAE than Native-sparse in eight cells. The distinction between preparing internal slots and exporting fixed nodes therefore affects downstream comparisons.
+
+\subsection{Preparation and Runtime Cost}
+On the 71 physical queries, warm Full, Binary and Anchor cost 3.706, 2.110 and 0.788\,ms/query at the amortized setting. Full averages 40.97\,ms for a single request. Target fitting across six contexts costs 14.03\,s for the MLP and 11.27\,s for AC. These timings distinguish direct prediction from preparing a library for multiple designs.
+
+At $B=8$ and seed 11, prediction, payload writing and fixed-node export for four libraries cost 0.70/0.67/0.91\,s for MLI-ext./Binary/Full after 0.88\,s of shared loading and support selection. The MLI-ext.\ timing uses the output-equivalent CMI implementation. In 96 release runs, Full's mean extraction/original ratio ranges from 0.983 to 1.047 across layouts. In 120 separate full-support compute-table runs, Full's corresponding ratio is 0.991--1.035. Charging inventory, external preparation and process residual gives first-design PEX overhead of 161.1--670.4\% from measured stage sums. Table construction and injection fall inside PEX. Reuse amortizes preparation across designs while layout queries retain native evaluation.
+\ifdefined\CapFillExtended\input{extended_evidence}\fi
