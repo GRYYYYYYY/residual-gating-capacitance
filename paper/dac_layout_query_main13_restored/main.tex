@@ -14,7 +14,10 @@
 \newcommand{\papertitle}{CapFill: Learned Capacitance Estimation from Sparse Characterization for Pattern-Based Parasitic Extraction}
 \hypersetup{pdfauthor={},pdftitle={\papertitle}}
 \title{\papertitle\ifdefined\CapFillExtended\\{\large Extended technical version}\fi}
-\author{\IEEEauthorblockN{Anonymous authors}}
+% Keep IEEEtran's two-column title placement without reserving an author row.
+\makeatletter
+\renewcommand{\@maketitle}{{\centering\Huge\@title\par}}
+\makeatother
 \begin{document}
 \bstctlcite{dac:bibcontrol}
 \maketitle
@@ -43,7 +46,12 @@ OpenRCX provides an integration point between characterization and layout evalua
 
 Across eight layouts, 55.77\% of logged getter calls request a non-node geometry. Full consistently improves on two numerical kernels in characterization holdouts, including cross-process transfer. Target-fitted predictors achieve lower error at some fixed budgets, and independent finite-element method (FEM) references favor interpolation under full support. Extraction and static timing analysis (STA) quantify which estimation gains carry through to circuit metrics and what preparation costs they incur.
 
-Our contributions are a characterization-conditioned PEX formulation with an eligible-slot integration in OpenRCX, a component-wise numerical--neural estimator for that interface, and a matched evaluation linking support geometry to capacitance and endpoint timing errors.
+Our contributions are as follows.
+\begin{itemize}
+  \item We formulate capacitance estimation at uncharacterized geometries as prediction conditioned on the available samples for a process. CapFill combines a Transformer residual with numerical corrections through a separate gate for each capacitance component.
+  \item We evaluate how support geometry and characterization budget affect accuracy. Full reduces macro NRMSE relative to both the OpenRCX kernel and extended multilinear interpolation in all 60 evaluated holdout conditions, compared with 55 for Binary and 50 for Ungated.
+  \item We integrate CapFill into OpenRCX by preparing eligible compute-table entries before layout queries. In a separate fixed-node rule-export evaluation, Full reduces net-capacitance and worst-slack errors relative to both kernels in all 16 layout--budget conditions.
+\end{itemize}
 \section{Problem and Related Work}
 \subsection{Pattern-Based Parasitic Extraction}
 A pattern library describes representative interconnect configurations. Pre-characterization assigns discrete electrical samples to geometries in each configuration. OpenRCX stores process- and corner-specific data in extraction rules and builds internal compute tables from them~\cite{openrcx}. At layout time, the extractor identifies the relevant family and routing layers, selects a width, and evaluates the distance response before assembling the parasitic network~\cite{orcx_runtime}. The calibration samples, serialized rule, and internal compute table thus play different roles.

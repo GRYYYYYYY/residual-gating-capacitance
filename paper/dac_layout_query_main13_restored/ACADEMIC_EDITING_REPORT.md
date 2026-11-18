@@ -4,7 +4,7 @@ The audit tracks ten editorial findings. The changes below resolve E1–E10 in A
 
 | Finding | Revised presentation |
 |---|---|
-| E1 | Six introductory paragraphs connect extraction demand, finite characterization, learned alternatives, observation conditioning, deployment and evidence. The contribution sentence identifies the formulation, estimator and evaluation interface. |
+| E1 | Six introductory paragraphs connect extraction demand, finite characterization, learned alternatives, observation conditioning, deployment and evidence. Three bullet points state the formulation and estimator, the comparative holdout results, and the OpenRCX integration with its separate rule-export evaluation. |
 | E2 | Section II groups prior work by its prediction target. The supervised AttentionCap adaptation and its opportunities appear in Sections IV and V. |
 | E3 | The active method now occupies one input file. Obsolete commented methods, displays and algorithms have been removed. The technical edition defines the additional support features alongside their use. |
 | E4 | Section III defines the episode objective. Section IV identifies sampling, source updates, optimizer, selection, target fitting and inference opportunities. |

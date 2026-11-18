@@ -10,7 +10,7 @@
 | Source package | CapFill-Overleaf.zip contains 36 build inputs. Each entry point was rebuilt in its own empty directory with pdfLaTeX and BibTeX via latexmk. Both extracted texts and all 22 rasterized pages match the delivered PDFs at 100 dpi. |
 | Citation, font and page checks | All 17 references are cited. Each key and label resolves. Both PDFs embed all fonts. Both use US Letter and have empty author metadata. Page one contains the anonymous artifact URL. Text bounding boxes are within the page. |
 | Visual inspection | The main and extended PDFs were rendered page by page. The workflow diagram, query census, gating equations and algorithm remain legible. The two groups in Table II have distinct headers and units in the note. Dense rows have larger absolute-value counterparts in the technical edition. Review included all supporting tables, spatial maps, the last body page and bibliography. |
-| TeX diagnostics | No overfull boxes or undefined citations/references. The technical edition logs one underfull vertical box. TeX substitutes small math sizes in the compact table. Hyperref skips the empty anchor of the unnumbered footnote. Its artifact URL is present as a working PDF link annotation. |
+| TeX diagnostics | No overfull boxes or undefined citations/references. The title and contribution revision builds without underfull boxes. TeX substitutes small math sizes in the compact table. Hyperref skips the empty anchor of the unnumbered footnote. Its artifact URL is present as a working PDF link annotation. |
 | Empirical scope | Reaggregated coverage, census, endpoint records and release timings. Reused the recorded trained models, FEM references, STA and native validation. The 60 dependent cells support a descriptive default. The smallest margin includes zero in its paired interval. Binary wins on ten fixed-node P99 cells, Anchor wins on full physical support, and the sparse-native comparison against Native-sparse is mixed. |
 
 ## Protected inputs
@@ -29,8 +29,8 @@ SHA-256 values of the original files were compared with Git blobs at the startin
 
 | Artifact | SHA-256 |
 |---|---|
-| main.pdf | c4fca12e4f869d16605edf8bdc6fad8f4e06042579d73a9e0ebb0e288722d313 |
-| extended.pdf | b43da80da7448b311ffe1d4c8f8c6ffe1cf2b3dad37c8b03080c0d69adcf8ed6 |
-| CapFill-Overleaf.zip | 9c8fc2fdc30d357cde1fb7fcf1048516a87592cdba5515b4091da63f05f797f4 |
+| main.pdf | 971384bcd8d4b229d542b2b8e2f2a63e3910bdec82984606747fe9e87df451f0 |
+| extended.pdf | 59ec8129923b7a90f98eea9fddd26e8306c2368910f061e9aaabfc6e9fdc8923 |
+| CapFill-Overleaf.zip | c437f125ceb48926bf9dae3a3bc0dac00da8d9c49ae8dbb2984052535e889bae |
 
 Only files under the restored paper directory are included in the revision. Author decisions are limited to the optional future addition of a verified Flash-CNNCap proceedings DOI.
